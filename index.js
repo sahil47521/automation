@@ -1,3 +1,4 @@
+require('dotenv').config();
 const config = require('./config');
 const { startAngreziPitara } = require('./src/angrezi-pitara-automation');
 const http = require('http');

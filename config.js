@@ -1,7 +1,7 @@
 module.exports = {
     // Telegram Bot Settings
-    TELEGRAM_BOT_TOKEN: "8722703273:AAFj5Mj3SwycZPWjakDzb8WaDxspp76R3ZM",
-    DEFAULT_CHAT_ID: "@angreziPitara",
+    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN,
+    DEFAULT_CHAT_ID: process.env.DEFAULT_CHAT_ID || "@angreziPitara",
 
     // Angrezi Pitara Automation Settings
     ANGREZI_PITARA: {
