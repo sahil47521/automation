@@ -6,15 +6,6 @@ const http = require('http');
 const TOKEN = config.TELEGRAM_BOT_TOKEN;
 const CHAT_ID = config.DEFAULT_CHAT_ID;
 
-// Simple HTTP server for Render deployment
-const PORT = process.env.PORT || 10000;
-http.createServer((req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Angrezi Pitara Bot is running!\n');
-}).listen(PORT, () => {
-    console.log(`🌐 Health check server listening on port ${PORT}`);
-});
-
 console.log('🚀 Starting Automation Backend...');
 
 // Initialize Angrezi Pitara Workflow
@@ -25,15 +16,35 @@ if (TOKEN) {
         enableAutoPost: !isManual,
         manualOnly: isManual
     });
-    
+
+    // Simple HTTP server for Render deployment
+    const PORT = process.env.PORT || 10000;
+    http.createServer(async (req, res) => {
+        if (req.url === '/quiz') {
+            try {
+                console.log('📡 Web trigger: /quiz endpoint hit. Sending quizzes...');
+                await angreziPitara.sendMultiple(CHAT_ID);
+                res.writeHead(200, { 'Content-Type': 'text/plain' });
+                res.end('✅ Quizzes sent successfully!\n');
+            } catch (err) {
+                res.writeHead(500, { 'Content-Type': 'text/plain' });
+                res.end(`❌ Error sending quizzes: ${err.message}\n`);
+            }
+        } else {
+            res.writeHead(200, { 'Content-Type': 'text/plain' });
+            res.end('Angrezi Pitara Bot is running!\n');
+        }
+    }).listen(PORT, () => {
+        console.log(`🌐 Health check server listening on port ${PORT}`);
+    });
+
     // Support for manual post from CLI
     if (isManual) {
         const chatIndex = process.argv.indexOf('--post') + 1;
         const targetChat = process.argv[chatIndex] || CHAT_ID;
-        const limit = config.ANGREZI_PITARA.QUESTIONS_PER_RUN || 1;
         
         if (targetChat) {
-            console.log(`📡 Manual trigger: Sending ${limit} quiz(zes) to ${targetChat}...`);
+            console.log(`📡 Manual trigger: Sending quizzes to ${targetChat}...`);
             angreziPitara.sendMultiple(targetChat).then(() => {
                 console.log('✅ Manual trigger completed. Exiting...');
                 process.exit(0);
@@ -41,5 +52,5 @@ if (TOKEN) {
         }
     }
 } else {
-    console.error('❌ TELEGRAM_BOT_TOKEN is missing in config.js');
+    console.error('❌ TELEGRAM_BOT_TOKEN is missing in config.js or .env');
 }
