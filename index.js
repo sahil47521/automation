@@ -1,8 +1,18 @@
 const config = require('./config');
 const { startAngreziPitara } = require('./src/angrezi-pitara-automation');
+const http = require('http');
 
 const TOKEN = config.TELEGRAM_BOT_TOKEN;
 const CHAT_ID = config.DEFAULT_CHAT_ID;
+
+// Simple HTTP server for Render deployment
+const PORT = process.env.PORT || 10000;
+http.createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.end('Angrezi Pitara Bot is running!\n');
+}).listen(PORT, () => {
+    console.log(`🌐 Health check server listening on port ${PORT}`);
+});
 
 console.log('🚀 Starting Automation Backend...');
 
