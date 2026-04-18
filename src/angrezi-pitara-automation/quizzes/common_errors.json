@@ -1,0 +1,6002 @@
+[
+  {
+    "question": "मैं आपको सुन नहीं पा रहा हूँ।",
+    "options": [
+      "I am not hearing you",
+      "I can't hear you",
+      "I not hear you",
+      "I am not hear you"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hear' is a stative verb. We use 'can't hear' instead of 'not hearing'.",
+    "id": 1
+  },
+  {
+    "question": "वह मुझसे बड़ा है।",
+    "options": [
+      "He is elder than me",
+      "He is older than me",
+      "He is elder to me",
+      "He is older to me"
+    ],
+    "correctIndex": 1,
+    "explanation": "When comparing age with 'than', use 'older'. 'Elder' is used for family relations.",
+    "id": 2
+  },
+  {
+    "question": "क्या आप चाय पिएंगे?",
+    "options": [
+      "Will you drink tea?",
+      "Would you like some tea?",
+      "Do you take tea?",
+      "Are you taking tea?"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Would you like...' is the polite way to offer something.",
+    "id": 3
+  },
+  {
+    "question": "वह रोज सुबह दौड़ता है।",
+    "options": [
+      "He run every morning",
+      "He runs every morning",
+      "He is running every morning",
+      "He do run every morning"
+    ],
+    "correctIndex": 1,
+    "explanation": "For habitual actions, use present simple. Third person singular adds 's'.",
+    "id": 4
+  },
+  {
+    "question": "मैं कल फिल्म देखने गया था।",
+    "options": [
+      "I went to watch a movie yesterday",
+      "I have gone to watch a movie yesterday",
+      "I go to watch a movie yesterday",
+      "I was going to watch a movie yesterday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple is used for completed actions at a specific past time like 'yesterday'.",
+    "id": 5
+  },
+  {
+    "question": "तुम्हें यह काम करना चाहिए।",
+    "options": [
+      "You should do this work",
+      "You must to do this work",
+      "You ought do this work",
+      "You are should do this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses advice or obligation, and is followed by the base verb.",
+    "id": 6
+  },
+  {
+    "question": "बारिश हो रही है।",
+    "options": [
+      "It is raining",
+      "It raining",
+      "It has raining",
+      "It was raining"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous is used for ongoing actions. 'It is raining' is correct.",
+    "id": 7
+  },
+  {
+    "question": "मैंने उसे कभी नहीं देखा।",
+    "options": [
+      "I never saw him",
+      "I have never seen him",
+      "I never see him",
+      "I did never see him"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present perfect is used with 'never' for life experiences up to now.",
+    "id": 8
+  },
+  {
+    "question": "कृपया यहाँ बैठ जाइए।",
+    "options": [
+      "Please sit here",
+      "Please sat here",
+      "Please to sit here",
+      "Please siting here"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imperative sentences use the base form of the verb. 'Please sit here' is correct.",
+    "id": 9
+  },
+  {
+    "question": "वह अपने कमरे में सो रहा है।",
+    "options": [
+      "He sleep in his room",
+      "He is sleeping in his room",
+      "He has sleeping in his room",
+      "He were sleeping in his room"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present continuous for action happening now. 'He is sleeping' is correct.",
+    "id": 10
+  },
+  {
+    "question": "हम दिल्ली जाएंगे।",
+    "options": [
+      "We go to Delhi",
+      "We will go to Delhi",
+      "We going to Delhi",
+      "We are go to Delhi"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future simple 'will go' is used for future plans or predictions.",
+    "id": 11
+  },
+  {
+    "question": "तुम कितना प्यार करते हो?",
+    "options": [
+      "How much do you love?",
+      "How many you love?",
+      "How much you love?",
+      "How you love much?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Question structure: 'How much' + auxiliary verb + subject + main verb.",
+    "id": 12
+  },
+  {
+    "question": "उसने खाना खा लिया।",
+    "options": [
+      "He has eaten the food",
+      "He ate the food",
+      "He is eating the food",
+      "He eats the food"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect indicates completed action with present relevance.",
+    "id": 13
+  },
+  {
+    "question": "मुझे प्यास लगी है।",
+    "options": [
+      "I am thirsty",
+      "I have thirsty",
+      "I feel thirst",
+      "I am having thirst"
+    ],
+    "correctIndex": 0,
+    "explanation": "'I am thirsty' is the correct idiomatic expression in English.",
+    "id": 14
+  },
+  {
+    "question": "वे फुटबॉल खेल रहे थे।",
+    "options": [
+      "They were playing football",
+      "They was playing football",
+      "They played football",
+      "They are playing football"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past continuous for ongoing action in the past. 'Were playing' is correct.",
+    "id": 15
+  },
+  {
+    "question": "मैं तुमसे नाराज़ हूँ।",
+    "options": [
+      "I am angry on you",
+      "I am angry with you",
+      "I am angry at you",
+      "I angry with you"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct preposition: 'angry with someone' (but 'angry at something').",
+    "id": 16
+  },
+  {
+    "question": "वह तैर सकता है।",
+    "options": [
+      "He can swim",
+      "He can to swim",
+      "He can swimming",
+      "He cans swim"
+    ],
+    "correctIndex": 0,
+    "explanation": "Modal 'can' is followed by base verb without 'to'.",
+    "id": 17
+  },
+  {
+    "question": "तुम कहाँ रहते हो?",
+    "options": [
+      "Where do you live?",
+      "Where you live?",
+      "Where does you live?",
+      "Where are you live?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple question: auxiliary 'do' + subject + base verb.",
+    "id": 18
+  },
+  {
+    "question": "कल मौसम अच्छा था।",
+    "options": [
+      "Yesterday weather was good",
+      "The weather was good yesterday",
+      "Weather was good yesterday",
+      "Yesterday was good weather"
+    ],
+    "correctIndex": 1,
+    "explanation": "In English, we usually say 'the weather' with the definite article.",
+    "id": 19
+  },
+  {
+    "question": "मुझे यह किताब पसंद है।",
+    "options": [
+      "I like this book",
+      "I am like this book",
+      "I liking this book",
+      "I does like this book"
+    ],
+    "correctIndex": 0,
+    "explanation": "Verb 'like' is stative and used in present simple, not continuous.",
+    "id": 20
+  },
+  {
+    "question": "वह तीन बजे आएगा।",
+    "options": [
+      "He will come at three o'clock",
+      "He will come on three o'clock",
+      "He will come in three o'clock",
+      "He come at three o'clock"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use 'at' for specific times: at three o'clock.",
+    "id": 21
+  },
+  {
+    "question": "मैं थक गया हूँ।",
+    "options": [
+      "I am tired",
+      "I have tired",
+      "I am tire",
+      "I get tired"
+    ],
+    "correctIndex": 0,
+    "explanation": "'I am tired' is the correct present state expression.",
+    "id": 22
+  },
+  {
+    "question": "क्या तुमने अपना होमवर्क किया?",
+    "options": [
+      "Did you do your homework?",
+      "Have you done your homework?",
+      "Do you do your homework?",
+      "Are you do your homework?"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present perfect is used for past actions with present relevance.",
+    "id": 23
+  },
+  {
+    "question": "वह बहुत तेज दौड़ता है।",
+    "options": [
+      "He runs very fast",
+      "He run very fast",
+      "He runs very fastly",
+      "He is running very fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Fast' is both adjective and adverb; 'fastly' is incorrect.",
+    "id": 24
+  },
+  {
+    "question": "मुझे एक मिनट रुको।",
+    "options": [
+      "Wait me a minute",
+      "Wait for me a minute",
+      "Wait to me a minute",
+      "Wait at me a minute"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Wait for' someone is the correct phrasal verb.",
+    "id": 25
+  },
+  {
+    "question": "वह गाना गा रही है।",
+    "options": [
+      "She sings a song",
+      "She is singing a song",
+      "She sing a song",
+      "She has singing a song"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present continuous for action happening now.",
+    "id": 26
+  },
+  {
+    "question": "मैंने यह फिल्म पहले देखी है।",
+    "options": [
+      "I have seen this film before",
+      "I saw this film before",
+      "I see this film before",
+      "I had seen this film before"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect with 'before' indicates experience up to now.",
+    "id": 27
+  },
+  {
+    "question": "बाहर ठंड है।",
+    "options": [
+      "It is cold outside",
+      "Outside is cold",
+      "It cold outside",
+      "Is cold outside"
+    ],
+    "correctIndex": 0,
+    "explanation": "Impersonal 'it' is needed as the subject for weather.",
+    "id": 28
+  },
+  {
+    "question": "तुम क्या कर रहे हो?",
+    "options": [
+      "What do you do?",
+      "What are you doing?",
+      "What you are doing?",
+      "What doing you?"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present continuous question: auxiliary 'are' before subject.",
+    "id": 29
+  },
+  {
+    "question": "वह मेरा दोस्त है।",
+    "options": [
+      "He is my friend",
+      "He my friend",
+      "He are my friend",
+      "He be my friend"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subject 'he' takes singular verb 'is'.",
+    "id": 30
+  },
+  {
+    "question": "कृपया दरवाजा खोल दो।",
+    "options": [
+      "Please open the door",
+      "Please to open the door",
+      "Please opening the door",
+      "Please opened the door"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imperative uses base verb form.",
+    "id": 31
+  },
+  {
+    "question": "वह मुझसे नाराज है।",
+    "options": [
+      "She is angry from me",
+      "She is angry with me",
+      "She is angry on me",
+      "She angry with me"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct preposition: 'angry with' for people.",
+    "id": 32
+  },
+  {
+    "question": "हमने खाना खा लिया।",
+    "options": [
+      "We have eaten the food",
+      "We ate the food",
+      "We are eating the food",
+      "We eat the food"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect indicates completed action.",
+    "id": 33
+  },
+  {
+    "question": "क्या तुम्हें कॉफी पसंद है?",
+    "options": [
+      "Do you like coffee?",
+      "Are you like coffee?",
+      "Like you coffee?",
+      "Do you liking coffee?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple question with 'do' for likes/dislikes.",
+    "id": 34
+  },
+  {
+    "question": "वह रोता है।",
+    "options": [
+      "He cries",
+      "He cry",
+      "He is cry",
+      "He does cry"
+    ],
+    "correctIndex": 0,
+    "explanation": "Third person singular adds 'ies' to verbs ending in consonant+y.",
+    "id": 35
+  },
+  {
+    "question": "मैं कल आ रहा हूँ।",
+    "options": [
+      "I am coming tomorrow",
+      "I come tomorrow",
+      "I will coming tomorrow",
+      "I am come tomorrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous can express future arrangements.",
+    "id": 36
+  },
+  {
+    "question": "तुम बहुत अच्छे हो।",
+    "options": [
+      "You are very good",
+      "You very good",
+      "You is very good",
+      "You are much good"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subject 'you' takes 'are' with adjective 'good'.",
+    "id": 37
+  },
+  {
+    "question": "उसने मुझे बुलाया।",
+    "options": [
+      "He called me",
+      "He call me",
+      "He has call me",
+      "He did called me"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple for completed action: 'called'.",
+    "id": 38
+  },
+  {
+    "question": "मैं समझ नहीं पाया।",
+    "options": [
+      "I didn't understand",
+      "I not understand",
+      "I didn't understood",
+      "I don't understand"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past negative: didn't + base verb 'understand'.",
+    "id": 39
+  },
+  {
+    "question": "वह कब आएगा?",
+    "options": [
+      "When will he come?",
+      "When he will come?",
+      "When does he come?",
+      "When he come?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future question: 'will' before subject.",
+    "id": 40
+  },
+  {
+    "question": "कृपया मेरी मदद करें।",
+    "options": [
+      "Please help me",
+      "Please help to me",
+      "Please helping me",
+      "Please helped me"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imperative: 'help' is transitive, takes direct object 'me'.",
+    "id": 41
+  },
+  {
+    "question": "वह स्कूल जाता है।",
+    "options": [
+      "He goes to school",
+      "He go to school",
+      "He is going to school",
+      "He goes school"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple habit: 'goes' + 'to school'.",
+    "id": 42
+  },
+  {
+    "question": "मुझे भूख लगी है।",
+    "options": [
+      "I am hungry",
+      "I have hungry",
+      "I feel hungry",
+      "I am having hungry"
+    ],
+    "correctIndex": 0,
+    "explanation": "Idiomatic: 'I am hungry' (not 'have hungry').",
+    "id": 43
+  },
+  {
+    "question": "वे कल आएंगे।",
+    "options": [
+      "They will come tomorrow",
+      "They come tomorrow",
+      "They are come tomorrow",
+      "They will coming tomorrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future simple: 'will come' for future action.",
+    "id": 44
+  },
+  {
+    "question": "तुम क्यों रो रहे हो?",
+    "options": [
+      "Why are you crying?",
+      "Why you are crying?",
+      "Why do you cry?",
+      "Why crying you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous question: 'why are you crying'.",
+    "id": 45
+  },
+  {
+    "question": "यह बहुत महंगा है।",
+    "options": [
+      "It is very expensive",
+      "It very expensive",
+      "It is much expensive",
+      "It are expensive"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subject 'it' + 'is' + adjective.",
+    "id": 46
+  },
+  {
+    "question": "मैं डॉक्टर बनना चाहता हूँ।",
+    "options": [
+      "I want to become a doctor",
+      "I want become a doctor",
+      "I want to becoming a doctor",
+      "I wants to become a doctor"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Want to' + base verb is correct.",
+    "id": 47
+  },
+  {
+    "question": "वह तुमसे छोटी है।",
+    "options": [
+      "She is younger than you",
+      "She is more young than you",
+      "She is young than you",
+      "She is younger to you"
+    ],
+    "correctIndex": 0,
+    "explanation": "Comparative 'younger than' for age comparison.",
+    "id": 48
+  },
+  {
+    "question": "हमने क्रिकेट जीत लिया।",
+    "options": [
+      "We won the cricket",
+      "We have won the cricket",
+      "We win the cricket",
+      "We are winning the cricket"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present perfect for recent past with present relevance.",
+    "id": 49
+  },
+  {
+    "question": "तुम कब जाओगे?",
+    "options": [
+      "When will you go?",
+      "When you will go?",
+      "When do you go?",
+      "When are you go?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future question: 'will' before subject.",
+    "id": 50
+  },
+  {
+    "question": "मैं माफी चाहता हूँ।",
+    "options": [
+      "I am sorry",
+      "I sorry",
+      "I feel sorry",
+      "I have sorry"
+    ],
+    "correctIndex": 0,
+    "explanation": "'I am sorry' is the standard apology.",
+    "id": 51
+  },
+  {
+    "question": "वह क्या करता है?",
+    "options": [
+      "What does he do?",
+      "What he does?",
+      "What do he do?",
+      "What is he do?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple question with 'does' for third person.",
+    "id": 52
+  },
+  {
+    "question": "मुझे जाना है।",
+    "options": [
+      "I have to go",
+      "I must to go",
+      "I has to go",
+      "I am to go"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Have to' expresses obligation.",
+    "id": 53
+  },
+  {
+    "question": "वहाँ एक पेड़ है।",
+    "options": [
+      "There is a tree",
+      "There are a tree",
+      "It is a tree",
+      "There has a tree"
+    ],
+    "correctIndex": 0,
+    "explanation": "'There is' for singular existence.",
+    "id": 54
+  },
+  {
+    "question": "तुम मुझे क्यों नहीं बताते?",
+    "options": [
+      "Why don't you tell me?",
+      "Why you not tell me?",
+      "Why do you not tell me?",
+      "Why you don't tell me?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Negative question: 'Why don't you' is standard.",
+    "id": 55
+  },
+  {
+    "question": "वह गाना पसंद करती है।",
+    "options": [
+      "She likes the song",
+      "She like the song",
+      "She is liking the song",
+      "She does like the song"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stative verb 'like' in present simple with 's'.",
+    "id": 56
+  },
+  {
+    "question": "बारिश बंद हो गई।",
+    "options": [
+      "The rain has stopped",
+      "The rain stopped",
+      "The rain is stopping",
+      "The rain stops"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for recent completed action.",
+    "id": 57
+  },
+  {
+    "question": "क्या मैं अंदर आ सकता हूँ?",
+    "options": [
+      "May I come in?",
+      "Can I come in?",
+      "Could I come in?",
+      "Might I come in?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May' is most polite for permission.",
+    "id": 58
+  },
+  {
+    "question": "वह हँस रहा था।",
+    "options": [
+      "He was laughing",
+      "He is laughing",
+      "He laughed",
+      "He were laughing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past continuous for ongoing past action.",
+    "id": 59
+  },
+  {
+    "question": "यह कितने का है?",
+    "options": [
+      "How much is it?",
+      "How many is it?",
+      "What is the price?",
+      "How cost is it?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How much' for uncountable (price).",
+    "id": 60
+  },
+  {
+    "question": "मैं तुमसे प्यार करता हूँ।",
+    "options": [
+      "I love you",
+      "I am loving you",
+      "I do love you",
+      "I loves you"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stative verb 'love' is not used in continuous form.",
+    "id": 61
+  },
+  {
+    "question": "वह अच्छा गाता है।",
+    "options": [
+      "He sings well",
+      "He sing well",
+      "He sings good",
+      "He is singing well"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'well' modifies verb 'sings'.",
+    "id": 62
+  },
+  {
+    "question": "तुमने क्या खाया?",
+    "options": [
+      "What did you eat?",
+      "What you ate?",
+      "What have you eat?",
+      "What did you ate?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: did + base verb 'eat'.",
+    "id": 63
+  },
+  {
+    "question": "मैं उससे मिल चुका हूँ।",
+    "options": [
+      "I have met him",
+      "I met him",
+      "I have meet him",
+      "I had met him"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for past action with present relevance.",
+    "id": 64
+  },
+  {
+    "question": "वह यहाँ क्यों है?",
+    "options": [
+      "Why is he here?",
+      "Why he is here?",
+      "Why does he here?",
+      "Why he here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Question with 'be' verb: 'why is he'.",
+    "id": 65
+  },
+  {
+    "question": "कृपया शोर मत करो।",
+    "options": [
+      "Please don't make noise",
+      "Please not make noise",
+      "Please no noise",
+      "Please don't making noise"
+    ],
+    "correctIndex": 0,
+    "explanation": "Negative imperative: don't + base verb.",
+    "id": 66
+  },
+  {
+    "question": "वह बहुत थक गया है।",
+    "options": [
+      "He is very tired",
+      "He has very tired",
+      "He very tired",
+      "He gets very tired"
+    ],
+    "correctIndex": 0,
+    "explanation": "State of being: 'is tired'.",
+    "id": 67
+  },
+  {
+    "question": "मैं पानी पी रहा हूँ।",
+    "options": [
+      "I am drinking water",
+      "I drink water",
+      "I have drinking water",
+      "I am drink water"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous for action in progress.",
+    "id": 68
+  },
+  {
+    "question": "क्या तुम तैर सकते हो?",
+    "options": [
+      "Can you swim?",
+      "Do you can swim?",
+      "Can you to swim?",
+      "You can swim?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Modal 'can' forms question by inversion.",
+    "id": 69
+  },
+  {
+    "question": "वहाँ कितने लोग हैं?",
+    "options": [
+      "How many people are there?",
+      "How much people are there?",
+      "How many people is there?",
+      "How many people there are?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How many' for countable plural.",
+    "id": 70
+  },
+  {
+    "question": "मैं कल व्यस्त था।",
+    "options": [
+      "I was busy yesterday",
+      "I am busy yesterday",
+      "I were busy yesterday",
+      "I had busy yesterday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple of 'be': 'I was' for yesterday.",
+    "id": 71
+  },
+  {
+    "question": "उसने कहा कि वह आएगा।",
+    "options": [
+      "He said that he would come",
+      "He said that he will come",
+      "He said he comes",
+      "He said he is coming"
+    ],
+    "correctIndex": 0,
+    "explanation": "Reported speech: 'would' after past tense 'said'.",
+    "id": 72
+  },
+  {
+    "question": "तुम्हें आराम करना चाहिए।",
+    "options": [
+      "You should take rest",
+      "You should to take rest",
+      "You must to rest",
+      "You should resting"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'take'.",
+    "id": 73
+  },
+  {
+    "question": "वह दौड़ रहा है।",
+    "options": [
+      "He is running",
+      "He runs",
+      "He run",
+      "He has running"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous: 'is running'.",
+    "id": 74
+  },
+  {
+    "question": "मैंने उसे पत्र लिखा।",
+    "options": [
+      "I wrote a letter to him",
+      "I writed a letter to him",
+      "I have written a letter to him",
+      "I write a letter to him"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple of 'write' is 'wrote'.",
+    "id": 75
+  },
+  {
+    "question": "वे बाजार गए हैं।",
+    "options": [
+      "They have gone to the market",
+      "They went to the market",
+      "They are gone to the market",
+      "They go to the market"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect 'have gone' indicates they are still there.",
+    "id": 76
+  },
+  {
+    "question": "क्या आपको मेरी बात समझ आई?",
+    "options": [
+      "Did you understand me?",
+      "Have you understood me?",
+      "Do you understand me?",
+      "Are you understanding me?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple for completed understanding.",
+    "id": 77
+  },
+  {
+    "question": "यह मेरी किताब है।",
+    "options": [
+      "This is my book",
+      "This my book",
+      "This book is my",
+      "This is mine book"
+    ],
+    "correctIndex": 0,
+    "explanation": "Possessive adjective 'my' before noun.",
+    "id": 78
+  },
+  {
+    "question": "वह तेज दौड़ सकता है।",
+    "options": [
+      "He can run fast",
+      "He can to run fast",
+      "He cans run fast",
+      "He can runs fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "Modal 'can' + base verb 'run'.",
+    "id": 79
+  },
+  {
+    "question": "मैं कल स्कूल नहीं गया।",
+    "options": [
+      "I did not go to school yesterday",
+      "I not went to school yesterday",
+      "I didn't went to school yesterday",
+      "I have not gone to school yesterday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past negative: didn't + base verb 'go'.",
+    "id": 80
+  },
+  {
+    "question": "तुम क्या सोचते हो?",
+    "options": [
+      "What do you think?",
+      "What you think?",
+      "What are you think?",
+      "What do you thinking?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple question with 'do'.",
+    "id": 81
+  },
+  {
+    "question": "वह बहुत सुंदर है।",
+    "options": [
+      "She is very beautiful",
+      "She very beautiful",
+      "She is much beautiful",
+      "She are beautiful"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Is' + adjective 'beautiful'.",
+    "id": 82
+  },
+  {
+    "question": "हमने मैच देखा।",
+    "options": [
+      "We watched the match",
+      "We have watched the match",
+      "We watch the match",
+      "We are watching the match"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple for completed action.",
+    "id": 83
+  },
+  {
+    "question": "क्या तुम मुझसे नाराज हो?",
+    "options": [
+      "Are you angry with me?",
+      "Do you angry with me?",
+      "Are you angry on me?",
+      "You are angry with me?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Are you angry' + 'with me'.",
+    "id": 84
+  },
+  {
+    "question": "मैंने खिड़की बंद कर दी।",
+    "options": [
+      "I closed the window",
+      "I have closed the window",
+      "I shut the window",
+      "I am closing the window"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple: 'closed'.",
+    "id": 85
+  },
+  {
+    "question": "वह गा सकती है।",
+    "options": [
+      "She can sing",
+      "She can to sing",
+      "She cans sing",
+      "She can sings"
+    ],
+    "correctIndex": 0,
+    "explanation": "Modal 'can' + base verb.",
+    "id": 86
+  },
+  {
+    "question": "तुम कहाँ थे?",
+    "options": [
+      "Where were you?",
+      "Where was you?",
+      "Where you were?",
+      "Where are you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past of 'are' is 'were' for 'you'.",
+    "id": 87
+  },
+  {
+    "question": "मुझे यह पसंद नहीं है।",
+    "options": [
+      "I don't like this",
+      "I not like this",
+      "I am not like this",
+      "I don't liking this"
+    ],
+    "correctIndex": 0,
+    "explanation": "Negative present simple: don't + base verb.",
+    "id": 88
+  },
+  {
+    "question": "वह बहुत मेहनती है।",
+    "options": [
+      "He is very hardworking",
+      "He very hardworking",
+      "He are hardworking",
+      "He has hardworking"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'hardworking'.",
+    "id": 89
+  },
+  {
+    "question": "हम बाहर खेल रहे थे।",
+    "options": [
+      "We were playing outside",
+      "We played outside",
+      "We are playing outside",
+      "We was playing outside"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past continuous for ongoing action in the past: 'were playing'.",
+    "id": 90
+  },
+  {
+    "question": "क्या तुमने खाना खाया?",
+    "options": [
+      "Did you eat the food?",
+      "Have you eaten the food?",
+      "Do you eat the food?",
+      "Are you eating the food?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question for completed action: 'Did you eat'.",
+    "id": 91
+  },
+  {
+    "question": "वह मुझे जानता है।",
+    "options": [
+      "He knows me",
+      "He know me",
+      "He is knowing me",
+      "He does know me"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stative verb 'know' in present simple with 's'.",
+    "id": 92
+  },
+  {
+    "question": "मैं तुम्हारी मदद करूंगा।",
+    "options": [
+      "I will help you",
+      "I help you",
+      "I am help you",
+      "I would help you"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future simple: 'will help' for promise/offer.",
+    "id": 93
+  },
+  {
+    "question": "वह रोज व्यायाम करता है।",
+    "options": [
+      "He exercises every day",
+      "He exercise every day",
+      "He is exercising every day",
+      "He do exercise every day"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple for habitual action: 'exercises'.",
+    "id": 94
+  },
+  {
+    "question": "तुम कितने साल के हो?",
+    "options": [
+      "How old are you?",
+      "How many years are you?",
+      "What is your age?",
+      "How age are you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Idiomatic: 'How old are you?' is standard.",
+    "id": 95
+  },
+  {
+    "question": "मैंने उसे फोन किया।",
+    "options": [
+      "I called him",
+      "I have called him",
+      "I call him",
+      "I was calling him"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple for completed action: 'called'.",
+    "id": 96
+  },
+  {
+    "question": "वह यहाँ रहता है।",
+    "options": [
+      "He lives here",
+      "He live here",
+      "He is living here",
+      "He does live here"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple for fact: 'lives'.",
+    "id": 97
+  },
+  {
+    "question": "कृपया यहाँ आओ।",
+    "options": [
+      "Please come here",
+      "Please came here",
+      "Please to come here",
+      "Please coming here"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imperative: base verb 'come'.",
+    "id": 98
+  },
+  {
+    "question": "वह सो रही है।",
+    "options": [
+      "She is sleeping",
+      "She sleeps",
+      "She sleep",
+      "She has sleeping"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous for action now: 'is sleeping'.",
+    "id": 99
+  },
+  {
+    "question": "मैंने अपना काम खत्म कर लिया।",
+    "options": [
+      "I have finished my work",
+      "I finished my work",
+      "I finish my work",
+      "I am finishing my work"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for recently completed action.",
+    "id": 100
+  },
+  {
+    "question": "तुम्हें डॉक्टर के पास जाना चाहिए।",
+    "options": [
+      "You should go to the doctor",
+      "You should to go to the doctor",
+      "You must to go to the doctor",
+      "You should going to the doctor"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'go'.",
+    "id": 101
+  },
+  {
+    "question": "वे फिल्म देख रहे हैं।",
+    "options": [
+      "They are watching a movie",
+      "They watch a movie",
+      "They watched a movie",
+      "They have watched a movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous for action happening now.",
+    "id": 102
+  },
+  {
+    "question": "मुझे ठंड लग रही है।",
+    "options": [
+      "I am feeling cold",
+      "I feel cold",
+      "I have cold",
+      "I am cold"
+    ],
+    "correctIndex": 3,
+    "explanation": "'I am cold' is the simplest and most common expression.",
+    "id": 103
+  },
+  {
+    "question": "क्या तुमने कभी आगरा देखा है?",
+    "options": [
+      "Have you ever seen Agra?",
+      "Did you ever see Agra?",
+      "Do you ever see Agra?",
+      "Had you ever seen Agra?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect with 'ever' for life experience.",
+    "id": 104
+  },
+  {
+    "question": "वह बहुत तेज बोलता है।",
+    "options": [
+      "He speaks very fast",
+      "He speak very fast",
+      "He speaks very fastly",
+      "He is speaking very fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'fast' (no 'fastly') with present simple.",
+    "id": 105
+  },
+  {
+    "question": "हमने रात का खाना खा लिया।",
+    "options": [
+      "We have eaten dinner",
+      "We ate dinner",
+      "We eat dinner",
+      "We are eating dinner"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for completed action with present relevance.",
+    "id": 106
+  },
+  {
+    "question": "तुम क्या पीना चाहोगे?",
+    "options": [
+      "What would you like to drink?",
+      "What do you want to drink?",
+      "What will you drink?",
+      "What you want to drink?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Would you like' is the polite form for offers.",
+    "id": 107
+  },
+  {
+    "question": "वह पढ़ रहा था।",
+    "options": [
+      "He was reading",
+      "He read",
+      "He is reading",
+      "He were reading"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past continuous for ongoing past action.",
+    "id": 108
+  },
+  {
+    "question": "मैं तुम्हें समझ सकता हूँ।",
+    "options": [
+      "I can understand you",
+      "I can to understand you",
+      "I could understand you",
+      "I am able understand you"
+    ],
+    "correctIndex": 0,
+    "explanation": "Modal 'can' + base verb 'understand'.",
+    "id": 109
+  },
+  {
+    "question": "वह कल यहाँ आया था।",
+    "options": [
+      "He came here yesterday",
+      "He has come here yesterday",
+      "He had come here yesterday",
+      "He was coming here yesterday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple for specific past time 'yesterday'.",
+    "id": 110
+  },
+  {
+    "question": "तुम्हें क्या चाहिए?",
+    "options": [
+      "What do you need?",
+      "What you need?",
+      "What are you need?",
+      "What do you needing?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple question with 'do'.",
+    "id": 111
+  },
+  {
+    "question": "यह बहुत आसान है।",
+    "options": [
+      "It is very easy",
+      "It very easy",
+      "It are very easy",
+      "It is much easy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'It is' + adjective 'easy'.",
+    "id": 112
+  },
+  {
+    "question": "वह रोज स्कूल जाती है।",
+    "options": [
+      "She goes to school every day",
+      "She go to school every day",
+      "She is going to school every day",
+      "She does go to school every day"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple habit: 'goes'.",
+    "id": 113
+  },
+  {
+    "question": "मैं बाजार जाऊंगा।",
+    "options": [
+      "I will go to the market",
+      "I go to the market",
+      "I am going to the market",
+      "I would go to the market"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future simple: 'will go'.",
+    "id": 114
+  },
+  {
+    "question": "कृपया धीरे बोलो।",
+    "options": [
+      "Please speak slowly",
+      "Please speak slow",
+      "Please to speak slowly",
+      "Please speaking slowly"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'slowly' modifies 'speak'.",
+    "id": 115
+  },
+  {
+    "question": "वह अपने कमरे में है।",
+    "options": [
+      "He is in his room",
+      "He in his room",
+      "He are in his room",
+      "He has in his room"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + location preposition 'in'.",
+    "id": 116
+  },
+  {
+    "question": "हमने मुंबई में पांच साल बिताए।",
+    "options": [
+      "We spent five years in Mumbai",
+      "We have spent five years in Mumbai",
+      "We spend five years in Mumbai",
+      "We were spending five years in Mumbai"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple for completed time period.",
+    "id": 117
+  },
+  {
+    "question": "क्या तुम्हें मिठाई पसंद है?",
+    "options": [
+      "Do you like sweets?",
+      "Are you like sweets?",
+      "Like you sweets?",
+      "Do you liking sweets?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple question with 'do'.",
+    "id": 118
+  },
+  {
+    "question": "वह बीमार है।",
+    "options": [
+      "He is sick",
+      "He sick",
+      "He has sick",
+      "He are sick"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'sick'.",
+    "id": 119
+  },
+  {
+    "question": "मैंने चाबी खो दी।",
+    "options": [
+      "I have lost the key",
+      "I lost the key",
+      "I lose the key",
+      "I am losing the key"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for past action with present result.",
+    "id": 120
+  },
+  {
+    "question": "तुम्हें यहाँ किसने भेजा?",
+    "options": [
+      "Who sent you here?",
+      "Who did send you here?",
+      "Whom sent you here?",
+      "Who sends you here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Question with 'who' as subject: no auxiliary 'did'.",
+    "id": 121
+  },
+  {
+    "question": "वह हमेशा सच बोलता है।",
+    "options": [
+      "He always speaks the truth",
+      "He always speak the truth",
+      "He is always speaking the truth",
+      "He does always speak the truth"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple with adverb 'always'.",
+    "id": 122
+  },
+  {
+    "question": "मैं कल व्यस्त रहूंगा।",
+    "options": [
+      "I will be busy tomorrow",
+      "I am busy tomorrow",
+      "I would be busy tomorrow",
+      "I will busy tomorrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future simple: 'will be'.",
+    "id": 123
+  },
+  {
+    "question": "वे कब लौटेंगे?",
+    "options": [
+      "When will they return?",
+      "When they will return?",
+      "When do they return?",
+      "When are they return?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future question: 'will' before subject.",
+    "id": 124
+  },
+  {
+    "question": "मुझे नींद आ रही है।",
+    "options": [
+      "I am feeling sleepy",
+      "I feel sleepy",
+      "I am sleepy",
+      "I have sleep"
+    ],
+    "correctIndex": 2,
+    "explanation": "'I am sleepy' is the most natural expression.",
+    "id": 125
+  },
+  {
+    "question": "तुम इतना क्यों खाते हो?",
+    "options": [
+      "Why do you eat so much?",
+      "Why you eat so much?",
+      "Why are you eat so much?",
+      "Why do you eating so much?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Why do you' + base verb for present simple question.",
+    "id": 126
+  },
+  {
+    "question": "वह अच्छा डॉक्टर है।",
+    "options": [
+      "He is a good doctor",
+      "He is good doctor",
+      "He good doctor",
+      "He are a good doctor"
+    ],
+    "correctIndex": 0,
+    "explanation": "Indefinite article 'a' before singular countable noun.",
+    "id": 127
+  },
+  {
+    "question": "हमने उसे पार्टी में देखा।",
+    "options": [
+      "We saw him at the party",
+      "We have seen him at the party",
+      "We see him at the party",
+      "We were seeing him at the party"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple for completed action: 'saw'.",
+    "id": 128
+  },
+  {
+    "question": "क्या मैं पानी पी सकता हूँ?",
+    "options": [
+      "May I drink water?",
+      "Can I drink water?",
+      "Could I drink water?",
+      "Might I drink water?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is most polite for permission.",
+    "id": 129
+  },
+  {
+    "question": "वह हंस रही है।",
+    "options": [
+      "She is laughing",
+      "She laughs",
+      "She laugh",
+      "She has laughing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous for action now.",
+    "id": 130
+  },
+  {
+    "question": "मैंने उसे पहचान लिया।",
+    "options": [
+      "I recognized him",
+      "I have recognized him",
+      "I recognize him",
+      "I was recognizing him"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple for completed action.",
+    "id": 131
+  },
+  {
+    "question": "तुम बहुत अच्छा गाते हो।",
+    "options": [
+      "You sing very well",
+      "You sings very well",
+      "You are singing very well",
+      "You do sing very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'well' with present simple 'sing'.",
+    "id": 132
+  },
+  {
+    "question": "वह दुकान बंद कर चुका है।",
+    "options": [
+      "He has closed the shop",
+      "He closed the shop",
+      "He closes the shop",
+      "He is closing the shop"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for recently completed action.",
+    "id": 133
+  },
+  {
+    "question": "क्या तुम मेरे साथ चलोगे?",
+    "options": [
+      "Will you come with me?",
+      "Do you come with me?",
+      "Are you coming with me?",
+      "Would you come with me?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future simple 'will you come' for invitation.",
+    "id": 134
+  },
+  {
+    "question": "यह किसका है?",
+    "options": [
+      "Whose is this?",
+      "Who's is this?",
+      "Whom is this?",
+      "Of whom is this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whose' asks about possession.",
+    "id": 135
+  },
+  {
+    "question": "वह मुझसे मिलने आया।",
+    "options": [
+      "He came to meet me",
+      "He came for meet me",
+      "He come to meet me",
+      "He came meeting me"
+    ],
+    "correctIndex": 0,
+    "explanation": "Infinitive 'to meet' expresses purpose.",
+    "id": 136
+  },
+  {
+    "question": "मुझे यहाँ रुकना है।",
+    "options": [
+      "I have to stop here",
+      "I must to stop here",
+      "I has to stop here",
+      "I am to stop here"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Have to' expresses necessity.",
+    "id": 137
+  },
+  {
+    "question": "वे बहुत अमीर हैं।",
+    "options": [
+      "They are very rich",
+      "They very rich",
+      "They is very rich",
+      "They have very rich"
+    ],
+    "correctIndex": 0,
+    "explanation": "'They are' + adjective 'rich'.",
+    "id": 138
+  },
+  {
+    "question": "तुमने गलती की।",
+    "options": [
+      "You made a mistake",
+      "You did a mistake",
+      "You have made a mistake",
+      "You make a mistake"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'make a mistake' (not 'do').",
+    "id": 139
+  },
+  {
+    "question": "हम तैयार हैं।",
+    "options": [
+      "We are ready",
+      "We ready",
+      "We is ready",
+      "We have ready"
+    ],
+    "correctIndex": 0,
+    "explanation": "'We are' + adjective 'ready'.",
+    "id": 140
+  },
+  {
+    "question": "वह क्यों रो रहा है?",
+    "options": [
+      "Why is he crying?",
+      "Why he is crying?",
+      "Why does he cry?",
+      "Why he crying?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous question: 'why is he crying'.",
+    "id": 141
+  },
+  {
+    "question": "मैंने दरवाजा खटखटाया।",
+    "options": [
+      "I knocked on the door",
+      "I knocked the door",
+      "I knock on the door",
+      "I have knocked the door"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Knock on the door' is correct phrasal verb.",
+    "id": 142
+  },
+  {
+    "question": "कृपया मुझे पेन दो।",
+    "options": [
+      "Please give me a pen",
+      "Please give to me a pen",
+      "Please gave me a pen",
+      "Please giving me a pen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imperative: 'give me' (indirect object without 'to').",
+    "id": 143
+  },
+  {
+    "question": "वह सबसे अच्छा है।",
+    "options": [
+      "He is the best",
+      "He is best",
+      "He is more best",
+      "He is most best"
+    ],
+    "correctIndex": 0,
+    "explanation": "Superlative 'the best' (irregular).",
+    "id": 144
+  },
+  {
+    "question": "हम कल घूमने जाएंगे।",
+    "options": [
+      "We will go for a picnic tomorrow",
+      "We go for a picnic tomorrow",
+      "We are going for a picnic tomorrow",
+      "We would go for a picnic tomorrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future simple for future plan.",
+    "id": 145
+  },
+  {
+    "question": "तुम यह कैसे करोगे?",
+    "options": [
+      "How will you do this?",
+      "How you will do this?",
+      "How do you do this?",
+      "How are you doing this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future question: 'how will you'.",
+    "id": 146
+  },
+  {
+    "question": "मैं थोड़ा थका हूँ।",
+    "options": [
+      "I am a little tired",
+      "I am little tired",
+      "I have a little tired",
+      "I am tired a little"
+    ],
+    "correctIndex": 0,
+    "explanation": "'A little' modifies adjective 'tired'.",
+    "id": 147
+  },
+  {
+    "question": "वह अपनी माँ से मिली।",
+    "options": [
+      "She met her mother",
+      "She meet her mother",
+      "She has met her mother",
+      "She was meeting her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple of 'meet' is 'met'.",
+    "id": 148
+  },
+  {
+    "question": "क्या तुमने सुना?",
+    "options": [
+      "Did you hear?",
+      "Have you heard?",
+      "Do you hear?",
+      "Are you hearing?"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present perfect 'have you heard' for news.",
+    "id": 149
+  },
+  {
+    "question": "वह झूठ बोल रहा है।",
+    "options": [
+      "He is lying",
+      "He lies",
+      "He lie",
+      "He has lying"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous for action now: 'is lying'.",
+    "id": 150
+  },
+  {
+    "question": "मैंने अपना पैर तोड़ दिया।",
+    "options": [
+      "I have broken my leg",
+      "I broke my leg",
+      "I break my leg",
+      "I was breaking my leg"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for past action with present result.",
+    "id": 151
+  },
+  {
+    "question": "तुम कहाँ जा रहे हो?",
+    "options": [
+      "Where are you going?",
+      "Where do you go?",
+      "Where you are going?",
+      "Where going you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous question for action now.",
+    "id": 152
+  },
+  {
+    "question": "वह बहुत होशियार है।",
+    "options": [
+      "He is very smart",
+      "He very smart",
+      "He are very smart",
+      "He has very smart"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'smart'.",
+    "id": 153
+  },
+  {
+    "question": "हमने मस्ती की।",
+    "options": [
+      "We had fun",
+      "We made fun",
+      "We did fun",
+      "We enjoyed fun"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'have fun' (not 'make' or 'do').",
+    "id": 154
+  },
+  {
+    "question": "कृपया इसे ले लो।",
+    "options": [
+      "Please take it",
+      "Please took it",
+      "Please to take it",
+      "Please taking it"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imperative: base verb 'take'.",
+    "id": 155
+  },
+  {
+    "question": "वह अंग्रेजी पढ़ाती है।",
+    "options": [
+      "She teaches English",
+      "She teach English",
+      "She is teaching English",
+      "She does teach English"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple for occupation: 'teaches'.",
+    "id": 156
+  },
+  {
+    "question": "मैं समय पर पहुंचा।",
+    "options": [
+      "I arrived on time",
+      "I reached on time",
+      "I arrive on time",
+      "I have arrived on time"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'arrived' + 'on time' (idiom).",
+    "id": 157
+  },
+  {
+    "question": "तुम इतने उदास क्यों हो?",
+    "options": [
+      "Why are you so sad?",
+      "Why you are so sad?",
+      "Why do you so sad?",
+      "Why are you so sadly?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Why are you' + adjective 'sad'.",
+    "id": 158
+  },
+  {
+    "question": "वह तैरना जानता है।",
+    "options": [
+      "He knows how to swim",
+      "He knows swimming",
+      "He can swim",
+      "He knows to swim"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Knows how to' + base verb expresses skill.",
+    "id": 159
+  },
+  {
+    "question": "हमने बहुत मेहनत की।",
+    "options": [
+      "We worked very hard",
+      "We did very hard work",
+      "We made very hard work",
+      "We have worked very hard"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'worked hard' (adverb 'hard').",
+    "id": 160
+  },
+  {
+    "question": "क्या मैं तुमसे कुछ पूछ सकता हूँ?",
+    "options": [
+      "May I ask you something?",
+      "Can I ask you something?",
+      "Could I ask you something?",
+      "Might I ask you something?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is most polite for permission.",
+    "id": 161
+  },
+  {
+    "question": "वह अपने वादे पर खरा उतरा।",
+    "options": [
+      "He kept his promise",
+      "He followed his promise",
+      "He did his promise",
+      "He maintained his promise"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'keep a promise'.",
+    "id": 162
+  },
+  {
+    "question": "मुझे यह फिल्म बोरिंग लगी।",
+    "options": [
+      "I found this movie boring",
+      "I felt this movie boring",
+      "I thought this movie boring",
+      "I was boring this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Find something + adjective' expresses opinion.",
+    "id": 163
+  },
+  {
+    "question": "तुम सुबह जल्दी उठते हो?",
+    "options": [
+      "Do you wake up early in the morning?",
+      "Do you get up early morning?",
+      "Are you wake up early?",
+      "Do you waking up early?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple question: 'Do you wake up'.",
+    "id": 164
+  },
+  {
+    "question": "वह दौड़ जीत गया।",
+    "options": [
+      "He won the race",
+      "He beat the race",
+      "He gained the race",
+      "He has won the race"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'won' (win-won-won).",
+    "id": 165
+  },
+  {
+    "question": "हमें उसकी मदद करनी चाहिए।",
+    "options": [
+      "We should help him",
+      "We must to help him",
+      "We ought help him",
+      "We should to help him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'help'.",
+    "id": 166
+  },
+  {
+    "question": "तुमने ऐसा क्यों किया?",
+    "options": [
+      "Why did you do that?",
+      "Why you did that?",
+      "Why have you done that?",
+      "Why do you do that?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Why did you do'.",
+    "id": 167
+  },
+  {
+    "question": "वह चुप हो गया।",
+    "options": [
+      "He became silent",
+      "He got silent",
+      "He kept silent",
+      "He fell silent"
+    ],
+    "correctIndex": 3,
+    "explanation": "Idiomatic: 'fell silent' is most natural.",
+    "id": 168
+  },
+  {
+    "question": "मैं अपना वजन कम करना चाहता हूँ।",
+    "options": [
+      "I want to lose weight",
+      "I want to reduce weight",
+      "I want to lessen weight",
+      "I want to decrease weight"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'lose weight' (not 'reduce').",
+    "id": 169
+  },
+  {
+    "question": "वे बहुत खुश हैं।",
+    "options": [
+      "They are very happy",
+      "They very happy",
+      "They is very happy",
+      "They have very happy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'They are' + adjective 'happy'.",
+    "id": 170
+  },
+  {
+    "question": "क्या तुमने उसे बताया?",
+    "options": [
+      "Did you tell him?",
+      "Have you told him?",
+      "Do you tell him?",
+      "Are you telling him?"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present perfect for past action with present relevance.",
+    "id": 171
+  },
+  {
+    "question": "वह कॉलेज जाता था।",
+    "options": [
+      "He used to go to college",
+      "He would go to college",
+      "He went to college",
+      "He was going to college"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Used to' for past habits that no longer happen.",
+    "id": 172
+  },
+  {
+    "question": "मैंने कभी शराब नहीं पी।",
+    "options": [
+      "I have never drunk alcohol",
+      "I never drank alcohol",
+      "I never drink alcohol",
+      "I had never drunk alcohol"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect with 'never' for life experience.",
+    "id": 173
+  },
+  {
+    "question": "तुम बहुत मीठा बोलते हो।",
+    "options": [
+      "You speak very sweetly",
+      "You speak very sweet",
+      "You are speaking very sweet",
+      "You do speak very sweet"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'sweetly' modifies 'speak'.",
+    "id": 174
+  },
+  {
+    "question": "वह घर चला गया।",
+    "options": [
+      "He went home",
+      "He went to home",
+      "He has gone home",
+      "He gone home"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Go home' (no 'to' before 'home').",
+    "id": 175
+  },
+  {
+    "question": "हमने एक दूसरे की मदद की।",
+    "options": [
+      "We helped each other",
+      "We helped one another",
+      "We helped ourselves",
+      "We helped together"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Each other' for reciprocal actions between two.",
+    "id": 176
+  },
+  {
+    "question": "कृपया अपनी बात रखें।",
+    "options": [
+      "Please keep your point",
+      "Please say your point",
+      "Please speak your point",
+      "Please put your point"
+    ],
+    "correctIndex": 0,
+    "explanation": "Idiom: 'keep your point' or 'make your point'.",
+    "id": 177
+  },
+  {
+    "question": "वह मुझसे ईर्ष्या करती है।",
+    "options": [
+      "She is jealous of me",
+      "She feels jealous from me",
+      "She has jealousy on me",
+      "She jealous me"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct: 'jealous of someone'.",
+    "id": 178
+  },
+  {
+    "question": "मैं कल अपने दोस्त से मिला।",
+    "options": [
+      "I met my friend yesterday",
+      "I have met my friend yesterday",
+      "I meet my friend yesterday",
+      "I was meeting my friend yesterday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple for completed action at a specific past time.",
+    "id": 179
+  },
+  {
+    "question": "तुम्हें अपनी गलती सुधारनी चाहिए।",
+    "options": [
+      "You should correct your mistake",
+      "You should to correct your mistake",
+      "You must to correct your mistake",
+      "You should correcting your mistake"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'correct'.",
+    "id": 180
+  },
+  {
+    "question": "वह रोजाना योग करती है।",
+    "options": [
+      "She does yoga daily",
+      "She makes yoga daily",
+      "She practices yoga daily",
+      "She is doing yoga daily"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'do yoga' (not 'make yoga').",
+    "id": 181
+  },
+  {
+    "question": "मैंने उसे बाजार में देखा।",
+    "options": [
+      "I saw him in the market",
+      "I have seen him in the market",
+      "I see him in the market",
+      "I was seeing him in the market"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'saw' for completed action.",
+    "id": 182
+  },
+  {
+    "question": "क्या तुम मेरी बात सुन रहे हो?",
+    "options": [
+      "Are you listening to me?",
+      "Do you listen to me?",
+      "Are you hearing me?",
+      "Do you hear me?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous 'are you listening' for action now.",
+    "id": 183
+  },
+  {
+    "question": "वह बहुत भाग्यशाली है।",
+    "options": [
+      "He is very lucky",
+      "He very lucky",
+      "He are very lucky",
+      "He has very lucky"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'lucky'.",
+    "id": 184
+  },
+  {
+    "question": "हमने समस्या का हल ढूंढ लिया।",
+    "options": [
+      "We have found the solution to the problem",
+      "We found the solution of the problem",
+      "We find the solution to the problem",
+      "We were finding the solution to the problem"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for recent discovery; 'solution to' is correct preposition.",
+    "id": 185
+  },
+  {
+    "question": "तुम बहुत तेज चलते हो।",
+    "options": [
+      "You walk very fast",
+      "You walk very fastly",
+      "You are walking very fast",
+      "You do walk very fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'fast' (no 'fastly') with present simple.",
+    "id": 186
+  },
+  {
+    "question": "वह मुझ पर हंस रहा था।",
+    "options": [
+      "He was laughing at me",
+      "He was laughing on me",
+      "He laughed at me",
+      "He is laughing at me"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct phrasal verb: 'laugh at someone'.",
+    "id": 187
+  },
+  {
+    "question": "मैंने अपना फोन खो दिया है।",
+    "options": [
+      "I have lost my phone",
+      "I lost my phone",
+      "I lose my phone",
+      "I am losing my phone"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for past action with present result (still lost).",
+    "id": 188
+  },
+  {
+    "question": "कृपया मुझे माफ कर दो।",
+    "options": [
+      "Please forgive me",
+      "Please sorry me",
+      "Please excuse to me",
+      "Please pardon to me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Forgive me' is direct and correct.",
+    "id": 189
+  },
+  {
+    "question": "वह पानी में कूद गया।",
+    "options": [
+      "He jumped into the water",
+      "He jumped in the water",
+      "He jumped inside the water",
+      "He jumped to the water"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Jump into' indicates movement from outside to inside.",
+    "id": 190
+  },
+  {
+    "question": "तुम कितनी किताबें पढ़ चुके हो?",
+    "options": [
+      "How many books have you read?",
+      "How much books have you read?",
+      "How many books did you read?",
+      "How many books you have read?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for life experience; 'how many' for countable nouns.",
+    "id": 191
+  },
+  {
+    "question": "वह गाना सुन रही थी।",
+    "options": [
+      "She was listening to the song",
+      "She listened to the song",
+      "She is listening to the song",
+      "She was hearing the song"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past continuous with 'listen to' (not 'hear' for intentional action).",
+    "id": 192
+  },
+  {
+    "question": "मैं यहाँ पहले आ चुका हूँ।",
+    "options": [
+      "I have been here before",
+      "I came here before",
+      "I was here before",
+      "I had been here before"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for experience up to now.",
+    "id": 193
+  },
+  {
+    "question": "तुमने यह कैसे किया?",
+    "options": [
+      "How did you do this?",
+      "How you did this?",
+      "How have you done this?",
+      "How do you do this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'How did you do'.",
+    "id": 194
+  },
+  {
+    "question": "वह अपने वतन वापस चला गया।",
+    "options": [
+      "He went back to his homeland",
+      "He returned back to his homeland",
+      "He went to his homeland back",
+      "He is gone back to his homeland"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Went back' is correct; 'returned back' is redundant.",
+    "id": 195
+  },
+  {
+    "question": "हमें उस पर गर्व है।",
+    "options": [
+      "We are proud of him",
+      "We have proud on him",
+      "We feel proud from him",
+      "We are proud on him"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct: 'proud of someone'.",
+    "id": 196
+  },
+  {
+    "question": "क्या तुम मेरी मदद कर सकते हो?",
+    "options": [
+      "Can you help me?",
+      "Could you help me?",
+      "Will you help me?",
+      "Would you help me?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' is direct; 'could you' is more polite.",
+    "id": 197
+  },
+  {
+    "question": "वह बहुत सोचता है।",
+    "options": [
+      "He thinks a lot",
+      "He think a lot",
+      "He is thinking a lot",
+      "He does think a lot"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple 'thinks' for habitual action.",
+    "id": 198
+  },
+  {
+    "question": "मैंने खाना बना लिया है।",
+    "options": [
+      "I have cooked the food",
+      "I cooked the food",
+      "I cook the food",
+      "I am cooking the food"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for completed action with present relevance.",
+    "id": 199
+  },
+  {
+    "question": "तुम इतने लाल क्यों हो?",
+    "options": [
+      "Why are you so red?",
+      "Why you are so red?",
+      "Why do you so red?",
+      "Why are you so redly?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Why are you' + adjective 'red'.",
+    "id": 200
+  },
+  {
+    "question": "वह अपनी दादी से बहुत प्यार करता है।",
+    "options": [
+      "He loves his grandmother very much",
+      "He is loving his grandmother very much",
+      "He love his grandmother very much",
+      "He does love his grandmother very much"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stative verb 'love' in present simple, not continuous.",
+    "id": 201
+  },
+  {
+    "question": "हमने एक नई कार खरीदी।",
+    "options": [
+      "We bought a new car",
+      "We have bought a new car",
+      "We buy a new car",
+      "We were buying a new car"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'bought' for completed action.",
+    "id": 202
+  },
+  {
+    "question": "कृपया अपनी सीट बेल्ट लगा लें।",
+    "options": [
+      "Please fasten your seat belt",
+      "Please put your seat belt",
+      "Please wear your seat belt",
+      "Please tie your seat belt"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct verb: 'fasten your seat belt'.",
+    "id": 203
+  },
+  {
+    "question": "वह अच्छा खाना बनाती है।",
+    "options": [
+      "She cooks good food",
+      "She cook good food",
+      "She is cooking good food",
+      "She does cook good food"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple 'cooks' for skill/habit.",
+    "id": 204
+  },
+  {
+    "question": "मैं तुम्हारा इंतज़ार कर रहा था।",
+    "options": [
+      "I was waiting for you",
+      "I waited for you",
+      "I have been waiting for you",
+      "I am waiting for you"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past continuous for ongoing action in past.",
+    "id": 205
+  },
+  {
+    "question": "तुमने ऐसा क्यों सोचा?",
+    "options": [
+      "Why did you think so?",
+      "Why you thought so?",
+      "Why have you thought so?",
+      "Why do you think so?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Why did you think'.",
+    "id": 206
+  },
+  {
+    "question": "वह बहुत विनम्र है।",
+    "options": [
+      "He is very polite",
+      "He very polite",
+      "He are very polite",
+      "He has very polite"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'polite'.",
+    "id": 207
+  },
+  {
+    "question": "हम सब एक साथ खेलते थे।",
+    "options": [
+      "We used to play together",
+      "We would play together",
+      "We played together",
+      "We were playing together"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Used to' for past habits that no longer happen.",
+    "id": 208
+  },
+  {
+    "question": "क्या तुमने कभी समुद्र देखा है?",
+    "options": [
+      "Have you ever seen the sea?",
+      "Did you ever see the sea?",
+      "Do you ever see the sea?",
+      "Had you ever seen the sea?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect with 'ever' for life experience.",
+    "id": 209
+  },
+  {
+    "question": "वह मुझसे डरता है।",
+    "options": [
+      "He is afraid of me",
+      "He fears from me",
+      "He is afraid from me",
+      "He scared of me"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct: 'afraid of someone'.",
+    "id": 210
+  },
+  {
+    "question": "मैंने उसे एक उपहार दिया।",
+    "options": [
+      "I gave him a gift",
+      "I given him a gift",
+      "I have given him a gift",
+      "I did give him a gift"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'gave' (give-gave-given).",
+    "id": 211
+  },
+  {
+    "question": "तुम बहुत जल्दी आ गए।",
+    "options": [
+      "You came too early",
+      "You arrived too early",
+      "You have come too early",
+      "You come too early"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'came' for completed action.",
+    "id": 212
+  },
+  {
+    "question": "वह अपनी बहन से मिलने गया।",
+    "options": [
+      "He went to meet his sister",
+      "He went for meet his sister",
+      "He go to meet his sister",
+      "He has gone to meet his sister"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple with infinitive 'to meet' expressing purpose.",
+    "id": 213
+  },
+  {
+    "question": "मुझे यह काम करना है।",
+    "options": [
+      "I have to do this work",
+      "I must to do this work",
+      "I has to do this work",
+      "I am to do this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Have to' expresses obligation.",
+    "id": 214
+  },
+  {
+    "question": "हमने उसका स्वागत किया।",
+    "options": [
+      "We welcomed him",
+      "We gave him welcome",
+      "We have welcomed him",
+      "We were welcoming him"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'welcomed' (verb, not 'gave welcome').",
+    "id": 215
+  },
+  {
+    "question": "कृपया यहाँ हस्ताक्षर करें।",
+    "options": [
+      "Please sign here",
+      "Please signature here",
+      "Please to sign here",
+      "Please signing here"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imperative: base verb 'sign'.",
+    "id": 216
+  },
+  {
+    "question": "वह बहुत मशहूर है।",
+    "options": [
+      "He is very famous",
+      "He very famous",
+      "He are very famous",
+      "He has very famous"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'famous'.",
+    "id": 217
+  },
+  {
+    "question": "तुमने मेरा दिल तोड़ दिया।",
+    "options": [
+      "You broke my heart",
+      "You have broken my heart",
+      "You break my heart",
+      "You did break my heart"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'broke' for completed action.",
+    "id": 218
+  },
+  {
+    "question": "वह बहुत धीरे बोलता है।",
+    "options": [
+      "He speaks very slowly",
+      "He speaks very slow",
+      "He is speaking very slowly",
+      "He does speak very slow"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'slowly' modifies 'speaks'.",
+    "id": 219
+  },
+  {
+    "question": "मैंने अपना सबक याद कर लिया।",
+    "options": [
+      "I have memorized my lesson",
+      "I memorized my lesson",
+      "I remember my lesson",
+      "I learned my lesson by heart"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect 'have memorized' for completed learning.",
+    "id": 220
+  },
+  {
+    "question": "क्या तुम्हें कुछ चाहिए?",
+    "options": [
+      "Do you need anything?",
+      "Do you want anything?",
+      "Are you need anything?",
+      "Do you needing anything?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple question with 'do'.",
+    "id": 221
+  },
+  {
+    "question": "वह घर से निकल गया।",
+    "options": [
+      "He left home",
+      "He went out from home",
+      "He has left home",
+      "He is left home"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'left' (leave-left-left).",
+    "id": 222
+  },
+  {
+    "question": "हमें जल्दी उठना चाहिए।",
+    "options": [
+      "We should wake up early",
+      "We should to wake up early",
+      "We must to wake up early",
+      "We should waking up early"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'wake up'.",
+    "id": 223
+  },
+  {
+    "question": "तुम इतना मत खाओ।",
+    "options": [
+      "Don't eat so much",
+      "Not eat so much",
+      "Don't eating so much",
+      "No eat so much"
+    ],
+    "correctIndex": 0,
+    "explanation": "Negative imperative: 'don't' + base verb.",
+    "id": 224
+  },
+  {
+    "question": "वह क्या सोच रहा है?",
+    "options": [
+      "What is he thinking?",
+      "What he is thinking?",
+      "What does he think?",
+      "What he thinks?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous question: 'what is he thinking'.",
+    "id": 225
+  },
+  {
+    "question": "मैं बहुत परेशान हूँ।",
+    "options": [
+      "I am very upset",
+      "I very upset",
+      "I have very upset",
+      "I am very upsetting"
+    ],
+    "correctIndex": 0,
+    "explanation": "'I am' + adjective 'upset'.",
+    "id": 226
+  },
+  {
+    "question": "वे शादीशुदा हैं।",
+    "options": [
+      "They are married",
+      "They have married",
+      "They married",
+      "They are marry"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Are married' describes state (adjective).",
+    "id": 227
+  },
+  {
+    "question": "हमने बहुत पैसा बचाया।",
+    "options": [
+      "We saved a lot of money",
+      "We have saved a lot of money",
+      "We save a lot of money",
+      "We were saving a lot of money"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'saved' for completed action.",
+    "id": 228
+  },
+  {
+    "question": "कृपया अपनी बात स्पष्ट करें।",
+    "options": [
+      "Please make your point clear",
+      "Please clear your point",
+      "Please explain your point",
+      "Please clarify your point"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Make your point clear' is natural expression.",
+    "id": 229
+  },
+  {
+    "question": "वह मुझसे झूठ बोला।",
+    "options": [
+      "He lied to me",
+      "He told me a lie",
+      "He lied me",
+      "He said lie to me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Lied to me' is correct (lie to someone).",
+    "id": 230
+  },
+  {
+    "question": "तुम कितनी बार कोशिश कर चुके हो?",
+    "options": [
+      "How many times have you tried?",
+      "How much times have you tried?",
+      "How many times did you try?",
+      "How many times you have tried?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for repeated actions up to now.",
+    "id": 231
+  },
+  {
+    "question": "वह अभी स्नान कर रहा है।",
+    "options": [
+      "He is taking a bath now",
+      "He takes a bath now",
+      "He has a bath now",
+      "He does a bath now"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous for action happening now.",
+    "id": 232
+  },
+  {
+    "question": "मैंने उसे चेतावनी दी।",
+    "options": [
+      "I warned him",
+      "I gave him warning",
+      "I have warned him",
+      "I did warn him"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'warned' is direct and correct.",
+    "id": 233
+  },
+  {
+    "question": "तुम यहाँ क्यों बैठे हो?",
+    "options": [
+      "Why are you sitting here?",
+      "Why you are sitting here?",
+      "Why do you sit here?",
+      "Why sitting you here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous question: 'why are you sitting'.",
+    "id": 234
+  },
+  {
+    "question": "वह बहुत ईमानदार है।",
+    "options": [
+      "He is very honest",
+      "He very honest",
+      "He are very honest",
+      "He has very honest"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'honest'.",
+    "id": 235
+  },
+  {
+    "question": "हमने एक दूसरे को गले लगाया।",
+    "options": [
+      "We hugged each other",
+      "We embraced each other",
+      "We took hug each other",
+      "We gave hug to each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Hugged each other' is natural and direct.",
+    "id": 236
+  },
+  {
+    "question": "क्या मैं थोड़ा पानी ले सकता हूँ?",
+    "options": [
+      "May I have some water?",
+      "Can I take some water?",
+      "Could I get some water?",
+      "Might I have some water?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I have' is polite request.",
+    "id": 237
+  },
+  {
+    "question": "वह ट्रेन से यात्रा करता है।",
+    "options": [
+      "He travels by train",
+      "He travels from train",
+      "He travels on train",
+      "He travels with train"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct preposition: 'travels by train'.",
+    "id": 238
+  },
+  {
+    "question": "मैं तुमसे सहमत नहीं हूँ।",
+    "options": [
+      "I don't agree with you",
+      "I not agree with you",
+      "I am not agree with you",
+      "I don't agreeing with you"
+    ],
+    "correctIndex": 0,
+    "explanation": "Negative present simple: 'don't agree'.",
+    "id": 239
+  },
+  {
+    "question": "तुमने मुझे निराश किया।",
+    "options": [
+      "You disappointed me",
+      "You let me down",
+      "You have disappointed me",
+      "You made me disappointed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'disappointed' is direct.",
+    "id": 240
+  },
+  {
+    "question": "वह अपनी किस्मत को कोस रहा था।",
+    "options": [
+      "He was cursing his luck",
+      "He cursed his luck",
+      "He is cursing his luck",
+      "He has cursed his luck"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past continuous for ongoing action in past.",
+    "id": 241
+  },
+  {
+    "question": "हमें जल्दी करनी चाहिए।",
+    "options": [
+      "We should hurry",
+      "We must to hurry",
+      "We should to hurry",
+      "We should hurrying"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'hurry'.",
+    "id": 242
+  },
+  {
+    "question": "कृपया शिकायत दर्ज कराएँ।",
+    "options": [
+      "Please register a complaint",
+      "Please file a complaint",
+      "Please lodge a complaint",
+      "Please do a complaint"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Register a complaint' is correct; all options except D are acceptable but A is standard.",
+    "id": 243
+  },
+  {
+    "question": "वह बहुत अनुभवी है।",
+    "options": [
+      "He is very experienced",
+      "He very experienced",
+      "He has very experienced",
+      "He are very experienced"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'experienced'.",
+    "id": 244
+  },
+  {
+    "question": "मैंने अपना वादा निभाया।",
+    "options": [
+      "I kept my promise",
+      "I fulfilled my promise",
+      "I completed my promise",
+      "I did my promise"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'keep a promise'.",
+    "id": 245
+  },
+  {
+    "question": "तुम कब तक यहाँ रहोगे?",
+    "options": [
+      "How long will you stay here?",
+      "When will you stay here?",
+      "How much time will you stay here?",
+      "How long you will stay here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How long' for duration; 'will you stay' is correct order.",
+    "id": 246
+  },
+  {
+    "question": "वह मुझसे ईर्ष्या करता था।",
+    "options": [
+      "He used to be jealous of me",
+      "He was jealous from me",
+      "He had jealousy on me",
+      "He would jealous me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Used to be jealous of' for past state.",
+    "id": 247
+  },
+  {
+    "question": "हमने मजा किया।",
+    "options": [
+      "We had fun",
+      "We enjoyed fun",
+      "We made fun",
+      "We did fun"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'have fun'.",
+    "id": 248
+  },
+  {
+    "question": "क्या तुम मुझे अपनी पेन दे सकते हो?",
+    "options": [
+      "Can you give me your pen?",
+      "Could you give me your pen?",
+      "Will you give me your pen?",
+      "Would you give me your pen?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you give me' is direct request.",
+    "id": 249
+  },
+  {
+    "question": "वह बहुत साफ-सुथरा है।",
+    "options": [
+      "He is very neat and clean",
+      "He very neat and clean",
+      "He are very neat and clean",
+      "He has very neat and clean"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective phrase 'neat and clean'.",
+    "id": 250
+  },
+  {
+    "question": "मैंने अपनी गलती मान ली।",
+    "options": [
+      "I admitted my mistake",
+      "I accepted my mistake",
+      "I agreed my mistake",
+      "I confessed my mistake"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Admitted my mistake' is most natural.",
+    "id": 251
+  },
+  {
+    "question": "तुम इतने चुप क्यों हो?",
+    "options": [
+      "Why are you so quiet?",
+      "Why you are so quiet?",
+      "Why do you so quiet?",
+      "Why are you so quietly?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Why are you' + adjective 'quiet'.",
+    "id": 252
+  },
+  {
+    "question": "वह दरवाजे पर दस्तक दे रहा है।",
+    "options": [
+      "He is knocking on the door",
+      "He knocks on the door",
+      "He is knocking the door",
+      "He knock the door"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present continuous 'is knocking on'.",
+    "id": 253
+  },
+  {
+    "question": "हमें इस मामले में सावधानी बरतनी चाहिए।",
+    "options": [
+      "We should be careful in this matter",
+      "We should careful in this matter",
+      "We must to be careful in this matter",
+      "We should being careful in this matter"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should be' + adjective 'careful'.",
+    "id": 254
+  },
+  {
+    "question": "कृपया यह फॉर्म भर दें।",
+    "options": [
+      "Please fill out this form",
+      "Please fill this form",
+      "Please fill in this form",
+      "Please complete this form"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Fill out' is common for forms.",
+    "id": 255
+  },
+  {
+    "question": "वह बहुत बुद्धिमान है।",
+    "options": [
+      "He is very intelligent",
+      "He very intelligent",
+      "He are very intelligent",
+      "He has very intelligent"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'intelligent'.",
+    "id": 256
+  },
+  {
+    "question": "मैंने उस पर भरोसा किया।",
+    "options": [
+      "I trusted him",
+      "I believed on him",
+      "I had trust on him",
+      "I believed him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Trusted him' is direct; 'believed him' also works but A is primary.",
+    "id": 257
+  },
+  {
+    "question": "तुमने मेरा नाम कैसे सुना?",
+    "options": [
+      "How did you hear my name?",
+      "How you heard my name?",
+      "How have you heard my name?",
+      "How do you hear my name?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'How did you hear'.",
+    "id": 258
+  },
+  {
+    "question": "वह खुद पर बहुत गर्व करता है।",
+    "options": [
+      "He is very proud of himself",
+      "He takes pride in himself",
+      "He feels proud on himself",
+      "He has proud on himself"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Proud of himself' is correct.",
+    "id": 259
+  },
+  {
+    "question": "हम एक साथ बड़े हुए।",
+    "options": [
+      "We grew up together",
+      "We grow up together",
+      "We have grown up together",
+      "We were growing up together"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'grew up' for completed past action.",
+    "id": 260
+  },
+  {
+    "question": "क्या तुम मुझे सलाह दे सकते हो?",
+    "options": [
+      "Can you give me advice?",
+      "Can you advise me?",
+      "Could you suggest me?",
+      "Can you give me a suggestion?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Give me advice' (advice is uncountable).",
+    "id": 261
+  },
+  {
+    "question": "वह बहुत आलसी है।",
+    "options": [
+      "He is very lazy",
+      "He very lazy",
+      "He are very lazy",
+      "He has very lazy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'lazy'.",
+    "id": 262
+  },
+  {
+    "question": "मैंने उसे धक्का दे दिया।",
+    "options": [
+      "I pushed him",
+      "I gave him a push",
+      "I have pushed him",
+      "I did push him"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'pushed' is direct.",
+    "id": 263
+  },
+  {
+    "question": "तुम्हें इस बारे में सोचना चाहिए।",
+    "options": [
+      "You should think about this",
+      "You should think on this",
+      "You should think over this",
+      "You should think for this"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct preposition: 'think about'.",
+    "id": 264
+  },
+  {
+    "question": "वह कक्षा में सबसे आगे बैठता है।",
+    "options": [
+      "He sits in the front of the class",
+      "He sits at the front of the class",
+      "He sits on the front of the class",
+      "He sits front of the class"
+    ],
+    "correctIndex": 0,
+    "explanation": "'In the front of' indicates inside the front area.",
+    "id": 265
+  },
+  {
+    "question": "हमने उसका समर्थन किया।",
+    "options": [
+      "We supported him",
+      "We gave him support",
+      "We have supported him",
+      "We stood by him"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'supported' is direct.",
+    "id": 266
+  },
+  {
+    "question": "कृपया शोर मत करो।",
+    "options": [
+      "Please don't make noise",
+      "Please not do noise",
+      "Please no noise",
+      "Please don't doing noise"
+    ],
+    "correctIndex": 0,
+    "explanation": "Negative imperative: 'don't make noise'.",
+    "id": 267
+  },
+  {
+    "question": "वह बहुत धार्मिक है।",
+    "options": [
+      "He is very religious",
+      "He very religious",
+      "He are very religious",
+      "He has very religious"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'religious'.",
+    "id": 268
+  },
+  {
+    "question": "मैंने उससे माफी मांगी।",
+    "options": [
+      "I apologized to him",
+      "I said sorry to him",
+      "I asked forgiveness from him",
+      "I begged pardon from him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Apologized to him' is standard.",
+    "id": 269
+  },
+  {
+    "question": "तुम कैसे हो?",
+    "options": [
+      "How are you?",
+      "How do you do?",
+      "How you are?",
+      "What's up?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How are you?' is standard greeting.",
+    "id": 270
+  },
+  {
+    "question": "वह अपने बेटे पर बहुत पैसा खर्च करता है।",
+    "options": [
+      "He spends a lot of money on his son",
+      "He spends a lot of money for his son",
+      "He spends a lot of money to his son",
+      "He spends a lot of money at his son"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct preposition: 'spend money on'.",
+    "id": 271
+  },
+  {
+    "question": "हमने एक समझौता किया।",
+    "options": [
+      "We made a deal",
+      "We did a deal",
+      "We created a deal",
+      "We formed a deal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'make a deal'.",
+    "id": 272
+  },
+  {
+    "question": "क्या तुम मुझे पहचानते हो?",
+    "options": [
+      "Do you recognize me?",
+      "Are you recognize me?",
+      "Do you recognizing me?",
+      "You recognize me?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present simple question with 'do'.",
+    "id": 273
+  },
+  {
+    "question": "वह बहुत संवेदनशील है।",
+    "options": [
+      "He is very sensitive",
+      "He very sensitive",
+      "He are very sensitive",
+      "He has very sensitive"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'sensitive'.",
+    "id": 274
+  },
+  {
+    "question": "मैंने उसकी तारीफ की।",
+    "options": [
+      "I praised him",
+      "I complimented him",
+      "I gave him praise",
+      "I appreciated him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Praised him' is direct and natural.",
+    "id": 275
+  },
+  {
+    "question": "तुम इतना क्यों परेशान हो?",
+    "options": [
+      "Why are you so worried?",
+      "Why you are so worried?",
+      "Why do you so worried?",
+      "Why are you so worrying?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Why are you' + adjective 'worried'.",
+    "id": 276
+  },
+  {
+    "question": "वह बहुत वफादार है।",
+    "options": [
+      "He is very loyal",
+      "He very loyal",
+      "He are very loyal",
+      "He has very loyal"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'loyal'.",
+    "id": 277
+  },
+  {
+    "question": "हमें एक दूसरे का सम्मान करना चाहिए।",
+    "options": [
+      "We should respect each other",
+      "We should respect to each other",
+      "We must to respect each other",
+      "We should respecting each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should respect' + 'each other' (no 'to').",
+    "id": 278
+  },
+  {
+    "question": "कृपया अपनी आवाज ऊंची करें।",
+    "options": [
+      "Please raise your voice",
+      "Please increase your voice",
+      "Please lift your voice",
+      "Please high your voice"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Raise your voice' is correct.",
+    "id": 279
+  },
+  {
+    "question": "वह बहुत साहसी है।",
+    "options": [
+      "He is very brave",
+      "He very brave",
+      "He are very brave",
+      "He has very brave"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'brave'.",
+    "id": 280
+  },
+  {
+    "question": "मैंने अपना सूटकेस पैक कर लिया।",
+    "options": [
+      "I have packed my suitcase",
+      "I packed my suitcase",
+      "I pack my suitcase",
+      "I am packing my suitcase"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for completed action.",
+    "id": 281
+  },
+  {
+    "question": "तुमने यह सब कैसे सहा?",
+    "options": [
+      "How did you bear all this?",
+      "How you bore all this?",
+      "How have you borne all this?",
+      "How do you bear all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'How did you bear'.",
+    "id": 282
+  },
+  {
+    "question": "वह बहुत मिलनसार है।",
+    "options": [
+      "He is very friendly",
+      "He very friendly",
+      "He are very friendly",
+      "He has very friendly"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'friendly'.",
+    "id": 283
+  },
+  {
+    "question": "हमने एक नई परियोजना शुरू की।",
+    "options": [
+      "We started a new project",
+      "We have started a new project",
+      "We begin a new project",
+      "We launched a new project"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'started' for completed action.",
+    "id": 284
+  },
+  {
+    "question": "क्या तुमने कभी कोशिश की है?",
+    "options": [
+      "Have you ever tried?",
+      "Did you ever try?",
+      "Do you ever try?",
+      "Had you ever tried?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect with 'ever' for life experience.",
+    "id": 285
+  },
+  {
+    "question": "वह बहुत धैर्यवान है।",
+    "options": [
+      "He is very patient",
+      "He very patient",
+      "He are very patient",
+      "He has very patient"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'patient'.",
+    "id": 286
+  },
+  {
+    "question": "मैंने उसका रास्ता रोक दिया।",
+    "options": [
+      "I blocked his way",
+      "I stopped his way",
+      "I obstructed his way",
+      "I prevented his way"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Blocked his way' is most natural.",
+    "id": 287
+  },
+  {
+    "question": "तुम बहुत अच्छे दोस्त हो।",
+    "options": [
+      "You are a very good friend",
+      "You very good friend",
+      "You is a very good friend",
+      "You are very good friend"
+    ],
+    "correctIndex": 0,
+    "explanation": "Indefinite article 'a' before singular countable noun 'friend'.",
+    "id": 288
+  },
+  {
+    "question": "वह बहुत जिम्मेदार है।",
+    "options": [
+      "He is very responsible",
+      "He very responsible",
+      "He are very responsible",
+      "He has very responsible"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'responsible'.",
+    "id": 289
+  },
+  {
+    "question": "हमने उसे नौकरी से निकाल दिया।",
+    "options": [
+      "We fired him",
+      "We dismissed him",
+      "We removed him from job",
+      "We sacked him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Fired him' is common colloquial term.",
+    "id": 290
+  },
+  {
+    "question": "कृपया यहाँ प्रतीक्षा करें।",
+    "options": [
+      "Please wait here",
+      "Please waiting here",
+      "Please to wait here",
+      "Please awaited here"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imperative: base verb 'wait'.",
+    "id": 291
+  },
+  {
+    "question": "वह बहुत विश्वसनीय है।",
+    "options": [
+      "He is very reliable",
+      "He very reliable",
+      "He are very reliable",
+      "He has very reliable"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'reliable'.",
+    "id": 292
+  },
+  {
+    "question": "मैंने उसे रोने से रोका।",
+    "options": [
+      "I stopped him from crying",
+      "I prevented him from crying",
+      "I stopped him crying",
+      "I hindered him from crying"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Stopped him from crying' is correct.",
+    "id": 293
+  },
+  {
+    "question": "तुम कितनी बार असफल हुए?",
+    "options": [
+      "How many times have you failed?",
+      "How many times did you fail?",
+      "How much times have you failed?",
+      "How many times you failed?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for experience up to now.",
+    "id": 294
+  },
+  {
+    "question": "वह बहुत सफल है।",
+    "options": [
+      "He is very successful",
+      "He very successful",
+      "He are very successful",
+      "He has very successful"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'successful'.",
+    "id": 295
+  },
+  {
+    "question": "हमने एक कार दुर्घटना देखी।",
+    "options": [
+      "We saw a car accident",
+      "We have seen a car accident",
+      "We see a car accident",
+      "We were seeing a car accident"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'saw' for completed action.",
+    "id": 296
+  },
+  {
+    "question": "क्या तुम उससे नाराज हो?",
+    "options": [
+      "Are you angry with him?",
+      "Do you angry with him?",
+      "Are you angry on him?",
+      "You are angry with him?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Are you angry with him' is correct.",
+    "id": 297
+  },
+  {
+    "question": "वह बहुत उदार है।",
+    "options": [
+      "He is very generous",
+      "He very generous",
+      "He are very generous",
+      "He has very generous"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'generous'.",
+    "id": 298
+  },
+  {
+    "question": "मैंने उसे गले लगा लिया।",
+    "options": [
+      "I hugged him",
+      "I embraced him",
+      "I gave him a hug",
+      "I held him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Hugged him' is direct and natural.",
+    "id": 299
+  },
+  {
+    "question": "तुम बहुत अच्छा नाचते हो।",
+    "options": [
+      "You dance very well",
+      "You dance very good",
+      "You are dancing very well",
+      "You do dance very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'well' with present simple 'dance'.",
+    "id": 300
+  },
+  {
+    "question": "वह बहुत आकर्षक है।",
+    "options": [
+      "She is very attractive",
+      "She very attractive",
+      "She are very attractive",
+      "She has very attractive"
+    ],
+    "correctIndex": 0,
+    "explanation": "'She is' + adjective 'attractive'.",
+    "id": 301
+  },
+  {
+    "question": "हमने एक फैसला किया।",
+    "options": [
+      "We made a decision",
+      "We took a decision",
+      "We did a decision",
+      "We created a decision"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'make a decision' (American English).",
+    "id": 302
+  },
+  {
+    "question": "कृपया मेरी बात सुनिए।",
+    "options": [
+      "Please listen to me",
+      "Please hear me",
+      "Please listen me",
+      "Please hear to me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Listen to me' is correct.",
+    "id": 303
+  },
+  {
+    "question": "वह बहुत दयालु है।",
+    "options": [
+      "He is very kind",
+      "He very kind",
+      "He are very kind",
+      "He has very kind"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'kind'.",
+    "id": 304
+  },
+  {
+    "question": "मैंने उसे एक सबक सिखाया।",
+    "options": [
+      "I taught him a lesson",
+      "I gave him a lesson",
+      "I learned him a lesson",
+      "I showed him a lesson"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Taught him a lesson' is correct.",
+    "id": 305
+  },
+  {
+    "question": "तुम कितना पैसा कमाते हो?",
+    "options": [
+      "How much money do you earn?",
+      "How many money do you earn?",
+      "How much money you earn?",
+      "How much do you earn money?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How much' for uncountable 'money'.",
+    "id": 306
+  },
+  {
+    "question": "वह बहुत ऊर्जावान है।",
+    "options": [
+      "He is very energetic",
+      "He very energetic",
+      "He are very energetic",
+      "He has very energetic"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'energetic'.",
+    "id": 307
+  },
+  {
+    "question": "हमने बहुत सारी तस्वीरें लीं।",
+    "options": [
+      "We took many photos",
+      "We clicked many photos",
+      "We have taken many photos",
+      "We captured many photos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'took' (take-took-taken).",
+    "id": 308
+  },
+  {
+    "question": "क्या तुमने उसे पहचाना?",
+    "options": [
+      "Did you recognize him?",
+      "Have you recognized him?",
+      "Do you recognize him?",
+      "Are you recognizing him?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Did you recognize'.",
+    "id": 309
+  },
+  {
+    "question": "वह बहुत रचनात्मक है।",
+    "options": [
+      "He is very creative",
+      "He very creative",
+      "He are very creative",
+      "He has very creative"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'creative'.",
+    "id": 310
+  },
+  {
+    "question": "मैंने उसे रास्ता दिखाया।",
+    "options": [
+      "I showed him the way",
+      "I guided him",
+      "I directed him",
+      "I indicated him the way"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Showed him the way' is natural.",
+    "id": 311
+  },
+  {
+    "question": "तुम कब तक प्रतीक्षा करोगे?",
+    "options": [
+      "How long will you wait?",
+      "When will you wait?",
+      "How much time will you wait?",
+      "How long you will wait?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How long' for duration.",
+    "id": 312
+  },
+  {
+    "question": "वह बहुत विनोदी है।",
+    "options": [
+      "He is very humorous",
+      "He very humorous",
+      "He are very humorous",
+      "He has very humorous"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'humorous'.",
+    "id": 313
+  },
+  {
+    "question": "हमने एक रिकॉर्ड बनाया।",
+    "options": [
+      "We set a record",
+      "We made a record",
+      "We created a record",
+      "We broke a record"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'set a record'.",
+    "id": 314
+  },
+  {
+    "question": "कृपया यहाँ खड़े न हों।",
+    "options": [
+      "Please don't stand here",
+      "Please not stand here",
+      "Please no standing here",
+      "Please don't standing here"
+    ],
+    "correctIndex": 0,
+    "explanation": "Negative imperative: 'don't stand'.",
+    "id": 315
+  },
+  {
+    "question": "वह बहुत मेधावी है।",
+    "options": [
+      "He is very talented",
+      "He very talented",
+      "He are very talented",
+      "He has very talented"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'talented'.",
+    "id": 316
+  },
+  {
+    "question": "मैंने उसे पीछे छोड़ दिया।",
+    "options": [
+      "I left him behind",
+      "I abandoned him",
+      "I left him",
+      "I forsook him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Left him behind' is natural.",
+    "id": 317
+  },
+  {
+    "question": "तुम्हें अपनी आदतें बदलनी चाहिए।",
+    "options": [
+      "You should change your habits",
+      "You should to change your habits",
+      "You must to change your habits",
+      "You should changing your habits"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'change'.",
+    "id": 318
+  },
+  {
+    "question": "वह बहुत उत्साही है।",
+    "options": [
+      "He is very enthusiastic",
+      "He very enthusiastic",
+      "He are very enthusiastic",
+      "He has very enthusiastic"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'enthusiastic'.",
+    "id": 319
+  },
+  {
+    "question": "हमने एक समस्या का सामना किया।",
+    "options": [
+      "We faced a problem",
+      "We encountered a problem",
+      "We had a problem",
+      "We met a problem"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Faced a problem' is natural.",
+    "id": 320
+  },
+  {
+    "question": "क्या तुम्हें कभी धोखा मिला है?",
+    "options": [
+      "Have you ever been cheated?",
+      "Did you ever get cheated?",
+      "Do you ever get cheated?",
+      "Had you ever been cheated?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect passive: 'have you ever been cheated'.",
+    "id": 321
+  },
+  {
+    "question": "वह बहुत सटीक है।",
+    "options": [
+      "He is very precise",
+      "He very precise",
+      "He are very precise",
+      "He has very precise"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'precise'.",
+    "id": 322
+  },
+  {
+    "question": "मैंने उसे चुनौती दी।",
+    "options": [
+      "I challenged him",
+      "I gave him a challenge",
+      "I threw a challenge at him",
+      "I dared him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Challenged him' is direct.",
+    "id": 323
+  },
+  {
+    "question": "तुम इतना क्यों जल्दी कर रहे हो?",
+    "options": [
+      "Why are you in such a hurry?",
+      "Why you are in such a hurry?",
+      "Why do you hurry so much?",
+      "Why are you hurrying so much?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Why are you in such a hurry' is idiomatic.",
+    "id": 324
+  },
+  {
+    "question": "वह बहुत सहज है।",
+    "options": [
+      "He is very simple",
+      "He very simple",
+      "He are very simple",
+      "He has very simple"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'simple'.",
+    "id": 325
+  },
+  {
+    "question": "हमने एक योजना बनाई।",
+    "options": [
+      "We made a plan",
+      "We created a plan",
+      "We formed a plan",
+      "We devised a plan"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'make a plan'.",
+    "id": 326
+  },
+  {
+    "question": "कृपया ध्यान दें।",
+    "options": [
+      "Please pay attention",
+      "Please give attention",
+      "Please take attention",
+      "Please do attention"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'pay attention'.",
+    "id": 327
+  },
+  {
+    "question": "वह बहुत स्पष्टवादी है।",
+    "options": [
+      "He is very frank",
+      "He very frank",
+      "He are very frank",
+      "He has very frank"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'frank'.",
+    "id": 328
+  },
+  {
+    "question": "मैंने उसे मौका दिया।",
+    "options": [
+      "I gave him a chance",
+      "I provided him a chance",
+      "I offered him a chance",
+      "I allowed him a chance"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Gave him a chance' is natural.",
+    "id": 329
+  },
+  {
+    "question": "तुम बहुत तेज दौड़ते हो।",
+    "options": [
+      "You run very fast",
+      "You run very fastly",
+      "You are running very fast",
+      "You do run very fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'fast' (no 'fastly').",
+    "id": 330
+  },
+  {
+    "question": "वह बहुत भरोसेमंद है।",
+    "options": [
+      "He is very trustworthy",
+      "He very trustworthy",
+      "He are very trustworthy",
+      "He has very trustworthy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'trustworthy'.",
+    "id": 331
+  },
+  {
+    "question": "हमने एक दूसरे की मदद की।",
+    "options": [
+      "We helped each other",
+      "We helped one another",
+      "We helped ourselves",
+      "We helped together"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Each other' for reciprocal actions.",
+    "id": 332
+  },
+  {
+    "question": "क्या तुम सच बोल रहे हो?",
+    "options": [
+      "Are you telling the truth?",
+      "Do you speak the truth?",
+      "Are you speaking truth?",
+      "Do you tell truth?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Are you telling the truth' is present continuous.",
+    "id": 333
+  },
+  {
+    "question": "वह बहुत परोपकारी है।",
+    "options": [
+      "He is very charitable",
+      "He very charitable",
+      "He are very charitable",
+      "He has very charitable"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'charitable'.",
+    "id": 334
+  },
+  {
+    "question": "मैंने उसे सजा दी।",
+    "options": [
+      "I punished him",
+      "I gave him punishment",
+      "I penalized him",
+      "I disciplined him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Punished him' is direct.",
+    "id": 335
+  },
+  {
+    "question": "तुम कितनी देर से यहाँ हो?",
+    "options": [
+      "How long have you been here?",
+      "How much time are you here?",
+      "Since when are you here?",
+      "How long you have been here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect continuous 'have you been' for duration.",
+    "id": 336
+  },
+  {
+    "question": "वह बहुत संतुष्ट है।",
+    "options": [
+      "He is very satisfied",
+      "He very satisfied",
+      "He are very satisfied",
+      "He has very satisfied"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'satisfied'.",
+    "id": 337
+  },
+  {
+    "question": "हमने एक दूसरे को समझा।",
+    "options": [
+      "We understood each other",
+      "We understood one another",
+      "We understand each other",
+      "We have understood each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'understood each other'.",
+    "id": 338
+  },
+  {
+    "question": "कृपया यहाँ बैठने से बचें।",
+    "options": [
+      "Please avoid sitting here",
+      "Please don't sit here",
+      "Please refrain from sitting here",
+      "Please avoid to sit here"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Avoid' + gerund 'sitting'.",
+    "id": 339
+  },
+  {
+    "question": "वह बहुत कुशल है।",
+    "options": [
+      "He is very skilled",
+      "He very skilled",
+      "He are very skilled",
+      "He has very skilled"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'skilled'.",
+    "id": 340
+  },
+  {
+    "question": "मैंने उसे आमंत्रित किया।",
+    "options": [
+      "I invited him",
+      "I called him",
+      "I summoned him",
+      "I requested him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Invited him' is correct.",
+    "id": 341
+  },
+  {
+    "question": "तुम बहुत अच्छा खाना बनाते हो।",
+    "options": [
+      "You cook very well",
+      "You cook very good",
+      "You are cooking very well",
+      "You do cook very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'well' modifies 'cook'.",
+    "id": 342
+  },
+  {
+    "question": "वह बहुत निष्ठावान है।",
+    "options": [
+      "He is very dedicated",
+      "He very dedicated",
+      "He are very dedicated",
+      "He has very dedicated"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'dedicated'.",
+    "id": 343
+  },
+  {
+    "question": "हमने एक अनुबंध किया।",
+    "options": [
+      "We made a contract",
+      "We signed a contract",
+      "We did a contract",
+      "We formed a contract"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'make a contract'.",
+    "id": 344
+  },
+  {
+    "question": "क्या तुमने उस पर भरोसा किया?",
+    "options": [
+      "Did you trust him?",
+      "Have you trusted him?",
+      "Do you trust him?",
+      "Were you trusting him?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Did you trust'.",
+    "id": 345
+  },
+  {
+    "question": "वह बहुत आभारी है।",
+    "options": [
+      "He is very grateful",
+      "He very grateful",
+      "He are very grateful",
+      "He has very grateful"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'grateful'.",
+    "id": 346
+  },
+  {
+    "question": "मैंने उसे सच बता दिया।",
+    "options": [
+      "I told him the truth",
+      "I said him the truth",
+      "I spoke him the truth",
+      "I revealed him the truth"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Told him the truth' is correct (tell someone something).",
+    "id": 347
+  },
+  {
+    "question": "तुम इतना मत सोचो।",
+    "options": [
+      "Don't think so much",
+      "Not think so much",
+      "Don't thinking so much",
+      "No think so much"
+    ],
+    "correctIndex": 0,
+    "explanation": "Negative imperative: 'don't think'.",
+    "id": 348
+  },
+  {
+    "question": "वह बहुत उपयोगी है।",
+    "options": [
+      "He is very useful",
+      "He very useful",
+      "He are very useful",
+      "He has very useful"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'useful'.",
+    "id": 349
+  },
+  {
+    "question": "हमने एक नई भाषा सीखी।",
+    "options": [
+      "We learned a new language",
+      "We have learned a new language",
+      "We learn a new language",
+      "We were learning a new language"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'learned' for completed action.",
+    "id": 350
+  },
+  {
+    "question": "कृपया अपनी टोपी उतार दें।",
+    "options": [
+      "Please take off your hat",
+      "Please remove your hat",
+      "Please put off your hat",
+      "Please un-wear your hat"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Take off' is correct phrasal verb.",
+    "id": 351
+  },
+  {
+    "question": "वह बहुत आत्मविश्वासी है।",
+    "options": [
+      "He is very confident",
+      "He very confident",
+      "He are very confident",
+      "He has very confident"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'confident'.",
+    "id": 352
+  },
+  {
+    "question": "मैंने उसे रोक लिया।",
+    "options": [
+      "I stopped him",
+      "I prevented him",
+      "I held him back",
+      "I halted him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Stopped him' is direct.",
+    "id": 353
+  },
+  {
+    "question": "तुमने यह सपना क्यों देखा?",
+    "options": [
+      "Why did you see this dream?",
+      "Why you saw this dream?",
+      "Why have you seen this dream?",
+      "Why do you see this dream?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Why did you see'.",
+    "id": 354
+  },
+  {
+    "question": "वह बहुत व्यवस्थित है।",
+    "options": [
+      "He is very organized",
+      "He very organized",
+      "He are very organized",
+      "He has very organized"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'organized'.",
+    "id": 355
+  },
+  {
+    "question": "हमने एक दूसरे को चिट्ठी लिखी।",
+    "options": [
+      "We wrote letters to each other",
+      "We wrote each other letters",
+      "We wrote letters each other",
+      "We wrote to each other letters"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wrote letters to each other' is clear.",
+    "id": 356
+  },
+  {
+    "question": "क्या तुमने अपनी गलती मानी?",
+    "options": [
+      "Did you admit your mistake?",
+      "Have you admitted your mistake?",
+      "Do you admit your mistake?",
+      "Are you admitting your mistake?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Did you admit'.",
+    "id": 357
+  },
+  {
+    "question": "वह बहुत विनम्र है।",
+    "options": [
+      "He is very humble",
+      "He very humble",
+      "He are very humble",
+      "He has very humble"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'humble'.",
+    "id": 358
+  },
+  {
+    "question": "मैंने उसे प्रभावित किया।",
+    "options": [
+      "I impressed him",
+      "I influenced him",
+      "I affected him",
+      "I moved him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Impressed him' is correct.",
+    "id": 359
+  },
+  {
+    "question": "तुम कितना पानी पीते हो?",
+    "options": [
+      "How much water do you drink?",
+      "How many water do you drink?",
+      "How much water you drink?",
+      "How much do you drink water?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How much' for uncountable 'water'.",
+    "id": 360
+  },
+  {
+    "question": "वह बहुत आदरणीय है।",
+    "options": [
+      "He is very respectable",
+      "He very respectable",
+      "He are very respectable",
+      "He has very respectable"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'respectable'.",
+    "id": 361
+  },
+  {
+    "question": "हमने एक गलती सुधारी।",
+    "options": [
+      "We corrected a mistake",
+      "We fixed a mistake",
+      "We rectified a mistake",
+      "We amended a mistake"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Corrected a mistake' is natural.",
+    "id": 362
+  },
+  {
+    "question": "कृपया अपना परिचय दें।",
+    "options": [
+      "Please introduce yourself",
+      "Please give your introduction",
+      "Please tell about yourself",
+      "Please present yourself"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Introduce yourself' is standard.",
+    "id": 363
+  },
+  {
+    "question": "वह बहुत सहनशील है।",
+    "options": [
+      "He is very tolerant",
+      "He very tolerant",
+      "He are very tolerant",
+      "He has very tolerant"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'tolerant'.",
+    "id": 364
+  },
+  {
+    "question": "मैंने उसे नौकरी दिलवाई।",
+    "options": [
+      "I got him a job",
+      "I arranged a job for him",
+      "I found him a job",
+      "I provided him a job"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Got him a job' is natural colloquial.",
+    "id": 365
+  },
+  {
+    "question": "तुम्हें अपनी ताकत पहचाननी चाहिए।",
+    "options": [
+      "You should recognize your strength",
+      "You should to recognize your strength",
+      "You must to recognize your strength",
+      "You should recognizing your strength"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'recognize'.",
+    "id": 366
+  },
+  {
+    "question": "वह बहुत संगठित है।",
+    "options": [
+      "He is very systematic",
+      "He very systematic",
+      "He are very systematic",
+      "He has very systematic"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'systematic'.",
+    "id": 367
+  },
+  {
+    "question": "हमने एक बाधा पार की।",
+    "options": [
+      "We crossed an obstacle",
+      "We overcame an obstacle",
+      "We cleared an obstacle",
+      "We passed an obstacle"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Crossed an obstacle' or 'overcame' are fine.",
+    "id": 368
+  },
+  {
+    "question": "क्या तुमने कभी यात्रा की है?",
+    "options": [
+      "Have you ever traveled?",
+      "Did you ever travel?",
+      "Do you ever travel?",
+      "Had you ever traveled?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect with 'ever' for life experience.",
+    "id": 369
+  },
+  {
+    "question": "वह बहुत सावधान है।",
+    "options": [
+      "He is very careful",
+      "He very careful",
+      "He are very careful",
+      "He has very careful"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'careful'.",
+    "id": 370
+  },
+  {
+    "question": "मैंने उसे रिझाया।",
+    "options": [
+      "I pleased him",
+      "I satisfied him",
+      "I delighted him",
+      "I made him happy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Pleased him' is correct.",
+    "id": 371
+  },
+  {
+    "question": "तुम बहुत अच्छा लिखते हो।",
+    "options": [
+      "You write very well",
+      "You write very good",
+      "You are writing very well",
+      "You do write very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'well' modifies 'write'.",
+    "id": 372
+  },
+  {
+    "question": "वह बहुत दूरदर्शी है।",
+    "options": [
+      "He is very far-sighted",
+      "He very far-sighted",
+      "He are very far-sighted",
+      "He has very far-sighted"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'far-sighted'.",
+    "id": 373
+  },
+  {
+    "question": "हमने एक समझौता कर लिया।",
+    "options": [
+      "We reached an agreement",
+      "We made an agreement",
+      "We did an agreement",
+      "We formed an agreement"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'reach an agreement'.",
+    "id": 374
+  },
+  {
+    "question": "कृपया अपना सामान संभालें।",
+    "options": [
+      "Please take care of your luggage",
+      "Please handle your luggage",
+      "Please manage your luggage",
+      "Please look after your luggage"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Take care of' is natural.",
+    "id": 375
+  },
+  {
+    "question": "वह बहुत कल्पनाशील है।",
+    "options": [
+      "He is very imaginative",
+      "He very imaginative",
+      "He are very imaginative",
+      "He has very imaginative"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'imaginative'.",
+    "id": 376
+  },
+  {
+    "question": "मैंने उसे मना लिया।",
+    "options": [
+      "I convinced him",
+      "I persuaded him",
+      "I made him agree",
+      "I won him over"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Convinced him' is direct.",
+    "id": 377
+  },
+  {
+    "question": "तुम इतने चिंतित क्यों हो?",
+    "options": [
+      "Why are you so worried?",
+      "Why you are so worried?",
+      "Why do you so worried?",
+      "Why are you so worrying?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Why are you' + adjective 'worried'.",
+    "id": 378
+  },
+  {
+    "question": "वह बहुत उत्सुक है।",
+    "options": [
+      "He is very curious",
+      "He very curious",
+      "He are very curious",
+      "He has very curious"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'curious'.",
+    "id": 379
+  },
+  {
+    "question": "हमने एक सवाल उठाया।",
+    "options": [
+      "We raised a question",
+      "We asked a question",
+      "We posed a question",
+      "We brought up a question"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Raised a question' is natural.",
+    "id": 380
+  },
+  {
+    "question": "क्या तुमने उसे निराश किया?",
+    "options": [
+      "Did you disappoint him?",
+      "Have you disappointed him?",
+      "Do you disappoint him?",
+      "Are you disappointing him?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Did you disappoint'.",
+    "id": 381
+  },
+  {
+    "question": "वह बहुत आज्ञाकारी है।",
+    "options": [
+      "He is very obedient",
+      "He very obedient",
+      "He are very obedient",
+      "He has very obedient"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'obedient'.",
+    "id": 382
+  },
+  {
+    "question": "मैंने उसे शर्मिंदा किया।",
+    "options": [
+      "I embarrassed him",
+      "I shamed him",
+      "I humiliated him",
+      "I made him feel ashamed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Embarrassed him' is correct.",
+    "id": 383
+  },
+  {
+    "question": "तुम बहुत अच्छा खेलते हो।",
+    "options": [
+      "You play very well",
+      "You play very good",
+      "You are playing very well",
+      "You do play very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'well' modifies 'play'.",
+    "id": 384
+  },
+  {
+    "question": "वह बहुत निडर है।",
+    "options": [
+      "He is very fearless",
+      "He very fearless",
+      "He are very fearless",
+      "He has very fearless"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'fearless'.",
+    "id": 385
+  },
+  {
+    "question": "हमने एक रिकॉर्ड तोड़ा।",
+    "options": [
+      "We broke a record",
+      "We shattered a record",
+      "We smashed a record",
+      "We beat a record"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collocation: 'break a record'.",
+    "id": 386
+  },
+  {
+    "question": "कृपया अपनी गति धीमी करें।",
+    "options": [
+      "Please slow down",
+      "Please reduce your speed",
+      "Please go slow",
+      "Please decrease speed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Slow down' is natural imperative.",
+    "id": 387
+  },
+  {
+    "question": "वह बहुत कृतज्ञ है।",
+    "options": [
+      "He is very thankful",
+      "He very thankful",
+      "He are very thankful",
+      "He has very thankful"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'thankful'.",
+    "id": 388
+  },
+  {
+    "question": "मैंने उसे हरा दिया।",
+    "options": [
+      "I defeated him",
+      "I beat him",
+      "I won over him",
+      "I conquered him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Defeated him' is standard.",
+    "id": 389
+  },
+  {
+    "question": "तुम कितनी बार आ चुके हो?",
+    "options": [
+      "How many times have you come?",
+      "How many times did you come?",
+      "How much times have you come?",
+      "How many times you have come?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect for experience up to now.",
+    "id": 390
+  },
+  {
+    "question": "वह बहुत सहृदय है।",
+    "options": [
+      "He is very kind-hearted",
+      "He very kind-hearted",
+      "He are very kind-hearted",
+      "He has very kind-hearted"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'kind-hearted'.",
+    "id": 391
+  },
+  {
+    "question": "हमने एक दूसरे का समर्थन किया।",
+    "options": [
+      "We supported each other",
+      "We backed each other",
+      "We stood by each other",
+      "We helped each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Supported each other' is direct.",
+    "id": 392
+  },
+  {
+    "question": "क्या तुमने कभी धोखा दिया है?",
+    "options": [
+      "Have you ever cheated?",
+      "Did you ever cheat?",
+      "Do you ever cheat?",
+      "Had you ever cheated?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect with 'ever' for life experience.",
+    "id": 393
+  },
+  {
+    "question": "वह बहुत लचीला है।",
+    "options": [
+      "He is very flexible",
+      "He very flexible",
+      "He are very flexible",
+      "He has very flexible"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'flexible'.",
+    "id": 394
+  },
+  {
+    "question": "मैंने उसे सिखाया।",
+    "options": [
+      "I taught him",
+      "I instructed him",
+      "I educated him",
+      "I trained him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Taught him' is direct.",
+    "id": 395
+  },
+  {
+    "question": "तुम बहुत मेहनती हो।",
+    "options": [
+      "You are very hardworking",
+      "You very hardworking",
+      "You is very hardworking",
+      "You have very hardworking"
+    ],
+    "correctIndex": 0,
+    "explanation": "'You are' + adjective 'hardworking'.",
+    "id": 396
+  },
+  {
+    "question": "वह बहुत सहानुभूतिशील है।",
+    "options": [
+      "He is very empathetic",
+      "He very empathetic",
+      "He are very empathetic",
+      "He has very empathetic"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'empathetic'.",
+    "id": 397
+  },
+  {
+    "question": "हमने एक नियम तोड़ा।",
+    "options": [
+      "We broke a rule",
+      "We violated a rule",
+      "We disobeyed a rule",
+      "We defied a rule"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Broke a rule' is common.",
+    "id": 398
+  },
+  {
+    "question": "कृपया अपना हाथ उठाएँ।",
+    "options": [
+      "Please raise your hand",
+      "Please lift your hand",
+      "Please put up your hand",
+      "Please show your hand"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Raise your hand' is standard.",
+    "id": 399
+  },
+  {
+    "question": "वह बहुत स्थिर है।",
+    "options": [
+      "He is very stable",
+      "He very stable",
+      "He are very stable",
+      "He has very stable"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'stable'.",
+    "id": 400
+  },
+  {
+    "question": "मैंने उसे उकसाया।",
+    "options": [
+      "I provoked him",
+      "I instigated him",
+      "I incited him",
+      "I egged him on"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Provoked him' is correct.",
+    "id": 401
+  },
+  {
+    "question": "तुमने यह काम कैसे पूरा किया?",
+    "options": [
+      "How did you complete this work?",
+      "How you completed this work?",
+      "How have you completed this work?",
+      "How do you complete this work?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'How did you complete'.",
+    "id": 402
+  },
+  {
+    "question": "वह बहुत प्रभावशाली है।",
+    "options": [
+      "He is very influential",
+      "He very influential",
+      "He are very influential",
+      "He has very influential"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'influential'.",
+    "id": 403
+  },
+  {
+    "question": "हमने एक दूसरे को गले लगाया।",
+    "options": [
+      "We hugged each other",
+      "We embraced each other",
+      "We held each other",
+      "We cuddled each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Hugged each other' is natural.",
+    "id": 404
+  },
+  {
+    "question": "क्या तुमने उससे माफी मांगी?",
+    "options": [
+      "Did you apologize to him?",
+      "Have you apologized to him?",
+      "Do you apologize to him?",
+      "Are you apologizing to him?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Did you apologize'.",
+    "id": 405
+  },
+  {
+    "question": "वह बहुत स्पष्ट है।",
+    "options": [
+      "He is very clear",
+      "He very clear",
+      "He are very clear",
+      "He has very clear"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'clear'.",
+    "id": 406
+  },
+  {
+    "question": "मैंने उसे चुप कराया।",
+    "options": [
+      "I silenced him",
+      "I made him quiet",
+      "I shut him up",
+      "I hushed him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Silenced him' is formal and correct.",
+    "id": 407
+  },
+  {
+    "question": "तुम बहुत अच्छा गाते हो।",
+    "options": [
+      "You sing very well",
+      "You sing very good",
+      "You are singing very well",
+      "You do sing very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'well' modifies 'sing'.",
+    "id": 408
+  },
+  {
+    "question": "वह बहुत तार्किक है।",
+    "options": [
+      "He is very logical",
+      "He very logical",
+      "He are very logical",
+      "He has very logical"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'logical'.",
+    "id": 409
+  },
+  {
+    "question": "हमने एक उपलब्धि हासिल की।",
+    "options": [
+      "We achieved an achievement",
+      "We accomplished a feat",
+      "We attained a goal",
+      "We reached a milestone"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Achieved' with 'achievement' is correct but redundant; still acceptable.",
+    "id": 410
+  },
+  {
+    "question": "कृपया अपनी कुर्सी आगे बढ़ाएँ।",
+    "options": [
+      "Please move your chair forward",
+      "Please push your chair forward",
+      "Please shift your chair forward",
+      "Please bring your chair forward"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Move your chair forward' is natural.",
+    "id": 411
+  },
+  {
+    "question": "वह बहुत नेक है।",
+    "options": [
+      "He is very noble",
+      "He very noble",
+      "He are very noble",
+      "He has very noble"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'noble'.",
+    "id": 412
+  },
+  {
+    "question": "मैंने उसे डांटा।",
+    "options": [
+      "I scolded him",
+      "I reprimanded him",
+      "I rebuked him",
+      "I told him off"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Scolded him' is common.",
+    "id": 413
+  },
+  {
+    "question": "तुम्हें अपनी जीभ पर नियंत्रण रखना चाहिए।",
+    "options": [
+      "You should control your tongue",
+      "You should to control your tongue",
+      "You must to control your tongue",
+      "You should controlling your tongue"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'control'.",
+    "id": 414
+  },
+  {
+    "question": "वह बहुत साहसी है।",
+    "options": [
+      "He is very courageous",
+      "He very courageous",
+      "He are very courageous",
+      "He has very courageous"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'courageous'.",
+    "id": 415
+  },
+  {
+    "question": "हमने एक यात्रा पूरी की।",
+    "options": [
+      "We completed a journey",
+      "We finished a journey",
+      "We ended a journey",
+      "We concluded a journey"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Completed a journey' is natural.",
+    "id": 416
+  },
+  {
+    "question": "क्या तुमने कभी पछतावा किया है?",
+    "options": [
+      "Have you ever regretted?",
+      "Did you ever regret?",
+      "Do you ever regret?",
+      "Had you ever regretted?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect with 'ever' for life experience.",
+    "id": 417
+  },
+  {
+    "question": "वह बहुत मिलनसार है।",
+    "options": [
+      "He is very sociable",
+      "He very sociable",
+      "He are very sociable",
+      "He has very sociable"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'sociable'.",
+    "id": 418
+  },
+  {
+    "question": "मैंने उसे सुलझाया।",
+    "options": [
+      "I resolved it for him",
+      "I solved it for him",
+      "I fixed it for him",
+      "I sorted it out for him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Resolved it for him' is appropriate.",
+    "id": 419
+  },
+  {
+    "question": "तुम कितनी किताबें पढ़ते हो?",
+    "options": [
+      "How many books do you read?",
+      "How much books do you read?",
+      "How many books you read?",
+      "How many do you read books?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How many' for countable nouns.",
+    "id": 420
+  },
+  {
+    "question": "वह बहुत विचारशील है।",
+    "options": [
+      "He is very thoughtful",
+      "He very thoughtful",
+      "He are very thoughtful",
+      "He has very thoughtful"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'thoughtful'.",
+    "id": 421
+  },
+  {
+    "question": "हमने एक दूसरे का ध्यान रखा।",
+    "options": [
+      "We took care of each other",
+      "We cared for each other",
+      "We looked after each other",
+      "We attended to each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Took care of each other' is natural.",
+    "id": 422
+  },
+  {
+    "question": "कृपया अपनी भाषा सुधारें।",
+    "options": [
+      "Please improve your language",
+      "Please better your language",
+      "Please refine your language",
+      "Please upgrade your language"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Improve your language' is correct.",
+    "id": 423
+  },
+  {
+    "question": "वह बहुत सफाई पसंद है।",
+    "options": [
+      "He is very neat",
+      "He very neat",
+      "He are very neat",
+      "He has very neat"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'neat'.",
+    "id": 424
+  },
+  {
+    "question": "मैंने उसे बुलाया।",
+    "options": [
+      "I called him",
+      "I summoned him",
+      "I invited him",
+      "I phoned him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Called him' is direct.",
+    "id": 425
+  },
+  {
+    "question": "तुम बहुत धीरे चलते हो।",
+    "options": [
+      "You walk very slowly",
+      "You walk very slow",
+      "You are walking very slowly",
+      "You do walk very slow"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adverb 'slowly' modifies 'walk'.",
+    "id": 426
+  },
+  {
+    "question": "वह बहुत शांत है।",
+    "options": [
+      "He is very calm",
+      "He very calm",
+      "He are very calm",
+      "He has very calm"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'calm'.",
+    "id": 427
+  },
+  {
+    "question": "हमने एक दूसरे के लिए त्याग किया।",
+    "options": [
+      "We sacrificed for each other",
+      "We gave up for each other",
+      "We made sacrifices for each other",
+      "We offered sacrifices for each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sacrificed for each other' is direct.",
+    "id": 428
+  },
+  {
+    "question": "क्या तुमने उसकी बात सुनी?",
+    "options": [
+      "Did you listen to him?",
+      "Have you listened to him?",
+      "Do you listen to him?",
+      "Were you listening to him?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Did you listen'.",
+    "id": 429
+  },
+  {
+    "question": "वह बहुत सकारात्मक है।",
+    "options": [
+      "He is very positive",
+      "He very positive",
+      "He are very positive",
+      "He has very positive"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'positive'.",
+    "id": 430
+  },
+  {
+    "question": "मैंने उसे साफ मना कर दिया।",
+    "options": [
+      "I clearly refused him",
+      "I rejected him clearly",
+      "I denied him clearly",
+      "I turned him down clearly"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Clearly refused him' is direct.",
+    "id": 431
+  },
+  {
+    "question": "तुम्हें अपनी आदतें सुधारनी चाहिए।",
+    "options": [
+      "You should improve your habits",
+      "You should to improve your habits",
+      "You must to improve your habits",
+      "You should improving your habits"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'improve'.",
+    "id": 432
+  },
+  {
+    "question": "वह बहुत समझदार है।",
+    "options": [
+      "He is very wise",
+      "He very wise",
+      "He are very wise",
+      "He has very wise"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'wise'.",
+    "id": 433
+  },
+  {
+    "question": "हमने एक दूसरे को माफ कर दिया।",
+    "options": [
+      "We forgave each other",
+      "We pardoned each other",
+      "We excused each other",
+      "We forgave one another"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Forgave each other' is correct (forgive-forgave-forgiven).",
+    "id": 434
+  },
+  {
+    "question": "कृपया अपना आसन ग्रहण करें।",
+    "options": [
+      "Please take your seat",
+      "Please sit on your seat",
+      "Please occupy your seat",
+      "Please be seated"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Take your seat' is standard.",
+    "id": 435
+  },
+  {
+    "question": "वह बहुत रूढ़िवादी है।",
+    "options": [
+      "He is very orthodox",
+      "He very orthodox",
+      "He are very orthodox",
+      "He has very orthodox"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'orthodox'.",
+    "id": 436
+  },
+  {
+    "question": "मैंने उसे उदाहरण दिया।",
+    "options": [
+      "I gave him an example",
+      "I showed him an example",
+      "I provided him an example",
+      "I set an example for him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Gave him an example' is natural.",
+    "id": 437
+  },
+  {
+    "question": "तुम कितना समय लगाते हो?",
+    "options": [
+      "How much time do you take?",
+      "How many time do you take?",
+      "How much time you take?",
+      "How much do you take time?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How much time' for uncountable 'time'.",
+    "id": 438
+  },
+  {
+    "question": "वह बहुत आधुनिक है।",
+    "options": [
+      "He is very modern",
+      "He very modern",
+      "He are very modern",
+      "He has very modern"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'modern'.",
+    "id": 439
+  },
+  {
+    "question": "हमने एक दूसरे के साथ समय बिताया।",
+    "options": [
+      "We spent time with each other",
+      "We passed time with each other",
+      "We enjoyed time with each other",
+      "We had time with each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Spent time with each other' is natural.",
+    "id": 440
+  },
+  {
+    "question": "क्या तुमने उसकी मदद की?",
+    "options": [
+      "Did you help him?",
+      "Have you helped him?",
+      "Do you help him?",
+      "Were you helping him?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Did you help'.",
+    "id": 441
+  },
+  {
+    "question": "वह बहुत स्पष्टवादी है।",
+    "options": [
+      "He is very outspoken",
+      "He very outspoken",
+      "He are very outspoken",
+      "He has very outspoken"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'outspoken'.",
+    "id": 442
+  },
+  {
+    "question": "मैंने उसे समझा दिया।",
+    "options": [
+      "I made him understand",
+      "I explained to him",
+      "I convinced him",
+      "I clarified to him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Made him understand' is natural.",
+    "id": 443
+  },
+  {
+    "question": "तुम बहुत सुंदर लगते हो।",
+    "options": [
+      "You look very beautiful",
+      "You are looking very beautiful",
+      "You seem very beautiful",
+      "You appear very beautiful"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Look' + adjective for appearance.",
+    "id": 444
+  },
+  {
+    "question": "वह बहुत मज़ाकिया है।",
+    "options": [
+      "He is very funny",
+      "He very funny",
+      "He are very funny",
+      "He has very funny"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'funny'.",
+    "id": 445
+  },
+  {
+    "question": "हमने एक दूसरे को पत्र लिखे।",
+    "options": [
+      "We wrote letters to each other",
+      "We wrote each other letters",
+      "We wrote letters each other",
+      "We wrote to each other letters"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wrote letters to each other' is clear.",
+    "id": 446
+  },
+  {
+    "question": "कृपया अपनी जीभ संभाल कर रखें।",
+    "options": [
+      "Please watch your tongue",
+      "Please control your tongue",
+      "Please mind your tongue",
+      "Please hold your tongue"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Watch your tongue' is idiomatic.",
+    "id": 447
+  },
+  {
+    "question": "वह बहुत निजी है।",
+    "options": [
+      "He is very private",
+      "He very private",
+      "He are very private",
+      "He has very private"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'private'.",
+    "id": 448
+  },
+  {
+    "question": "मैंने उसे हतोत्साहित किया।",
+    "options": [
+      "I discouraged him",
+      "I demotivated him",
+      "I disheartened him",
+      "I put him off"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Discouraged him' is correct.",
+    "id": 449
+  },
+  {
+    "question": "तुम कितनी दूर जाओगे?",
+    "options": [
+      "How far will you go?",
+      "How much far will you go?",
+      "How far you will go?",
+      "How far will go you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How far' for distance.",
+    "id": 450
+  },
+  {
+    "question": "वह बहुत प्रेरित है।",
+    "options": [
+      "He is very motivated",
+      "He very motivated",
+      "He are very motivated",
+      "He has very motivated"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'motivated'.",
+    "id": 451
+  },
+  {
+    "question": "हमने एक दूसरे की इज्जत की।",
+    "options": [
+      "We respected each other",
+      "We honored each other",
+      "We esteemed each other",
+      "We valued each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Respected each other' is direct.",
+    "id": 452
+  },
+  {
+    "question": "क्या तुमने उसका साथ दिया?",
+    "options": [
+      "Did you support him?",
+      "Have you supported him?",
+      "Do you support him?",
+      "Were you supporting him?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Did you support'.",
+    "id": 453
+  },
+  {
+    "question": "वह बहुत शर्मीला है।",
+    "options": [
+      "He is very shy",
+      "He very shy",
+      "He are very shy",
+      "He has very shy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'shy'.",
+    "id": 454
+  },
+  {
+    "question": "मैंने उसे प्रोत्साहित किया।",
+    "options": [
+      "I encouraged him",
+      "I motivated him",
+      "I inspired him",
+      "I urged him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Encouraged him' is correct.",
+    "id": 455
+  },
+  {
+    "question": "तुम्हें अपनी सीमाएं पता होनी चाहिए।",
+    "options": [
+      "You should know your limits",
+      "You should to know your limits",
+      "You must to know your limits",
+      "You should knowing your limits"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'know'.",
+    "id": 456
+  },
+  {
+    "question": "वह बहुत गंभीर है।",
+    "options": [
+      "He is very serious",
+      "He very serious",
+      "He are very serious",
+      "He has very serious"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'serious'.",
+    "id": 457
+  },
+  {
+    "question": "हमने एक दूसरे को समय दिया।",
+    "options": [
+      "We gave each other time",
+      "We provided each other time",
+      "We offered each other time",
+      "We allotted each other time"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Gave each other time' is natural.",
+    "id": 458
+  },
+  {
+    "question": "कृपया अपनी गलती स्वीकार करें।",
+    "options": [
+      "Please accept your mistake",
+      "Please admit your mistake",
+      "Please acknowledge your mistake",
+      "Please confess your mistake"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Accept your mistake' is common.",
+    "id": 459
+  },
+  {
+    "question": "वह बहुत महत्वाकांक्षी है।",
+    "options": [
+      "He is very ambitious",
+      "He very ambitious",
+      "He are very ambitious",
+      "He has very ambitious"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'ambitious'.",
+    "id": 460
+  },
+  {
+    "question": "मैंने उसे ढूंढ लिया।",
+    "options": [
+      "I found him",
+      "I located him",
+      "I traced him",
+      "I discovered him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Found him' is direct.",
+    "id": 461
+  },
+  {
+    "question": "तुम कितनी तेजी से दौड़ते हो?",
+    "options": [
+      "How fast do you run?",
+      "How much fast do you run?",
+      "How fast you run?",
+      "How fast do run you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How fast' for speed.",
+    "id": 462
+  },
+  {
+    "question": "वह बहुत व्यावहारिक है।",
+    "options": [
+      "He is very practical",
+      "He very practical",
+      "He are very practical",
+      "He has very practical"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'practical'.",
+    "id": 463
+  },
+  {
+    "question": "हमने एक दूसरे को फोन किया।",
+    "options": [
+      "We called each other",
+      "We phoned each other",
+      "We rang each other",
+      "We telephoned each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Called each other' is natural.",
+    "id": 464
+  },
+  {
+    "question": "क्या तुमने कभी झूठ बोला है?",
+    "options": [
+      "Have you ever lied?",
+      "Did you ever lie?",
+      "Do you ever lie?",
+      "Had you ever lied?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect with 'ever' for life experience.",
+    "id": 465
+  },
+  {
+    "question": "वह बहुत नियमित है।",
+    "options": [
+      "He is very regular",
+      "He very regular",
+      "He are very regular",
+      "He has very regular"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'regular'.",
+    "id": 466
+  },
+  {
+    "question": "मैंने उसे बदल दिया।",
+    "options": [
+      "I changed him",
+      "I transformed him",
+      "I altered him",
+      "I modified him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Changed him' is direct.",
+    "id": 467
+  },
+  {
+    "question": "तुम बहुत अच्छी माँ हो।",
+    "options": [
+      "You are a very good mother",
+      "You very good mother",
+      "You is a very good mother",
+      "You are very good mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "Indefinite article 'a' before singular noun 'mother'.",
+    "id": 468
+  },
+  {
+    "question": "वह बहुत सुसंस्कृत है।",
+    "options": [
+      "He is very cultured",
+      "He very cultured",
+      "He are very cultured",
+      "He has very cultured"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'cultured'.",
+    "id": 469
+  },
+  {
+    "question": "हमने एक दूसरे की कमियाँ पूरी कीं।",
+    "options": [
+      "We completed each other's shortcomings",
+      "We filled each other's gaps",
+      "We compensated for each other",
+      "We made up for each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Completed each other's shortcomings' is acceptable.",
+    "id": 470
+  },
+  {
+    "question": "कृपया अपना वादा याद रखें।",
+    "options": [
+      "Please remember your promise",
+      "Please keep your promise in mind",
+      "Please recall your promise",
+      "Please don't forget your promise"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Remember your promise' is natural.",
+    "id": 471
+  },
+  {
+    "question": "वह बहुत सम्मानित है।",
+    "options": [
+      "He is very respected",
+      "He very respected",
+      "He are very respected",
+      "He has very respected"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'respected'.",
+    "id": 472
+  },
+  {
+    "question": "मैंने उसे सज़ा दी।",
+    "options": [
+      "I punished him",
+      "I penalized him",
+      "I disciplined him",
+      "I gave him punishment"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Punished him' is direct.",
+    "id": 473
+  },
+  {
+    "question": "तुम कितनी बार कोशिश करोगे?",
+    "options": [
+      "How many times will you try?",
+      "How much times will you try?",
+      "How many times you will try?",
+      "How many times will try you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future question: 'How many times will you try'.",
+    "id": 474
+  },
+  {
+    "question": "वह बहुत मौलिक है।",
+    "options": [
+      "He is very original",
+      "He very original",
+      "He are very original",
+      "He has very original"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'original'.",
+    "id": 475
+  },
+  {
+    "question": "हमने एक दूसरे को अपनाया।",
+    "options": [
+      "We accepted each other",
+      "We adopted each other",
+      "We embraced each other",
+      "We took each other in"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Accepted each other' is appropriate.",
+    "id": 476
+  },
+  {
+    "question": "क्या तुमने उसका विरोध किया?",
+    "options": [
+      "Did you oppose him?",
+      "Have you opposed him?",
+      "Do you oppose him?",
+      "Were you opposing him?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Did you oppose'.",
+    "id": 477
+  },
+  {
+    "question": "वह बहुत विशिष्ट है।",
+    "options": [
+      "He is very special",
+      "He very special",
+      "He are very special",
+      "He has very special"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'special'.",
+    "id": 478
+  },
+  {
+    "question": "मैंने उसे भ्रमित किया।",
+    "options": [
+      "I confused him",
+      "I puzzled him",
+      "I bewildered him",
+      "I muddled him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Confused him' is direct.",
+    "id": 479
+  },
+  {
+    "question": "तुम्हें अपनी ज़िम्मेदारी निभानी चाहिए।",
+    "options": [
+      "You should fulfill your responsibility",
+      "You should to fulfill your responsibility",
+      "You must to fulfill your responsibility",
+      "You should fulfilling your responsibility"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'fulfill'.",
+    "id": 480
+  },
+  {
+    "question": "वह बहुत विद्वान है।",
+    "options": [
+      "He is very scholarly",
+      "He very scholarly",
+      "He are very scholarly",
+      "He has very scholarly"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'scholarly'.",
+    "id": 481
+  },
+  {
+    "question": "हमने एक दूसरे की रक्षा की।",
+    "options": [
+      "We protected each other",
+      "We defended each other",
+      "We safeguarded each other",
+      "We shielded each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Protected each other' is natural.",
+    "id": 482
+  },
+  {
+    "question": "कृपया अपनी टाई सीधी करें।",
+    "options": [
+      "Please straighten your tie",
+      "Please adjust your tie",
+      "Please fix your tie",
+      "Please set your tie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Straighten your tie' is correct.",
+    "id": 483
+  },
+  {
+    "question": "वह बहुत उत्पादक है।",
+    "options": [
+      "He is very productive",
+      "He very productive",
+      "He are very productive",
+      "He has very productive"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'productive'.",
+    "id": 484
+  },
+  {
+    "question": "मैंने उसे सीमित कर दिया।",
+    "options": [
+      "I limited him",
+      "I restricted him",
+      "I constrained him",
+      "I confined him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Limited him' is direct.",
+    "id": 485
+  },
+  {
+    "question": "तुम कितनी ऊंची छलांग लगाते हो?",
+    "options": [
+      "How high do you jump?",
+      "How much high do you jump?",
+      "How high you jump?",
+      "How high do jump you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How high' for height.",
+    "id": 486
+  },
+  {
+    "question": "वह बहुत सुनियोजित है।",
+    "options": [
+      "He is very well-planned",
+      "He very well-planned",
+      "He are very well-planned",
+      "He has very well-planned"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'well-planned'.",
+    "id": 487
+  },
+  {
+    "question": "हमने एक दूसरे को खो दिया।",
+    "options": [
+      "We lost each other",
+      "We missed each other",
+      "We misplaced each other",
+      "We forgot each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Lost each other' is correct.",
+    "id": 488
+  },
+  {
+    "question": "क्या तुमने उसका सामना किया?",
+    "options": [
+      "Did you face him?",
+      "Have you faced him?",
+      "Do you face him?",
+      "Were you facing him?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple question: 'Did you face'.",
+    "id": 489
+  },
+  {
+    "question": "वह बहुत उच्च कोटि का है।",
+    "options": [
+      "He is very high-quality",
+      "He very high-quality",
+      "He are very high-quality",
+      "He has very high-quality"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'high-quality'.",
+    "id": 490
+  },
+  {
+    "question": "मैंने उसे खुश कर दिया।",
+    "options": [
+      "I made him happy",
+      "I pleased him",
+      "I delighted him",
+      "I cheered him up"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Made him happy' is natural.",
+    "id": 491
+  },
+  {
+    "question": "तुम्हें अपनी कला निखारनी चाहिए।",
+    "options": [
+      "You should polish your art",
+      "You should to polish your art",
+      "You must to polish your art",
+      "You should polishing your art"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' + base verb 'polish'.",
+    "id": 492
+  },
+  {
+    "question": "वह बहुत सूक्ष्म है।",
+    "options": [
+      "He is very subtle",
+      "He very subtle",
+      "He are very subtle",
+      "He has very subtle"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'subtle'.",
+    "id": 493
+  },
+  {
+    "question": "हमने एक दूसरे को सलाह दी।",
+    "options": [
+      "We advised each other",
+      "We gave advice to each other",
+      "We suggested each other",
+      "We recommended each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Advised each other' is direct.",
+    "id": 494
+  },
+  {
+    "question": "कृपया अपनी गलती से सीखें।",
+    "options": [
+      "Please learn from your mistake",
+      "Please take lesson from your mistake",
+      "Please get knowledge from your mistake",
+      "Please understand your mistake"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Learn from your mistake' is idiomatic.",
+    "id": 495
+  },
+  {
+    "question": "वह बहुत सजग है।",
+    "options": [
+      "He is very alert",
+      "He very alert",
+      "He are very alert",
+      "He has very alert"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'alert'.",
+    "id": 496
+  },
+  {
+    "question": "मैंने उसे बेअसर कर दिया।",
+    "options": [
+      "I neutralized him",
+      "I defused him",
+      "I disabled him",
+      "I disarmed him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neutralized him' is correct.",
+    "id": 497
+  },
+  {
+    "question": "तुम कितनी गहराई तक जाओगे?",
+    "options": [
+      "How deep will you go?",
+      "How much deep will you go?",
+      "How deep you will go?",
+      "How deep will go you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How deep' for depth.",
+    "id": 498
+  },
+  {
+    "question": "वह बहुत सारगर्भित है।",
+    "options": [
+      "He is very meaningful",
+      "He very meaningful",
+      "He are very meaningful",
+      "He has very meaningful"
+    ],
+    "correctIndex": 0,
+    "explanation": "'He is' + adjective 'meaningful'.",
+    "id": 499
+  },
+  {
+    "question": "हमने एक दूसरे का हाथ थामा।",
+    "options": [
+      "We held each other's hand",
+      "We caught each other's hand",
+      "We grabbed each other's hand",
+      "We grasped each other's hand"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Held each other's hand' is natural.",
+    "id": 500
+  }
+]

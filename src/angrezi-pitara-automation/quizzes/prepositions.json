@@ -1,0 +1,6002 @@
+[
+  {
+    "question": "वह कमरे के अंदर गया।",
+    "options": [
+      "He went in the room",
+      "He went into the room",
+      "He went on the room",
+      "He went at the room"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Into' is used for movement towards the inside of something.",
+    "id": 1
+  },
+  {
+    "question": "किताब मेज पर है।",
+    "options": [
+      "The book is in the table",
+      "The book is on the table",
+      "The book is at the table",
+      "The book is over the table"
+    ],
+    "correctIndex": 1,
+    "explanation": "'On' is used for position touching a surface.",
+    "id": 2
+  },
+  {
+    "question": "मैं सोमवार को आऊंगा।",
+    "options": [
+      "I will come in Monday",
+      "I will come on Monday",
+      "I will come at Monday",
+      "I will come from Monday"
+    ],
+    "correctIndex": 1,
+    "explanation": "Days of the week take the preposition 'on'.",
+    "id": 3
+  },
+  {
+    "question": "वह 5 बजे आएगी।",
+    "options": [
+      "She will come in 5 o'clock",
+      "She will come on 5 o'clock",
+      "She will come at 5 o'clock",
+      "She will come since 5 o'clock"
+    ],
+    "correctIndex": 2,
+    "explanation": "Specific time of day takes 'at'.",
+    "id": 4
+  },
+  {
+    "question": "बिल्ली मेज के नीचे है।",
+    "options": [
+      "The cat is in the table",
+      "The cat is on the table",
+      "The cat is under the table",
+      "The cat is over the table"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Under' is used for position directly below something.",
+    "id": 5
+  },
+  {
+    "question": "मैं दिल्ली में रहता हूँ।",
+    "options": [
+      "I live at Delhi",
+      "I live on Delhi",
+      "I live in Delhi",
+      "I live into Delhi"
+    ],
+    "correctIndex": 2,
+    "explanation": "'In' is used for cities, countries, and larger areas.",
+    "id": 6
+  },
+  {
+    "question": "वह स्कूल जा रहा है।",
+    "options": [
+      "He is going at school",
+      "He is going to school",
+      "He is going in school",
+      "He is going on school"
+    ],
+    "correctIndex": 1,
+    "explanation": "'To' indicates direction or destination.",
+    "id": 7
+  },
+  {
+    "question": "मैं रात 10 बजे सोता हूँ।",
+    "options": [
+      "I sleep in 10 pm",
+      "I sleep on 10 pm",
+      "I sleep at 10 pm",
+      "I sleep since 10 pm"
+    ],
+    "correctIndex": 2,
+    "explanation": "'At' is used for specific time.",
+    "id": 8
+  },
+  {
+    "question": "वह अपने दोस्त के साथ आया।",
+    "options": [
+      "He came with his friend",
+      "He came from his friend",
+      "He came at his friend",
+      "He came on his friend"
+    ],
+    "correctIndex": 0,
+    "explanation": "'With' indicates accompaniment.",
+    "id": 9
+  },
+  {
+    "question": "यह पेन मेरा है।",
+    "options": [
+      "This pen is to me",
+      "This pen is of me",
+      "This pen is mine",
+      "This pen is for me"
+    ],
+    "correctIndex": 2,
+    "explanation": "Possession is shown by possessive pronoun 'mine', not a preposition.",
+    "id": 10
+  },
+  {
+    "question": "वह दीवार के सहारे खड़ा था।",
+    "options": [
+      "He was standing on the wall",
+      "He was standing against the wall",
+      "He was standing in the wall",
+      "He was standing at the wall"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Against' shows support or contact with a vertical surface.",
+    "id": 11
+  },
+  {
+    "question": "मैं उससे नाराज़ हूँ।",
+    "options": [
+      "I am angry on him",
+      "I am angry at him",
+      "I am angry with him",
+      "I am angry to him"
+    ],
+    "correctIndex": 2,
+    "explanation": "Correct preposition for a person: 'angry with'.",
+    "id": 12
+  },
+  {
+    "question": "वह पेड़ के पीछे छिपा था।",
+    "options": [
+      "He hid in the tree",
+      "He hid on the tree",
+      "He hid behind the tree",
+      "He hid under the tree"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Behind' indicates position at the back of something.",
+    "id": 13
+  },
+  {
+    "question": "मैं 1990 में पैदा हुआ था।",
+    "options": [
+      "I was born on 1990",
+      "I was born at 1990",
+      "I was born in 1990",
+      "I was born from 1990"
+    ],
+    "correctIndex": 2,
+    "explanation": "'In' is used for years.",
+    "id": 14
+  },
+  {
+    "question": "वह घर से बाहर भागा।",
+    "options": [
+      "He ran inside the house",
+      "He ran out of the house",
+      "He ran into the house",
+      "He ran on the house"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Out of' indicates movement from inside to outside.",
+    "id": 15
+  },
+  {
+    "question": "बच्चे पार्क में खेल रहे हैं।",
+    "options": [
+      "The children are playing at the park",
+      "The children are playing on the park",
+      "The children are playing in the park",
+      "The children are playing to the park"
+    ],
+    "correctIndex": 2,
+    "explanation": "'In' is used for an enclosed area like a park.",
+    "id": 16
+  },
+  {
+    "question": "वह मुझसे लंबा है।",
+    "options": [
+      "He is taller from me",
+      "He is taller than me",
+      "He is taller to me",
+      "He is taller with me"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Than' is used in comparative constructions.",
+    "id": 17
+  },
+  {
+    "question": "मैंने यह फिल्म पिछले साल देखी थी।",
+    "options": [
+      "I saw this film in last year",
+      "I saw this film on last year",
+      "I saw this film last year",
+      "I saw this film at last year"
+    ],
+    "correctIndex": 2,
+    "explanation": "No preposition is used before 'last year'.",
+    "id": 18
+  },
+  {
+    "question": "वह अपने भाई पर निर्भर है।",
+    "options": [
+      "He depends from his brother",
+      "He depends on his brother",
+      "He depends at his brother",
+      "He depends in his brother"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Depend on' is the correct phrasal verb.",
+    "id": 19
+  },
+  {
+    "question": "मैं तुम्हारा इंतज़ार कर रहा हूँ।",
+    "options": [
+      "I am waiting you",
+      "I am waiting for you",
+      "I am waiting to you",
+      "I am waiting on you"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Wait for' is the correct phrasal verb.",
+    "id": 20
+  },
+  {
+    "question": "वह रोज सुबह 7 बजे उठता है।",
+    "options": [
+      "He wakes up in 7 am",
+      "He wakes up on 7 am",
+      "He wakes up at 7 am",
+      "He wakes up from 7 am"
+    ],
+    "correctIndex": 2,
+    "explanation": "'At' is used for specific time.",
+    "id": 21
+  },
+  {
+    "question": "यह घर मेरे दादा का है।",
+    "options": [
+      "This house belongs from my grandfather",
+      "This house belongs to my grandfather",
+      "This house belongs at my grandfather",
+      "This house belongs with my grandfather"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Belongs to' indicates ownership.",
+    "id": 22
+  },
+  {
+    "question": "वह बीमारी से मर गया।",
+    "options": [
+      "He died from illness",
+      "He died of illness",
+      "He died by illness",
+      "He died with illness"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Die of' is used for disease or illness.",
+    "id": 23
+  },
+  {
+    "question": "मैं ऑफिस के लिए निकला।",
+    "options": [
+      "I left to office",
+      "I left for office",
+      "I left at office",
+      "I left in office"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Leave for' indicates departure towards a destination.",
+    "id": 24
+  },
+  {
+    "question": "वह अपनी माँ से मिलती जुलती है।",
+    "options": [
+      "She resembles to her mother",
+      "She resembles with her mother",
+      "She resembles her mother",
+      "She resembles from her mother"
+    ],
+    "correctIndex": 2,
+    "explanation": "No preposition is used after 'resemble'.",
+    "id": 25
+  },
+  {
+    "question": "यह किताब मैथ्यू द्वारा लिखी गई थी।",
+    "options": [
+      "This book was written from Matthew",
+      "This book was written by Matthew",
+      "This book was written with Matthew",
+      "This book was written of Matthew"
+    ],
+    "correctIndex": 1,
+    "explanation": "'By' indicates the agent in passive voice.",
+    "id": 26
+  },
+  {
+    "question": "वह बहुत अच्छे गाने गाने के लिए जाना जाता है।",
+    "options": [
+      "He is known to sing well",
+      "He is known for singing well",
+      "He is known by singing well",
+      "He is known with singing well"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Known for' indicates a characteristic or achievement.",
+    "id": 27
+  },
+  {
+    "question": "मैं इस काम में सफल हो गया।",
+    "options": [
+      "I succeeded in this work",
+      "I succeeded at this work",
+      "I succeeded on this work",
+      "I succeeded for this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Succeed in' is the correct phrasal verb.",
+    "id": 28
+  },
+  {
+    "question": "वह अंग्रेजी में कमज़ोर है।",
+    "options": [
+      "He is weak in English",
+      "He is weak at English",
+      "He is weak on English",
+      "He is weak for English"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Weak in' is used for subjects or skills.",
+    "id": 29
+  },
+  {
+    "question": "मैं तुम्हें अपने दिल में रखता हूँ।",
+    "options": [
+      "I keep you in my heart",
+      "I keep you on my heart",
+      "I keep you at my heart",
+      "I keep you to my heart"
+    ],
+    "correctIndex": 0,
+    "explanation": "'In' is used for inside something abstract like heart.",
+    "id": 30
+  },
+  {
+    "question": "वह कोने पर खड़ा था।",
+    "options": [
+      "He was standing in the corner",
+      "He was standing on the corner",
+      "He was standing at the corner",
+      "He was standing into the corner"
+    ],
+    "correctIndex": 2,
+    "explanation": "'At the corner' indicates a specific point.",
+    "id": 31
+  },
+  {
+    "question": "मैंने उसे जन्मदिन पर एक उपहार दिया।",
+    "options": [
+      "I gave him a gift in his birthday",
+      "I gave him a gift on his birthday",
+      "I gave him a gift at his birthday",
+      "I gave him a gift for his birthday"
+    ],
+    "correctIndex": 1,
+    "explanation": "'On' is used for specific days like birthdays.",
+    "id": 32
+  },
+  {
+    "question": "वह पुल के ऊपर से गुजरा।",
+    "options": [
+      "He passed in the bridge",
+      "He passed over the bridge",
+      "He passed under the bridge",
+      "He passed across the bridge"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Across' indicates movement from one side to the other.",
+    "id": 33
+  },
+  {
+    "question": "मुझे तुम पर गर्व है।",
+    "options": [
+      "I am proud on you",
+      "I am proud of you",
+      "I am proud for you",
+      "I am proud in you"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Proud of' is the correct preposition.",
+    "id": 34
+  },
+  {
+    "question": "वह रोटी को मक्खन से फैला रहा था।",
+    "options": [
+      "He spread butter in the bread",
+      "He spread butter on the bread",
+      "He spread butter at the bread",
+      "He spread butter for the bread"
+    ],
+    "correctIndex": 1,
+    "explanation": "'On' is used for spreading on a surface.",
+    "id": 35
+  },
+  {
+    "question": "हम जंगल के रास्ते गए।",
+    "options": [
+      "We went in the forest",
+      "We went through the forest",
+      "We went on the forest",
+      "We went at the forest"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Through' indicates movement from one end to the other inside.",
+    "id": 36
+  },
+  {
+    "question": "वह अपनी कुर्सी पर बैठा है।",
+    "options": [
+      "He is sitting in his chair",
+      "He is sitting on his chair",
+      "He is sitting at his chair",
+      "He is sitting over his chair"
+    ],
+    "correctIndex": 1,
+    "explanation": "'On' is used for sitting on a chair (with a surface).",
+    "id": 37
+  },
+  {
+    "question": "मैंने उसे फोन पर बात की।",
+    "options": [
+      "I talked him on phone",
+      "I talked to him on phone",
+      "I talked with him in phone",
+      "I talked him through phone"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Talk to someone on phone' is correct.",
+    "id": 38
+  },
+  {
+    "question": "वह अपने बेटे को पीटने के लिए गुस्से में था।",
+    "options": [
+      "He was angry for beating his son",
+      "He was angry at beating his son",
+      "He was angry about beating his son",
+      "He was angry with beating his son"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Angry about' is used for situations or events.",
+    "id": 39
+  },
+  {
+    "question": "वह 2 घंटे में आ जाएगा।",
+    "options": [
+      "He will come in 2 hours",
+      "He will come after 2 hours",
+      "He will come within 2 hours",
+      "He will come on 2 hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Within' indicates before a period ends.",
+    "id": 40
+  },
+  {
+    "question": "मैंने कल रात एक सपना देखा।",
+    "options": [
+      "I saw a dream in night",
+      "I saw a dream at night",
+      "I saw a dream last night",
+      "I saw a dream on night"
+    ],
+    "correctIndex": 2,
+    "explanation": "No preposition is used before 'last night'.",
+    "id": 41
+  },
+  {
+    "question": "वह घर के सामने खड़ा था।",
+    "options": [
+      "He was standing in front of the house",
+      "He was standing on front of the house",
+      "He was standing at front of the house",
+      "He was standing before the house"
+    ],
+    "correctIndex": 0,
+    "explanation": "'In front of' indicates position facing something.",
+    "id": 42
+  },
+  {
+    "question": "वह अपनी बहन के बीच बैठा था।",
+    "options": [
+      "He was sitting among his sisters",
+      "He was sitting between his sisters",
+      "He was sitting in his sisters",
+      "He was sitting with his sisters"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Between' is used for two people/items; 'among' for more than two.",
+    "id": 43
+  },
+  {
+    "question": "वह 1995 से यहाँ काम कर रहा है।",
+    "options": [
+      "He has been working here from 1995",
+      "He has been working here since 1995",
+      "He has been working here for 1995",
+      "He has been working here in 1995"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Since' is used for a specific point in time.",
+    "id": 44
+  },
+  {
+    "question": "वह 2 घंटे से पढ़ रहा है।",
+    "options": [
+      "He has been studying since 2 hours",
+      "He has been studying from 2 hours",
+      "He has been studying for 2 hours",
+      "He has been studying in 2 hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "'For' is used for a duration of time.",
+    "id": 45
+  },
+  {
+    "question": "मैं बिना चीनी की चाय पीता हूँ।",
+    "options": [
+      "I drink tea without sugar",
+      "I drink tea with no sugar",
+      "I drink tea from sugar",
+      "I drink tea for sugar"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Without' indicates absence of something.",
+    "id": 46
+  },
+  {
+    "question": "वह दुर्घटना में घायल हो गया।",
+    "options": [
+      "He was injured on the accident",
+      "He was injured at the accident",
+      "He was injured in the accident",
+      "He was injured by the accident"
+    ],
+    "correctIndex": 2,
+    "explanation": "'In' is used for being involved in an event.",
+    "id": 47
+  },
+  {
+    "question": "मैंने यह खबर अखबार में पढ़ी।",
+    "options": [
+      "I read this news on the newspaper",
+      "I read this news in the newspaper",
+      "I read this news at the newspaper",
+      "I read this news from the newspaper"
+    ],
+    "correctIndex": 1,
+    "explanation": "'In' is used for content within a newspaper.",
+    "id": 48
+  },
+  {
+    "question": "वह गाना सुन रही है।",
+    "options": [
+      "She is listening the song",
+      "She is listening to the song",
+      "She is listening at the song",
+      "She is listening on the song"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Listen to' is the correct phrasal verb.",
+    "id": 49
+  },
+  {
+    "question": "वह अपने दोस्तों से घिरा हुआ था।",
+    "options": [
+      "He was surrounded by his friends",
+      "He was surrounded with his friends",
+      "He was surrounded from his friends",
+      "He was surrounded of his friends"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Surrounded by' indicates people or things around.",
+    "id": 50
+  },
+  {
+    "question": "यह दवा बुखार के लिए है।",
+    "options": [
+      "This medicine is for fever",
+      "This medicine is of fever",
+      "This medicine is from fever",
+      "This medicine is in fever"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates purpose.",
+    "id": 51
+  },
+  {
+    "question": "वह पेड़ से नीचे कूद गया।",
+    "options": [
+      "He jumped of the tree",
+      "He jumped from the tree",
+      "He jumped off the tree",
+      "He jumped down the tree"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Jump off' indicates leaving a surface from above.",
+    "id": 52
+  },
+  {
+    "question": "मैं सुबह से शाम तक काम करता हूँ।",
+    "options": [
+      "I work from morning to evening",
+      "I work since morning to evening",
+      "I work for morning to evening",
+      "I work in morning to evening"
+    ],
+    "correctIndex": 0,
+    "explanation": "'From...to' indicates start and end time.",
+    "id": 53
+  },
+  {
+    "question": "वह मुझसे नाराज़ थी।",
+    "options": [
+      "She was angry from me",
+      "She was angry with me",
+      "She was angry on me",
+      "She was angry at me"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Angry with' is used for people.",
+    "id": 54
+  },
+  {
+    "question": "मैं तुम्हारे साथ चलूंगा।",
+    "options": [
+      "I will walk to you",
+      "I will walk with you",
+      "I will walk for you",
+      "I will walk at you"
+    ],
+    "correctIndex": 1,
+    "explanation": "'With' indicates accompaniment.",
+    "id": 55
+  },
+  {
+    "question": "यह घर बिकाऊ है।",
+    "options": [
+      "This house is on sale",
+      "This house is for sale",
+      "This house is at sale",
+      "This house is in sale"
+    ],
+    "correctIndex": 1,
+    "explanation": "'For sale' indicates available to be bought.",
+    "id": 56
+  },
+  {
+    "question": "वह पानी में कूद पड़ा।",
+    "options": [
+      "He jumped in the water",
+      "He jumped into the water",
+      "He jumped on the water",
+      "He jumped at the water"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Into' indicates movement towards the inside.",
+    "id": 57
+  },
+  {
+    "question": "मैंने यह फोन 5000 रुपये में खरीदा।",
+    "options": [
+      "I bought this phone in 5000 rupees",
+      "I bought this phone for 5000 rupees",
+      "I bought this phone at 5000 rupees",
+      "I bought this phone by 5000 rupees"
+    ],
+    "correctIndex": 1,
+    "explanation": "'For' indicates the price of something.",
+    "id": 58
+  },
+  {
+    "question": "वह अपनी माँ की तरह दिखती है।",
+    "options": [
+      "She looks like her mother",
+      "She looks as her mother",
+      "She looks to her mother",
+      "She looks from her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Like' is used for similarity.",
+    "id": 59
+  },
+  {
+    "question": "हम समुद्र के किनारे टहल रहे थे।",
+    "options": [
+      "We were walking on the sea",
+      "We were walking by the sea",
+      "We were walking in the sea",
+      "We were walking at the sea"
+    ],
+    "correctIndex": 1,
+    "explanation": "'By' indicates near or beside something.",
+    "id": 60
+  },
+  {
+    "question": "वह काम में व्यस्त है।",
+    "options": [
+      "He is busy in work",
+      "He is busy with work",
+      "He is busy at work",
+      "He is busy on work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Busy in' is used for an activity.",
+    "id": 61
+  },
+  {
+    "question": "मैं इस बात से सहमत हूँ।",
+    "options": [
+      "I agree to this matter",
+      "I agree with this matter",
+      "I agree on this matter",
+      "I agree for this matter"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Agree to' is used for proposals or suggestions.",
+    "id": 62
+  },
+  {
+    "question": "वह अपने काम के प्रति समर्पित है।",
+    "options": [
+      "He is dedicated for his work",
+      "He is dedicated to his work",
+      "He is dedicated in his work",
+      "He is dedicated at his work"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Dedicated to' indicates commitment.",
+    "id": 63
+  },
+  {
+    "question": "यह किताब बहुत सारी तस्वीरों से भरी है।",
+    "options": [
+      "This book is filled of pictures",
+      "This book is filled with pictures",
+      "This book is filled by pictures",
+      "This book is filled from pictures"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Filled with' indicates contents.",
+    "id": 64
+  },
+  {
+    "question": "वह स्टेज पर प्रदर्शन कर रहा था।",
+    "options": [
+      "He was performing in the stage",
+      "He was performing on the stage",
+      "He was performing at the stage",
+      "He was performing over the stage"
+    ],
+    "correctIndex": 1,
+    "explanation": "'On' is used for a performance surface.",
+    "id": 65
+  },
+  {
+    "question": "मैं रात में नहीं खाता।",
+    "options": [
+      "I don't eat in night",
+      "I don't eat at night",
+      "I don't eat on night",
+      "I don't eat during night"
+    ],
+    "correctIndex": 1,
+    "explanation": "'At night' is the standard expression.",
+    "id": 66
+  },
+  {
+    "question": "वह अपने पिता के नक्शेकदम पर चला।",
+    "options": [
+      "He followed in his father's footsteps",
+      "He followed on his father's footsteps",
+      "He followed by his father's footsteps",
+      "He followed with his father's footsteps"
+    ],
+    "correctIndex": 0,
+    "explanation": "'In someone's footsteps' is the idiom.",
+    "id": 67
+  },
+  {
+    "question": "हम सब उसके खिलाफ थे।",
+    "options": [
+      "We were all for him",
+      "We were all against him",
+      "We were all with him",
+      "We were all to him"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Against' indicates opposition.",
+    "id": 68
+  },
+  {
+    "question": "मैंने उस पर भरोसा किया।",
+    "options": [
+      "I trusted on him",
+      "I trusted in him",
+      "I trusted to him",
+      "I trusted with him"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Trust in' indicates faith or belief.",
+    "id": 69
+  },
+  {
+    "question": "वह अपने बच्चों का ख्याल रखती है।",
+    "options": [
+      "She takes care of her children",
+      "She takes care for her children",
+      "She takes care to her children",
+      "She takes care on her children"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Take care of' is the correct phrasal verb.",
+    "id": 70
+  },
+  {
+    "question": "मैं तुम्हारी वजह से यहाँ हूँ।",
+    "options": [
+      "I am here because you",
+      "I am here due to you",
+      "I am here for you",
+      "I am here because of you"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Because of' indicates reason or cause.",
+    "id": 71
+  },
+  {
+    "question": "वह अपनी गलती के बावजूद सफल रहा।",
+    "options": [
+      "He succeeded despite his mistake",
+      "He succeeded because his mistake",
+      "He succeeded for his mistake",
+      "He succeeded from his mistake"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Despite' indicates contrast or concession.",
+    "id": 72
+  },
+  {
+    "question": "मैं तुमसे माफी माँगता हूँ।",
+    "options": [
+      "I apologize you",
+      "I apologize to you",
+      "I apologize for you",
+      "I apologize at you"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Apologize to' indicates the person being apologized to.",
+    "id": 73
+  },
+  {
+    "question": "वह सड़क पार कर रहा था।",
+    "options": [
+      "He was crossing on the road",
+      "He was crossing the road",
+      "He was crossing across the road",
+      "He was crossing over the road"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Cross' is a transitive verb and takes no preposition.",
+    "id": 74
+  },
+  {
+    "question": "मैंने उससे पैसे उधार लिए।",
+    "options": [
+      "I borrowed money from him",
+      "I borrowed money to him",
+      "I borrowed money of him",
+      "I borrowed money with him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Borrow from' indicates the source.",
+    "id": 75
+  },
+  {
+    "question": "वह जेल से बाहर आया।",
+    "options": [
+      "He came out from jail",
+      "He came out of jail",
+      "He came out the jail",
+      "He came out off jail"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Out of' indicates movement from inside to outside.",
+    "id": 76
+  },
+  {
+    "question": "यह फिल्म एक सच्ची घटना पर आधारित है।",
+    "options": [
+      "This film is based on a true event",
+      "This film is based in a true event",
+      "This film is based at a true event",
+      "This film is based from a true event"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Based on' indicates the source or foundation.",
+    "id": 77
+  },
+  {
+    "question": "वह सबसे अलग है।",
+    "options": [
+      "He is different than everyone",
+      "He is different from everyone",
+      "He is different to everyone",
+      "He is different with everyone"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Different from' is the standard preposition.",
+    "id": 78
+  },
+  {
+    "question": "मैंने उसे पैसे दे दिए।",
+    "options": [
+      "I gave money him",
+      "I gave money to him",
+      "I gave money for him",
+      "I gave money at him"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Give to' indicates the recipient.",
+    "id": 79
+  },
+  {
+    "question": "वह बीमारी से पीड़ित है।",
+    "options": [
+      "He is suffering from illness",
+      "He is suffering of illness",
+      "He is suffering with illness",
+      "He is suffering by illness"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Suffer from' indicates the cause of suffering.",
+    "id": 80
+  },
+  {
+    "question": "मैं तुम्हें बधाई देता हूँ।",
+    "options": [
+      "I congratulate you for your success",
+      "I congratulate you on your success",
+      "I congratulate you at your success",
+      "I congratulate you in your success"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Congratulate on' is the correct preposition.",
+    "id": 81
+  },
+  {
+    "question": "वह इस परियोजना का प्रभारी है।",
+    "options": [
+      "He is in charge of this project",
+      "He is in charge for this project",
+      "He is in charge at this project",
+      "He is in charge on this project"
+    ],
+    "correctIndex": 0,
+    "explanation": "'In charge of' indicates responsibility.",
+    "id": 82
+  },
+  {
+    "question": "हम चाय के लिए रुके।",
+    "options": [
+      "We stopped for tea",
+      "We stopped at tea",
+      "We stopped in tea",
+      "We stopped on tea"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Stop for' indicates purpose.",
+    "id": 83
+  },
+  {
+    "question": "वह अपनी आँखों में आँसू लिए खड़ा था।",
+    "options": [
+      "He stood with tears in his eyes",
+      "He stood by tears in his eyes",
+      "He stood at tears in his eyes",
+      "He stood for tears in his eyes"
+    ],
+    "correctIndex": 0,
+    "explanation": "'With' indicates accompanying feature.",
+    "id": 84
+  },
+  {
+    "question": "मैंने उसे सड़क पर देखा।",
+    "options": [
+      "I saw him in the street",
+      "I saw him on the street",
+      "I saw him at the street",
+      "I saw him by the street"
+    ],
+    "correctIndex": 1,
+    "explanation": "'On the street' is common for location.",
+    "id": 85
+  },
+  {
+    "question": "वह पानी के नीचे तैर रहा था।",
+    "options": [
+      "He was swimming under the water",
+      "He was swimming below the water",
+      "He was swimming beneath the water",
+      "He was swimming underneath the water"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Under' indicates directly below the surface.",
+    "id": 86
+  },
+  {
+    "question": "मैं इस समस्या का समाधान ढूंढ रहा हूँ।",
+    "options": [
+      "I am looking for a solution to this problem",
+      "I am looking a solution to this problem",
+      "I am looking at a solution to this problem",
+      "I am looking on a solution to this problem"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Look for' indicates search.",
+    "id": 87
+  },
+  {
+    "question": "वह अपने घर की ओर दौड़ा।",
+    "options": [
+      "He ran towards his house",
+      "He ran to his house",
+      "He ran at his house",
+      "He ran in his house"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Towards' indicates direction but not necessarily arrival.",
+    "id": 88
+  },
+  {
+    "question": "यह कमरा धुएं से भरा है।",
+    "options": [
+      "This room is full of smoke",
+      "This room is full with smoke",
+      "This room is full by smoke",
+      "This room is full from smoke"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Full of' is the correct phrase.",
+    "id": 89
+  },
+  {
+    "question": "वह दरवाजे पर दस्तक दे रहा है।",
+    "options": [
+      "He is knocking the door",
+      "He is knocking at the door",
+      "He is knocking on the door",
+      "He is knocking to the door"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Knock on' is used for doors.",
+    "id": 90
+  },
+  {
+    "question": "मैंने उसे रास्ते में रोका।",
+    "options": [
+      "I stopped him on the way",
+      "I stopped him in the way",
+      "I stopped him at the way",
+      "I stopped him by the way"
+    ],
+    "correctIndex": 0,
+    "explanation": "'On the way' indicates during travel.",
+    "id": 91
+  },
+  {
+    "question": "वह पिछले 10 सालों से यहाँ रह रहा है।",
+    "options": [
+      "He has been living here since 10 years",
+      "He has been living here for 10 years",
+      "He has been living here from 10 years",
+      "He has been living here in 10 years"
+    ],
+    "correctIndex": 1,
+    "explanation": "'For' is used for duration of time.",
+    "id": 92
+  },
+  {
+    "question": "मैं इस काम के लिए उपयुक्त हूँ।",
+    "options": [
+      "I am suitable for this work",
+      "I am suitable to this work",
+      "I am suitable in this work",
+      "I am suitable at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Suitable for' indicates appropriateness.",
+    "id": 93
+  },
+  {
+    "question": "वह मेरे बगल में बैठा था।",
+    "options": [
+      "He was sitting beside me",
+      "He was sitting next me",
+      "He was sitting by me",
+      "He was sitting near to me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Beside' means next to.",
+    "id": 94
+  },
+  {
+    "question": "मैं उसके बारे में सोच रहा हूँ।",
+    "options": [
+      "I am thinking of him",
+      "I am thinking about him",
+      "I am thinking on him",
+      "I am thinking at him"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Think about' indicates considering someone.",
+    "id": 95
+  },
+  {
+    "question": "वह अपने दोस्तों के अलावा किसी से नहीं मिलता।",
+    "options": [
+      "He meets no one except his friends",
+      "He meets no one besides his friends",
+      "He meets no one apart his friends",
+      "He meets no one without his friends"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Except' indicates exclusion.",
+    "id": 96
+  },
+  {
+    "question": "मैंने तुम्हारे लिए यह खरीदा।",
+    "options": [
+      "I bought this to you",
+      "I bought this for you",
+      "I bought this at you",
+      "I bought this with you"
+    ],
+    "correctIndex": 1,
+    "explanation": "'For' indicates intended recipient.",
+    "id": 97
+  },
+  {
+    "question": "वह ट्रेन से यात्रा करता है।",
+    "options": [
+      "He travels in train",
+      "He travels by train",
+      "He travels on train",
+      "He travels with train"
+    ],
+    "correctIndex": 1,
+    "explanation": "'By' indicates mode of transport.",
+    "id": 98
+  },
+  {
+    "question": "मैं शाम 5 बजे तक वापस आ जाऊंगा।",
+    "options": [
+      "I will return in 5 pm",
+      "I will return by 5 pm",
+      "I will return on 5 pm",
+      "I will return at 5 pm"
+    ],
+    "correctIndex": 1,
+    "explanation": "'By' indicates a deadline or not later than.",
+    "id": 99
+  },
+  {
+    "question": "वह अपनी माँ के अलावा सबसे प्यार करता है।",
+    "options": [
+      "He loves everyone except his mother",
+      "He loves everyone besides his mother",
+      "He loves everyone without his mother",
+      "He loves everyone from his mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Except' shows exclusion.",
+    "id": 100
+  },
+  {
+    "question": "मैंने उस पर हंसी नहीं की।",
+    "options": [
+      "I did not laugh on him",
+      "I did not laugh at him",
+      "I did not laugh to him",
+      "I did not laugh with him"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Laugh at' indicates mockery.",
+    "id": 101
+  },
+  {
+    "question": "वह छत के ऊपर कूद गया।",
+    "options": [
+      "He jumped over the roof",
+      "He jumped on the roof",
+      "He jumped above the roof",
+      "He jumped at the roof"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Over' indicates movement above and across.",
+    "id": 102
+  },
+  {
+    "question": "यह मेरे लिए बहुत मुश्किल है।",
+    "options": [
+      "It is very difficult to me",
+      "It is very difficult for me",
+      "It is very difficult at me",
+      "It is very difficult with me"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Difficult for' indicates perspective.",
+    "id": 103
+  },
+  {
+    "question": "वह अपने भाई से लड़ रहा था।",
+    "options": [
+      "He was fighting to his brother",
+      "He was fighting with his brother",
+      "He was fighting against his brother",
+      "He was fighting on his brother"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fight with' indicates mutual combat.",
+    "id": 104
+  },
+  {
+    "question": "मैंने उसे एक पत्र भेजा।",
+    "options": [
+      "I sent a letter him",
+      "I sent a letter to him",
+      "I sent a letter for him",
+      "I sent a letter at him"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Send to' indicates the recipient.",
+    "id": 105
+  },
+  {
+    "question": "वह कॉलेज में पढ़ता है।",
+    "options": [
+      "He studies in college",
+      "He studies at college",
+      "He studies on college",
+      "He studies to college"
+    ],
+    "correctIndex": 0,
+    "explanation": "'In college' is used for the institution.",
+    "id": 106
+  },
+  {
+    "question": "मैं उस पर गुस्सा हूँ।",
+    "options": [
+      "I am angry on him",
+      "I am angry at him",
+      "I am angry with him",
+      "I am angry to him"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Angry with' is used for people.",
+    "id": 107
+  },
+  {
+    "question": "वह मेज पर लेट गया।",
+    "options": [
+      "He lay down in the table",
+      "He lay down on the table",
+      "He lay down at the table",
+      "He lay down over the table"
+    ],
+    "correctIndex": 1,
+    "explanation": "'On' indicates surface contact.",
+    "id": 108
+  },
+  {
+    "question": "मैंने यह किताब लाइब्रेरी से ली।",
+    "options": [
+      "I took this book from library",
+      "I took this book of library",
+      "I took this book at library",
+      "I took this book in library"
+    ],
+    "correctIndex": 0,
+    "explanation": "'From' indicates source.",
+    "id": 109
+  },
+  {
+    "question": "वह सड़क के उस पार रहता है।",
+    "options": [
+      "He lives across the street",
+      "He lives on the street",
+      "He lives in the street",
+      "He lives at the street"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Across' indicates the opposite side.",
+    "id": 110
+  },
+  {
+    "question": "मैं उससे बहुत प्रभावित हुआ।",
+    "options": [
+      "I was impressed from him",
+      "I was impressed by him",
+      "I was impressed with him",
+      "I was impressed at him"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Impressed by' indicates the agent causing impression.",
+    "id": 111
+  },
+  {
+    "question": "वह अपने आप में ही खोया रहता है।",
+    "options": [
+      "He remains lost in himself",
+      "He remains lost at himself",
+      "He remains lost on himself",
+      "He remains lost by himself"
+    ],
+    "correctIndex": 0,
+    "explanation": "'In himself' indicates introspection.",
+    "id": 112
+  },
+  {
+    "question": "हम इस मामले पर चर्चा करेंगे।",
+    "options": [
+      "We will discuss on this matter",
+      "We will discuss about this matter",
+      "We will discuss this matter",
+      "We will discuss for this matter"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Discuss' is transitive and takes no preposition.",
+    "id": 113
+  },
+  {
+    "question": "वह अपनी योजना में सफल रहा।",
+    "options": [
+      "He succeeded in his plan",
+      "He succeeded at his plan",
+      "He succeeded on his plan",
+      "He succeeded with his plan"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Succeed in' indicates achievement.",
+    "id": 114
+  },
+  {
+    "question": "मैं तुम पर विश्वास करता हूँ।",
+    "options": [
+      "I believe in you",
+      "I believe on you",
+      "I believe at you",
+      "I believe to you"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Believe in' indicates faith or trust.",
+    "id": 115
+  },
+  {
+    "question": "वह मुझसे ईर्ष्या करता है।",
+    "options": [
+      "He is jealous from me",
+      "He is jealous of me",
+      "He is jealous at me",
+      "He is jealous on me"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Jealous of' indicates envy.",
+    "id": 116
+  },
+  {
+    "question": "मैं इस फैसले के खिलाफ हूँ।",
+    "options": [
+      "I am against this decision",
+      "I am for this decision",
+      "I am on this decision",
+      "I am at this decision"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Against' indicates opposition.",
+    "id": 117
+  },
+  {
+    "question": "वह समय पर आया।",
+    "options": [
+      "He came in time",
+      "He came on time",
+      "He came at time",
+      "He came by time"
+    ],
+    "correctIndex": 1,
+    "explanation": "'On time' means punctually.",
+    "id": 118
+  },
+  {
+    "question": "मैं तुम्हें श्रद्धांजलि अर्पित करता हूँ।",
+    "options": [
+      "I pay tribute to you",
+      "I pay tribute for you",
+      "I pay tribute at you",
+      "I pay tribute on you"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Tribute to' indicates honor given.",
+    "id": 119
+  },
+  {
+    "question": "वह अपने भाई से शादी करना चाहती है।",
+    "options": [
+      "She wants to marry to her brother",
+      "She wants to marry with her brother",
+      "She wants to marry her brother",
+      "She wants to marry for her brother"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Marry' is transitive and takes no preposition.",
+    "id": 120
+  },
+  {
+    "question": "मैं इस कमरे से बाहर निकला।",
+    "options": [
+      "I went out from this room",
+      "I went out of this room",
+      "I went out this room",
+      "I went out off this room"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Out of' indicates movement from inside.",
+    "id": 121
+  },
+  {
+    "question": "वह अपने पिता की तरह है।",
+    "options": [
+      "He is like his father",
+      "He is as his father",
+      "He is to his father",
+      "He is from his father"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Like' indicates similarity.",
+    "id": 122
+  },
+  {
+    "question": "हम इस संकट से उबर गए।",
+    "options": [
+      "We recovered from this crisis",
+      "We recovered of this crisis",
+      "We recovered by this crisis",
+      "We recovered with this crisis"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Recover from' indicates return to normal.",
+    "id": 123
+  },
+  {
+    "question": "वह पानी से भरी बाल्टी लेकर आया।",
+    "options": [
+      "He brought a bucket filled of water",
+      "He brought a bucket filled with water",
+      "He brought a bucket filled by water",
+      "He brought a bucket filled from water"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Filled with' indicates contents.",
+    "id": 124
+  },
+  {
+    "question": "मैं उससे सहमत नहीं हूँ।",
+    "options": [
+      "I don't agree to him",
+      "I don't agree with him",
+      "I don't agree on him",
+      "I don't agree at him"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Agree with' is used for people.",
+    "id": 125
+  },
+  {
+    "question": "वह अपने बेटे की वजह से परेशान है।",
+    "options": [
+      "He is worried because his son",
+      "He is worried due to his son",
+      "He is worried about his son",
+      "He is worried for his son"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Worried about' indicates concern.",
+    "id": 126
+  },
+  {
+    "question": "मैंने यह गाना रेडियो पर सुना।",
+    "options": [
+      "I heard this song in the radio",
+      "I heard this song on the radio",
+      "I heard this song at the radio",
+      "I heard this song from the radio"
+    ],
+    "correctIndex": 1,
+    "explanation": "'On the radio' is the correct expression.",
+    "id": 127
+  },
+  {
+    "question": "वह अपने काम में व्यस्त है।",
+    "options": [
+      "He is busy in his work",
+      "He is busy with his work",
+      "He is busy at his work",
+      "He is busy on his work"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Busy with' indicates occupied by something.",
+    "id": 128
+  },
+  {
+    "question": "हम पहाड़ी के ऊपर चढ़ गए।",
+    "options": [
+      "We climbed in the hill",
+      "We climbed up the hill",
+      "We climbed on the hill",
+      "We climbed at the hill"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Up' indicates upward movement.",
+    "id": 129
+  },
+  {
+    "question": "वह अपनी सीट से उठा।",
+    "options": [
+      "He rose from his seat",
+      "He rose of his seat",
+      "He rose by his seat",
+      "He rose at his seat"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Rose from' indicates movement from a position.",
+    "id": 130
+  },
+  {
+    "question": "मैं उसके बारे में कुछ नहीं जानता।",
+    "options": [
+      "I know nothing of him",
+      "I know nothing about him",
+      "I know nothing on him",
+      "I know nothing at him"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Know about' indicates information regarding.",
+    "id": 131
+  },
+  {
+    "question": "वह अपनी माँ से मिलता है।",
+    "options": [
+      "He meets to his mother",
+      "He meets with his mother",
+      "He meets his mother",
+      "He meets at his mother"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Meet' is transitive and takes no preposition.",
+    "id": 132
+  },
+  {
+    "question": "मैंने उसे सड़क के किनारे देखा।",
+    "options": [
+      "I saw him by the roadside",
+      "I saw him in the roadside",
+      "I saw him on the roadside",
+      "I saw him at the roadside"
+    ],
+    "correctIndex": 2,
+    "explanation": "'On the roadside' is the correct expression.",
+    "id": 133
+  },
+  {
+    "question": "वह रात भर जागता रहा।",
+    "options": [
+      "He stayed awake throughout the night",
+      "He stayed awake in the night",
+      "He stayed awake at the night",
+      "He stayed awake on the night"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Throughout' indicates the entire duration.",
+    "id": 134
+  },
+  {
+    "question": "मैं इस काम के लिए काबिल हूँ।",
+    "options": [
+      "I am capable for this work",
+      "I am capable to this work",
+      "I am capable of this work",
+      "I am capable in this work"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Capable of' indicates ability.",
+    "id": 135
+  },
+  {
+    "question": "वह अपने दोस्तों के साथ घूम रहा था।",
+    "options": [
+      "He was roaming with his friends",
+      "He was roaming to his friends",
+      "He was roaming for his friends",
+      "He was roaming at his friends"
+    ],
+    "correctIndex": 0,
+    "explanation": "'With' indicates accompaniment.",
+    "id": 136
+  },
+  {
+    "question": "हम इस नदी में तैर सकते हैं।",
+    "options": [
+      "We can swim on this river",
+      "We can swim in this river",
+      "We can swim at this river",
+      "We can swim by this river"
+    ],
+    "correctIndex": 1,
+    "explanation": "'In' is used for swimming in water.",
+    "id": 137
+  },
+  {
+    "question": "वह दरवाजे से बाहर निकल गया।",
+    "options": [
+      "He went out from the door",
+      "He went out of the door",
+      "He went out the door",
+      "He went out off the door"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Out the door' is used without preposition.",
+    "id": 138
+  },
+  {
+    "question": "मैं उसकी शक्ल से डर गया।",
+    "options": [
+      "I was scared of his face",
+      "I was scared from his face",
+      "I was scared by his face",
+      "I was scared at his face"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Scared of' indicates fear.",
+    "id": 139
+  },
+  {
+    "question": "वह इस काम में रुचि रखता है।",
+    "options": [
+      "He is interested for this work",
+      "He is interested in this work",
+      "He is interested at this work",
+      "He is interested on this work"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Interested in' indicates curiosity or attraction.",
+    "id": 140
+  },
+  {
+    "question": "मैं उसे जन्मदिन पर मिलूंगा।",
+    "options": [
+      "I will meet him in his birthday",
+      "I will meet him on his birthday",
+      "I will meet him at his birthday",
+      "I will meet him for his birthday"
+    ],
+    "correctIndex": 1,
+    "explanation": "'On' is used for specific days like birthdays.",
+    "id": 141
+  },
+  {
+    "question": "वह अपनी सफलता पर गर्व करता है।",
+    "options": [
+      "He prides on his success",
+      "He prides in his success",
+      "He prides for his success",
+      "He prides at his success"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Pride on' indicates feeling proud about.",
+    "id": 142
+  },
+  {
+    "question": "हम इस मुद्दे पर विचार करेंगे।",
+    "options": [
+      "We will consider on this issue",
+      "We will consider about this issue",
+      "We will consider this issue",
+      "We will consider for this issue"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Consider' is transitive and takes no preposition.",
+    "id": 143
+  },
+  {
+    "question": "वह अपने काम में माहिर है।",
+    "options": [
+      "He is expert in his work",
+      "He is expert at his work",
+      "He is expert on his work",
+      "He is expert for his work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Expert in' indicates skill in a field.",
+    "id": 144
+  },
+  {
+    "question": "मैंने उसे कल मिलने का वादा किया।",
+    "options": [
+      "I promised him to meet tomorrow",
+      "I promised to him to meet tomorrow",
+      "I promised for him to meet tomorrow",
+      "I promised at him to meet tomorrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Promise' is transitive and takes no preposition.",
+    "id": 145
+  },
+  {
+    "question": "वह इस परीक्षा में असफल रहा।",
+    "options": [
+      "He failed in this exam",
+      "He failed at this exam",
+      "He failed on this exam",
+      "He failed for this exam"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Fail in' indicates not passing.",
+    "id": 146
+  },
+  {
+    "question": "मैं तुमसे बहुत प्यार करता हूँ।",
+    "options": [
+      "I love you very much",
+      "I love to you very much",
+      "I love for you very much",
+      "I love at you very much"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Love' is transitive and takes no preposition.",
+    "id": 147
+  },
+  {
+    "question": "वह सड़क पर तेज दौड़ रहा था।",
+    "options": [
+      "He was running fast on the road",
+      "He was running fast in the road",
+      "He was running fast at the road",
+      "He was running fast by the road"
+    ],
+    "correctIndex": 0,
+    "explanation": "'On the road' indicates surface.",
+    "id": 148
+  },
+  {
+    "question": "मैं इस किताब को पढ़ने में रुचि रखता हूँ।",
+    "options": [
+      "I am interested to read this book",
+      "I am interested in reading this book",
+      "I am interested for reading this book",
+      "I am interested at reading this book"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Interested in + gerund' indicates interest.",
+    "id": 149
+  },
+  {
+    "question": "वह मेरी आँखों में आँसू लेकर आया।",
+    "options": [
+      "He came with tears in his eyes",
+      "He came by tears in his eyes",
+      "He came at tears in his eyes",
+      "He came for tears in his eyes"
+    ],
+    "correctIndex": 0,
+    "explanation": "'With' indicates accompanying state.",
+    "id": 150
+  },
+  {
+    "question": "हम इस योजना के पक्ष में हैं।",
+    "options": [
+      "We are in favor of this plan",
+      "We are in favor for this plan",
+      "We are in favor to this plan",
+      "We are in favor at this plan"
+    ],
+    "correctIndex": 0,
+    "explanation": "'In favor of' indicates support.",
+    "id": 151
+  },
+  {
+    "question": "वह अपने पिता की संपत्ति का हकदार है।",
+    "options": [
+      "He is entitled for his father's property",
+      "He is entitled to his father's property",
+      "He is entitled in his father's property",
+      "He is entitled at his father's property"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Entitled to' indicates right or claim.",
+    "id": 152
+  },
+  {
+    "question": "मैंने उसे चाकू से मारा।",
+    "options": [
+      "I hit him by a knife",
+      "I hit him with a knife",
+      "I hit him from a knife",
+      "I hit him at a knife"
+    ],
+    "correctIndex": 1,
+    "explanation": "'With' indicates the instrument used.",
+    "id": 153
+  },
+  {
+    "question": "वह अपने भाई से कम बुद्धिमान है।",
+    "options": [
+      "He is less intelligent from his brother",
+      "He is less intelligent than his brother",
+      "He is less intelligent to his brother",
+      "He is less intelligent with his brother"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Than' is used in comparative constructions.",
+    "id": 154
+  },
+  {
+    "question": "मैं इस बात से इनकार नहीं करता।",
+    "options": [
+      "I don't deny from this",
+      "I don't deny this",
+      "I don't deny to this",
+      "I don't deny at this"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Deny' is transitive and takes no preposition.",
+    "id": 155
+  },
+  {
+    "question": "वह अपने दोस्तों के बीच लोकप्रिय है।",
+    "options": [
+      "He is popular among his friends",
+      "He is popular in his friends",
+      "He is popular with his friends",
+      "He is popular between his friends"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Popular among' is used for a group.",
+    "id": 156
+  },
+  {
+    "question": "मैं इस शहर से परिचित हूँ।",
+    "options": [
+      "I am familiar with this city",
+      "I am familiar to this city",
+      "I am familiar in this city",
+      "I am familiar at this city"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Familiar with' indicates knowledge of.",
+    "id": 157
+  },
+  {
+    "question": "वह अपने वादे पर खरा उतरा।",
+    "options": [
+      "He stood on his promise",
+      "He stood by his promise",
+      "He stood to his promise",
+      "He stood for his promise"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Stand by' means to remain faithful to.",
+    "id": 158
+  },
+  {
+    "question": "मैं तुम्हें इस काम से मना करता हूँ।",
+    "options": [
+      "I forbid you from this work",
+      "I forbid you to do this work",
+      "I forbid you for this work",
+      "I forbid you at this work"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Forbid to' indicates prohibition.",
+    "id": 159
+  },
+  {
+    "question": "वह अपने भाई की तरह दिखता है।",
+    "options": [
+      "He looks like his brother",
+      "He looks as his brother",
+      "He looks to his brother",
+      "He looks from his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Look like' indicates resemblance.",
+    "id": 160
+  },
+  {
+    "question": "हम इस समस्या से जूझ रहे हैं।",
+    "options": [
+      "We are grappling from this problem",
+      "We are grappling with this problem",
+      "We are grappling at this problem",
+      "We are grappling on this problem"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Grapple with' indicates struggle.",
+    "id": 161
+  },
+  {
+    "question": "वह अपनी गलती के लिए माफी माँगता है।",
+    "options": [
+      "He apologizes for his mistake",
+      "He apologizes his mistake",
+      "He apologizes to his mistake",
+      "He apologizes at his mistake"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Apologize for' indicates the reason.",
+    "id": 162
+  },
+  {
+    "question": "मैंने उसे पैसे से इनाम दिया।",
+    "options": [
+      "I rewarded him by money",
+      "I rewarded him with money",
+      "I rewarded him from money",
+      "I rewarded him at money"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Reward with' indicates what is given.",
+    "id": 163
+  },
+  {
+    "question": "वह इस काम के लिए प्रसिद्ध है।",
+    "options": [
+      "He is famous for this work",
+      "He is famous in this work",
+      "He is famous at this work",
+      "He is famous by this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Famous for' indicates the reason for fame.",
+    "id": 164
+  },
+  {
+    "question": "मैं तुमसे ईर्ष्या नहीं करता।",
+    "options": [
+      "I don't envy you",
+      "I don't envy to you",
+      "I don't envy at you",
+      "I don't envy for you"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Envy' is transitive and takes no preposition.",
+    "id": 165
+  },
+  {
+    "question": "वह अपने बेटे के लिए कुछ भी कर सकता है।",
+    "options": [
+      "He can do anything for his son",
+      "He can do anything to his son",
+      "He can do anything with his son",
+      "He can do anything at his son"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 166
+  },
+  {
+    "question": "मैं इस विचार का समर्थन करता हूँ।",
+    "options": [
+      "I support to this idea",
+      "I support this idea",
+      "I support for this idea",
+      "I support at this idea"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Support' is transitive and takes no preposition.",
+    "id": 167
+  },
+  {
+    "question": "वह अपने पिता के नक्शेकदम पर चलता है।",
+    "options": [
+      "He follows his father's footsteps",
+      "He follows in his father's footsteps",
+      "He follows on his father's footsteps",
+      "He follows by his father's footsteps"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Follow in footsteps' is the idiom.",
+    "id": 168
+  },
+  {
+    "question": "मैं उसके प्रति आभारी हूँ।",
+    "options": [
+      "I am grateful to him",
+      "I am grateful for him",
+      "I am grateful at him",
+      "I am grateful with him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Grateful to' indicates the person thanked.",
+    "id": 169
+  },
+  {
+    "question": "वह अपनी क्षमताओं पर गर्व करता है।",
+    "options": [
+      "He prides on his abilities",
+      "He prides in his abilities",
+      "He prides for his abilities",
+      "He prides at his abilities"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Pride on' indicates feeling proud about.",
+    "id": 170
+  },
+  {
+    "question": "मैं इस नतीजे से संतुष्ट हूँ।",
+    "options": [
+      "I am satisfied from this result",
+      "I am satisfied with this result",
+      "I am satisfied at this result",
+      "I am satisfied on this result"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Satisfied with' indicates contentment.",
+    "id": 171
+  },
+  {
+    "question": "वह अपने काम के लिए जाना जाता है।",
+    "options": [
+      "He is known for his work",
+      "He is known by his work",
+      "He is known from his work",
+      "He is known of his work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Known for' indicates reason for fame.",
+    "id": 172
+  },
+  {
+    "question": "मैं उसके खिलाफ कुछ नहीं कहूंगा।",
+    "options": [
+      "I will not say anything against him",
+      "I will not say anything for him",
+      "I will not say anything to him",
+      "I will not say anything with him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Against' indicates opposition.",
+    "id": 173
+  },
+  {
+    "question": "वह इस स्कूल का प्रिंसिपल है।",
+    "options": [
+      "He is principal of this school",
+      "He is principal for this school",
+      "He is principal in this school",
+      "He is principal at this school"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Principal of' indicates leadership of institution.",
+    "id": 174
+  },
+  {
+    "question": "मैं इस बीमारी से पीड़ित हूँ।",
+    "options": [
+      "I am suffering from this disease",
+      "I am suffering of this disease",
+      "I am suffering with this disease",
+      "I am suffering by this disease"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Suffer from' indicates illness.",
+    "id": 175
+  },
+  {
+    "question": "वह अपने भाई से झगड़ रहा है।",
+    "options": [
+      "He is quarreling to his brother",
+      "He is quarreling with his brother",
+      "He is quarreling at his brother",
+      "He is quarreling on his brother"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Quarrel with' indicates argument.",
+    "id": 176
+  },
+  {
+    "question": "हम इस पहाड़ी पर चढ़ेंगे।",
+    "options": [
+      "We will climb on this hill",
+      "We will climb this hill",
+      "We will climb to this hill",
+      "We will climb at this hill"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Climb' is transitive and takes no preposition.",
+    "id": 177
+  },
+  {
+    "question": "वह अपने बच्चों की देखभाल करता है।",
+    "options": [
+      "He takes care of his children",
+      "He takes care for his children",
+      "He takes care to his children",
+      "He takes care on his children"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Take care of' is the correct phrasal verb.",
+    "id": 178
+  },
+  {
+    "question": "मैं इस विषय में रुचि रखता हूँ।",
+    "options": [
+      "I have interest in this subject",
+      "I have interest for this subject",
+      "I have interest on this subject",
+      "I have interest at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Interest in' indicates curiosity.",
+    "id": 179
+  },
+  {
+    "question": "वह इस काम के लिए उपयुक्त है।",
+    "options": [
+      "He is suitable for this work",
+      "He is suitable to this work",
+      "He is suitable in this work",
+      "He is suitable at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Suitable for' indicates appropriateness.",
+    "id": 180
+  },
+  {
+    "question": "मैं उसकी सलाह के अनुसार चलूंगा।",
+    "options": [
+      "I will act according to his advice",
+      "I will act as per his advice",
+      "I will act on his advice",
+      "I will act with his advice"
+    ],
+    "correctIndex": 0,
+    "explanation": "'According to' indicates conformity.",
+    "id": 181
+  },
+  {
+    "question": "वह अपने दोस्तों से अलग हो गया।",
+    "options": [
+      "He separated from his friends",
+      "He separated with his friends",
+      "He separated of his friends",
+      "He separated by his friends"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Separate from' indicates parting.",
+    "id": 182
+  },
+  {
+    "question": "मैं इस समस्या का समाधान ढूंढूंगा।",
+    "options": [
+      "I will find a solution for this problem",
+      "I will find a solution to this problem",
+      "I will find a solution of this problem",
+      "I will find a solution at this problem"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Solution to' is the correct preposition.",
+    "id": 183
+  },
+  {
+    "question": "वह अपने पिता के साथ बहस कर रहा था।",
+    "options": [
+      "He was arguing to his father",
+      "He was arguing with his father",
+      "He was arguing at his father",
+      "He was arguing on his father"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Argue with' indicates disagreement.",
+    "id": 184
+  },
+  {
+    "question": "हम इस घटना से सीखेंगे।",
+    "options": [
+      "We will learn from this incident",
+      "We will learn of this incident",
+      "We will learn by this incident",
+      "We will learn at this incident"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Learn from' indicates gaining knowledge.",
+    "id": 185
+  },
+  {
+    "question": "वह अपनी बहन से ईर्ष्या करती है।",
+    "options": [
+      "She is jealous of her sister",
+      "She is jealous from her sister",
+      "She is jealous at her sister",
+      "She is jealous with her sister"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Jealous of' indicates envy.",
+    "id": 186
+  },
+  {
+    "question": "मैंने उसे पैसे उधार दिए।",
+    "options": [
+      "I lent money to him",
+      "I lent money him",
+      "I lent money for him",
+      "I lent money at him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Lend to' indicates the recipient.",
+    "id": 187
+  },
+  {
+    "question": "वह इस काम में निपुण है।",
+    "options": [
+      "He is proficient in this work",
+      "He is proficient at this work",
+      "He is proficient on this work",
+      "He is proficient for this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Proficient in' indicates skill.",
+    "id": 188
+  },
+  {
+    "question": "मैं इस फैसले से सहमत हूँ।",
+    "options": [
+      "I agree to this decision",
+      "I agree with this decision",
+      "I agree on this decision",
+      "I agree at this decision"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Agree to' is used for decisions or proposals.",
+    "id": 189
+  },
+  {
+    "question": "वह अपनी माँ के बारे में बात कर रहा था।",
+    "options": [
+      "He was talking of his mother",
+      "He was talking about his mother",
+      "He was talking on his mother",
+      "He was talking at his mother"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Talk about' indicates the topic.",
+    "id": 190
+  },
+  {
+    "question": "मैं इस काम के लिए धन्यवाद देना चाहता हूँ।",
+    "options": [
+      "I want to thank for this work",
+      "I want to thank this work",
+      "I want to thank to this work",
+      "I want to thank at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Thank for' indicates the reason for thanks.",
+    "id": 191
+  },
+  {
+    "question": "वह अपने भाई की मदद पर निर्भर है।",
+    "options": [
+      "He depends on his brother's help",
+      "He depends from his brother's help",
+      "He depends at his brother's help",
+      "He depends in his brother's help"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Depend on' indicates reliance.",
+    "id": 192
+  },
+  {
+    "question": "मैं इस मौके का फायदा उठाऊंगा।",
+    "options": [
+      "I will take advantage of this opportunity",
+      "I will take advantage from this opportunity",
+      "I will take advantage by this opportunity",
+      "I will take advantage at this opportunity"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Advantage of' indicates benefit from.",
+    "id": 193
+  },
+  {
+    "question": "वह अपनी गलती से सीखता है।",
+    "options": [
+      "He learns from his mistake",
+      "He learns of his mistake",
+      "He learns by his mistake",
+      "He learns at his mistake"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Learn from' indicates gaining wisdom.",
+    "id": 194
+  },
+  {
+    "question": "हम इस शहर में रहते हैं।",
+    "options": [
+      "We live in this city",
+      "We live at this city",
+      "We live on this city",
+      "We live by this city"
+    ],
+    "correctIndex": 0,
+    "explanation": "'In' is used for cities and towns.",
+    "id": 195
+  },
+  {
+    "question": "वह अपने पिता के साथ काम करता है।",
+    "options": [
+      "He works with his father",
+      "He works to his father",
+      "He works for his father",
+      "He works at his father"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Work with' indicates collaboration.",
+    "id": 196
+  },
+  {
+    "question": "मैं इस पुल के नीचे से गुजरा।",
+    "options": [
+      "I passed under this bridge",
+      "I passed below this bridge",
+      "I passed beneath this bridge",
+      "I passed underneath this bridge"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Under' indicates directly below.",
+    "id": 197
+  },
+  {
+    "question": "वह अपनी सफलता के लिए मेहनत करता है।",
+    "options": [
+      "He works hard for his success",
+      "He works hard to his success",
+      "He works hard at his success",
+      "He works hard on his success"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates purpose.",
+    "id": 198
+  },
+  {
+    "question": "मैं तुम्हारी वजह से यहाँ हूँ।",
+    "options": [
+      "I am here because of you",
+      "I am here due to you",
+      "I am here for you",
+      "I am here by you"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because of' indicates cause.",
+    "id": 199
+  },
+  {
+    "question": "वह अपने दोस्तों के साथ खेल रहा है।",
+    "options": [
+      "He is playing with his friends",
+      "He is playing to his friends",
+      "He is playing at his friends",
+      "He is playing for his friends"
+    ],
+    "correctIndex": 0,
+    "explanation": "'With' indicates companionship.",
+    "id": 200
+  },
+  {
+    "question": "मैं इस काम के लिए तैयार हूँ।",
+    "options": [
+      "I am ready for this work",
+      "I am ready to this work",
+      "I am ready at this work",
+      "I am ready in this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Ready for' indicates preparedness.",
+    "id": 201
+  },
+  {
+    "question": "वह अपने भाई से शादी करना चाहता है।",
+    "options": [
+      "He wants to marry his sister",
+      "He wants to marry to his sister",
+      "He wants to marry with his sister",
+      "He wants to marry for his sister"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Marry' is transitive and takes no preposition.",
+    "id": 202
+  },
+  {
+    "question": "मैंने यह खबर उससे सुनी।",
+    "options": [
+      "I heard this news from him",
+      "I heard this news of him",
+      "I heard this news by him",
+      "I heard this news at him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Hear from' indicates the source.",
+    "id": 203
+  },
+  {
+    "question": "वह इस मामले में शामिल है।",
+    "options": [
+      "He is involved in this matter",
+      "He is involved with this matter",
+      "He is involved at this matter",
+      "He is involved on this matter"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Involved in' indicates participation.",
+    "id": 204
+  },
+  {
+    "question": "मैं उसके प्रति जिम्मेदार हूँ।",
+    "options": [
+      "I am responsible to him",
+      "I am responsible for him",
+      "I am responsible at him",
+      "I am responsible with him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Responsible to' indicates accountability to a person.",
+    "id": 205
+  },
+  {
+    "question": "वह अपनी माँ की याद में रो रहा था।",
+    "options": [
+      "He was crying in memory of his mother",
+      "He was crying for memory of his mother",
+      "He was crying at memory of his mother",
+      "He was crying on memory of his mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'In memory of' indicates remembrance.",
+    "id": 206
+  },
+  {
+    "question": "मैं इस काम के बारे में सोचूंगा।",
+    "options": [
+      "I will think about this work",
+      "I will think of this work",
+      "I will think on this work",
+      "I will think at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Think about' indicates consideration.",
+    "id": 207
+  },
+  {
+    "question": "वह अपने पिता से मिलता जुलता है।",
+    "options": [
+      "He resembles his father",
+      "He resembles to his father",
+      "He resembles with his father",
+      "He resembles from his father"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Resemble' is transitive and takes no preposition.",
+    "id": 208
+  },
+  {
+    "question": "मैंने यह किताब उसे समर्पित की।",
+    "options": [
+      "I dedicated this book to him",
+      "I dedicated this book for him",
+      "I dedicated this book at him",
+      "I dedicated this book with him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Dedicate to' indicates the honoree.",
+    "id": 209
+  },
+  {
+    "question": "वह अपने काम में लगा हुआ है।",
+    "options": [
+      "He is engaged in his work",
+      "He is engaged with his work",
+      "He is engaged at his work",
+      "He is engaged on his work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Engaged in' indicates involvement.",
+    "id": 210
+  },
+  {
+    "question": "मैं उसकी सफलता से खुश हूँ।",
+    "options": [
+      "I am happy with his success",
+      "I am happy at his success",
+      "I am happy for his success",
+      "I am happy on his success"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Happy for' indicates joy about someone's fortune.",
+    "id": 211
+  },
+  {
+    "question": "वह अपने भाई के साथ तुलना नहीं कर सकता।",
+    "options": [
+      "He cannot compare with his brother",
+      "He cannot compare to his brother",
+      "He cannot compare his brother",
+      "He cannot compare at his brother"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Compare' is transitive when comparing two things.",
+    "id": 212
+  },
+  {
+    "question": "मैंने उसे इस काम से रोका।",
+    "options": [
+      "I prevented him from this work",
+      "I prevented him to do this work",
+      "I prevented him for this work",
+      "I prevented him at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Prevent from' indicates stopping.",
+    "id": 213
+  },
+  {
+    "question": "वह अपनी बहन के प्रति दयालु है।",
+    "options": [
+      "He is kind to his sister",
+      "He is kind with his sister",
+      "He is kind for his sister",
+      "He is kind at his sister"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Kind to' indicates benevolence towards.",
+    "id": 214
+  },
+  {
+    "question": "मैं इस किताब को पढ़ने के लिए उत्सुक हूँ।",
+    "options": [
+      "I am eager to read this book",
+      "I am eager for reading this book",
+      "I am eager in reading this book",
+      "I am eager at reading this book"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Eager to' indicates strong desire.",
+    "id": 215
+  },
+  {
+    "question": "वह अपने पिता के साथ बहस कर रहा था।",
+    "options": [
+      "He was arguing with his father",
+      "He was arguing to his father",
+      "He was arguing at his father",
+      "He was arguing on his father"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Argue with' indicates verbal conflict.",
+    "id": 216
+  },
+  {
+    "question": "मैंने उसे इस फैसले से अवगत कराया।",
+    "options": [
+      "I informed him of this decision",
+      "I informed him about this decision",
+      "I informed him on this decision",
+      "I informed him at this decision"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Inform of' indicates notification.",
+    "id": 217
+  },
+  {
+    "question": "वह अपनी माँ की तरह बोलती है।",
+    "options": [
+      "She speaks like her mother",
+      "She speaks as her mother",
+      "She speaks to her mother",
+      "She speaks from her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Like' indicates similarity.",
+    "id": 218
+  },
+  {
+    "question": "मैं इस काम के लिए माफी माँगता हूँ।",
+    "options": [
+      "I apologize for this work",
+      "I apologize this work",
+      "I apologize to this work",
+      "I apologize at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Apologize for' indicates the reason.",
+    "id": 219
+  },
+  {
+    "question": "वह अपने भाई से डरता है।",
+    "options": [
+      "He is afraid of his brother",
+      "He is afraid from his brother",
+      "He is afraid at his brother",
+      "He is afraid with his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Afraid of' indicates fear.",
+    "id": 220
+  },
+  {
+    "question": "मैं इस योजना के विरुद्ध हूँ।",
+    "options": [
+      "I am against this plan",
+      "I am for this plan",
+      "I am on this plan",
+      "I am at this plan"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Against' indicates opposition.",
+    "id": 221
+  },
+  {
+    "question": "वह अपनी सफलता से संतुष्ट है।",
+    "options": [
+      "He is satisfied with his success",
+      "He is satisfied at his success",
+      "He is satisfied on his success",
+      "He is satisfied from his success"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Satisfied with' indicates contentment.",
+    "id": 222
+  },
+  {
+    "question": "मैं तुम्हारी मदद के लिए आभारी हूँ।",
+    "options": [
+      "I am grateful for your help",
+      "I am grateful to your help",
+      "I am grateful at your help",
+      "I am grateful with your help"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Grateful for' indicates the reason.",
+    "id": 223
+  },
+  {
+    "question": "वह इस काम में दिलचस्पी लेता है।",
+    "options": [
+      "He takes interest in this work",
+      "He takes interest for this work",
+      "He takes interest on this work",
+      "He takes interest at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Interest in' indicates curiosity.",
+    "id": 224
+  },
+  {
+    "question": "मैंने यह काम उसकी जगह किया।",
+    "options": [
+      "I did this work in his place",
+      "I did this work instead of him",
+      "I did this work for him",
+      "I did this work to him"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Instead of' indicates substitution.",
+    "id": 225
+  },
+  {
+    "question": "वह अपने दोस्तों से घिरा हुआ था।",
+    "options": [
+      "He was surrounded by his friends",
+      "He was surrounded with his friends",
+      "He was surrounded from his friends",
+      "He was surrounded of his friends"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Surrounded by' indicates being encircled.",
+    "id": 226
+  },
+  {
+    "question": "मैं इस शहर से प्यार करता हूँ।",
+    "options": [
+      "I love this city",
+      "I love to this city",
+      "I love for this city",
+      "I love at this city"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Love' is transitive and takes no preposition.",
+    "id": 227
+  },
+  {
+    "question": "वह अपनी माँ के लिए खाना बनाती है।",
+    "options": [
+      "She cooks for her mother",
+      "She cooks to her mother",
+      "She cooks at her mother",
+      "She cooks with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates intended recipient.",
+    "id": 228
+  },
+  {
+    "question": "मैं इस फिल्म को देखने के लिए उत्सुक हूँ।",
+    "options": [
+      "I am excited to watch this movie",
+      "I am excited for watching this movie",
+      "I am excited in watching this movie",
+      "I am excited at watching this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Excited to' indicates anticipation.",
+    "id": 229
+  },
+  {
+    "question": "वह अपने भाई के साथ विश्वासघात किया।",
+    "options": [
+      "He betrayed his brother",
+      "He betrayed to his brother",
+      "He betrayed with his brother",
+      "He betrayed at his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Betray' is transitive and takes no preposition.",
+    "id": 230
+  },
+  {
+    "question": "मैं इस नतीजे से हैरान हूँ।",
+    "options": [
+      "I am surprised at this result",
+      "I am surprised with this result",
+      "I am surprised by this result",
+      "I am surprised from this result"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Surprised by' indicates the cause of surprise.",
+    "id": 231
+  },
+  {
+    "question": "वह अपनी सफलता का श्रेय अपनी माँ को देता है।",
+    "options": [
+      "He credits his success to his mother",
+      "He credits his success for his mother",
+      "He credits his success at his mother",
+      "He credits his success with his mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Credit to' indicates giving recognition.",
+    "id": 232
+  },
+  {
+    "question": "मैं इस समस्या का सामना कर रहा हूँ।",
+    "options": [
+      "I am facing this problem",
+      "I am facing to this problem",
+      "I am facing with this problem",
+      "I am facing at this problem"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Face' is transitive and takes no preposition.",
+    "id": 233
+  },
+  {
+    "question": "वह अपने पिता के खिलाफ गया।",
+    "options": [
+      "He went against his father",
+      "He went to his father",
+      "He went with his father",
+      "He went for his father"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Against' indicates opposition.",
+    "id": 234
+  },
+  {
+    "question": "मैं इस काम के लिए प्रतिबद्ध हूँ।",
+    "options": [
+      "I am committed to this work",
+      "I am committed for this work",
+      "I am committed in this work",
+      "I am committed at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Committed to' indicates dedication.",
+    "id": 235
+  },
+  {
+    "question": "वह अपनी माँ की कमी महसूस करता है।",
+    "options": [
+      "He misses his mother",
+      "He misses to his mother",
+      "He misses for his mother",
+      "He misses at his mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Miss' is transitive and takes no preposition.",
+    "id": 236
+  },
+  {
+    "question": "मैंने इस बात पर ध्यान दिया।",
+    "options": [
+      "I paid attention to this matter",
+      "I paid attention on this matter",
+      "I paid attention at this matter",
+      "I paid attention for this matter"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Attention to' is the correct phrase.",
+    "id": 237
+  },
+  {
+    "question": "वह अपने भाई के साथ प्रतिस्पर्धा कर रहा है।",
+    "options": [
+      "He is competing with his brother",
+      "He is competing to his brother",
+      "He is competing against his brother",
+      "He is competing at his brother"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Compete against' indicates rivalry.",
+    "id": 238
+  },
+  {
+    "question": "मैं इस किताब को पढ़ने में लगा हुआ हूँ।",
+    "options": [
+      "I am engaged in reading this book",
+      "I am engaged to read this book",
+      "I am engaged with reading this book",
+      "I am engaged at reading this book"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Engaged in' indicates involvement.",
+    "id": 239
+  },
+  {
+    "question": "वह अपने पिता से विरासत में मिली।",
+    "options": [
+      "He inherited from his father",
+      "He inherited his father",
+      "He inherited to his father",
+      "He inherited at his father"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Inherit from' indicates source of inheritance.",
+    "id": 240
+  },
+  {
+    "question": "मैं इस काम के लिए उपयुक्त नहीं हूँ।",
+    "options": [
+      "I am not fit for this work",
+      "I am not fit to this work",
+      "I am not fit in this work",
+      "I am not fit at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Fit for' indicates suitability.",
+    "id": 241
+  },
+  {
+    "question": "वह अपनी बहन की देखभाल करती है।",
+    "options": [
+      "She takes care of her sister",
+      "She takes care for her sister",
+      "She takes care to her sister",
+      "She takes care on her sister"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Take care of' is the correct phrase.",
+    "id": 242
+  },
+  {
+    "question": "मैं इस विचार का विरोध करता हूँ।",
+    "options": [
+      "I oppose this idea",
+      "I oppose to this idea",
+      "I oppose against this idea",
+      "I oppose at this idea"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Oppose' is transitive and takes no preposition.",
+    "id": 243
+  },
+  {
+    "question": "वह अपने भाई से लड़ रहा है।",
+    "options": [
+      "He is fighting with his brother",
+      "He is fighting to his brother",
+      "He is fighting at his brother",
+      "He is fighting on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Fight with' indicates mutual combat.",
+    "id": 244
+  },
+  {
+    "question": "मैं इस फैसले के पक्ष में हूँ।",
+    "options": [
+      "I am in favor of this decision",
+      "I am in favor to this decision",
+      "I am in favor for this decision",
+      "I am in favor at this decision"
+    ],
+    "correctIndex": 0,
+    "explanation": "'In favor of' indicates support.",
+    "id": 245
+  },
+  {
+    "question": "वह अपनी माँ के साथ बाजार गया।",
+    "options": [
+      "He went to market with his mother",
+      "He went to market for his mother",
+      "He went to market at his mother",
+      "He went to market by his mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'With' indicates accompaniment.",
+    "id": 246
+  },
+  {
+    "question": "मैं इस काम के लिए क्षमा चाहता हूँ।",
+    "options": [
+      "I beg forgiveness for this work",
+      "I beg forgiveness of this work",
+      "I beg forgiveness at this work",
+      "I beg forgiveness from this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Forgiveness for' indicates the reason.",
+    "id": 247
+  },
+  {
+    "question": "वह अपने पिता के नाम पर रखा गया है।",
+    "options": [
+      "He is named after his father",
+      "He is named from his father",
+      "He is named by his father",
+      "He is named on his father"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Named after' indicates namesake.",
+    "id": 248
+  },
+  {
+    "question": "मैंने उसे इस काम के लिए मना किया।",
+    "options": [
+      "I forbade him from doing this work",
+      "I forbade him to do this work",
+      "I forbade him for this work",
+      "I forbade him at this work"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Forbid to' indicates prohibition.",
+    "id": 249
+  },
+  {
+    "question": "वह अपनी बहन के साथ ईर्ष्या करता है।",
+    "options": [
+      "He is jealous of his sister",
+      "He is jealous from his sister",
+      "He is jealous at his sister",
+      "He is jealous with his sister"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Jealous of' indicates envy.",
+    "id": 250
+  },
+  {
+    "question": "मैं इस घटना का गवाह था।",
+    "options": [
+      "I was witness to this incident",
+      "I was witness of this incident",
+      "I was witness at this incident",
+      "I was witness for this incident"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Witness to' indicates observation.",
+    "id": 251
+  },
+  {
+    "question": "वह अपने भाई के बराबर है।",
+    "options": [
+      "He is equal to his brother",
+      "He is equal with his brother",
+      "He is equal as his brother",
+      "He is equal from his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Equal to' indicates sameness.",
+    "id": 252
+  },
+  {
+    "question": "मैं इस फैसले से सहमत हूँ।",
+    "options": [
+      "I concur with this decision",
+      "I concur to this decision",
+      "I concur on this decision",
+      "I concur at this decision"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Concur with' indicates agreement.",
+    "id": 253
+  },
+  {
+    "question": "वह अपनी माँ से माफी माँगता है।",
+    "options": [
+      "He apologizes to his mother",
+      "He apologizes his mother",
+      "He apologizes for his mother",
+      "He apologizes at his mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Apologize to' indicates the person.",
+    "id": 254
+  },
+  {
+    "question": "मैं इस काम के लिए आभारी हूँ।",
+    "options": [
+      "I am thankful for this work",
+      "I am thankful to this work",
+      "I am thankful at this work",
+      "I am thankful with this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Thankful for' indicates the reason.",
+    "id": 255
+  },
+  {
+    "question": "वह अपने पिता के साथ बहस करता है।",
+    "options": [
+      "He debates with his father",
+      "He debates to his father",
+      "He debates at his father",
+      "He debates on his father"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Debate with' indicates discussion.",
+    "id": 256
+  },
+  {
+    "question": "मैं इस विषय में पारंगत हूँ।",
+    "options": [
+      "I am proficient in this subject",
+      "I am proficient at this subject",
+      "I am proficient on this subject",
+      "I am proficient for this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Proficient in' indicates skill.",
+    "id": 257
+  },
+  {
+    "question": "वह अपनी बहन की शादी में शामिल हुआ।",
+    "options": [
+      "He attended his sister's wedding",
+      "He attended to his sister's wedding",
+      "He attended at his sister's wedding",
+      "He attended for his sister's wedding"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Attend' is transitive and takes no preposition.",
+    "id": 258
+  },
+  {
+    "question": "मैं इस समस्या से निपटूंगा।",
+    "options": [
+      "I will deal with this problem",
+      "I will deal in this problem",
+      "I will deal at this problem",
+      "I will deal on this problem"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Deal with' indicates handling.",
+    "id": 259
+  },
+  {
+    "question": "वह अपने भाई पर भरोसा करता है।",
+    "options": [
+      "He trusts his brother",
+      "He trusts in his brother",
+      "He trusts on his brother",
+      "He trusts at his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Trust' is transitive and takes no preposition.",
+    "id": 260
+  },
+  {
+    "question": "मैं इस काम के लिए योग्य हूँ।",
+    "options": [
+      "I am qualified for this work",
+      "I am qualified to this work",
+      "I am qualified in this work",
+      "I am qualified at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Qualified for' indicates suitability.",
+    "id": 261
+  },
+  {
+    "question": "वह अपनी माँ की सेवा करता है।",
+    "options": [
+      "He serves his mother",
+      "He serves to his mother",
+      "He serves for his mother",
+      "He serves at his mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Serve' is transitive and takes no preposition.",
+    "id": 262
+  },
+  {
+    "question": "मैं इस फिल्म को पसंद करता हूँ।",
+    "options": [
+      "I like this movie",
+      "I like to this movie",
+      "I like for this movie",
+      "I like at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Like' is transitive and takes no preposition.",
+    "id": 263
+  },
+  {
+    "question": "वह अपने भाई के साथ यात्रा कर रहा है।",
+    "options": [
+      "He is traveling with his brother",
+      "He is traveling to his brother",
+      "He is traveling for his brother",
+      "He is traveling at his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'With' indicates accompaniment.",
+    "id": 264
+  },
+  {
+    "question": "मैं इस काम के लिए प्रयास करूंगा।",
+    "options": [
+      "I will strive for this work",
+      "I will strive to this work",
+      "I will strive at this work",
+      "I will strive on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Strive for' indicates effort towards.",
+    "id": 265
+  },
+  {
+    "question": "वह अपनी माँ के बारे में सपना देखता है।",
+    "options": [
+      "He dreams about his mother",
+      "He dreams of his mother",
+      "He dreams on his mother",
+      "He dreams at his mother"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Dream of' indicates imagining.",
+    "id": 266
+  },
+  {
+    "question": "मैं इस काम के लिए तैयार नहीं हूँ।",
+    "options": [
+      "I am not prepared for this work",
+      "I am not prepared to this work",
+      "I am not prepared in this work",
+      "I am not prepared at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Prepared for' indicates readiness.",
+    "id": 267
+  },
+  {
+    "question": "वह अपने पिता के साथ बहस कर रहा है।",
+    "options": [
+      "He is disputing with his father",
+      "He is disputing to his father",
+      "He is disputing at his father",
+      "He is disputing on his father"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Dispute with' indicates argument.",
+    "id": 268
+  },
+  {
+    "question": "मैं इस नतीजे से सहमत हूँ।",
+    "options": [
+      "I agree with this result",
+      "I agree to this result",
+      "I agree on this result",
+      "I agree at this result"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Agree with' is used for opinions or results.",
+    "id": 269
+  },
+  {
+    "question": "वह अपनी बहन के प्रति वफादार है।",
+    "options": [
+      "He is loyal to his sister",
+      "He is loyal with his sister",
+      "He is loyal for his sister",
+      "He is loyal at his sister"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Loyal to' indicates faithfulness.",
+    "id": 270
+  },
+  {
+    "question": "मैं इस काम के लिए जिम्मेदार हूँ।",
+    "options": [
+      "I am responsible for this work",
+      "I am responsible to this work",
+      "I am responsible at this work",
+      "I am responsible with this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Responsible for' indicates accountability for a task.",
+    "id": 271
+  },
+  {
+    "question": "वह अपने भाई के साथ प्रतिस्पर्धा कर रहा है।",
+    "options": [
+      "He is competing with his brother",
+      "He is competing to his brother",
+      "He is competing against his brother",
+      "He is competing at his brother"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Compete against' indicates rivalry.",
+    "id": 272
+  },
+  {
+    "question": "मैं इस फिल्म के बारे में बात करूंगा।",
+    "options": [
+      "I will talk about this movie",
+      "I will talk of this movie",
+      "I will talk on this movie",
+      "I will talk at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Talk about' indicates the topic.",
+    "id": 273
+  },
+  {
+    "question": "वह अपनी माँ की याद करता है।",
+    "options": [
+      "He misses his mother",
+      "He misses to his mother",
+      "He misses for his mother",
+      "He misses at his mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Miss' is transitive and takes no preposition.",
+    "id": 274
+  },
+  {
+    "question": "मैं इस काम के लिए प्रार्थना करूंगा।",
+    "options": [
+      "I will pray for this work",
+      "I will pray to this work",
+      "I will pray at this work",
+      "I will pray on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Pray for' indicates petition for.",
+    "id": 275
+  },
+  {
+    "question": "वह अपने भाई के साथ सहयोग करता है।",
+    "options": [
+      "He cooperates with his brother",
+      "He cooperates to his brother",
+      "He cooperates at his brother",
+      "He cooperates on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Cooperate with' indicates working together.",
+    "id": 276
+  },
+  {
+    "question": "मैं इस विषय में विशेषज्ञ हूँ।",
+    "options": [
+      "I am an expert in this subject",
+      "I am an expert at this subject",
+      "I am an expert on this subject",
+      "I am an expert for this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Expert in' indicates mastery.",
+    "id": 277
+  },
+  {
+    "question": "वह अपनी माँ के साथ रहता है।",
+    "options": [
+      "He lives with his mother",
+      "He lives to his mother",
+      "He lives for his mother",
+      "He lives at his mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Live with' indicates cohabitation.",
+    "id": 278
+  },
+  {
+    "question": "मैं इस काम के लिए दौड़ूंगा।",
+    "options": [
+      "I will run for this work",
+      "I will run to this work",
+      "I will run at this work",
+      "I will run on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Run for' indicates striving for.",
+    "id": 279
+  },
+  {
+    "question": "वह अपने भाई से झूठ बोलता है।",
+    "options": [
+      "He lies to his brother",
+      "He lies with his brother",
+      "He lies at his brother",
+      "He lies on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Lie to' indicates deception.",
+    "id": 280
+  },
+  {
+    "question": "मैं इस समस्या से जूझ रहा हूँ।",
+    "options": [
+      "I am struggling with this problem",
+      "I am struggling against this problem",
+      "I am struggling at this problem",
+      "I am struggling on this problem"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Struggle with' indicates effort against.",
+    "id": 281
+  },
+  {
+    "question": "वह अपनी माँ के लिए रोता है।",
+    "options": [
+      "He cries for his mother",
+      "He cries to his mother",
+      "He cries at his mother",
+      "He cries on his mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Cry for' indicates longing or grief.",
+    "id": 282
+  },
+  {
+    "question": "मैं इस काम के लिए उपयुक्त हूँ।",
+    "options": [
+      "I am suited for this work",
+      "I am suited to this work",
+      "I am suited in this work",
+      "I am suited at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Suited for' indicates appropriateness.",
+    "id": 283
+  },
+  {
+    "question": "वह अपने भाई के साथ खेलता है।",
+    "options": [
+      "He plays with his brother",
+      "He plays to his brother",
+      "He plays at his brother",
+      "He plays for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Play with' indicates companionship.",
+    "id": 284
+  },
+  {
+    "question": "मैं इस फिल्म में अभिनय करूंगा।",
+    "options": [
+      "I will act in this movie",
+      "I will act on this movie",
+      "I will act at this movie",
+      "I will act for this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Act in' indicates performing in.",
+    "id": 285
+  },
+  {
+    "question": "वह अपनी माँ से मिलता है।",
+    "options": [
+      "He meets his mother",
+      "He meets to his mother",
+      "He meets with his mother",
+      "He meets at his mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Meet' is transitive and takes no preposition.",
+    "id": 286
+  },
+  {
+    "question": "मैं इस काम के लिए भुगतान करूंगा।",
+    "options": [
+      "I will pay for this work",
+      "I will pay to this work",
+      "I will pay at this work",
+      "I will pay on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Pay for' indicates exchanging money for.",
+    "id": 287
+  },
+  {
+    "question": "वह अपने भाई से नफरत करता है।",
+    "options": [
+      "He hates his brother",
+      "He hates to his brother",
+      "He hates for his brother",
+      "He hates at his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Hate' is transitive and takes no preposition.",
+    "id": 288
+  },
+  {
+    "question": "मैं इस विषय में पढ़ूंगा।",
+    "options": [
+      "I will read about this subject",
+      "I will read of this subject",
+      "I will read on this subject",
+      "I will read at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Read about' indicates learning information.",
+    "id": 289
+  },
+  {
+    "question": "वह अपनी माँ के लिए गाती है।",
+    "options": [
+      "She sings for her mother",
+      "She sings to her mother",
+      "She sings at her mother",
+      "She sings with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sing for' indicates performing for someone.",
+    "id": 290
+  },
+  {
+    "question": "मैं इस काम के लिए आवेदन करूंगा।",
+    "options": [
+      "I will apply for this work",
+      "I will apply to this work",
+      "I will apply at this work",
+      "I will apply on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Apply for' indicates seeking.",
+    "id": 291
+  },
+  {
+    "question": "वह अपने भाई के साथ नृत्य करती है।",
+    "options": [
+      "She dances with her brother",
+      "She dances to her brother",
+      "She dances at her brother",
+      "She dances for her brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Dance with' indicates partnering.",
+    "id": 292
+  },
+  {
+    "question": "मैं इस फिल्म में विश्वास करता हूँ।",
+    "options": [
+      "I believe in this movie",
+      "I believe on this movie",
+      "I believe at this movie",
+      "I believe for this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Believe in' indicates faith.",
+    "id": 293
+  },
+  {
+    "question": "वह अपनी माँ के साथ बात करती है।",
+    "options": [
+      "She talks with her mother",
+      "She talks to her mother",
+      "She talks at her mother",
+      "She talks on her mother"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Talk to' indicates speaking with.",
+    "id": 294
+  },
+  {
+    "question": "मैं इस काम के लिए अध्ययन करूंगा।",
+    "options": [
+      "I will study for this work",
+      "I will study to this work",
+      "I will study at this work",
+      "I will study on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Study for' indicates preparing for.",
+    "id": 295
+  },
+  {
+    "question": "वह अपने भाई के साथ हंसती है।",
+    "options": [
+      "She laughs with her brother",
+      "She laughs at her brother",
+      "She laughs to her brother",
+      "She laughs on her brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Laugh with' indicates shared laughter.",
+    "id": 296
+  },
+  {
+    "question": "मैं इस विषय में लिखूंगा।",
+    "options": [
+      "I will write about this subject",
+      "I will write of this subject",
+      "I will write on this subject",
+      "I will write at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Write about' indicates the topic.",
+    "id": 297
+  },
+  {
+    "question": "वह अपनी माँ के लिए काम करती है।",
+    "options": [
+      "She works for her mother",
+      "She works to her mother",
+      "She works at her mother",
+      "She works with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Work for' indicates employment for someone.",
+    "id": 298
+  },
+  {
+    "question": "मैं इस काम के लिए प्रतीक्षा करूंगा।",
+    "options": [
+      "I will wait for this work",
+      "I will wait to this work",
+      "I will wait at this work",
+      "I will wait on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wait for' indicates expecting.",
+    "id": 299
+  },
+  {
+    "question": "वह अपने भाई के साथ चलता है।",
+    "options": [
+      "He walks with his brother",
+      "He walks to his brother",
+      "He walks at his brother",
+      "He walks for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Walk with' indicates accompanying.",
+    "id": 300
+  },
+  {
+    "question": "मैं इस फिल्म का आनंद लूंगा।",
+    "options": [
+      "I will enjoy this movie",
+      "I will enjoy to this movie",
+      "I will enjoy at this movie",
+      "I will enjoy on this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Enjoy' is transitive and takes no preposition.",
+    "id": 301
+  },
+  {
+    "question": "वह अपनी माँ की सेवा करती है।",
+    "options": [
+      "She serves her mother",
+      "She serves to her mother",
+      "She serves for her mother",
+      "She serves at her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Serve' is transitive and takes no preposition.",
+    "id": 302
+  },
+  {
+    "question": "मैं इस काम के लिए लड़ूंगा।",
+    "options": [
+      "I will fight for this work",
+      "I will fight to this work",
+      "I will fight at this work",
+      "I will fight on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Fight for' indicates struggling on behalf of.",
+    "id": 303
+  },
+  {
+    "question": "वह अपने भाई के साथ दौड़ता है।",
+    "options": [
+      "He runs with his brother",
+      "He runs to his brother",
+      "He runs at his brother",
+      "He runs for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Run with' indicates running together.",
+    "id": 304
+  },
+  {
+    "question": "मैं इस विषय में सोचूंगा।",
+    "options": [
+      "I will think about this subject",
+      "I will think of this subject",
+      "I will think on this subject",
+      "I will think at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Think about' indicates contemplation.",
+    "id": 305
+  },
+  {
+    "question": "वह अपनी माँ के लिए प्रार्थना करती है।",
+    "options": [
+      "She prays for her mother",
+      "She prays to her mother",
+      "She prays at her mother",
+      "She prays on her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Pray for' indicates petition on behalf of.",
+    "id": 306
+  },
+  {
+    "question": "मैं इस काम के लिए उत्सुक हूँ।",
+    "options": [
+      "I am eager for this work",
+      "I am eager to this work",
+      "I am eager in this work",
+      "I am eager at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Eager for' indicates strong desire.",
+    "id": 307
+  },
+  {
+    "question": "वह अपने भाई के साथ तैरता है।",
+    "options": [
+      "He swims with his brother",
+      "He swims to his brother",
+      "He swims at his brother",
+      "He swims for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Swim with' indicates swimming together.",
+    "id": 308
+  },
+  {
+    "question": "मैं इस फिल्म की समीक्षा करूंगा।",
+    "options": [
+      "I will review this movie",
+      "I will review about this movie",
+      "I will review on this movie",
+      "I will review at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Review' is transitive and takes no preposition.",
+    "id": 309
+  },
+  {
+    "question": "वह अपनी माँ के लिए खरीदारी करती है।",
+    "options": [
+      "She shops for her mother",
+      "She shops to her mother",
+      "She shops at her mother",
+      "She shops with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Shop for' indicates buying for someone.",
+    "id": 310
+  },
+  {
+    "question": "मैं इस काम के लिए भरोसा करता हूँ।",
+    "options": [
+      "I trust for this work",
+      "I trust in this work",
+      "I trust this work",
+      "I trust at this work"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Trust' is transitive and takes no preposition.",
+    "id": 311
+  },
+  {
+    "question": "वह अपने भाई के साथ बैठता है।",
+    "options": [
+      "He sits with his brother",
+      "He sits to his brother",
+      "He sits at his brother",
+      "He sits for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sit with' indicates sitting together.",
+    "id": 312
+  },
+  {
+    "question": "मैं इस विषय में पूछताछ करूंगा।",
+    "options": [
+      "I will inquire about this subject",
+      "I will inquire of this subject",
+      "I will inquire on this subject",
+      "I will inquire at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Inquire about' indicates seeking information.",
+    "id": 313
+  },
+  {
+    "question": "वह अपनी माँ के लिए रोती है।",
+    "options": [
+      "She cries for her mother",
+      "She cries to her mother",
+      "She cries at her mother",
+      "She cries on her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Cry for' indicates longing.",
+    "id": 314
+  },
+  {
+    "question": "मैं इस काम के लिए प्रसन्न हूँ।",
+    "options": [
+      "I am happy for this work",
+      "I am happy at this work",
+      "I am happy with this work",
+      "I am happy on this work"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Happy with' indicates satisfaction.",
+    "id": 315
+  },
+  {
+    "question": "वह अपने भाई के साथ खाता है।",
+    "options": [
+      "He eats with his brother",
+      "He eats to his brother",
+      "He eats at his brother",
+      "He eats for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Eat with' indicates dining together.",
+    "id": 316
+  },
+  {
+    "question": "मैं इस फिल्म की सराहना करूंगा।",
+    "options": [
+      "I will appreciate this movie",
+      "I will appreciate about this movie",
+      "I will appreciate on this movie",
+      "I will appreciate at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Appreciate' is transitive and takes no preposition.",
+    "id": 317
+  },
+  {
+    "question": "वह अपनी माँ के लिए गाड़ी चलाती है।",
+    "options": [
+      "She drives for her mother",
+      "She drives to her mother",
+      "She drives at her mother",
+      "She drives with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Drive for' indicates driving on behalf of.",
+    "id": 318
+  },
+  {
+    "question": "मैं इस काम के लिए सक्षम हूँ।",
+    "options": [
+      "I am capable for this work",
+      "I am capable of this work",
+      "I am capable in this work",
+      "I am capable at this work"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Capable of' indicates ability.",
+    "id": 319
+  },
+  {
+    "question": "वह अपने भाई के साथ सीखता है।",
+    "options": [
+      "He learns with his brother",
+      "He learns to his brother",
+      "He learns at his brother",
+      "He learns for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Learn with' indicates learning together.",
+    "id": 320
+  },
+  {
+    "question": "मैं इस विषय में गहराई से जानूंगा।",
+    "options": [
+      "I will delve into this subject",
+      "I will delve in this subject",
+      "I will delve on this subject",
+      "I will delve at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Delve into' indicates deep investigation.",
+    "id": 321
+  },
+  {
+    "question": "वह अपनी माँ के लिए सब्जी काटती है।",
+    "options": [
+      "She cuts vegetables for her mother",
+      "She cuts vegetables to her mother",
+      "She cuts vegetables at her mother",
+      "She cuts vegetables with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 322
+  },
+  {
+    "question": "मैं इस काम के लिए धन्यवाद दूंगा।",
+    "options": [
+      "I will give thanks for this work",
+      "I will give thanks to this work",
+      "I will give thanks at this work",
+      "I will give thanks on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Thanks for' indicates the reason.",
+    "id": 323
+  },
+  {
+    "question": "वह अपने भाई के साथ पढ़ता है।",
+    "options": [
+      "He studies with his brother",
+      "He studies to his brother",
+      "He studies at his brother",
+      "He studies for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Study with' indicates studying together.",
+    "id": 324
+  },
+  {
+    "question": "मैं इस फिल्म की तारीफ करूंगा।",
+    "options": [
+      "I will praise this movie",
+      "I will praise about this movie",
+      "I will praise on this movie",
+      "I will praise at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Praise' is transitive and takes no preposition.",
+    "id": 325
+  },
+  {
+    "question": "वह अपनी माँ के लिए कपड़े इस्त्री करती है।",
+    "options": [
+      "She irons clothes for her mother",
+      "She irons clothes to her mother",
+      "She irons clothes at her mother",
+      "She irons clothes with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 326
+  },
+  {
+    "question": "मैं इस काम के लिए दौड़ूंगा।",
+    "options": [
+      "I will run for this work",
+      "I will run to this work",
+      "I will run at this work",
+      "I will run on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Run for' indicates striving.",
+    "id": 327
+  },
+  {
+    "question": "वह अपने भाई के साथ झगड़ता है।",
+    "options": [
+      "He fights with his brother",
+      "He fights to his brother",
+      "He fights at his brother",
+      "He fights on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Fight with' indicates conflict.",
+    "id": 328
+  },
+  {
+    "question": "मैं इस विषय में शोध करूंगा।",
+    "options": [
+      "I will research this subject",
+      "I will research about this subject",
+      "I will research on this subject",
+      "I will research at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Research' is transitive and takes no preposition.",
+    "id": 329
+  },
+  {
+    "question": "वह अपनी माँ के लिए सफाई करती है।",
+    "options": [
+      "She cleans for her mother",
+      "She cleans to her mother",
+      "She cleans at her mother",
+      "She cleans with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Clean for' indicates doing for someone.",
+    "id": 330
+  },
+  {
+    "question": "मैं इस काम के लिए प्रयास करूंगा।",
+    "options": [
+      "I will attempt this work",
+      "I will attempt for this work",
+      "I will attempt to this work",
+      "I will attempt at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Attempt' is transitive and takes no preposition.",
+    "id": 331
+  },
+  {
+    "question": "वह अपने भाई के साथ बढ़ता है।",
+    "options": [
+      "He grows with his brother",
+      "He grows to his brother",
+      "He grows at his brother",
+      "He grows for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Grow with' indicates growing together.",
+    "id": 332
+  },
+  {
+    "question": "मैं इस फिल्म की अनुशंसा करूंगा।",
+    "options": [
+      "I will recommend this movie",
+      "I will recommend about this movie",
+      "I will recommend on this movie",
+      "I will recommend at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Recommend' is transitive and takes no preposition.",
+    "id": 333
+  },
+  {
+    "question": "वह अपनी माँ के लिए बागवानी करती है।",
+    "options": [
+      "She gardens for her mother",
+      "She gardens to her mother",
+      "She gardens at her mother",
+      "She gardens with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 334
+  },
+  {
+    "question": "मैं इस काम के लिए आभार व्यक्त करूंगा।",
+    "options": [
+      "I will express gratitude for this work",
+      "I will express gratitude to this work",
+      "I will express gratitude at this work",
+      "I will express gratitude on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Gratitude for' indicates the reason.",
+    "id": 335
+  },
+  {
+    "question": "वह अपने भाई के साथ याद करता है।",
+    "options": [
+      "He remembers with his brother",
+      "He remembers to his brother",
+      "He remembers at his brother",
+      "He remembers for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Remember with' indicates shared remembrance.",
+    "id": 336
+  },
+  {
+    "question": "मैं इस विषय में चर्चा करूंगा।",
+    "options": [
+      "I will discuss this subject",
+      "I will discuss about this subject",
+      "I will discuss on this subject",
+      "I will discuss at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Discuss' is transitive and takes no preposition.",
+    "id": 337
+  },
+  {
+    "question": "वह अपनी माँ के लिए संगीत बजाती है।",
+    "options": [
+      "She plays music for her mother",
+      "She plays music to her mother",
+      "She plays music at her mother",
+      "She plays music with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Play for' indicates performing for someone.",
+    "id": 338
+  },
+  {
+    "question": "मैं इस काम के लिए प्रतिबद्ध हूँ।",
+    "options": [
+      "I am committed to this work",
+      "I am committed for this work",
+      "I am committed in this work",
+      "I am committed at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Committed to' indicates dedication.",
+    "id": 339
+  },
+  {
+    "question": "वह अपने भाई के साथ सपना देखता है।",
+    "options": [
+      "He dreams with his brother",
+      "He dreams to his brother",
+      "He dreams at his brother",
+      "He dreams for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Dream with' indicates sharing dreams.",
+    "id": 340
+  },
+  {
+    "question": "मैं इस फिल्म का निर्देशन करूंगा।",
+    "options": [
+      "I will direct this movie",
+      "I will direct about this movie",
+      "I will direct on this movie",
+      "I will direct at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Direct' is transitive and takes no preposition.",
+    "id": 341
+  },
+  {
+    "question": "वह अपनी माँ के लिए खाना पकाती है।",
+    "options": [
+      "She cooks for her mother",
+      "She cooks to her mother",
+      "She cooks at her mother",
+      "She cooks with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Cook for' indicates preparing for someone.",
+    "id": 342
+  },
+  {
+    "question": "मैं इस काम के लिए काम करूंगा।",
+    "options": [
+      "I will work for this work",
+      "I will work to this work",
+      "I will work at this work",
+      "I will work on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Work for' indicates being employed for.",
+    "id": 343
+  },
+  {
+    "question": "वह अपने भाई के साथ विश्वास करता है।",
+    "options": [
+      "He believes with his brother",
+      "He believes in his brother",
+      "He believes at his brother",
+      "He believes on his brother"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Believe in' indicates faith.",
+    "id": 344
+  },
+  {
+    "question": "मैं इस विषय में जानकारी दूंगा।",
+    "options": [
+      "I will provide information about this subject",
+      "I will provide information of this subject",
+      "I will provide information on this subject",
+      "I will provide information at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Information about' indicates concerning.",
+    "id": 345
+  },
+  {
+    "question": "वह अपनी माँ के लिए पानी लाती है।",
+    "options": [
+      "She brings water for her mother",
+      "She brings water to her mother",
+      "She brings water at her mother",
+      "She brings water with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 346
+  },
+  {
+    "question": "मैं इस काम के लिए जाना जाता हूँ।",
+    "options": [
+      "I am known for this work",
+      "I am known to this work",
+      "I am known at this work",
+      "I am known by this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Known for' indicates fame reason.",
+    "id": 347
+  },
+  {
+    "question": "वह अपने भाई के साथ मुस्कुराता है।",
+    "options": [
+      "He smiles with his brother",
+      "He smiles at his brother",
+      "He smiles to his brother",
+      "He smiles on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Smile with' indicates shared smile.",
+    "id": 348
+  },
+  {
+    "question": "मैं इस फिल्म का निर्माण करूंगा।",
+    "options": [
+      "I will produce this movie",
+      "I will produce about this movie",
+      "I will produce on this movie",
+      "I will produce at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Produce' is transitive and takes no preposition.",
+    "id": 349
+  },
+  {
+    "question": "वह अपनी माँ के लिए कहानी सुनाती है।",
+    "options": [
+      "She tells a story for her mother",
+      "She tells a story to her mother",
+      "She tells a story at her mother",
+      "She tells a story with her mother"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Tell to' indicates the listener.",
+    "id": 350
+  },
+  {
+    "question": "मैं इस काम के लिए सोचूंगा।",
+    "options": [
+      "I will think for this work",
+      "I will think about this work",
+      "I will think on this work",
+      "I will think at this work"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Think about' indicates consideration.",
+    "id": 351
+  },
+  {
+    "question": "वह अपने भाई के साथ चिल्लाता है।",
+    "options": [
+      "He shouts with his brother",
+      "He shouts at his brother",
+      "He shouts to his brother",
+      "He shouts on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Shout with' indicates shouting together.",
+    "id": 352
+  },
+  {
+    "question": "मैं इस विषय में निष्कर्ष निकालूंगा।",
+    "options": [
+      "I will conclude about this subject",
+      "I will conclude on this subject",
+      "I will conclude this subject",
+      "I will conclude at this subject"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Conclude' is transitive and takes no preposition.",
+    "id": 353
+  },
+  {
+    "question": "वह अपनी माँ के लिए कपड़े धोती है।",
+    "options": [
+      "She washes clothes for her mother",
+      "She washes clothes to her mother",
+      "She washes clothes at her mother",
+      "She washes clothes with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 354
+  },
+  {
+    "question": "मैं इस काम के लिए पढ़ूंगा।",
+    "options": [
+      "I will read for this work",
+      "I will read about this work",
+      "I will read on this work",
+      "I will read at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Read for' indicates preparing.",
+    "id": 355
+  },
+  {
+    "question": "वह अपने भाई के साथ सोता है।",
+    "options": [
+      "He sleeps with his brother",
+      "He sleeps to his brother",
+      "He sleeps at his brother",
+      "He sleeps for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sleep with' indicates sharing bed.",
+    "id": 356
+  },
+  {
+    "question": "मैं इस फिल्म की आलोचना करूंगा।",
+    "options": [
+      "I will criticize this movie",
+      "I will criticize about this movie",
+      "I will criticize on this movie",
+      "I will criticize at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Criticize' is transitive and takes no preposition.",
+    "id": 357
+  },
+  {
+    "question": "वह अपनी माँ के लिए चाय बनाती है।",
+    "options": [
+      "She makes tea for her mother",
+      "She makes tea to her mother",
+      "She makes tea at her mother",
+      "She makes tea with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 358
+  },
+  {
+    "question": "मैं इस काम के लिए लिखूंगा।",
+    "options": [
+      "I will write for this work",
+      "I will write about this work",
+      "I will write on this work",
+      "I will write at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Write for' indicates writing on behalf of.",
+    "id": 359
+  },
+  {
+    "question": "वह अपने भाई के साथ खोज करता है।",
+    "options": [
+      "He searches with his brother",
+      "He searches for his brother",
+      "He searches at his brother",
+      "He searches on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Search with' indicates searching together.",
+    "id": 360
+  },
+  {
+    "question": "मैं इस विषय में बहस करूंगा।",
+    "options": [
+      "I will debate this subject",
+      "I will debate about this subject",
+      "I will debate on this subject",
+      "I will debate at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Debate' is transitive and takes no preposition.",
+    "id": 361
+  },
+  {
+    "question": "वह अपनी माँ के लिए दवा लाती है।",
+    "options": [
+      "She brings medicine for her mother",
+      "She brings medicine to her mother",
+      "She brings medicine at her mother",
+      "She brings medicine with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 362
+  },
+  {
+    "question": "मैं इस काम के लिए गाऊंगा।",
+    "options": [
+      "I will sing for this work",
+      "I will sing about this work",
+      "I will sing on this work",
+      "I will sing at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sing for' indicates performing for.",
+    "id": 363
+  },
+  {
+    "question": "वह अपने भाई के साथ नाचता है।",
+    "options": [
+      "He dances with his brother",
+      "He dances to his brother",
+      "He dances at his brother",
+      "He dances for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Dance with' indicates dancing together.",
+    "id": 364
+  },
+  {
+    "question": "मैं इस फिल्म की स्क्रीनिंग करूंगा।",
+    "options": [
+      "I will screen this movie",
+      "I will screen about this movie",
+      "I will screen on this movie",
+      "I will screen at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Screen' is transitive and takes no preposition.",
+    "id": 365
+  },
+  {
+    "question": "वह अपनी माँ के लिए कविता लिखती है।",
+    "options": [
+      "She writes a poem for her mother",
+      "She writes a poem to her mother",
+      "She writes a poem at her mother",
+      "She writes a poem with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates dedication.",
+    "id": 366
+  },
+  {
+    "question": "मैं इस काम के लिए भागूंगा।",
+    "options": [
+      "I will run for this work",
+      "I will run to this work",
+      "I will run at this work",
+      "I will run on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Run for' indicates striving.",
+    "id": 367
+  },
+  {
+    "question": "वह अपने भाई के साथ समझौता करता है।",
+    "options": [
+      "He compromises with his brother",
+      "He compromises to his brother",
+      "He compromises at his brother",
+      "He compromises on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Compromise with' indicates mutual agreement.",
+    "id": 368
+  },
+  {
+    "question": "मैं इस विषय में व्याख्यान दूंगा।",
+    "options": [
+      "I will lecture on this subject",
+      "I will lecture about this subject",
+      "I will lecture of this subject",
+      "I will lecture at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Lecture on' indicates speaking about.",
+    "id": 369
+  },
+  {
+    "question": "वह अपनी माँ के लिए फूल चुनती है।",
+    "options": [
+      "She picks flowers for her mother",
+      "She picks flowers to her mother",
+      "She picks flowers at her mother",
+      "She picks flowers with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 370
+  },
+  {
+    "question": "मैं इस काम के लिए अभ्यास करूंगा।",
+    "options": [
+      "I will practice for this work",
+      "I will practice this work",
+      "I will practice at this work",
+      "I will practice on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Practice for' indicates preparation.",
+    "id": 371
+  },
+  {
+    "question": "वह अपने भाई के साथ जश्न मनाता है।",
+    "options": [
+      "He celebrates with his brother",
+      "He celebrates to his brother",
+      "He celebrates at his brother",
+      "He celebrates for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Celebrate with' indicates sharing joy.",
+    "id": 372
+  },
+  {
+    "question": "मैं इस फिल्म का अनुवाद करूंगा।",
+    "options": [
+      "I will translate this movie",
+      "I will translate about this movie",
+      "I will translate on this movie",
+      "I will translate at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Translate' is transitive and takes no preposition.",
+    "id": 373
+  },
+  {
+    "question": "वह अपनी माँ के लिए तस्वीर खींचती है।",
+    "options": [
+      "She takes a photo for her mother",
+      "She takes a photo of her mother",
+      "She takes a photo at her mother",
+      "She takes a photo with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Take photo for' indicates doing for someone.",
+    "id": 374
+  },
+  {
+    "question": "मैं इस काम के लिए यात्रा करूंगा।",
+    "options": [
+      "I will travel for this work",
+      "I will travel to this work",
+      "I will travel at this work",
+      "I will travel on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Travel for' indicates purpose of travel.",
+    "id": 375
+  },
+  {
+    "question": "वह अपने भाई के साथ खोता है।",
+    "options": [
+      "He loses with his brother",
+      "He loses to his brother",
+      "He loses at his brother",
+      "He loses for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Lose to' indicates defeat.",
+    "id": 376
+  },
+  {
+    "question": "मैं इस विषय में निबंध लिखूंगा।",
+    "options": [
+      "I will write an essay on this subject",
+      "I will write an essay about this subject",
+      "I will write an essay of this subject",
+      "I will write an essay at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Essay on' indicates the topic.",
+    "id": 377
+  },
+  {
+    "question": "वह अपनी माँ के लिए केक बनाती है।",
+    "options": [
+      "She bakes a cake for her mother",
+      "She bakes a cake to her mother",
+      "She bakes a cake at her mother",
+      "She bakes a cake with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 378
+  },
+  {
+    "question": "मैं इस काम के लिए इंतजार करूंगा।",
+    "options": [
+      "I will wait for this work",
+      "I will wait to this work",
+      "I will wait at this work",
+      "I will wait on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wait for' indicates expectation.",
+    "id": 379
+  },
+  {
+    "question": "वह अपने भाई के साथ बोलता है।",
+    "options": [
+      "He speaks with his brother",
+      "He speaks to his brother",
+      "He speaks at his brother",
+      "He speaks on his brother"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Speak to' indicates addressing.",
+    "id": 380
+  },
+  {
+    "question": "मैं इस फिल्म का आनंद लूंगा।",
+    "options": [
+      "I will enjoy this movie",
+      "I will enjoy in this movie",
+      "I will enjoy at this movie",
+      "I will enjoy on this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Enjoy' is transitive and takes no preposition.",
+    "id": 381
+  },
+  {
+    "question": "वह अपनी माँ के लिए किताब पढ़ती है।",
+    "options": [
+      "She reads a book for her mother",
+      "She reads a book to her mother",
+      "She reads a book at her mother",
+      "She reads a book with her mother"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Read to' indicates reading aloud for someone.",
+    "id": 382
+  },
+  {
+    "question": "मैं इस काम के लिए दान दूंगा।",
+    "options": [
+      "I will donate for this work",
+      "I will donate to this work",
+      "I will donate at this work",
+      "I will donate on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Donate for' indicates purpose.",
+    "id": 383
+  },
+  {
+    "question": "वह अपने भाई के साथ जीतता है।",
+    "options": [
+      "He wins with his brother",
+      "He wins against his brother",
+      "He wins at his brother",
+      "He wins for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Win with' indicates shared victory.",
+    "id": 384
+  },
+  {
+    "question": "मैं इस विषय में किताब लिखूंगा।",
+    "options": [
+      "I will write a book on this subject",
+      "I will write a book about this subject",
+      "I will write a book of this subject",
+      "I will write a book at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Book on' indicates the subject.",
+    "id": 385
+  },
+  {
+    "question": "वह अपनी माँ के लिए कार्ड बनाती है।",
+    "options": [
+      "She makes a card for her mother",
+      "She makes a card to her mother",
+      "She makes a card at her mother",
+      "She makes a card with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 386
+  },
+  {
+    "question": "मैं इस काम के लिए प्रार्थना करूंगा।",
+    "options": [
+      "I will pray for this work",
+      "I will pray to this work",
+      "I will pray at this work",
+      "I will pray on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Pray for' indicates petition.",
+    "id": 387
+  },
+  {
+    "question": "वह अपने भाई के साथ सहमत होता है।",
+    "options": [
+      "He agrees with his brother",
+      "He agrees to his brother",
+      "He agrees at his brother",
+      "He agrees on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Agree with' indicates consensus with a person.",
+    "id": 388
+  },
+  {
+    "question": "मैं इस फिल्म का विश्लेषण करूंगा।",
+    "options": [
+      "I will analyze this movie",
+      "I will analyze about this movie",
+      "I will analyze on this movie",
+      "I will analyze at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Analyze' is transitive and takes no preposition.",
+    "id": 389
+  },
+  {
+    "question": "वह अपनी माँ के लिए गहने खरीदती है।",
+    "options": [
+      "She buys jewelry for her mother",
+      "She buys jewelry to her mother",
+      "She buys jewelry at her mother",
+      "She buys jewelry with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates recipient.",
+    "id": 390
+  },
+  {
+    "question": "मैं इस काम के लिए प्रसिद्ध हूँ।",
+    "options": [
+      "I am famous for this work",
+      "I am famous in this work",
+      "I am famous at this work",
+      "I am famous by this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Famous for' indicates reason.",
+    "id": 391
+  },
+  {
+    "question": "वह अपने भाई के साथ मर जाता है।",
+    "options": [
+      "He dies with his brother",
+      "He dies for his brother",
+      "He dies at his brother",
+      "He dies to his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Die with' indicates simultaneous death.",
+    "id": 392
+  },
+  {
+    "question": "मैं इस विषय में बोलूंगा।",
+    "options": [
+      "I will speak on this subject",
+      "I will speak about this subject",
+      "I will speak of this subject",
+      "I will speak at this subject"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Speak about' indicates the topic.",
+    "id": 393
+  },
+  {
+    "question": "वह अपनी माँ के लिए गाना गाती है।",
+    "options": [
+      "She sings a song for her mother",
+      "She sings a song to her mother",
+      "She sings a song at her mother",
+      "She sings a song with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sing for' indicates performing for.",
+    "id": 394
+  },
+  {
+    "question": "मैं इस काम के लिए भुगतान करूंगा।",
+    "options": [
+      "I will pay for this work",
+      "I will pay to this work",
+      "I will pay at this work",
+      "I will pay on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Pay for' indicates payment.",
+    "id": 395
+  },
+  {
+    "question": "वह अपने भाई के साथ बैठक करता है।",
+    "options": [
+      "He meets with his brother",
+      "He meets to his brother",
+      "He meets at his brother",
+      "He meets on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Meet with' indicates meeting together.",
+    "id": 396
+  },
+  {
+    "question": "मैं इस फिल्म का मूल्यांकन करूंगा।",
+    "options": [
+      "I will evaluate this movie",
+      "I will evaluate about this movie",
+      "I will evaluate on this movie",
+      "I will evaluate at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Evaluate' is transitive and takes no preposition.",
+    "id": 397
+  },
+  {
+    "question": "वह अपनी माँ के लिए कमरा सजाती है।",
+    "options": [
+      "She decorates the room for her mother",
+      "She decorates the room to her mother",
+      "She decorates the room at her mother",
+      "She decorates the room with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 398
+  },
+  {
+    "question": "मैं इस काम के लिए उपयोगी हूँ।",
+    "options": [
+      "I am useful for this work",
+      "I am useful to this work",
+      "I am useful in this work",
+      "I am useful at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Useful for' indicates purpose.",
+    "id": 399
+  },
+  {
+    "question": "वह अपने भाई के साथ पहुंचता है।",
+    "options": [
+      "He arrives with his brother",
+      "He arrives to his brother",
+      "He arrives at his brother",
+      "He arrives for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Arrive with' indicates accompanying.",
+    "id": 400
+  },
+  {
+    "question": "मैं इस विषय में पत्र लिखूंगा।",
+    "options": [
+      "I will write a letter about this subject",
+      "I will write a letter on this subject",
+      "I will write a letter of this subject",
+      "I will write a letter at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Letter about' indicates the topic.",
+    "id": 401
+  },
+  {
+    "question": "वह अपनी माँ के लिए तकिया बनाती है।",
+    "options": [
+      "She makes a pillow for her mother",
+      "She makes a pillow to her mother",
+      "She makes a pillow at her mother",
+      "She makes a pillow with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 402
+  },
+  {
+    "question": "मैं इस काम के लिए समर्पित हूँ।",
+    "options": [
+      "I am dedicated to this work",
+      "I am dedicated for this work",
+      "I am dedicated in this work",
+      "I am dedicated at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Dedicated to' indicates devotion.",
+    "id": 403
+  },
+  {
+    "question": "वह अपने भाई के साथ विदा होता है।",
+    "options": [
+      "He leaves with his brother",
+      "He leaves to his brother",
+      "He leaves at his brother",
+      "He leaves for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Leave with' indicates departing together.",
+    "id": 404
+  },
+  {
+    "question": "मैं इस फिल्म की प्रशंसा करूंगा।",
+    "options": [
+      "I will praise this movie",
+      "I will praise about this movie",
+      "I will praise on this movie",
+      "I will praise at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Praise' is transitive and takes no preposition.",
+    "id": 405
+  },
+  {
+    "question": "वह अपनी माँ के लिए फल काटती है।",
+    "options": [
+      "She cuts fruit for her mother",
+      "She cuts fruit to her mother",
+      "She cuts fruit at her mother",
+      "She cuts fruit with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 406
+  },
+  {
+    "question": "मैं इस काम के लिए दिलचस्पी रखता हूँ।",
+    "options": [
+      "I have interest in this work",
+      "I have interest for this work",
+      "I have interest on this work",
+      "I have interest at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Interest in' indicates curiosity.",
+    "id": 407
+  },
+  {
+    "question": "वह अपने भाई के साथ साइकिल चलाता है।",
+    "options": [
+      "He cycles with his brother",
+      "He cycles to his brother",
+      "He cycles at his brother",
+      "He cycles for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Cycle with' indicates riding together.",
+    "id": 408
+  },
+  {
+    "question": "मैं इस विषय में समझाऊंगा।",
+    "options": [
+      "I will explain this subject",
+      "I will explain about this subject",
+      "I will explain on this subject",
+      "I will explain at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Explain' is transitive and takes no preposition.",
+    "id": 409
+  },
+  {
+    "question": "वह अपनी माँ के लिए चित्र बनाती है।",
+    "options": [
+      "She draws a picture for her mother",
+      "She draws a picture of her mother",
+      "She draws a picture at her mother",
+      "She draws a picture with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 410
+  },
+  {
+    "question": "मैं इस काम के लिए चिंतित हूँ।",
+    "options": [
+      "I am worried about this work",
+      "I am worried for this work",
+      "I am worried at this work",
+      "I am worried on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Worried about' indicates concern.",
+    "id": 411
+  },
+  {
+    "question": "वह अपने भाई के साथ कूदता है।",
+    "options": [
+      "He jumps with his brother",
+      "He jumps to his brother",
+      "He jumps at his brother",
+      "He jumps for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Jump with' indicates jumping together.",
+    "id": 412
+  },
+  {
+    "question": "मैं इस फिल्म का सारांश दूंगा।",
+    "options": [
+      "I will summarize this movie",
+      "I will summarize about this movie",
+      "I will summarize on this movie",
+      "I will summarize at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Summarize' is transitive and takes no preposition.",
+    "id": 413
+  },
+  {
+    "question": "वह अपनी माँ के लिए पानी गर्म करती है।",
+    "options": [
+      "She heats water for her mother",
+      "She heats water to her mother",
+      "She heats water at her mother",
+      "She heats water with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 414
+  },
+  {
+    "question": "मैं इस काम के लिए कोशिश करूंगा।",
+    "options": [
+      "I will try for this work",
+      "I will try this work",
+      "I will try at this work",
+      "I will try on this work"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Try' is transitive and takes no preposition.",
+    "id": 415
+  },
+  {
+    "question": "वह अपने भाई के साथ हाथ मिलाता है।",
+    "options": [
+      "He shakes hands with his brother",
+      "He shakes hands to his brother",
+      "He shakes hands at his brother",
+      "He shakes hands for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Shake hands with' indicates greeting.",
+    "id": 416
+  },
+  {
+    "question": "मैं इस विषय में पूछूंगा।",
+    "options": [
+      "I will ask about this subject",
+      "I will ask of this subject",
+      "I will ask on this subject",
+      "I will ask at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Ask about' indicates inquiry.",
+    "id": 417
+  },
+  {
+    "question": "वह अपनी माँ के लिए चप्पल लाती है।",
+    "options": [
+      "She brings slippers for her mother",
+      "She brings slippers to her mother",
+      "She brings slippers at her mother",
+      "She brings slippers with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 418
+  },
+  {
+    "question": "मैं इस काम के लिए बाध्य हूँ।",
+    "options": [
+      "I am bound to this work",
+      "I am bound for this work",
+      "I am bound in this work",
+      "I am bound at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Bound to' indicates obligation.",
+    "id": 419
+  },
+  {
+    "question": "वह अपने भाई के साथ थक जाता है।",
+    "options": [
+      "He gets tired with his brother",
+      "He gets tired to his brother",
+      "He gets tired at his brother",
+      "He gets tired for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Tired with' indicates sharing fatigue.",
+    "id": 420
+  },
+  {
+    "question": "मैं इस फिल्म का अनुभव करूंगा।",
+    "options": [
+      "I will experience this movie",
+      "I will experience about this movie",
+      "I will experience on this movie",
+      "I will experience at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Experience' is transitive and takes no preposition.",
+    "id": 421
+  },
+  {
+    "question": "वह अपनी माँ के लिए कंबल लाती है।",
+    "options": [
+      "She brings a blanket for her mother",
+      "She brings a blanket to her mother",
+      "She brings a blanket at her mother",
+      "She brings a blanket with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 422
+  },
+  {
+    "question": "मैं इस काम के लिए शोक करूंगा।",
+    "options": [
+      "I will mourn for this work",
+      "I will mourn this work",
+      "I will mourn at this work",
+      "I will mourn on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Mourn for' indicates grief.",
+    "id": 423
+  },
+  {
+    "question": "वह अपने भाई के साथ खड़ा होता है।",
+    "options": [
+      "He stands with his brother",
+      "He stands to his brother",
+      "He stands at his brother",
+      "He stands for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Stand with' indicates solidarity.",
+    "id": 424
+  },
+  {
+    "question": "मैं इस विषय में बताऊंगा।",
+    "options": [
+      "I will tell about this subject",
+      "I will tell of this subject",
+      "I will tell on this subject",
+      "I will tell at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Tell about' indicates narration.",
+    "id": 425
+  },
+  {
+    "question": "वह अपनी माँ के लिए दरवाजा खोलती है।",
+    "options": [
+      "She opens the door for her mother",
+      "She opens the door to her mother",
+      "She opens the door at her mother",
+      "She opens the door with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 426
+  },
+  {
+    "question": "मैं इस काम के लिए उदास हूँ।",
+    "options": [
+      "I am sad about this work",
+      "I am sad for this work",
+      "I am sad at this work",
+      "I am sad on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sad about' indicates emotion.",
+    "id": 427
+  },
+  {
+    "question": "वह अपने भाई के साथ सीट साझा करता है।",
+    "options": [
+      "He shares a seat with his brother",
+      "He shares a seat to his brother",
+      "He shares a seat at his brother",
+      "He shares a seat for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Share with' indicates dividing together.",
+    "id": 428
+  },
+  {
+    "question": "मैं इस फिल्म का आयोजन करूंगा।",
+    "options": [
+      "I will organize this movie screening",
+      "I will organize about this movie",
+      "I will organize on this movie",
+      "I will organize at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Organize' is transitive and takes no preposition.",
+    "id": 429
+  },
+  {
+    "question": "वह अपनी माँ के लिए पर्दा लगाती है।",
+    "options": [
+      "She hangs curtains for her mother",
+      "She hangs curtains to her mother",
+      "She hangs curtains at her mother",
+      "She hangs curtains with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 430
+  },
+  {
+    "question": "मैं इस काम के लिए उत्साहित हूँ।",
+    "options": [
+      "I am excited about this work",
+      "I am excited for this work",
+      "I am excited at this work",
+      "I am excited on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Excited about' indicates enthusiasm.",
+    "id": 431
+  },
+  {
+    "question": "वह अपने भाई के साथ रास्ता देखता है।",
+    "options": [
+      "He looks for the way with his brother",
+      "He looks to the way with his brother",
+      "He looks at the way with his brother",
+      "He looks on the way with his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Look for with' indicates searching together.",
+    "id": 432
+  },
+  {
+    "question": "मैं इस विषय में जांच करूंगा।",
+    "options": [
+      "I will investigate this subject",
+      "I will investigate about this subject",
+      "I will investigate on this subject",
+      "I will investigate at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Investigate' is transitive and takes no preposition.",
+    "id": 433
+  },
+  {
+    "question": "वह अपनी माँ के लिए बिस्तर बनाती है।",
+    "options": [
+      "She makes the bed for her mother",
+      "She makes the bed to her mother",
+      "She makes the bed at her mother",
+      "She makes the bed with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 434
+  },
+  {
+    "question": "मैं इस काम के लिए प्रशिक्षित हूँ।",
+    "options": [
+      "I am trained for this work",
+      "I am trained in this work",
+      "I am trained at this work",
+      "I am trained on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Trained for' indicates preparation.",
+    "id": 435
+  },
+  {
+    "question": "वह अपने भाई के साथ खुश होता है।",
+    "options": [
+      "He is happy with his brother",
+      "He is happy for his brother",
+      "He is happy at his brother",
+      "He is happy on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Happy with' indicates contentment with someone.",
+    "id": 436
+  },
+  {
+    "question": "मैं इस फिल्म का वितरण करूंगा।",
+    "options": [
+      "I will distribute this movie",
+      "I will distribute about this movie",
+      "I will distribute on this movie",
+      "I will distribute at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Distribute' is transitive and takes no preposition.",
+    "id": 437
+  },
+  {
+    "question": "वह अपनी माँ के लिए फर्श पोछती है।",
+    "options": [
+      "She mops the floor for her mother",
+      "She mops the floor to her mother",
+      "She mops the floor at her mother",
+      "She mops the floor with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 438
+  },
+  {
+    "question": "मैं इस काम के लिए शर्मिंदा हूँ।",
+    "options": [
+      "I am ashamed of this work",
+      "I am ashamed for this work",
+      "I am ashamed at this work",
+      "I am ashamed on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Ashamed of' indicates embarrassment.",
+    "id": 439
+  },
+  {
+    "question": "वह अपने भाई के साथ पुल पार करता है।",
+    "options": [
+      "He crosses the bridge with his brother",
+      "He crosses to the bridge with his brother",
+      "He crosses at the bridge with his brother",
+      "He crosses on the bridge with his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Cross with' indicates doing together.",
+    "id": 440
+  },
+  {
+    "question": "मैं इस विषय में सीखूंगा।",
+    "options": [
+      "I will learn about this subject",
+      "I will learn of this subject",
+      "I will learn on this subject",
+      "I will learn at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Learn about' indicates acquiring knowledge.",
+    "id": 441
+  },
+  {
+    "question": "वह अपनी माँ के लिए कचरा बाहर फेंकती है।",
+    "options": [
+      "She throws out the trash for her mother",
+      "She throws out the trash to her mother",
+      "She throws out the trash at her mother",
+      "She throws out the trash with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 442
+  },
+  {
+    "question": "मैं इस काम के लिए दुखी हूँ।",
+    "options": [
+      "I am sorry for this work",
+      "I am sorry about this work",
+      "I am sorry at this work",
+      "I am sorry on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sorry for' indicates regret.",
+    "id": 443
+  },
+  {
+    "question": "वह अपने भाई के साथ पानी पीता है।",
+    "options": [
+      "He drinks water with his brother",
+      "He drinks water to his brother",
+      "He drinks water at his brother",
+      "He drinks water for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Drink with' indicates drinking together.",
+    "id": 444
+  },
+  {
+    "question": "मैं इस फिल्म का प्रचार करूंगा।",
+    "options": [
+      "I will promote this movie",
+      "I will promote about this movie",
+      "I will promote on this movie",
+      "I will promote at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Promote' is transitive and takes no preposition.",
+    "id": 445
+  },
+  {
+    "question": "वह अपनी माँ के लिए बिजली ठीक करती है।",
+    "options": [
+      "She fixes the electricity for her mother",
+      "She fixes the electricity to her mother",
+      "She fixes the electricity at her mother",
+      "She fixes the electricity with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 446
+  },
+  {
+    "question": "मैं इस काम के लिए दोषी हूँ।",
+    "options": [
+      "I am guilty of this work",
+      "I am guilty for this work",
+      "I am guilty at this work",
+      "I am guilty on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Guilty of' indicates blame.",
+    "id": 447
+  },
+  {
+    "question": "वह अपने भाई के साथ फिल्म देखता है।",
+    "options": [
+      "He watches a movie with his brother",
+      "He watches a movie to his brother",
+      "He watches a movie at his brother",
+      "He watches a movie for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Watch with' indicates viewing together.",
+    "id": 448
+  },
+  {
+    "question": "मैं इस विषय में भूलूंगा।",
+    "options": [
+      "I will forget about this subject",
+      "I will forget this subject",
+      "I will forget on this subject",
+      "I will forget at this subject"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Forget' is transitive and takes no preposition.",
+    "id": 449
+  },
+  {
+    "question": "वह अपनी माँ के लिए कुर्सी लगाती है।",
+    "options": [
+      "She places a chair for her mother",
+      "She places a chair to her mother",
+      "She places a chair at her mother",
+      "She places a chair with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 450
+  },
+  {
+    "question": "मैं इस काम के लिए परेशान हूँ।",
+    "options": [
+      "I am worried about this work",
+      "I am worried for this work",
+      "I am worried at this work",
+      "I am worried on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Worried about' indicates concern.",
+    "id": 451
+  },
+  {
+    "question": "वह अपने भाई के साथ काम करता है।",
+    "options": [
+      "He works with his brother",
+      "He works to his brother",
+      "He works at his brother",
+      "He works for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Work with' indicates collaboration.",
+    "id": 452
+  },
+  {
+    "question": "मैं इस फिल्म का साक्षात्कार करूंगा।",
+    "options": [
+      "I will interview about this movie",
+      "I will interview this movie",
+      "I will interview on this movie",
+      "I will interview at this movie"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Interview' is transitive and takes no preposition.",
+    "id": 453
+  },
+  {
+    "question": "वह अपनी माँ के लिए दीवार पेंट करती है।",
+    "options": [
+      "She paints the wall for her mother",
+      "She paints the wall to her mother",
+      "She paints the wall at her mother",
+      "She paints the wall with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 454
+  },
+  {
+    "question": "मैं इस काम के लिए उपयुक्त नहीं हूँ।",
+    "options": [
+      "I am not fit for this work",
+      "I am not fit to this work",
+      "I am not fit in this work",
+      "I am not fit at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Fit for' indicates suitability.",
+    "id": 455
+  },
+  {
+    "question": "वह अपने भाई के साथ आता है।",
+    "options": [
+      "He comes with his brother",
+      "He comes to his brother",
+      "He comes at his brother",
+      "He comes for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Come with' indicates accompanying.",
+    "id": 456
+  },
+  {
+    "question": "मैं इस विषय में गलत हूँ।",
+    "options": [
+      "I am wrong about this subject",
+      "I am wrong in this subject",
+      "I am wrong on this subject",
+      "I am wrong at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wrong about' indicates error.",
+    "id": 457
+  },
+  {
+    "question": "वह अपनी माँ के लिए बगीचा सींचती है।",
+    "options": [
+      "She waters the garden for her mother",
+      "She waters the garden to her mother",
+      "She waters the garden at her mother",
+      "She waters the garden with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 458
+  },
+  {
+    "question": "मैं इस काम के लिए तैयार नहीं हूँ।",
+    "options": [
+      "I am not ready for this work",
+      "I am not ready to this work",
+      "I am not ready in this work",
+      "I am not ready at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Ready for' indicates preparedness.",
+    "id": 459
+  },
+  {
+    "question": "वह अपने भाई के साथ बैठक में भाग लेता है।",
+    "options": [
+      "He attends the meeting with his brother",
+      "He attends to the meeting with his brother",
+      "He attends at the meeting with his brother",
+      "He attends on the meeting with his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Attend with' indicates going together.",
+    "id": 460
+  },
+  {
+    "question": "मैं इस फिल्म का समर्थन करूंगा।",
+    "options": [
+      "I will support this movie",
+      "I will support about this movie",
+      "I will support on this movie",
+      "I will support at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Support' is transitive and takes no preposition.",
+    "id": 461
+  },
+  {
+    "question": "वह अपनी माँ के लिए दवाई लाती है।",
+    "options": [
+      "She brings medicine for her mother",
+      "She brings medicine to her mother",
+      "She brings medicine at her mother",
+      "She brings medicine with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 462
+  },
+  {
+    "question": "मैं इस काम के लिए प्रतिक्रिया दूंगा।",
+    "options": [
+      "I will give feedback on this work",
+      "I will give feedback about this work",
+      "I will give feedback for this work",
+      "I will give feedback at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Feedback on' indicates response.",
+    "id": 463
+  },
+  {
+    "question": "वह अपने भाई के साथ गाना गाता है।",
+    "options": [
+      "He sings a song with his brother",
+      "He sings a song to his brother",
+      "He sings a song at his brother",
+      "He sings a song for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sing with' indicates singing together.",
+    "id": 464
+  },
+  {
+    "question": "मैं इस विषय में जानकारी प्राप्त करूंगा।",
+    "options": [
+      "I will get information about this subject",
+      "I will get information on this subject",
+      "I will get information of this subject",
+      "I will get information at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Information about' indicates concerning.",
+    "id": 465
+  },
+  {
+    "question": "वह अपनी माँ के लिए जूते साफ करती है।",
+    "options": [
+      "She cleans shoes for her mother",
+      "She cleans shoes to her mother",
+      "She cleans shoes at her mother",
+      "She cleans shoes with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 466
+  },
+  {
+    "question": "मैं इस काम के लिए प्रार्थना करूंगा।",
+    "options": [
+      "I will pray for this work",
+      "I will pray to this work",
+      "I will pray at this work",
+      "I will pray on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Pray for' indicates petition.",
+    "id": 467
+  },
+  {
+    "question": "वह अपने भाई के साथ हंसता है।",
+    "options": [
+      "He laughs with his brother",
+      "He laughs at his brother",
+      "He laughs to his brother",
+      "He laughs on his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Laugh with' indicates shared laughter.",
+    "id": 468
+  },
+  {
+    "question": "मैं इस फिल्म का मसौदा तैयार करूंगा।",
+    "options": [
+      "I will draft this movie script",
+      "I will draft about this movie",
+      "I will draft on this movie",
+      "I will draft at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Draft' is transitive and takes no preposition.",
+    "id": 469
+  },
+  {
+    "question": "वह अपनी माँ के लिए खिड़की खोलती है।",
+    "options": [
+      "She opens the window for her mother",
+      "She opens the window to her mother",
+      "She opens the window at her mother",
+      "She opens the window with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 470
+  },
+  {
+    "question": "मैं इस काम के लिए आभारी हूँ।",
+    "options": [
+      "I am grateful for this work",
+      "I am grateful to this work",
+      "I am grateful at this work",
+      "I am grateful on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Grateful for' indicates reason.",
+    "id": 471
+  },
+  {
+    "question": "वह अपने भाई के साथ किताब पढ़ता है।",
+    "options": [
+      "He reads a book with his brother",
+      "He reads a book to his brother",
+      "He reads a book at his brother",
+      "He reads a book for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Read with' indicates reading together.",
+    "id": 472
+  },
+  {
+    "question": "मैं इस विषय में सुझाव दूंगा।",
+    "options": [
+      "I will give a suggestion on this subject",
+      "I will give a suggestion about this subject",
+      "I will give a suggestion for this subject",
+      "I will give a suggestion at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Suggestion on' indicates topic.",
+    "id": 473
+  },
+  {
+    "question": "वह अपनी माँ के लिए पेड़ लगाती है।",
+    "options": [
+      "She plants a tree for her mother",
+      "She plants a tree to her mother",
+      "She plants a tree at her mother",
+      "She plants a tree with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 474
+  },
+  {
+    "question": "मैं इस काम के लिए बधाई दूंगा।",
+    "options": [
+      "I will congratulate for this work",
+      "I will congratulate on this work",
+      "I will congratulate at this work",
+      "I will congratulate with this work"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Congratulate on' indicates achievement.",
+    "id": 475
+  },
+  {
+    "question": "वह अपने भाई के साथ दौड़ में भाग लेता है।",
+    "options": [
+      "He participates in the race with his brother",
+      "He participates to the race with his brother",
+      "He participates at the race with his brother",
+      "He participates on the race with his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Participate with' indicates joint participation.",
+    "id": 476
+  },
+  {
+    "question": "मैं इस फिल्म का नाम बताऊंगा।",
+    "options": [
+      "I will name this movie",
+      "I will name about this movie",
+      "I will name on this movie",
+      "I will name at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Name' is transitive and takes no preposition.",
+    "id": 477
+  },
+  {
+    "question": "वह अपनी माँ के लिए कपड़े सिलती है।",
+    "options": [
+      "She sews clothes for her mother",
+      "She sews clothes to her mother",
+      "She sews clothes at her mother",
+      "She sews clothes with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 478
+  },
+  {
+    "question": "मैं इस काम के लिए खेद व्यक्त करूंगा।",
+    "options": [
+      "I will express regret for this work",
+      "I will express regret about this work",
+      "I will express regret at this work",
+      "I will express regret on this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Regret for' indicates remorse.",
+    "id": 479
+  },
+  {
+    "question": "वह अपने भाई के साथ तैराकी करता है।",
+    "options": [
+      "He swims with his brother",
+      "He swims to his brother",
+      "He swims at his brother",
+      "He swims for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Swim with' indicates swimming together.",
+    "id": 480
+  },
+  {
+    "question": "मैं इस विषय में राय दूंगा।",
+    "options": [
+      "I will give an opinion on this subject",
+      "I will give an opinion about this subject",
+      "I will give an opinion of this subject",
+      "I will give an opinion at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Opinion on' indicates viewpoint.",
+    "id": 481
+  },
+  {
+    "question": "वह अपनी माँ के लिए साड़ी खरीदती है।",
+    "options": [
+      "She buys a saree for her mother",
+      "She buys a saree to her mother",
+      "She buys a saree at her mother",
+      "She buys a saree with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates recipient.",
+    "id": 482
+  },
+  {
+    "question": "मैं इस काम के लिए भरोसा करता हूँ।",
+    "options": [
+      "I trust this work",
+      "I trust in this work",
+      "I trust for this work",
+      "I trust at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Trust' is transitive and takes no preposition.",
+    "id": 483
+  },
+  {
+    "question": "वह अपने भाई के साथ फोटो खिंचवाता है।",
+    "options": [
+      "He gets a photo taken with his brother",
+      "He gets a photo taken to his brother",
+      "He gets a photo taken at his brother",
+      "He gets a photo taken for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'With' indicates together.",
+    "id": 484
+  },
+  {
+    "question": "मैं इस फिल्म का निरीक्षण करूंगा।",
+    "options": [
+      "I will inspect this movie",
+      "I will inspect about this movie",
+      "I will inspect on this movie",
+      "I will inspect at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Inspect' is transitive and takes no preposition.",
+    "id": 485
+  },
+  {
+    "question": "वह अपनी माँ के लिए मोमबत्ती जलाती है।",
+    "options": [
+      "She lights a candle for her mother",
+      "She lights a candle to her mother",
+      "She lights a candle at her mother",
+      "She lights a candle with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 486
+  },
+  {
+    "question": "मैं इस काम के लिए उपयोग करूंगा।",
+    "options": [
+      "I will use this for work",
+      "I will use this work",
+      "I will use this in work",
+      "I will use this at work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Use for' indicates purpose.",
+    "id": 487
+  },
+  {
+    "question": "वह अपने भाई के साथ पहेली सुलझाता है।",
+    "options": [
+      "He solves the puzzle with his brother",
+      "He solves the puzzle to his brother",
+      "He solves the puzzle at his brother",
+      "He solves the puzzle for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Solve with' indicates solving together.",
+    "id": 488
+  },
+  {
+    "question": "मैं इस विषय में चिंता करूंगा।",
+    "options": [
+      "I will worry about this subject",
+      "I will worry for this subject",
+      "I will worry at this subject",
+      "I will worry on this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Worry about' indicates concern.",
+    "id": 489
+  },
+  {
+    "question": "वह अपनी माँ के लिए केक सजाती है।",
+    "options": [
+      "She decorates the cake for her mother",
+      "She decorates the cake to her mother",
+      "She decorates the cake at her mother",
+      "She decorates the cake with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 490
+  },
+  {
+    "question": "मैं इस काम के लिए इच्छुक हूँ।",
+    "options": [
+      "I am willing to do this work",
+      "I am willing for this work",
+      "I am willing in this work",
+      "I am willing at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Willing to' indicates readiness.",
+    "id": 491
+  },
+  {
+    "question": "वह अपने भाई के साथ बहस जीतता है।",
+    "options": [
+      "He wins the argument with his brother",
+      "He wins the argument against his brother",
+      "He wins the argument at his brother",
+      "He wins the argument for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Win with' indicates shared victory.",
+    "id": 492
+  },
+  {
+    "question": "मैं इस फिल्म का अनुकरण करूंगा।",
+    "options": [
+      "I will imitate this movie",
+      "I will imitate about this movie",
+      "I will imitate on this movie",
+      "I will imitate at this movie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Imitate' is transitive and takes no preposition.",
+    "id": 493
+  },
+  {
+    "question": "वह अपनी माँ के लिए रात का खाना बनाती है।",
+    "options": [
+      "She cooks dinner for her mother",
+      "She cooks dinner to her mother",
+      "She cooks dinner at her mother",
+      "She cooks dinner with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 494
+  },
+  {
+    "question": "मैं इस काम के लिए उदाहरण दूंगा।",
+    "options": [
+      "I will give an example of this work",
+      "I will give an example for this work",
+      "I will give an example on this work",
+      "I will give an example at this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Example of' indicates illustration.",
+    "id": 495
+  },
+  {
+    "question": "वह अपने भाई के साथ खेल खेलता है।",
+    "options": [
+      "He plays a game with his brother",
+      "He plays a game to his brother",
+      "He plays a game at his brother",
+      "He plays a game for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Play with' indicates playing together.",
+    "id": 496
+  },
+  {
+    "question": "मैं इस विषय में मदद मांगूंगा।",
+    "options": [
+      "I will ask for help about this subject",
+      "I will ask for help on this subject",
+      "I will ask for help in this subject",
+      "I will ask for help at this subject"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Help with' indicates assistance needed.",
+    "id": 497
+  },
+  {
+    "question": "वह अपनी माँ के लिए फूल लगाती है।",
+    "options": [
+      "She plants flowers for her mother",
+      "She plants flowers to her mother",
+      "She plants flowers at her mother",
+      "She plants flowers with her mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'For' indicates benefit.",
+    "id": 498
+  },
+  {
+    "question": "मैं इस काम के लिए उपस्थित रहूंगा।",
+    "options": [
+      "I will be present for this work",
+      "I will be present at this work",
+      "I will be present in this work",
+      "I will be present on this work"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Present at' indicates attendance.",
+    "id": 499
+  },
+  {
+    "question": "वह अपने भाई के साथ योजना बनाता है।",
+    "options": [
+      "He makes a plan with his brother",
+      "He makes a plan to his brother",
+      "He makes a plan at his brother",
+      "He makes a plan for his brother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Plan with' indicates collaborative planning.",
+    "id": 500
+  }
+]

@@ -1,0 +1,6002 @@
+[
+  {
+    "question": "What is the synonym of 'HAPPY'?",
+    "options": [
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Tired"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Joyful' is a synonym (similar meaning) of 'Happy'.",
+    "id": 1
+  },
+  {
+    "question": "What is the opposite of 'GENEROUS' (उदार)?",
+    "options": [
+      "Kind",
+      "Selfish",
+      "Stingy",
+      "Brave"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Stingy' means someone who doesn't like to spend money/help others, opposite of 'Generous'.",
+    "id": 2
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Recieve",
+      "Receive",
+      "Recive",
+      "Receve"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rule: 'i' before 'e', except after 'c'.",
+    "id": 3
+  },
+  {
+    "question": "What is the meaning of 'BRIEF'?",
+    "options": [
+      "Long",
+      "Short",
+      "Wide",
+      "Tall"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Brief' means short in duration or length.",
+    "id": 4
+  },
+  {
+    "question": "What is the synonym of 'ANCIENT'?",
+    "options": [
+      "Modern",
+      "New",
+      "Old",
+      "Young"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Ancient' means very old; 'old' is its synonym.",
+    "id": 5
+  },
+  {
+    "question": "What is the opposite of 'BEAUTIFUL'?",
+    "options": [
+      "Pretty",
+      "Lovely",
+      "Ugly",
+      "Attractive"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Ugly' is the direct opposite of 'beautiful'.",
+    "id": 6
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Neccessary",
+      "Necessary",
+      "Necesary",
+      "Neccessery"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct spelling: Necessary (one 'c', two 's's).",
+    "id": 7
+  },
+  {
+    "question": "What is the meaning of 'FRAGILE'?",
+    "options": [
+      "Strong",
+      "Easily broken",
+      "Heavy",
+      "Cheap"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fragile' means something that breaks easily.",
+    "id": 8
+  },
+  {
+    "question": "What is the synonym of 'BIG'?",
+    "options": [
+      "Small",
+      "Tiny",
+      "Large",
+      "Narrow"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Large' is a synonym for 'big'.",
+    "id": 9
+  },
+  {
+    "question": "What is the opposite of 'LOVE'?",
+    "options": [
+      "Like",
+      "Care",
+      "Hate",
+      "Adore"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Hate' is the strongest opposite of 'love'.",
+    "id": 10
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Accommodate",
+      "Acommodate",
+      "Accommodate",
+      "Acomodate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Accommodate (double c, double m).",
+    "id": 11
+  },
+  {
+    "question": "What is the meaning of 'HUNGRY'?",
+    "options": [
+      "Thirsty",
+      "Need for food",
+      "Sleepy",
+      "Tired"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hungry' means the feeling of needing food.",
+    "id": 12
+  },
+  {
+    "question": "What is the synonym of 'QUICK'?",
+    "options": [
+      "Slow",
+      "Lazy",
+      "Fast",
+      "Dull"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Fast' means the same as 'quick'.",
+    "id": 13
+  },
+  {
+    "question": "What is the opposite of 'STRONG'?",
+    "options": [
+      "Powerful",
+      "Weak",
+      "Sturdy",
+      "Tough"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Weak' is the opposite of 'strong'.",
+    "id": 14
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Embarrass",
+      "Embarass",
+      "Embarras",
+      "Embaras"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Embarrass (double r, double s).",
+    "id": 15
+  },
+  {
+    "question": "What is the meaning of 'WEALTHY'?",
+    "options": [
+      "Poor",
+      "Rich",
+      "Sick",
+      "Sad"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Wealthy' means having a lot of money or riches.",
+    "id": 16
+  },
+  {
+    "question": "What is the synonym of 'SMALL'?",
+    "options": [
+      "Large",
+      "Huge",
+      "Tiny",
+      "Giant"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Tiny' is a synonym for 'small'.",
+    "id": 17
+  },
+  {
+    "question": "What is the opposite of 'ALWAYS'?",
+    "options": [
+      "Often",
+      "Sometimes",
+      "Never",
+      "Usually"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Never' is the direct opposite of 'always'.",
+    "id": 18
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Maintenance",
+      "Maintainance",
+      "Maintanence",
+      "Maintenence"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Maintenance (not maintainance).",
+    "id": 19
+  },
+  {
+    "question": "What is the meaning of 'COURAGEOUS'?",
+    "options": [
+      "Fearful",
+      "Brave",
+      "Weak",
+      "Cowardly"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Courageous' means brave, not afraid.",
+    "id": 20
+  },
+  {
+    "question": "What is the synonym of 'CLEVER'?",
+    "options": [
+      "Dumb",
+      "Stupid",
+      "Intelligent",
+      "Foolish"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Intelligent' is a synonym for 'clever'.",
+    "id": 21
+  },
+  {
+    "question": "What is the opposite of 'EXPENSIVE'?",
+    "options": [
+      "Costly",
+      "Pricy",
+      "Cheap",
+      "Valuable"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Cheap' means low cost, opposite of expensive.",
+    "id": 22
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Occurrence",
+      "Occurence",
+      "Ocurrence",
+      "Ocurance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Occurrence (double c, double r).",
+    "id": 23
+  },
+  {
+    "question": "What is the meaning of 'ENORMOUS'?",
+    "options": [
+      "Tiny",
+      "Huge",
+      "Small",
+      "Narrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Enormous' means extremely large or huge.",
+    "id": 24
+  },
+  {
+    "question": "What is the synonym of 'SAD'?",
+    "options": [
+      "Happy",
+      "Joyful",
+      "Unhappy",
+      "Cheerful"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Unhappy' is a synonym for 'sad'.",
+    "id": 25
+  },
+  {
+    "question": "What is the opposite of 'DIFFICULT'?",
+    "options": [
+      "Hard",
+      "Tough",
+      "Easy",
+      "Complex"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Easy' is the opposite of 'difficult'.",
+    "id": 26
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Persistence",
+      "Persistance",
+      "Persistense",
+      "Persistants"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Persistence (i before e).",
+    "id": 27
+  },
+  {
+    "question": "What is the meaning of 'FAMOUS'?",
+    "options": [
+      "Unknown",
+      "Well-known",
+      "Hidden",
+      "Secret"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Famous' means known by many people.",
+    "id": 28
+  },
+  {
+    "question": "What is the synonym of 'BEGIN'?",
+    "options": [
+      "End",
+      "Finish",
+      "Start",
+      "Stop"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Start' is a synonym for 'begin'.",
+    "id": 29
+  },
+  {
+    "question": "What is the opposite of 'FRESH'?",
+    "options": [
+      "New",
+      "Stale",
+      "Clean",
+      "Pure"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Stale' means old and not fresh.",
+    "id": 30
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Liaison",
+      "Liasion",
+      "Liaision",
+      "Leaison"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Liaison (French origin).",
+    "id": 31
+  },
+  {
+    "question": "What is the meaning of 'ANXIOUS'?",
+    "options": [
+      "Calm",
+      "Relaxed",
+      "Worried",
+      "Carefree"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Anxious' means feeling worried or nervous.",
+    "id": 32
+  },
+  {
+    "question": "What is the synonym of 'FAST'?",
+    "options": [
+      "Slow",
+      "Quick",
+      "Lazy",
+      "Steady"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Quick' means the same as 'fast'.",
+    "id": 33
+  },
+  {
+    "question": "What is the opposite of 'SUCCESS'?",
+    "options": [
+      "Victory",
+      "Win",
+      "Failure",
+      "Achievement"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Failure' is the opposite of 'success'.",
+    "id": 34
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Privilege",
+      "Priviledge",
+      "Privelege",
+      "Privilage"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Privilege (no 'd').",
+    "id": 35
+  },
+  {
+    "question": "What is the meaning of 'BENEFICIAL'?",
+    "options": [
+      "Harmful",
+      "Helpful",
+      "Useless",
+      "Bad"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Beneficial' means helpful or good.",
+    "id": 36
+  },
+  {
+    "question": "What is the synonym of 'QUIET'?",
+    "options": [
+      "Loud",
+      "Noisy",
+      "Silent",
+      "Boisterous"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Silent' means the same as 'quiet'.",
+    "id": 37
+  },
+  {
+    "question": "What is the opposite of 'BORROW'?",
+    "options": [
+      "Take",
+      "Lend",
+      "Steal",
+      "Give"
+    ],
+    "correctIndex": 1,
+    "explanation": "To 'lend' is to give temporarily, opposite of borrowing.",
+    "id": 38
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Rhythm",
+      "Rythm",
+      "Rhythim",
+      "Rithym"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Rhythm (has no vowels except 'y').",
+    "id": 39
+  },
+  {
+    "question": "What is the meaning of 'ABANDON'?",
+    "options": [
+      "Keep",
+      "Leave",
+      "Stay",
+      "Hold"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Abandon' means to leave behind or give up.",
+    "id": 40
+  },
+  {
+    "question": "What is the synonym of 'RICH'?",
+    "options": [
+      "Poor",
+      "Wealthy",
+      "Needy",
+      "Broke"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Wealthy' is a synonym for 'rich'.",
+    "id": 41
+  },
+  {
+    "question": "What is the opposite of 'HONEST'?",
+    "options": [
+      "Truthful",
+      "Sincere",
+      "Dishonest",
+      "Genuine"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Dishonest' is the opposite of 'honest'.",
+    "id": 42
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Vacuum",
+      "Vaccum",
+      "Vacume",
+      "Vaccum"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Vacuum (double u).",
+    "id": 43
+  },
+  {
+    "question": "What is the meaning of 'RIDICULOUS'?",
+    "options": [
+      "Sensible",
+      "Reasonable",
+      "Foolish",
+      "Serious"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Ridiculous' means silly or foolish.",
+    "id": 44
+  },
+  {
+    "question": "What is the synonym of 'LAUGH'?",
+    "options": [
+      "Cry",
+      "Weep",
+      "Giggle",
+      "Sob"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Giggle' means to laugh in a silly way.",
+    "id": 45
+  },
+  {
+    "question": "What is the opposite of 'EARLY'?",
+    "options": [
+      "Late",
+      "Soon",
+      "Prompt",
+      "Quick"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Late' is the opposite of 'early'.",
+    "id": 46
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Separate",
+      "Seperate",
+      "Seprate",
+      "Separete"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Separate (has an 'a' after 'p').",
+    "id": 47
+  },
+  {
+    "question": "What is the meaning of 'URGENT'?",
+    "options": [
+      "Not important",
+      "Can wait",
+      "Needs quick action",
+      "Optional"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Urgent' means something that needs immediate attention.",
+    "id": 48
+  },
+  {
+    "question": "What is the synonym of 'POLITE'?",
+    "options": [
+      "Rude",
+      "Mannerly",
+      "Impudent",
+      "Disrespectful"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Mannerly' means having good manners, like polite.",
+    "id": 49
+  },
+  {
+    "question": "What is the opposite of 'WET'?",
+    "options": [
+      "Damp",
+      "Moist",
+      "Dry",
+      "Humid"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Dry' is the opposite of 'wet'.",
+    "id": 50
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Definitely",
+      "Definately",
+      "Definetly",
+      "Definitly"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Definitely (has 'finite' in it).",
+    "id": 51
+  },
+  {
+    "question": "What is the meaning of 'FLEXIBLE'?",
+    "options": [
+      "Rigid",
+      "Stiff",
+      "Bendable",
+      "Hard"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Flexible' means something that can bend easily.",
+    "id": 52
+  },
+  {
+    "question": "What is the synonym of 'DANGEROUS'?",
+    "options": [
+      "Safe",
+      "Risky",
+      "Secure",
+      "Harmless"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Risky' means involving danger, like dangerous.",
+    "id": 53
+  },
+  {
+    "question": "What is the opposite of 'PEACE'?",
+    "options": [
+      "Calm",
+      "Tranquility",
+      "War",
+      "Silence"
+    ],
+    "correctIndex": 2,
+    "explanation": "'War' is the opposite of 'peace'.",
+    "id": 54
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Millennium",
+      "Millenium",
+      "Milennium",
+      "Milenium"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Millennium (double l, double n).",
+    "id": 55
+  },
+  {
+    "question": "What is the meaning of 'OBVIOUS'?",
+    "options": [
+      "Hidden",
+      "Clear",
+      "Secret",
+      "Unclear"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Obvious' means easy to see or understand.",
+    "id": 56
+  },
+  {
+    "question": "What is the synonym of 'BRAVE'?",
+    "options": [
+      "Cowardly",
+      "Fearful",
+      "Courageous",
+      "Timid"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Courageous' is a synonym for 'brave'.",
+    "id": 57
+  },
+  {
+    "question": "What is the opposite of 'BETTER'?",
+    "options": [
+      "Good",
+      "Best",
+      "Worse",
+      "Great"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Worse' is the opposite of 'better'.",
+    "id": 58
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Questionnaire",
+      "Questionaire",
+      "Questionnare",
+      "Questionare"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Questionnaire (double n).",
+    "id": 59
+  },
+  {
+    "question": "What is the meaning of 'ESSENTIAL'?",
+    "options": [
+      "Optional",
+      "Not needed",
+      "Necessary",
+      "Extra"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Essential' means absolutely necessary.",
+    "id": 60
+  },
+  {
+    "question": "What is the synonym of 'BIG'?",
+    "options": [
+      "Tiny",
+      "Small",
+      "Large",
+      "Miniature"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Large' is a synonym for 'big'.",
+    "id": 61
+  },
+  {
+    "question": "What is the opposite of 'LIGHT' (weight)?",
+    "options": [
+      "Heavy",
+      "Soft",
+      "Bright",
+      "Dark"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Heavy' is the opposite of 'light' in weight.",
+    "id": 62
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Consensus",
+      "Conscensus",
+      "Consenssus",
+      "Consencus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Consensus (no 'c' after first s).",
+    "id": 63
+  },
+  {
+    "question": "What is the meaning of 'GRATEFUL'?",
+    "options": [
+      "Thankful",
+      "Ungrateful",
+      "Selfish",
+      "Mean"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Grateful' means feeling thankful.",
+    "id": 64
+  },
+  {
+    "question": "What is the synonym of 'ANGER'?",
+    "options": [
+      "Calm",
+      "Rage",
+      "Peace",
+      "Happiness"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Rage' is a strong synonym for 'anger'.",
+    "id": 65
+  },
+  {
+    "question": "What is the opposite of 'ROUGH'?",
+    "options": [
+      "Smooth",
+      "Bumpy",
+      "Uneven",
+      "Coarse"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Smooth' is the opposite of 'rough'.",
+    "id": 66
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Harass",
+      "Harrass",
+      "Haras",
+      "Harras"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Harass (one 'r', two 's's).",
+    "id": 67
+  },
+  {
+    "question": "What is the meaning of 'FORTUNATE'?",
+    "options": [
+      "Unlucky",
+      "Lucky",
+      "Sad",
+      "Poor"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fortunate' means having good luck.",
+    "id": 68
+  },
+  {
+    "question": "What is the synonym of 'POWERFUL'?",
+    "options": [
+      "Weak",
+      "Strong",
+      "Feeble",
+      "Fragile"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Strong' is a synonym for 'powerful'.",
+    "id": 69
+  },
+  {
+    "question": "What is the opposite of 'SUNRISE'?",
+    "options": [
+      "Dawn",
+      "Morning",
+      "Sunset",
+      "Daybreak"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Sunset' is the opposite of 'sunrise'.",
+    "id": 70
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Conscience",
+      "Consience",
+      "Consciense",
+      "Conscence"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Conscience (has 'science' in it).",
+    "id": 71
+  },
+  {
+    "question": "What is the meaning of 'MYSTERIOUS'?",
+    "options": [
+      "Clear",
+      "Obvious",
+      "Strange",
+      "Known"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Mysterious' means difficult to understand or strange.",
+    "id": 72
+  },
+  {
+    "question": "What is the synonym of 'COLD'?",
+    "options": [
+      "Hot",
+      "Warm",
+      "Chilly",
+      "Boiling"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Chilly' means somewhat cold.",
+    "id": 73
+  },
+  {
+    "question": "What is the opposite of 'FAT'?",
+    "options": [
+      "Thin",
+      "Heavy",
+      "Large",
+      "Obese"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Thin' is the opposite of 'fat'.",
+    "id": 74
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Weird",
+      "Wierd",
+      "Weard",
+      "Wierd"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Weird (ei after w).",
+    "id": 75
+  },
+  {
+    "question": "What is the meaning of 'HESITATE'?",
+    "options": [
+      "Act quickly",
+      "Pause",
+      "Decide",
+      "Rush"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hesitate' means to pause before doing something.",
+    "id": 76
+  },
+  {
+    "question": "What is the synonym of 'DIFFICULT'?",
+    "options": [
+      "Easy",
+      "Simple",
+      "Hard",
+      "Light"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Hard' is a synonym for 'difficult'.",
+    "id": 77
+  },
+  {
+    "question": "What is the opposite of 'ENEMY'?",
+    "options": [
+      "Opponent",
+      "Rival",
+      "Friend",
+      "Foe"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Friend' is the opposite of 'enemy'.",
+    "id": 78
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Inoculate",
+      "Innoculate",
+      "Inoculate",
+      "Inocullate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Inoculate (one 'n', one 'c').",
+    "id": 79
+  },
+  {
+    "question": "What is the meaning of 'GIGANTIC'?",
+    "options": [
+      "Tiny",
+      "Huge",
+      "Small",
+      "Miniature"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Gigantic' means extremely large.",
+    "id": 80
+  },
+  {
+    "question": "What is the synonym of 'SOFT'?",
+    "options": [
+      "Hard",
+      "Rough",
+      "Smooth",
+      "Tough"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Smooth' is similar to soft (but not exactly the same).",
+    "id": 81
+  },
+  {
+    "question": "What is the opposite of 'ALIVE'?",
+    "options": [
+      "Living",
+      "Breathing",
+      "Dead",
+      "Active"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Dead' is the opposite of 'alive'.",
+    "id": 82
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Foreseeable",
+      "Forseeable",
+      "Foreseable",
+      "Forseeable"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Foreseeable (double e).",
+    "id": 83
+  },
+  {
+    "question": "What is the meaning of 'LAZY'?",
+    "options": [
+      "Active",
+      "Energetic",
+      "Idle",
+      "Hardworking"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Lazy' means unwilling to work or be active.",
+    "id": 84
+  },
+  {
+    "question": "What is the synonym of 'SMART'?",
+    "options": [
+      "Dumb",
+      "Stupid",
+      "Intelligent",
+      "Foolish"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Intelligent' is a synonym for 'smart'.",
+    "id": 85
+  },
+  {
+    "question": "What is the opposite of 'LOSE'?",
+    "options": [
+      "Find",
+      "Win",
+      "Misplace",
+      "Drop"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Win' is the opposite of 'lose' in a game/contest.",
+    "id": 86
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Accidentally",
+      "Accidently",
+      "Accedentally",
+      "Accidentaly"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Accidentally (has 'ally' at the end).",
+    "id": 87
+  },
+  {
+    "question": "What is the meaning of 'RARELY'?",
+    "options": [
+      "Often",
+      "Frequently",
+      "Seldom",
+      "Always"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Rarely' means not happening often.",
+    "id": 88
+  },
+  {
+    "question": "What is the synonym of 'JOY'?",
+    "options": [
+      "Sadness",
+      "Sorrow",
+      "Happiness",
+      "Misery"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Happiness' is a synonym for 'joy'.",
+    "id": 89
+  },
+  {
+    "question": "What is the opposite of 'DARK'?",
+    "options": [
+      "Black",
+      "Night",
+      "Light",
+      "Shadow"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Light' is the opposite of 'dark'.",
+    "id": 90
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Pronunciation",
+      "Pronounciation",
+      "Pronuncation",
+      "Pronouncation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Pronunciation (no 'o' after 'n').",
+    "id": 91
+  },
+  {
+    "question": "What is the meaning of 'SHY'?",
+    "options": [
+      "Confident",
+      "Bold",
+      "Timid",
+      "Outgoing"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Shy' means feeling nervous around others.",
+    "id": 92
+  },
+  {
+    "question": "What is the synonym of 'WISE'?",
+    "options": [
+      "Foolish",
+      "Stupid",
+      "Sensible",
+      "Dumb"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Sensible' means showing good judgment, like wise.",
+    "id": 93
+  },
+  {
+    "question": "What is the opposite of 'NARROW'?",
+    "options": [
+      "Thin",
+      "Slim",
+      "Wide",
+      "Tight"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Wide' is the opposite of 'narrow'.",
+    "id": 94
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Calendar",
+      "Calender",
+      "Calandar",
+      "Calandar"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Calendar (ends with 'ar', not 'er').",
+    "id": 95
+  },
+  {
+    "question": "What is the meaning of 'BORING'?",
+    "options": [
+      "Exciting",
+      "Interesting",
+      "Dull",
+      "Fun"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Boring' means not interesting or dull.",
+    "id": 96
+  },
+  {
+    "question": "What is the synonym of 'BEAUTIFUL'?",
+    "options": [
+      "Ugly",
+      "Attractive",
+      "Hideous",
+      "Plain"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Attractive' is a synonym for 'beautiful'.",
+    "id": 97
+  },
+  {
+    "question": "What is the opposite of 'SUMMER'?",
+    "options": [
+      "Spring",
+      "Autumn",
+      "Winter",
+      "Monsoon"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Winter' is the coldest season, opposite of summer.",
+    "id": 98
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Recommend",
+      "Reccommend",
+      "Recomend",
+      "Recommende"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Recommend (one 'c', double 'm').",
+    "id": 99
+  },
+  {
+    "question": "What is the meaning of 'SCARED'?",
+    "options": [
+      "Brave",
+      "Fearful",
+      "Courageous",
+      "Bold"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Scared' means afraid or fearful.",
+    "id": 100
+  },
+  {
+    "question": "What is the synonym of 'QUIET'?",
+    "options": [
+      "Noisy",
+      "Loud",
+      "Silent",
+      "Boisterous"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Silent' means the same as 'quiet'.",
+    "id": 101
+  },
+  {
+    "question": "What is the opposite of 'FRIEND'?",
+    "options": [
+      "Pal",
+      "Buddy",
+      "Enemy",
+      "Ally"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Enemy' is the opposite of 'friend'.",
+    "id": 102
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Pharaoh",
+      "Pharoah",
+      "Pharoh",
+      "Faroah"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Pharaoh (Ph followed by arah).",
+    "id": 103
+  },
+  {
+    "question": "What is the meaning of 'ANGRY'?",
+    "options": [
+      "Calm",
+      "Happy",
+      "Mad",
+      "Peaceful"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Angry' means feeling or showing strong displeasure.",
+    "id": 104
+  },
+  {
+    "question": "What is the synonym of 'TALK'?",
+    "options": [
+      "Silence",
+      "Speak",
+      "Listen",
+      "Hide"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Speak' is a synonym for 'talk'.",
+    "id": 105
+  },
+  {
+    "question": "What is the opposite of 'OPEN'?",
+    "options": [
+      "Close",
+      "Shut",
+      "Both A and B",
+      "Wide"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Close' and 'shut' are both opposites of 'open'.",
+    "id": 106
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Miscellaneous",
+      "Miscellaneus",
+      "Miscelanious",
+      "Miscellainous"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Miscellaneous (has 'cell' in it).",
+    "id": 107
+  },
+  {
+    "question": "What is the meaning of 'ENVY'?",
+    "options": [
+      "Jealousy",
+      "Love",
+      "Hate",
+      "Care"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Envy' means jealousy or resentment of others' success.",
+    "id": 108
+  },
+  {
+    "question": "What is the synonym of 'BEGIN'?",
+    "options": [
+      "End",
+      "Start",
+      "Stop",
+      "Finish"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Start' is a synonym for 'begin'.",
+    "id": 109
+  },
+  {
+    "question": "What is the opposite of 'LOUD'?",
+    "options": [
+      "Noisy",
+      "Quiet",
+      "Boisterous",
+      "Thunderous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Quiet' is the opposite of 'loud'.",
+    "id": 110
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Disappear",
+      "Dissappear",
+      "Disapear",
+      "Disappear"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Disappear (one 's', double 'p').",
+    "id": 111
+  },
+  {
+    "question": "What is the meaning of 'GLOOMY'?",
+    "options": [
+      "Bright",
+      "Cheerful",
+      "Dark",
+      "Sunny"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Gloomy' means dark or sad.",
+    "id": 112
+  },
+  {
+    "question": "What is the synonym of 'SMALL'?",
+    "options": [
+      "Big",
+      "Large",
+      "Tiny",
+      "Huge"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Tiny' is a synonym for 'small'.",
+    "id": 113
+  },
+  {
+    "question": "What is the opposite of 'SUN'?",
+    "options": [
+      "Star",
+      "Moon",
+      "Planet",
+      "Sky"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Moon' is often considered the opposite of sun in the sky.",
+    "id": 114
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Leisure",
+      "Leasure",
+      "Liesure",
+      "Leisur"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Leisure (ei before u).",
+    "id": 115
+  },
+  {
+    "question": "What is the meaning of 'HUGE'?",
+    "options": [
+      "Small",
+      "Tiny",
+      "Enormous",
+      "Miniature"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Huge' means extremely large.",
+    "id": 116
+  },
+  {
+    "question": "What is the synonym of 'FRIEND'?",
+    "options": [
+      "Enemy",
+      "Foe",
+      "Pal",
+      "Rival"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Pal' is an informal synonym for 'friend'.",
+    "id": 117
+  },
+  {
+    "question": "What is the opposite of 'PULL'?",
+    "options": [
+      "Drag",
+      "Tug",
+      "Push",
+      "Haul"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Push' is the opposite of 'pull'.",
+    "id": 118
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Queue",
+      "Que",
+      "Qeue",
+      "Quue"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Queue (Q, then ueue).",
+    "id": 119
+  },
+  {
+    "question": "What is the meaning of 'FRIGHTENED'?",
+    "options": [
+      "Brave",
+      "Scared",
+      "Confident",
+      "Calm"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Frightened' means afraid or scared.",
+    "id": 120
+  },
+  {
+    "question": "What is the synonym of 'SAD'?",
+    "options": [
+      "Happy",
+      "Joyful",
+      "Unhappy",
+      "Cheerful"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Unhappy' is a synonym for 'sad'.",
+    "id": 121
+  },
+  {
+    "question": "What is the opposite of 'WEAK'?",
+    "options": [
+      "Feeble",
+      "Strong",
+      "Fragile",
+      "Delicate"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Strong' is the opposite of 'weak'.",
+    "id": 122
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Exaggerate",
+      "Exagerate",
+      "Exaggerrate",
+      "Exajerate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Exaggerate (double g).",
+    "id": 123
+  },
+  {
+    "question": "What is the meaning of 'ADMIRE'?",
+    "options": [
+      "Dislike",
+      "Hate",
+      "Respect",
+      "Ignore"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Admire' means to respect or look up to someone.",
+    "id": 124
+  },
+  {
+    "question": "What is the synonym of 'FAKE'?",
+    "options": [
+      "Real",
+      "Authentic",
+      "False",
+      "True"
+    ],
+    "correctIndex": 2,
+    "explanation": "'False' is a synonym for 'fake'.",
+    "id": 125
+  },
+  {
+    "question": "What is the opposite of 'HEAVEN'?",
+    "options": [
+      "Sky",
+      "Paradise",
+      "Hell",
+      "Cloud"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Hell' is the opposite of 'heaven'.",
+    "id": 126
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Neighbor",
+      "Neigbour",
+      "Neighbour",
+      "Naybor"
+    ],
+    "correctIndex": 2,
+    "explanation": "Correct spelling: Neighbour (British English has 'u').",
+    "id": 127
+  },
+  {
+    "question": "What is the meaning of 'PREVENT'?",
+    "options": [
+      "Allow",
+      "Stop",
+      "Help",
+      "Permit"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Prevent' means to stop something from happening.",
+    "id": 128
+  },
+  {
+    "question": "What is the synonym of 'CHOOSE'?",
+    "options": [
+      "Ignore",
+      "Select",
+      "Reject",
+      "Refuse"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Select' is a synonym for 'choose'.",
+    "id": 129
+  },
+  {
+    "question": "What is the opposite of 'SELDOM'?",
+    "options": [
+      "Rarely",
+      "Often",
+      "Never",
+      "Occasionally"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Often' is the opposite of 'seldom' (rarely).",
+    "id": 130
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Dilemma",
+      "Dilema",
+      "Dilemna",
+      "Dillema"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Dilemma (double m).",
+    "id": 131
+  },
+  {
+    "question": "What is the meaning of 'TRANSPARENT'?",
+    "options": [
+      "Opaque",
+      "Cloudy",
+      "Clear",
+      "Dark"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Transparent' means allowing light to pass through, clear.",
+    "id": 132
+  },
+  {
+    "question": "What is the synonym of 'HIDE'?",
+    "options": [
+      "Show",
+      "Reveal",
+      "Conceal",
+      "Display"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Conceal' is a synonym for 'hide'.",
+    "id": 133
+  },
+  {
+    "question": "What is the opposite of 'MAJORITY'?",
+    "options": [
+      "Most",
+      "Mass",
+      "Minority",
+      "Multitude"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Minority' is the opposite of 'majority'.",
+    "id": 134
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Correspondence",
+      "Correspondance",
+      "Correspondense",
+      "Correspondance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Correspondence (ence at the end).",
+    "id": 135
+  },
+  {
+    "question": "What is the meaning of 'DISTANT'?",
+    "options": [
+      "Near",
+      "Close",
+      "Far",
+      "Adjacent"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Distant' means far away.",
+    "id": 136
+  },
+  {
+    "question": "What is the synonym of 'PITY'?",
+    "options": [
+      "Cruelty",
+      "Sympathy",
+      "Indifference",
+      "Harshness"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Sympathy' is a synonym for 'pity'.",
+    "id": 137
+  },
+  {
+    "question": "What is the opposite of 'SIMPLE'?",
+    "options": [
+      "Easy",
+      "Complex",
+      "Plain",
+      "Basic"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Complex' is the opposite of 'simple'.",
+    "id": 138
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Inadvertent",
+      "Inadvertant",
+      "Inadvertent",
+      "Inadvertent"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Inadvertent (ant at the end, not ent).",
+    "id": 139
+  },
+  {
+    "question": "What is the meaning of 'AMATEUR'?",
+    "options": [
+      "Professional",
+      "Expert",
+      "Beginner",
+      "Master"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Amateur' means a non-professional or beginner.",
+    "id": 140
+  },
+  {
+    "question": "What is the synonym of 'ACCURATE'?",
+    "options": [
+      "Wrong",
+      "Incorrect",
+      "Precise",
+      "False"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Precise' is a synonym for 'accurate'.",
+    "id": 141
+  },
+  {
+    "question": "What is the opposite of 'BRAVE'?",
+    "options": [
+      "Courageous",
+      "Fearless",
+      "Cowardly",
+      "Heroic"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Cowardly' is the opposite of 'brave'.",
+    "id": 142
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Harassment",
+      "Harrassment",
+      "Harasment",
+      "Harrasment"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Harassment (one 'r', double 's').",
+    "id": 143
+  },
+  {
+    "question": "What is the meaning of 'SUFFICIENT'?",
+    "options": [
+      "Enough",
+      "Lacking",
+      "Insufficient",
+      "Short"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sufficient' means enough or adequate.",
+    "id": 144
+  },
+  {
+    "question": "What is the synonym of 'CAREFUL'?",
+    "options": [
+      "Reckless",
+      "Careless",
+      "Cautious",
+      "Negligent"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Cautious' is a synonym for 'careful'.",
+    "id": 145
+  },
+  {
+    "question": "What is the opposite of 'WAR'?",
+    "options": [
+      "Conflict",
+      "Battle",
+      "Peace",
+      "Fight"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Peace' is the opposite of 'war'.",
+    "id": 146
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Occasion",
+      "Ocasion",
+      "Occassion",
+      "Ocassion"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Occasion (double c, one s).",
+    "id": 147
+  },
+  {
+    "question": "What is the meaning of 'INFERIOR'?",
+    "options": [
+      "Superior",
+      "Better",
+      "Lower",
+      "Excellent"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Inferior' means lower in rank or quality.",
+    "id": 148
+  },
+  {
+    "question": "What is the synonym of 'FAMOUS'?",
+    "options": [
+      "Unknown",
+      "Renowned",
+      "Obscure",
+      "Anonymous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Renowned' means famous and respected.",
+    "id": 149
+  },
+  {
+    "question": "What is the opposite of 'HARSH'?",
+    "options": [
+      "Rough",
+      "Severe",
+      "Gentle",
+      "Hard"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Gentle' is the opposite of 'harsh'.",
+    "id": 150
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Parallel",
+      "Paralell",
+      "Parallell",
+      "Paralel"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Parallel (double l at the end).",
+    "id": 151
+  },
+  {
+    "question": "What is the meaning of 'VACANT'?",
+    "options": [
+      "Occupied",
+      "Full",
+      "Empty",
+      "Busy"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Vacant' means empty or unoccupied.",
+    "id": 152
+  },
+  {
+    "question": "What is the synonym of 'STRANGE'?",
+    "options": [
+      "Normal",
+      "Usual",
+      "Odd",
+      "Common"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Odd' is a synonym for 'strange'.",
+    "id": 153
+  },
+  {
+    "question": "What is the opposite of 'INCREASE'?",
+    "options": [
+      "Grow",
+      "Rise",
+      "Decrease",
+      "Expand"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Decrease' is the opposite of 'increase'.",
+    "id": 154
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Committee",
+      "Comittee",
+      "Commitee",
+      "Comitee"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Committee (double m, double t, double e).",
+    "id": 155
+  },
+  {
+    "question": "What is the meaning of 'AFFECTION'?",
+    "options": [
+      "Hate",
+      "Love",
+      "Indifference",
+      "Aversion"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Affection' means fondness or love.",
+    "id": 156
+  },
+  {
+    "question": "What is the synonym of 'CALM'?",
+    "options": [
+      "Agitated",
+      "Peaceful",
+      "Nervous",
+      "Anxious"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Peaceful' is a synonym for 'calm'.",
+    "id": 157
+  },
+  {
+    "question": "What is the opposite of 'LAZY'?",
+    "options": [
+      "Idle",
+      "Hardworking",
+      "Sluggish",
+      "Lethargic"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hardworking' is the opposite of 'lazy'.",
+    "id": 158
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Dessert",
+      "Desert",
+      "Desert",
+      "Dessert"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dessert (sweet) has double S; Desert (dry area) has one S.",
+    "id": 159
+  },
+  {
+    "question": "What is the meaning of 'RAPID'?",
+    "options": [
+      "Slow",
+      "Fast",
+      "Steady",
+      "Gradual"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Rapid' means very fast.",
+    "id": 160
+  },
+  {
+    "question": "What is the synonym of 'START'?",
+    "options": [
+      "Finish",
+      "End",
+      "Begin",
+      "Stop"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Begin' is a synonym for 'start'.",
+    "id": 161
+  },
+  {
+    "question": "What is the opposite of 'SAFE'?",
+    "options": [
+      "Secure",
+      "Protected",
+      "Dangerous",
+      "Guarded"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Dangerous' is the opposite of 'safe'.",
+    "id": 162
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Gauge",
+      "Guage",
+      "Gage",
+      "Gauage"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Gauge (gau followed by ge).",
+    "id": 163
+  },
+  {
+    "question": "What is the meaning of 'FEEBLE'?",
+    "options": [
+      "Strong",
+      "Weak",
+      "Powerful",
+      "Sturdy"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Feeble' means very weak.",
+    "id": 164
+  },
+  {
+    "question": "What is the synonym of 'HELP'?",
+    "options": [
+      "Hinder",
+      "Assist",
+      "Obstruct",
+      "Block"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Assist' is a synonym for 'help'.",
+    "id": 165
+  },
+  {
+    "question": "What is the opposite of 'FRESH'?",
+    "options": [
+      "New",
+      "Stale",
+      "Clean",
+      "Pure"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Stale' means not fresh.",
+    "id": 166
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Rhythm",
+      "Rythm",
+      "Rhythym",
+      "Rithym"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Rhythm (no vowels except y).",
+    "id": 167
+  },
+  {
+    "question": "What is the meaning of 'SHALLOW'?",
+    "options": [
+      "Deep",
+      "Profound",
+      "Not deep",
+      "Bottomless"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Shallow' means not deep.",
+    "id": 168
+  },
+  {
+    "question": "What is the synonym of 'QUICK'?",
+    "options": [
+      "Slow",
+      "Fast",
+      "Lazy",
+      "Steady"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fast' is a synonym for 'quick'.",
+    "id": 169
+  },
+  {
+    "question": "What is the opposite of 'BORROW'?",
+    "options": [
+      "Lend",
+      "Take",
+      "Steal",
+      "Keep"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Lend' is the opposite of 'borrow'.",
+    "id": 170
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Acknowledge",
+      "Aknowlege",
+      "Acnowledge",
+      "Aknowledg"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Acknowledge (ac + knowledge).",
+    "id": 171
+  },
+  {
+    "question": "What is the meaning of 'FRUGAL'?",
+    "options": [
+      "Wasteful",
+      "Extravagant",
+      "Thrifty",
+      "Lavish"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Frugal' means saving money, thrifty.",
+    "id": 172
+  },
+  {
+    "question": "What is the synonym of 'DANGER'?",
+    "options": [
+      "Safety",
+      "Risk",
+      "Security",
+      "Protection"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Risk' is a synonym for 'danger'.",
+    "id": 173
+  },
+  {
+    "question": "What is the opposite of 'OPTIMISTIC'?",
+    "options": [
+      "Positive",
+      "Hopeful",
+      "Pessimistic",
+      "Confident"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Pessimistic' is the opposite of 'optimistic'.",
+    "id": 174
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Relevant",
+      "Relevent",
+      "Revelant",
+      "Relevent"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Relevant (ant at the end).",
+    "id": 175
+  },
+  {
+    "question": "What is the meaning of 'HOSTILE'?",
+    "options": [
+      "Friendly",
+      "Unfriendly",
+      "Kind",
+      "Warm"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hostile' means unfriendly or aggressive.",
+    "id": 176
+  },
+  {
+    "question": "What is the synonym of 'CLEAN'?",
+    "options": [
+      "Dirty",
+      "Filthy",
+      "Pure",
+      "Messy"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Pure' is similar to clean (spotless).",
+    "id": 177
+  },
+  {
+    "question": "What is the opposite of 'ALWAYS'?",
+    "options": [
+      "Often",
+      "Never",
+      "Sometimes",
+      "Frequently"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Never' is the opposite of 'always'.",
+    "id": 178
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Existence",
+      "Existance",
+      "Exsistence",
+      "Exsistance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Existence (ence at the end).",
+    "id": 179
+  },
+  {
+    "question": "What is the meaning of 'PRECISE'?",
+    "options": [
+      "Vague",
+      "Exact",
+      "Approximate",
+      "Rough"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Precise' means exact and accurate.",
+    "id": 180
+  },
+  {
+    "question": "What is the synonym of 'CONFIDENT'?",
+    "options": [
+      "Unsure",
+      "Certain",
+      "Doubtful",
+      "Shy"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Certain' is a synonym for 'confident'.",
+    "id": 181
+  },
+  {
+    "question": "What is the opposite of 'PUNISH'?",
+    "options": [
+      "Penalize",
+      "Reward",
+      "Fine",
+      "Discipline"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Reward' is the opposite of 'punish'.",
+    "id": 182
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "February",
+      "Febuary",
+      "Februery",
+      "Febrary"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: February (has an 'r' after Feb).",
+    "id": 183
+  },
+  {
+    "question": "What is the meaning of 'CURIOUS'?",
+    "options": [
+      "Indifferent",
+      "Interested",
+      "Bored",
+      "Apathetic"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Curious' means eager to know or learn something.",
+    "id": 184
+  },
+  {
+    "question": "What is the synonym of 'SILENT'?",
+    "options": [
+      "Noisy",
+      "Quiet",
+      "Loud",
+      "Boisterous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Quiet' is a synonym for 'silent'.",
+    "id": 185
+  },
+  {
+    "question": "What is the opposite of 'MASTER'?",
+    "options": [
+      "Expert",
+      "Professional",
+      "Novice",
+      "Proficient"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Novice' is the opposite of 'master' (beginner vs expert).",
+    "id": 186
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Hundred",
+      "Hundered",
+      "Hundread",
+      "Hundard"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Hundred (d at the end).",
+    "id": 187
+  },
+  {
+    "question": "What is the meaning of 'RELUCTANT'?",
+    "options": [
+      "Eager",
+      "Willing",
+      "Unwilling",
+      "Ready"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Reluctant' means unwilling or hesitant.",
+    "id": 188
+  },
+  {
+    "question": "What is the synonym of 'IMPORTANT'?",
+    "options": [
+      "Trivial",
+      "Significant",
+      "Minor",
+      "Unimportant"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Significant' is a synonym for 'important'.",
+    "id": 189
+  },
+  {
+    "question": "What is the opposite of 'FRAGILE'?",
+    "options": [
+      "Breakable",
+      "Sturdy",
+      "Delicate",
+      "Weak"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Sturdy' is the opposite of 'fragile'.",
+    "id": 190
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Business",
+      "Buisness",
+      "Busines",
+      "Busyness"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Business (i before n).",
+    "id": 191
+  },
+  {
+    "question": "What is the meaning of 'ABUNDANT'?",
+    "options": [
+      "Scarce",
+      "Plentiful",
+      "Rare",
+      "Lacking"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Abundant' means existing in large quantities.",
+    "id": 192
+  },
+  {
+    "question": "What is the synonym of 'FAIR'?",
+    "options": [
+      "Unjust",
+      "Just",
+      "Biased",
+      "Partial"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Just' means fair and impartial.",
+    "id": 193
+  },
+  {
+    "question": "What is the opposite of 'EMPTY'?",
+    "options": [
+      "Vacant",
+      "Full",
+      "Hollow",
+      "Void"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Full' is the opposite of 'empty'.",
+    "id": 194
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Definitely",
+      "Definately",
+      "Definetly",
+      "Definitly"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Definitely (finite in the middle).",
+    "id": 195
+  },
+  {
+    "question": "What is the meaning of 'LUXURIOUS'?",
+    "options": [
+      "Poor",
+      "Plain",
+      "Fancy",
+      "Simple"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Luxurious' means very comfortable and expensive.",
+    "id": 196
+  },
+  {
+    "question": "What is the synonym of 'RICH'?",
+    "options": [
+      "Poor",
+      "Wealthy",
+      "Needy",
+      "Impoverished"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Wealthy' is a synonym for 'rich'.",
+    "id": 197
+  },
+  {
+    "question": "What is the opposite of 'SMOOTH'?",
+    "options": [
+      "Even",
+      "Rough",
+      "Flat",
+      "Level"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Rough' is the opposite of 'smooth'.",
+    "id": 198
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Receive",
+      "Recieve",
+      "Receeve",
+      "Reseive"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rule: 'i' before 'e' except after 'c'.",
+    "id": 199
+  },
+  {
+    "question": "What is the meaning of 'URBAN'?",
+    "options": [
+      "Rural",
+      "City",
+      "Village",
+      "Countryside"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Urban' means relating to a city.",
+    "id": 200
+  },
+  {
+    "question": "What is the synonym of 'DELICIOUS'?",
+    "options": [
+      "Tasty",
+      "Bland",
+      "Awful",
+      "Disgusting"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Tasty' is a synonym for 'delicious'.",
+    "id": 201
+  },
+  {
+    "question": "What is the opposite of 'PROFIT'?",
+    "options": [
+      "Gain",
+      "Loss",
+      "Benefit",
+      "Advantage"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Loss' is the opposite of 'profit'.",
+    "id": 202
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Wednesday",
+      "Wensday",
+      "Wednsday",
+      "Wenesday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Wednesday (Wed + nes + day).",
+    "id": 203
+  },
+  {
+    "question": "What is the meaning of 'IGNORANT'?",
+    "options": [
+      "Knowledgeable",
+      "Unaware",
+      "Educated",
+      "Informed"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Ignorant' means lacking knowledge or awareness.",
+    "id": 204
+  },
+  {
+    "question": "What is the synonym of 'CRAZY'?",
+    "options": [
+      "Sane",
+      "Mad",
+      "Wise",
+      "Sensible"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Mad' is a synonym for 'crazy'.",
+    "id": 205
+  },
+  {
+    "question": "What is the opposite of 'RISE'?",
+    "options": [
+      "Ascend",
+      "Climb",
+      "Fall",
+      "Go up"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Fall' is the opposite of 'rise'.",
+    "id": 206
+  },
+  {
+    "question": "What is the meaning of 'NOURISH'?",
+    "options": [
+      "Starve",
+      "Feed",
+      "Deprive",
+      "Neglect"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Nourish' means to provide food and other substances for growth.",
+    "id": 207
+  },
+  {
+    "question": "What is the synonym of 'POLITE'?",
+    "options": [
+      "Rude",
+      "Mannerly",
+      "Impudent",
+      "Disrespectful"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Mannerly' means having good manners, same as polite.",
+    "id": 208
+  },
+  {
+    "question": "What is the opposite of 'WET'?",
+    "options": [
+      "Damp",
+      "Moist",
+      "Dry",
+      "Humid"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Dry' is the direct opposite of 'wet'.",
+    "id": 209
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Tomorrow",
+      "TomoRow",
+      "Tommorrow",
+      "TomoRrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Tomorrow (single 'm', double 'r').",
+    "id": 210
+  },
+  {
+    "question": "What is the meaning of 'MODEST'?",
+    "options": [
+      "Arrogant",
+      "Humble",
+      "Proud",
+      "Boastful"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Modest' means humble and not boasting.",
+    "id": 211
+  },
+  {
+    "question": "What is the synonym of 'HATE'?",
+    "options": [
+      "Love",
+      "Like",
+      "Despise",
+      "Adore"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Despise' means to hate strongly.",
+    "id": 212
+  },
+  {
+    "question": "What is the opposite of 'FAR'?",
+    "options": [
+      "Distant",
+      "Remote",
+      "Near",
+      "Faraway"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Near' is the opposite of 'far'.",
+    "id": 213
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Vacuum",
+      "Vaccum",
+      "Vacume",
+      "Vakuum"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Vacuum (double 'u').",
+    "id": 214
+  },
+  {
+    "question": "What is the meaning of 'OBSTACLE'?",
+    "options": [
+      "Help",
+      "Barrier",
+      "Aid",
+      "Support"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Obstacle' means something that blocks the way.",
+    "id": 215
+  },
+  {
+    "question": "What is the synonym of 'SERIOUS'?",
+    "options": [
+      "Trivial",
+      "Grave",
+      "Minor",
+      "Unimportant"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Grave' means serious and important.",
+    "id": 216
+  },
+  {
+    "question": "What is the opposite of 'HONEST'?",
+    "options": [
+      "Truthful",
+      "Sincere",
+      "Dishonest",
+      "Genuine"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Dishonest' is the opposite of 'honest'.",
+    "id": 217
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Rhythm",
+      "Rythm",
+      "Rhythim",
+      "Rithym"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Rhythm (no vowels except 'y').",
+    "id": 218
+  },
+  {
+    "question": "What is the meaning of 'ARTIFICIAL'?",
+    "options": [
+      "Natural",
+      "Man-made",
+      "Real",
+      "Genuine"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Artificial' means made by humans, not natural.",
+    "id": 219
+  },
+  {
+    "question": "What is the synonym of 'FAULT'?",
+    "options": [
+      "Perfection",
+      "Flaw",
+      "Strength",
+      "Merit"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Flaw' means a fault or imperfection.",
+    "id": 220
+  },
+  {
+    "question": "What is the opposite of 'SUNRISE'?",
+    "options": [
+      "Dawn",
+      "Morning",
+      "Sunset",
+      "Daybreak"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Sunset' is when the sun goes down, opposite of sunrise.",
+    "id": 221
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Recommend",
+      "Reccommend",
+      "Recomend",
+      "Recommende"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Recommend (one 'c', double 'm').",
+    "id": 222
+  },
+  {
+    "question": "What is the meaning of 'ESSENTIAL'?",
+    "options": [
+      "Optional",
+      "Necessary",
+      "Extra",
+      "Unimportant"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Essential' means absolutely necessary.",
+    "id": 223
+  },
+  {
+    "question": "What is the synonym of 'PROUD'?",
+    "options": [
+      "Humble",
+      "Arrogant",
+      "Modest",
+      "Shy"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Arrogant' is similar to proud in a negative way.",
+    "id": 224
+  },
+  {
+    "question": "What is the opposite of 'DULL'?",
+    "options": [
+      "Boring",
+      "Sharp",
+      "Blunt",
+      "Slow"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Sharp' is the opposite of 'dull' for blades/minds.",
+    "id": 225
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Separate",
+      "Seperate",
+      "Seprate",
+      "Separete"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Separate ('a' after 'p').",
+    "id": 226
+  },
+  {
+    "question": "What is the meaning of 'JUBILANT'?",
+    "options": [
+      "Sad",
+      "Joyful",
+      "Gloomy",
+      "Depressed"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Jubilant' means extremely happy and joyful.",
+    "id": 227
+  },
+  {
+    "question": "What is the synonym of 'ANGRY'?",
+    "options": [
+      "Calm",
+      "Peaceful",
+      "Furious",
+      "Relaxed"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Furious' means very angry.",
+    "id": 228
+  },
+  {
+    "question": "What is the opposite of 'GAIN'?",
+    "options": [
+      "Profit",
+      "Loss",
+      "Benefit",
+      "Advantage"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Loss' is the opposite of 'gain'.",
+    "id": 229
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Necessary",
+      "Neccessary",
+      "Necesary",
+      "Neccessery"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Necessary (one 'c', double 's').",
+    "id": 230
+  },
+  {
+    "question": "What is the meaning of 'FRAGILE'?",
+    "options": [
+      "Strong",
+      "Easily broken",
+      "Tough",
+      "Sturdy"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fragile' means easily broken or damaged.",
+    "id": 231
+  },
+  {
+    "question": "What is the synonym of 'WONDERFUL'?",
+    "options": [
+      "Terrible",
+      "Awful",
+      "Marvelous",
+      "Horrible"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Marvelous' means wonderful and amazing.",
+    "id": 232
+  },
+  {
+    "question": "What is the opposite of 'ALIVE'?",
+    "options": [
+      "Living",
+      "Dead",
+      "Breathing",
+      "Active"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Dead' is the opposite of 'alive'.",
+    "id": 233
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Accommodate",
+      "Acommodate",
+      "Accomodate",
+      "Acomodate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Accommodate (double 'c', double 'm').",
+    "id": 234
+  },
+  {
+    "question": "What is the meaning of 'RIDICULOUS'?",
+    "options": [
+      "Sensible",
+      "Foolish",
+      "Reasonable",
+      "Logical"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Ridiculous' means very silly or unreasonable.",
+    "id": 235
+  },
+  {
+    "question": "What is the synonym of 'SILENT'?",
+    "options": [
+      "Noisy",
+      "Quiet",
+      "Loud",
+      "Boisterous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Quiet' is a synonym for 'silent'.",
+    "id": 236
+  },
+  {
+    "question": "What is the opposite of 'THICK'?",
+    "options": [
+      "Fat",
+      "Thin",
+      "Wide",
+      "Broad"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Thin' is the opposite of 'thick'.",
+    "id": 237
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Maintenance",
+      "Maintainance",
+      "Maintanence",
+      "Maintenence"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Maintenance (no 'i' after 't').",
+    "id": 238
+  },
+  {
+    "question": "What is the meaning of 'HESITANT'?",
+    "options": [
+      "Certain",
+      "Unsure",
+      "Confident",
+      "Decisive"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hesitant' means uncertain or slow to act.",
+    "id": 239
+  },
+  {
+    "question": "What is the synonym of 'DIFFICULT'?",
+    "options": [
+      "Easy",
+      "Hard",
+      "Simple",
+      "Light"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hard' is a synonym for 'difficult'.",
+    "id": 240
+  },
+  {
+    "question": "What is the opposite of 'MAJOR'?",
+    "options": [
+      "Big",
+      "Minor",
+      "Large",
+      "Great"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Minor' is the opposite of 'major'.",
+    "id": 241
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Occurrence",
+      "Occurence",
+      "Ocurrence",
+      "Ocurance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Occurrence (double 'c', double 'r').",
+    "id": 242
+  },
+  {
+    "question": "What is the meaning of 'GIGANTIC'?",
+    "options": [
+      "Tiny",
+      "Huge",
+      "Small",
+      "Miniature"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Gigantic' means extremely large.",
+    "id": 243
+  },
+  {
+    "question": "What is the synonym of 'BEAUTIFUL'?",
+    "options": [
+      "Ugly",
+      "Pretty",
+      "Hideous",
+      "Plain"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Pretty' is a synonym for 'beautiful'.",
+    "id": 244
+  },
+  {
+    "question": "What is the opposite of 'WISE'?",
+    "options": [
+      "Smart",
+      "Foolish",
+      "Intelligent",
+      "Clever"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Foolish' is the opposite of 'wise'.",
+    "id": 245
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Privilege",
+      "Priviledge",
+      "Privelege",
+      "Privilage"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Privilege (no 'd').",
+    "id": 246
+  },
+  {
+    "question": "What is the meaning of 'OBVIOUS'?",
+    "options": [
+      "Hidden",
+      "Clear",
+      "Secret",
+      "Mysterious"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Obvious' means easy to see or understand.",
+    "id": 247
+  },
+  {
+    "question": "What is the synonym of 'QUIET'?",
+    "options": [
+      "Loud",
+      "Silent",
+      "Noisy",
+      "Boisterous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Silent' is a synonym for 'quiet'.",
+    "id": 248
+  },
+  {
+    "question": "What is the opposite of 'RICH'?",
+    "options": [
+      "Wealthy",
+      "Poor",
+      "Affluent",
+      "Prosperous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Poor' is the opposite of 'rich'.",
+    "id": 249
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Millennium",
+      "Millenium",
+      "Milennium",
+      "Milenium"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Millennium (double 'l', double 'n').",
+    "id": 250
+  },
+  {
+    "question": "What is the meaning of 'CAUTIOUS'?",
+    "options": [
+      "Careless",
+      "Careful",
+      "Reckless",
+      "Negligent"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Cautious' means careful to avoid danger.",
+    "id": 251
+  },
+  {
+    "question": "What is the synonym of 'SMALL'?",
+    "options": [
+      "Big",
+      "Tiny",
+      "Large",
+      "Huge"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Tiny' is a synonym for 'small'.",
+    "id": 252
+  },
+  {
+    "question": "What is the opposite of 'ALWAYS'?",
+    "options": [
+      "Often",
+      "Never",
+      "Sometimes",
+      "Usually"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Never' is the opposite of 'always'.",
+    "id": 253
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Consensus",
+      "Conscensus",
+      "Consenssus",
+      "Consencus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Consensus (no 'c' after first 's').",
+    "id": 254
+  },
+  {
+    "question": "What is the meaning of 'FRUGAL'?",
+    "options": [
+      "Wasteful",
+      "Thrifty",
+      "Extravagant",
+      "Lavish"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Frugal' means saving money, thrifty.",
+    "id": 255
+  },
+  {
+    "question": "What is the synonym of 'BEGIN'?",
+    "options": [
+      "End",
+      "Start",
+      "Stop",
+      "Finish"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Start' is a synonym for 'begin'.",
+    "id": 256
+  },
+  {
+    "question": "What is the opposite of 'HAPPY'?",
+    "options": [
+      "Joyful",
+      "Sad",
+      "Cheerful",
+      "Delighted"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Sad' is the opposite of 'happy'.",
+    "id": 257
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Questionnaire",
+      "Questionaire",
+      "Questionnare",
+      "Questionare"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Questionnaire (double 'n').",
+    "id": 258
+  },
+  {
+    "question": "What is the meaning of 'RAPID'?",
+    "options": [
+      "Slow",
+      "Fast",
+      "Steady",
+      "Gradual"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Rapid' means very fast.",
+    "id": 259
+  },
+  {
+    "question": "What is the synonym of 'STRONG'?",
+    "options": [
+      "Weak",
+      "Powerful",
+      "Fragile",
+      "Feeble"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Powerful' is a synonym for 'strong'.",
+    "id": 260
+  },
+  {
+    "question": "What is the opposite of 'LOVE'?",
+    "options": [
+      "Like",
+      "Hate",
+      "Care",
+      "Adore"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hate' is the opposite of 'love'.",
+    "id": 261
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Weird",
+      "Wierd",
+      "Weard",
+      "Wierd"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Weird ('ei' after w).",
+    "id": 262
+  },
+  {
+    "question": "What is the meaning of 'VACANT'?",
+    "options": [
+      "Occupied",
+      "Empty",
+      "Full",
+      "Busy"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Vacant' means empty or unoccupied.",
+    "id": 263
+  },
+  {
+    "question": "What is the synonym of 'FAMOUS'?",
+    "options": [
+      "Unknown",
+      "Renowned",
+      "Obscure",
+      "Anonymous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Renowned' means famous and respected.",
+    "id": 264
+  },
+  {
+    "question": "What is the opposite of 'BETTER'?",
+    "options": [
+      "Good",
+      "Worse",
+      "Best",
+      "Great"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Worse' is the opposite of 'better'.",
+    "id": 265
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Calendar",
+      "Calender",
+      "Calandar",
+      "Calander"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Calendar (ends with 'ar').",
+    "id": 266
+  },
+  {
+    "question": "What is the meaning of 'FLEXIBLE'?",
+    "options": [
+      "Rigid",
+      "Bendable",
+      "Stiff",
+      "Hard"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Flexible' means able to bend easily.",
+    "id": 267
+  },
+  {
+    "question": "What is the synonym of 'LAZY'?",
+    "options": [
+      "Active",
+      "Idle",
+      "Energetic",
+      "Hardworking"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Idle' means lazy or inactive.",
+    "id": 268
+  },
+  {
+    "question": "What is the opposite of 'PULL'?",
+    "options": [
+      "Drag",
+      "Push",
+      "Tug",
+      "Haul"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Push' is the opposite of 'pull'.",
+    "id": 269
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Harass",
+      "Harrass",
+      "Haras",
+      "Harras"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Harass (one 'r', double 's').",
+    "id": 270
+  },
+  {
+    "question": "What is the meaning of 'SHALLOW'?",
+    "options": [
+      "Deep",
+      "Not deep",
+      "Profound",
+      "Bottomless"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Shallow' means not deep.",
+    "id": 271
+  },
+  {
+    "question": "What is the synonym of 'COLD'?",
+    "options": [
+      "Hot",
+      "Chilly",
+      "Warm",
+      "Boiling"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Chilly' means somewhat cold.",
+    "id": 272
+  },
+  {
+    "question": "What is the opposite of 'ENEMY'?",
+    "options": [
+      "Foe",
+      "Friend",
+      "Opponent",
+      "Rival"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Friend' is the opposite of 'enemy'.",
+    "id": 273
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Leisure",
+      "Leasure",
+      "Liesure",
+      "Leisur"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Leisure ('ei' before 'u').",
+    "id": 274
+  },
+  {
+    "question": "What is the meaning of 'GLOOMY'?",
+    "options": [
+      "Bright",
+      "Dark",
+      "Cheerful",
+      "Sunny"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Gloomy' means dark or sad.",
+    "id": 275
+  },
+  {
+    "question": "What is the synonym of 'FAST'?",
+    "options": [
+      "Slow",
+      "Quick",
+      "Lazy",
+      "Steady"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Quick' is a synonym for 'fast'.",
+    "id": 276
+  },
+  {
+    "question": "What is the opposite of 'HARD'?",
+    "options": [
+      "Tough",
+      "Soft",
+      "Solid",
+      "Firm"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Soft' is the opposite of 'hard'.",
+    "id": 277
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Exaggerate",
+      "Exagerate",
+      "Exaggerrate",
+      "Exajerate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Exaggerate (double 'g').",
+    "id": 278
+  },
+  {
+    "question": "What is the meaning of 'URGENT'?",
+    "options": [
+      "Not important",
+      "Needs quick action",
+      "Can wait",
+      "Optional"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Urgent' means needing immediate attention.",
+    "id": 279
+  },
+  {
+    "question": "What is the synonym of 'BRAVE'?",
+    "options": [
+      "Cowardly",
+      "Fearless",
+      "Timid",
+      "Afraid"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fearless' means brave, not afraid.",
+    "id": 280
+  },
+  {
+    "question": "What is the opposite of 'WEAK'?",
+    "options": [
+      "Feeble",
+      "Strong",
+      "Fragile",
+      "Delicate"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Strong' is the opposite of 'weak'.",
+    "id": 281
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Inoculate",
+      "Innoculate",
+      "Inocullate",
+      "Innocolate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Inoculate (one 'n', one 'c').",
+    "id": 282
+  },
+  {
+    "question": "What is the meaning of 'PRECISE'?",
+    "options": [
+      "Vague",
+      "Exact",
+      "Approximate",
+      "Rough"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Precise' means exact and accurate.",
+    "id": 283
+  },
+  {
+    "question": "What is the synonym of 'HIDE'?",
+    "options": [
+      "Show",
+      "Conceal",
+      "Reveal",
+      "Display"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Conceal' is a synonym for 'hide'.",
+    "id": 284
+  },
+  {
+    "question": "What is the opposite of 'FRESH'?",
+    "options": [
+      "New",
+      "Stale",
+      "Clean",
+      "Pure"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Stale' means not fresh.",
+    "id": 285
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Parallel",
+      "Paralell",
+      "Parallell",
+      "Paralel"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Parallel (double 'l' at the end).",
+    "id": 286
+  },
+  {
+    "question": "What is the meaning of 'AFFECTION'?",
+    "options": [
+      "Hate",
+      "Love",
+      "Indifference",
+      "Aversion"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Affection' means fondness or love.",
+    "id": 287
+  },
+  {
+    "question": "What is the synonym of 'CLEVER'?",
+    "options": [
+      "Dumb",
+      "Intelligent",
+      "Stupid",
+      "Foolish"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Intelligent' is a synonym for 'clever'.",
+    "id": 288
+  },
+  {
+    "question": "What is the opposite of 'SUN'?",
+    "options": [
+      "Star",
+      "Moon",
+      "Planet",
+      "Sky"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Moon' is often considered the opposite of sun.",
+    "id": 289
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Dilemma",
+      "Dilema",
+      "Dilemna",
+      "Dillema"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Dilemma (double 'm').",
+    "id": 290
+  },
+  {
+    "question": "What is the meaning of 'ENORMOUS'?",
+    "options": [
+      "Tiny",
+      "Huge",
+      "Small",
+      "Narrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Enormous' means extremely large.",
+    "id": 291
+  },
+  {
+    "question": "What is the synonym of 'SAD'?",
+    "options": [
+      "Happy",
+      "Unhappy",
+      "Joyful",
+      "Cheerful"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Unhappy' is a synonym for 'sad'.",
+    "id": 292
+  },
+  {
+    "question": "What is the opposite of 'EXPENSIVE'?",
+    "options": [
+      "Costly",
+      "Cheap",
+      "Pricy",
+      "Valuable"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Cheap' is the opposite of 'expensive'.",
+    "id": 293
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Committee",
+      "Comittee",
+      "Commitee",
+      "Comitee"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Committee (double m, double t, double e).",
+    "id": 294
+  },
+  {
+    "question": "What is the meaning of 'TRANSPARENT'?",
+    "options": [
+      "Opaque",
+      "Clear",
+      "Cloudy",
+      "Dark"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Transparent' means allowing light to pass through, clear.",
+    "id": 295
+  },
+  {
+    "question": "What is the synonym of 'FAKE'?",
+    "options": [
+      "Real",
+      "False",
+      "Authentic",
+      "True"
+    ],
+    "correctIndex": 1,
+    "explanation": "'False' is a synonym for 'fake'.",
+    "id": 296
+  },
+  {
+    "question": "What is the opposite of 'HEAVEN'?",
+    "options": [
+      "Sky",
+      "Hell",
+      "Paradise",
+      "Cloud"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hell' is the opposite of 'heaven'.",
+    "id": 297
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Rhythm",
+      "Rythm",
+      "Rhythym",
+      "Rithym"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Rhythm (no vowels except 'y').",
+    "id": 298
+  },
+  {
+    "question": "What is the meaning of 'FORTUNATE'?",
+    "options": [
+      "Unlucky",
+      "Lucky",
+      "Sad",
+      "Poor"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fortunate' means having good luck.",
+    "id": 299
+  },
+  {
+    "question": "What is the synonym of 'DANGEROUS'?",
+    "options": [
+      "Safe",
+      "Risky",
+      "Secure",
+      "Harmless"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Risky' means involving danger.",
+    "id": 300
+  },
+  {
+    "question": "What is the opposite of 'SELDOM'?",
+    "options": [
+      "Rarely",
+      "Often",
+      "Never",
+      "Occasionally"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Often' is the opposite of 'seldom'.",
+    "id": 301
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "February",
+      "Febuary",
+      "Februery",
+      "Febrary"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: February (has 'r' after Feb).",
+    "id": 302
+  },
+  {
+    "question": "What is the meaning of 'HOSTILE'?",
+    "options": [
+      "Friendly",
+      "Unfriendly",
+      "Kind",
+      "Warm"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hostile' means unfriendly or aggressive.",
+    "id": 303
+  },
+  {
+    "question": "What is the synonym of 'PITY'?",
+    "options": [
+      "Cruelty",
+      "Sympathy",
+      "Indifference",
+      "Harshness"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Sympathy' is a synonym for 'pity'.",
+    "id": 304
+  },
+  {
+    "question": "What is the opposite of 'MAJORITY'?",
+    "options": [
+      "Most",
+      "Minority",
+      "Mass",
+      "Multitude"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Minority' is the opposite of 'majority'.",
+    "id": 305
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Business",
+      "Buisness",
+      "Busines",
+      "Busyness"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Business ('i' before 'n').",
+    "id": 306
+  },
+  {
+    "question": "What is the meaning of 'CURIOUS'?",
+    "options": [
+      "Indifferent",
+      "Interested",
+      "Bored",
+      "Apathetic"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Curious' means eager to learn.",
+    "id": 307
+  },
+  {
+    "question": "What is the synonym of 'ACCURATE'?",
+    "options": [
+      "Wrong",
+      "Precise",
+      "Incorrect",
+      "False"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Precise' is a synonym for 'accurate'.",
+    "id": 308
+  },
+  {
+    "question": "What is the opposite of 'BRAVE'?",
+    "options": [
+      "Courageous",
+      "Cowardly",
+      "Fearless",
+      "Heroic"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Cowardly' is the opposite of 'brave'.",
+    "id": 309
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Acknowledge",
+      "Aknowlege",
+      "Acnowledge",
+      "Aknowledg"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Acknowledge (ac + knowledge).",
+    "id": 310
+  },
+  {
+    "question": "What is the meaning of 'SUFFICIENT'?",
+    "options": [
+      "Enough",
+      "Lacking",
+      "Insufficient",
+      "Short"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sufficient' means enough or adequate.",
+    "id": 311
+  },
+  {
+    "question": "What is the synonym of 'CAREFUL'?",
+    "options": [
+      "Reckless",
+      "Cautious",
+      "Careless",
+      "Negligent"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Cautious' is a synonym for 'careful'.",
+    "id": 312
+  },
+  {
+    "question": "What is the opposite of 'WAR'?",
+    "options": [
+      "Conflict",
+      "Peace",
+      "Battle",
+      "Fight"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Peace' is the opposite of 'war'.",
+    "id": 313
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Occasion",
+      "Ocasion",
+      "Occassion",
+      "Ocassion"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Occasion (double 'c', one 's').",
+    "id": 314
+  },
+  {
+    "question": "What is the meaning of 'INFERIOR'?",
+    "options": [
+      "Superior",
+      "Lower",
+      "Better",
+      "Excellent"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Inferior' means lower in rank or quality.",
+    "id": 315
+  },
+  {
+    "question": "What is the synonym of 'FAMOUS'?",
+    "options": [
+      "Unknown",
+      "Renowned",
+      "Obscure",
+      "Anonymous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Renowned' means famous.",
+    "id": 316
+  },
+  {
+    "question": "What is the opposite of 'HARSH'?",
+    "options": [
+      "Rough",
+      "Gentle",
+      "Severe",
+      "Hard"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Gentle' is the opposite of 'harsh'.",
+    "id": 317
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Correspondence",
+      "Correspondance",
+      "Correspondense",
+      "Correspondance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Correspondence ('ence' at the end).",
+    "id": 318
+  },
+  {
+    "question": "What is the meaning of 'AMATEUR'?",
+    "options": [
+      "Professional",
+      "Beginner",
+      "Expert",
+      "Master"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Amateur' means a non-professional or beginner.",
+    "id": 319
+  },
+  {
+    "question": "What is the synonym of 'STRANGE'?",
+    "options": [
+      "Normal",
+      "Odd",
+      "Usual",
+      "Common"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Odd' is a synonym for 'strange'.",
+    "id": 320
+  },
+  {
+    "question": "What is the opposite of 'INCREASE'?",
+    "options": [
+      "Grow",
+      "Decrease",
+      "Rise",
+      "Expand"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Decrease' is the opposite of 'increase'.",
+    "id": 321
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Relevant",
+      "Relevent",
+      "Revelant",
+      "Relevent"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Relevant ('ant' at the end).",
+    "id": 322
+  },
+  {
+    "question": "What is the meaning of 'DISTANT'?",
+    "options": [
+      "Near",
+      "Far",
+      "Close",
+      "Adjacent"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Distant' means far away.",
+    "id": 323
+  },
+  {
+    "question": "What is the synonym of 'HELP'?",
+    "options": [
+      "Hinder",
+      "Assist",
+      "Obstruct",
+      "Block"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Assist' is a synonym for 'help'.",
+    "id": 324
+  },
+  {
+    "question": "What is the opposite of 'SIMPLE'?",
+    "options": [
+      "Easy",
+      "Complex",
+      "Plain",
+      "Basic"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Complex' is the opposite of 'simple'.",
+    "id": 325
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Gauge",
+      "Guage",
+      "Gage",
+      "Gauage"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Gauge (gau followed by ge).",
+    "id": 326
+  },
+  {
+    "question": "What is the meaning of 'RELUCTANT'?",
+    "options": [
+      "Eager",
+      "Unwilling",
+      "Willing",
+      "Ready"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Reluctant' means unwilling or hesitant.",
+    "id": 327
+  },
+  {
+    "question": "What is the synonym of 'IMPORTANT'?",
+    "options": [
+      "Trivial",
+      "Significant",
+      "Minor",
+      "Unimportant"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Significant' is a synonym for 'important'.",
+    "id": 328
+  },
+  {
+    "question": "What is the opposite of 'FRAGILE'?",
+    "options": [
+      "Breakable",
+      "Sturdy",
+      "Delicate",
+      "Weak"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Sturdy' is the opposite of 'fragile'.",
+    "id": 329
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Definitely",
+      "Definately",
+      "Definetly",
+      "Definitly"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Definitely ('finite' in the middle).",
+    "id": 330
+  },
+  {
+    "question": "What is the meaning of 'ABUNDANT'?",
+    "options": [
+      "Scarce",
+      "Plentiful",
+      "Rare",
+      "Lacking"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Abundant' means existing in large quantities.",
+    "id": 331
+  },
+  {
+    "question": "What is the synonym of 'FAIR'?",
+    "options": [
+      "Unjust",
+      "Just",
+      "Biased",
+      "Partial"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Just' means fair and impartial.",
+    "id": 332
+  },
+  {
+    "question": "What is the opposite of 'EMPTY'?",
+    "options": [
+      "Vacant",
+      "Full",
+      "Hollow",
+      "Void"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Full' is the opposite of 'empty'.",
+    "id": 333
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Neighbor",
+      "Neigbour",
+      "Neighbour",
+      "Naybor"
+    ],
+    "correctIndex": 2,
+    "explanation": "Correct spelling: Neighbour (British English has 'u').",
+    "id": 334
+  },
+  {
+    "question": "What is the meaning of 'LUXURIOUS'?",
+    "options": [
+      "Poor",
+      "Fancy",
+      "Plain",
+      "Simple"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Luxurious' means very comfortable and expensive.",
+    "id": 335
+  },
+  {
+    "question": "What is the synonym of 'RICH'?",
+    "options": [
+      "Poor",
+      "Wealthy",
+      "Needy",
+      "Impoverished"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Wealthy' is a synonym for 'rich'.",
+    "id": 336
+  },
+  {
+    "question": "What is the opposite of 'SMOOTH'?",
+    "options": [
+      "Even",
+      "Rough",
+      "Flat",
+      "Level"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Rough' is the opposite of 'smooth'.",
+    "id": 337
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Receive",
+      "Recieve",
+      "Receeve",
+      "Reseive"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rule: 'i' before 'e' except after 'c'.",
+    "id": 338
+  },
+  {
+    "question": "What is the meaning of 'URBAN'?",
+    "options": [
+      "Rural",
+      "City",
+      "Village",
+      "Countryside"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Urban' means relating to a city.",
+    "id": 339
+  },
+  {
+    "question": "What is the synonym of 'DELICIOUS'?",
+    "options": [
+      "Tasty",
+      "Bland",
+      "Awful",
+      "Disgusting"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Tasty' is a synonym for 'delicious'.",
+    "id": 340
+  },
+  {
+    "question": "What is the opposite of 'PROFIT'?",
+    "options": [
+      "Gain",
+      "Loss",
+      "Benefit",
+      "Advantage"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Loss' is the opposite of 'profit'.",
+    "id": 341
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Wednesday",
+      "Wensday",
+      "Wednsday",
+      "Wenesday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Wednesday (Wed + nes + day).",
+    "id": 342
+  },
+  {
+    "question": "What is the meaning of 'IGNORANT'?",
+    "options": [
+      "Knowledgeable",
+      "Unaware",
+      "Educated",
+      "Informed"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Ignorant' means lacking knowledge or awareness.",
+    "id": 343
+  },
+  {
+    "question": "What is the synonym of 'CRAZY'?",
+    "options": [
+      "Sane",
+      "Mad",
+      "Wise",
+      "Sensible"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Mad' is a synonym for 'crazy'.",
+    "id": 344
+  },
+  {
+    "question": "What is the opposite of 'RISE'?",
+    "options": [
+      "Ascend",
+      "Fall",
+      "Climb",
+      "Go up"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fall' is the opposite of 'rise'.",
+    "id": 345
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Tomorrow",
+      "TomoRow",
+      "Tommorrow",
+      "TomoRrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Tomorrow (single 'm', double 'r').",
+    "id": 346
+  },
+  {
+    "question": "What is the meaning of 'NOURISH'?",
+    "options": [
+      "Starve",
+      "Feed",
+      "Deprive",
+      "Neglect"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Nourish' means to provide food for growth.",
+    "id": 347
+  },
+  {
+    "question": "What is the synonym of 'POLITE'?",
+    "options": [
+      "Rude",
+      "Mannerly",
+      "Impudent",
+      "Disrespectful"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Mannerly' means having good manners.",
+    "id": 348
+  },
+  {
+    "question": "What is the opposite of 'WET'?",
+    "options": [
+      "Damp",
+      "Dry",
+      "Moist",
+      "Humid"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Dry' is the opposite of 'wet'.",
+    "id": 349
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Vacuum",
+      "Vaccum",
+      "Vacume",
+      "Vakuum"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Vacuum (double 'u').",
+    "id": 350
+  },
+  {
+    "question": "What is the meaning of 'MODEST'?",
+    "options": [
+      "Arrogant",
+      "Humble",
+      "Proud",
+      "Boastful"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Modest' means humble and not boasting.",
+    "id": 351
+  },
+  {
+    "question": "What is the synonym of 'HATE'?",
+    "options": [
+      "Love",
+      "Despise",
+      "Like",
+      "Adore"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Despise' means to hate strongly.",
+    "id": 352
+  },
+  {
+    "question": "What is the opposite of 'FAR'?",
+    "options": [
+      "Distant",
+      "Near",
+      "Remote",
+      "Faraway"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Near' is the opposite of 'far'.",
+    "id": 353
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Rhythm",
+      "Rythm",
+      "Rhythim",
+      "Rithym"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Rhythm (no vowels except 'y').",
+    "id": 354
+  },
+  {
+    "question": "What is the meaning of 'OBSTACLE'?",
+    "options": [
+      "Help",
+      "Barrier",
+      "Aid",
+      "Support"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Obstacle' means something that blocks the way.",
+    "id": 355
+  },
+  {
+    "question": "What is the synonym of 'SERIOUS'?",
+    "options": [
+      "Trivial",
+      "Grave",
+      "Minor",
+      "Unimportant"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Grave' means serious and important.",
+    "id": 356
+  },
+  {
+    "question": "What is the opposite of 'HONEST'?",
+    "options": [
+      "Truthful",
+      "Dishonest",
+      "Sincere",
+      "Genuine"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Dishonest' is the opposite of 'honest'.",
+    "id": 357
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Recommend",
+      "Reccommend",
+      "Recomend",
+      "Recommende"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Recommend (one 'c', double 'm').",
+    "id": 358
+  },
+  {
+    "question": "What is the meaning of 'ARTIFICIAL'?",
+    "options": [
+      "Natural",
+      "Man-made",
+      "Real",
+      "Genuine"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Artificial' means made by humans, not natural.",
+    "id": 359
+  },
+  {
+    "question": "What is the synonym of 'FAULT'?",
+    "options": [
+      "Perfection",
+      "Flaw",
+      "Strength",
+      "Merit"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Flaw' means a fault or imperfection.",
+    "id": 360
+  },
+  {
+    "question": "What is the opposite of 'SUNRISE'?",
+    "options": [
+      "Dawn",
+      "Sunset",
+      "Morning",
+      "Daybreak"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Sunset' is opposite of 'sunrise'.",
+    "id": 361
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Separate",
+      "Seperate",
+      "Seprate",
+      "Separete"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Separate ('a' after 'p').",
+    "id": 362
+  },
+  {
+    "question": "What is the meaning of 'ESSENTIAL'?",
+    "options": [
+      "Optional",
+      "Necessary",
+      "Extra",
+      "Unimportant"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Essential' means absolutely necessary.",
+    "id": 363
+  },
+  {
+    "question": "What is the synonym of 'PROUD'?",
+    "options": [
+      "Humble",
+      "Arrogant",
+      "Modest",
+      "Shy"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Arrogant' is similar to proud (negative).",
+    "id": 364
+  },
+  {
+    "question": "What is the opposite of 'DULL'?",
+    "options": [
+      "Boring",
+      "Sharp",
+      "Blunt",
+      "Slow"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Sharp' is opposite of 'dull'.",
+    "id": 365
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Necessary",
+      "Neccessary",
+      "Necesary",
+      "Neccessery"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Necessary (one 'c', double 's').",
+    "id": 366
+  },
+  {
+    "question": "What is the meaning of 'JUBILANT'?",
+    "options": [
+      "Sad",
+      "Joyful",
+      "Gloomy",
+      "Depressed"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Jubilant' means extremely happy.",
+    "id": 367
+  },
+  {
+    "question": "What is the synonym of 'ANGRY'?",
+    "options": [
+      "Calm",
+      "Furious",
+      "Peaceful",
+      "Relaxed"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Furious' means very angry.",
+    "id": 368
+  },
+  {
+    "question": "What is the opposite of 'GAIN'?",
+    "options": [
+      "Profit",
+      "Loss",
+      "Benefit",
+      "Advantage"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Loss' is opposite of 'gain'.",
+    "id": 369
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Accommodate",
+      "Acommodate",
+      "Accomodate",
+      "Acomodate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Accommodate (double 'c', double 'm').",
+    "id": 370
+  },
+  {
+    "question": "What is the meaning of 'FRAGILE'?",
+    "options": [
+      "Strong",
+      "Easily broken",
+      "Tough",
+      "Sturdy"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fragile' means easily broken.",
+    "id": 371
+  },
+  {
+    "question": "What is the synonym of 'WONDERFUL'?",
+    "options": [
+      "Terrible",
+      "Marvelous",
+      "Awful",
+      "Horrible"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Marvelous' means wonderful.",
+    "id": 372
+  },
+  {
+    "question": "What is the opposite of 'ALIVE'?",
+    "options": [
+      "Living",
+      "Dead",
+      "Breathing",
+      "Active"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Dead' is opposite of 'alive'.",
+    "id": 373
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Maintenance",
+      "Maintainance",
+      "Maintanence",
+      "Maintenence"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Maintenance (no 'i' after 't').",
+    "id": 374
+  },
+  {
+    "question": "What is the meaning of 'RIDICULOUS'?",
+    "options": [
+      "Sensible",
+      "Foolish",
+      "Reasonable",
+      "Logical"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Ridiculous' means very silly.",
+    "id": 375
+  },
+  {
+    "question": "What is the synonym of 'SILENT'?",
+    "options": [
+      "Noisy",
+      "Quiet",
+      "Loud",
+      "Boisterous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Quiet' is a synonym for 'silent'.",
+    "id": 376
+  },
+  {
+    "question": "What is the opposite of 'THICK'?",
+    "options": [
+      "Fat",
+      "Thin",
+      "Wide",
+      "Broad"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Thin' is opposite of 'thick'.",
+    "id": 377
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Occurrence",
+      "Occurence",
+      "Ocurrence",
+      "Ocurance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Occurrence (double 'c', double 'r').",
+    "id": 378
+  },
+  {
+    "question": "What is the meaning of 'HESITANT'?",
+    "options": [
+      "Certain",
+      "Unsure",
+      "Confident",
+      "Decisive"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hesitant' means uncertain or slow to act.",
+    "id": 379
+  },
+  {
+    "question": "What is the synonym of 'DIFFICULT'?",
+    "options": [
+      "Easy",
+      "Hard",
+      "Simple",
+      "Light"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hard' is a synonym for 'difficult'.",
+    "id": 380
+  },
+  {
+    "question": "What is the opposite of 'MAJOR'?",
+    "options": [
+      "Big",
+      "Minor",
+      "Large",
+      "Great"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Minor' is opposite of 'major'.",
+    "id": 381
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Privilege",
+      "Priviledge",
+      "Privelege",
+      "Privilage"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Privilege (no 'd').",
+    "id": 382
+  },
+  {
+    "question": "What is the meaning of 'GIGANTIC'?",
+    "options": [
+      "Tiny",
+      "Huge",
+      "Small",
+      "Miniature"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Gigantic' means extremely large.",
+    "id": 383
+  },
+  {
+    "question": "What is the synonym of 'BEAUTIFUL'?",
+    "options": [
+      "Ugly",
+      "Pretty",
+      "Hideous",
+      "Plain"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Pretty' is a synonym for 'beautiful'.",
+    "id": 384
+  },
+  {
+    "question": "What is the opposite of 'WISE'?",
+    "options": [
+      "Smart",
+      "Foolish",
+      "Intelligent",
+      "Clever"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Foolish' is opposite of 'wise'.",
+    "id": 385
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Millennium",
+      "Millenium",
+      "Milennium",
+      "Milenium"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Millennium (double 'l', double 'n').",
+    "id": 386
+  },
+  {
+    "question": "What is the meaning of 'OBVIOUS'?",
+    "options": [
+      "Hidden",
+      "Clear",
+      "Secret",
+      "Mysterious"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Obvious' means easy to see or understand.",
+    "id": 387
+  },
+  {
+    "question": "What is the synonym of 'QUIET'?",
+    "options": [
+      "Loud",
+      "Silent",
+      "Noisy",
+      "Boisterous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Silent' is a synonym for 'quiet'.",
+    "id": 388
+  },
+  {
+    "question": "What is the opposite of 'RICH'?",
+    "options": [
+      "Wealthy",
+      "Poor",
+      "Affluent",
+      "Prosperous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Poor' is opposite of 'rich'.",
+    "id": 389
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Consensus",
+      "Conscensus",
+      "Consenssus",
+      "Consencus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Consensus (no 'c' after first 's').",
+    "id": 390
+  },
+  {
+    "question": "What is the meaning of 'CAUTIOUS'?",
+    "options": [
+      "Careless",
+      "Careful",
+      "Reckless",
+      "Negligent"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Cautious' means careful to avoid danger.",
+    "id": 391
+  },
+  {
+    "question": "What is the synonym of 'SMALL'?",
+    "options": [
+      "Big",
+      "Tiny",
+      "Large",
+      "Huge"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Tiny' is a synonym for 'small'.",
+    "id": 392
+  },
+  {
+    "question": "What is the opposite of 'ALWAYS'?",
+    "options": [
+      "Often",
+      "Never",
+      "Sometimes",
+      "Usually"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Never' is opposite of 'always'.",
+    "id": 393
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Questionnaire",
+      "Questionaire",
+      "Questionnare",
+      "Questionare"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Questionnaire (double 'n').",
+    "id": 394
+  },
+  {
+    "question": "What is the meaning of 'FRUGAL'?",
+    "options": [
+      "Wasteful",
+      "Thrifty",
+      "Extravagant",
+      "Lavish"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Frugal' means saving money, thrifty.",
+    "id": 395
+  },
+  {
+    "question": "What is the synonym of 'BEGIN'?",
+    "options": [
+      "End",
+      "Start",
+      "Stop",
+      "Finish"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Start' is a synonym for 'begin'.",
+    "id": 396
+  },
+  {
+    "question": "What is the opposite of 'HAPPY'?",
+    "options": [
+      "Joyful",
+      "Sad",
+      "Cheerful",
+      "Delighted"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Sad' is opposite of 'happy'.",
+    "id": 397
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Weird",
+      "Wierd",
+      "Weard",
+      "Wierd"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Weird ('ei' after w).",
+    "id": 398
+  },
+  {
+    "question": "What is the meaning of 'RAPID'?",
+    "options": [
+      "Slow",
+      "Fast",
+      "Steady",
+      "Gradual"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Rapid' means very fast.",
+    "id": 399
+  },
+  {
+    "question": "What is the synonym of 'STRONG'?",
+    "options": [
+      "Weak",
+      "Powerful",
+      "Fragile",
+      "Feeble"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Powerful' is a synonym for 'strong'.",
+    "id": 400
+  },
+  {
+    "question": "What is the opposite of 'LOVE'?",
+    "options": [
+      "Like",
+      "Hate",
+      "Care",
+      "Adore"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hate' is opposite of 'love'.",
+    "id": 401
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Calendar",
+      "Calender",
+      "Calandar",
+      "Calander"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Calendar (ends with 'ar').",
+    "id": 402
+  },
+  {
+    "question": "What is the meaning of 'VACANT'?",
+    "options": [
+      "Occupied",
+      "Empty",
+      "Full",
+      "Busy"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Vacant' means empty or unoccupied.",
+    "id": 403
+  },
+  {
+    "question": "What is the synonym of 'FAMOUS'?",
+    "options": [
+      "Unknown",
+      "Renowned",
+      "Obscure",
+      "Anonymous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Renowned' means famous.",
+    "id": 404
+  },
+  {
+    "question": "What is the opposite of 'BETTER'?",
+    "options": [
+      "Good",
+      "Worse",
+      "Best",
+      "Great"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Worse' is opposite of 'better'.",
+    "id": 405
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Harass",
+      "Harrass",
+      "Haras",
+      "Harras"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Harass (one 'r', double 's').",
+    "id": 406
+  },
+  {
+    "question": "What is the meaning of 'FLEXIBLE'?",
+    "options": [
+      "Rigid",
+      "Bendable",
+      "Stiff",
+      "Hard"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Flexible' means able to bend easily.",
+    "id": 407
+  },
+  {
+    "question": "What is the synonym of 'LAZY'?",
+    "options": [
+      "Active",
+      "Idle",
+      "Energetic",
+      "Hardworking"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Idle' means lazy or inactive.",
+    "id": 408
+  },
+  {
+    "question": "What is the opposite of 'PULL'?",
+    "options": [
+      "Drag",
+      "Push",
+      "Tug",
+      "Haul"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Push' is opposite of 'pull'.",
+    "id": 409
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Leisure",
+      "Leasure",
+      "Liesure",
+      "Leisur"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Leisure ('ei' before 'u').",
+    "id": 410
+  },
+  {
+    "question": "What is the meaning of 'SHALLOW'?",
+    "options": [
+      "Deep",
+      "Not deep",
+      "Profound",
+      "Bottomless"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Shallow' means not deep.",
+    "id": 411
+  },
+  {
+    "question": "What is the synonym of 'COLD'?",
+    "options": [
+      "Hot",
+      "Chilly",
+      "Warm",
+      "Boiling"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Chilly' means somewhat cold.",
+    "id": 412
+  },
+  {
+    "question": "What is the opposite of 'ENEMY'?",
+    "options": [
+      "Foe",
+      "Friend",
+      "Opponent",
+      "Rival"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Friend' is opposite of 'enemy'.",
+    "id": 413
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Exaggerate",
+      "Exagerate",
+      "Exaggerrate",
+      "Exajerate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Exaggerate (double 'g').",
+    "id": 414
+  },
+  {
+    "question": "What is the meaning of 'GLOOMY'?",
+    "options": [
+      "Bright",
+      "Dark",
+      "Cheerful",
+      "Sunny"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Gloomy' means dark or sad.",
+    "id": 415
+  },
+  {
+    "question": "What is the synonym of 'FAST'?",
+    "options": [
+      "Slow",
+      "Quick",
+      "Lazy",
+      "Steady"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Quick' is a synonym for 'fast'.",
+    "id": 416
+  },
+  {
+    "question": "What is the opposite of 'HARD'?",
+    "options": [
+      "Tough",
+      "Soft",
+      "Solid",
+      "Firm"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Soft' is opposite of 'hard'.",
+    "id": 417
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Inoculate",
+      "Innoculate",
+      "Inocullate",
+      "Innocolate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Inoculate (one 'n', one 'c').",
+    "id": 418
+  },
+  {
+    "question": "What is the meaning of 'URGENT'?",
+    "options": [
+      "Not important",
+      "Needs quick action",
+      "Can wait",
+      "Optional"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Urgent' means needing immediate attention.",
+    "id": 419
+  },
+  {
+    "question": "What is the synonym of 'BRAVE'?",
+    "options": [
+      "Cowardly",
+      "Fearless",
+      "Timid",
+      "Afraid"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fearless' means brave, not afraid.",
+    "id": 420
+  },
+  {
+    "question": "What is the opposite of 'WEAK'?",
+    "options": [
+      "Feeble",
+      "Strong",
+      "Fragile",
+      "Delicate"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Strong' is opposite of 'weak'.",
+    "id": 421
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Parallel",
+      "Paralell",
+      "Parallell",
+      "Paralel"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Parallel (double 'l' at the end).",
+    "id": 422
+  },
+  {
+    "question": "What is the meaning of 'PRECISE'?",
+    "options": [
+      "Vague",
+      "Exact",
+      "Approximate",
+      "Rough"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Precise' means exact and accurate.",
+    "id": 423
+  },
+  {
+    "question": "What is the synonym of 'HIDE'?",
+    "options": [
+      "Show",
+      "Conceal",
+      "Reveal",
+      "Display"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Conceal' is a synonym for 'hide'.",
+    "id": 424
+  },
+  {
+    "question": "What is the opposite of 'FRESH'?",
+    "options": [
+      "New",
+      "Stale",
+      "Clean",
+      "Pure"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Stale' means not fresh.",
+    "id": 425
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Dilemma",
+      "Dilema",
+      "Dilemna",
+      "Dillema"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Dilemma (double 'm').",
+    "id": 426
+  },
+  {
+    "question": "What is the meaning of 'AFFECTION'?",
+    "options": [
+      "Hate",
+      "Love",
+      "Indifference",
+      "Aversion"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Affection' means fondness or love.",
+    "id": 427
+  },
+  {
+    "question": "What is the synonym of 'CLEVER'?",
+    "options": [
+      "Dumb",
+      "Intelligent",
+      "Stupid",
+      "Foolish"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Intelligent' is a synonym for 'clever'.",
+    "id": 428
+  },
+  {
+    "question": "What is the opposite of 'SUN'?",
+    "options": [
+      "Star",
+      "Moon",
+      "Planet",
+      "Sky"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Moon' is often considered opposite of sun.",
+    "id": 429
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Committee",
+      "Comittee",
+      "Commitee",
+      "Comitee"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Committee (double m, double t, double e).",
+    "id": 430
+  },
+  {
+    "question": "What is the meaning of 'ENORMOUS'?",
+    "options": [
+      "Tiny",
+      "Huge",
+      "Small",
+      "Narrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Enormous' means extremely large.",
+    "id": 431
+  },
+  {
+    "question": "What is the synonym of 'SAD'?",
+    "options": [
+      "Happy",
+      "Unhappy",
+      "Joyful",
+      "Cheerful"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Unhappy' is a synonym for 'sad'.",
+    "id": 432
+  },
+  {
+    "question": "What is the opposite of 'EXPENSIVE'?",
+    "options": [
+      "Costly",
+      "Cheap",
+      "Pricy",
+      "Valuable"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Cheap' is opposite of 'expensive'.",
+    "id": 433
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "February",
+      "Febuary",
+      "Februery",
+      "Febrary"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: February (has 'r' after Feb).",
+    "id": 434
+  },
+  {
+    "question": "What is the meaning of 'TRANSPARENT'?",
+    "options": [
+      "Opaque",
+      "Clear",
+      "Cloudy",
+      "Dark"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Transparent' means clear, allowing light through.",
+    "id": 435
+  },
+  {
+    "question": "What is the synonym of 'FAKE'?",
+    "options": [
+      "Real",
+      "False",
+      "Authentic",
+      "True"
+    ],
+    "correctIndex": 1,
+    "explanation": "'False' is a synonym for 'fake'.",
+    "id": 436
+  },
+  {
+    "question": "What is the opposite of 'HEAVEN'?",
+    "options": [
+      "Sky",
+      "Hell",
+      "Paradise",
+      "Cloud"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hell' is opposite of 'heaven'.",
+    "id": 437
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Business",
+      "Buisness",
+      "Busines",
+      "Busyness"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Business ('i' before 'n').",
+    "id": 438
+  },
+  {
+    "question": "What is the meaning of 'FORTUNATE'?",
+    "options": [
+      "Unlucky",
+      "Lucky",
+      "Sad",
+      "Poor"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fortunate' means having good luck.",
+    "id": 439
+  },
+  {
+    "question": "What is the synonym of 'DANGEROUS'?",
+    "options": [
+      "Safe",
+      "Risky",
+      "Secure",
+      "Harmless"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Risky' means involving danger.",
+    "id": 440
+  },
+  {
+    "question": "What is the opposite of 'SELDOM'?",
+    "options": [
+      "Rarely",
+      "Often",
+      "Never",
+      "Occasionally"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Often' is opposite of 'seldom'.",
+    "id": 441
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Acknowledge",
+      "Aknowlege",
+      "Acnowledge",
+      "Aknowledg"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Acknowledge (ac + knowledge).",
+    "id": 442
+  },
+  {
+    "question": "What is the meaning of 'HOSTILE'?",
+    "options": [
+      "Friendly",
+      "Unfriendly",
+      "Kind",
+      "Warm"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hostile' means unfriendly or aggressive.",
+    "id": 443
+  },
+  {
+    "question": "What is the synonym of 'PITY'?",
+    "options": [
+      "Cruelty",
+      "Sympathy",
+      "Indifference",
+      "Harshness"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Sympathy' is a synonym for 'pity'.",
+    "id": 444
+  },
+  {
+    "question": "What is the opposite of 'MAJORITY'?",
+    "options": [
+      "Most",
+      "Minority",
+      "Mass",
+      "Multitude"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Minority' is opposite of 'majority'.",
+    "id": 445
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Occasion",
+      "Ocasion",
+      "Occassion",
+      "Ocassion"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Occasion (double 'c', one 's').",
+    "id": 446
+  },
+  {
+    "question": "What is the meaning of 'CURIOUS'?",
+    "options": [
+      "Indifferent",
+      "Interested",
+      "Bored",
+      "Apathetic"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Curious' means eager to learn.",
+    "id": 447
+  },
+  {
+    "question": "What is the synonym of 'ACCURATE'?",
+    "options": [
+      "Wrong",
+      "Precise",
+      "Incorrect",
+      "False"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Precise' is a synonym for 'accurate'.",
+    "id": 448
+  },
+  {
+    "question": "What is the opposite of 'BRAVE'?",
+    "options": [
+      "Courageous",
+      "Cowardly",
+      "Fearless",
+      "Heroic"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Cowardly' is opposite of 'brave'.",
+    "id": 449
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Correspondence",
+      "Correspondance",
+      "Correspondense",
+      "Correspondance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Correspondence ('ence' at the end).",
+    "id": 450
+  },
+  {
+    "question": "What is the meaning of 'SUFFICIENT'?",
+    "options": [
+      "Enough",
+      "Lacking",
+      "Insufficient",
+      "Short"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sufficient' means enough or adequate.",
+    "id": 451
+  },
+  {
+    "question": "What is the synonym of 'CAREFUL'?",
+    "options": [
+      "Reckless",
+      "Cautious",
+      "Careless",
+      "Negligent"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Cautious' is a synonym for 'careful'.",
+    "id": 452
+  },
+  {
+    "question": "What is the opposite of 'WAR'?",
+    "options": [
+      "Conflict",
+      "Peace",
+      "Battle",
+      "Fight"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Peace' is opposite of 'war'.",
+    "id": 453
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Relevant",
+      "Relevent",
+      "Revelant",
+      "Relevent"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Relevant ('ant' at the end).",
+    "id": 454
+  },
+  {
+    "question": "What is the meaning of 'INFERIOR'?",
+    "options": [
+      "Superior",
+      "Lower",
+      "Better",
+      "Excellent"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Inferior' means lower in rank or quality.",
+    "id": 455
+  },
+  {
+    "question": "What is the synonym of 'FAMOUS'?",
+    "options": [
+      "Unknown",
+      "Renowned",
+      "Obscure",
+      "Anonymous"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Renowned' means famous.",
+    "id": 456
+  },
+  {
+    "question": "What is the opposite of 'HARSH'?",
+    "options": [
+      "Rough",
+      "Gentle",
+      "Severe",
+      "Hard"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Gentle' is opposite of 'harsh'.",
+    "id": 457
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Gauge",
+      "Guage",
+      "Gage",
+      "Gauage"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Gauge (gau followed by ge).",
+    "id": 458
+  },
+  {
+    "question": "What is the meaning of 'AMATEUR'?",
+    "options": [
+      "Professional",
+      "Beginner",
+      "Expert",
+      "Master"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Amateur' means a non-professional or beginner.",
+    "id": 459
+  },
+  {
+    "question": "What is the synonym of 'STRANGE'?",
+    "options": [
+      "Normal",
+      "Odd",
+      "Usual",
+      "Common"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Odd' is a synonym for 'strange'.",
+    "id": 460
+  },
+  {
+    "question": "What is the opposite of 'INCREASE'?",
+    "options": [
+      "Grow",
+      "Decrease",
+      "Rise",
+      "Expand"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Decrease' is opposite of 'increase'.",
+    "id": 461
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Definitely",
+      "Definately",
+      "Definetly",
+      "Definitly"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Definitely ('finite' in the middle).",
+    "id": 462
+  },
+  {
+    "question": "What is the meaning of 'DISTANT'?",
+    "options": [
+      "Near",
+      "Far",
+      "Close",
+      "Adjacent"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Distant' means far away.",
+    "id": 463
+  },
+  {
+    "question": "What is the synonym of 'HELP'?",
+    "options": [
+      "Hinder",
+      "Assist",
+      "Obstruct",
+      "Block"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Assist' is a synonym for 'help'.",
+    "id": 464
+  },
+  {
+    "question": "What is the opposite of 'SIMPLE'?",
+    "options": [
+      "Easy",
+      "Complex",
+      "Plain",
+      "Basic"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Complex' is opposite of 'simple'.",
+    "id": 465
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Neighbor",
+      "Neigbour",
+      "Neighbour",
+      "Naybor"
+    ],
+    "correctIndex": 2,
+    "explanation": "Correct spelling: Neighbour (British English has 'u').",
+    "id": 466
+  },
+  {
+    "question": "What is the meaning of 'RELUCTANT'?",
+    "options": [
+      "Eager",
+      "Unwilling",
+      "Willing",
+      "Ready"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Reluctant' means unwilling or hesitant.",
+    "id": 467
+  },
+  {
+    "question": "What is the synonym of 'IMPORTANT'?",
+    "options": [
+      "Trivial",
+      "Significant",
+      "Minor",
+      "Unimportant"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Significant' is a synonym for 'important'.",
+    "id": 468
+  },
+  {
+    "question": "What is the opposite of 'FRAGILE'?",
+    "options": [
+      "Breakable",
+      "Sturdy",
+      "Delicate",
+      "Weak"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Sturdy' is opposite of 'fragile'.",
+    "id": 469
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Receive",
+      "Recieve",
+      "Receeve",
+      "Reseive"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rule: 'i' before 'e' except after 'c'.",
+    "id": 470
+  },
+  {
+    "question": "What is the meaning of 'ABUNDANT'?",
+    "options": [
+      "Scarce",
+      "Plentiful",
+      "Rare",
+      "Lacking"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Abundant' means existing in large quantities.",
+    "id": 471
+  },
+  {
+    "question": "What is the synonym of 'FAIR'?",
+    "options": [
+      "Unjust",
+      "Just",
+      "Biased",
+      "Partial"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Just' means fair and impartial.",
+    "id": 472
+  },
+  {
+    "question": "What is the opposite of 'EMPTY'?",
+    "options": [
+      "Vacant",
+      "Full",
+      "Hollow",
+      "Void"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Full' is opposite of 'empty'.",
+    "id": 473
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Wednesday",
+      "Wensday",
+      "Wednsday",
+      "Wenesday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Wednesday (Wed + nes + day).",
+    "id": 474
+  },
+  {
+    "question": "What is the meaning of 'LUXURIOUS'?",
+    "options": [
+      "Poor",
+      "Fancy",
+      "Plain",
+      "Simple"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Luxurious' means very comfortable and expensive.",
+    "id": 475
+  },
+  {
+    "question": "What is the synonym of 'RICH'?",
+    "options": [
+      "Poor",
+      "Wealthy",
+      "Needy",
+      "Impoverished"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Wealthy' is a synonym for 'rich'.",
+    "id": 476
+  },
+  {
+    "question": "What is the opposite of 'SMOOTH'?",
+    "options": [
+      "Even",
+      "Rough",
+      "Flat",
+      "Level"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Rough' is opposite of 'smooth'.",
+    "id": 477
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Tomorrow",
+      "TomoRow",
+      "Tommorrow",
+      "TomoRrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Tomorrow (single 'm', double 'r').",
+    "id": 478
+  },
+  {
+    "question": "What is the meaning of 'URBAN'?",
+    "options": [
+      "Rural",
+      "City",
+      "Village",
+      "Countryside"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Urban' means relating to a city.",
+    "id": 479
+  },
+  {
+    "question": "What is the synonym of 'DELICIOUS'?",
+    "options": [
+      "Tasty",
+      "Bland",
+      "Awful",
+      "Disgusting"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Tasty' is a synonym for 'delicious'.",
+    "id": 480
+  },
+  {
+    "question": "What is the opposite of 'PROFIT'?",
+    "options": [
+      "Gain",
+      "Loss",
+      "Benefit",
+      "Advantage"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Loss' is opposite of 'profit'.",
+    "id": 481
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Vacuum",
+      "Vaccum",
+      "Vacume",
+      "Vakuum"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Vacuum (double 'u').",
+    "id": 482
+  },
+  {
+    "question": "What is the meaning of 'IGNORANT'?",
+    "options": [
+      "Knowledgeable",
+      "Unaware",
+      "Educated",
+      "Informed"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Ignorant' means lacking knowledge or awareness.",
+    "id": 483
+  },
+  {
+    "question": "What is the synonym of 'CRAZY'?",
+    "options": [
+      "Sane",
+      "Mad",
+      "Wise",
+      "Sensible"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Mad' is a synonym for 'crazy'.",
+    "id": 484
+  },
+  {
+    "question": "What is the opposite of 'RISE'?",
+    "options": [
+      "Ascend",
+      "Fall",
+      "Climb",
+      "Go up"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Fall' is opposite of 'rise'.",
+    "id": 485
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Rhythm",
+      "Rythm",
+      "Rhythim",
+      "Rithym"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Rhythm (no vowels except 'y').",
+    "id": 486
+  },
+  {
+    "question": "What is the meaning of 'NOURISH'?",
+    "options": [
+      "Starve",
+      "Feed",
+      "Deprive",
+      "Neglect"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Nourish' means to provide food for growth.",
+    "id": 487
+  },
+  {
+    "question": "What is the synonym of 'POLITE'?",
+    "options": [
+      "Rude",
+      "Mannerly",
+      "Impudent",
+      "Disrespectful"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Mannerly' means having good manners.",
+    "id": 488
+  },
+  {
+    "question": "What is the opposite of 'WET'?",
+    "options": [
+      "Damp",
+      "Dry",
+      "Moist",
+      "Humid"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Dry' is opposite of 'wet'.",
+    "id": 489
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Recommend",
+      "Reccommend",
+      "Recomend",
+      "Recommende"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Recommend (one 'c', double 'm').",
+    "id": 490
+  },
+  {
+    "question": "What is the meaning of 'MODEST'?",
+    "options": [
+      "Arrogant",
+      "Humble",
+      "Proud",
+      "Boastful"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Modest' means humble and not boasting.",
+    "id": 491
+  },
+  {
+    "question": "What is the synonym of 'HATE'?",
+    "options": [
+      "Love",
+      "Despise",
+      "Like",
+      "Adore"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Despise' means to hate strongly.",
+    "id": 492
+  },
+  {
+    "question": "What is the opposite of 'FAR'?",
+    "options": [
+      "Distant",
+      "Near",
+      "Remote",
+      "Faraway"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Near' is opposite of 'far'.",
+    "id": 493
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Separate",
+      "Seperate",
+      "Seprate",
+      "Separete"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Separate ('a' after 'p').",
+    "id": 494
+  },
+  {
+    "question": "What is the meaning of 'OBSTACLE'?",
+    "options": [
+      "Help",
+      "Barrier",
+      "Aid",
+      "Support"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Obstacle' means something that blocks the way.",
+    "id": 495
+  },
+  {
+    "question": "What is the synonym of 'SERIOUS'?",
+    "options": [
+      "Trivial",
+      "Grave",
+      "Minor",
+      "Unimportant"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Grave' means serious and important.",
+    "id": 496
+  },
+  {
+    "question": "What is the opposite of 'HONEST'?",
+    "options": [
+      "Truthful",
+      "Dishonest",
+      "Sincere",
+      "Genuine"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Dishonest' is opposite of 'honest'.",
+    "id": 497
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Necessary",
+      "Neccessary",
+      "Necesary",
+      "Neccessery"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct spelling: Necessary (one 'c', double 's').",
+    "id": 498
+  },
+  {
+    "question": "What is the meaning of 'ARTIFICIAL'?",
+    "options": [
+      "Natural",
+      "Man-made",
+      "Real",
+      "Genuine"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Artificial' means made by humans, not natural.",
+    "id": 499
+  },
+  {
+    "question": "What is the synonym of 'FAULT'?",
+    "options": [
+      "Perfection",
+      "Flaw",
+      "Strength",
+      "Merit"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Flaw' means a fault or imperfection.",
+    "id": 500
+  }
+]

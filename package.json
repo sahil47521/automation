@@ -1,0 +1,18 @@
+{
+  "name": "automation-backend",
+  "version": "1.0.0",
+  "description": "Unified automation backend for various workflows",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "post": "node index.js --post @angreziPitara",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^4.2.1",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}

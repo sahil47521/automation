@@ -1,0 +1,6002 @@
+[
+  {
+    "question": "वह रोज़ मंदिर जाता है।",
+    "options": [
+      "He go to temple daily",
+      "He goes to temple daily",
+      "He going to temple daily",
+      "He went to temple daily"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple (Habit): He/She/It + verb-s/es.",
+    "id": 1
+  },
+  {
+    "question": "मैं कल दिल्ली जाऊंगा।",
+    "options": [
+      "I will go to Delhi tomorrow",
+      "I am going to Delhi tomorrow",
+      "I go to Delhi tomorrow",
+      "I went to Delhi tomorrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future Simple: will/shall + base verb.",
+    "id": 2
+  },
+  {
+    "question": "वह सो रही थी।",
+    "options": [
+      "She is sleeping",
+      "She was sleeping",
+      "She sleeping",
+      "She has been sleeping"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: was/were + ing.",
+    "id": 3
+  },
+  {
+    "question": "मैंने खाना खा लिया है।",
+    "options": [
+      "I ate food",
+      "I have eaten food",
+      "I had eaten food",
+      "I was eating food"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: have/has + past participle.",
+    "id": 4
+  },
+  {
+    "question": "वह पिछले दो घंटे से पढ़ रहा है।",
+    "options": [
+      "He has been studying for two hours",
+      "He is studying for two hours",
+      "He was studying for two hours",
+      "He studied for two hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present Perfect Continuous: has/have been + ing (duration).",
+    "id": 5
+  },
+  {
+    "question": "मैंने उसे कल देखा था।",
+    "options": [
+      "I saw him yesterday",
+      "I have seen him yesterday",
+      "I had seen him yesterday",
+      "I was seeing him yesterday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past Simple: completed action at a specific past time (yesterday).",
+    "id": 6
+  },
+  {
+    "question": "वह अब फुटबॉल खेल रहा है।",
+    "options": [
+      "He plays football now",
+      "He played football now",
+      "He is playing football now",
+      "He has played football now"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action happening now.",
+    "id": 7
+  },
+  {
+    "question": "हम सुबह से इंतज़ार कर रहे हैं।",
+    "options": [
+      "We have been waiting since morning",
+      "We are waiting since morning",
+      "We were waiting since morning",
+      "We waited since morning"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present Perfect Continuous: since + point of time.",
+    "id": 8
+  },
+  {
+    "question": "जब मैं आया, वह सो चुका था।",
+    "options": [
+      "When I came, he slept",
+      "When I came, he has slept",
+      "When I came, he was sleeping",
+      "When I came, he had slept"
+    ],
+    "correctIndex": 3,
+    "explanation": "Past Perfect: action completed before another past action.",
+    "id": 9
+  },
+  {
+    "question": "वह कल शाम को मुझसे मिलेगा।",
+    "options": [
+      "He will meet me tomorrow evening",
+      "He is meeting me tomorrow evening",
+      "He meets me tomorrow evening",
+      "He would meet me tomorrow evening"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future Simple: will + base verb.",
+    "id": 10
+  },
+  {
+    "question": "मैं इस समय काम कर रहा हूँ।",
+    "options": [
+      "I work at this time",
+      "I worked at this time",
+      "I am working at this time",
+      "I have worked at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action happening at the moment of speaking.",
+    "id": 11
+  },
+  {
+    "question": "वह बचपन में बहुत तेज दौड़ता था।",
+    "options": [
+      "He runs very fast in childhood",
+      "He ran very fast in childhood",
+      "He used to run very fast in childhood",
+      "He is running very fast in childhood"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Used to' expresses past habits that no longer happen.",
+    "id": 12
+  },
+  {
+    "question": "मैंने यह किताब पहले पढ़ी है।",
+    "options": [
+      "I read this book before",
+      "I have read this book before",
+      "I had read this book before",
+      "I was reading this book before"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: life experience with 'before'.",
+    "id": 13
+  },
+  {
+    "question": "वह कल तक यह काम खत्म कर चुकेगा।",
+    "options": [
+      "He will finish this work by tomorrow",
+      "He will have finished this work by tomorrow",
+      "He finishes this work by tomorrow",
+      "He is finishing this work by tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: will have + past participle (completion by a future time).",
+    "id": 14
+  },
+  {
+    "question": "जब तुम पहुंचोगे, मैं खाना बना चुका होऊंगा।",
+    "options": [
+      "When you arrive, I cook food",
+      "When you arrive, I will cook food",
+      "When you arrive, I will have cooked food",
+      "When you arrive, I have cooked food"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: action completed before another future action.",
+    "id": 15
+  },
+  {
+    "question": "वह रोज सुबह टहलने जाती है।",
+    "options": [
+      "She go for a walk every morning",
+      "She going for a walk every morning",
+      "She goes for a walk every morning",
+      "She went for a walk every morning"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Simple: habitual action (every morning).",
+    "id": 16
+  },
+  {
+    "question": "मैं कल 5 बजे खेल रहा था।",
+    "options": [
+      "I play at 5 o'clock yesterday",
+      "I played at 5 o'clock yesterday",
+      "I was playing at 5 o'clock yesterday",
+      "I have played at 5 o'clock yesterday"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: action in progress at a specific past time.",
+    "id": 17
+  },
+  {
+    "question": "वह अभी-अभी गया है।",
+    "options": [
+      "He just went",
+      "He has just gone",
+      "He had just gone",
+      "He was just going"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: 'just' indicates recently completed action.",
+    "id": 18
+  },
+  {
+    "question": "हम 2020 में चंडीगढ़ गए थे।",
+    "options": [
+      "We have gone to Chandigarh in 2020",
+      "We had gone to Chandigarh in 2020",
+      "We went to Chandigarh in 2020",
+      "We were going to Chandigarh in 2020"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Simple: specific past time (2020).",
+    "id": 19
+  },
+  {
+    "question": "वह अगले हफ्ते अमेरिका जा रहा है।",
+    "options": [
+      "He will go to America next week",
+      "He is going to America next week",
+      "He goes to America next week",
+      "He would go to America next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Continuous for future arrangements.",
+    "id": 20
+  },
+  {
+    "question": "मैं पांच साल से यहाँ काम कर रहा हूँ।",
+    "options": [
+      "I am working here for five years",
+      "I worked here for five years",
+      "I have been working here for five years",
+      "I was working here for five years"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Perfect Continuous: for + duration.",
+    "id": 21
+  },
+  {
+    "question": "जब तुमने फोन किया, मैं खा रहा था।",
+    "options": [
+      "When you called, I eat",
+      "When you called, I ate",
+      "When you called, I was eating",
+      "When you called, I have eaten"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 22
+  },
+  {
+    "question": "सूरज पूरब में निकलता है।",
+    "options": [
+      "The sun rises in the east",
+      "The sun is rising in the east",
+      "The sun rose in the east",
+      "The sun will rise in the east"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present Simple: universal truth.",
+    "id": 23
+  },
+  {
+    "question": "वह अपनी परीक्षा की तैयारी कर रही थी।",
+    "options": [
+      "She prepares for her exam",
+      "She prepared for her exam",
+      "She was preparing for her exam",
+      "She has prepared for her exam"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: ongoing action in the past.",
+    "id": 24
+  },
+  {
+    "question": "मैंने उसे आज सुबह देखा है।",
+    "options": [
+      "I saw him this morning",
+      "I have seen him this morning",
+      "I had seen him this morning",
+      "I was seeing him this morning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: this morning is still relevant (if it's still morning).",
+    "id": 25
+  },
+  {
+    "question": "वह 2025 तक ग्रेजुएशन पूरा कर लेगा।",
+    "options": [
+      "He will complete graduation by 2025",
+      "He will have completed graduation by 2025",
+      "He completes graduation by 2025",
+      "He is completing graduation by 2025"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: completion by a future deadline.",
+    "id": 26
+  },
+  {
+    "question": "हम तीन घंटे से चल रहे हैं।",
+    "options": [
+      "We are walking for three hours",
+      "We walked for three hours",
+      "We have been walking for three hours",
+      "We were walking for three hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Perfect Continuous: action continuing from past to present.",
+    "id": 27
+  },
+  {
+    "question": "वह कल अपने दोस्त से मिला।",
+    "options": [
+      "He meets his friend yesterday",
+      "He is meeting his friend yesterday",
+      "He met his friend yesterday",
+      "He has met his friend yesterday"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Simple: specific past time (yesterday).",
+    "id": 28
+  },
+  {
+    "question": "मैं अगले महीने तक यहाँ रह चुका होऊंगा।",
+    "options": [
+      "I will live here by next month",
+      "I will have lived here by next month",
+      "I live here by next month",
+      "I am living here by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 29
+  },
+  {
+    "question": "वह रोजाना योगा करती है।",
+    "options": [
+      "She do yoga daily",
+      "She does yoga daily",
+      "She doing yoga daily",
+      "She did yoga daily"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 30
+  },
+  {
+    "question": "जब मैं घर पहुंचा, तब तक वे जा चुके थे।",
+    "options": [
+      "When I reached home, they left",
+      "When I reached home, they have left",
+      "When I reached home, they had left",
+      "When I reached home, they were leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: action completed before another past action.",
+    "id": 31
+  },
+  {
+    "question": "मैं आज शाम को पार्टी में जाऊंगा।",
+    "options": [
+      "I go to the party this evening",
+      "I am going to the party this evening",
+      "I will go to the party this evening",
+      "I went to the party this evening"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Simple: future intention.",
+    "id": 32
+  },
+  {
+    "question": "वह इस समय स्नान कर रहा है।",
+    "options": [
+      "He takes a bath at this time",
+      "He is taking a bath at this time",
+      "He took a bath at this time",
+      "He has taken a bath at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Continuous: action happening at this moment.",
+    "id": 33
+  },
+  {
+    "question": "मैंने कभी कोकीन नहीं ली है।",
+    "options": [
+      "I never took cocaine",
+      "I have never taken cocaine",
+      "I had never taken cocaine",
+      "I never take cocaine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: life experience with 'never'.",
+    "id": 34
+  },
+  {
+    "question": "वह 2010 से इस स्कूल में पढ़ रही है।",
+    "options": [
+      "She studies in this school since 2010",
+      "She has been studying in this school since 2010",
+      "She is studying in this school since 2010",
+      "She studied in this school since 2010"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: since + point of time.",
+    "id": 35
+  },
+  {
+    "question": "जब तुम आओगे, मैं सो रहा होऊंगा।",
+    "options": [
+      "When you come, I sleep",
+      "When you come, I will sleep",
+      "When you come, I will be sleeping",
+      "When you come, I am sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Continuous: action in progress at a future time.",
+    "id": 36
+  },
+  {
+    "question": "उसने अपना गृहकार्य पूरा कर लिया है।",
+    "options": [
+      "He completed his homework",
+      "He has completed his homework",
+      "He had completed his homework",
+      "He was completing his homework"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: recently completed action.",
+    "id": 37
+  },
+  {
+    "question": "हम पिछले हफ्ते गोवा गए थे।",
+    "options": [
+      "We have gone to Goa last week",
+      "We had gone to Goa last week",
+      "We went to Goa last week",
+      "We were going to Goa last week"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Simple: last week.",
+    "id": 38
+  },
+  {
+    "question": "वह कल 8 बजे अपने दोस्त से मिलेगा।",
+    "options": [
+      "He meets his friend at 8 tomorrow",
+      "He will meet his friend at 8 tomorrow",
+      "He is meeting his friend at 8 tomorrow",
+      "He would meet his friend at 8 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: specific future time.",
+    "id": 39
+  },
+  {
+    "question": "मैं बचपन में बहुत मासूम था।",
+    "options": [
+      "I am very innocent in childhood",
+      "I was very innocent in childhood",
+      "I have been very innocent in childhood",
+      "I used to be very innocent in childhood"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: past state.",
+    "id": 40
+  },
+  {
+    "question": "वह इस वक्त टीवी देख रही है।",
+    "options": [
+      "She watches TV at this time",
+      "She watched TV at this time",
+      "She is watching TV at this time",
+      "She has watched TV at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action happening at this moment.",
+    "id": 41
+  },
+  {
+    "question": "मैंने पहले कभी ऐसा नहीं देखा था।",
+    "options": [
+      "I never saw such a thing before",
+      "I have never seen such a thing before",
+      "I had never seen such a thing before",
+      "I never see such a thing before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: experience before a past time.",
+    "id": 42
+  },
+  {
+    "question": "वह अगले साल इंजीनियर बनेगा।",
+    "options": [
+      "He becomes an engineer next year",
+      "He will become an engineer next year",
+      "He is becoming an engineer next year",
+      "He would become an engineer next year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: future prediction.",
+    "id": 43
+  },
+  {
+    "question": "हम तीन दिन से बारिश का इंतज़ार कर रहे हैं।",
+    "options": [
+      "We wait for rain for three days",
+      "We have been waiting for rain for three days",
+      "We are waiting for rain for three days",
+      "We waited for rain for three days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for + duration.",
+    "id": 44
+  },
+  {
+    "question": "जब मैंने दरवाजा खोला, तो वह खड़ा था।",
+    "options": [
+      "When I opened the door, he stands",
+      "When I opened the door, he stood",
+      "When I opened the door, he was standing",
+      "When I opened the door, he has stood"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 45
+  },
+  {
+    "question": "वह कल तक यहाँ आ चुका होगा।",
+    "options": [
+      "He will come here by tomorrow",
+      "He will have come here by tomorrow",
+      "He comes here by tomorrow",
+      "He is coming here by tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by tomorrow.",
+    "id": 46
+  },
+  {
+    "question": "मैंने उसे अब तक बहुत बार समझाया है।",
+    "options": [
+      "I explained him many times so far",
+      "I have explained him many times so far",
+      "I had explained him many times so far",
+      "I was explaining him many times so far"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: 'so far' indicates up to now.",
+    "id": 47
+  },
+  {
+    "question": "वह हर रविवार को चर्च जाती है।",
+    "options": [
+      "She go to church every Sunday",
+      "She goes to church every Sunday",
+      "She going to church every Sunday",
+      "She went to church every Sunday"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: every Sunday habit.",
+    "id": 48
+  },
+  {
+    "question": "हम कल इस समय उड़ान भर रहे थे।",
+    "options": [
+      "We take off at this time yesterday",
+      "We took off at this time yesterday",
+      "We were taking off at this time yesterday",
+      "We have taken off at this time yesterday"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: specific past time.",
+    "id": 49
+  },
+  {
+    "question": "मैं अगले साल तक अपनी पीएचडी पूरी कर चुका हूँगा।",
+    "options": [
+      "I will complete my PhD by next year",
+      "I will have completed my PhD by next year",
+      "I complete my PhD by next year",
+      "I am completing my PhD by next year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next year.",
+    "id": 50
+  },
+  {
+    "question": "वह अपनी माँ की सेवा करता है।",
+    "options": [
+      "He serve his mother",
+      "He serves his mother",
+      "He serving his mother",
+      "He served his mother"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: general truth/habit.",
+    "id": 51
+  },
+  {
+    "question": "जब मैं छोटा था, मुझे खिलौने पसंद थे।",
+    "options": [
+      "When I am young, I like toys",
+      "When I was young, I like toys",
+      "When I was young, I liked toys",
+      "When I was young, I have liked toys"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Simple: past state.",
+    "id": 52
+  },
+  {
+    "question": "मैं इस वक्त खाना बना रही हूँ।",
+    "options": [
+      "I cook food at this time",
+      "I cooked food at this time",
+      "I am cooking food at this time",
+      "I have cooked food at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 53
+  },
+  {
+    "question": "वह अब तक आ चुका होगा।",
+    "options": [
+      "He will come by now",
+      "He will have come by now",
+      "He comes by now",
+      "He is coming by now"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by now.",
+    "id": 54
+  },
+  {
+    "question": "हम पिछले 10 मिनट से उसका इंतजार कर रहे हैं।",
+    "options": [
+      "We wait for him for last 10 minutes",
+      "We have been waiting for him for last 10 minutes",
+      "We are waiting for him for last 10 minutes",
+      "We waited for him for last 10 minutes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for + duration.",
+    "id": 55
+  },
+  {
+    "question": "वह कल मुझसे मिलने आएगी।",
+    "options": [
+      "She comes to meet me tomorrow",
+      "She will come to meet me tomorrow",
+      "She is coming to meet me tomorrow",
+      "She would come to meet me tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: future intention.",
+    "id": 56
+  },
+  {
+    "question": "मैंने अपना सारा पैसा खो दिया है।",
+    "options": [
+      "I lost all my money",
+      "I have lost all my money",
+      "I had lost all my money",
+      "I was losing all my money"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: past action with present result.",
+    "id": 57
+  },
+  {
+    "question": "वह जब आया, तब मैं सो रहा था।",
+    "options": [
+      "When he came, I sleep",
+      "When he came, I slept",
+      "When he came, I was sleeping",
+      "When he came, I have slept"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 58
+  },
+  {
+    "question": "पानी 100 डिग्री पर उबलता है।",
+    "options": [
+      "Water boils at 100 degrees",
+      "Water is boiling at 100 degrees",
+      "Water boiled at 100 degrees",
+      "Water will boil at 100 degrees"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present Simple: scientific fact.",
+    "id": 59
+  },
+  {
+    "question": "वह 2023 से इस कंपनी में काम कर रहा है।",
+    "options": [
+      "He works in this company since 2023",
+      "He has been working in this company since 2023",
+      "He is working in this company since 2023",
+      "He worked in this company since 2023"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: since + point of time.",
+    "id": 60
+  },
+  {
+    "question": "मैंने उसे पहले कभी नहीं देखा था।",
+    "options": [
+      "I never saw him before",
+      "I have never seen him before",
+      "I had never seen him before",
+      "I never see him before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before a past time.",
+    "id": 61
+  },
+  {
+    "question": "वह अगले महीने शादी करेगा।",
+    "options": [
+      "He marries next month",
+      "He will marry next month",
+      "He is marrying next month",
+      "He would marry next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: future plan.",
+    "id": 62
+  },
+  {
+    "question": "हम इस समय मैच देख रहे हैं।",
+    "options": [
+      "We watch the match at this time",
+      "We watched the match at this time",
+      "We are watching the match at this time",
+      "We have watched the match at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 63
+  },
+  {
+    "question": "जब तक तुम पहुंचोगे, तब तक वह जा चुकी होगी।",
+    "options": [
+      "By the time you arrive, she leaves",
+      "By the time you arrive, she will leave",
+      "By the time you arrive, she will have left",
+      "By the time you arrive, she is leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 64
+  },
+  {
+    "question": "मैंने अपनी डायरी में यह लिखा है।",
+    "options": [
+      "I wrote this in my diary",
+      "I have written this in my diary",
+      "I had written this in my diary",
+      "I was writing this in my diary"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: recent past with present relevance.",
+    "id": 65
+  },
+  {
+    "question": "वह रोजाना अपने दादा से मिलने जाता था।",
+    "options": [
+      "He goes to meet his grandfather daily",
+      "He went to meet his grandfather daily",
+      "He used to go to meet his grandfather daily",
+      "He is going to meet his grandfather daily"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Used to' expresses past habit.",
+    "id": 66
+  },
+  {
+    "question": "मैं कल इस समय परीक्षा दे रहा होऊंगा।",
+    "options": [
+      "I give exam at this time tomorrow",
+      "I will give exam at this time tomorrow",
+      "I will be giving exam at this time tomorrow",
+      "I am giving exam at this time tomorrow"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Continuous: action in progress at a future time.",
+    "id": 67
+  },
+  {
+    "question": "वह अब तक तीन किताबें पढ़ चुका है।",
+    "options": [
+      "He read three books so far",
+      "He has read three books so far",
+      "He had read three books so far",
+      "He was reading three books so far"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: 'so far' indicates up to now.",
+    "id": 68
+  },
+  {
+    "question": "हम कल शाम 7 बजे खाना खा रहे थे।",
+    "options": [
+      "We eat dinner at 7 pm yesterday",
+      "We ate dinner at 7 pm yesterday",
+      "We were eating dinner at 7 pm yesterday",
+      "We have eaten dinner at 7 pm yesterday"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: specific past time.",
+    "id": 69
+  },
+  {
+    "question": "वह अपने भाई से बहुत प्यार करती है।",
+    "options": [
+      "She love her brother very much",
+      "She loves her brother very much",
+      "She loving her brother very much",
+      "She loved her brother very much"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: state verb (love).",
+    "id": 70
+  },
+  {
+    "question": "मैं उससे 2015 में मिला था।",
+    "options": [
+      "I meet him in 2015",
+      "I have met him in 2015",
+      "I met him in 2015",
+      "I had met him in 2015"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Simple: specific past time (2015).",
+    "id": 71
+  },
+  {
+    "question": "वह कल तक अपनी परियोजना जमा कर चुकेगा।",
+    "options": [
+      "He will submit his project by tomorrow",
+      "He will have submitted his project by tomorrow",
+      "He submits his project by tomorrow",
+      "He is submitting his project by tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by tomorrow.",
+    "id": 72
+  },
+  {
+    "question": "हम इस साल दिल्ली जा रहे हैं।",
+    "options": [
+      "We go to Delhi this year",
+      "We will go to Delhi this year",
+      "We are going to Delhi this year",
+      "We went to Delhi this year"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous for future arrangement.",
+    "id": 73
+  },
+  {
+    "question": "जब वह आई, तब मैं सो चुका था।",
+    "options": [
+      "When she came, I slept",
+      "When she came, I have slept",
+      "When she came, I had slept",
+      "When she came, I was sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: action completed before another past action.",
+    "id": 74
+  },
+  {
+    "question": "मैं अंग्रेजी बोल सकता हूँ।",
+    "options": [
+      "I can speak English",
+      "I could speak English",
+      "I will speak English",
+      "I am speaking English"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present Simple: ability with modal.",
+    "id": 75
+  },
+  {
+    "question": "वह कल 10 बजे सो रही होगी।",
+    "options": [
+      "She sleeps at 10 tomorrow",
+      "She will sleep at 10 tomorrow",
+      "She will be sleeping at 10 tomorrow",
+      "She is sleeping at 10 tomorrow"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Continuous: action in progress at a future time.",
+    "id": 76
+  },
+  {
+    "question": "मैंने यह गाना पहले सुना है।",
+    "options": [
+      "I heard this song before",
+      "I have heard this song before",
+      "I had heard this song before",
+      "I was hearing this song before"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: life experience with 'before'.",
+    "id": 77
+  },
+  {
+    "question": "वह हर दिन दौड़ता है।",
+    "options": [
+      "He run every day",
+      "He runs every day",
+      "He running every day",
+      "He ran every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 78
+  },
+  {
+    "question": "हम पांच साल से एक दूसरे को जानते हैं।",
+    "options": [
+      "We know each other for five years",
+      "We have known each other for five years",
+      "We are knowing each other for five years",
+      "We knew each other for five years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: for + duration with stative verb.",
+    "id": 79
+  },
+  {
+    "question": "जब तुम वहाँ पहुंचोगे, तब तक अंधेरा हो चुका होगा।",
+    "options": [
+      "By the time you reach there, it gets dark",
+      "By the time you reach there, it will get dark",
+      "By the time you reach there, it will have gotten dark",
+      "By the time you reach there, it is getting dark"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 80
+  },
+  {
+    "question": "मैं अभी खाना खा रहा हूँ।",
+    "options": [
+      "I eat food now",
+      "I ate food now",
+      "I am eating food now",
+      "I have eaten food now"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action happening now.",
+    "id": 81
+  },
+  {
+    "question": "वह अपनी गलती मान चुका था।",
+    "options": [
+      "He admitted his mistake",
+      "He has admitted his mistake",
+      "He had admitted his mistake",
+      "He was admitting his mistake"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: action completed before another past event.",
+    "id": 82
+  },
+  {
+    "question": "हम अगले हफ्ते एक नई कार खरीदेंगे।",
+    "options": [
+      "We buy a new car next week",
+      "We will buy a new car next week",
+      "We are buying a new car next week",
+      "We would buy a new car next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: future plan.",
+    "id": 83
+  },
+  {
+    "question": "वह सुबह से रो रही है।",
+    "options": [
+      "She cries since morning",
+      "She has been crying since morning",
+      "She is crying since morning",
+      "She cried since morning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: since + point of time.",
+    "id": 84
+  },
+  {
+    "question": "मैंने यह फिल्म तीन बार देखी है।",
+    "options": [
+      "I saw this movie three times",
+      "I have seen this movie three times",
+      "I had seen this movie three times",
+      "I was seeing this movie three times"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: repeated actions up to now.",
+    "id": 85
+  },
+  {
+    "question": "जब हम पहुंचे, तब वह जा चुकी थी।",
+    "options": [
+      "When we arrived, she left",
+      "When we arrived, she has left",
+      "When we arrived, she had left",
+      "When we arrived, she was leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 86
+  },
+  {
+    "question": "वह इस वक्त मीटिंग में है।",
+    "options": [
+      "He is in a meeting at this time",
+      "He was in a meeting at this time",
+      "He has been in a meeting at this time",
+      "He will be in a meeting at this time"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present Simple: state verb 'is'.",
+    "id": 87
+  },
+  {
+    "question": "मैं कल इस समय अपने दोस्त के साथ घूम रहा होऊंगा।",
+    "options": [
+      "I roam with my friend at this time tomorrow",
+      "I will roam with my friend at this time tomorrow",
+      "I will be roaming with my friend at this time tomorrow",
+      "I am roaming with my friend at this time tomorrow"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Continuous: at this time tomorrow.",
+    "id": 88
+  },
+  {
+    "question": "वह दो घंटे से खेल रहा है।",
+    "options": [
+      "He plays for two hours",
+      "He has been playing for two hours",
+      "He is playing for two hours",
+      "He played for two hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for + duration.",
+    "id": 89
+  },
+  {
+    "question": "हमने पिछले साल एक लंबी यात्रा की थी।",
+    "options": [
+      "We have a long journey last year",
+      "We had a long journey last year",
+      "We have had a long journey last year",
+      "We were having a long journey last year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: last year.",
+    "id": 90
+  },
+  {
+    "question": "वह रोज शाम को टहलने जाती थी।",
+    "options": [
+      "She goes for a walk every evening",
+      "She went for a walk every evening",
+      "She used to go for a walk every evening",
+      "She is going for a walk every evening"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Used to' expresses past habit.",
+    "id": 91
+  },
+  {
+    "question": "मैं अपना काम खत्म कर चुका हूँ।",
+    "options": [
+      "I finished my work",
+      "I have finished my work",
+      "I had finished my work",
+      "I was finishing my work"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: completed action.",
+    "id": 92
+  },
+  {
+    "question": "जब तुम कॉल करोगे, मैं सो रहा होऊंगा।",
+    "options": [
+      "When you call, I sleep",
+      "When you call, I will sleep",
+      "When you call, I will be sleeping",
+      "When you call, I am sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Continuous: when you call.",
+    "id": 93
+  },
+  {
+    "question": "पृथ्वी सूर्य के चारों ओर घूमती है।",
+    "options": [
+      "Earth revolves around the sun",
+      "Earth is revolving around the sun",
+      "Earth revolved around the sun",
+      "Earth will revolve around the sun"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present Simple: universal truth.",
+    "id": 94
+  },
+  {
+    "question": "वह 2018 से यहाँ रह रहा है।",
+    "options": [
+      "He lives here since 2018",
+      "He has been living here since 2018",
+      "He is living here since 2018",
+      "He lived here since 2018"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: since 2018.",
+    "id": 95
+  },
+  {
+    "question": "मैंने उसे कभी धोखा नहीं दिया है।",
+    "options": [
+      "I never cheated him",
+      "I have never cheated him",
+      "I had never cheated him",
+      "I never cheat him"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life experience.",
+    "id": 96
+  },
+  {
+    "question": "वह कल शाम 6 बजे घर पहुंचेगा।",
+    "options": [
+      "He reaches home at 6 pm tomorrow",
+      "He will reach home at 6 pm tomorrow",
+      "He is reaching home at 6 pm tomorrow",
+      "He would reach home at 6 pm tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: specific future time.",
+    "id": 97
+  },
+  {
+    "question": "हम इस समय क्लास में हैं।",
+    "options": [
+      "We are in class at this time",
+      "We were in class at this time",
+      "We have been in class at this time",
+      "We will be in class at this time"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present Simple: current state.",
+    "id": 98
+  },
+  {
+    "question": "जब मैंने फोन उठाया, तब वह बात कर रहा था।",
+    "options": [
+      "When I picked up the phone, he talks",
+      "When I picked up the phone, he talked",
+      "When I picked up the phone, he was talking",
+      "When I picked up the phone, he has talked"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 99
+  },
+  {
+    "question": "मैंने अब तक दस गाने गाए हैं।",
+    "options": [
+      "I sang ten songs so far",
+      "I have sung ten songs so far",
+      "I had sung ten songs so far",
+      "I was singing ten songs so far"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: so far.",
+    "id": 100
+  },
+  {
+    "question": "वह अगले महीने तक यहाँ रह चुका होगा।",
+    "options": [
+      "He will live here by next month",
+      "He will have lived here by next month",
+      "He lives here by next month",
+      "He is living here by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 101
+  },
+  {
+    "question": "हम इस बारे में बाद में बात करेंगे।",
+    "options": [
+      "We talk about this later",
+      "We will talk about this later",
+      "We are talking about this later",
+      "We talked about this later"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: future intention.",
+    "id": 102
+  },
+  {
+    "question": "वह रोज सुबह जल्दी उठता था।",
+    "options": [
+      "He wakes up early every morning",
+      "He woke up early every morning",
+      "He used to wake up early every morning",
+      "He is waking up early every morning"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Used to' for past habit.",
+    "id": 103
+  },
+  {
+    "question": "मैं इस वक्त सोना चाह रहा हूँ।",
+    "options": [
+      "I want to sleep at this time",
+      "I wanted to sleep at this time",
+      "I am wanting to sleep at this time",
+      "I have wanted to sleep at this time"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present Simple: stative verb 'want'.",
+    "id": 104
+  },
+  {
+    "question": "जब तक वह आएगा, तब तक हम खाना खा चुके होंगे।",
+    "options": [
+      "By the time he comes, we eat food",
+      "By the time he comes, we will eat food",
+      "By the time he comes, we will have eaten food",
+      "By the time he comes, we are eating food"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 105
+  },
+  {
+    "question": "मैंने यह मोबाइल एक साल पहले खरीदा था।",
+    "options": [
+      "I buy this mobile one year ago",
+      "I bought this mobile one year ago",
+      "I have bought this mobile one year ago",
+      "I had bought this mobile one year ago"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: one year ago.",
+    "id": 106
+  },
+  {
+    "question": "वह तीन दिन से बीमार है।",
+    "options": [
+      "She is ill for three days",
+      "She has been ill for three days",
+      "She was ill for three days",
+      "She will be ill for three days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: for + duration with stative verb.",
+    "id": 107
+  },
+  {
+    "question": "हम कल इस समय मुंबई में होंगे।",
+    "options": [
+      "We are in Mumbai at this time tomorrow",
+      "We will be in Mumbai at this time tomorrow",
+      "We will have been in Mumbai at this time tomorrow",
+      "We were in Mumbai at this time tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Continuous: at this time tomorrow.",
+    "id": 108
+  },
+  {
+    "question": "वह अपने माता-पिता की इज्जत करता है।",
+    "options": [
+      "He respect his parents",
+      "He respects his parents",
+      "He respecting his parents",
+      "He respected his parents"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: general truth.",
+    "id": 109
+  },
+  {
+    "question": "मैंने उसे पिछले हफ्ते एक पत्र लिखा था।",
+    "options": [
+      "I write him a letter last week",
+      "I wrote him a letter last week",
+      "I have written him a letter last week",
+      "I had written him a letter last week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: last week.",
+    "id": 110
+  },
+  {
+    "question": "वह अगले साल तक डॉक्टर बन चुकेगा।",
+    "options": [
+      "He will become a doctor by next year",
+      "He will have become a doctor by next year",
+      "He becomes a doctor by next year",
+      "He is becoming a doctor by next year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next year.",
+    "id": 111
+  },
+  {
+    "question": "हम इस समय बाग में टहल रहे हैं।",
+    "options": [
+      "We walk in the garden at this time",
+      "We walked in the garden at this time",
+      "We are walking in the garden at this time",
+      "We have walked in the garden at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 112
+  },
+  {
+    "question": "जब मैं बाहर गया, तब बारिश हो रही थी।",
+    "options": [
+      "When I went out, it rains",
+      "When I went out, it rained",
+      "When I went out, it was raining",
+      "When I went out, it has rained"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 113
+  },
+  {
+    "question": "मैंने अब तक बहुत कुछ सीख लिया है।",
+    "options": [
+      "I learned a lot so far",
+      "I have learned a lot so far",
+      "I had learned a lot so far",
+      "I was learning a lot so far"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: so far.",
+    "id": 114
+  },
+  {
+    "question": "वह हर साल छुट्टियों में घर जाती है।",
+    "options": [
+      "She go home during holidays every year",
+      "She goes home during holidays every year",
+      "She going home during holidays every year",
+      "She went home during holidays every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 115
+  },
+  {
+    "question": "मैं कल 9 बजे ऑफिस पहुंचूंगा।",
+    "options": [
+      "I reach office at 9 tomorrow",
+      "I will reach office at 9 tomorrow",
+      "I am reaching office at 9 tomorrow",
+      "I would reach office at 9 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: specific future time.",
+    "id": 116
+  },
+  {
+    "question": "वह पिछले दो महीने से नौकरी ढूंढ रहा है।",
+    "options": [
+      "He looks for a job for last two months",
+      "He has been looking for a job for last two months",
+      "He is looking for a job for last two months",
+      "He looked for a job for last two months"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for + duration.",
+    "id": 117
+  },
+  {
+    "question": "हमने उस दिन बहुत मस्ती की थी।",
+    "options": [
+      "We have a lot of fun that day",
+      "We had a lot of fun that day",
+      "We have had a lot of fun that day",
+      "We were having a lot of fun that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 118
+  },
+  {
+    "question": "वह इस समय मुझसे बात कर रहा है।",
+    "options": [
+      "He talks to me at this time",
+      "He talked to me at this time",
+      "He is talking to me at this time",
+      "He has talked to me at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 119
+  },
+  {
+    "question": "जब तुम आओगे, तब मैं खाना बना रहा होऊंगा।",
+    "options": [
+      "When you come, I cook food",
+      "When you come, I will cook food",
+      "When you come, I will be cooking food",
+      "When you come, I am cooking food"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Continuous: when you come.",
+    "id": 120
+  },
+  {
+    "question": "मैंने कभी यात्रा नहीं की है।",
+    "options": [
+      "I never traveled",
+      "I have never traveled",
+      "I had never traveled",
+      "I never travel"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 121
+  },
+  {
+    "question": "वह 2020 में यहाँ आया था।",
+    "options": [
+      "He comes here in 2020",
+      "He came here in 2020",
+      "He has come here in 2020",
+      "He had come here in 2020"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 122
+  },
+  {
+    "question": "हम अगले साल कनाडा शिफ्ट होंगे।",
+    "options": [
+      "We shift to Canada next year",
+      "We will shift to Canada next year",
+      "We are shifting to Canada next year",
+      "We would shift to Canada next year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: future plan.",
+    "id": 123
+  },
+  {
+    "question": "वह सुबह से इंतजार कर रही है।",
+    "options": [
+      "She waits since morning",
+      "She has been waiting since morning",
+      "She is waiting since morning",
+      "She waited since morning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: since morning.",
+    "id": 124
+  },
+  {
+    "question": "मैंने उसे पहचान लिया है।",
+    "options": [
+      "I recognized him",
+      "I have recognized him",
+      "I had recognized him",
+      "I was recognizing him"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: recent recognition.",
+    "id": 125
+  },
+  {
+    "question": "वह हमेशा सच बोलता है।",
+    "options": [
+      "He always speak the truth",
+      "He always speaks the truth",
+      "He always speaking the truth",
+      "He always spoke the truth"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: always indicates habit.",
+    "id": 126
+  },
+  {
+    "question": "हम कल शाम तक यह काम खत्म कर चुके होंगे।",
+    "options": [
+      "We will finish this work by tomorrow evening",
+      "We will have finished this work by tomorrow evening",
+      "We finish this work by tomorrow evening",
+      "We are finishing this work by tomorrow evening"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by tomorrow evening.",
+    "id": 127
+  },
+  {
+    "question": "मैं इस समय अपनी डायरी लिख रहा हूँ।",
+    "options": [
+      "I write my diary at this time",
+      "I wrote my diary at this time",
+      "I am writing my diary at this time",
+      "I have written my diary at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 128
+  },
+  {
+    "question": "जब मैं छोटा था, मैं पेड़ों पर चढ़ता था।",
+    "options": [
+      "When I am young, I climb trees",
+      "When I was young, I climb trees",
+      "When I was young, I used to climb trees",
+      "When I was young, I am climbing trees"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Used to' for past habit.",
+    "id": 129
+  },
+  {
+    "question": "वह तीन दिन से बुखार से पीड़ित है।",
+    "options": [
+      "He suffers from fever for three days",
+      "He has been suffering from fever for three days",
+      "He is suffering from fever for three days",
+      "He suffered from fever for three days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for three days.",
+    "id": 130
+  },
+  {
+    "question": "मैंने यह कविता बचपन में लिखी थी।",
+    "options": [
+      "I write this poem in childhood",
+      "I wrote this poem in childhood",
+      "I have written this poem in childhood",
+      "I had written this poem in childhood"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: in childhood.",
+    "id": 131
+  },
+  {
+    "question": "वह अगले रविवार को मुझसे मिलेगी।",
+    "options": [
+      "She meets me next Sunday",
+      "She will meet me next Sunday",
+      "She is meeting me next Sunday",
+      "She would meet me next Sunday"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: next Sunday.",
+    "id": 132
+  },
+  {
+    "question": "हम इस समय म्यूजिक सुन रहे हैं।",
+    "options": [
+      "We listen to music at this time",
+      "We listened to music at this time",
+      "We are listening to music at this time",
+      "We have listened to music at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 133
+  },
+  {
+    "question": "जब तक वह लौटेगा, तब तक अंधेरा हो चुका होगा।",
+    "options": [
+      "By the time he returns, it gets dark",
+      "By the time he returns, it will get dark",
+      "By the time he returns, it will have gotten dark",
+      "By the time he returns, it is getting dark"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 134
+  },
+  {
+    "question": "मैंने कभी स्कीइंग नहीं की है।",
+    "options": [
+      "I never skied",
+      "I have never skied",
+      "I had never skied",
+      "I never ski"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 135
+  },
+  {
+    "question": "वह 2012 में इस स्कूल से पास हुआ था।",
+    "options": [
+      "He passes from this school in 2012",
+      "He passed from this school in 2012",
+      "He has passed from this school in 2012",
+      "He had passed from this school in 2012"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 136
+  },
+  {
+    "question": "हम अगले साल तक यहाँ रह चुके होंगे।",
+    "options": [
+      "We will live here by next year",
+      "We will have lived here by next year",
+      "We live here by next year",
+      "We are living here by next year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next year.",
+    "id": 137
+  },
+  {
+    "question": "वह रोज रात को जल्दी सो जाती है।",
+    "options": [
+      "She go to bed early every night",
+      "She goes to bed early every night",
+      "She going to bed early every night",
+      "She went to bed early every night"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: every night habit.",
+    "id": 138
+  },
+  {
+    "question": "मैं इस समय अपनी पढ़ाई पर ध्यान दे रहा हूँ।",
+    "options": [
+      "I focus on my studies at this time",
+      "I focused on my studies at this time",
+      "I am focusing on my studies at this time",
+      "I have focused on my studies at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 139
+  },
+  {
+    "question": "जब मैंने उसे देखा, वह मुस्कुरा रही थी।",
+    "options": [
+      "When I saw her, she smiles",
+      "When I saw her, she smiled",
+      "When I saw her, she was smiling",
+      "When I saw her, she has smiled"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 140
+  },
+  {
+    "question": "मैंने यह फिल्म पहले देखी है।",
+    "options": [
+      "I saw this movie before",
+      "I have seen this movie before",
+      "I had seen this movie before",
+      "I was seeing this movie before"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: before now.",
+    "id": 141
+  },
+  {
+    "question": "वह हर महीने अपने गांव जाता है।",
+    "options": [
+      "He go to his village every month",
+      "He goes to his village every month",
+      "He going to his village every month",
+      "He went to his village every month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: every month habit.",
+    "id": 142
+  },
+  {
+    "question": "मैं कल 8 बजे तक ऑफिस पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach office by 8 tomorrow",
+      "I will have reached office by 8 tomorrow",
+      "I reach office by 8 tomorrow",
+      "I am reaching office by 8 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 8 tomorrow.",
+    "id": 143
+  },
+  {
+    "question": "वह पिछले तीन घंटे से काम कर रहा है।",
+    "options": [
+      "He works for last three hours",
+      "He has been working for last three hours",
+      "He is working for last three hours",
+      "He worked for last three hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last three hours.",
+    "id": 144
+  },
+  {
+    "question": "हमने उस दिन खूब मजा किया था।",
+    "options": [
+      "We enjoy a lot that day",
+      "We enjoyed a lot that day",
+      "We have enjoyed a lot that day",
+      "We were enjoying a lot that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 145
+  },
+  {
+    "question": "वह इस वक्त सो रहा है।",
+    "options": [
+      "He sleeps at this time",
+      "He slept at this time",
+      "He is sleeping at this time",
+      "He has slept at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 146
+  },
+  {
+    "question": "जब तुम फोन करोगे, मैं ड्राइविंग कर रहा होऊंगा।",
+    "options": [
+      "When you call, I drive",
+      "When you call, I will drive",
+      "When you call, I will be driving",
+      "When you call, I am driving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Continuous: when you call.",
+    "id": 147
+  },
+  {
+    "question": "मैंने कभी ऐसा सपना नहीं देखा था।",
+    "options": [
+      "I never dreamed such a dream",
+      "I have never dreamed such a dream",
+      "I had never dreamed such a dream",
+      "I never dream such a dream"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before a past time.",
+    "id": 148
+  },
+  {
+    "question": "वह 2015 से इस कॉलेज में पढ़ रहा है।",
+    "options": [
+      "He studies in this college since 2015",
+      "He has been studying in this college since 2015",
+      "He is studying in this college since 2015",
+      "He studied in this college since 2015"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: since 2015.",
+    "id": 149
+  },
+  {
+    "question": "हम अगले साल यूरोप की यात्रा करेंगे।",
+    "options": [
+      "We travel to Europe next year",
+      "We will travel to Europe next year",
+      "We are traveling to Europe next year",
+      "We would travel to Europe next year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: next year.",
+    "id": 150
+  },
+  {
+    "question": "वह हर दिन व्यायाम करती है।",
+    "options": [
+      "She do exercise every day",
+      "She does exercise every day",
+      "She doing exercise every day",
+      "She did exercise every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 151
+  },
+  {
+    "question": "मैं इस समय खाना बना रहा था।",
+    "options": [
+      "I cook food at this time",
+      "I was cooking food at this time",
+      "I am cooking food at this time",
+      "I have been cooking food at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 152
+  },
+  {
+    "question": "जब तक वह आएगी, तब तक मैं जा चुका होऊंगा।",
+    "options": [
+      "By the time she comes, I leave",
+      "By the time she comes, I will leave",
+      "By the time she comes, I will have left",
+      "By the time she comes, I am leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 153
+  },
+  {
+    "question": "मैंने अब तक पाँच किताबें पढ़ ली हैं।",
+    "options": [
+      "I read five books so far",
+      "I have read five books so far",
+      "I had read five books so far",
+      "I was reading five books so far"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: so far.",
+    "id": 154
+  },
+  {
+    "question": "वह हर साल अपनी माँ से मिलने जाता है।",
+    "options": [
+      "He go to meet his mother every year",
+      "He goes to meet his mother every year",
+      "He going to meet his mother every year",
+      "He went to meet his mother every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 155
+  },
+  {
+    "question": "मैं कल इस समय अपने घर पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach home at this time tomorrow",
+      "I will have reached home at this time tomorrow",
+      "I reach home at this time tomorrow",
+      "I am reaching home at this time tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: at this time tomorrow.",
+    "id": 156
+  },
+  {
+    "question": "वह पिछले एक घंटे से गाना गा रही है।",
+    "options": [
+      "She sings for last one hour",
+      "She has been singing for last one hour",
+      "She is singing for last one hour",
+      "She sang for last one hour"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last one hour.",
+    "id": 157
+  },
+  {
+    "question": "हमने उस दिन बहुत सारी तस्वीरें लीं थीं।",
+    "options": [
+      "We take many photos that day",
+      "We took many photos that day",
+      "We have taken many photos that day",
+      "We were taking many photos that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 158
+  },
+  {
+    "question": "वह इस समय ट्रेन में यात्रा कर रहा है।",
+    "options": [
+      "He travels by train at this time",
+      "He traveled by train at this time",
+      "He is traveling by train at this time",
+      "He has traveled by train at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 159
+  },
+  {
+    "question": "जब तुम आओगे, मैं सो चुका होऊंगा।",
+    "options": [
+      "When you come, I sleep",
+      "When you come, I will sleep",
+      "When you come, I will have slept",
+      "When you come, I am sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: when you come.",
+    "id": 160
+  },
+  {
+    "question": "मैंने कभी समुद्र नहीं देखा है।",
+    "options": [
+      "I never saw the sea",
+      "I have never seen the sea",
+      "I had never seen the sea",
+      "I never see the sea"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 161
+  },
+  {
+    "question": "वह 2018 में इंजीनियर बना था।",
+    "options": [
+      "He becomes an engineer in 2018",
+      "He became an engineer in 2018",
+      "He has become an engineer in 2018",
+      "He had become an engineer in 2018"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 162
+  },
+  {
+    "question": "हम अगले महीने नया घर खरीदेंगे।",
+    "options": [
+      "We buy a new house next month",
+      "We will buy a new house next month",
+      "We are buying a new house next month",
+      "We would buy a new house next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: next month.",
+    "id": 163
+  },
+  {
+    "question": "वह रोज शाम को पार्क में टहलती है।",
+    "options": [
+      "She walk in the park every evening",
+      "She walks in the park every evening",
+      "She walking in the park every evening",
+      "She walked in the park every evening"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: every evening habit.",
+    "id": 164
+  },
+  {
+    "question": "मैं इस समय अपने दोस्त से बात कर रहा हूँ।",
+    "options": [
+      "I talk to my friend at this time",
+      "I talked to my friend at this time",
+      "I am talking to my friend at this time",
+      "I have talked to my friend at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 165
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, वह आ रहा था।",
+    "options": [
+      "When I called him, he comes",
+      "When I called him, he came",
+      "When I called him, he was coming",
+      "When I called him, he has come"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 166
+  },
+  {
+    "question": "मैंने यह गाना पहले सुना था।",
+    "options": [
+      "I heard this song before",
+      "I have heard this song before",
+      "I had heard this song before",
+      "I was hearing this song before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past time.",
+    "id": 167
+  },
+  {
+    "question": "वह हर हफ्ते अपने दादा से मिलने जाती है।",
+    "options": [
+      "She go to meet her grandfather every week",
+      "She goes to meet her grandfather every week",
+      "She going to meet her grandfather every week",
+      "She went to meet her grandfather every week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: weekly habit.",
+    "id": 168
+  },
+  {
+    "question": "मैं कल 6 बजे तक यह काम पूरा कर चुका होऊंगा।",
+    "options": [
+      "I will complete this work by 6 tomorrow",
+      "I will have completed this work by 6 tomorrow",
+      "I complete this work by 6 tomorrow",
+      "I am completing this work by 6 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 6 tomorrow.",
+    "id": 169
+  },
+  {
+    "question": "वह पिछले दो हफ्ते से बीमार चल रहा है।",
+    "options": [
+      "He is ill for last two weeks",
+      "He has been ill for last two weeks",
+      "He was ill for last two weeks",
+      "He will be ill for last two weeks"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: for last two weeks.",
+    "id": 170
+  },
+  {
+    "question": "हमने उस दिन एक नई कार खरीदी थी।",
+    "options": [
+      "We buy a new car that day",
+      "We bought a new car that day",
+      "We have bought a new car that day",
+      "We were buying a new car that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 171
+  },
+  {
+    "question": "वह इस समय फोन पर बात कर रही है।",
+    "options": [
+      "She talks on phone at this time",
+      "She talked on phone at this time",
+      "She is talking on phone at this time",
+      "She has talked on phone at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 172
+  },
+  {
+    "question": "जब तक वह पहुंचेगा, तब तक हम खाना खा चुके होंगे।",
+    "options": [
+      "By the time he arrives, we eat food",
+      "By the time he arrives, we will eat food",
+      "By the time he arrives, we will have eaten food",
+      "By the time he arrives, we are eating food"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 173
+  },
+  {
+    "question": "मैंने कभी धोखा नहीं दिया है।",
+    "options": [
+      "I never cheated",
+      "I have never cheated",
+      "I had never cheated",
+      "I never cheat"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 174
+  },
+  {
+    "question": "वह 2016 में मुंबई आया था।",
+    "options": [
+      "He comes to Mumbai in 2016",
+      "He came to Mumbai in 2016",
+      "He has come to Mumbai in 2016",
+      "He had come to Mumbai in 2016"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 175
+  },
+  {
+    "question": "हम अगले साल तक यह कोर्स पूरा कर चुके होंगे।",
+    "options": [
+      "We will complete this course by next year",
+      "We will have completed this course by next year",
+      "We complete this course by next year",
+      "We are completing this course by next year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next year.",
+    "id": 176
+  },
+  {
+    "question": "वह हर दिन तैराकी करता है।",
+    "options": [
+      "He do swimming every day",
+      "He does swimming every day",
+      "He doing swimming every day",
+      "He did swimming every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 177
+  },
+  {
+    "question": "मैं इस समय अपने बच्चों को पढ़ा रहा हूँ।",
+    "options": [
+      "I teach my children at this time",
+      "I taught my children at this time",
+      "I am teaching my children at this time",
+      "I have taught my children at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 178
+  },
+  {
+    "question": "जब मैंने दरवाजा खटखटाया, वह सो रहा था।",
+    "options": [
+      "When I knocked, he sleeps",
+      "When I knocked, he slept",
+      "When I knocked, he was sleeping",
+      "When I knocked, he has slept"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 179
+  },
+  {
+    "question": "मैंने यह किताब पहले पढ़ी थी।",
+    "options": [
+      "I read this book before",
+      "I have read this book before",
+      "I had read this book before",
+      "I was reading this book before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 180
+  },
+  {
+    "question": "वह हर साल छुट्टियों में घूमने जाती है।",
+    "options": [
+      "She go on a trip during holidays every year",
+      "She goes on a trip during holidays every year",
+      "She going on a trip during holidays every year",
+      "She went on a trip during holidays every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 181
+  },
+  {
+    "question": "मैं कल 10 बजे तक दफ्तर पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach office by 10 tomorrow",
+      "I will have reached office by 10 tomorrow",
+      "I reach office by 10 tomorrow",
+      "I am reaching office by 10 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 10 tomorrow.",
+    "id": 182
+  },
+  {
+    "question": "वह पिछले पांच दिन से कब्ज से पीड़ित है।",
+    "options": [
+      "He suffers from constipation for last five days",
+      "He has been suffering from constipation for last five days",
+      "He is suffering from constipation for last five days",
+      "He suffered from constipation for last five days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last five days.",
+    "id": 183
+  },
+  {
+    "question": "हमने उस दिन एक साथ खाना खाया था।",
+    "options": [
+      "We eat together that day",
+      "We ate together that day",
+      "We have eaten together that day",
+      "We were eating together that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 184
+  },
+  {
+    "question": "वह इस समय संगीत सुन रहा है।",
+    "options": [
+      "He listens to music at this time",
+      "He listened to music at this time",
+      "He is listening to music at this time",
+      "He has listened to music at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 185
+  },
+  {
+    "question": "जब तुम लौटोगे, मैं सो चुका होऊंगा।",
+    "options": [
+      "When you return, I sleep",
+      "When you return, I will sleep",
+      "When you return, I will have slept",
+      "When you return, I am sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: when you return.",
+    "id": 186
+  },
+  {
+    "question": "मैंने कभी ऐसा अजूबा नहीं देखा है।",
+    "options": [
+      "I never saw such a wonder",
+      "I have never seen such a wonder",
+      "I had never seen such a wonder",
+      "I never see such a wonder"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 187
+  },
+  {
+    "question": "वह 2014 में इस कंपनी में शामिल हुआ था।",
+    "options": [
+      "He joins this company in 2014",
+      "He joined this company in 2014",
+      "He has joined this company in 2014",
+      "He had joined this company in 2014"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 188
+  },
+  {
+    "question": "हम अगले हफ्ते फिल्म देखने जाएंगे।",
+    "options": [
+      "We go to watch a movie next week",
+      "We will go to watch a movie next week",
+      "We are going to watch a movie next week",
+      "We would go to watch a movie next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Simple: next week.",
+    "id": 189
+  },
+  {
+    "question": "वह रोज सुबह 6 बजे उठती है।",
+    "options": [
+      "She wake up at 6 am every day",
+      "She wakes up at 6 am every day",
+      "She waking up at 6 am every day",
+      "She woke up at 6 am every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 190
+  },
+  {
+    "question": "मैं इस समय ईमेल चेक कर रहा हूँ।",
+    "options": [
+      "I check emails at this time",
+      "I checked emails at this time",
+      "I am checking emails at this time",
+      "I have checked emails at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 191
+  },
+  {
+    "question": "जब मैंने उसे देखा, वह रो रही थी।",
+    "options": [
+      "When I saw her, she cries",
+      "When I saw her, she cried",
+      "When I saw her, she was crying",
+      "When I saw her, she has cried"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 192
+  },
+  {
+    "question": "मैंने यह खबर पहले सुनी थी।",
+    "options": [
+      "I heard this news before",
+      "I have heard this news before",
+      "I had heard this news before",
+      "I was hearing this news before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 193
+  },
+  {
+    "question": "वह हर शाम को पढ़ाई करती है।",
+    "options": [
+      "She study every evening",
+      "She studies every evening",
+      "She studying every evening",
+      "She studied every evening"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: every evening habit.",
+    "id": 194
+  },
+  {
+    "question": "मैं कल 5 बजे तक घर पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach home by 5 tomorrow",
+      "I will have reached home by 5 tomorrow",
+      "I reach home by 5 tomorrow",
+      "I am reaching home by 5 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 5 tomorrow.",
+    "id": 195
+  },
+  {
+    "question": "वह पिछले एक महीने से प्रैक्टिस कर रहा है।",
+    "options": [
+      "He practices for last one month",
+      "He has been practicing for last one month",
+      "He is practicing for last one month",
+      "He practiced for last one month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last one month.",
+    "id": 196
+  },
+  {
+    "question": "हमने उस दिन एक पिकनिक मनाई थी।",
+    "options": [
+      "We have a picnic that day",
+      "We had a picnic that day",
+      "We have had a picnic that day",
+      "We were having a picnic that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 197
+  },
+  {
+    "question": "वह इस समय योगा कर रही है।",
+    "options": [
+      "She does yoga at this time",
+      "She did yoga at this time",
+      "She is doing yoga at this time",
+      "She has done yoga at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 198
+  },
+  {
+    "question": "जब तक वह आएगी, तब तक मैं खाना बना चुका होऊंगा।",
+    "options": [
+      "By the time she comes, I cook food",
+      "By the time she comes, I will cook food",
+      "By the time she comes, I will have cooked food",
+      "By the time she comes, I am cooking food"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 199
+  },
+  {
+    "question": "मैंने कभी मांस नहीं खाया है।",
+    "options": [
+      "I never ate meat",
+      "I have never eaten meat",
+      "I had never eaten meat",
+      "I never eat meat"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 200
+  },
+  {
+    "question": "वह 2011 में सेवानिवृत्त हुआ था।",
+    "options": [
+      "He retires in 2011",
+      "He retired in 2011",
+      "He has retired in 2011",
+      "He had retired in 2011"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 201
+  },
+  {
+    "question": "हम अगले साल तक इस बिल्डिंग का निर्माण पूरा कर चुके होंगे।",
+    "options": [
+      "We will complete this building by next year",
+      "We will have completed this building by next year",
+      "We complete this building by next year",
+      "We are completing this building by next year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next year.",
+    "id": 202
+  },
+  {
+    "question": "वह हर दिन अपनी दादी की सेवा करता है।",
+    "options": [
+      "He serve his grandmother every day",
+      "He serves his grandmother every day",
+      "He serving his grandmother every day",
+      "He served his grandmother every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 203
+  },
+  {
+    "question": "मैं इस समय अपनी प्रेजेंटेशन तैयार कर रहा हूँ।",
+    "options": [
+      "I prepare my presentation at this time",
+      "I prepared my presentation at this time",
+      "I am preparing my presentation at this time",
+      "I have prepared my presentation at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 204
+  },
+  {
+    "question": "जब मैंने फोन उठाया, वह बोल रहा था।",
+    "options": [
+      "When I picked up the phone, he speaks",
+      "When I picked up the phone, he spoke",
+      "When I picked up the phone, he was speaking",
+      "When I picked up the phone, he has spoken"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 205
+  },
+  {
+    "question": "मैंने यह जगह पहले देखी थी।",
+    "options": [
+      "I saw this place before",
+      "I have seen this place before",
+      "I had seen this place before",
+      "I was seeing this place before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past time.",
+    "id": 206
+  },
+  {
+    "question": "वह हर रविवार को मंदिर जाती है।",
+    "options": [
+      "She go to temple every Sunday",
+      "She goes to temple every Sunday",
+      "She going to temple every Sunday",
+      "She went to temple every Sunday"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: every Sunday habit.",
+    "id": 207
+  },
+  {
+    "question": "मैं कल 9 बजे तक होटल पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach the hotel by 9 tomorrow",
+      "I will have reached the hotel by 9 tomorrow",
+      "I reach the hotel by 9 tomorrow",
+      "I am reaching the hotel by 9 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 9 tomorrow.",
+    "id": 208
+  },
+  {
+    "question": "वह पिछले तीन महीने से नई भाषा सीख रहा है।",
+    "options": [
+      "He learns a new language for last three months",
+      "He has been learning a new language for last three months",
+      "He is learning a new language for last three months",
+      "He learned a new language for last three months"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last three months.",
+    "id": 209
+  },
+  {
+    "question": "हमने उस दिन एक नया प्रोजेक्ट शुरू किया था।",
+    "options": [
+      "We start a new project that day",
+      "We started a new project that day",
+      "We have started a new project that day",
+      "We were starting a new project that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 210
+  },
+  {
+    "question": "वह इस समय खाना खा रहा है।",
+    "options": [
+      "He eats food at this time",
+      "He ate food at this time",
+      "He is eating food at this time",
+      "He has eaten food at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 211
+  },
+  {
+    "question": "जब तक तुम स्कूल पहुंचोगे, तब तक क्लास शुरू हो चुकी होगी।",
+    "options": [
+      "By the time you reach school, the class starts",
+      "By the time you reach school, the class will start",
+      "By the time you reach school, the class will have started",
+      "By the time you reach school, the class is starting"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 212
+  },
+  {
+    "question": "मैंने कभी क्रिकेट नहीं खेला है।",
+    "options": [
+      "I never played cricket",
+      "I have never played cricket",
+      "I had never played cricket",
+      "I never play cricket"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 213
+  },
+  {
+    "question": "वह 2019 में विदेश गया था।",
+    "options": [
+      "He goes abroad in 2019",
+      "He went abroad in 2019",
+      "He has gone abroad in 2019",
+      "He had gone abroad in 2019"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 214
+  },
+  {
+    "question": "हम अगले साल तक अपना कर्ज चुका चुके होंगे।",
+    "options": [
+      "We will repay our loan by next year",
+      "We will have repaid our loan by next year",
+      "We repay our loan by next year",
+      "We are repaying our loan by next year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next year.",
+    "id": 215
+  },
+  {
+    "question": "वह हर दिन अपनी माँ की मदद करता है।",
+    "options": [
+      "He help his mother every day",
+      "He helps his mother every day",
+      "He helping his mother every day",
+      "He helped his mother every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 216
+  },
+  {
+    "question": "मैं इस समय अपना होमवर्क कर रहा हूँ।",
+    "options": [
+      "I do my homework at this time",
+      "I did my homework at this time",
+      "I am doing my homework at this time",
+      "I have done my homework at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 217
+  },
+  {
+    "question": "जब मैंने उसे पुकारा, वह दौड़ रहा था।",
+    "options": [
+      "When I called him, he runs",
+      "When I called him, he ran",
+      "When I called him, he was running",
+      "When I called him, he has run"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 218
+  },
+  {
+    "question": "मैंने यह तस्वीर पहले देखी थी।",
+    "options": [
+      "I saw this picture before",
+      "I have seen this picture before",
+      "I had seen this picture before",
+      "I was seeing this picture before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 219
+  },
+  {
+    "question": "वह हर महीने अपने दोस्त से मिलती है।",
+    "options": [
+      "She meet her friend every month",
+      "She meets her friend every month",
+      "She meeting her friend every month",
+      "She met her friend every month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: monthly habit.",
+    "id": 220
+  },
+  {
+    "question": "मैं कल 7 बजे तक स्टेशन पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach the station by 7 tomorrow",
+      "I will have reached the station by 7 tomorrow",
+      "I reach the station by 7 tomorrow",
+      "I am reaching the station by 7 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 7 tomorrow.",
+    "id": 221
+  },
+  {
+    "question": "वह पिछले चार घंटे से गाड़ी चला रहा है।",
+    "options": [
+      "He drives for last four hours",
+      "He has been driving for last four hours",
+      "He is driving for last four hours",
+      "He drove for last four hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last four hours.",
+    "id": 222
+  },
+  {
+    "question": "हमने उस दिन एक रेस्तरां में खाना खाया था।",
+    "options": [
+      "We eat at a restaurant that day",
+      "We ate at a restaurant that day",
+      "We have eaten at a restaurant that day",
+      "We were eating at a restaurant that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 223
+  },
+  {
+    "question": "वह इस समय नहा रहा है।",
+    "options": [
+      "He takes a bath at this time",
+      "He took a bath at this time",
+      "He is taking a bath at this time",
+      "He has taken a bath at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 224
+  },
+  {
+    "question": "जब तक मैं वापस आऊंगा, तब तक तुम सो चुके होगे।",
+    "options": [
+      "By the time I return, you sleep",
+      "By the time I return, you will sleep",
+      "By the time I return, you will have slept",
+      "By the time I return, you are sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 225
+  },
+  {
+    "question": "मैंने कभी पहाड़ों की यात्रा नहीं की है।",
+    "options": [
+      "I never traveled to mountains",
+      "I have never traveled to mountains",
+      "I had never traveled to mountains",
+      "I never travel to mountains"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 226
+  },
+  {
+    "question": "वह 2017 में डॉक्टर बना था।",
+    "options": [
+      "He becomes a doctor in 2017",
+      "He became a doctor in 2017",
+      "He has become a doctor in 2017",
+      "He had become a doctor in 2017"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 227
+  },
+  {
+    "question": "हम अगले महीने तक यहाँ रह चुके होंगे।",
+    "options": [
+      "We will live here by next month",
+      "We will have lived here by next month",
+      "We live here by next month",
+      "We are living here by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 228
+  },
+  {
+    "question": "वह हर सुबह व्यायाम करती है।",
+    "options": [
+      "She do exercise every morning",
+      "She does exercise every morning",
+      "She doing exercise every morning",
+      "She did exercise every morning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: every morning habit.",
+    "id": 229
+  },
+  {
+    "question": "मैं इस समय किताब पढ़ रहा हूँ।",
+    "options": [
+      "I read a book at this time",
+      "I read a book at this time",
+      "I am reading a book at this time",
+      "I have read a book at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 230
+  },
+  {
+    "question": "जब मैंने दरवाजा खोला, वह खड़ा था।",
+    "options": [
+      "When I opened the door, he stands",
+      "When I opened the door, he stood",
+      "When I opened the door, he was standing",
+      "When I opened the door, he has stood"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 231
+  },
+  {
+    "question": "मैंने यह कहानी पहले सुनी थी।",
+    "options": [
+      "I heard this story before",
+      "I have heard this story before",
+      "I had heard this story before",
+      "I was hearing this story before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 232
+  },
+  {
+    "question": "वह हर साल अपना जन्मदिन मनाती है।",
+    "options": [
+      "She celebrate her birthday every year",
+      "She celebrates her birthday every year",
+      "She celebrating her birthday every year",
+      "She celebrated her birthday every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 233
+  },
+  {
+    "question": "मैं कल 4 बजे तक यह काम खत्म कर चुका होऊंगा।",
+    "options": [
+      "I will finish this work by 4 tomorrow",
+      "I will have finished this work by 4 tomorrow",
+      "I finish this work by 4 tomorrow",
+      "I am finishing this work by 4 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 4 tomorrow.",
+    "id": 234
+  },
+  {
+    "question": "वह पिछले दस दिन से बिस्तर पर है।",
+    "options": [
+      "He is in bed for last ten days",
+      "He has been in bed for last ten days",
+      "He was in bed for last ten days",
+      "He will be in bed for last ten days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: for last ten days.",
+    "id": 235
+  },
+  {
+    "question": "हमने उस दिन एक फिल्म देखी थी।",
+    "options": [
+      "We watch a movie that day",
+      "We watched a movie that day",
+      "We have watched a movie that day",
+      "We were watching a movie that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 236
+  },
+  {
+    "question": "वह इस समय कपड़े बदल रहा है।",
+    "options": [
+      "He changes clothes at this time",
+      "He changed clothes at this time",
+      "He is changing clothes at this time",
+      "He has changed clothes at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 237
+  },
+  {
+    "question": "जब तक तुम तैयार होगे, तब तक मैं नाश्ता बना चुका होऊंगा।",
+    "options": [
+      "By the time you get ready, I make breakfast",
+      "By the time you get ready, I will make breakfast",
+      "By the time you get ready, I will have made breakfast",
+      "By the time you get ready, I am making breakfast"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 238
+  },
+  {
+    "question": "मैंने कभी किसी को धोखा नहीं दिया है।",
+    "options": [
+      "I never cheated anyone",
+      "I have never cheated anyone",
+      "I had never cheated anyone",
+      "I never cheat anyone"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 239
+  },
+  {
+    "question": "वह 2013 में इस शहर में आया था।",
+    "options": [
+      "He comes to this city in 2013",
+      "He came to this city in 2013",
+      "He has come to this city in 2013",
+      "He had come to this city in 2013"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 240
+  },
+  {
+    "question": "हम अगले सप्ताह तक यह निर्णय ले चुके होंगे।",
+    "options": [
+      "We will make this decision by next week",
+      "We will have made this decision by next week",
+      "We make this decision by next week",
+      "We are making this decision by next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next week.",
+    "id": 241
+  },
+  {
+    "question": "वह हर दिन स्कूल जाता है।",
+    "options": [
+      "He go to school every day",
+      "He goes to school every day",
+      "He going to school every day",
+      "He went to school every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 242
+  },
+  {
+    "question": "मैं इस समय चाय पी रहा हूँ।",
+    "options": [
+      "I drink tea at this time",
+      "I drank tea at this time",
+      "I am drinking tea at this time",
+      "I have drunk tea at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 243
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, वह सो रहा था।",
+    "options": [
+      "When I called him, he sleeps",
+      "When I called him, he slept",
+      "When I called him, he was sleeping",
+      "When I called him, he has slept"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 244
+  },
+  {
+    "question": "मैंने यह गीत पहले गाया था।",
+    "options": [
+      "I sang this song before",
+      "I have sung this song before",
+      "I had sung this song before",
+      "I was singing this song before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 245
+  },
+  {
+    "question": "वह हर शाम को टहलने जाती है।",
+    "options": [
+      "She go for a walk every evening",
+      "She goes for a walk every evening",
+      "She going for a walk every evening",
+      "She went for a walk every evening"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: every evening habit.",
+    "id": 246
+  },
+  {
+    "question": "मैं कल 3 बजे तक एयरपोर्ट पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach the airport by 3 tomorrow",
+      "I will have reached the airport by 3 tomorrow",
+      "I reach the airport by 3 tomorrow",
+      "I am reaching the airport by 3 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 3 tomorrow.",
+    "id": 247
+  },
+  {
+    "question": "वह पिछले छह महीने से नौकरी ढूंढ रहा है।",
+    "options": [
+      "He looks for a job for last six months",
+      "He has been looking for a job for last six months",
+      "He is looking for a job for last six months",
+      "He looked for a job for last six months"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last six months.",
+    "id": 248
+  },
+  {
+    "question": "हमने उस दिन एक होटल में रुके थे।",
+    "options": [
+      "We stay at a hotel that day",
+      "We stayed at a hotel that day",
+      "We have stayed at a hotel that day",
+      "We were staying at a hotel that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 249
+  },
+  {
+    "question": "वह इस समय साइकिल चला रहा है।",
+    "options": [
+      "He rides a bicycle at this time",
+      "He rode a bicycle at this time",
+      "He is riding a bicycle at this time",
+      "He has ridden a bicycle at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 250
+  },
+  {
+    "question": "जब तक तुम वापस आओगे, तब तक मैं सो चुका होऊंगा।",
+    "options": [
+      "By the time you return, I sleep",
+      "By the time you return, I will sleep",
+      "By the time you return, I will have slept",
+      "By the time you return, I am sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 251
+  },
+  {
+    "question": "मैंने कभी तैरना नहीं सीखा है।",
+    "options": [
+      "I never learned swimming",
+      "I have never learned swimming",
+      "I had never learned swimming",
+      "I never learn swimming"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 252
+  },
+  {
+    "question": "वह 2010 में रिटायर हुआ था।",
+    "options": [
+      "He retires in 2010",
+      "He retired in 2010",
+      "He has retired in 2010",
+      "He had retired in 2010"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 253
+  },
+  {
+    "question": "हम अगले महीने तक यह प्रोजेक्ट पूरा कर चुके होंगे।",
+    "options": [
+      "We will complete this project by next month",
+      "We will have completed this project by next month",
+      "We complete this project by next month",
+      "We are completing this project by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 254
+  },
+  {
+    "question": "वह हर दिन अपने पौधों को पानी देता है।",
+    "options": [
+      "He water his plants every day",
+      "He waters his plants every day",
+      "He watering his plants every day",
+      "He watered his plants every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 255
+  },
+  {
+    "question": "मैं इस समय अपनी डायरी लिख रहा था।",
+    "options": [
+      "I write my diary at this time",
+      "I was writing my diary at this time",
+      "I am writing my diary at this time",
+      "I have been writing my diary at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 256
+  },
+  {
+    "question": "जब मैंने उसे देखा, वह मुस्कुरा रहा था।",
+    "options": [
+      "When I saw him, he smiles",
+      "When I saw him, he smiled",
+      "When I saw him, he was smiling",
+      "When I saw him, he has smiled"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 257
+  },
+  {
+    "question": "मैंने यह खबर पहले पढ़ी थी।",
+    "options": [
+      "I read this news before",
+      "I have read this news before",
+      "I had read this news before",
+      "I was reading this news before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 258
+  },
+  {
+    "question": "वह हर हफ्ते अपने दोस्तों से मिलती है।",
+    "options": [
+      "She meet her friends every week",
+      "She meets her friends every week",
+      "She meeting her friends every week",
+      "She met her friends every week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: weekly habit.",
+    "id": 259
+  },
+  {
+    "question": "मैं कल 2 बजे तक दफ्तर पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach office by 2 tomorrow",
+      "I will have reached office by 2 tomorrow",
+      "I reach office by 2 tomorrow",
+      "I am reaching office by 2 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 2 tomorrow.",
+    "id": 260
+  },
+  {
+    "question": "वह पिछले दो साल से इस कंपनी में काम कर रहा है।",
+    "options": [
+      "He works in this company for last two years",
+      "He has been working in this company for last two years",
+      "He is working in this company for last two years",
+      "He worked in this company for last two years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last two years.",
+    "id": 261
+  },
+  {
+    "question": "हमने उस दिन एक नया गाना सीखा था।",
+    "options": [
+      "We learn a new song that day",
+      "We learned a new song that day",
+      "We have learned a new song that day",
+      "We were learning a new song that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 262
+  },
+  {
+    "question": "वह इस समय अपना काम कर रहा है।",
+    "options": [
+      "He does his work at this time",
+      "He did his work at this time",
+      "He is doing his work at this time",
+      "He has done his work at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 263
+  },
+  {
+    "question": "जब तक वह आएगी, तब तक हम जा चुके होंगे।",
+    "options": [
+      "By the time she comes, we leave",
+      "By the time she comes, we will leave",
+      "By the time she comes, we will have left",
+      "By the time she comes, we are leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 264
+  },
+  {
+    "question": "मैंने कभी फ्रेंच नहीं सीखी है।",
+    "options": [
+      "I never learned French",
+      "I have never learned French",
+      "I had never learned French",
+      "I never learn French"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 265
+  },
+  {
+    "question": "वह 2009 में ग्रेजुएट हुआ था।",
+    "options": [
+      "He graduates in 2009",
+      "He graduated in 2009",
+      "He has graduated in 2009",
+      "He had graduated in 2009"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 266
+  },
+  {
+    "question": "हम अगले हफ्ते तक यह मामला सुलझा चुके होंगे।",
+    "options": [
+      "We will resolve this matter by next week",
+      "We will have resolved this matter by next week",
+      "We resolve this matter by next week",
+      "We are resolving this matter by next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next week.",
+    "id": 267
+  },
+  {
+    "question": "वह हर दिन अपने कमरे की सफाई करता है।",
+    "options": [
+      "He clean his room every day",
+      "He cleans his room every day",
+      "He cleaning his room every day",
+      "He cleaned his room every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 268
+  },
+  {
+    "question": "मैं इस समय फोन पर बात कर रहा था।",
+    "options": [
+      "I talk on phone at this time",
+      "I was talking on phone at this time",
+      "I am talking on phone at this time",
+      "I have been talking on phone at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 269
+  },
+  {
+    "question": "जब मैंने उसे पुकारा, वह दौड़ रही थी।",
+    "options": [
+      "When I called her, she runs",
+      "When I called her, she ran",
+      "When I called her, she was running",
+      "When I called her, she has run"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 270
+  },
+  {
+    "question": "मैंने यह चित्र पहले बनाया था।",
+    "options": [
+      "I drew this picture before",
+      "I have drawn this picture before",
+      "I had drawn this picture before",
+      "I was drawing this picture before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 271
+  },
+  {
+    "question": "वह हर साल नया साल मनाती है।",
+    "options": [
+      "She celebrate New Year every year",
+      "She celebrates New Year every year",
+      "She celebrating New Year every year",
+      "She celebrated New Year every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 272
+  },
+  {
+    "question": "मैं कल 1 बजे तक दिल्ली पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach Delhi by 1 tomorrow",
+      "I will have reached Delhi by 1 tomorrow",
+      "I reach Delhi by 1 tomorrow",
+      "I am reaching Delhi by 1 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 1 tomorrow.",
+    "id": 273
+  },
+  {
+    "question": "वह पिछले आठ घंटे से सो रहा है।",
+    "options": [
+      "He sleeps for last eight hours",
+      "He has been sleeping for last eight hours",
+      "He is sleeping for last eight hours",
+      "He slept for last eight hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last eight hours.",
+    "id": 274
+  },
+  {
+    "question": "हमने उस दिन एक किला देखा था।",
+    "options": [
+      "We see a fort that day",
+      "We saw a fort that day",
+      "We have seen a fort that day",
+      "We were seeing a fort that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 275
+  },
+  {
+    "question": "वह इस समय दौड़ रहा है।",
+    "options": [
+      "He runs at this time",
+      "He ran at this time",
+      "He is running at this time",
+      "He has run at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 276
+  },
+  {
+    "question": "जब तक तुम पहुंचोगे, तब तक वह जा चुकी होगी।",
+    "options": [
+      "By the time you arrive, she leaves",
+      "By the time you arrive, she will leave",
+      "By the time you arrive, she will have left",
+      "By the time you arrive, she is leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 277
+  },
+  {
+    "question": "मैंने कभी ऐसा दृश्य नहीं देखा है।",
+    "options": [
+      "I never saw such a scene",
+      "I have never seen such a scene",
+      "I had never seen such a scene",
+      "I never see such a scene"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 278
+  },
+  {
+    "question": "वह 2008 में शादी कर चुका था।",
+    "options": [
+      "He marries in 2008",
+      "He married in 2008",
+      "He has married in 2008",
+      "He had married in 2008"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 279
+  },
+  {
+    "question": "हम अगले महीने तक अपना घर बना चुके होंगे।",
+    "options": [
+      "We will build our house by next month",
+      "We will have built our house by next month",
+      "We build our house by next month",
+      "We are building our house by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 280
+  },
+  {
+    "question": "वह हर रात को अपनी दादी को कहानी सुनाता है।",
+    "options": [
+      "He tell stories to his grandmother every night",
+      "He tells stories to his grandmother every night",
+      "He telling stories to his grandmother every night",
+      "He told stories to his grandmother every night"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: every night habit.",
+    "id": 281
+  },
+  {
+    "question": "मैं इस समय गाना गा रहा था।",
+    "options": [
+      "I sing a song at this time",
+      "I was singing a song at this time",
+      "I am singing a song at this time",
+      "I have been singing a song at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 282
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, वह नहा रही थी।",
+    "options": [
+      "When I called her, she takes a bath",
+      "When I called her, she took a bath",
+      "When I called her, she was taking a bath",
+      "When I called her, she has taken a bath"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 283
+  },
+  {
+    "question": "मैंने यह काम पहले किया था।",
+    "options": [
+      "I did this work before",
+      "I have done this work before",
+      "I had done this work before",
+      "I was doing this work before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 284
+  },
+  {
+    "question": "वह हर साल अपने पिता से मिलने जाती है।",
+    "options": [
+      "She go to meet her father every year",
+      "She goes to meet her father every year",
+      "She going to meet her father every year",
+      "She went to meet her father every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 285
+  },
+  {
+    "question": "मैं कल 12 बजे तक घर पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach home by 12 tomorrow",
+      "I will have reached home by 12 tomorrow",
+      "I reach home by 12 tomorrow",
+      "I am reaching home by 12 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 12 tomorrow.",
+    "id": 286
+  },
+  {
+    "question": "वह पिछले पंद्रह मिनट से रो रहा है।",
+    "options": [
+      "He cries for last fifteen minutes",
+      "He has been crying for last fifteen minutes",
+      "He is crying for last fifteen minutes",
+      "He cried for last fifteen minutes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last fifteen minutes.",
+    "id": 287
+  },
+  {
+    "question": "हमने उस दिन एक गुफा की खोज की थी।",
+    "options": [
+      "We discover a cave that day",
+      "We discovered a cave that day",
+      "We have discovered a cave that day",
+      "We were discovering a cave that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 288
+  },
+  {
+    "question": "वह इस समय पेंटिंग कर रहा है।",
+    "options": [
+      "He paints at this time",
+      "He painted at this time",
+      "He is painting at this time",
+      "He has painted at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 289
+  },
+  {
+    "question": "जब तक तुम आओगे, तब तक वह सो चुकी होगी।",
+    "options": [
+      "By the time you come, she sleeps",
+      "By the time you come, she will sleep",
+      "By the time you come, she will have slept",
+      "By the time you come, she is sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 290
+  },
+  {
+    "question": "मैंने कभी शराब नहीं पी है।",
+    "options": [
+      "I never drank alcohol",
+      "I have never drunk alcohol",
+      "I had never drunk alcohol",
+      "I never drink alcohol"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 291
+  },
+  {
+    "question": "वह 2007 में इस मकान में आया था।",
+    "options": [
+      "He comes to this house in 2007",
+      "He came to this house in 2007",
+      "He has come to this house in 2007",
+      "He had come to this house in 2007"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 292
+  },
+  {
+    "question": "हम अगले साल तक अपनी पढ़ाई पूरी कर चुके होंगे।",
+    "options": [
+      "We will complete our studies by next year",
+      "We will have completed our studies by next year",
+      "We complete our studies by next year",
+      "We are completing our studies by next year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next year.",
+    "id": 293
+  },
+  {
+    "question": "वह हर दिन अपनी बहन की मदद करता है।",
+    "options": [
+      "He help his sister every day",
+      "He helps his sister every day",
+      "He helping his sister every day",
+      "He helped his sister every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 294
+  },
+  {
+    "question": "मैं इस समय कविता लिख रहा था।",
+    "options": [
+      "I write a poem at this time",
+      "I was writing a poem at this time",
+      "I am writing a poem at this time",
+      "I have been writing a poem at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 295
+  },
+  {
+    "question": "जब मैंने दरवाजा खोला, वह हंस रही थी।",
+    "options": [
+      "When I opened the door, she laughs",
+      "When I opened the door, she laughed",
+      "When I opened the door, she was laughing",
+      "When I opened the door, she has laughed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 296
+  },
+  {
+    "question": "मैंने यह फिल्म पहले देखी थी।",
+    "options": [
+      "I saw this movie before",
+      "I have seen this movie before",
+      "I had seen this movie before",
+      "I was seeing this movie before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 297
+  },
+  {
+    "question": "वह हर रविवार को चर्च जाती है।",
+    "options": [
+      "She go to church every Sunday",
+      "She goes to church every Sunday",
+      "She going to church every Sunday",
+      "She went to church every Sunday"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: every Sunday habit.",
+    "id": 298
+  },
+  {
+    "question": "मैं कल 11 बजे तक स्टेशन पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach the station by 11 tomorrow",
+      "I will have reached the station by 11 tomorrow",
+      "I reach the station by 11 tomorrow",
+      "I am reaching the station by 11 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 11 tomorrow.",
+    "id": 299
+  },
+  {
+    "question": "वह पिछले पांच मिनट से इंतजार कर रही है।",
+    "options": [
+      "She waits for last five minutes",
+      "She has been waiting for last five minutes",
+      "She is waiting for last five minutes",
+      "She waited for last five minutes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last five minutes.",
+    "id": 300
+  },
+  {
+    "question": "हमने उस दिन एक नई रेसिपी ट्राई की थी।",
+    "options": [
+      "We try a new recipe that day",
+      "We tried a new recipe that day",
+      "We have tried a new recipe that day",
+      "We were trying a new recipe that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 301
+  },
+  {
+    "question": "वह इस समय तैर रहा है।",
+    "options": [
+      "He swims at this time",
+      "He swam at this time",
+      "He is swimming at this time",
+      "He has swum at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 302
+  },
+  {
+    "question": "जब तक वह लौटेगी, तब तक अंधेरा हो चुका होगा।",
+    "options": [
+      "By the time she returns, it gets dark",
+      "By the time she returns, it will get dark",
+      "By the time she returns, it will have gotten dark",
+      "By the time she returns, it is getting dark"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 303
+  },
+  {
+    "question": "मैंने कभी बंगाली नहीं सीखी है।",
+    "options": [
+      "I never learned Bengali",
+      "I have never learned Bengali",
+      "I had never learned Bengali",
+      "I never learn Bengali"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 304
+  },
+  {
+    "question": "वह 2006 में अपने गांव लौटा था।",
+    "options": [
+      "He returns to his village in 2006",
+      "He returned to his village in 2006",
+      "He has returned to his village in 2006",
+      "He had returned to his village in 2006"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 305
+  },
+  {
+    "question": "हम अगले हफ्ते तक यह फैसला कर चुके होंगे।",
+    "options": [
+      "We will make this decision by next week",
+      "We will have made this decision by next week",
+      "We make this decision by next week",
+      "We are making this decision by next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next week.",
+    "id": 306
+  },
+  {
+    "question": "वह हर दिन अपने पालतू जानवर को खाना खिलाता है।",
+    "options": [
+      "He feed his pet every day",
+      "He feeds his pet every day",
+      "He feeding his pet every day",
+      "He fed his pet every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 307
+  },
+  {
+    "question": "मैं इस समय खेल रहा था।",
+    "options": [
+      "I play at this time",
+      "I was playing at this time",
+      "I am playing at this time",
+      "I have been playing at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 308
+  },
+  {
+    "question": "जब मैंने उसे देखा, वह नाच रही थी।",
+    "options": [
+      "When I saw her, she dances",
+      "When I saw her, she danced",
+      "When I saw her, she was dancing",
+      "When I saw her, she has danced"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 309
+  },
+  {
+    "question": "मैंने यह गाना पहले गाया था।",
+    "options": [
+      "I sang this song before",
+      "I have sung this song before",
+      "I had sung this song before",
+      "I was singing this song before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 310
+  },
+  {
+    "question": "वह हर साल अपने बच्चों के साथ छुट्टियां मनाती है।",
+    "options": [
+      "She celebrate holidays with her children every year",
+      "She celebrates holidays with her children every year",
+      "She celebrating holidays with her children every year",
+      "She celebrated holidays with her children every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 311
+  },
+  {
+    "question": "मैं कल 8 बजे तक होटल पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach the hotel by 8 tomorrow",
+      "I will have reached the hotel by 8 tomorrow",
+      "I reach the hotel by 8 tomorrow",
+      "I am reaching the hotel by 8 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 8 tomorrow.",
+    "id": 312
+  },
+  {
+    "question": "वह पिछले दो दिन से भूखा है।",
+    "options": [
+      "He is hungry for last two days",
+      "He has been hungry for last two days",
+      "He was hungry for last two days",
+      "He will be hungry for last two days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: for last two days.",
+    "id": 313
+  },
+  {
+    "question": "हमने उस दिन एक नई भाषा सीखना शुरू किया था।",
+    "options": [
+      "We start learning a new language that day",
+      "We started learning a new language that day",
+      "We have started learning a new language that day",
+      "We were starting learning a new language that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 314
+  },
+  {
+    "question": "वह इस समय लिख रहा है।",
+    "options": [
+      "He writes at this time",
+      "He wrote at this time",
+      "He is writing at this time",
+      "He has written at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 315
+  },
+  {
+    "question": "जब तक तुम तैयार होगे, तब तक मैं निकल चुका होऊंगा।",
+    "options": [
+      "By the time you get ready, I leave",
+      "By the time you get ready, I will leave",
+      "By the time you get ready, I will have left",
+      "By the time you get ready, I am leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 316
+  },
+  {
+    "question": "मैंने कभी गोताखोरी नहीं की है।",
+    "options": [
+      "I never dived",
+      "I have never dived",
+      "I had never dived",
+      "I never dive"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 317
+  },
+  {
+    "question": "वह 2005 में इस कॉलेज में दाखिल हुआ था।",
+    "options": [
+      "He takes admission in this college in 2005",
+      "He took admission in this college in 2005",
+      "He has taken admission in this college in 2005",
+      "He had taken admission in this college in 2005"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 318
+  },
+  {
+    "question": "हम अगले महीने तक यह ट्रेनिंग पूरी कर चुके होंगे।",
+    "options": [
+      "We will complete this training by next month",
+      "We will have completed this training by next month",
+      "We complete this training by next month",
+      "We are completing this training by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 319
+  },
+  {
+    "question": "वह हर दिन अपनी डायरी लिखता है।",
+    "options": [
+      "He write his diary every day",
+      "He writes his diary every day",
+      "He writing his diary every day",
+      "He wrote his diary every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 320
+  },
+  {
+    "question": "मैं इस समय अपने माता-पिता से बात कर रहा था।",
+    "options": [
+      "I talk to my parents at this time",
+      "I was talking to my parents at this time",
+      "I am talking to my parents at this time",
+      "I have been talking to my parents at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 321
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, वह पढ़ रहा था।",
+    "options": [
+      "When I called him, he studies",
+      "When I called him, he studied",
+      "When I called him, he was studying",
+      "When I called him, he has studied"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 322
+  },
+  {
+    "question": "मैंने यह खाना पहले बनाया था।",
+    "options": [
+      "I cooked this food before",
+      "I have cooked this food before",
+      "I had cooked this food before",
+      "I was cooking this food before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 323
+  },
+  {
+    "question": "वह हर शाम को प्रार्थना करती है।",
+    "options": [
+      "She pray every evening",
+      "She prays every evening",
+      "She praying every evening",
+      "She prayed every evening"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: every evening habit.",
+    "id": 324
+  },
+  {
+    "question": "मैं कल 9 बजे तक एयरपोर्ट पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach the airport by 9 tomorrow",
+      "I will have reached the airport by 9 tomorrow",
+      "I reach the airport by 9 tomorrow",
+      "I am reaching the airport by 9 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 9 tomorrow.",
+    "id": 325
+  },
+  {
+    "question": "वह पिछले तीन हफ्ते से प्रैक्टिस कर रहा है।",
+    "options": [
+      "He practices for last three weeks",
+      "He has been practicing for last three weeks",
+      "He is practicing for last three weeks",
+      "He practiced for last three weeks"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last three weeks.",
+    "id": 326
+  },
+  {
+    "question": "हमने उस दिन एक संगीत कार्यक्रम देखा था।",
+    "options": [
+      "We see a concert that day",
+      "We saw a concert that day",
+      "We have seen a concert that day",
+      "We were seeing a concert that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 327
+  },
+  {
+    "question": "वह इस समय सफाई कर रहा है।",
+    "options": [
+      "He cleans at this time",
+      "He cleaned at this time",
+      "He is cleaning at this time",
+      "He has cleaned at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 328
+  },
+  {
+    "question": "जब तक वह आएगा, तब तक हम खेल चुके होंगे।",
+    "options": [
+      "By the time he comes, we play",
+      "By the time he comes, we will play",
+      "By the time he comes, we will have played",
+      "By the time he comes, we are playing"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 329
+  },
+  {
+    "question": "मैंने कभी सर्दी में तैराकी नहीं की है।",
+    "options": [
+      "I never swam in winter",
+      "I have never swum in winter",
+      "I had never swum in winter",
+      "I never swim in winter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 330
+  },
+  {
+    "question": "वह 2004 में इस स्कूल में शामिल हुआ था।",
+    "options": [
+      "He joins this school in 2004",
+      "He joined this school in 2004",
+      "He has joined this school in 2004",
+      "He had joined this school in 2004"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 331
+  },
+  {
+    "question": "हम अगले सप्ताह तक यह किताब पढ़ चुके होंगे।",
+    "options": [
+      "We will read this book by next week",
+      "We will have read this book by next week",
+      "We read this book by next week",
+      "We are reading this book by next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next week.",
+    "id": 332
+  },
+  {
+    "question": "वह हर दिन अपने पिता की मदद करता है।",
+    "options": [
+      "He help his father every day",
+      "He helps his father every day",
+      "He helping his father every day",
+      "He helped his father every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 333
+  },
+  {
+    "question": "मैं इस समय गाड़ी चला रहा था।",
+    "options": [
+      "I drive at this time",
+      "I was driving at this time",
+      "I am driving at this time",
+      "I have been driving at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 334
+  },
+  {
+    "question": "जब मैंने उसे देखा, वह खा रहा था।",
+    "options": [
+      "When I saw him, he eats",
+      "When I saw him, he ate",
+      "When I saw him, he was eating",
+      "When I saw him, he has eaten"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 335
+  },
+  {
+    "question": "मैंने यह पत्र पहले लिखा था।",
+    "options": [
+      "I wrote this letter before",
+      "I have written this letter before",
+      "I had written this letter before",
+      "I was writing this letter before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 336
+  },
+  {
+    "question": "वह हर साल अपनी माँ के लिए उपहार खरीदती है।",
+    "options": [
+      "She buy gifts for her mother every year",
+      "She buys gifts for her mother every year",
+      "She buying gifts for her mother every year",
+      "She bought gifts for her mother every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 337
+  },
+  {
+    "question": "मैं कल 10 बजे तक दिल्ली पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach Delhi by 10 tomorrow",
+      "I will have reached Delhi by 10 tomorrow",
+      "I reach Delhi by 10 tomorrow",
+      "I am reaching Delhi by 10 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 10 tomorrow.",
+    "id": 338
+  },
+  {
+    "question": "वह पिछले चार दिन से बीमार है।",
+    "options": [
+      "He is ill for last four days",
+      "He has been ill for last four days",
+      "He was ill for last four days",
+      "He will be ill for last four days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: for last four days.",
+    "id": 339
+  },
+  {
+    "question": "हमने उस दिन एक नाटक देखा था।",
+    "options": [
+      "We watch a play that day",
+      "We watched a play that day",
+      "We have watched a play that day",
+      "We were watching a play that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 340
+  },
+  {
+    "question": "वह इस समय व्यायाम कर रहा है।",
+    "options": [
+      "He exercises at this time",
+      "He exercised at this time",
+      "He is exercising at this time",
+      "He has exercised at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 341
+  },
+  {
+    "question": "जब तक तुम वापस आओगे, तब तक वह जा चुकी होगी।",
+    "options": [
+      "By the time you return, she leaves",
+      "By the time you return, she will leave",
+      "By the time you return, she will have left",
+      "By the time you return, she is leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 342
+  },
+  {
+    "question": "मैंने कभी घुड़सवारी नहीं की है।",
+    "options": [
+      "I never rode a horse",
+      "I have never ridden a horse",
+      "I had never ridden a horse",
+      "I never ride a horse"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 343
+  },
+  {
+    "question": "वह 2003 में इस पद पर नियुक्त हुआ था।",
+    "options": [
+      "He is appointed to this post in 2003",
+      "He was appointed to this post in 2003",
+      "He has been appointed to this post in 2003",
+      "He had been appointed to this post in 2003"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 344
+  },
+  {
+    "question": "हम अगले महीने तक यह कोर्स पूरा कर चुके होंगे।",
+    "options": [
+      "We will complete this course by next month",
+      "We will have completed this course by next month",
+      "We complete this course by next month",
+      "We are completing this course by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 345
+  },
+  {
+    "question": "वह हर दिन अपनी दादी के लिए चाय बनाता है।",
+    "options": [
+      "He make tea for his grandmother every day",
+      "He makes tea for his grandmother every day",
+      "He making tea for his grandmother every day",
+      "He made tea for his grandmother every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 346
+  },
+  {
+    "question": "मैं इस समय संगीत सुन रहा था।",
+    "options": [
+      "I listen to music at this time",
+      "I was listening to music at this time",
+      "I am listening to music at this time",
+      "I have been listening to music at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 347
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, वह नहा रहा था।",
+    "options": [
+      "When I called him, he takes a bath",
+      "When I called him, he took a bath",
+      "When I called him, he was taking a bath",
+      "When I called him, he has taken a bath"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 348
+  },
+  {
+    "question": "मैंने यह सपना पहले देखा था।",
+    "options": [
+      "I saw this dream before",
+      "I have seen this dream before",
+      "I had seen this dream before",
+      "I was seeing this dream before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 349
+  },
+  {
+    "question": "वह हर साल अपने दोस्तों के साथ घूमने जाती है।",
+    "options": [
+      "She go on a trip with her friends every year",
+      "She goes on a trip with her friends every year",
+      "She going on a trip with her friends every year",
+      "She went on a trip with her friends every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 350
+  },
+  {
+    "question": "मैं कल 7 बजे तक घर पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach home by 7 tomorrow",
+      "I will have reached home by 7 tomorrow",
+      "I reach home by 7 tomorrow",
+      "I am reaching home by 7 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 7 tomorrow.",
+    "id": 351
+  },
+  {
+    "question": "वह पिछले दस साल से इस शहर में रह रहा है।",
+    "options": [
+      "He lives in this city for last ten years",
+      "He has been living in this city for last ten years",
+      "He is living in this city for last ten years",
+      "He lived in this city for last ten years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last ten years.",
+    "id": 352
+  },
+  {
+    "question": "हमने उस दिन एक बड़ी पार्टी दी थी।",
+    "options": [
+      "We give a big party that day",
+      "We gave a big party that day",
+      "We have given a big party that day",
+      "We were giving a big party that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 353
+  },
+  {
+    "question": "वह इस समय सो रहा है।",
+    "options": [
+      "He sleeps at this time",
+      "He slept at this time",
+      "He is sleeping at this time",
+      "He has slept at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 354
+  },
+  {
+    "question": "जब तक वह आएगी, तब तक खाना ठंडा हो चुका होगा।",
+    "options": [
+      "By the time she comes, the food gets cold",
+      "By the time she comes, the food will get cold",
+      "By the time she comes, the food will have gotten cold",
+      "By the time she comes, the food is getting cold"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 355
+  },
+  {
+    "question": "मैंने कभी हिमालय नहीं देखा है।",
+    "options": [
+      "I never saw the Himalayas",
+      "I have never seen the Himalayas",
+      "I had never seen the Himalayas",
+      "I never see the Himalayas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 356
+  },
+  {
+    "question": "वह 2002 में इस कंपनी से जुड़ा था।",
+    "options": [
+      "He joins this company in 2002",
+      "He joined this company in 2002",
+      "He has joined this company in 2002",
+      "He had joined this company in 2002"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 357
+  },
+  {
+    "question": "हम अगले हफ्ते तक यह योजना बना चुके होंगे।",
+    "options": [
+      "We will make this plan by next week",
+      "We will have made this plan by next week",
+      "We make this plan by next week",
+      "We are making this plan by next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next week.",
+    "id": 358
+  },
+  {
+    "question": "वह हर दिन अपने पौधों को पानी देता है।",
+    "options": [
+      "He water his plants every day",
+      "He waters his plants every day",
+      "He watering his plants every day",
+      "He watered his plants every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 359
+  },
+  {
+    "question": "मैं इस समय पढ़ रहा था।",
+    "options": [
+      "I read at this time",
+      "I was reading at this time",
+      "I am reading at this time",
+      "I have been reading at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 360
+  },
+  {
+    "question": "जब मैंने उसे देखा, वह दौड़ रहा था।",
+    "options": [
+      "When I saw him, he runs",
+      "When I saw him, he ran",
+      "When I saw him, he was running",
+      "When I saw him, he has run"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 361
+  },
+  {
+    "question": "मैंने यह सबक पहले पढ़ा था।",
+    "options": [
+      "I read this lesson before",
+      "I have read this lesson before",
+      "I had read this lesson before",
+      "I was reading this lesson before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 362
+  },
+  {
+    "question": "वह हर साल अपने भाई से मिलने जाती है।",
+    "options": [
+      "She go to meet her brother every year",
+      "She goes to meet her brother every year",
+      "She going to meet her brother every year",
+      "She went to meet her brother every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 363
+  },
+  {
+    "question": "मैं कल 6 बजे तक ऑफिस पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach office by 6 tomorrow",
+      "I will have reached office by 6 tomorrow",
+      "I reach office by 6 tomorrow",
+      "I am reaching office by 6 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 6 tomorrow.",
+    "id": 364
+  },
+  {
+    "question": "वह पिछले तीन दिन से खांस रहा है।",
+    "options": [
+      "He coughs for last three days",
+      "He has been coughing for last three days",
+      "He is coughing for last three days",
+      "He coughed for last three days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last three days.",
+    "id": 365
+  },
+  {
+    "question": "हमने उस दिन एक नया रेस्टोरेंट ट्राई किया था।",
+    "options": [
+      "We try a new restaurant that day",
+      "We tried a new restaurant that day",
+      "We have tried a new restaurant that day",
+      "We were trying a new restaurant that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 366
+  },
+  {
+    "question": "वह इस समय कुत्ते को घुमा रहा है।",
+    "options": [
+      "He walks the dog at this time",
+      "He walked the dog at this time",
+      "He is walking the dog at this time",
+      "He has walked the dog at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 367
+  },
+  {
+    "question": "जब तक तुम पहुंचोगे, तब तक वह आ चुकी होगी।",
+    "options": [
+      "By the time you arrive, she comes",
+      "By the time you arrive, she will come",
+      "By the time you arrive, she will have come",
+      "By the time you arrive, she is coming"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 368
+  },
+  {
+    "question": "मैंने कभी नृत्य नहीं किया है।",
+    "options": [
+      "I never danced",
+      "I have never danced",
+      "I had never danced",
+      "I never dance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 369
+  },
+  {
+    "question": "वह 2001 में सेवानिवृत्त हुआ था।",
+    "options": [
+      "He retires in 2001",
+      "He retired in 2001",
+      "He has retired in 2001",
+      "He had retired in 2001"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 370
+  },
+  {
+    "question": "हम अगले साल तक यह कर्ज चुका चुके होंगे।",
+    "options": [
+      "We will repay this loan by next year",
+      "We will have repaid this loan by next year",
+      "We repay this loan by next year",
+      "We are repaying this loan by next year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next year.",
+    "id": 371
+  },
+  {
+    "question": "वह हर दिन अपने छोटे भाई को पढ़ाता है।",
+    "options": [
+      "He teach his younger brother every day",
+      "He teaches his younger brother every day",
+      "He teaching his younger brother every day",
+      "He taught his younger brother every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 372
+  },
+  {
+    "question": "मैं इस समय खाना खा रहा था।",
+    "options": [
+      "I eat food at this time",
+      "I was eating food at this time",
+      "I am eating food at this time",
+      "I have been eating food at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 373
+  },
+  {
+    "question": "जब मैंने उसे देखा, वह हंस रहा था।",
+    "options": [
+      "When I saw him, he laughs",
+      "When I saw him, he laughed",
+      "When I saw him, he was laughing",
+      "When I saw him, he has laughed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 374
+  },
+  {
+    "question": "मैंने यह काम पहले किया था।",
+    "options": [
+      "I did this work before",
+      "I have done this work before",
+      "I had done this work before",
+      "I was doing this work before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 375
+  },
+  {
+    "question": "वह हर साल अपने परिवार के साथ समय बिताती है।",
+    "options": [
+      "She spend time with her family every year",
+      "She spends time with her family every year",
+      "She spending time with her family every year",
+      "She spent time with her family every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 376
+  },
+  {
+    "question": "मैं कल 5 बजे तक स्कूल पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach school by 5 tomorrow",
+      "I will have reached school by 5 tomorrow",
+      "I reach school by 5 tomorrow",
+      "I am reaching school by 5 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 5 tomorrow.",
+    "id": 377
+  },
+  {
+    "question": "वह पिछले दो हफ्ते से यहाँ नहीं आया है।",
+    "options": [
+      "He didn't come here for last two weeks",
+      "He hasn't come here for last two weeks",
+      "He hadn't come here for last two weeks",
+      "He doesn't come here for last two weeks"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: for last two weeks.",
+    "id": 378
+  },
+  {
+    "question": "हमने उस दिन एक नया व्यंजन बनाया था।",
+    "options": [
+      "We make a new dish that day",
+      "We made a new dish that day",
+      "We have made a new dish that day",
+      "We were making a new dish that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 379
+  },
+  {
+    "question": "वह इस समय बागवानी कर रहा है।",
+    "options": [
+      "He gardens at this time",
+      "He gardened at this time",
+      "He is gardening at this time",
+      "He has gardened at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 380
+  },
+  {
+    "question": "जब तक तुम वापस आओगे, तब तक मैं सो चुका होऊंगा।",
+    "options": [
+      "By the time you return, I sleep",
+      "By the time you return, I will sleep",
+      "By the time you return, I will have slept",
+      "By the time you return, I am sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 381
+  },
+  {
+    "question": "मैंने कभी पैराशूटिंग नहीं की है।",
+    "options": [
+      "I never did parachuting",
+      "I have never done parachuting",
+      "I had never done parachuting",
+      "I never do parachuting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 382
+  },
+  {
+    "question": "वह 2000 में इस घर में आया था।",
+    "options": [
+      "He comes to this house in 2000",
+      "He came to this house in 2000",
+      "He has come to this house in 2000",
+      "He had come to this house in 2000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 383
+  },
+  {
+    "question": "हम अगले महीने तक यह किताब खत्म कर चुके होंगे।",
+    "options": [
+      "We will finish this book by next month",
+      "We will have finished this book by next month",
+      "We finish this book by next month",
+      "We are finishing this book by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 384
+  },
+  {
+    "question": "वह हर दिन अपने बेटे को स्कूल छोड़ता है।",
+    "options": [
+      "He drop his son to school every day",
+      "He drops his son to school every day",
+      "He dropping his son to school every day",
+      "He dropped his son to school every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 385
+  },
+  {
+    "question": "मैं इस समय फिल्म देख रहा था।",
+    "options": [
+      "I watch a movie at this time",
+      "I was watching a movie at this time",
+      "I am watching a movie at this time",
+      "I have been watching a movie at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 386
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, वह खा रही थी।",
+    "options": [
+      "When I called her, she eats",
+      "When I called her, she ate",
+      "When I called her, she was eating",
+      "When I called her, she has eaten"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 387
+  },
+  {
+    "question": "मैंने यह गाना पहले सुना था।",
+    "options": [
+      "I heard this song before",
+      "I have heard this song before",
+      "I had heard this song before",
+      "I was hearing this song before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 388
+  },
+  {
+    "question": "वह हर साल अपने पति के साथ घूमने जाती है।",
+    "options": [
+      "She go on a trip with her husband every year",
+      "She goes on a trip with her husband every year",
+      "She going on a trip with her husband every year",
+      "She went on a trip with her husband every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 389
+  },
+  {
+    "question": "मैं कल 4 बजे तक घर पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach home by 4 tomorrow",
+      "I will have reached home by 4 tomorrow",
+      "I reach home by 4 tomorrow",
+      "I am reaching home by 4 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 4 tomorrow.",
+    "id": 390
+  },
+  {
+    "question": "वह पिछले पांच साल से इस काम को कर रहा है।",
+    "options": [
+      "He does this work for last five years",
+      "He has been doing this work for last five years",
+      "He is doing this work for last five years",
+      "He did this work for last five years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last five years.",
+    "id": 391
+  },
+  {
+    "question": "हमने उस दिन एक लंबी ड्राइव ली थी।",
+    "options": [
+      "We take a long drive that day",
+      "We took a long drive that day",
+      "We have taken a long drive that day",
+      "We were taking a long drive that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 392
+  },
+  {
+    "question": "वह इस समय कंप्यूटर पर काम कर रहा है।",
+    "options": [
+      "He works on computer at this time",
+      "He worked on computer at this time",
+      "He is working on computer at this time",
+      "He has worked on computer at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 393
+  },
+  {
+    "question": "जब तक वह आएगा, तब तक मैं सो चुका होऊंगा।",
+    "options": [
+      "By the time he comes, I sleep",
+      "By the time he comes, I will sleep",
+      "By the time he comes, I will have slept",
+      "By the time he comes, I am sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 394
+  },
+  {
+    "question": "मैंने कभी ऐसा नज़ारा नहीं देखा है।",
+    "options": [
+      "I never saw such a sight",
+      "I have never seen such a sight",
+      "I had never seen such a sight",
+      "I never see such a sight"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 395
+  },
+  {
+    "question": "वह 1999 में इस देश में आया था।",
+    "options": [
+      "He comes to this country in 1999",
+      "He came to this country in 1999",
+      "He has come to this country in 1999",
+      "He had come to this country in 1999"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 396
+  },
+  {
+    "question": "हम अगले हफ्ते तक यह मुकदमा जीत चुके होंगे।",
+    "options": [
+      "We will win this case by next week",
+      "We will have won this case by next week",
+      "We win this case by next week",
+      "We are winning this case by next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next week.",
+    "id": 397
+  },
+  {
+    "question": "वह हर दिन अपनी पत्नी की मदद करता है।",
+    "options": [
+      "He help his wife every day",
+      "He helps his wife every day",
+      "He helping his wife every day",
+      "He helped his wife every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 398
+  },
+  {
+    "question": "मैं इस समय अपने कमरे की सफाई कर रहा था।",
+    "options": [
+      "I clean my room at this time",
+      "I was cleaning my room at this time",
+      "I am cleaning my room at this time",
+      "I have been cleaning my room at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 399
+  },
+  {
+    "question": "जब मैंने उसे देखा, वह रो रही थी।",
+    "options": [
+      "When I saw her, she cries",
+      "When I saw her, she cried",
+      "When I saw her, she was crying",
+      "When I saw her, she has cried"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 400
+  },
+  {
+    "question": "मैंने यह किताब पहले पढ़ी थी।",
+    "options": [
+      "I read this book before",
+      "I have read this book before",
+      "I had read this book before",
+      "I was reading this book before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 401
+  },
+  {
+    "question": "वह हर साल अपने गुरु से आशीर्वाद लेती है।",
+    "options": [
+      "She take blessings from her guru every year",
+      "She takes blessings from her guru every year",
+      "She taking blessings from her guru every year",
+      "She took blessings from her guru every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 402
+  },
+  {
+    "question": "मैं कल 3 बजे तक स्टेशन पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach the station by 3 tomorrow",
+      "I will have reached the station by 3 tomorrow",
+      "I reach the station by 3 tomorrow",
+      "I am reaching the station by 3 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 3 tomorrow.",
+    "id": 403
+  },
+  {
+    "question": "वह पिछले तीन घंटे से गाड़ी चला रहा है।",
+    "options": [
+      "He drives for last three hours",
+      "He has been driving for last three hours",
+      "He is driving for last three hours",
+      "He drove for last three hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last three hours.",
+    "id": 404
+  },
+  {
+    "question": "हमने उस दिन एक नया प्रोजेक्ट शुरू किया था।",
+    "options": [
+      "We start a new project that day",
+      "We started a new project that day",
+      "We have started a new project that day",
+      "We were starting a new project that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 405
+  },
+  {
+    "question": "वह इस समय बर्तन धो रहा है।",
+    "options": [
+      "He washes dishes at this time",
+      "He washed dishes at this time",
+      "He is washing dishes at this time",
+      "He has washed dishes at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 406
+  },
+  {
+    "question": "जब तक तुम वापस आओगे, तब तक वह सो चुकी होगी।",
+    "options": [
+      "By the time you return, she sleeps",
+      "By the time you return, she will sleep",
+      "By the time you return, she will have slept",
+      "By the time you return, she is sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 407
+  },
+  {
+    "question": "मैंने कभी डरपोक नहीं बनना सीखा है।",
+    "options": [
+      "I never learned to be coward",
+      "I have never learned to be coward",
+      "I had never learned to be coward",
+      "I never learn to be coward"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 408
+  },
+  {
+    "question": "वह 1998 में इस मंदिर का निर्माण करवाया था।",
+    "options": [
+      "He gets this temple built in 1998",
+      "He got this temple built in 1998",
+      "He has got this temple built in 1998",
+      "He had got this temple built in 1998"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 409
+  },
+  {
+    "question": "हम अगले महीने तक यह काम पूरा कर चुके होंगे।",
+    "options": [
+      "We will complete this work by next month",
+      "We will have completed this work by next month",
+      "We complete this work by next month",
+      "We are completing this work by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 410
+  },
+  {
+    "question": "वह हर दिन अपने पिता के साथ बैठकर बातें करता है।",
+    "options": [
+      "He sit and talk with his father every day",
+      "He sits and talks with his father every day",
+      "He sitting and talking with his father every day",
+      "He sat and talked with his father every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 411
+  },
+  {
+    "question": "मैं इस समय व्यायाम कर रहा था।",
+    "options": [
+      "I exercise at this time",
+      "I was exercising at this time",
+      "I am exercising at this time",
+      "I have been exercising at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 412
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, वह नाच रहा था।",
+    "options": [
+      "When I called him, he dances",
+      "When I called him, he danced",
+      "When I called him, he was dancing",
+      "When I called him, he has danced"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 413
+  },
+  {
+    "question": "मैंने यह नियम पहले पढ़ा था।",
+    "options": [
+      "I read this rule before",
+      "I have read this rule before",
+      "I had read this rule before",
+      "I was reading this rule before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 414
+  },
+  {
+    "question": "वह हर साल अपने बच्चों के साथ पिकनिक मनाती है।",
+    "options": [
+      "She have a picnic with her children every year",
+      "She has a picnic with her children every year",
+      "She having a picnic with her children every year",
+      "She had a picnic with her children every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 415
+  },
+  {
+    "question": "मैं कल 2 बजे तक दफ्तर पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach office by 2 tomorrow",
+      "I will have reached office by 2 tomorrow",
+      "I reach office by 2 tomorrow",
+      "I am reaching office by 2 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 2 tomorrow.",
+    "id": 416
+  },
+  {
+    "question": "वह पिछले दस मिनट से दौड़ रहा है।",
+    "options": [
+      "He runs for last ten minutes",
+      "He has been running for last ten minutes",
+      "He is running for last ten minutes",
+      "He ran for last ten minutes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last ten minutes.",
+    "id": 417
+  },
+  {
+    "question": "हमने उस दिन एक पुराना मित्र देखा था।",
+    "options": [
+      "We see an old friend that day",
+      "We saw an old friend that day",
+      "We have seen an old friend that day",
+      "We were seeing an old friend that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 418
+  },
+  {
+    "question": "वह इस समय खिड़की साफ कर रहा है।",
+    "options": [
+      "He cleans the window at this time",
+      "He cleaned the window at this time",
+      "He is cleaning the window at this time",
+      "He has cleaned the window at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 419
+  },
+  {
+    "question": "जब तक वह आएगी, तब तक मैं तैयार हो चुका होऊंगा।",
+    "options": [
+      "By the time she comes, I get ready",
+      "By the time she comes, I will get ready",
+      "By the time she comes, I will have gotten ready",
+      "By the time she comes, I am getting ready"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 420
+  },
+  {
+    "question": "मैंने कभी हार नहीं मानी है।",
+    "options": [
+      "I never gave up",
+      "I have never given up",
+      "I had never given up",
+      "I never give up"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 421
+  },
+  {
+    "question": "वह 1997 में इस मुकदमे में शामिल हुआ था।",
+    "options": [
+      "He gets involved in this case in 1997",
+      "He got involved in this case in 1997",
+      "He has got involved in this case in 1997",
+      "He had got involved in this case in 1997"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 422
+  },
+  {
+    "question": "हम अगले सप्ताह तक यह निर्णय ले चुके होंगे।",
+    "options": [
+      "We will make this decision by next week",
+      "We will have made this decision by next week",
+      "We make this decision by next week",
+      "We are making this decision by next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next week.",
+    "id": 423
+  },
+  {
+    "question": "वह हर दिन अपने बगीचे में समय बिताता है।",
+    "options": [
+      "He spend time in his garden every day",
+      "He spends time in his garden every day",
+      "He spending time in his garden every day",
+      "He spent time in his garden every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 424
+  },
+  {
+    "question": "मैं इस समय संगीत बजा रहा था।",
+    "options": [
+      "I play music at this time",
+      "I was playing music at this time",
+      "I am playing music at this time",
+      "I have been playing music at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 425
+  },
+  {
+    "question": "जब मैंने उसे देखा, वह पढ़ रही थी।",
+    "options": [
+      "When I saw her, she studies",
+      "When I saw her, she studied",
+      "When I saw her, she was studying",
+      "When I saw her, she has studied"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 426
+  },
+  {
+    "question": "मैंने यह पेंटिंग पहले बनाई थी।",
+    "options": [
+      "I painted this painting before",
+      "I have painted this painting before",
+      "I had painted this painting before",
+      "I was painting this painting before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 427
+  },
+  {
+    "question": "वह हर साल अपने भाई के बच्चों को तोहफे देती है।",
+    "options": [
+      "She give gifts to her brother's children every year",
+      "She gives gifts to her brother's children every year",
+      "She giving gifts to her brother's children every year",
+      "She gave gifts to her brother's children every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 428
+  },
+  {
+    "question": "मैं कल 1 बजे तक घर पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach home by 1 tomorrow",
+      "I will have reached home by 1 tomorrow",
+      "I reach home by 1 tomorrow",
+      "I am reaching home by 1 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 1 tomorrow.",
+    "id": 429
+  },
+  {
+    "question": "वह पिछले छह महीने से डाइटिंग कर रहा है।",
+    "options": [
+      "He diets for last six months",
+      "He has been dieting for last six months",
+      "He is dieting for last six months",
+      "He dieted for last six months"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last six months.",
+    "id": 430
+  },
+  {
+    "question": "हमने उस दिन एक नया खेल खेला था।",
+    "options": [
+      "We play a new game that day",
+      "We played a new game that day",
+      "We have played a new game that day",
+      "We were playing a new game that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 431
+  },
+  {
+    "question": "वह इस समय अपनी कार धो रहा है।",
+    "options": [
+      "He washes his car at this time",
+      "He washed his car at this time",
+      "He is washing his car at this time",
+      "He has washed his car at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 432
+  },
+  {
+    "question": "जब तक तुम पहुंचोगे, तब तक वह निकल चुकी होगी।",
+    "options": [
+      "By the time you arrive, she leaves",
+      "By the time you arrive, she will leave",
+      "By the time you arrive, she will have left",
+      "By the time you arrive, she is leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 433
+  },
+  {
+    "question": "मैंने कभी किसी का दिल नहीं तोड़ा है।",
+    "options": [
+      "I never broke anyone's heart",
+      "I have never broken anyone's heart",
+      "I had never broken anyone's heart",
+      "I never break anyone's heart"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 434
+  },
+  {
+    "question": "वह 1996 में इस विश्वविद्यालय से पास हुआ था।",
+    "options": [
+      "He passes from this university in 1996",
+      "He passed from this university in 1996",
+      "He has passed from this university in 1996",
+      "He had passed from this university in 1996"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 435
+  },
+  {
+    "question": "हम अगले महीने तक यह डिग्री पूरी कर चुके होंगे।",
+    "options": [
+      "We will complete this degree by next month",
+      "We will have completed this degree by next month",
+      "We complete this degree by next month",
+      "We are completing this degree by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 436
+  },
+  {
+    "question": "वह हर दिन अपने बेटे के साथ खेलता है।",
+    "options": [
+      "He play with his son every day",
+      "He plays with his son every day",
+      "He playing with his son every day",
+      "He played with his son every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 437
+  },
+  {
+    "question": "मैं इस समय बगीचे में काम कर रहा था।",
+    "options": [
+      "I work in the garden at this time",
+      "I was working in the garden at this time",
+      "I am working in the garden at this time",
+      "I have been working in the garden at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 438
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, वह दौड़ रहा था।",
+    "options": [
+      "When I called him, he runs",
+      "When I called him, he ran",
+      "When I called him, he was running",
+      "When I called him, he has run"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 439
+  },
+  {
+    "question": "मैंने यह व्यंजन पहले बनाया था।",
+    "options": [
+      "I cooked this dish before",
+      "I have cooked this dish before",
+      "I had cooked this dish before",
+      "I was cooking this dish before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 440
+  },
+  {
+    "question": "वह हर साल अपने पति के साथ मंदिर जाती है।",
+    "options": [
+      "She go to temple with her husband every year",
+      "She goes to temple with her husband every year",
+      "She going to temple with her husband every year",
+      "She went to temple with her husband every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 441
+  },
+  {
+    "question": "मैं कल 12 बजे तक एयरपोर्ट पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach the airport by 12 tomorrow",
+      "I will have reached the airport by 12 tomorrow",
+      "I reach the airport by 12 tomorrow",
+      "I am reaching the airport by 12 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 12 tomorrow.",
+    "id": 442
+  },
+  {
+    "question": "वह पिछले दो साल से धूम्रपान छोड़ने की कोशिश कर रहा है।",
+    "options": [
+      "He tries to quit smoking for last two years",
+      "He has been trying to quit smoking for last two years",
+      "He is trying to quit smoking for last two years",
+      "He tried to quit smoking for last two years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last two years.",
+    "id": 443
+  },
+  {
+    "question": "हमने उस दिन एक नई भाषा सीखी थी।",
+    "options": [
+      "We learn a new language that day",
+      "We learned a new language that day",
+      "We have learned a new language that day",
+      "We were learning a new language that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 444
+  },
+  {
+    "question": "वह इस समय अपनी प्रेमिका से बात कर रहा है।",
+    "options": [
+      "He talks to his girlfriend at this time",
+      "He talked to his girlfriend at this time",
+      "He is talking to his girlfriend at this time",
+      "He has talked to his girlfriend at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 445
+  },
+  {
+    "question": "जब तक वह आएगा, तब तक हम निकल चुके होंगे।",
+    "options": [
+      "By the time he comes, we leave",
+      "By the time he comes, we will leave",
+      "By the time he comes, we will have left",
+      "By the time he comes, we are leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 446
+  },
+  {
+    "question": "मैंने कभी किसी का अपमान नहीं किया है।",
+    "options": [
+      "I never insulted anyone",
+      "I have never insulted anyone",
+      "I had never insulted anyone",
+      "I never insult anyone"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 447
+  },
+  {
+    "question": "वह 1995 में इस पुलिस विभाग में भर्ती हुआ था।",
+    "options": [
+      "He gets recruited in this police department in 1995",
+      "He got recruited in this police department in 1995",
+      "He has got recruited in this police department in 1995",
+      "He had got recruited in this police department in 1995"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 448
+  },
+  {
+    "question": "हम अगले हफ्ते तक यह रिपोर्ट तैयार कर चुके होंगे।",
+    "options": [
+      "We will prepare this report by next week",
+      "We will have prepared this report by next week",
+      "We prepare this report by next week",
+      "We are preparing this report by next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next week.",
+    "id": 449
+  },
+  {
+    "question": "वह हर दिन अपने दोस्तों के साथ बाहर जाता है।",
+    "options": [
+      "He go out with his friends every day",
+      "He goes out with his friends every day",
+      "He going out with his friends every day",
+      "He went out with his friends every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 450
+  },
+  {
+    "question": "मैं इस समय कविता पढ़ रहा था।",
+    "options": [
+      "I read a poem at this time",
+      "I was reading a poem at this time",
+      "I am reading a poem at this time",
+      "I have been reading a poem at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 451
+  },
+  {
+    "question": "जब मैंने उसे देखा, वह गा रही थी।",
+    "options": [
+      "When I saw her, she sings",
+      "When I saw her, she sang",
+      "When I saw her, she was singing",
+      "When I saw her, she has sung"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 452
+  },
+  {
+    "question": "मैंने यह पहेली पहले हल की थी।",
+    "options": [
+      "I solved this puzzle before",
+      "I have solved this puzzle before",
+      "I had solved this puzzle before",
+      "I was solving this puzzle before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 453
+  },
+  {
+    "question": "वह हर साल अपने पति के साथ समुद्र तट पर जाती है।",
+    "options": [
+      "She go to the beach with her husband every year",
+      "She goes to the beach with her husband every year",
+      "She going to the beach with her husband every year",
+      "She went to the beach with her husband every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 454
+  },
+  {
+    "question": "मैं कल 11 बजे तक दिल्ली पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach Delhi by 11 tomorrow",
+      "I will have reached Delhi by 11 tomorrow",
+      "I reach Delhi by 11 tomorrow",
+      "I am reaching Delhi by 11 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 11 tomorrow.",
+    "id": 455
+  },
+  {
+    "question": "वह पिछले पांच मिनट से चिल्ला रहा है।",
+    "options": [
+      "He shouts for last five minutes",
+      "He has been shouting for last five minutes",
+      "He is shouting for last five minutes",
+      "He shouted for last five minutes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last five minutes.",
+    "id": 456
+  },
+  {
+    "question": "हमने उस दिन एक नई मशीन खरीदी थी।",
+    "options": [
+      "We buy a new machine that day",
+      "We bought a new machine that day",
+      "We have bought a new machine that day",
+      "We were buying a new machine that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 457
+  },
+  {
+    "question": "वह इस समय अपनी नौकरी के बारे में सोच रहा है।",
+    "options": [
+      "He thinks about his job at this time",
+      "He thought about his job at this time",
+      "He is thinking about his job at this time",
+      "He has thought about his job at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 458
+  },
+  {
+    "question": "जब तक तुम आओगे, तब तक वह चली जाएगी।",
+    "options": [
+      "By the time you come, she goes",
+      "By the time you come, she will go",
+      "By the time you come, she will have gone",
+      "By the time you come, she is going"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 459
+  },
+  {
+    "question": "मैंने कभी किसी से झूठ नहीं बोला है।",
+    "options": [
+      "I never lied to anyone",
+      "I have never lied to anyone",
+      "I had never lied to anyone",
+      "I never lie to anyone"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 460
+  },
+  {
+    "question": "वह 1994 में इस नौकरी में लगा था।",
+    "options": [
+      "He gets this job in 1994",
+      "He got this job in 1994",
+      "He has got this job in 1994",
+      "He had got this job in 1994"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 461
+  },
+  {
+    "question": "हम अगले महीने तक यह प्रशिक्षण पूरा कर चुके होंगे।",
+    "options": [
+      "We will complete this training by next month",
+      "We will have completed this training by next month",
+      "We complete this training by next month",
+      "We are completing this training by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 462
+  },
+  {
+    "question": "वह हर दिन अपनी चिड़िया को दाना खिलाता है।",
+    "options": [
+      "He feed his bird every day",
+      "He feeds his bird every day",
+      "He feeding his bird every day",
+      "He fed his bird every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 463
+  },
+  {
+    "question": "मैं इस समय पहेली सुलझा रहा था।",
+    "options": [
+      "I solve a puzzle at this time",
+      "I was solving a puzzle at this time",
+      "I am solving a puzzle at this time",
+      "I have been solving a puzzle at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 464
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, वह तैर रहा था।",
+    "options": [
+      "When I called him, he swims",
+      "When I called him, he swam",
+      "When I called him, he was swimming",
+      "When I called him, he has swum"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 465
+  },
+  {
+    "question": "मैंने यह उपन्यास पहले पढ़ा था।",
+    "options": [
+      "I read this novel before",
+      "I have read this novel before",
+      "I had read this novel before",
+      "I was reading this novel before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 466
+  },
+  {
+    "question": "वह हर साल अपने बेटे के जन्मदिन पर पार्टी देती है।",
+    "options": [
+      "She give a party on her son's birthday every year",
+      "She gives a party on her son's birthday every year",
+      "She giving a party on her son's birthday every year",
+      "She gave a party on her son's birthday every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 467
+  },
+  {
+    "question": "मैं कल 10 बजे तक स्कूल पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach school by 10 tomorrow",
+      "I will have reached school by 10 tomorrow",
+      "I reach school by 10 tomorrow",
+      "I am reaching school by 10 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 10 tomorrow.",
+    "id": 468
+  },
+  {
+    "question": "वह पिछले तीन महीने से बेरोजगार है।",
+    "options": [
+      "He is unemployed for last three months",
+      "He has been unemployed for last three months",
+      "He was unemployed for last three months",
+      "He will be unemployed for last three months"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: for last three months.",
+    "id": 469
+  },
+  {
+    "question": "हमने उस दिन एक नया रिकॉर्ड बनाया था।",
+    "options": [
+      "We make a new record that day",
+      "We made a new record that day",
+      "We have made a new record that day",
+      "We were making a new record that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 470
+  },
+  {
+    "question": "वह इस समय अपने भाई के साथ बहस कर रहा है।",
+    "options": [
+      "He argues with his brother at this time",
+      "He argued with his brother at this time",
+      "He is arguing with his brother at this time",
+      "He has argued with his brother at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 471
+  },
+  {
+    "question": "जब तक तुम तैयार होगे, तब तक वह सो चुकी होगी।",
+    "options": [
+      "By the time you get ready, she sleeps",
+      "By the time you get ready, she will sleep",
+      "By the time you get ready, she will have slept",
+      "By the time you get ready, she is sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 472
+  },
+  {
+    "question": "मैंने कभी किसी से नफरत नहीं की है।",
+    "options": [
+      "I never hated anyone",
+      "I have never hated anyone",
+      "I had never hated anyone",
+      "I never hate anyone"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 473
+  },
+  {
+    "question": "वह 1993 में इस संस्था में शामिल हुआ था।",
+    "options": [
+      "He joins this institution in 1993",
+      "He joined this institution in 1993",
+      "He has joined this institution in 1993",
+      "He had joined this institution in 1993"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 474
+  },
+  {
+    "question": "हम अगले हफ्ते तक यह यात्रा पूरी कर चुके होंगे।",
+    "options": [
+      "We will complete this journey by next week",
+      "We will have completed this journey by next week",
+      "We complete this journey by next week",
+      "We are completing this journey by next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next week.",
+    "id": 475
+  },
+  {
+    "question": "वह हर दिन अपने पड़ोसियों की मदद करता है।",
+    "options": [
+      "He help his neighbors every day",
+      "He helps his neighbors every day",
+      "He helping his neighbors every day",
+      "He helped his neighbors every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 476
+  },
+  {
+    "question": "मैं इस समय अपने प्रोजेक्ट पर काम कर रहा था।",
+    "options": [
+      "I work on my project at this time",
+      "I was working on my project at this time",
+      "I am working on my project at this time",
+      "I have been working on my project at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 477
+  },
+  {
+    "question": "जब मैंने उसे देखा, वह खाना बना रही थी।",
+    "options": [
+      "When I saw her, she cooks",
+      "When I saw her, she cooked",
+      "When I saw her, she was cooking",
+      "When I saw her, she has cooked"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: background action.",
+    "id": 478
+  },
+  {
+    "question": "मैंने यह गृहकार्य पहले किया था।",
+    "options": [
+      "I did this homework before",
+      "I have done this homework before",
+      "I had done this homework before",
+      "I was doing this homework before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 479
+  },
+  {
+    "question": "वह हर साल अपने माता-पिता के साथ समय बिताती है।",
+    "options": [
+      "She spend time with her parents every year",
+      "She spends time with her parents every year",
+      "She spending time with her parents every year",
+      "She spent time with her parents every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 480
+  },
+  {
+    "question": "मैं कल 9 बजे तक होटल पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach the hotel by 9 tomorrow",
+      "I will have reached the hotel by 9 tomorrow",
+      "I reach the hotel by 9 tomorrow",
+      "I am reaching the hotel by 9 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 9 tomorrow.",
+    "id": 481
+  },
+  {
+    "question": "वह पिछले दो हफ्ते से नई भाषा सीख रहा है।",
+    "options": [
+      "He learns a new language for last two weeks",
+      "He has been learning a new language for last two weeks",
+      "He is learning a new language for last two weeks",
+      "He learned a new language for last two weeks"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last two weeks.",
+    "id": 482
+  },
+  {
+    "question": "हमने उस दिन एक फुटबॉल मैच देखा था।",
+    "options": [
+      "We watch a football match that day",
+      "We watched a football match that day",
+      "We have watched a football match that day",
+      "We were watching a football match that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 483
+  },
+  {
+    "question": "वह इस समय पैसे गिन रहा है।",
+    "options": [
+      "He counts money at this time",
+      "He counted money at this time",
+      "He is counting money at this time",
+      "He has counted money at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 484
+  },
+  {
+    "question": "जब तक तुम वापस आओगे, तब तक वह जा चुका होगा।",
+    "options": [
+      "By the time you return, he leaves",
+      "By the time you return, he will leave",
+      "By the time you return, he will have left",
+      "By the time you return, he is leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 485
+  },
+  {
+    "question": "मैंने कभी किसी का भरोसा नहीं तोड़ा है।",
+    "options": [
+      "I never broke anyone's trust",
+      "I have never broken anyone's trust",
+      "I had never broken anyone's trust",
+      "I never break anyone's trust"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 486
+  },
+  {
+    "question": "वह 1992 में इस गांव में आया था।",
+    "options": [
+      "He comes to this village in 1992",
+      "He came to this village in 1992",
+      "He has come to this village in 1992",
+      "He had come to this village in 1992"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 487
+  },
+  {
+    "question": "हम अगले महीने तक यह कोर्स खत्म कर चुके होंगे।",
+    "options": [
+      "We will finish this course by next month",
+      "We will have finished this course by next month",
+      "We finish this course by next month",
+      "We are finishing this course by next month"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by next month.",
+    "id": 488
+  },
+  {
+    "question": "वह हर दिन अपने गुरु को प्रणाम करता है।",
+    "options": [
+      "He bow to his guru every day",
+      "He bows to his guru every day",
+      "He bowing to his guru every day",
+      "He bowed to his guru every day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: daily habit.",
+    "id": 489
+  },
+  {
+    "question": "मैं इस समय अपनी नींद पूरी कर रहा था।",
+    "options": [
+      "I complete my sleep at this time",
+      "I was completing my sleep at this time",
+      "I am completing my sleep at this time",
+      "I have been completing my sleep at this time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Continuous: at this time in the past.",
+    "id": 490
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, वह हंस रहा था।",
+    "options": [
+      "When I called him, he laughs",
+      "When I called him, he laughed",
+      "When I called him, he was laughing",
+      "When I called him, he has laughed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Continuous: interrupted action.",
+    "id": 491
+  },
+  {
+    "question": "मैंने यह कहानी पहले सुनाई थी।",
+    "options": [
+      "I told this story before",
+      "I have told this story before",
+      "I had told this story before",
+      "I was telling this story before"
+    ],
+    "correctIndex": 2,
+    "explanation": "Past Perfect: before another past action.",
+    "id": 492
+  },
+  {
+    "question": "वह हर साल अपने पिता की सेवा करती है।",
+    "options": [
+      "She serve her father every year",
+      "She serves her father every year",
+      "She serving her father every year",
+      "She served her father every year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Simple: annual habit.",
+    "id": 493
+  },
+  {
+    "question": "मैं कल 8 बजे तक स्टेशन पहुंच चुका होऊंगा।",
+    "options": [
+      "I will reach the station by 8 tomorrow",
+      "I will have reached the station by 8 tomorrow",
+      "I reach the station by 8 tomorrow",
+      "I am reaching the station by 8 tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future Perfect: by 8 tomorrow.",
+    "id": 494
+  },
+  {
+    "question": "वह पिछले दस साल से योगा कर रहा है।",
+    "options": [
+      "He does yoga for last ten years",
+      "He has been doing yoga for last ten years",
+      "He is doing yoga for last ten years",
+      "He did yoga for last ten years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect Continuous: for last ten years.",
+    "id": 495
+  },
+  {
+    "question": "हमने उस दिन एक कॉन्सर्ट में भाग लिया था।",
+    "options": [
+      "We attend a concert that day",
+      "We attended a concert that day",
+      "We have attended a concert that day",
+      "We were attending a concert that day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: that day.",
+    "id": 496
+  },
+  {
+    "question": "वह इस समय गिटार बजा रहा है।",
+    "options": [
+      "He plays guitar at this time",
+      "He played guitar at this time",
+      "He is playing guitar at this time",
+      "He has played guitar at this time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present Continuous: action now.",
+    "id": 497
+  },
+  {
+    "question": "जब तक तुम आओगे, तब तक मैं निकल चुका होऊंगा।",
+    "options": [
+      "By the time you come, I leave",
+      "By the time you come, I will leave",
+      "By the time you come, I will have left",
+      "By the time you come, I am leaving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future Perfect: by the time.",
+    "id": 498
+  },
+  {
+    "question": "मैंने कभी किसी का बुरा नहीं चाहा है।",
+    "options": [
+      "I never wished ill for anyone",
+      "I have never wished ill for anyone",
+      "I had never wished ill for anyone",
+      "I never wish ill for anyone"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present Perfect: never in life.",
+    "id": 499
+  },
+  {
+    "question": "वह 1991 में इस प्रतियोगिता में शामिल हुआ था।",
+    "options": [
+      "He participates in this competition in 1991",
+      "He participated in this competition in 1991",
+      "He has participated in this competition in 1991",
+      "He had participated in this competition in 1991"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past Simple: specific year.",
+    "id": 500
+  }
+]

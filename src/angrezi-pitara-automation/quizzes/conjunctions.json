@@ -1,0 +1,6002 @@
+[
+  {
+    "question": "वह गरीब है लेकिन ईमानदार है।",
+    "options": [
+      "He is poor and honest",
+      "He is poor but honest",
+      "He is poor because honest",
+      "He is poor so honest"
+    ],
+    "correctIndex": 1,
+    "explanation": "'But' is used to show contrast.",
+    "id": 1
+  },
+  {
+    "question": "वह नहीं आया क्योंकि वह बीमार था।",
+    "options": [
+      "He didn't come but he was ill",
+      "He didn't come so he was ill",
+      "He didn't come because he was ill",
+      "He didn't come although he was ill"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Because' is used to show the reason.",
+    "id": 2
+  },
+  {
+    "question": "कड़ी मेहनत करो वरना तुम फेल हो जाओगे।",
+    "options": [
+      "Work hard or you will fail",
+      "Work hard and you will fail",
+      "Work hard so you will fail",
+      "Work hard but you will fail"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Or' is used to show choice or consequence.",
+    "id": 3
+  },
+  {
+    "question": "मैंने खाना खाया और सो गया।",
+    "options": [
+      "I ate food but slept",
+      "I ate food or slept",
+      "I ate food and slept",
+      "I ate food so slept"
+    ],
+    "correctIndex": 2,
+    "explanation": "'And' is used to add two related actions.",
+    "id": 4
+  },
+  {
+    "question": "तुम मेहनत करोगे तो सफल होगे।",
+    "options": [
+      "If you work hard, you will succeed",
+      "When you work hard, you will succeed",
+      "Because you work hard, you will succeed",
+      "Although you work hard, you will succeed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'If' (यदि/तो) shows condition and result.",
+    "id": 5
+  },
+  {
+    "question": "वह दौड़ा लेकिन ट्रेन छूट गई।",
+    "options": [
+      "He ran and missed the train",
+      "He ran so missed the train",
+      "He ran but missed the train",
+      "He ran because missed the train"
+    ],
+    "correctIndex": 2,
+    "explanation": "'But' shows contrast between effort and outcome.",
+    "id": 6
+  },
+  {
+    "question": "जब मैं घर पहुंचा तब बारिश शुरू हुई।",
+    "options": [
+      "When I reached home, it started raining",
+      "If I reached home, it started raining",
+      "Because I reached home, it started raining",
+      "So I reached home, it started raining"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time relationship.",
+    "id": 7
+  },
+  {
+    "question": "वह बहुत बूढ़ा है फिर भी काम करता है।",
+    "options": [
+      "He is very old so he works",
+      "He is very old because he works",
+      "He is very old yet he works",
+      "He is very old and he works"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Yet' (फिर भी) shows contrast despite age.",
+    "id": 8
+  },
+  {
+    "question": "तुम या तो यहाँ रहो या वहाँ जाओ।",
+    "options": [
+      "Either stay here or go there",
+      "Both stay here and go there",
+      "Neither stay here nor go there",
+      "Not only stay here but also go there"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correlative conjunction 'either...or' (या तो...या).",
+    "id": 9
+  },
+  {
+    "question": "उसने इतना खा लिया कि पेट खराब हो गया।",
+    "options": [
+      "He ate so much that his stomach got upset",
+      "He ate so much because his stomach got upset",
+      "He ate so much but his stomach got upset",
+      "He ate so much and his stomach got upset"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So...that' (इतना...कि) shows cause and effect.",
+    "id": 10
+  },
+  {
+    "question": "जैसे ही वह आया, सब चुप हो गए।",
+    "options": [
+      "As soon as he came, everyone became silent",
+      "When he came, everyone became silent",
+      "If he came, everyone became silent",
+      "Because he came, everyone became silent"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate sequence.",
+    "id": 11
+  },
+  {
+    "question": "न तो उसने फोन किया और न ही आया।",
+    "options": [
+      "Either he called or came",
+      "Neither did he call nor come",
+      "Both he called and came",
+      "He called but didn't come"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both options.",
+    "id": 12
+  },
+  {
+    "question": "हालाँकि वह अमीर है, लेकिन वह कंजूस है।",
+    "options": [
+      "Although he is rich, he is miserly",
+      "Because he is rich, he is miserly",
+      "If he is rich, he is miserly",
+      "So he is rich, he is miserly"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) introduces a contrasting clause.",
+    "id": 13
+  },
+  {
+    "question": "तब से मैं उसे जानता हूँ जब से वह बच्चा था।",
+    "options": [
+      "I have known him since he was a child",
+      "I have known him when he was a child",
+      "I have known him because he was a child",
+      "I have known him if he was a child"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (तब से) indicates time from past until now.",
+    "id": 14
+  },
+  {
+    "question": "जब तक तुम मेहनत नहीं करोगे, सफल नहीं होगे।",
+    "options": [
+      "If you work hard, you will succeed",
+      "Unless you work hard, you will not succeed",
+      "When you work hard, you will succeed",
+      "Because you work hard, you will succeed"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Unless' (जब तक नहीं) means 'if not'.",
+    "id": 15
+  },
+  {
+    "question": "मैं पढ़ रहा था जबकि वह सो रहा था।",
+    "options": [
+      "I was reading while he was sleeping",
+      "I was reading because he was sleeping",
+      "I was reading so he was sleeping",
+      "I was reading but he was sleeping"
+    ],
+    "correctIndex": 0,
+    "explanation": "'While' (जबकि) shows two simultaneous actions.",
+    "id": 16
+  },
+  {
+    "question": "कृपया चुप रहो ताकि मैं पढ़ सकूँ।",
+    "options": [
+      "Please be quiet so that I can study",
+      "Please be quiet because I can study",
+      "Please be quiet but I can study",
+      "Please be quiet or I can study"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So that' (ताकि) shows purpose.",
+    "id": 17
+  },
+  {
+    "question": "जहाँ तुम जाओगे, मैं वहाँ आऊंगा।",
+    "options": [
+      "Wherever you go, I will come there",
+      "When you go, I will come there",
+      "If you go, I will come there",
+      "Because you go, I will come there"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 18
+  },
+  {
+    "question": "जैसा तुम बोओगे, वैसा काटोगे।",
+    "options": [
+      "As you sow, so shall you reap",
+      "If you sow, you will reap",
+      "When you sow, you will reap",
+      "Because you sow, you will reap"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows proportional relationship.",
+    "id": 19
+  },
+  {
+    "question": "मैं चाय नहीं पीता, न ही कॉफी।",
+    "options": [
+      "I don't drink tea nor coffee",
+      "I don't drink tea or coffee",
+      "I don't drink tea and coffee",
+      "I don't drink tea but coffee"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Nor' (न ही) continues a negative clause.",
+    "id": 20
+  },
+  {
+    "question": "जब से तुम आए हो, घर रौनक हो गया है।",
+    "options": [
+      "Since you have come, the house has become lively",
+      "When you have come, the house has become lively",
+      "If you have come, the house has become lively",
+      "Because you have come, the house has become lively"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) can also mean 'because'.",
+    "id": 21
+  },
+  {
+    "question": "चाहे बारिश हो या धूप, मैं जाऊंगा।",
+    "options": [
+      "Whether it rains or shines, I will go",
+      "If it rains or shines, I will go",
+      "When it rains or shines, I will go",
+      "Because it rains or shines, I will go"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whether...or' (चाहे...या) shows alternatives.",
+    "id": 22
+  },
+  {
+    "question": "उसने न केवल खाना खाया बल्कि मिठाई भी खाई।",
+    "options": [
+      "He not only ate food but also sweets",
+      "He ate food and sweets",
+      "He ate food or sweets",
+      "He ate food but sweets"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 23
+  },
+  {
+    "question": "जितनी जल्दी हो सके, आओ।",
+    "options": [
+      "Come as soon as possible",
+      "Come if possible",
+      "Come when possible",
+      "Come because possible"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as possible' (जितनी जल्दी हो सके) shows urgency.",
+    "id": 24
+  },
+  {
+    "question": "मैं थका हुआ था इसलिए जल्दी सो गया।",
+    "options": [
+      "I was tired therefore I slept early",
+      "I was tired but I slept early",
+      "I was tired or I slept early",
+      "I was tired and I slept early"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Therefore' (इसलिए) shows logical result.",
+    "id": 25
+  },
+  {
+    "question": "तुम बुलाओगे तो मैं आ जाऊंगा।",
+    "options": [
+      "If you call, I will come",
+      "When you call, I will come",
+      "Because you call, I will come",
+      "So you call, I will come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'If...then' (यदि...तो) conditional sentence.",
+    "id": 26
+  },
+  {
+    "question": "जब तक तुम रहोगे, मैं रहूंगा।",
+    "options": [
+      "As long as you stay, I will stay",
+      "If you stay, I will stay",
+      "When you stay, I will stay",
+      "Because you stay, I will stay"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As long as' (जब तक) shows duration condition.",
+    "id": 27
+  },
+  {
+    "question": "वह ऐसे बोलता है मानो सब कुछ जानता हो।",
+    "options": [
+      "He speaks as if he knows everything",
+      "He speaks because he knows everything",
+      "He speaks so he knows everything",
+      "He speaks but he knows everything"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (मानो) shows unreal comparison.",
+    "id": 28
+  },
+  {
+    "question": "मैंने कहा कि मैं कल आऊंगा।",
+    "options": [
+      "I said that I will come tomorrow",
+      "I said because I will come tomorrow",
+      "I said if I will come tomorrow",
+      "I said when I will come tomorrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a noun clause.",
+    "id": 29
+  },
+  {
+    "question": "जैसे-जैसे समय बीतता गया, वैसे-वैसे मुझे समझ आया।",
+    "options": [
+      "As time passed, I understood",
+      "When time passed, I understood",
+      "If time passed, I understood",
+      "Because time passed, I understood"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे-जैसे) shows gradual change.",
+    "id": 30
+  },
+  {
+    "question": "तुम चाहो तो आ सकते हो।",
+    "options": [
+      "You may come if you wish",
+      "You may come when you wish",
+      "You may come because you wish",
+      "You may come so you wish"
+    ],
+    "correctIndex": 0,
+    "explanation": "'If' (तो) with 'wish' shows permission condition.",
+    "id": 31
+  },
+  {
+    "question": "वह रोया क्योंकि उसे चोट लगी थी।",
+    "options": [
+      "He cried because he was hurt",
+      "He cried so he was hurt",
+      "He cried but he was hurt",
+      "He cried and he was hurt"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives the reason for crying.",
+    "id": 32
+  },
+  {
+    "question": "पैदल चलो, नहीं तो ट्रेन छूट जाएगी।",
+    "options": [
+      "Walk fast, otherwise the train will be missed",
+      "Walk fast, so the train will be missed",
+      "Walk fast, and the train will be missed",
+      "Walk fast, but the train will be missed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Otherwise' (नहीं तो) shows alternative consequence.",
+    "id": 33
+  },
+  {
+    "question": "बावजूद इसके कि वह अमीर है, वह खुश नहीं है।",
+    "options": [
+      "Despite the fact that he is rich, he is not happy",
+      "Because he is rich, he is not happy",
+      "If he is rich, he is not happy",
+      "When he is rich, he is not happy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Despite' (बावजूद) shows contrast.",
+    "id": 34
+  },
+  {
+    "question": "जब मैं छोटा था, मैं पेड़ों पर चढ़ता था।",
+    "options": [
+      "When I was young, I used to climb trees",
+      "If I was young, I used to climb trees",
+      "Because I was young, I used to climb trees",
+      "So I was young, I used to climb trees"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) refers to past time.",
+    "id": 35
+  },
+  {
+    "question": "तुम पढ़ो ताकि पास हो सको।",
+    "options": [
+      "Study so that you can pass",
+      "Study because you can pass",
+      "Study if you can pass",
+      "Study when you can pass"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So that' (ताकि) expresses purpose.",
+    "id": 36
+  },
+  {
+    "question": "मैंने सोचा कि वह आएगा।",
+    "options": [
+      "I thought that he would come",
+      "I thought because he would come",
+      "I thought if he would come",
+      "I thought when he would come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a reported thought.",
+    "id": 37
+  },
+  {
+    "question": "चाहे कुछ भी हो, मैं अपनी बात पर अड़ा रहूंगा।",
+    "options": [
+      "Whatever happens, I will stick to my word",
+      "If anything happens, I will stick to my word",
+      "When anything happens, I will stick to my word",
+      "Because anything happens, I will stick to my word"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whatever' (चाहे कुछ भी) shows no matter what.",
+    "id": 38
+  },
+  {
+    "question": "वहाँ जाओ, वरना पछताओगे।",
+    "options": [
+      "Go there, or else you will regret",
+      "Go there, so you will regret",
+      "Go there, and you will regret",
+      "Go there, but you will regret"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Or else' (वरना) shows warning.",
+    "id": 39
+  },
+  {
+    "question": "जिसने मेहनत की, वही सफल हुआ।",
+    "options": [
+      "Whoever worked hard, succeeded",
+      "Who worked hard, succeeded",
+      "Whom worked hard, succeeded",
+      "Whose worked hard, succeeded"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whoever' (जिसने भी) means any person who.",
+    "id": 40
+  },
+  {
+    "question": "मैंने उससे पूछा कि वह क्यों रो रहा है।",
+    "options": [
+      "I asked him why he was crying",
+      "I asked him that he was crying",
+      "I asked him if he was crying",
+      "I asked him when he was crying"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Why' (क्यों) introduces an indirect question.",
+    "id": 41
+  },
+  {
+    "question": "जहाँ देखो, वहाँ गंदगी ही गंदगी है।",
+    "options": [
+      "Wherever you look, there is dirt everywhere",
+      "When you look, there is dirt",
+      "If you look, there is dirt",
+      "Because you look, there is dirt"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any location.",
+    "id": 42
+  },
+  {
+    "question": "वह इतना तेज दौड़ा कि सबको पीछे छोड़ दिया।",
+    "options": [
+      "He ran so fast that he left everyone behind",
+      "He ran so fast because he left everyone behind",
+      "He ran so fast but he left everyone behind",
+      "He ran so fast and he left everyone behind"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So...that' (इतना...कि) shows extreme result.",
+    "id": 43
+  },
+  {
+    "question": "जैसे ही ट्रेन आई, लोग दौड़ पड़े।",
+    "options": [
+      "As soon as the train arrived, people started running",
+      "When the train arrived, people started running",
+      "If the train arrived, people started running",
+      "Because the train arrived, people started running"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate action.",
+    "id": 44
+  },
+  {
+    "question": "तुम्हें या तो सच बोलना चाहिए या चुप रहना चाहिए।",
+    "options": [
+      "You should either speak the truth or remain silent",
+      "You should both speak the truth and remain silent",
+      "You should neither speak the truth nor remain silent",
+      "You should not only speak the truth but also remain silent"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Either...or' (या तो...या) presents two alternatives.",
+    "id": 45
+  },
+  {
+    "question": "जब तक जान है, तब तक जहान है।",
+    "options": [
+      "As long as there is life, there is the world",
+      "If there is life, there is the world",
+      "When there is life, there is the world",
+      "Because there is life, there is the world"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As long as' (जब तक) shows a condition of duration.",
+    "id": 46
+  },
+  {
+    "question": "वह अमीर है फिर भी विनम्र है।",
+    "options": [
+      "He is rich still he is humble",
+      "He is rich so he is humble",
+      "He is rich because he is humble",
+      "He is rich and he is humble"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Still' (फिर भी) shows contrast.",
+    "id": 47
+  },
+  {
+    "question": "मैंने तुम्हें बताया था कि ऐसा होगा।",
+    "options": [
+      "I had told you that this would happen",
+      "I had told you because this would happen",
+      "I had told you if this would happen",
+      "I had told you when this would happen"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a clause of prediction.",
+    "id": 48
+  },
+  {
+    "question": "जो लोग मेहनत करते हैं, वे सफल होते हैं।",
+    "options": [
+      "Those who work hard, succeed",
+      "Those whom work hard, succeed",
+      "Those whose work hard, succeed",
+      "Those which work hard, succeed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Who' (जो) refers to people as subject.",
+    "id": 49
+  },
+  {
+    "question": "यह किताब वहाँ रखो जहाँ से मिली थी।",
+    "options": [
+      "Keep this book where you found it",
+      "Keep this book when you found it",
+      "Keep this book if you found it",
+      "Keep this book because you found it"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Where' (जहाँ) indicates place.",
+    "id": 50
+  },
+  {
+    "question": "तुम चाहे जितना भी कोशिश करो, सफल नहीं हो सकते।",
+    "options": [
+      "However hard you try, you cannot succeed",
+      "Whenever hard you try, you cannot succeed",
+      "Wherever hard you try, you cannot succeed",
+      "Whatever hard you try, you cannot succeed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'However' (चाहे जितना भी) shows degree concession.",
+    "id": 51
+  },
+  {
+    "question": "बारिश हुई, इसलिए मैच रद्द हो गया।",
+    "options": [
+      "It rained, therefore the match was cancelled",
+      "It rained, but the match was cancelled",
+      "It rained, and the match was cancelled",
+      "It rained, or the match was cancelled"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Therefore' (इसलिए) shows cause and effect.",
+    "id": 52
+  },
+  {
+    "question": "जब तक तुम नहीं बुलाओगे, मैं नहीं आऊंगा।",
+    "options": [
+      "Unless you call me, I will not come",
+      "If you call me, I will not come",
+      "When you call me, I will not come",
+      "Because you call me, I will not come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Unless' (जब तक नहीं) means 'if not'.",
+    "id": 53
+  },
+  {
+    "question": "जो तुम बोओगे, वही काटोगे।",
+    "options": [
+      "What you sow, you shall reap",
+      "That you sow, you shall reap",
+      "Which you sow, you shall reap",
+      "Whom you sow, you shall reap"
+    ],
+    "correctIndex": 0,
+    "explanation": "'What' (जो/वही) refers to a thing.",
+    "id": 54
+  },
+  {
+    "question": "वह इतना शरारती है कि उसे कोई नहीं पढ़ाता।",
+    "options": [
+      "He is so naughty that nobody teaches him",
+      "He is so naughty because nobody teaches him",
+      "He is so naughty but nobody teaches him",
+      "He is so naughty and nobody teaches him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So...that' (इतना...कि) shows result.",
+    "id": 55
+  },
+  {
+    "question": "मैं उससे मिलने गया ताकि उसे खबर दे सकूं।",
+    "options": [
+      "I went to meet him so that I could give him the news",
+      "I went to meet him because I could give him the news",
+      "I went to meet him if I could give him the news",
+      "I went to meet him when I could give him the news"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So that' (ताकि) shows purpose.",
+    "id": 56
+  },
+  {
+    "question": "जैसे राजा वैसे प्रजा।",
+    "options": [
+      "As the king, so are the subjects",
+      "If the king, so are the subjects",
+      "When the king, so are the subjects",
+      "Because the king, so are the subjects"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसे...वैसे) shows similarity.",
+    "id": 57
+  },
+  {
+    "question": "न तो वह आया और न ही फोन किया।",
+    "options": [
+      "Neither did he come nor call",
+      "Either he came or called",
+      "Both he came and called",
+      "He came but didn't call"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 58
+  },
+  {
+    "question": "जब मैं पढ़ रहा था, तुम सो रहे थे।",
+    "options": [
+      "While I was studying, you were sleeping",
+      "When I was studying, you were sleeping",
+      "If I was studying, you were sleeping",
+      "Because I was studying, you were sleeping"
+    ],
+    "correctIndex": 0,
+    "explanation": "'While' (जब) shows simultaneous past actions.",
+    "id": 59
+  },
+  {
+    "question": "वह बीमार है, तो क्या हुआ? वह आएगा।",
+    "options": [
+      "He is sick, so what? He will come",
+      "He is sick, but what? He will come",
+      "He is sick, and what? He will come",
+      "He is sick, or what? He will come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So what' (तो क्या हुआ) shows indifference.",
+    "id": 60
+  },
+  {
+    "question": "जो मैंने कहा, वही सही है।",
+    "options": [
+      "What I said is correct",
+      "That I said is correct",
+      "Which I said is correct",
+      "Whom I said is correct"
+    ],
+    "correctIndex": 0,
+    "explanation": "'What' (जो/वही) refers to a statement.",
+    "id": 61
+  },
+  {
+    "question": "हालाँकि मैंने बहुत कोशिश की, फिर भी मैं असफल रहा।",
+    "options": [
+      "Although I tried hard, I still failed",
+      "Because I tried hard, I still failed",
+      "If I tried hard, I still failed",
+      "When I tried hard, I still failed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows concession.",
+    "id": 62
+  },
+  {
+    "question": "जहाँ जाओ, वहाँ अपना नाम रोशन करो।",
+    "options": [
+      "Wherever you go, brighten your name there",
+      "When you go, brighten your name",
+      "If you go, brighten your name",
+      "Because you go, brighten your name"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) shows any location.",
+    "id": 63
+  },
+  {
+    "question": "मैं इतना थक गया था कि चल नहीं सकता था।",
+    "options": [
+      "I was so tired that I could not walk",
+      "I was so tired because I could not walk",
+      "I was so tired but I could not walk",
+      "I was so tired and I could not walk"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So...that' (इतना...कि) shows extreme result.",
+    "id": 64
+  },
+  {
+    "question": "जैसे तुम करोगे, वैसे ही तुम्हें मिलेगा।",
+    "options": [
+      "As you do, so shall you receive",
+      "If you do, so shall you receive",
+      "When you do, so shall you receive",
+      "Because you do, so shall you receive"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसे...वैसे) shows proportionality.",
+    "id": 65
+  },
+  {
+    "question": "तुम जाओ, मैं आ रहा हूँ।",
+    "options": [
+      "You go, and I am coming",
+      "You go, but I am coming",
+      "You go, so I am coming",
+      "You go, or I am coming"
+    ],
+    "correctIndex": 0,
+    "explanation": "'And' (और) connects two related clauses.",
+    "id": 66
+  },
+  {
+    "question": "वह देर से आया क्योंकि उसकी गाड़ी खराब हो गई थी।",
+    "options": [
+      "He came late because his car had broken down",
+      "He came late so his car had broken down",
+      "He came late but his car had broken down",
+      "He came late and his car had broken down"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason for lateness.",
+    "id": 67
+  },
+  {
+    "question": "जब तक मैं जीवित हूँ, यह काम जारी रहेगा।",
+    "options": [
+      "As long as I am alive, this work will continue",
+      "If I am alive, this work will continue",
+      "When I am alive, this work will continue",
+      "Because I am alive, this work will continue"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As long as' (जब तक) shows condition of time.",
+    "id": 68
+  },
+  {
+    "question": "तुम पैसे ले लो, नहीं तो मैं किसी और को दे दूंगा।",
+    "options": [
+      "Take the money, otherwise I will give it to someone else",
+      "Take the money, so I will give it to someone else",
+      "Take the money, and I will give it to someone else",
+      "Take the money, but I will give it to someone else"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Otherwise' (नहीं तो) shows alternative.",
+    "id": 69
+  },
+  {
+    "question": "वह नहीं आया, तो मैं चला गया।",
+    "options": [
+      "He didn't come, so I left",
+      "He didn't come, but I left",
+      "He didn't come, and I left",
+      "He didn't come, or I left"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So' (तो) shows result.",
+    "id": 70
+  },
+  {
+    "question": "मैं वहाँ गया, लेकिन वह नहीं मिला।",
+    "options": [
+      "I went there, but he was not found",
+      "I went there, so he was not found",
+      "I went there, and he was not found",
+      "I went there, or he was not found"
+    ],
+    "correctIndex": 0,
+    "explanation": "'But' (लेकिन) shows contrast.",
+    "id": 71
+  },
+  {
+    "question": "तुम चाहो तो आओ, नहीं तो मत आओ।",
+    "options": [
+      "Come if you want, otherwise don't come",
+      "Come when you want, otherwise don't come",
+      "Come because you want, otherwise don't come",
+      "Come and you want, otherwise don't come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'If...otherwise' (चाहो तो...नहीं तो) shows choice.",
+    "id": 72
+  },
+  {
+    "question": "जैसे ही सूरज निकला, अंधेरा छंट गया।",
+    "options": [
+      "As soon as the sun rose, the darkness disappeared",
+      "When the sun rose, the darkness disappeared",
+      "If the sun rose, the darkness disappeared",
+      "Because the sun rose, the darkness disappeared"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate sequence.",
+    "id": 73
+  },
+  {
+    "question": "न तो मैंने कुछ कहा, न ही वह।",
+    "options": [
+      "Neither did I say anything, nor did he",
+      "Either I said anything, or he did",
+      "Both I said anything, and he did",
+      "I said nothing, but he did"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for two negative subjects.",
+    "id": 74
+  },
+  {
+    "question": "जहाँ चाहो वहाँ बैठ जाओ।",
+    "options": [
+      "Sit wherever you want",
+      "Sit whenever you want",
+      "Sit however you want",
+      "Sit whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 75
+  },
+  {
+    "question": "उसने न केवल पैसे दिए बल्कि मदद भी की।",
+    "options": [
+      "He not only gave money but also helped",
+      "He gave money and helped",
+      "He gave money or helped",
+      "He gave money but helped"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 76
+  },
+  {
+    "question": "जैसी संगत वैसी रंगत।",
+    "options": [
+      "As is the company, so is the color",
+      "If is the company, so is the color",
+      "When is the company, so is the color",
+      "Because is the company, so is the color"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसी...वैसी) shows correlation.",
+    "id": 77
+  },
+  {
+    "question": "वह बीमार था, फिर भी वह आया।",
+    "options": [
+      "He was ill, yet he came",
+      "He was ill, so he came",
+      "He was ill, because he came",
+      "He was ill, and he came"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows contrast.",
+    "id": 78
+  },
+  {
+    "question": "जब से मैंने यह किताब पढ़ी, मेरा नजरिया बदल गया।",
+    "options": [
+      "Since I read this book, my perspective has changed",
+      "When I read this book, my perspective has changed",
+      "If I read this book, my perspective has changed",
+      "Because I read this book, my perspective has changed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 79
+  },
+  {
+    "question": "तुम जितना दोगे, उतना पाओगे।",
+    "options": [
+      "The more you give, the more you will receive",
+      "If you give, you will receive",
+      "When you give, you will receive",
+      "Because you give, you will receive"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows proportion.",
+    "id": 80
+  },
+  {
+    "question": "मैं नहीं जानता कि वह कहाँ गया।",
+    "options": [
+      "I don't know where he went",
+      "I don't know when he went",
+      "I don't know why he went",
+      "I don't know how he went"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Where' (कहाँ) introduces an indirect question of place.",
+    "id": 81
+  },
+  {
+    "question": "तुम देखो, मैं करता हूँ।",
+    "options": [
+      "You watch, and I will do it",
+      "You watch, but I will do it",
+      "You watch, so I will do it",
+      "You watch, or I will do it"
+    ],
+    "correctIndex": 0,
+    "explanation": "'And' (और) connects two actions.",
+    "id": 82
+  },
+  {
+    "question": "वह इतना जल्दी आया कि कोई तैयार नहीं था।",
+    "options": [
+      "He came so early that no one was ready",
+      "He came so early because no one was ready",
+      "He came so early but no one was ready",
+      "He came so early and no one was ready"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So...that' (इतना...कि) shows extreme result.",
+    "id": 83
+  },
+  {
+    "question": "जैसे तुम वैसे मैं।",
+    "options": [
+      "As you are, so am I",
+      "If you are, so am I",
+      "When you are, so am I",
+      "Because you are, so am I"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसे...वैसे) shows similarity.",
+    "id": 84
+  },
+  {
+    "question": "हालाँकि उसने कोशिश की, लेकिन नहीं बना सका।",
+    "options": [
+      "Although he tried, he could not make it",
+      "Because he tried, he could not make it",
+      "If he tried, he could not make it",
+      "When he tried, he could not make it"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows concession.",
+    "id": 85
+  },
+  {
+    "question": "मैंने तुमसे कहा था कि ऐसा मत करो।",
+    "options": [
+      "I had told you not to do that",
+      "I had told you because not to do that",
+      "I had told you if not to do that",
+      "I had told you when not to do that"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) is implied in 'not to do' structure.",
+    "id": 86
+  },
+  {
+    "question": "जब तुमने बुलाया, मैं सो रहा था।",
+    "options": [
+      "When you called, I was sleeping",
+      "If you called, I was sleeping",
+      "Because you called, I was sleeping",
+      "So you called, I was sleeping"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time of action.",
+    "id": 87
+  },
+  {
+    "question": "जो मेरा है, वह तुम्हारा है।",
+    "options": [
+      "What is mine is yours",
+      "That is mine is yours",
+      "Which is mine is yours",
+      "Whom is mine is yours"
+    ],
+    "correctIndex": 0,
+    "explanation": "'What' (जो) refers to an unspecified thing.",
+    "id": 88
+  },
+  {
+    "question": "तुम आओ, नहीं तो मैं नाराज हो जाऊंगा।",
+    "options": [
+      "Come, otherwise I will get angry",
+      "Come, so I will get angry",
+      "Come, and I will get angry",
+      "Come, but I will get angry"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Otherwise' (नहीं तो) shows consequence.",
+    "id": 89
+  },
+  {
+    "question": "वह पानी में कूद पड़ा मानो तैरना जानता हो।",
+    "options": [
+      "He jumped into the water as if he knew swimming",
+      "He jumped into the water because he knew swimming",
+      "He jumped into the water so he knew swimming",
+      "He jumped into the water and he knew swimming"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (मानो) shows unreal comparison.",
+    "id": 90
+  },
+  {
+    "question": "तुम चाहे जैसा भी बनो, मैं तुम्हें प्यार करूंगा।",
+    "options": [
+      "However you are, I will love you",
+      "Wherever you are, I will love you",
+      "Whenever you are, I will love you",
+      "Whatever you are, I will love you"
+    ],
+    "correctIndex": 0,
+    "explanation": "'However' (चाहे जैसा भी) shows manner concession.",
+    "id": 91
+  },
+  {
+    "question": "मैं समझ गया कि तुम क्या चाहते हो।",
+    "options": [
+      "I understood what you want",
+      "I understood that you want",
+      "I understood when you want",
+      "I understood why you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'What' (क्या) introduces an indirect question about thing.",
+    "id": 92
+  },
+  {
+    "question": "जितनी जल्दी हो, उतना अच्छा है।",
+    "options": [
+      "The sooner, the better",
+      "The faster, the better",
+      "The quicker, the better",
+      "The earlier, the better"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The sooner...the better' (जितनी जल्दी...उतना अच्छा) shows proportion.",
+    "id": 93
+  },
+  {
+    "question": "बारिश रुकते ही हम चल पड़े।",
+    "options": [
+      "As soon as the rain stopped, we left",
+      "When the rain stopped, we left",
+      "If the rain stopped, we left",
+      "Because the rain stopped, we left"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (रुकते ही) shows immediate sequence.",
+    "id": 94
+  },
+  {
+    "question": "वह ऐसे बोला जैसे सब कुछ जानता हो।",
+    "options": [
+      "He spoke as if he knew everything",
+      "He spoke because he knew everything",
+      "He spoke so he knew everything",
+      "He spoke and he knew everything"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 95
+  },
+  {
+    "question": "न तो मैंने खाना खाया, न ही पानी पिया।",
+    "options": [
+      "Neither did I eat food nor drink water",
+      "Either I ate food or drank water",
+      "Both I ate food and drank water",
+      "I ate food but didn't drink water"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both verbs.",
+    "id": 96
+  },
+  {
+    "question": "तुम बैठो, मैं खड़ा हूँ।",
+    "options": [
+      "You sit, and I am standing",
+      "You sit, but I am standing",
+      "You sit, so I am standing",
+      "You sit, or I am standing"
+    ],
+    "correctIndex": 0,
+    "explanation": "'And' (और) connects contrasting states.",
+    "id": 97
+  },
+  {
+    "question": "वह गाना गाता रहा, भीड़ इकट्ठा होती रही।",
+    "options": [
+      "He kept singing, and the crowd kept gathering",
+      "He kept singing, but the crowd kept gathering",
+      "He kept singing, so the crowd kept gathering",
+      "He kept singing, or the crowd kept gathering"
+    ],
+    "correctIndex": 0,
+    "explanation": "'And' (और) shows simultaneous actions.",
+    "id": 98
+  },
+  {
+    "question": "जब वह आएगा, तब मैं जाऊंगा।",
+    "options": [
+      "When he comes, then I will go",
+      "If he comes, then I will go",
+      "Because he comes, then I will go",
+      "So he comes, then I will go"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When...then' (जब...तब) shows time sequence.",
+    "id": 99
+  },
+  {
+    "question": "जैसे तुम समझदार हो, वैसे ही करो।",
+    "options": [
+      "Do as you are wise",
+      "Do if you are wise",
+      "Do when you are wise",
+      "Do because you are wise"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 100
+  },
+  {
+    "question": "वह दौड़ा ताकि ट्रेन पकड़ सके।",
+    "options": [
+      "He ran so that he could catch the train",
+      "He ran because he could catch the train",
+      "He ran if he could catch the train",
+      "He ran when he could catch the train"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So that' (ताकि) shows purpose.",
+    "id": 101
+  },
+  {
+    "question": "चाहे तुम आओ या नहीं, मैं जाऊंगा।",
+    "options": [
+      "Whether you come or not, I will go",
+      "If you come or not, I will go",
+      "When you come or not, I will go",
+      "Because you come or not, I will go"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whether...or not' (चाहे...या नहीं) shows condition.",
+    "id": 102
+  },
+  {
+    "question": "तुमने जो कहा, वह गलत था।",
+    "options": [
+      "What you said was wrong",
+      "That you said was wrong",
+      "Which you said was wrong",
+      "Whom you said was wrong"
+    ],
+    "correctIndex": 0,
+    "explanation": "'What' (जो) refers to a statement.",
+    "id": 103
+  },
+  {
+    "question": "मैं नहीं जानता कि वह कब आएगा।",
+    "options": [
+      "I don't know when he will come",
+      "I don't know where he will come",
+      "I don't know why he will come",
+      "I don't know how he will come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (कब) asks about time.",
+    "id": 104
+  },
+  {
+    "question": "जितना तुम मुझे दोगे, उतना मैं लूंगा।",
+    "options": [
+      "The more you give me, the more I will take",
+      "If you give me, I will take",
+      "When you give me, I will take",
+      "Because you give me, I will take"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows direct proportion.",
+    "id": 105
+  },
+  {
+    "question": "वह बाजार गया और सब्जी लाया।",
+    "options": [
+      "He went to the market and brought vegetables",
+      "He went to the market but brought vegetables",
+      "He went to the market so brought vegetables",
+      "He went to the market because brought vegetables"
+    ],
+    "correctIndex": 0,
+    "explanation": "'And' (और) shows sequence of actions.",
+    "id": 106
+  },
+  {
+    "question": "तुम या तो सच बोलो या चुप रहो।",
+    "options": [
+      "Either speak the truth or keep quiet",
+      "Both speak the truth and keep quiet",
+      "Neither speak the truth nor keep quiet",
+      "Not only speak the truth but also keep quiet"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Either...or' (या तो...या) gives two options.",
+    "id": 107
+  },
+  {
+    "question": "हालाँकि मैं थका था, फिर भी मैंने काम पूरा किया।",
+    "options": [
+      "Although I was tired, I still completed the work",
+      "Because I was tired, I still completed the work",
+      "If I was tired, I still completed the work",
+      "When I was tired, I still completed the work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast with 'still'.",
+    "id": 108
+  },
+  {
+    "question": "जब तक मैं जीवित हूँ, यह सिलसिला जारी रहेगा।",
+    "options": [
+      "As long as I am alive, this sequence will continue",
+      "If I am alive, this sequence will continue",
+      "When I am alive, this sequence will continue",
+      "Because I am alive, this sequence will continue"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As long as' (जब तक) shows duration condition.",
+    "id": 109
+  },
+  {
+    "question": "उसने इतनी तेज आवाज में चिल्लाया कि सब दंग रह गए।",
+    "options": [
+      "He shouted so loudly that everyone was stunned",
+      "He shouted so loudly because everyone was stunned",
+      "He shouted so loudly but everyone was stunned",
+      "He shouted so loudly and everyone was stunned"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So...that' (इतना...कि) shows extreme result.",
+    "id": 110
+  },
+  {
+    "question": "जहाँ देखो, वहाँ हरियाली है।",
+    "options": [
+      "Wherever you look, there is greenery",
+      "When you look, there is greenery",
+      "If you look, there is greenery",
+      "Because you look, there is greenery"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 111
+  },
+  {
+    "question": "मैं उससे प्यार करता हूँ, तो क्या?",
+    "options": [
+      "I love him, so what?",
+      "I love him, but what?",
+      "I love him, and what?",
+      "I love him, or what?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So what' (तो क्या) shows defiance or indifference.",
+    "id": 112
+  },
+  {
+    "question": "न तो वह पढ़ता है, न ही पढ़ने देता है।",
+    "options": [
+      "Neither does he study, nor does he let others study",
+      "Either he studies, or he lets others study",
+      "Both he studies and lets others study",
+      "He studies but doesn't let others study"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both actions.",
+    "id": 113
+  },
+  {
+    "question": "जैसे तुम कहो, वैसे करूंगा।",
+    "options": [
+      "I will do as you say",
+      "I will do if you say",
+      "I will do when you say",
+      "I will do because you say"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 114
+  },
+  {
+    "question": "बारिश हो रही थी, इसलिए हम घर पर रुके।",
+    "options": [
+      "It was raining, therefore we stayed home",
+      "It was raining, but we stayed home",
+      "It was raining, and we stayed home",
+      "It was raining, or we stayed home"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Therefore' (इसलिए) shows logical result.",
+    "id": 115
+  },
+  {
+    "question": "तुम चाहो तो मैं आ सकता हूँ।",
+    "options": [
+      "I can come if you wish",
+      "I can come when you wish",
+      "I can come because you wish",
+      "I can come so you wish"
+    ],
+    "correctIndex": 0,
+    "explanation": "'If' (तो) shows condition.",
+    "id": 116
+  },
+  {
+    "question": "वह रोया मानो उसे बहुत दुख हुआ हो।",
+    "options": [
+      "He cried as if he was very sad",
+      "He cried because he was very sad",
+      "He cried so he was very sad",
+      "He cried and he was very sad"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (मानो) shows unreal comparison.",
+    "id": 117
+  },
+  {
+    "question": "जब तक तुम वापस नहीं आओगे, मैं यहीं रुकूंगा।",
+    "options": [
+      "I will stay here until you come back",
+      "I will stay here if you come back",
+      "I will stay here when you come back",
+      "I will stay here because you come back"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time limit.",
+    "id": 118
+  },
+  {
+    "question": "तुमने जैसा कहा, वैसा ही किया।",
+    "options": [
+      "I did exactly as you said",
+      "I did if you said",
+      "I did when you said",
+      "I did because you said"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसा) shows manner.",
+    "id": 119
+  },
+  {
+    "question": "वह बहुत मेहनत करता है ताकि सफल हो सके।",
+    "options": [
+      "He works very hard so that he can succeed",
+      "He works very hard because he can succeed",
+      "He works very hard if he can succeed",
+      "He works very hard when he can succeed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So that' (ताकि) shows purpose.",
+    "id": 120
+  },
+  {
+    "question": "चाहे तुम कितना भी समझाओ, वह नहीं मानेगा।",
+    "options": [
+      "No matter how much you explain, he won't agree",
+      "No matter when you explain, he won't agree",
+      "No matter where you explain, he won't agree",
+      "No matter why you explain, he won't agree"
+    ],
+    "correctIndex": 0,
+    "explanation": "'No matter how' (चाहे कितना भी) shows concession.",
+    "id": 121
+  },
+  {
+    "question": "मैंने देखा कि वह आ रहा है।",
+    "options": [
+      "I saw that he was coming",
+      "I saw because he was coming",
+      "I saw if he was coming",
+      "I saw when he was coming"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a noun clause.",
+    "id": 122
+  },
+  {
+    "question": "जैसे ही वह बोला, सब हंस पड़े।",
+    "options": [
+      "As soon as he spoke, everyone laughed",
+      "When he spoke, everyone laughed",
+      "If he spoke, everyone laughed",
+      "Because he spoke, everyone laughed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 123
+  },
+  {
+    "question": "न तो मैं जाऊंगा, न ही वह।",
+    "options": [
+      "Neither will I go, nor will he",
+      "Either I will go, or he will",
+      "Both I will go, and he will",
+      "I will go, but he won't"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for two negative subjects.",
+    "id": 124
+  },
+  {
+    "question": "तुम जहाँ जाओ, मैं वहाँ रहूंगा।",
+    "options": [
+      "Wherever you go, I will be there",
+      "Whenever you go, I will be there",
+      "However you go, I will be there",
+      "Whatever you go, I will be there"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 125
+  },
+  {
+    "question": "उसने न केवल खुद पढ़ा बल्कि दूसरों को भी पढ़ाया।",
+    "options": [
+      "He not only studied himself but also taught others",
+      "He studied himself and taught others",
+      "He studied himself or taught others",
+      "He studied himself but taught others"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 126
+  },
+  {
+    "question": "जब से वह गया है, तब से सन्नाटा है।",
+    "options": [
+      "Since he left, there has been silence",
+      "When he left, there has been silence",
+      "If he left, there has been silence",
+      "Because he left, there has been silence"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 127
+  },
+  {
+    "question": "मैं समझ गया कि तुम क्यों परेशान हो।",
+    "options": [
+      "I understood why you are upset",
+      "I understood that you are upset",
+      "I understood when you are upset",
+      "I understood where you are upset"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Why' (क्यों) asks about reason.",
+    "id": 128
+  },
+  {
+    "question": "तुम जैसा बोलोगे, वैसा सुनोगे।",
+    "options": [
+      "As you speak, so shall you hear",
+      "If you speak, so shall you hear",
+      "When you speak, so shall you hear",
+      "Because you speak, so shall you hear"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows reciprocity.",
+    "id": 129
+  },
+  {
+    "question": "बावजूद इसके कि उसे बहुत कहा गया, वह नहीं माना।",
+    "options": [
+      "Despite being told repeatedly, he did not agree",
+      "Because he was told repeatedly, he did not agree",
+      "If he was told repeatedly, he did not agree",
+      "When he was told repeatedly, he did not agree"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Despite' (बावजूद) shows contrast.",
+    "id": 130
+  },
+  {
+    "question": "जैसे-जैसे बच्चा बड़ा होता है, वैसे-वैसे समझदार होता है।",
+    "options": [
+      "As the child grows, he becomes wiser",
+      "If the child grows, he becomes wiser",
+      "When the child grows, he becomes wiser",
+      "Because the child grows, he becomes wiser"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे-जैसे) shows gradual change.",
+    "id": 131
+  },
+  {
+    "question": "तुम यह काम करो, मैं वह करूंगा।",
+    "options": [
+      "You do this work, and I will do that",
+      "You do this work, but I will do that",
+      "You do this work, so I will do that",
+      "You do this work, or I will do that"
+    ],
+    "correctIndex": 0,
+    "explanation": "'And' (और) connects two actions.",
+    "id": 132
+  },
+  {
+    "question": "वह इतना बीमार था कि उठ नहीं सकता था।",
+    "options": [
+      "He was so ill that he could not get up",
+      "He was so ill because he could not get up",
+      "He was so ill but he could not get up",
+      "He was so ill and he could not get up"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So...that' (इतना...कि) shows result.",
+    "id": 133
+  },
+  {
+    "question": "तुमने जैसे कहा, मैंने वैसे ही किया।",
+    "options": [
+      "I did exactly as you said",
+      "I did if you said",
+      "I did when you said",
+      "I did because you said"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 134
+  },
+  {
+    "question": "चाहे तुम जाओ या नहीं, मैं जाऊंगा।",
+    "options": [
+      "Whether you go or not, I will go",
+      "If you go or not, I will go",
+      "When you go or not, I will go",
+      "Because you go or not, I will go"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whether...or not' (चाहे...या नहीं) shows indifference.",
+    "id": 135
+  },
+  {
+    "question": "मैं नहीं जानता कि उसने ऐसा क्यों किया।",
+    "options": [
+      "I don't know why he did that",
+      "I don't know when he did that",
+      "I don't know where he did that",
+      "I don't know how he did that"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Why' (क्यों) asks about reason.",
+    "id": 136
+  },
+  {
+    "question": "जैसे ही सुबह हुई, चिड़ियाँ चहकने लगीं।",
+    "options": [
+      "As soon as it was morning, the birds started chirping",
+      "When it was morning, the birds started chirping",
+      "If it was morning, the birds started chirping",
+      "Because it was morning, the birds started chirping"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate sequence.",
+    "id": 137
+  },
+  {
+    "question": "न तो उसने खाना खाया, न ही पानी पिया।",
+    "options": [
+      "Neither did he eat food nor drink water",
+      "Either he ate food or drank water",
+      "Both he ate food and drank water",
+      "He ate food but didn't drink water"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 138
+  },
+  {
+    "question": "तुम चाहे जहाँ भी जाओ, मुझे बताना।",
+    "options": [
+      "Wherever you go, tell me",
+      "Whenever you go, tell me",
+      "However you go, tell me",
+      "Whatever you go, tell me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 139
+  },
+  {
+    "question": "वह बहुत तेज भागा ताकि पुलिस न पकड़ सके।",
+    "options": [
+      "He ran very fast so that the police could not catch him",
+      "He ran very fast because the police could not catch him",
+      "He ran very fast if the police could not catch him",
+      "He ran very fast when the police could not catch him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So that' (ताकि) shows purpose.",
+    "id": 140
+  },
+  {
+    "question": "जब मैं छोटा था, मुझे खेलना बहुत पसंद था।",
+    "options": [
+      "When I was young, I loved playing",
+      "If I was young, I loved playing",
+      "Because I was young, I loved playing",
+      "So I was young, I loved playing"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) refers to past time.",
+    "id": 141
+  },
+  {
+    "question": "तुम जैसे हो, वैसे ही स्वीकार किए जाओगे।",
+    "options": [
+      "You will be accepted as you are",
+      "You will be accepted if you are",
+      "You will be accepted when you are",
+      "You will be accepted because you are"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 142
+  },
+  {
+    "question": "हालाँकि उसे पता था, फिर भी उसने पूछा।",
+    "options": [
+      "Although he knew, he still asked",
+      "Because he knew, he still asked",
+      "If he knew, he still asked",
+      "When he knew, he still asked"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 143
+  },
+  {
+    "question": "जितना वह समझाता है, उतना ही मैं उलझता हूँ।",
+    "options": [
+      "The more he explains, the more confused I get",
+      "If he explains, the more confused I get",
+      "When he explains, the more confused I get",
+      "Because he explains, the more confused I get"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows proportion.",
+    "id": 144
+  },
+  {
+    "question": "वह देर से आया, इसलिए उसे अंदर नहीं जाने दिया गया।",
+    "options": [
+      "He came late, therefore he was not allowed inside",
+      "He came late, but he was not allowed inside",
+      "He came late, and he was not allowed inside",
+      "He came late, or he was not allowed inside"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Therefore' (इसलिए) shows result.",
+    "id": 145
+  },
+  {
+    "question": "मैंने सोचा कि शायद वह आ जाए।",
+    "options": [
+      "I thought that perhaps he would come",
+      "I thought because perhaps he would come",
+      "I thought if perhaps he would come",
+      "I thought when perhaps he would come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a thought clause.",
+    "id": 146
+  },
+  {
+    "question": "जैसे तुम देखोगे, वैसे ही बनोगे।",
+    "options": [
+      "As you see, so shall you become",
+      "If you see, so shall you become",
+      "When you see, so shall you become",
+      "Because you see, so shall you become"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसे...वैसे) shows influence.",
+    "id": 147
+  },
+  {
+    "question": "चाहे वह कितना भी कोशिश करे, उसे सफलता नहीं मिलेगी।",
+    "options": [
+      "However hard he tries, he will not succeed",
+      "Wherever hard he tries, he will not succeed",
+      "Whenever hard he tries, he will not succeed",
+      "Whatever hard he tries, he will not succeed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'However' (चाहे कितना भी) shows concession.",
+    "id": 148
+  },
+  {
+    "question": "न तो मैंने कुछ खाया, न ही कुछ पिया।",
+    "options": [
+      "Neither did I eat anything nor drink anything",
+      "Either I ate something or drank something",
+      "Both I ate and drank something",
+      "I ate something but didn't drink"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 149
+  },
+  {
+    "question": "तुम जब चाहो, आ सकते हो।",
+    "options": [
+      "You may come whenever you want",
+      "You may come wherever you want",
+      "You may come however you want",
+      "You may come whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 150
+  },
+  {
+    "question": "वह बीमार पड़ गया क्योंकि उसने ठंडा पानी पिया।",
+    "options": [
+      "He fell ill because he drank cold water",
+      "He fell ill so he drank cold water",
+      "He fell ill but he drank cold water",
+      "He fell ill and he drank cold water"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 151
+  },
+  {
+    "question": "जब तक तुम नहीं मानोगे, मैं यहीं रहूंगा।",
+    "options": [
+      "I will stay here until you agree",
+      "I will stay here if you agree",
+      "I will stay here when you agree",
+      "I will stay here because you agree"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 152
+  },
+  {
+    "question": "तुमने जैसा बीज बोया, वैसा ही पेड़ उगा।",
+    "options": [
+      "As you sowed the seed, so grew the tree",
+      "If you sowed the seed, so grew the tree",
+      "When you sowed the seed, so grew the tree",
+      "Because you sowed the seed, so grew the tree"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows causality.",
+    "id": 153
+  },
+  {
+    "question": "वह ऐसे हंसा मानो पागल हो।",
+    "options": [
+      "He laughed as if he were mad",
+      "He laughed because he was mad",
+      "He laughed so he was mad",
+      "He laughed and he was mad"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (मानो) shows unreal comparison.",
+    "id": 154
+  },
+  {
+    "question": "तुम इतना मत बोलो, नहीं तो मैं चला जाऊंगा।",
+    "options": [
+      "Don't talk so much, otherwise I will leave",
+      "Don't talk so much, so I will leave",
+      "Don't talk so much, and I will leave",
+      "Don't talk so much, but I will leave"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Otherwise' (नहीं तो) shows consequence.",
+    "id": 155
+  },
+  {
+    "question": "मैं नहीं जानता कि वह कैसे आया।",
+    "options": [
+      "I don't know how he came",
+      "I don't know when he came",
+      "I don't know where he came",
+      "I don't know why he came"
+    ],
+    "correctIndex": 0,
+    "explanation": "'How' (कैसे) asks about manner.",
+    "id": 156
+  },
+  {
+    "question": "जैसे ही क्लास शुरू हुई, सब चुप हो गए।",
+    "options": [
+      "As soon as the class started, everyone became quiet",
+      "When the class started, everyone became quiet",
+      "If the class started, everyone became quiet",
+      "Because the class started, everyone became quiet"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate action.",
+    "id": 157
+  },
+  {
+    "question": "न तो उसने मुझे बताया, न ही मैंने पूछा।",
+    "options": [
+      "Neither did he tell me, nor did I ask",
+      "Either he told me, or I asked",
+      "Both he told me and I asked",
+      "He told me but I didn't ask"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for two negatives.",
+    "id": 158
+  },
+  {
+    "question": "तुम जहाँ चाहो, वहाँ बैठ जाओ।",
+    "options": [
+      "Sit wherever you want",
+      "Sit whenever you want",
+      "Sit however you want",
+      "Sit whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 159
+  },
+  {
+    "question": "उसने न केवल गाना गाया बल्कि नाचा भी।",
+    "options": [
+      "He not only sang but also danced",
+      "He sang and danced",
+      "He sang or danced",
+      "He sang but danced"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 160
+  },
+  {
+    "question": "जब से तुम आए हो, मैं खुश हूँ।",
+    "options": [
+      "Since you came, I am happy",
+      "When you came, I am happy",
+      "If you came, I am happy",
+      "Because you came, I am happy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) can mean 'because'.",
+    "id": 161
+  },
+  {
+    "question": "तुम चाहे जैसा भी करो, मुझे कोई फर्क नहीं पड़ता।",
+    "options": [
+      "Whatever you do, I don't care",
+      "Whenever you do, I don't care",
+      "Wherever you do, I don't care",
+      "However you do, I don't care"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whatever' (जैसा भी) shows indifference.",
+    "id": 162
+  },
+  {
+    "question": "वह रोज आता है और मुझसे मिलता है।",
+    "options": [
+      "He comes daily and meets me",
+      "He comes daily but meets me",
+      "He comes daily so meets me",
+      "He comes daily because meets me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'And' (और) connects two habitual actions.",
+    "id": 163
+  },
+  {
+    "question": "जितना पैसा तुम कमाओगे, उतना ही खर्च करोगे।",
+    "options": [
+      "The more money you earn, the more you will spend",
+      "If you earn money, you will spend",
+      "When you earn money, you will spend",
+      "Because you earn money, you will spend"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows direct proportion.",
+    "id": 164
+  },
+  {
+    "question": "हालाँकि वह बहुत अमीर है, लेकिन वह दान नहीं देता।",
+    "options": [
+      "Although he is very rich, he does not donate",
+      "Because he is very rich, he does not donate",
+      "If he is very rich, he does not donate",
+      "When he is very rich, he does not donate"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 165
+  },
+  {
+    "question": "मैंने पूछा कि वह कहाँ रहता है।",
+    "options": [
+      "I asked where he lives",
+      "I asked when he lives",
+      "I asked why he lives",
+      "I asked how he lives"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Where' (कहाँ) asks about place.",
+    "id": 166
+  },
+  {
+    "question": "जैसे-जैसे हम ऊपर जाते हैं, वैसे-वैसे ठंड बढ़ती है।",
+    "options": [
+      "As we go higher, the cold increases",
+      "If we go higher, the cold increases",
+      "When we go higher, the cold increases",
+      "Because we go higher, the cold increases"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे-जैसे) shows gradual change.",
+    "id": 167
+  },
+  {
+    "question": "तुम या तो इसे लो या छोड़ो।",
+    "options": [
+      "Either take it or leave it",
+      "Both take it and leave it",
+      "Neither take it nor leave it",
+      "Not only take it but also leave it"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Either...or' (या तो...या) presents a choice.",
+    "id": 168
+  },
+  {
+    "question": "वह बहुत जल्दी आया, फिर भी उसे देर हो गई।",
+    "options": [
+      "He came very early, yet he got late",
+      "He came very early, so he got late",
+      "He came very early, because he got late",
+      "He came very early, and he got late"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 169
+  },
+  {
+    "question": "जब तक तुम नहीं कहोगे, मैं नहीं करूंगा।",
+    "options": [
+      "I won't do it unless you say",
+      "I won't do it if you say",
+      "I won't do it when you say",
+      "I won't do it because you say"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Unless' (जब तक नहीं) means 'if not'.",
+    "id": 170
+  },
+  {
+    "question": "तुम जैसा सोचते हो, वैसा ही बन जाते हो।",
+    "options": [
+      "As you think, so you become",
+      "If you think, so you become",
+      "When you think, so you become",
+      "Because you think, so you become"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows thought-behavior link.",
+    "id": 171
+  },
+  {
+    "question": "चाहे तुम कहो या न कहो, मैं जाऊंगा।",
+    "options": [
+      "Whether you say or not, I will go",
+      "If you say or not, I will go",
+      "When you say or not, I will go",
+      "Because you say or not, I will go"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whether...or not' (चाहे...या नहीं) shows determination.",
+    "id": 172
+  },
+  {
+    "question": "मैंने कहा कि मैं नहीं जाऊंगा।",
+    "options": [
+      "I said that I would not go",
+      "I said because I would not go",
+      "I said if I would not go",
+      "I said when I would not go"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a reported statement.",
+    "id": 173
+  },
+  {
+    "question": "जैसे ही फोन बजा, मैं उठा।",
+    "options": [
+      "As soon as the phone rang, I got up",
+      "When the phone rang, I got up",
+      "If the phone rang, I got up",
+      "Because the phone rang, I got up"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate response.",
+    "id": 174
+  },
+  {
+    "question": "न तो वह समझता है, न ही समझना चाहता है।",
+    "options": [
+      "Neither does he understand, nor does he want to understand",
+      "Either he understands, or he wants to understand",
+      "Both he understands and wants to understand",
+      "He understands but doesn't want to understand"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 175
+  },
+  {
+    "question": "तुम जब चाहो, मुझे बुला सकते हो।",
+    "options": [
+      "You can call me whenever you want",
+      "You can call me wherever you want",
+      "You can call me however you want",
+      "You can call me whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 176
+  },
+  {
+    "question": "उसने बहुत मेहनत की, इसलिए उसे सफलता मिली।",
+    "options": [
+      "He worked very hard, therefore he got success",
+      "He worked very hard, but he got success",
+      "He worked very hard, and he got success",
+      "He worked very hard, or he got success"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Therefore' (इसलिए) shows cause-effect.",
+    "id": 177
+  },
+  {
+    "question": "जब मैंने उसे देखा, तो वह हंस रहा था।",
+    "options": [
+      "When I saw him, he was laughing",
+      "If I saw him, he was laughing",
+      "Because I saw him, he was laughing",
+      "So I saw him, he was laughing"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time of seeing.",
+    "id": 178
+  },
+  {
+    "question": "तुम जैसे हो, वैसे ही रहो।",
+    "options": [
+      "Stay as you are",
+      "Stay if you are",
+      "Stay when you are",
+      "Stay because you are"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 179
+  },
+  {
+    "question": "वह ऐसे दौड़ा जैसे उसकी जान बचानी हो।",
+    "options": [
+      "He ran as if his life depended on it",
+      "He ran because his life depended on it",
+      "He ran so his life depended on it",
+      "He ran and his life depended on it"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 180
+  },
+  {
+    "question": "जितना तुम दोगे, उतना मैं लूंगा।",
+    "options": [
+      "The more you give, the more I will take",
+      "If you give, I will take",
+      "When you give, I will take",
+      "Because you give, I will take"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows proportion.",
+    "id": 181
+  },
+  {
+    "question": "हालाँकि उसे चोट लगी थी, फिर भी वह दौड़ता रहा।",
+    "options": [
+      "Although he was injured, he still kept running",
+      "Because he was injured, he still kept running",
+      "If he was injured, he still kept running",
+      "When he was injured, he still kept running"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 182
+  },
+  {
+    "question": "मैंने उससे पूछा कि उसने ऐसा क्यों किया।",
+    "options": [
+      "I asked him why he did that",
+      "I asked him when he did that",
+      "I asked him where he did that",
+      "I asked him how he did that"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Why' (क्यों) asks about reason.",
+    "id": 183
+  },
+  {
+    "question": "जैसे ही डॉक्टर आया, मरीज को होश आ गया।",
+    "options": [
+      "As soon as the doctor came, the patient regained consciousness",
+      "When the doctor came, the patient regained consciousness",
+      "If the doctor came, the patient regained consciousness",
+      "Because the doctor came, the patient regained consciousness"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate sequence.",
+    "id": 184
+  },
+  {
+    "question": "न तो मैंने उसे देखा, न ही उसने मुझे।",
+    "options": [
+      "Neither did I see him, nor did he see me",
+      "Either I saw him, or he saw me",
+      "Both I saw him and he saw me",
+      "I saw him but he didn't see me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 185
+  },
+  {
+    "question": "तुम जहाँ भी जाओ, मेरा आशीर्वाद तुम्हारे साथ है।",
+    "options": [
+      "Wherever you go, my blessings are with you",
+      "Whenever you go, my blessings are with you",
+      "However you go, my blessings are with you",
+      "Whatever you go, my blessings are with you"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 186
+  },
+  {
+    "question": "उसने न केवल मेरी मदद की बल्कि मुझे प्रोत्साहित भी किया।",
+    "options": [
+      "He not only helped me but also encouraged me",
+      "He helped me and encouraged me",
+      "He helped me or encouraged me",
+      "He helped me but encouraged me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 187
+  },
+  {
+    "question": "जब से तुम गए हो, मन नहीं लगता।",
+    "options": [
+      "Since you left, I don't feel like doing anything",
+      "When you left, I don't feel like doing anything",
+      "If you left, I don't feel like doing anything",
+      "Because you left, I don't feel like doing anything"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 188
+  },
+  {
+    "question": "तुम चाहे कितना भी समझाओ, वह नहीं सुनेगा।",
+    "options": [
+      "No matter how much you explain, he won't listen",
+      "No matter when you explain, he won't listen",
+      "No matter where you explain, he won't listen",
+      "No matter why you explain, he won't listen"
+    ],
+    "correctIndex": 0,
+    "explanation": "'No matter how' (चाहे कितना भी) shows concession.",
+    "id": 189
+  },
+  {
+    "question": "वह रोया क्योंकि उसकी माँ ने डांटा।",
+    "options": [
+      "He cried because his mother scolded him",
+      "He cried so his mother scolded him",
+      "He cried but his mother scolded him",
+      "He cried and his mother scolded him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 190
+  },
+  {
+    "question": "जब तक तुम नहीं आओगे, मैं नहीं जाऊंगा।",
+    "options": [
+      "I will not go until you come",
+      "I will not go if you come",
+      "I will not go when you come",
+      "I will not go because you come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 191
+  },
+  {
+    "question": "तुम जैसे बनना चाहते हो, वैसे बनो।",
+    "options": [
+      "Become as you want to become",
+      "Become if you want to become",
+      "Become when you want to become",
+      "Become because you want to become"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 192
+  },
+  {
+    "question": "वह ऐसे चुप बैठा था जैसे कुछ सुन ही नहीं रहा हो।",
+    "options": [
+      "He sat silent as if he were not listening at all",
+      "He sat silent because he was not listening at all",
+      "He sat silent so he was not listening at all",
+      "He sat silent and he was not listening at all"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 193
+  },
+  {
+    "question": "जितना तुम पढ़ोगे, उतना ही अच्छा अंक आएगा।",
+    "options": [
+      "The more you study, the better marks you will get",
+      "If you study, the better marks you will get",
+      "When you study, the better marks you will get",
+      "Because you study, the better marks you will get"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the better' (जितना...उतना) shows proportion.",
+    "id": 194
+  },
+  {
+    "question": "हालाँकि मैंने उसे मना किया, फिर भी वह गया।",
+    "options": [
+      "Although I forbade him, he still went",
+      "Because I forbade him, he still went",
+      "If I forbade him, he still went",
+      "When I forbade him, he still went"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 195
+  },
+  {
+    "question": "मैंने सुना कि तुम बीमार हो।",
+    "options": [
+      "I heard that you are sick",
+      "I heard because you are sick",
+      "I heard if you are sick",
+      "I heard when you are sick"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a noun clause.",
+    "id": 196
+  },
+  {
+    "question": "जैसे ही ट्रेन छूटी, वह रोने लगा।",
+    "options": [
+      "As soon as the train left, he started crying",
+      "When the train left, he started crying",
+      "If the train left, he started crying",
+      "Because the train left, he started crying"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 197
+  },
+  {
+    "question": "न तो मैं समझा, न ही वह।",
+    "options": [
+      "Neither did I understand, nor did he",
+      "Either I understood, or he did",
+      "Both I understood, and he did",
+      "I understood but he didn't"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for two negatives.",
+    "id": 198
+  },
+  {
+    "question": "तुम जब चाहो, यहाँ आ सकते हो।",
+    "options": [
+      "You can come here whenever you want",
+      "You can come here wherever you want",
+      "You can come here however you want",
+      "You can come here whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 199
+  },
+  {
+    "question": "उसने बहुत खाया, इसलिए उसका पेट खराब हो गया।",
+    "options": [
+      "He ate a lot, therefore his stomach got upset",
+      "He ate a lot, but his stomach got upset",
+      "He ate a lot, and his stomach got upset",
+      "He ate a lot, or his stomach got upset"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Therefore' (इसलिए) shows cause-effect.",
+    "id": 200
+  },
+  {
+    "question": "जब मैं सो रहा था, तब चोर आया।",
+    "options": [
+      "When I was sleeping, the thief came",
+      "If I was sleeping, the thief came",
+      "Because I was sleeping, the thief came",
+      "So I was sleeping, the thief came"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time.",
+    "id": 201
+  },
+  {
+    "question": "तुम जैसा काम करोगे, वैसा फल मिलेगा।",
+    "options": [
+      "As you work, so shall you get the fruit",
+      "If you work, so shall you get the fruit",
+      "When you work, so shall you get the fruit",
+      "Because you work, so shall you get the fruit"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows cause-effect.",
+    "id": 202
+  },
+  {
+    "question": "वह ऐसे हंसा मानो कोई मजाक सुन रहा हो।",
+    "options": [
+      "He laughed as if he were listening to a joke",
+      "He laughed because he was listening to a joke",
+      "He laughed so he was listening to a joke",
+      "He laughed and he was listening to a joke"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (मानो) shows unreal comparison.",
+    "id": 203
+  },
+  {
+    "question": "जितना तुम दौड़ोगे, उतनी ही तुम्हारी सांस फूलेगी।",
+    "options": [
+      "The more you run, the more you will be out of breath",
+      "If you run, the more you will be out of breath",
+      "When you run, the more you will be out of breath",
+      "Because you run, the more you will be out of breath"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows direct proportion.",
+    "id": 204
+  },
+  {
+    "question": "हालाँकि बारिश हो रही थी, फिर भी हम चल पड़े।",
+    "options": [
+      "Although it was raining, we still left",
+      "Because it was raining, we still left",
+      "If it was raining, we still left",
+      "When it was raining, we still left"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 205
+  },
+  {
+    "question": "मैंने पूछा कि वह कब आएगा।",
+    "options": [
+      "I asked when he would come",
+      "I asked where he would come",
+      "I asked why he would come",
+      "I asked how he would come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (कब) asks about time.",
+    "id": 206
+  },
+  {
+    "question": "जैसे ही उसने मुझे देखा, वह दौड़ पड़ा।",
+    "options": [
+      "As soon as he saw me, he started running",
+      "When he saw me, he started running",
+      "If he saw me, he started running",
+      "Because he saw me, he started running"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 207
+  },
+  {
+    "question": "न तो उसने जवाब दिया, न ही मैंने पूछा।",
+    "options": [
+      "Neither did he answer, nor did I ask",
+      "Either he answered, or I asked",
+      "Both he answered and I asked",
+      "He answered but I didn't ask"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for two negatives.",
+    "id": 208
+  },
+  {
+    "question": "तुम जहाँ भी रहो, मैं तुम्हें ढूंढ लूंगा।",
+    "options": [
+      "Wherever you live, I will find you",
+      "Whenever you live, I will find you",
+      "However you live, I will find you",
+      "Whatever you live, I will find you"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 209
+  },
+  {
+    "question": "उसने न केवल अपना काम किया बल्कि मेरा भी किया।",
+    "options": [
+      "He not only did his work but also mine",
+      "He did his work and mine",
+      "He did his work or mine",
+      "He did his work but mine"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 210
+  },
+  {
+    "question": "जब से तुम आए हो, सब बदल गया।",
+    "options": [
+      "Since you came, everything has changed",
+      "When you came, everything has changed",
+      "If you came, everything has changed",
+      "Because you came, everything has changed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 211
+  },
+  {
+    "question": "तुम चाहे जितना भी खाओ, मोटे नहीं होगे।",
+    "options": [
+      "However much you eat, you will not gain weight",
+      "Wherever much you eat, you will not gain weight",
+      "Whenever much you eat, you will not gain weight",
+      "Whatever much you eat, you will not gain weight"
+    ],
+    "correctIndex": 0,
+    "explanation": "'However much' (चाहे जितना भी) shows concession.",
+    "id": 212
+  },
+  {
+    "question": "वह नहीं आया क्योंकि उसे आना ही नहीं था।",
+    "options": [
+      "He did not come because he was not supposed to come",
+      "He did not come so he was not supposed to come",
+      "He did not come but he was not supposed to come",
+      "He did not come and he was not supposed to come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 213
+  },
+  {
+    "question": "जब तक तुम नहीं मानोगे, शांति नहीं मिलेगी।",
+    "options": [
+      "Until you agree, there will be no peace",
+      "If you agree, there will be no peace",
+      "When you agree, there will be no peace",
+      "Because you agree, there will be no peace"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 214
+  },
+  {
+    "question": "तुम जैसा व्यवहार करोगे, वैसा ही पाओगे।",
+    "options": [
+      "As you behave, so shall you receive",
+      "If you behave, so shall you receive",
+      "When you behave, so shall you receive",
+      "Because you behave, so shall you receive"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows reciprocity.",
+    "id": 215
+  },
+  {
+    "question": "वह ऐसे रोया जैसे बहुत दुखी हो।",
+    "options": [
+      "He cried as if he were very sad",
+      "He cried because he was very sad",
+      "He cried so he was very sad",
+      "He cried and he was very sad"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 216
+  },
+  {
+    "question": "जितना तुम उसे समझाओगे, उतना ही वह उलझेगा।",
+    "options": [
+      "The more you explain to him, the more confused he will get",
+      "If you explain to him, the more confused he will get",
+      "When you explain to him, the more confused he will get",
+      "Because you explain to him, the more confused he will get"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows proportion.",
+    "id": 217
+  },
+  {
+    "question": "हालाँकि उसे बहुत बुखार था, फिर भी वह आ गया।",
+    "options": [
+      "Although he had high fever, he still came",
+      "Because he had high fever, he still came",
+      "If he had high fever, he still came",
+      "When he had high fever, he still came"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 218
+  },
+  {
+    "question": "मैंने देखा कि वह रो रहा था।",
+    "options": [
+      "I saw that he was crying",
+      "I saw because he was crying",
+      "I saw if he was crying",
+      "I saw when he was crying"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a noun clause.",
+    "id": 219
+  },
+  {
+    "question": "जैसे ही उसने यह सुना, वह दौड़ पड़ा।",
+    "options": [
+      "As soon as he heard this, he started running",
+      "When he heard this, he started running",
+      "If he heard this, he started running",
+      "Because he heard this, he started running"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 220
+  },
+  {
+    "question": "न तो मैं पढ़ पाया, न ही सो पाया।",
+    "options": [
+      "Neither could I study nor sleep",
+      "Either I could study or sleep",
+      "Both I could study and sleep",
+      "I could study but not sleep"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 221
+  },
+  {
+    "question": "तुम जब भी आओ, स्वागत होगा।",
+    "options": [
+      "Whenever you come, you will be welcomed",
+      "Wherever you come, you will be welcomed",
+      "However you come, you will be welcomed",
+      "Whatever you come, you will be welcomed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 222
+  },
+  {
+    "question": "उसने बहुत पैसा कमाया, तो क्या? वह खुश नहीं है।",
+    "options": [
+      "He earned a lot of money, so what? He is not happy",
+      "He earned a lot of money, but what? He is not happy",
+      "He earned a lot of money, and what? He is not happy",
+      "He earned a lot of money, or what? He is not happy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So what' (तो क्या) shows indifference.",
+    "id": 223
+  },
+  {
+    "question": "जब मैं बाहर गया, तब बारिश शुरू हुई।",
+    "options": [
+      "When I went out, it started raining",
+      "If I went out, it started raining",
+      "Because I went out, it started raining",
+      "So I went out, it started raining"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time.",
+    "id": 224
+  },
+  {
+    "question": "तुम जैसे हो, वैसे ही मुझे पसंद हो।",
+    "options": [
+      "I like you as you are",
+      "I like you if you are",
+      "I like you when you are",
+      "I like you because you are"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 225
+  },
+  {
+    "question": "वह ऐसे चिल्लाया जैसे उसकी जान ली जा रही हो।",
+    "options": [
+      "He shouted as if his life were being taken",
+      "He shouted because his life was being taken",
+      "He shouted so his life was being taken",
+      "He shouted and his life was being taken"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 226
+  },
+  {
+    "question": "जितना तुम सोचोगे, उतना ही उलझोगे।",
+    "options": [
+      "The more you think, the more confused you will get",
+      "If you think, the more confused you will get",
+      "When you think, the more confused you will get",
+      "Because you think, the more confused you will get"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows proportion.",
+    "id": 227
+  },
+  {
+    "question": "हालाँकि उसके पास पैसे थे, फिर भी उसने कर्ज लिया।",
+    "options": [
+      "Although he had money, he still took a loan",
+      "Because he had money, he still took a loan",
+      "If he had money, he still took a loan",
+      "When he had money, he still took a loan"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 228
+  },
+  {
+    "question": "मैंने उससे कहा कि वह चुप रहे।",
+    "options": [
+      "I told him that he should keep quiet",
+      "I told him because he should keep quiet",
+      "I told him if he should keep quiet",
+      "I told him when he should keep quiet"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a request clause.",
+    "id": 229
+  },
+  {
+    "question": "जैसे ही अंधेरा हुआ, जुगनू जगमगाने लगे।",
+    "options": [
+      "As soon as it got dark, the fireflies started glowing",
+      "When it got dark, the fireflies started glowing",
+      "If it got dark, the fireflies started glowing",
+      "Because it got dark, the fireflies started glowing"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate sequence.",
+    "id": 230
+  },
+  {
+    "question": "न तो वह सही है, न ही मैं गलत हूँ।",
+    "options": [
+      "Neither is he right, nor am I wrong",
+      "Either he is right, or I am wrong",
+      "Both he is right and I am wrong",
+      "He is right but I am wrong"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for two negatives.",
+    "id": 231
+  },
+  {
+    "question": "तुम जहाँ चाहो, वहाँ घूम सकते हो।",
+    "options": [
+      "You can roam wherever you want",
+      "You can roam whenever you want",
+      "You can roam however you want",
+      "You can roam whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 232
+  },
+  {
+    "question": "उसने न केवल अपनी गलती मानी बल्कि माफी भी मांगी।",
+    "options": [
+      "He not only admitted his mistake but also apologized",
+      "He admitted his mistake and apologized",
+      "He admitted his mistake or apologized",
+      "He admitted his mistake but apologized"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 233
+  },
+  {
+    "question": "जब से तुमने यह किताब पढ़ी, तब से तुम बदल गए।",
+    "options": [
+      "Since you read this book, you have changed",
+      "When you read this book, you have changed",
+      "If you read this book, you have changed",
+      "Because you read this book, you have changed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 234
+  },
+  {
+    "question": "तुम चाहे जितनी भी कोशिश कर लो, तुम नहीं जीत सकते।",
+    "options": [
+      "However hard you try, you cannot win",
+      "Wherever hard you try, you cannot win",
+      "Whenever hard you try, you cannot win",
+      "Whatever hard you try, you cannot win"
+    ],
+    "correctIndex": 0,
+    "explanation": "'However' (चाहे जितनी भी) shows concession.",
+    "id": 235
+  },
+  {
+    "question": "वह नहीं सुनता क्योंकि वह बहरा है।",
+    "options": [
+      "He does not hear because he is deaf",
+      "He does not hear so he is deaf",
+      "He does not hear but he is deaf",
+      "He does not hear and he is deaf"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 236
+  },
+  {
+    "question": "जब तक मैं जीवित हूँ, मैं यह काम करूंगा।",
+    "options": [
+      "As long as I am alive, I will do this work",
+      "If I am alive, I will do this work",
+      "When I am alive, I will do this work",
+      "Because I am alive, I will do this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As long as' (जब तक) shows condition of time.",
+    "id": 237
+  },
+  {
+    "question": "तुम जैसे बोलते हो, वैसे ही लिखो।",
+    "options": [
+      "Write as you speak",
+      "Write if you speak",
+      "Write when you speak",
+      "Write because you speak"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 238
+  },
+  {
+    "question": "वह ऐसे भागा जैसे आग लगी हो।",
+    "options": [
+      "He ran as if there were a fire",
+      "He ran because there was a fire",
+      "He ran so there was a fire",
+      "He ran and there was a fire"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 239
+  },
+  {
+    "question": "जितना तुम आराम करोगे, उतना ही ताजगी मिलेगी।",
+    "options": [
+      "The more you rest, the more freshness you will get",
+      "If you rest, the more freshness you will get",
+      "When you rest, the more freshness you will get",
+      "Because you rest, the more freshness you will get"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows proportion.",
+    "id": 240
+  },
+  {
+    "question": "हालाँकि वह बहुत छोटा है, फिर भी बहुत समझदार है।",
+    "options": [
+      "Although he is very young, he is very wise",
+      "Because he is very young, he is very wise",
+      "If he is very young, he is very wise",
+      "When he is very young, he is very wise"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 241
+  },
+  {
+    "question": "मैंने सोचा कि शायद वह आए।",
+    "options": [
+      "I thought that perhaps he would come",
+      "I thought because perhaps he would come",
+      "I thought if perhaps he would come",
+      "I thought when perhaps he would come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a thought clause.",
+    "id": 242
+  },
+  {
+    "question": "जैसे ही उसने पैसे देखे, वह ललचा गया।",
+    "options": [
+      "As soon as he saw the money, he got tempted",
+      "When he saw the money, he got tempted",
+      "If he saw the money, he got tempted",
+      "Because he saw the money, he got tempted"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 243
+  },
+  {
+    "question": "न तो मैंने उसे धोखा दिया, न ही वह मुझे।",
+    "options": [
+      "Neither did I cheat him, nor did he cheat me",
+      "Either I cheated him, or he cheated me",
+      "Both I cheated him and he cheated me",
+      "I cheated him but he didn't cheat me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 244
+  },
+  {
+    "question": "तुम जब चाहो, मुझसे मिल सकते हो।",
+    "options": [
+      "You can meet me whenever you want",
+      "You can meet me wherever you want",
+      "You can meet me however you want",
+      "You can meet me whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 245
+  },
+  {
+    "question": "उसने बहुत मेहनत की, फिर भी असफल रहा।",
+    "options": [
+      "He worked very hard, yet he failed",
+      "He worked very hard, so he failed",
+      "He worked very hard, because he failed",
+      "He worked very hard, and he failed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 246
+  },
+  {
+    "question": "जब मैं छोटा था, मैं बहुत शरारती था।",
+    "options": [
+      "When I was young, I was very naughty",
+      "If I was young, I was very naughty",
+      "Because I was young, I was very naughty",
+      "So I was young, I was very naughty"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) refers to past time.",
+    "id": 247
+  },
+  {
+    "question": "तुम जैसा सुनते हो, वैसा ही बोलते हो।",
+    "options": [
+      "As you hear, so you speak",
+      "If you hear, so you speak",
+      "When you hear, so you speak",
+      "Because you hear, so you speak"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows correlation.",
+    "id": 248
+  },
+  {
+    "question": "वह ऐसे सोया जैसे मर गया हो।",
+    "options": [
+      "He slept as if he were dead",
+      "He slept because he was dead",
+      "He slept so he was dead",
+      "He slept and he was dead"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 249
+  },
+  {
+    "question": "जितना तुम व्यायाम करोगे, उतना ही स्वस्थ रहोगे।",
+    "options": [
+      "The more you exercise, the healthier you will remain",
+      "If you exercise, the healthier you will remain",
+      "When you exercise, the healthier you will remain",
+      "Because you exercise, the healthier you will remain"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the healthier' (जितना...उतना) shows proportion.",
+    "id": 250
+  },
+  {
+    "question": "हालाँकि उसे बहुत गुस्सा आया, फिर भी वह चुप रहा।",
+    "options": [
+      "Although he got very angry, he still remained silent",
+      "Because he got very angry, he still remained silent",
+      "If he got very angry, he still remained silent",
+      "When he got very angry, he still remained silent"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 251
+  },
+  {
+    "question": "मैंने महसूस किया कि वह सही है।",
+    "options": [
+      "I felt that he is right",
+      "I felt because he is right",
+      "I felt if he is right",
+      "I felt when he is right"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a feeling clause.",
+    "id": 252
+  },
+  {
+    "question": "जैसे ही उसने गाना सुना, वह झूमने लगा।",
+    "options": [
+      "As soon as he heard the song, he started swaying",
+      "When he heard the song, he started swaying",
+      "If he heard the song, he started swaying",
+      "Because he heard the song, he started swaying"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 253
+  },
+  {
+    "question": "न तो उसने कुछ खाया, न ही कुछ पीया।",
+    "options": [
+      "Neither did he eat anything nor drink anything",
+      "Either he ate something or drank something",
+      "Both he ate something and drank something",
+      "He ate something but didn't drink"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 254
+  },
+  {
+    "question": "तुम जहाँ भी जाओ, मैं तुम्हारे साथ हूँ।",
+    "options": [
+      "Wherever you go, I am with you",
+      "Whenever you go, I am with you",
+      "However you go, I am with you",
+      "Whatever you go, I am with you"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 255
+  },
+  {
+    "question": "उसने न केवल मुझे धोखा दिया बल्कि मेरा सामान भी चुरा लिया।",
+    "options": [
+      "He not only cheated me but also stole my belongings",
+      "He cheated me and stole my belongings",
+      "He cheated me or stole my belongings",
+      "He cheated me but stole my belongings"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 256
+  },
+  {
+    "question": "जब से उसने यह काम किया, तब से उसे शांति नहीं मिली।",
+    "options": [
+      "Since he did this work, he has not got peace",
+      "When he did this work, he has not got peace",
+      "If he did this work, he has not got peace",
+      "Because he did this work, he has not got peace"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 257
+  },
+  {
+    "question": "तुम चाहे जितना भी पैसा दो, मैं यह नहीं करूंगा।",
+    "options": [
+      "No matter how much money you give, I will not do this",
+      "No matter when money you give, I will not do this",
+      "No matter where money you give, I will not do this",
+      "No matter why money you give, I will not do this"
+    ],
+    "correctIndex": 0,
+    "explanation": "'No matter how much' (चाहे जितना भी) shows concession.",
+    "id": 258
+  },
+  {
+    "question": "वह रोया क्योंकि उसका दिल टूट गया था।",
+    "options": [
+      "He cried because his heart was broken",
+      "He cried so his heart was broken",
+      "He cried but his heart was broken",
+      "He cried and his heart was broken"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 259
+  },
+  {
+    "question": "जब तक तुम वापस नहीं आओगे, मैं नहीं खाऊंगा।",
+    "options": [
+      "I will not eat until you come back",
+      "I will not eat if you come back",
+      "I will not eat when you come back",
+      "I will not eat because you come back"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 260
+  },
+  {
+    "question": "तुम जैसे हो, वैसे ही रहना सीखो।",
+    "options": [
+      "Learn to remain as you are",
+      "Learn to remain if you are",
+      "Learn to remain when you are",
+      "Learn to remain because you are"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 261
+  },
+  {
+    "question": "वह ऐसे देख रहा था जैसे कुछ ढूंढ रहा हो।",
+    "options": [
+      "He was looking as if he were searching for something",
+      "He was looking because he was searching for something",
+      "He was looking so he was searching for something",
+      "He was looking and he was searching for something"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 262
+  },
+  {
+    "question": "जितना तुम मुझे पीड़ा दोगे, उतना ही मैं मजबूत बनूंगा।",
+    "options": [
+      "The more you hurt me, the stronger I will become",
+      "If you hurt me, the stronger I will become",
+      "When you hurt me, the stronger I will become",
+      "Because you hurt me, the stronger I will become"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the stronger' (जितना...उतना) shows proportion.",
+    "id": 263
+  },
+  {
+    "question": "हालाँकि उसके पास समय था, फिर भी उसने काम नहीं किया।",
+    "options": [
+      "Although he had time, he still did not work",
+      "Because he had time, he still did not work",
+      "If he had time, he still did not work",
+      "When he had time, he still did not work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 264
+  },
+  {
+    "question": "मैंने सपना देखा कि मैं उड़ रहा हूँ।",
+    "options": [
+      "I dreamt that I was flying",
+      "I dreamt because I was flying",
+      "I dreamt if I was flying",
+      "I dreamt when I was flying"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a dream clause.",
+    "id": 265
+  },
+  {
+    "question": "जैसे ही उसने आवाज सुनी, वह डर गया।",
+    "options": [
+      "As soon as he heard the sound, he got scared",
+      "When he heard the sound, he got scared",
+      "If he heard the sound, he got scared",
+      "Because he heard the sound, he got scared"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 266
+  },
+  {
+    "question": "न तो मैंने उससे कुछ कहा, न ही उसने मुझसे।",
+    "options": [
+      "Neither did I say anything to him, nor did he to me",
+      "Either I said something to him, or he to me",
+      "Both I said something to him, and he to me",
+      "I said something to him but he didn't to me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 267
+  },
+  {
+    "question": "तुम जब चाहो, यहाँ से जा सकते हो।",
+    "options": [
+      "You can leave from here whenever you want",
+      "You can leave from here wherever you want",
+      "You can leave from here however you want",
+      "You can leave from here whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 268
+  },
+  {
+    "question": "उसने बहुत कोशिश की, फिर भी वह सफल नहीं हुआ।",
+    "options": [
+      "He tried very hard, yet he did not succeed",
+      "He tried very hard, so he did not succeed",
+      "He tried very hard, because he did not succeed",
+      "He tried very hard, and he did not succeed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 269
+  },
+  {
+    "question": "जब मैं पढ़ रहा था, तब मेरे दोस्त आ गए।",
+    "options": [
+      "When I was studying, my friends arrived",
+      "If I was studying, my friends arrived",
+      "Because I was studying, my friends arrived",
+      "So I was studying, my friends arrived"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time.",
+    "id": 270
+  },
+  {
+    "question": "तुम जैसा व्यवहार करोगे, वैसा ही सम्मान पाओगे।",
+    "options": [
+      "As you behave, so shall you receive respect",
+      "If you behave, so shall you receive respect",
+      "When you behave, so shall you receive respect",
+      "Because you behave, so shall you receive respect"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows reciprocity.",
+    "id": 271
+  },
+  {
+    "question": "वह ऐसे चुप हो गया जैसे कुछ सुन ही नहीं रहा।",
+    "options": [
+      "He became silent as if he were not listening at all",
+      "He became silent because he was not listening at all",
+      "He became silent so he was not listening at all",
+      "He became silent and he was not listening at all"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 272
+  },
+  {
+    "question": "जितना तुम सीखोगे, उतना ही जानोगे।",
+    "options": [
+      "The more you learn, the more you will know",
+      "If you learn, the more you will know",
+      "When you learn, the more you will know",
+      "Because you learn, the more you will know"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows learning proportion.",
+    "id": 273
+  },
+  {
+    "question": "हालाँकि उसे रास्ता पता था, फिर भी वह भटक गया।",
+    "options": [
+      "Although he knew the way, he still got lost",
+      "Because he knew the way, he still got lost",
+      "If he knew the way, he still got lost",
+      "When he knew the way, he still got lost"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 274
+  },
+  {
+    "question": "मैंने प्रार्थना की कि वह सुरक्षित रहे।",
+    "options": [
+      "I prayed that he may remain safe",
+      "I prayed because he may remain safe",
+      "I prayed if he may remain safe",
+      "I prayed when he may remain safe"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a prayer clause.",
+    "id": 275
+  },
+  {
+    "question": "जैसे ही घंटी बजी, बच्चे दौड़ पड़े।",
+    "options": [
+      "As soon as the bell rang, the children started running",
+      "When the bell rang, the children started running",
+      "If the bell rang, the children started running",
+      "Because the bell rang, the children started running"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 276
+  },
+  {
+    "question": "न तो मैंने उससे पूछा, न ही उसने बताया।",
+    "options": [
+      "Neither did I ask him, nor did he tell",
+      "Either I asked him, or he told",
+      "Both I asked him, and he told",
+      "I asked him but he didn't tell"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for two negatives.",
+    "id": 277
+  },
+  {
+    "question": "तुम जहाँ भी रहो, खुश रहो।",
+    "options": [
+      "Wherever you live, be happy",
+      "Whenever you live, be happy",
+      "However you live, be happy",
+      "Whatever you live, be happy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 278
+  },
+  {
+    "question": "उसने न केवल खुद पैसे बचाए बल्कि मुझे भी बचाना सिखाया।",
+    "options": [
+      "He not only saved money himself but also taught me to save",
+      "He saved money himself and taught me to save",
+      "He saved money himself or taught me to save",
+      "He saved money himself but taught me to save"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 279
+  },
+  {
+    "question": "जब से वह आया है, तब से घर में खुशियाँ हैं।",
+    "options": [
+      "Since he came, there has been happiness in the house",
+      "When he came, there has been happiness in the house",
+      "If he came, there has been happiness in the house",
+      "Because he came, there has been happiness in the house"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 280
+  },
+  {
+    "question": "तुम चाहे जितनी भी कोशिश करो, तुम यह काम नहीं कर सकते।",
+    "options": [
+      "However hard you try, you cannot do this work",
+      "Wherever hard you try, you cannot do this work",
+      "Whenever hard you try, you cannot do this work",
+      "Whatever hard you try, you cannot do this work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'However' (चाहे जितनी भी) shows concession.",
+    "id": 281
+  },
+  {
+    "question": "वह नहीं जानता क्योंकि उसे बताया ही नहीं गया।",
+    "options": [
+      "He does not know because he was not told",
+      "He does not know so he was not told",
+      "He does not know but he was not told",
+      "He does not know and he was not told"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 282
+  },
+  {
+    "question": "जब तक तुम नहीं सीखोगे, तब तक मैं पढ़ाता रहूंगा।",
+    "options": [
+      "I will keep teaching until you learn",
+      "I will keep teaching if you learn",
+      "I will keep teaching when you learn",
+      "I will keep teaching because you learn"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 283
+  },
+  {
+    "question": "तुम जैसा दोगे, वैसा पाओगे।",
+    "options": [
+      "As you give, so shall you receive",
+      "If you give, so shall you receive",
+      "When you give, so shall you receive",
+      "Because you give, so shall you receive"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows giving-receiving link.",
+    "id": 284
+  },
+  {
+    "question": "वह ऐसे चिल्लाया जैसे भूत देख लिया हो।",
+    "options": [
+      "He shouted as if he had seen a ghost",
+      "He shouted because he had seen a ghost",
+      "He shouted so he had seen a ghost",
+      "He shouted and he had seen a ghost"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 285
+  },
+  {
+    "question": "जितना तुम पानी पिओगे, उतनी ही प्यास बुझेगी।",
+    "options": [
+      "The more water you drink, the more your thirst will be quenched",
+      "If you drink water, the more your thirst will be quenched",
+      "When you drink water, the more your thirst will be quenched",
+      "Because you drink water, the more your thirst will be quenched"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows proportion.",
+    "id": 286
+  },
+  {
+    "question": "हालाँकि उसने वादा किया था, फिर भी वह नहीं आया।",
+    "options": [
+      "Although he had promised, he still did not come",
+      "Because he had promised, he still did not come",
+      "If he had promised, he still did not come",
+      "When he had promised, he still did not come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 287
+  },
+  {
+    "question": "मैंने सोचा कि शायद वह सच बोल रहा है।",
+    "options": [
+      "I thought that perhaps he was telling the truth",
+      "I thought because perhaps he was telling the truth",
+      "I thought if perhaps he was telling the truth",
+      "I thought when perhaps he was telling the truth"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a thought clause.",
+    "id": 288
+  },
+  {
+    "question": "जैसे ही उसने मुझे छुआ, मुझे झटका लगा।",
+    "options": [
+      "As soon as he touched me, I got a shock",
+      "When he touched me, I got a shock",
+      "If he touched me, I got a shock",
+      "Because he touched me, I got a shock"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 289
+  },
+  {
+    "question": "न तो उसने मुझे फोन किया, न ही मैसेज।",
+    "options": [
+      "Neither did he call me nor message",
+      "Either he called me or messaged",
+      "Both he called me and messaged",
+      "He called me but didn't message"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 290
+  },
+  {
+    "question": "तुम जब भी चाहो, मुझे बता सकते हो।",
+    "options": [
+      "You can tell me whenever you want",
+      "You can tell me wherever you want",
+      "You can tell me however you want",
+      "You can tell me whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 291
+  },
+  {
+    "question": "उसने बहुत पैसा लगाया, फिर भी काम नहीं बना।",
+    "options": [
+      "He invested a lot of money, yet the work did not get done",
+      "He invested a lot of money, so the work did not get done",
+      "He invested a lot of money, because the work did not get done",
+      "He invested a lot of money, and the work did not get done"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 292
+  },
+  {
+    "question": "जब मैं बाजार गया, तब मुझे एक दोस्त मिला।",
+    "options": [
+      "When I went to the market, I met a friend",
+      "If I went to the market, I met a friend",
+      "Because I went to the market, I met a friend",
+      "So I went to the market, I met a friend"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time.",
+    "id": 293
+  },
+  {
+    "question": "तुम जैसा बनना चाहते हो, वैसा बनने की कोशिश करो।",
+    "options": [
+      "Try to become as you want to become",
+      "Try to become if you want to become",
+      "Try to become when you want to become",
+      "Try to become because you want to become"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसा) means 'in the manner that'.",
+    "id": 294
+  },
+  {
+    "question": "वह ऐसे देख रहा था जैसे सब कुछ जानता हो।",
+    "options": [
+      "He was looking as if he knew everything",
+      "He was looking because he knew everything",
+      "He was looking so he knew everything",
+      "He was looking and he knew everything"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 295
+  },
+  {
+    "question": "जितना तुम दूसरों को खुश करोगे, उतना ही खुश रहोगे।",
+    "options": [
+      "The more you make others happy, the happier you will be",
+      "If you make others happy, the happier you will be",
+      "When you make others happy, the happier you will be",
+      "Because you make others happy, the happier you will be"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the happier' (जितना...उतना) shows happiness proportion.",
+    "id": 296
+  },
+  {
+    "question": "हालाँकि उसने बहुत पैसा कमाया, फिर भी वह लालची है।",
+    "options": [
+      "Although he earned a lot of money, he is still greedy",
+      "Because he earned a lot of money, he is still greedy",
+      "If he earned a lot of money, he is still greedy",
+      "When he earned a lot of money, he is still greedy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 297
+  },
+  {
+    "question": "मैंने सुना कि तुम शादी कर रहे हो।",
+    "options": [
+      "I heard that you are getting married",
+      "I heard because you are getting married",
+      "I heard if you are getting married",
+      "I heard when you are getting married"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a hearsay clause.",
+    "id": 298
+  },
+  {
+    "question": "जैसे ही ट्रेन प्लेटफॉर्म पर आई, लोग चढ़ने लगे।",
+    "options": [
+      "As soon as the train arrived on the platform, people started boarding",
+      "When the train arrived on the platform, people started boarding",
+      "If the train arrived on the platform, people started boarding",
+      "Because the train arrived on the platform, people started boarding"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate action.",
+    "id": 299
+  },
+  {
+    "question": "न तो मैं उसे जानता हूँ, न ही वह मुझे।",
+    "options": [
+      "Neither do I know him, nor does he know me",
+      "Either I know him, or he knows me",
+      "Both I know him and he knows me",
+      "I know him but he doesn't know me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual lack of knowledge.",
+    "id": 300
+  },
+  {
+    "question": "तुम जहाँ भी जाओ, अपने माता-पिता का नाम रोशन करो।",
+    "options": [
+      "Wherever you go, brighten your parents' name",
+      "Whenever you go, brighten your parents' name",
+      "However you go, brighten your parents' name",
+      "Whatever you go, brighten your parents' name"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 301
+  },
+  {
+    "question": "उसने न केवल अपना वादा निभाया बल्कि मेरी भी मदद की।",
+    "options": [
+      "He not only kept his promise but also helped me",
+      "He kept his promise and helped me",
+      "He kept his promise or helped me",
+      "He kept his promise but helped me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 302
+  },
+  {
+    "question": "जब से तुमने यह कहा, तब से मैं परेशान हूँ।",
+    "options": [
+      "Since you said this, I have been worried",
+      "When you said this, I have been worried",
+      "If you said this, I have been worried",
+      "Because you said this, I have been worried"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 303
+  },
+  {
+    "question": "तुम चाहे जितनी भी दौड़ लगाओ, उससे नहीं जीत पाओगे।",
+    "options": [
+      "However fast you run, you will not be able to beat him",
+      "Wherever fast you run, you will not be able to beat him",
+      "Whenever fast you run, you will not be able to beat him",
+      "Whatever fast you run, you will not be able to beat him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'However fast' (चाहे जितनी भी) shows concession.",
+    "id": 304
+  },
+  {
+    "question": "वह मुस्कुराया क्योंकि उसे खुशी मिली।",
+    "options": [
+      "He smiled because he got happiness",
+      "He smiled so he got happiness",
+      "He smiled but he got happiness",
+      "He smiled and he got happiness"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 305
+  },
+  {
+    "question": "जब तक तुम नहीं रुकोगे, मैं भी नहीं रुकूंगा।",
+    "options": [
+      "I will not stop until you stop",
+      "I will not stop if you stop",
+      "I will not stop when you stop",
+      "I will not stop because you stop"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 306
+  },
+  {
+    "question": "तुम जैसे हो, वैसे ही अच्छे हो।",
+    "options": [
+      "You are good as you are",
+      "You are good if you are",
+      "You are good when you are",
+      "You are good because you are"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 307
+  },
+  {
+    "question": "वह ऐसे बैठा जैसे राजा हो।",
+    "options": [
+      "He sat as if he were a king",
+      "He sat because he was a king",
+      "He sat so he was a king",
+      "He sat and he was a king"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 308
+  },
+  {
+    "question": "जितना तुम शांत रहोगे, उतना ही अच्छा होगा।",
+    "options": [
+      "The more you remain calm, the better it will be",
+      "If you remain calm, the better it will be",
+      "When you remain calm, the better it will be",
+      "Because you remain calm, the better it will be"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the better' (जितना...उतना) shows proportion.",
+    "id": 309
+  },
+  {
+    "question": "हालाँकि उसे भूख लगी थी, फिर भी उसने खाना नहीं खाया।",
+    "options": [
+      "Although he was hungry, he still did not eat",
+      "Because he was hungry, he still did not eat",
+      "If he was hungry, he still did not eat",
+      "When he was hungry, he still did not eat"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 310
+  },
+  {
+    "question": "मैंने महसूस किया कि वह मुझसे झूठ बोल रहा है।",
+    "options": [
+      "I felt that he was lying to me",
+      "I felt because he was lying to me",
+      "I felt if he was lying to me",
+      "I felt when he was lying to me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a feeling clause.",
+    "id": 311
+  },
+  {
+    "question": "जैसे ही उसने पानी छुआ, वह उबलने लगा।",
+    "options": [
+      "As soon as he touched the water, it started boiling",
+      "When he touched the water, it started boiling",
+      "If he touched the water, it started boiling",
+      "Because he touched the water, it started boiling"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 312
+  },
+  {
+    "question": "न तो उसने मेरी बात सुनी, न ही समझा।",
+    "options": [
+      "Neither did he listen to me nor understand",
+      "Either he listened to me or understood",
+      "Both he listened to me and understood",
+      "He listened to me but didn't understand"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 313
+  },
+  {
+    "question": "तुम जब भी चाहो, मुझसे पैसे ले सकते हो।",
+    "options": [
+      "You can take money from me whenever you want",
+      "You can take money from me wherever you want",
+      "You can take money from me however you want",
+      "You can take money from me whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 314
+  },
+  {
+    "question": "उसने बहुत संघर्ष किया, फिर भी हार नहीं मानी।",
+    "options": [
+      "He struggled a lot, yet he did not give up",
+      "He struggled a lot, so he did not give up",
+      "He struggled a lot, because he did not give up",
+      "He struggled a lot, and he did not give up"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 315
+  },
+  {
+    "question": "जब मैं घर पहुंचा, तब खाना तैयार था।",
+    "options": [
+      "When I reached home, the food was ready",
+      "If I reached home, the food was ready",
+      "Because I reached home, the food was ready",
+      "So I reached home, the food was ready"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time.",
+    "id": 316
+  },
+  {
+    "question": "तुम जैसा कहो, वैसा ही करूंगा।",
+    "options": [
+      "I will do as you say",
+      "I will do if you say",
+      "I will do when you say",
+      "I will do because you say"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसा) means 'in the manner that'.",
+    "id": 317
+  },
+  {
+    "question": "वह ऐसे नाचा जैसे पागल हो।",
+    "options": [
+      "He danced as if he were mad",
+      "He danced because he was mad",
+      "He danced so he was mad",
+      "He danced and he was mad"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 318
+  },
+  {
+    "question": "जितना तुम सोचोगे, उतना ही पछताओगे।",
+    "options": [
+      "The more you think, the more you will regret",
+      "If you think, the more you will regret",
+      "When you think, the more you will regret",
+      "Because you think, the more you will regret"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows negative proportion.",
+    "id": 319
+  },
+  {
+    "question": "हालाँकि वह बहुत सुंदर है, फिर भी घमंडी नहीं है।",
+    "options": [
+      "Although she is very beautiful, she is not arrogant",
+      "Because she is very beautiful, she is not arrogant",
+      "If she is very beautiful, she is not arrogant",
+      "When she is very beautiful, she is not arrogant"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 320
+  },
+  {
+    "question": "मैंने देखा कि वह जा रहा था।",
+    "options": [
+      "I saw that he was leaving",
+      "I saw because he was leaving",
+      "I saw if he was leaving",
+      "I saw when he was leaving"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a noun clause.",
+    "id": 321
+  },
+  {
+    "question": "जैसे ही उसने आवाज सुनी, वह दौड़ा।",
+    "options": [
+      "As soon as he heard the voice, he ran",
+      "When he heard the voice, he ran",
+      "If he heard the voice, he ran",
+      "Because he heard the voice, he ran"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 322
+  },
+  {
+    "question": "न तो मैंने उसे धमकाया, न ही उसने मुझे।",
+    "options": [
+      "Neither did I threaten him, nor did he threaten me",
+      "Either I threatened him, or he threatened me",
+      "Both I threatened him and he threatened me",
+      "I threatened him but he didn't threaten me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 323
+  },
+  {
+    "question": "तुम जहाँ भी जाओ, वहाँ प्यार बांटो।",
+    "options": [
+      "Wherever you go, spread love there",
+      "Whenever you go, spread love there",
+      "However you go, spread love there",
+      "Whatever you go, spread love there"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 324
+  },
+  {
+    "question": "उसने न केवल पैसे दिए बल्कि सलाह भी दी।",
+    "options": [
+      "He not only gave money but also gave advice",
+      "He gave money and gave advice",
+      "He gave money or gave advice",
+      "He gave money but gave advice"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 325
+  },
+  {
+    "question": "जब से उसने जॉब छोड़ी, तब से वह परेशान है।",
+    "options": [
+      "Since he left the job, he has been worried",
+      "When he left the job, he has been worried",
+      "If he left the job, he has been worried",
+      "Because he left the job, he has been worried"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 326
+  },
+  {
+    "question": "तुम चाहे जितना भी पढ़ लो, कभी भी सब कुछ नहीं जान सकते।",
+    "options": [
+      "No matter how much you study, you can never know everything",
+      "No matter when you study, you can never know everything",
+      "No matter where you study, you can never know everything",
+      "No matter why you study, you can never know everything"
+    ],
+    "correctIndex": 0,
+    "explanation": "'No matter how much' (चाहे जितना भी) shows concession.",
+    "id": 327
+  },
+  {
+    "question": "वह गिर गया क्योंकि रास्ता फिसलन भरा था।",
+    "options": [
+      "He fell because the path was slippery",
+      "He fell so the path was slippery",
+      "He fell but the path was slippery",
+      "He fell and the path was slippery"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 328
+  },
+  {
+    "question": "जब तक तुम नहीं बदलोगे, कुछ नहीं बदलेगा।",
+    "options": [
+      "Nothing will change until you change",
+      "Nothing will change if you change",
+      "Nothing will change when you change",
+      "Nothing will change because you change"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 329
+  },
+  {
+    "question": "तुम जैसे हो, वैसे ही प्यार करो।",
+    "options": [
+      "Love as you are",
+      "Love if you are",
+      "Love when you are",
+      "Love because you are"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 330
+  },
+  {
+    "question": "वह ऐसे बोला जैसे सब कुछ ठीक हो।",
+    "options": [
+      "He spoke as if everything were fine",
+      "He spoke because everything was fine",
+      "He spoke so everything was fine",
+      "He spoke and everything was fine"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 331
+  },
+  {
+    "question": "जितना तुम उसे दोगे, उतना ही वह मांगेगा।",
+    "options": [
+      "The more you give him, the more he will ask",
+      "If you give him, the more he will ask",
+      "When you give him, the more he will ask",
+      "Because you give him, the more he will ask"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows proportion.",
+    "id": 332
+  },
+  {
+    "question": "हालाँकि वह बीमार था, फिर भी वह काम पर गया।",
+    "options": [
+      "Although he was sick, he still went to work",
+      "Because he was sick, he still went to work",
+      "If he was sick, he still went to work",
+      "When he was sick, he still went to work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 333
+  },
+  {
+    "question": "मैंने सोचा कि वह जरूर आएगा।",
+    "options": [
+      "I thought that he would definitely come",
+      "I thought because he would definitely come",
+      "I thought if he would definitely come",
+      "I thought when he would definitely come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a thought clause.",
+    "id": 334
+  },
+  {
+    "question": "जैसे ही मैंने आंख खोली, सूरज निकल आया।",
+    "options": [
+      "As soon as I opened my eyes, the sun had risen",
+      "When I opened my eyes, the sun had risen",
+      "If I opened my eyes, the sun had risen",
+      "Because I opened my eyes, the sun had risen"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate sequence.",
+    "id": 335
+  },
+  {
+    "question": "न तो वह आया, न ही उसने फोन किया।",
+    "options": [
+      "Neither did he come nor call",
+      "Either he came or called",
+      "Both he came and called",
+      "He came but didn't call"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 336
+  },
+  {
+    "question": "तुम जब भी चाहो, मुझे ईमेल कर सकते हो।",
+    "options": [
+      "You can email me whenever you want",
+      "You can email me wherever you want",
+      "You can email me however you want",
+      "You can email me whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 337
+  },
+  {
+    "question": "उसने बहुत पैसा खर्च किया, फिर भी उसे कोई फर्क नहीं पड़ा।",
+    "options": [
+      "He spent a lot of money, yet it didn't matter to him",
+      "He spent a lot of money, so it didn't matter to him",
+      "He spent a lot of money, because it didn't matter to him",
+      "He spent a lot of money, and it didn't matter to him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 338
+  },
+  {
+    "question": "जब मैं बाहर था, तब चोरी हो गई।",
+    "options": [
+      "When I was out, the theft happened",
+      "If I was out, the theft happened",
+      "Because I was out, the theft happened",
+      "So I was out, the theft happened"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time.",
+    "id": 339
+  },
+  {
+    "question": "तुम जैसा सोचते हो, वैसा ही बनते हो।",
+    "options": [
+      "As you think, so you become",
+      "If you think, so you become",
+      "When you think, so you become",
+      "Because you think, so you become"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows thought-behavior link.",
+    "id": 340
+  },
+  {
+    "question": "वह ऐसे चुप बैठा जैसे कुछ सोच रहा हो।",
+    "options": [
+      "He sat silently as if he were thinking something",
+      "He sat silently because he was thinking something",
+      "He sat silently so he was thinking something",
+      "He sat silently and he was thinking something"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 341
+  },
+  {
+    "question": "जितना तुम उसकी आलोचना करोगे, उतना ही वह बिगड़ेगा।",
+    "options": [
+      "The more you criticize him, the worse he will become",
+      "If you criticize him, the worse he will become",
+      "When you criticize him, the worse he will become",
+      "Because you criticize him, the worse he will become"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the worse' (जितना...उतना) shows negative proportion.",
+    "id": 342
+  },
+  {
+    "question": "हालाँकि उसे नींद आ रही थी, फिर भी वह जागता रहा।",
+    "options": [
+      "Although he was feeling sleepy, he still stayed awake",
+      "Because he was feeling sleepy, he still stayed awake",
+      "If he was feeling sleepy, he still stayed awake",
+      "When he was feeling sleepy, he still stayed awake"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 343
+  },
+  {
+    "question": "मैंने प्रार्थना की कि बारिश हो।",
+    "options": [
+      "I prayed that it would rain",
+      "I prayed because it would rain",
+      "I prayed if it would rain",
+      "I prayed when it would rain"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a prayer clause.",
+    "id": 344
+  },
+  {
+    "question": "जैसे ही उसने मुझे देखा, वह मुस्कुराया।",
+    "options": [
+      "As soon as he saw me, he smiled",
+      "When he saw me, he smiled",
+      "If he saw me, he smiled",
+      "Because he saw me, he smiled"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 345
+  },
+  {
+    "question": "न तो मैंने उससे मदद मांगी, न ही उसने दी।",
+    "options": [
+      "Neither did I ask him for help, nor did he give",
+      "Either I asked him for help, or he gave",
+      "Both I asked him for help and he gave",
+      "I asked him for help but he didn't give"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 346
+  },
+  {
+    "question": "तुम जहाँ भी जाओ, साफ-सफाई रखो।",
+    "options": [
+      "Wherever you go, maintain cleanliness",
+      "Whenever you go, maintain cleanliness",
+      "However you go, maintain cleanliness",
+      "Whatever you go, maintain cleanliness"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 347
+  },
+  {
+    "question": "उसने न केवल मेरा दिल जीता बल्कि मेरे परिवार का भी।",
+    "options": [
+      "He not only won my heart but also my family's",
+      "He won my heart and my family's",
+      "He won my heart or my family's",
+      "He won my heart but my family's"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 348
+  },
+  {
+    "question": "जब से उसने माफी मांगी, तब से मैंने उसे माफ कर दिया।",
+    "options": [
+      "Since he apologized, I have forgiven him",
+      "When he apologized, I have forgiven him",
+      "If he apologized, I have forgiven him",
+      "Because he apologized, I have forgiven him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 349
+  },
+  {
+    "question": "तुम चाहे जितनी भी तारीफ करो, वह नहीं मानेगा।",
+    "options": [
+      "However much you praise him, he won't agree",
+      "Wherever much you praise him, he won't agree",
+      "Whenever much you praise him, he won't agree",
+      "Whatever much you praise him, he won't agree"
+    ],
+    "correctIndex": 0,
+    "explanation": "'However much' (चाहे जितनी भी) shows concession.",
+    "id": 350
+  },
+  {
+    "question": "वह चिल्लाया क्योंकि उसे दर्द हुआ।",
+    "options": [
+      "He shouted because he felt pain",
+      "He shouted so he felt pain",
+      "He shouted but he felt pain",
+      "He shouted and he felt pain"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 351
+  },
+  {
+    "question": "जब तक तुम नहीं समझोगे, मैं समझाता रहूंगा।",
+    "options": [
+      "I will keep explaining until you understand",
+      "I will keep explaining if you understand",
+      "I will keep explaining when you understand",
+      "I will keep explaining because you understand"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 352
+  },
+  {
+    "question": "तुम जैसे हो, वैसे ही स्वीकार किए जाओगे।",
+    "options": [
+      "You will be accepted as you are",
+      "You will be accepted if you are",
+      "You will be accepted when you are",
+      "You will be accepted because you are"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 353
+  },
+  {
+    "question": "वह ऐसे देख रहा था जैसे पहली बार देख रहा हो।",
+    "options": [
+      "He was looking as if he were seeing it for the first time",
+      "He was looking because he was seeing it for the first time",
+      "He was looking so he was seeing it for the first time",
+      "He was looking and he was seeing it for the first time"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 354
+  },
+  {
+    "question": "जितना तुम बचाओगे, उतना ही पास रहेगा।",
+    "options": [
+      "The more you save, the more you will have",
+      "If you save, the more you will have",
+      "When you save, the more you will have",
+      "Because you save, the more you will have"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows saving proportion.",
+    "id": 355
+  },
+  {
+    "question": "हालाँकि उसे बहुत गुस्सा आया, फिर भी उसने कुछ नहीं कहा।",
+    "options": [
+      "Although he got very angry, he still said nothing",
+      "Because he got very angry, he still said nothing",
+      "If he got very angry, he still said nothing",
+      "When he got very angry, he still said nothing"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 356
+  },
+  {
+    "question": "मैंने सपना देखा कि मैं पानी में तैर रहा हूँ।",
+    "options": [
+      "I dreamt that I was swimming in water",
+      "I dreamt because I was swimming in water",
+      "I dreamt if I was swimming in water",
+      "I dreamt when I was swimming in water"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a dream clause.",
+    "id": 357
+  },
+  {
+    "question": "जैसे ही लाइट गई, सब चिल्लाने लगे।",
+    "options": [
+      "As soon as the light went out, everyone started shouting",
+      "When the light went out, everyone started shouting",
+      "If the light went out, everyone started shouting",
+      "Because the light went out, everyone started shouting"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 358
+  },
+  {
+    "question": "न तो उसने मुझे पहचाना, न ही मैंने उसे।",
+    "options": [
+      "Neither did he recognize me, nor did I recognize him",
+      "Either he recognized me, or I recognized him",
+      "Both he recognized me and I recognized him",
+      "He recognized me but I didn't recognize him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 359
+  },
+  {
+    "question": "तुम जब भी चाहो, मुझसे बात कर सकते हो।",
+    "options": [
+      "You can talk to me whenever you want",
+      "You can talk to me wherever you want",
+      "You can talk to me however you want",
+      "You can talk to me whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 360
+  },
+  {
+    "question": "उसने बहुत मेहनत की, फिर भी परिणाम शून्य रहा।",
+    "options": [
+      "He worked very hard, yet the result was zero",
+      "He worked very hard, so the result was zero",
+      "He worked very hard, because the result was zero",
+      "He worked very hard, and the result was zero"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 361
+  },
+  {
+    "question": "जब मैंने दरवाजा खोला, तब अंधेरा था।",
+    "options": [
+      "When I opened the door, it was dark",
+      "If I opened the door, it was dark",
+      "Because I opened the door, it was dark",
+      "So I opened the door, it was dark"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time.",
+    "id": 362
+  },
+  {
+    "question": "तुम जैसा व्यवहार करोगे, वैसा ही सम्मान पाओगे।",
+    "options": [
+      "As you behave, so shall you receive respect",
+      "If you behave, so shall you receive respect",
+      "When you behave, so shall you receive respect",
+      "Because you behave, so shall you receive respect"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows reciprocity.",
+    "id": 363
+  },
+  {
+    "question": "वह ऐसे हंसा जैसे कोई मजाक सुन रहा हो।",
+    "options": [
+      "He laughed as if he were listening to a joke",
+      "He laughed because he was listening to a joke",
+      "He laughed so he was listening to a joke",
+      "He laughed and he was listening to a joke"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 364
+  },
+  {
+    "question": "जितना तुम उसके बारे में सोचोगे, उतना ही दुखी रहोगे।",
+    "options": [
+      "The more you think about him, the sadder you will be",
+      "If you think about him, the sadder you will be",
+      "When you think about him, the sadder you will be",
+      "Because you think about him, the sadder you will be"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the sadder' (जितना...उतना) shows negative emotion proportion.",
+    "id": 365
+  },
+  {
+    "question": "हालाँकि उसके पास बहुत काम था, फिर भी उसने मदद की।",
+    "options": [
+      "Although he had a lot of work, he still helped",
+      "Because he had a lot of work, he still helped",
+      "If he had a lot of work, he still helped",
+      "When he had a lot of work, he still helped"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 366
+  },
+  {
+    "question": "मैंने देखा कि वह बहुत खुश था।",
+    "options": [
+      "I saw that he was very happy",
+      "I saw because he was very happy",
+      "I saw if he was very happy",
+      "I saw when he was very happy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a noun clause.",
+    "id": 367
+  },
+  {
+    "question": "जैसे ही उसने कार स्टार्ट की, इंजन खराब हो गया।",
+    "options": [
+      "As soon as he started the car, the engine broke down",
+      "When he started the car, the engine broke down",
+      "If he started the car, the engine broke down",
+      "Because he started the car, the engine broke down"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate sequence.",
+    "id": 368
+  },
+  {
+    "question": "न तो उसने मुझे बुलाया, न ही आया।",
+    "options": [
+      "Neither did he call me nor come",
+      "Either he called me or came",
+      "Both he called me and came",
+      "He called me but didn't come"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 369
+  },
+  {
+    "question": "तुम जहाँ भी जाओ, सत्य बोलो।",
+    "options": [
+      "Wherever you go, speak the truth",
+      "Whenever you go, speak the truth",
+      "However you go, speak the truth",
+      "Whatever you go, speak the truth"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 370
+  },
+  {
+    "question": "उसने न केवल मुझे नौकरी दिलाई बल्कि प्रशिक्षण भी दिया।",
+    "options": [
+      "He not only got me a job but also gave training",
+      "He got me a job and gave training",
+      "He got me a job or gave training",
+      "He got me a job but gave training"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 371
+  },
+  {
+    "question": "जब से तुम आए हो, मेरी जिंदगी बदल गई।",
+    "options": [
+      "Since you came, my life has changed",
+      "When you came, my life has changed",
+      "If you came, my life has changed",
+      "Because you came, my life has changed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 372
+  },
+  {
+    "question": "तुम चाहे जितना भी चिल्लाओ, मैं नहीं सुनूंगा।",
+    "options": [
+      "No matter how much you shout, I will not listen",
+      "No matter when you shout, I will not listen",
+      "No matter where you shout, I will not listen",
+      "No matter why you shout, I will not listen"
+    ],
+    "correctIndex": 0,
+    "explanation": "'No matter how much' (चाहे जितना भी) shows concession.",
+    "id": 373
+  },
+  {
+    "question": "वह सफल हुआ क्योंकि उसने मेहनत की।",
+    "options": [
+      "He succeeded because he worked hard",
+      "He succeeded so he worked hard",
+      "He succeeded but he worked hard",
+      "He succeeded and he worked hard"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 374
+  },
+  {
+    "question": "जब तक तुम नहीं बुलाओगे, मैं नहीं जाऊंगा।",
+    "options": [
+      "I will not go until you call me",
+      "I will not go if you call me",
+      "I will not go when you call me",
+      "I will not go because you call me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 375
+  },
+  {
+    "question": "तुम जैसा कहो, वैसा होगा।",
+    "options": [
+      "It will be as you say",
+      "It will be if you say",
+      "It will be when you say",
+      "It will be because you say"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसा) means 'in the manner that'.",
+    "id": 376
+  },
+  {
+    "question": "वह ऐसे रोया जैसे उसकी माँ मर गई हो।",
+    "options": [
+      "He cried as if his mother had died",
+      "He cried because his mother had died",
+      "He cried so his mother had died",
+      "He cried and his mother had died"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 377
+  },
+  {
+    "question": "जितना तुम यात्रा करोगे, उतना ही ज्ञान बढ़ेगा।",
+    "options": [
+      "The more you travel, the more your knowledge will increase",
+      "If you travel, the more your knowledge will increase",
+      "When you travel, the more your knowledge will increase",
+      "Because you travel, the more your knowledge will increase"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows knowledge proportion.",
+    "id": 378
+  },
+  {
+    "question": "हालाँकि उसे पता था कि वह गलत है, फिर भी उसने जिद पकड़ रखी।",
+    "options": [
+      "Although he knew he was wrong, he still stuck to his stubbornness",
+      "Because he knew he was wrong, he still stuck to his stubbornness",
+      "If he knew he was wrong, he still stuck to his stubbornness",
+      "When he knew he was wrong, he still stuck to his stubbornness"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 379
+  },
+  {
+    "question": "मैंने सुना कि तुमने पुरस्कार जीता।",
+    "options": [
+      "I heard that you won the prize",
+      "I heard because you won the prize",
+      "I heard if you won the prize",
+      "I heard when you won the prize"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a hearsay clause.",
+    "id": 380
+  },
+  {
+    "question": "जैसे ही उसने नमक डाला, खाना स्वादिष्ट हो गया।",
+    "options": [
+      "As soon as he added salt, the food became tasty",
+      "When he added salt, the food became tasty",
+      "If he added salt, the food became tasty",
+      "Because he added salt, the food became tasty"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate result.",
+    "id": 381
+  },
+  {
+    "question": "न तो मैंने उसकी मदद की, न ही उसने मेरी।",
+    "options": [
+      "Neither did I help him, nor did he help me",
+      "Either I helped him, or he helped me",
+      "Both I helped him and he helped me",
+      "I helped him but he didn't help me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 382
+  },
+  {
+    "question": "तुम जब भी चाहो, मुझे बुला सकते हो।",
+    "options": [
+      "You can call me whenever you want",
+      "You can call me wherever you want",
+      "You can call me however you want",
+      "You can call me whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 383
+  },
+  {
+    "question": "उसने बहुत पैसा लगाया, फिर भी नुकसान हुआ।",
+    "options": [
+      "He invested a lot of money, yet there was a loss",
+      "He invested a lot of money, so there was a loss",
+      "He invested a lot of money, because there was a loss",
+      "He invested a lot of money, and there was a loss"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 384
+  },
+  {
+    "question": "जब मैं स्कूल में था, तब मैंने यह सीखा।",
+    "options": [
+      "When I was in school, I learned this",
+      "If I was in school, I learned this",
+      "Because I was in school, I learned this",
+      "So I was in school, I learned this"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates past time.",
+    "id": 385
+  },
+  {
+    "question": "तुम जैसा सुनते हो, वैसा ही सुनाओ।",
+    "options": [
+      "Narrate as you hear",
+      "Narrate if you hear",
+      "Narrate when you hear",
+      "Narrate because you hear"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसा) means 'in the manner that'.",
+    "id": 386
+  },
+  {
+    "question": "वह ऐसे दौड़ा जैसे हिरण हो।",
+    "options": [
+      "He ran as if he were a deer",
+      "He ran because he was a deer",
+      "He ran so he was a deer",
+      "He ran and he was a deer"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 387
+  },
+  {
+    "question": "जितना तुम खुश रहोगे, उतना ही तुम्हारा स्वास्थ्य अच्छा रहेगा।",
+    "options": [
+      "The happier you remain, the better your health will be",
+      "If you remain happy, the better your health will be",
+      "When you remain happy, the better your health will be",
+      "Because you remain happy, the better your health will be"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The happier...the better' (जितना...उतना) shows health proportion.",
+    "id": 388
+  },
+  {
+    "question": "हालाँकि वह बहुत व्यस्त था, फिर भी उसने फोन किया।",
+    "options": [
+      "Although he was very busy, he still called",
+      "Because he was very busy, he still called",
+      "If he was very busy, he still called",
+      "When he was very busy, he still called"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 389
+  },
+  {
+    "question": "मैंने सोचा कि शायद वह मुझसे झूठ बोल रहा है।",
+    "options": [
+      "I thought that perhaps he was lying to me",
+      "I thought because perhaps he was lying to me",
+      "I thought if perhaps he was lying to me",
+      "I thought when perhaps he was lying to me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a thought clause.",
+    "id": 390
+  },
+  {
+    "question": "जैसे ही उसने बटन दबाया, मशीन चालू हो गई।",
+    "options": [
+      "As soon as he pressed the button, the machine started",
+      "When he pressed the button, the machine started",
+      "If he pressed the button, the machine started",
+      "Because he pressed the button, the machine started"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate action.",
+    "id": 391
+  },
+  {
+    "question": "न तो वह पढ़ना चाहता है, न ही लिखना।",
+    "options": [
+      "Neither does he want to read nor write",
+      "Either he wants to read or write",
+      "Both he wants to read and write",
+      "He wants to read but not write"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 392
+  },
+  {
+    "question": "तुम जहाँ भी जाओ, वहाँ की संस्कृति सीखो।",
+    "options": [
+      "Wherever you go, learn the culture there",
+      "Whenever you go, learn the culture there",
+      "However you go, learn the culture there",
+      "Whatever you go, learn the culture there"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 393
+  },
+  {
+    "question": "उसने न केवल अपनी जान बचाई बल्कि दूसरों की भी।",
+    "options": [
+      "He not only saved his own life but also others'",
+      "He saved his own life and others'",
+      "He saved his own life or others'",
+      "He saved his own life but others'"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 394
+  },
+  {
+    "question": "जब से उसने शराब छोड़ी, तब से वह स्वस्थ है।",
+    "options": [
+      "Since he quit alcohol, he has been healthy",
+      "When he quit alcohol, he has been healthy",
+      "If he quit alcohol, he has been healthy",
+      "Because he quit alcohol, he has been healthy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 395
+  },
+  {
+    "question": "तुम चाहे जितनी भी तारीफ करो, वह नहीं सुनेगा।",
+    "options": [
+      "However much you praise him, he won't listen",
+      "Wherever much you praise him, he won't listen",
+      "Whenever much you praise him, he won't listen",
+      "Whatever much you praise him, he won't listen"
+    ],
+    "correctIndex": 0,
+    "explanation": "'However much' (चाहे जितनी भी) shows concession.",
+    "id": 396
+  },
+  {
+    "question": "वह रोया क्योंकि उसने अपना सब कुछ खो दिया।",
+    "options": [
+      "He cried because he had lost everything",
+      "He cried so he had lost everything",
+      "He cried but he had lost everything",
+      "He cried and he had lost everything"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 397
+  },
+  {
+    "question": "जब तक तुम नहीं रुकोगे, मैं नहीं थमूंगा।",
+    "options": [
+      "I will not stop until you stop",
+      "I will not stop if you stop",
+      "I will not stop when you stop",
+      "I will not stop because you stop"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 398
+  },
+  {
+    "question": "तुम जैसे हो, वैसे ही रहना सीखो।",
+    "options": [
+      "Learn to remain as you are",
+      "Learn to remain if you are",
+      "Learn to remain when you are",
+      "Learn to remain because you are"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 399
+  },
+  {
+    "question": "वह ऐसे चुप बैठा जैसे मूर्ति हो।",
+    "options": [
+      "He sat silently as if he were a statue",
+      "He sat silently because he was a statue",
+      "He sat silently so he was a statue",
+      "He sat silently and he was a statue"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 400
+  },
+  {
+    "question": "जितना तुम मुस्कुराओगे, उतना ही तुम्हारा दिन अच्छा होगा।",
+    "options": [
+      "The more you smile, the better your day will be",
+      "If you smile, the better your day will be",
+      "When you smile, the better your day will be",
+      "Because you smile, the better your day will be"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the better' (जितना...उतना) shows positive proportion.",
+    "id": 401
+  },
+  {
+    "question": "हालाँकि उसने मुझे धोखा दिया, फिर भी मैंने उसे माफ कर दिया।",
+    "options": [
+      "Although he cheated me, I still forgave him",
+      "Because he cheated me, I still forgave him",
+      "If he cheated me, I still forgave him",
+      "When he cheated me, I still forgave him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 402
+  },
+  {
+    "question": "मैंने महसूस किया कि वह सही था।",
+    "options": [
+      "I felt that he was right",
+      "I felt because he was right",
+      "I felt if he was right",
+      "I felt when he was right"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a feeling clause.",
+    "id": 403
+  },
+  {
+    "question": "जैसे ही उसने पैसे देखे, उसकी आँखें चमक गईं।",
+    "options": [
+      "As soon as he saw the money, his eyes sparkled",
+      "When he saw the money, his eyes sparkled",
+      "If he saw the money, his eyes sparkled",
+      "Because he saw the money, his eyes sparkled"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 404
+  },
+  {
+    "question": "न तो मैंने उससे शिकायत की, न ही उसने मुझसे।",
+    "options": [
+      "Neither did I complain to him, nor did he complain to me",
+      "Either I complained to him, or he complained to me",
+      "Both I complained to him and he complained to me",
+      "I complained to him but he didn't complain to me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 405
+  },
+  {
+    "question": "तुम जब भी चाहो, मेरे घर आ सकते हो।",
+    "options": [
+      "You can come to my house whenever you want",
+      "You can come to my house wherever you want",
+      "You can come to my house however you want",
+      "You can come to my house whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 406
+  },
+  {
+    "question": "उसने बहुत कोशिश की, फिर भी उसे प्यार नहीं मिला।",
+    "options": [
+      "He tried very hard, yet he did not get love",
+      "He tried very hard, so he did not get love",
+      "He tried very hard, because he did not get love",
+      "He tried very hard, and he did not get love"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 407
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, तब वह आ गया।",
+    "options": [
+      "When I called him, he came",
+      "If I called him, he came",
+      "Because I called him, he came",
+      "So I called him, he came"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time.",
+    "id": 408
+  },
+  {
+    "question": "तुम जैसा बनना चाहते हो, वैसा बनो।",
+    "options": [
+      "Become as you want to become",
+      "Become if you want to become",
+      "Become when you want to become",
+      "Become because you want to become"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसा) means 'in the manner that'.",
+    "id": 409
+  },
+  {
+    "question": "वह ऐसे देख रहा था जैसे कुछ छुपा रहा हो।",
+    "options": [
+      "He was looking as if he were hiding something",
+      "He was looking because he was hiding something",
+      "He was looking so he was hiding something",
+      "He was looking and he was hiding something"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 410
+  },
+  {
+    "question": "जितना तुम सादगी से रहोगे, उतना ही शांति मिलेगी।",
+    "options": [
+      "The more simply you live, the more peace you will get",
+      "If you live simply, the more peace you will get",
+      "When you live simply, the more peace you will get",
+      "Because you live simply, the more peace you will get"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows peace proportion.",
+    "id": 411
+  },
+  {
+    "question": "हालाँकि उसके पास कम पैसे थे, फिर भी उसने दान दिया।",
+    "options": [
+      "Although he had less money, he still donated",
+      "Because he had less money, he still donated",
+      "If he had less money, he still donated",
+      "When he had less money, he still donated"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 412
+  },
+  {
+    "question": "मैंने प्रार्थना की कि वह जल्दी ठीक हो जाए।",
+    "options": [
+      "I prayed that he would recover soon",
+      "I prayed because he would recover soon",
+      "I prayed if he would recover soon",
+      "I prayed when he would recover soon"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a prayer clause.",
+    "id": 413
+  },
+  {
+    "question": "जैसे ही उसने हाथ हिलाया, गाड़ी रुक गई।",
+    "options": [
+      "As soon as he waved his hand, the car stopped",
+      "When he waved his hand, the car stopped",
+      "If he waved his hand, the car stopped",
+      "Because he waved his hand, the car stopped"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 414
+  },
+  {
+    "question": "न तो उसने मुझे बताया, न ही मैंने पूछा।",
+    "options": [
+      "Neither did he tell me, nor did I ask",
+      "Either he told me, or I asked",
+      "Both he told me and I asked",
+      "He told me but I didn't ask"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for two negatives.",
+    "id": 415
+  },
+  {
+    "question": "तुम जहाँ भी जाओ, वहाँ अपनी पहचान बनाओ।",
+    "options": [
+      "Wherever you go, make your identity there",
+      "Whenever you go, make your identity there",
+      "However you go, make your identity there",
+      "Whatever you go, make your identity there"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 416
+  },
+  {
+    "question": "उसने न केवल मुझसे प्यार किया बल्कि मेरा सम्मान भी किया।",
+    "options": [
+      "He not only loved me but also respected me",
+      "He loved me and respected me",
+      "He loved me or respected me",
+      "He loved me but respected me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 417
+  },
+  {
+    "question": "जब से तुमने यह काम शुरू किया, तब से सब बिगड़ गया।",
+    "options": [
+      "Since you started this work, everything has gone wrong",
+      "When you started this work, everything has gone wrong",
+      "If you started this work, everything has gone wrong",
+      "Because you started this work, everything has gone wrong"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 418
+  },
+  {
+    "question": "तुम चाहे जितनी भी मेहनत करो, किस्मत के बिना कुछ नहीं होगा।",
+    "options": [
+      "However hard you work, nothing will happen without luck",
+      "Wherever hard you work, nothing will happen without luck",
+      "Whenever hard you work, nothing will happen without luck",
+      "Whatever hard you work, nothing will happen without luck"
+    ],
+    "correctIndex": 0,
+    "explanation": "'However hard' (चाहे जितनी भी) shows concession.",
+    "id": 419
+  },
+  {
+    "question": "वह मुस्कुराया क्योंकि उसने मुझे देखा।",
+    "options": [
+      "He smiled because he saw me",
+      "He smiled so he saw me",
+      "He smiled but he saw me",
+      "He smiled and he saw me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 420
+  },
+  {
+    "question": "जब तक तुम नहीं सीखोगे, मैं तुम्हें सिखाता रहूंगा।",
+    "options": [
+      "I will keep teaching you until you learn",
+      "I will keep teaching you if you learn",
+      "I will keep teaching you when you learn",
+      "I will keep teaching you because you learn"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 421
+  },
+  {
+    "question": "तुम जैसा बोलते हो, वैसा ही करो।",
+    "options": [
+      "Do as you speak",
+      "Do if you speak",
+      "Do when you speak",
+      "Do because you speak"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसा) means 'in the manner that'.",
+    "id": 422
+  },
+  {
+    "question": "वह ऐसे झुका जैसे प्रणाम कर रहा हो।",
+    "options": [
+      "He bowed as if he were paying respects",
+      "He bowed because he was paying respects",
+      "He bowed so he was paying respects",
+      "He bowed and he was paying respects"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 423
+  },
+  {
+    "question": "जितना तुम कम बोलोगे, उतना ही अच्छा होगा।",
+    "options": [
+      "The less you speak, the better it will be",
+      "If you speak less, the better it will be",
+      "When you speak less, the better it will be",
+      "Because you speak less, the better it will be"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The less...the better' (जितना कम...उतना) shows inverse proportion.",
+    "id": 424
+  },
+  {
+    "question": "हालाँकि वह बहुत थका हुआ था, फिर भी उसने काम किया।",
+    "options": [
+      "Although he was very tired, he still worked",
+      "Because he was very tired, he still worked",
+      "If he was very tired, he still worked",
+      "When he was very tired, he still worked"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 425
+  },
+  {
+    "question": "मैंने सपना देखा कि मैं उड़ रहा हूँ।",
+    "options": [
+      "I dreamt that I was flying",
+      "I dreamt because I was flying",
+      "I dreamt if I was flying",
+      "I dreamt when I was flying"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a dream clause.",
+    "id": 426
+  },
+  {
+    "question": "जैसे ही उसने मुझे छुआ, मैं चौंक गया।",
+    "options": [
+      "As soon as he touched me, I was startled",
+      "When he touched me, I was startled",
+      "If he touched me, I was startled",
+      "Because he touched me, I was startled"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 427
+  },
+  {
+    "question": "न तो उसने मुझे समझा, न ही मैंने उसे।",
+    "options": [
+      "Neither did he understand me, nor did I understand him",
+      "Either he understood me, or I understood him",
+      "Both he understood me and I understood him",
+      "He understood me but I didn't understand him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 428
+  },
+  {
+    "question": "तुम जब भी चाहो, मुझसे मिल सकते हो।",
+    "options": [
+      "You can meet me whenever you want",
+      "You can meet me wherever you want",
+      "You can meet me however you want",
+      "You can meet me whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 429
+  },
+  {
+    "question": "उसने बहुत पैसा कमाया, फिर भी वह संतुष्ट नहीं है।",
+    "options": [
+      "He earned a lot of money, yet he is not satisfied",
+      "He earned a lot of money, so he is not satisfied",
+      "He earned a lot of money, because he is not satisfied",
+      "He earned a lot of money, and he is not satisfied"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 430
+  },
+  {
+    "question": "जब मैं बाहर गया, तब मुझे एक किताब मिली।",
+    "options": [
+      "When I went out, I found a book",
+      "If I went out, I found a book",
+      "Because I went out, I found a book",
+      "So I went out, I found a book"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time.",
+    "id": 431
+  },
+  {
+    "question": "तुम जैसा बनना चाहते हो, वैसा बनने का प्रयास करो।",
+    "options": [
+      "Try to become as you want to become",
+      "Try to become if you want to become",
+      "Try to become when you want to become",
+      "Try to become because you want to become"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसा) means 'in the manner that'.",
+    "id": 432
+  },
+  {
+    "question": "वह ऐसे रोया जैसे बच्चा हो।",
+    "options": [
+      "He cried as if he were a child",
+      "He cried because he was a child",
+      "He cried so he was a child",
+      "He cried and he was a child"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 433
+  },
+  {
+    "question": "जितना तुम पैसे बचाओगे, उतना ही सुरक्षित रहोगे।",
+    "options": [
+      "The more money you save, the safer you will be",
+      "If you save money, the safer you will be",
+      "When you save money, the safer you will be",
+      "Because you save money, the safer you will be"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the safer' (जितना...उतना) shows security proportion.",
+    "id": 434
+  },
+  {
+    "question": "हालाँकि उसे देर हो गई थी, फिर भी वह दौड़ता रहा।",
+    "options": [
+      "Although he was late, he still kept running",
+      "Because he was late, he still kept running",
+      "If he was late, he still kept running",
+      "When he was late, he still kept running"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 435
+  },
+  {
+    "question": "मैंने देखा कि वह रो रहा था।",
+    "options": [
+      "I saw that he was crying",
+      "I saw because he was crying",
+      "I saw if he was crying",
+      "I saw when he was crying"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a noun clause.",
+    "id": 436
+  },
+  {
+    "question": "जैसे ही उसने खाना खाया, उसे उल्टी आ गई।",
+    "options": [
+      "As soon as he ate the food, he vomited",
+      "When he ate the food, he vomited",
+      "If he ate the food, he vomited",
+      "Because he ate the food, he vomited"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 437
+  },
+  {
+    "question": "न तो उसने मुझसे पैसे लिए, न ही उधार मांगा।",
+    "options": [
+      "Neither did he take money from me nor ask for a loan",
+      "Either he took money from me or asked for a loan",
+      "Both he took money from me and asked for a loan",
+      "He took money from me but didn't ask for a loan"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 438
+  },
+  {
+    "question": "तुम जहाँ भी जाओ, वहाँ के नियमों का पालन करो।",
+    "options": [
+      "Wherever you go, follow the rules there",
+      "Whenever you go, follow the rules there",
+      "However you go, follow the rules there",
+      "Whatever you go, follow the rules there"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 439
+  },
+  {
+    "question": "उसने न केवल अपनी गलती सुधारी बल्कि मुझे भी बताया।",
+    "options": [
+      "He not only corrected his mistake but also told me",
+      "He corrected his mistake and told me",
+      "He corrected his mistake or told me",
+      "He corrected his mistake but told me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 440
+  },
+  {
+    "question": "जब से तुमने यह बताया, तब से मैं सतर्क हूँ।",
+    "options": [
+      "Since you told me this, I have been alert",
+      "When you told me this, I have been alert",
+      "If you told me this, I have been alert",
+      "Because you told me this, I have been alert"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 441
+  },
+  {
+    "question": "तुम चाहे जितना भी रो लो, उसे फर्क नहीं पड़ेगा।",
+    "options": [
+      "No matter how much you cry, it won't matter to him",
+      "No matter when you cry, it won't matter to him",
+      "No matter where you cry, it won't matter to him",
+      "No matter why you cry, it won't matter to him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'No matter how much' (चाहे जितना भी) shows concession.",
+    "id": 442
+  },
+  {
+    "question": "वह हँसा क्योंकि उसने एक मजाक सुना।",
+    "options": [
+      "He laughed because he heard a joke",
+      "He laughed so he heard a joke",
+      "He laughed but he heard a joke",
+      "He laughed and he heard a joke"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 443
+  },
+  {
+    "question": "जब तक तुम नहीं थकोगे, मैं नहीं रुकूंगा।",
+    "options": [
+      "I will not stop until you get tired",
+      "I will not stop if you get tired",
+      "I will not stop when you get tired",
+      "I will not stop because you get tired"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 444
+  },
+  {
+    "question": "तुम जैसा सोचते हो, वैसा ही लिखो।",
+    "options": [
+      "Write as you think",
+      "Write if you think",
+      "Write when you think",
+      "Write because you think"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसा) means 'in the manner that'.",
+    "id": 445
+  },
+  {
+    "question": "वह ऐसे चल रहा था जैसे नशे में हो।",
+    "options": [
+      "He was walking as if he were drunk",
+      "He was walking because he was drunk",
+      "He was walking so he was drunk",
+      "He was walking and he was drunk"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 446
+  },
+  {
+    "question": "जितना तुम दूसरों की मदद करोगे, उतना ही तुम्हारी मदद होगी।",
+    "options": [
+      "The more you help others, the more you will be helped",
+      "If you help others, the more you will be helped",
+      "When you help others, the more you will be helped",
+      "Because you help others, the more you will be helped"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows reciprocal help.",
+    "id": 447
+  },
+  {
+    "question": "हालाँकि उसने वादा किया था, फिर भी वह भूल गया।",
+    "options": [
+      "Although he had promised, he still forgot",
+      "Because he had promised, he still forgot",
+      "If he had promised, he still forgot",
+      "When he had promised, he still forgot"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 448
+  },
+  {
+    "question": "मैंने सुना कि तुम आ रहे हो।",
+    "options": [
+      "I heard that you are coming",
+      "I heard because you are coming",
+      "I heard if you are coming",
+      "I heard when you are coming"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a hearsay clause.",
+    "id": 449
+  },
+  {
+    "question": "जैसे ही उसने दरवाजा खोला, अंधेरा छा गया।",
+    "options": [
+      "As soon as he opened the door, darkness spread",
+      "When he opened the door, darkness spread",
+      "If he opened the door, darkness spread",
+      "Because he opened the door, darkness spread"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate result.",
+    "id": 450
+  },
+  {
+    "question": "न तो मैंने उसे धोखा दिया, न ही उसने मुझे।",
+    "options": [
+      "Neither did I deceive him, nor did he deceive me",
+      "Either I deceived him, or he deceived me",
+      "Both I deceived him and he deceived me",
+      "I deceived him but he didn't deceive me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 451
+  },
+  {
+    "question": "तुम जब भी चाहो, मुझसे बात कर सकते हो।",
+    "options": [
+      "You can talk to me whenever you want",
+      "You can talk to me wherever you want",
+      "You can talk to me however you want",
+      "You can talk to me whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 452
+  },
+  {
+    "question": "उसने बहुत यात्रा की, फिर भी वह थका नहीं।",
+    "options": [
+      "He traveled a lot, yet he was not tired",
+      "He traveled a lot, so he was not tired",
+      "He traveled a lot, because he was not tired",
+      "He traveled a lot, and he was not tired"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 453
+  },
+  {
+    "question": "जब मैं छोटा था, तब मुझे क्रिकेट पसंद था।",
+    "options": [
+      "When I was young, I liked cricket",
+      "If I was young, I liked cricket",
+      "Because I was young, I liked cricket",
+      "So I was young, I liked cricket"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) refers to past time.",
+    "id": 454
+  },
+  {
+    "question": "तुम जैसे हो, वैसे ही बने रहो।",
+    "options": [
+      "Stay as you are",
+      "Stay if you are",
+      "Stay when you are",
+      "Stay because you are"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसे) means 'in the manner that'.",
+    "id": 455
+  },
+  {
+    "question": "वह ऐसे खड़ा था जैसे पेड़ हो।",
+    "options": [
+      "He stood as if he were a tree",
+      "He stood because he was a tree",
+      "He stood so he was a tree",
+      "He stood and he was a tree"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 456
+  },
+  {
+    "question": "जितना तुम माफ करोगे, उतना ही तुम्हें शांति मिलेगी।",
+    "options": [
+      "The more you forgive, the more peace you will get",
+      "If you forgive, the more peace you will get",
+      "When you forgive, the more peace you will get",
+      "Because you forgive, the more peace you will get"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows peace through forgiveness.",
+    "id": 457
+  },
+  {
+    "question": "हालाँकि उसे चोट लगी थी, फिर भी उसने खेलना जारी रखा।",
+    "options": [
+      "Although he was injured, he still continued playing",
+      "Because he was injured, he still continued playing",
+      "If he was injured, he still continued playing",
+      "When he was injured, he still continued playing"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 458
+  },
+  {
+    "question": "मैंने सोचा कि शायद वह सही होगा।",
+    "options": [
+      "I thought that perhaps he would be right",
+      "I thought because perhaps he would be right",
+      "I thought if perhaps he would be right",
+      "I thought when perhaps he would be right"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a thought clause.",
+    "id": 459
+  },
+  {
+    "question": "जैसे ही उसने किताब खोली, उसे उत्तर मिल गया।",
+    "options": [
+      "As soon as he opened the book, he got the answer",
+      "When he opened the book, he got the answer",
+      "If he opened the book, he got the answer",
+      "Because he opened the book, he got the answer"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate result.",
+    "id": 460
+  },
+  {
+    "question": "न तो उसने मुझसे सलाह ली, न ही मैंने दी।",
+    "options": [
+      "Neither did he take advice from me, nor did I give",
+      "Either he took advice from me, or I gave",
+      "Both he took advice from me and I gave",
+      "He took advice from me but I didn't give"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 461
+  },
+  {
+    "question": "तुम जहाँ भी जाओ, वहाँ समय का ध्यान रखो।",
+    "options": [
+      "Wherever you go, keep track of time there",
+      "Whenever you go, keep track of time there",
+      "However you go, keep track of time there",
+      "Whatever you go, keep track of time there"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 462
+  },
+  {
+    "question": "उसने न केवल मेरी बात मानी बल्कि उसे अमल में भी लाया।",
+    "options": [
+      "He not only listened to me but also implemented it",
+      "He listened to me and implemented it",
+      "He listened to me or implemented it",
+      "He listened to me but implemented it"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 463
+  },
+  {
+    "question": "जब से उसने धूम्रपान छोड़ा, तब से उसकी सेहत सुधरी।",
+    "options": [
+      "Since he quit smoking, his health has improved",
+      "When he quit smoking, his health has improved",
+      "If he quit smoking, his health has improved",
+      "Because he quit smoking, his health has improved"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 464
+  },
+  {
+    "question": "तुम चाहे जितना भी दौड़ो, समय से पहले नहीं पहुंच सकते।",
+    "options": [
+      "No matter how fast you run, you cannot reach before time",
+      "No matter when you run, you cannot reach before time",
+      "No matter where you run, you cannot reach before time",
+      "No matter why you run, you cannot reach before time"
+    ],
+    "correctIndex": 0,
+    "explanation": "'No matter how fast' (चाहे जितना भी) shows concession.",
+    "id": 465
+  },
+  {
+    "question": "वह गिर गया क्योंकि उसका पैर फिसल गया।",
+    "options": [
+      "He fell because his foot slipped",
+      "He fell so his foot slipped",
+      "He fell but his foot slipped",
+      "He fell and his foot slipped"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 466
+  },
+  {
+    "question": "जब तक तुम नहीं बताओगे, मैं नहीं जान पाऊंगा।",
+    "options": [
+      "I will not be able to know until you tell me",
+      "I will not be able to know if you tell me",
+      "I will not be able to know when you tell me",
+      "I will not be able to know because you tell me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 467
+  },
+  {
+    "question": "तुम जैसा काम करोगे, वैसा ही परिणाम मिलेगा।",
+    "options": [
+      "As you work, so shall you get the result",
+      "If you work, so shall you get the result",
+      "When you work, so shall you get the result",
+      "Because you work, so shall you get the result"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows work-result link.",
+    "id": 468
+  },
+  {
+    "question": "वह ऐसे सोया जैसे कोई चिंता ही नहीं हो।",
+    "options": [
+      "He slept as if there were no worry at all",
+      "He slept because there was no worry at all",
+      "He slept so there was no worry at all",
+      "He slept and there was no worry at all"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 469
+  },
+  {
+    "question": "जितना तुम जानोगे, उतना ही हैरान होगे।",
+    "options": [
+      "The more you know, the more surprised you will be",
+      "If you know, the more surprised you will be",
+      "When you know, the more surprised you will be",
+      "Because you know, the more surprised you will be"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows surprise proportion.",
+    "id": 470
+  },
+  {
+    "question": "हालाँकि वह बहुत अकेला था, फिर भी उसने शिकायत नहीं की।",
+    "options": [
+      "Although he was very lonely, he still did not complain",
+      "Because he was very lonely, he still did not complain",
+      "If he was very lonely, he still did not complain",
+      "When he was very lonely, he still did not complain"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 471
+  },
+  {
+    "question": "मैंने महसूस किया कि वह दुखी है।",
+    "options": [
+      "I felt that he is sad",
+      "I felt because he is sad",
+      "I felt if he is sad",
+      "I felt when he is sad"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a feeling clause.",
+    "id": 472
+  },
+  {
+    "question": "जैसे ही उसने गाड़ी रोकी, हम उतर गए।",
+    "options": [
+      "As soon as he stopped the car, we got off",
+      "When he stopped the car, we got off",
+      "If he stopped the car, we got off",
+      "Because he stopped the car, we got off"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate action.",
+    "id": 473
+  },
+  {
+    "question": "न तो मैंने उसे बधाई दी, न ही उसने मुझे।",
+    "options": [
+      "Neither did I congratulate him, nor did he congratulate me",
+      "Either I congratulated him, or he congratulated me",
+      "Both I congratulated him and he congratulated me",
+      "I congratulated him but he didn't congratulate me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 474
+  },
+  {
+    "question": "तुम जब भी चाहो, यहाँ से जा सकते हो।",
+    "options": [
+      "You can leave from here whenever you want",
+      "You can leave from here wherever you want",
+      "You can leave from here however you want",
+      "You can leave from here whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 475
+  },
+  {
+    "question": "उसने बहुत कुछ खोया, फिर भी हार नहीं मानी।",
+    "options": [
+      "He lost a lot, yet he did not give up",
+      "He lost a lot, so he did not give up",
+      "He lost a lot, because he did not give up",
+      "He lost a lot, and he did not give up"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 476
+  },
+  {
+    "question": "जब मैंने उसे बुलाया, तब वह सो रहा था।",
+    "options": [
+      "When I called him, he was sleeping",
+      "If I called him, he was sleeping",
+      "Because I called him, he was sleeping",
+      "So I called him, he was sleeping"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time.",
+    "id": 477
+  },
+  {
+    "question": "तुम जैसा सुनते हो, वैसा ही करो।",
+    "options": [
+      "Do as you hear",
+      "Do if you hear",
+      "Do when you hear",
+      "Do because you hear"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As' (जैसा) means 'in the manner that'.",
+    "id": 478
+  },
+  {
+    "question": "वह ऐसे बैठा जैसे मालिक हो।",
+    "options": [
+      "He sat as if he were the owner",
+      "He sat because he was the owner",
+      "He sat so he was the owner",
+      "He sat and he was the owner"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 479
+  },
+  {
+    "question": "जितना तुम प्रार्थना करोगे, उतना ही शांति मिलेगी।",
+    "options": [
+      "The more you pray, the more peace you will get",
+      "If you pray, the more peace you will get",
+      "When you pray, the more peace you will get",
+      "Because you pray, the more peace you will get"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows peace through prayer.",
+    "id": 480
+  },
+  {
+    "question": "हालाँकि उसने सब कुछ कर दिखाया, फिर भी उसे पहचान नहीं मिली।",
+    "options": [
+      "Although he did everything, he still did not get recognition",
+      "Because he did everything, he still did not get recognition",
+      "If he did everything, he still did not get recognition",
+      "When he did everything, he still did not get recognition"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 481
+  },
+  {
+    "question": "मैंने सपना देखा कि मैं समुद्र में हूँ।",
+    "options": [
+      "I dreamt that I was in the sea",
+      "I dreamt because I was in the sea",
+      "I dreamt if I was in the sea",
+      "I dreamt when I was in the sea"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a dream clause.",
+    "id": 482
+  },
+  {
+    "question": "जैसे ही उसने मुझे देखा, वह भाग गया।",
+    "options": [
+      "As soon as he saw me, he ran away",
+      "When he saw me, he ran away",
+      "If he saw me, he ran away",
+      "Because he saw me, he ran away"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 483
+  },
+  {
+    "question": "न तो उसने मुझसे प्यार किया, न ही नफरत।",
+    "options": [
+      "Neither did he love me nor hate me",
+      "Either he loved me or hated me",
+      "Both he loved me and hated me",
+      "He loved me but didn't hate me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) negates both.",
+    "id": 484
+  },
+  {
+    "question": "तुम जहाँ भी जाओ, वहाँ अपना परिचय दो।",
+    "options": [
+      "Wherever you go, introduce yourself there",
+      "Whenever you go, introduce yourself there",
+      "However you go, introduce yourself there",
+      "Whatever you go, introduce yourself there"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wherever' (जहाँ भी) indicates any place.",
+    "id": 485
+  },
+  {
+    "question": "उसने न केवल मेरी समस्या सुनी बल्कि उसका समाधान भी किया।",
+    "options": [
+      "He not only listened to my problem but also solved it",
+      "He listened to my problem and solved it",
+      "He listened to my problem or solved it",
+      "He listened to my problem but solved it"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Not only...but also' (न केवल...बल्कि) adds emphasis.",
+    "id": 486
+  },
+  {
+    "question": "जब से उसने यह काम किया, तब से उसे पश्चाताप हो रहा है।",
+    "options": [
+      "Since he did this work, he has been repenting",
+      "When he did this work, he has been repenting",
+      "If he did this work, he has been repenting",
+      "Because he did this work, he has been repenting"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' (जब से) indicates time from past until now.",
+    "id": 487
+  },
+  {
+    "question": "तुम चाहे जितना भी कहो, मैं नहीं मानूंगा।",
+    "options": [
+      "No matter how much you say, I will not agree",
+      "No matter when you say, I will not agree",
+      "No matter where you say, I will not agree",
+      "No matter why you say, I will not agree"
+    ],
+    "correctIndex": 0,
+    "explanation": "'No matter how much' (चाहे जितना भी) shows concession.",
+    "id": 488
+  },
+  {
+    "question": "वह मुस्कुराया क्योंकि उसने सफलता पाई।",
+    "options": [
+      "He smiled because he achieved success",
+      "He smiled so he achieved success",
+      "He smiled but he achieved success",
+      "He smiled and he achieved success"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Because' (क्योंकि) gives reason.",
+    "id": 489
+  },
+  {
+    "question": "जब तक तुम नहीं जीतोगे, मैं नहीं मानूंगा।",
+    "options": [
+      "I will not agree until you win",
+      "I will not agree if you win",
+      "I will not agree when you win",
+      "I will not agree because you win"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Until' (जब तक) shows time condition.",
+    "id": 490
+  },
+  {
+    "question": "तुम जैसा व्यवहार करते हो, वैसा ही सम्मान पाते हो।",
+    "options": [
+      "As you behave, so you receive respect",
+      "If you behave, so you receive respect",
+      "When you behave, so you receive respect",
+      "Because you behave, so you receive respect"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As...so' (जैसा...वैसा) shows behavior-respect link.",
+    "id": 491
+  },
+  {
+    "question": "वह ऐसे दौड़ा जैसे रिकॉर्ड तोड़ना चाहता हो।",
+    "options": [
+      "He ran as if he wanted to break a record",
+      "He ran because he wanted to break a record",
+      "He ran so he wanted to break a record",
+      "He ran and he wanted to break a record"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As if' (जैसे) shows unreal comparison.",
+    "id": 492
+  },
+  {
+    "question": "जितना तुम शांत रहोगे, उतना ही तुम समझ पाओगे।",
+    "options": [
+      "The more calm you remain, the more you will understand",
+      "If you remain calm, the more you will understand",
+      "When you remain calm, the more you will understand",
+      "Because you remain calm, the more you will understand"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The more...the more' (जितना...उतना) shows understanding through calmness.",
+    "id": 493
+  },
+  {
+    "question": "हालाँकि उसे बहुत गुस्सा आया, फिर भी उसने कुछ नहीं बिगाड़ा।",
+    "options": [
+      "Although he got very angry, he still did not spoil anything",
+      "Because he got very angry, he still did not spoil anything",
+      "If he got very angry, he still did not spoil anything",
+      "When he got very angry, he still did not spoil anything"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Although' (हालाँकि) shows contrast.",
+    "id": 494
+  },
+  {
+    "question": "मैंने देखा कि वह जा रहा था।",
+    "options": [
+      "I saw that he was leaving",
+      "I saw because he was leaving",
+      "I saw if he was leaving",
+      "I saw when he was leaving"
+    ],
+    "correctIndex": 0,
+    "explanation": "'That' (कि) introduces a noun clause.",
+    "id": 495
+  },
+  {
+    "question": "जैसे ही उसने पैसा गिना, वह खुश हो गया।",
+    "options": [
+      "As soon as he counted the money, he became happy",
+      "When he counted the money, he became happy",
+      "If he counted the money, he became happy",
+      "Because he counted the money, he became happy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'As soon as' (जैसे ही) shows immediate reaction.",
+    "id": 496
+  },
+  {
+    "question": "न तो मैंने उसे धन्यवाद दिया, न ही उसने मुझे।",
+    "options": [
+      "Neither did I thank him, nor did he thank me",
+      "Either I thanked him, or he thanked me",
+      "Both I thanked him and he thanked me",
+      "I thanked him but he didn't thank me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Neither...nor' (न तो...न ही) for mutual negation.",
+    "id": 497
+  },
+  {
+    "question": "तुम जब भी चाहो, मेरे साथ चल सकते हो।",
+    "options": [
+      "You can come with me whenever you want",
+      "You can come with me wherever you want",
+      "You can come with me however you want",
+      "You can come with me whatever you want"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Whenever' (जब भी) indicates any time.",
+    "id": 498
+  },
+  {
+    "question": "उसने बहुत संघर्ष किया, फिर भी वह टूटा नहीं।",
+    "options": [
+      "He struggled a lot, yet he did not break",
+      "He struggled a lot, so he did not break",
+      "He struggled a lot, because he did not break",
+      "He struggled a lot, and he did not break"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' (फिर भी) shows unexpected contrast.",
+    "id": 499
+  },
+  {
+    "question": "जब मैंने यह सुना, तब मुझे विश्वास नहीं हुआ।",
+    "options": [
+      "When I heard this, I could not believe it",
+      "If I heard this, I could not believe it",
+      "Because I heard this, I could not believe it",
+      "So I heard this, I could not believe it"
+    ],
+    "correctIndex": 0,
+    "explanation": "'When' (जब) indicates time.",
+    "id": 500
+  }
+]

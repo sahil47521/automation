@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "question": "वह एक ईमानदार आदमी है।",
+    "options": [
+      "He is a honest man",
+      "He is an honest man",
+      "He is the honest man",
+      "He is honest man"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Honest' starts with a vowel sound (o) because 'h' is silent, so we use 'an'."
+  },
+  {
+    "id": 2,
+    "question": "सूरज चमक रहा है।",
+    "options": [
+      "A sun is shining",
+      "An sun is shining",
+      "The sun is shining",
+      "Sun is shining"
+    ],
+    "correctIndex": 2,
+    "explanation": "Universal/unique objects like 'sun' always take 'The'."
+  },
+  {
+    "id": 3,
+    "question": "मेरे पास एक सेब है।",
+    "options": [
+      "I have a apple",
+      "I have an apple",
+      "I have apple",
+      "I have the apple"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Apple' starts with a vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 4,
+    "question": "मेरे पास एक कुत्ता है।",
+    "options": [
+      "I have an dog",
+      "I have dog",
+      "I have the dog",
+      "I have a dog"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Dog' starts with a consonant 'd', so we use 'a'."
+  },
+  {
+    "id": 5,
+    "question": "वह एक डॉक्टर है।",
+    "options": [
+      "He is an doctor",
+      "He is doctor",
+      "He is a doctor",
+      "He is the doctor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Doctor' starts with consonant 'd', so we use 'a'."
+  },
+  {
+    "id": 6,
+    "question": "मुझे एक छाता चाहिए।",
+    "options": [
+      "I need a umbrella",
+      "I need the umbrella",
+      "I need an umbrella",
+      "I need umbrella"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Umbrella' starts with vowel 'u', so we use 'an'."
+  },
+  {
+    "id": 7,
+    "question": "चाँद रात को चमकता है।",
+    "options": [
+      "A moon shines at night",
+      "An moon shines at night",
+      "Moon shines at night",
+      "The moon shines at night"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Moon' is unique, there is only one moon, so we use 'The'."
+  },
+  {
+    "id": 8,
+    "question": "मैंने एक हाथी देखा।",
+    "options": [
+      "I saw a elephant",
+      "I saw the elephant",
+      "I saw elephant",
+      "I saw an elephant"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Elephant' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 9,
+    "question": "वहाँ एक पेड़ है।",
+    "options": [
+      "There is an tree",
+      "There is tree",
+      "There is a tree",
+      "There are a tree"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Tree' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 10,
+    "question": "मैं एक इंजीनियर हूँ।",
+    "options": [
+      "I am a engineer",
+      "I am the engineer",
+      "I am engineer",
+      "I am an engineer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Engineer' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 11,
+    "question": "मुझे एक अंडा चाहिए।",
+    "options": [
+      "I need a egg",
+      "I need the egg",
+      "I need an egg",
+      "I need egg"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Egg' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 12,
+    "question": "वह एक शिक्षक है।",
+    "options": [
+      "She is an teacher",
+      "She is the teacher",
+      "She is teacher",
+      "She is a teacher"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Teacher' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 13,
+    "question": "पृथ्वी सूर्य के चारों ओर घूमती है।",
+    "options": [
+      "A earth revolves around the sun",
+      "An earth revolves around the sun",
+      "Earth revolves around the sun",
+      "The earth revolves around the sun"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Earth' is unique, so we use 'The'. 'Sun' is also unique."
+  },
+  {
+    "id": 14,
+    "question": "मेरे पास एक उल्लू है।",
+    "options": [
+      "I have a owl",
+      "I have the owl",
+      "I have an owl",
+      "I have owl"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Owl' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 15,
+    "question": "वह एक किसान है।",
+    "options": [
+      "He is an farmer",
+      "He is farmer",
+      "He is the farmer",
+      "He is a farmer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Farmer' starts with consonant 'f', so we use 'a'."
+  },
+  {
+    "id": 16,
+    "question": "मैंने एक चील देखी।",
+    "options": [
+      "I saw a eagle",
+      "I saw eagle",
+      "I saw the eagle",
+      "I saw an eagle"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Eagle' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 17,
+    "question": "मुझे एक घंटे का इंतजार करना है।",
+    "options": [
+      "I have to wait for a hour",
+      "I have to wait for the hour",
+      "I have to wait for hour",
+      "I have to wait for an hour"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Hour' has a silent 'h', it sounds like 'our' (vowel sound), so we use 'an'."
+  },
+  {
+    "id": 18,
+    "question": "वहाँ एक बिल्ली है।",
+    "options": [
+      "There is an cat",
+      "There is a cat",
+      "There is cat",
+      "There are cat"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Cat' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 19,
+    "question": "यह एक पुरानी घड़ी है।",
+    "options": [
+      "This is a old watch",
+      "This is old watch",
+      "This is the old watch",
+      "This is an old watch"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Old' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 20,
+    "question": "मुझे एक नौकरी चाहिए।",
+    "options": [
+      "I need an job",
+      "I need the job",
+      "I need a job",
+      "I need job"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Job' starts with consonant 'j', so we use 'a'."
+  },
+  {
+    "id": 21,
+    "question": "वह एक अभिनेता है।",
+    "options": [
+      "He is a actor",
+      "He is the actor",
+      "He is actor",
+      "He is an actor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Actor' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 22,
+    "question": "मेरे पास एक कार है।",
+    "options": [
+      "I have an car",
+      "I have a car",
+      "I have car",
+      "I have the car"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Car' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 23,
+    "question": "हिमालय दुनिया की सबसे ऊँची पर्वत श्रृंखला है।",
+    "options": [
+      "A Himalayas is the highest",
+      "An Himalayas is the highest",
+      "Himalayas is the highest",
+      "The Himalayas is the highest mountain range"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mountain ranges always take 'The'. Superlatives also use 'The'."
+  },
+  {
+    "id": 24,
+    "question": "मैंने एक चींटी देखी।",
+    "options": [
+      "I saw a ant",
+      "I saw the ant",
+      "I saw an ant",
+      "I saw ant"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Ant' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 25,
+    "question": "वह एक वकील है।",
+    "options": [
+      "He is an lawyer",
+      "He is lawyer",
+      "He is the lawyer",
+      "He is a lawyer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Lawyer' starts with consonant 'l', so we use 'a'."
+  },
+  {
+    "id": 26,
+    "question": "मुझे एक विचार आया।",
+    "options": [
+      "I got a idea",
+      "I got idea",
+      "I got the idea",
+      "I got an idea"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Idea' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 27,
+    "question": "वहाँ एक गाय है।",
+    "options": [
+      "There is an cow",
+      "There is a cow",
+      "There are cow",
+      "There is cow"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Cow' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 28,
+    "question": "ताजमहल बहुत सुंदर है।",
+    "options": [
+      "A Taj Mahal is very beautiful",
+      "Taj Mahal is very beautiful",
+      "An Taj Mahal is very beautiful",
+      "The Taj Mahal is very beautiful"
+    ],
+    "correctIndex": 3,
+    "explanation": "Unique monuments like 'Taj Mahal' always take 'The'."
+  },
+  {
+    "id": 29,
+    "question": "यह एक महंगी घड़ी है।",
+    "options": [
+      "This is a expensive watch",
+      "This is expensive watch",
+      "This is the expensive watch",
+      "This is an expensive watch"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Expensive' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 30,
+    "question": "मेरे पास एक पेन है।",
+    "options": [
+      "I have an pen",
+      "I have the pen",
+      "I have a pen",
+      "I have pen"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Pen' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 31,
+    "question": "वह एक लेखक है।",
+    "options": [
+      "He is a author",
+      "He is author",
+      "He is the author",
+      "He is an author"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Author' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 32,
+    "question": "मैंने एक साँप देखा।",
+    "options": [
+      "I saw an snake",
+      "I saw snake",
+      "I saw the snake",
+      "I saw a snake"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Snake' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 33,
+    "question": "गंगा नदी पवित्र है।",
+    "options": [
+      "A Ganges is holy",
+      "An Ganges is holy",
+      "Ganges is holy",
+      "The Ganges is holy"
+    ],
+    "correctIndex": 3,
+    "explanation": "Named rivers always take 'The'."
+  },
+  {
+    "id": 34,
+    "question": "मुझे एक इनाम मिला।",
+    "options": [
+      "I got a award",
+      "I got award",
+      "I got the award",
+      "I got an award"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Award' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 35,
+    "question": "वहाँ एक घर है।",
+    "options": [
+      "There is an house",
+      "There are a house",
+      "There is a house",
+      "There is house"
+    ],
+    "correctIndex": 2,
+    "explanation": "'House' starts with consonant 'h' (pronounced), so we use 'a'."
+  },
+  {
+    "id": 36,
+    "question": "वह एक पायलट है।",
+    "options": [
+      "She is an pilot",
+      "She is pilot",
+      "She is the pilot",
+      "She is a pilot"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Pilot' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 37,
+    "question": "मेरे पास एक संतरा है।",
+    "options": [
+      "I have a orange",
+      "I have the orange",
+      "I have an orange",
+      "I have orange"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Orange' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 38,
+    "question": "यह एक अच्छा मौका है।",
+    "options": [
+      "This is a good opportunity",
+      "This is an good opportunity",
+      "This is good opportunity",
+      "This is the good opportunity"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Good' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 39,
+    "question": "वह एक वैज्ञानिक है।",
+    "options": [
+      "He is an scientist",
+      "He is scientist",
+      "He is the scientist",
+      "He is a scientist"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Scientist' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 40,
+    "question": "मैंने एक उल्लेखनीय घटना देखी।",
+    "options": [
+      "I saw a outstanding event",
+      "I saw outstanding event",
+      "I saw the outstanding event",
+      "I saw an outstanding event"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Outstanding' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 41,
+    "question": "मुझे एक दोस्त चाहिए।",
+    "options": [
+      "I need an friend",
+      "I need the friend",
+      "I need a friend",
+      "I need friend"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Friend' starts with consonant 'f', so we use 'a'."
+  },
+  {
+    "id": 42,
+    "question": "वह एक अर्थशास्त्री है।",
+    "options": [
+      "He is a economist",
+      "He is economist",
+      "He is the economist",
+      "He is an economist"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Economist' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 43,
+    "question": "वहाँ एक नई दुकान है।",
+    "options": [
+      "There is an new shop",
+      "There is new shop",
+      "There is the new shop",
+      "There is a new shop"
+    ],
+    "correctIndex": 3,
+    "explanation": "'New' starts with consonant 'n', so we use 'a'."
+  },
+  {
+    "id": 44,
+    "question": "मेरे पास एक लोहे की छड़ है।",
+    "options": [
+      "I have a iron rod",
+      "I have iron rod",
+      "I have the iron rod",
+      "I have an iron rod"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Iron' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 45,
+    "question": "वह एक नर्स है।",
+    "options": [
+      "She is an nurse",
+      "She is nurse",
+      "She is the nurse",
+      "She is a nurse"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Nurse' starts with consonant 'n', so we use 'a'."
+  },
+  {
+    "id": 46,
+    "question": "मैं एक कलाकार हूँ।",
+    "options": [
+      "I am a artist",
+      "I am artist",
+      "I am the artist",
+      "I am an artist"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Artist' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 47,
+    "question": "यह एक बड़ा पेड़ है।",
+    "options": [
+      "This is an big tree",
+      "This is big tree",
+      "This is the big tree",
+      "This is a big tree"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Big' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 48,
+    "question": "प्रधानमंत्री देश के नेता होते हैं।",
+    "options": [
+      "A Prime Minister is the leader",
+      "An Prime Minister is the leader",
+      "Prime Minister is the leader",
+      "The Prime Minister is the leader of the country"
+    ],
+    "correctIndex": 3,
+    "explanation": "Unique official positions use 'The'."
+  },
+  {
+    "id": 49,
+    "question": "मुझे एक ऑफर मिला।",
+    "options": [
+      "I got a offer",
+      "I got offer",
+      "I got the offer",
+      "I got an offer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Offer' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 50,
+    "question": "वहाँ एक बाग़ है।",
+    "options": [
+      "There is an garden",
+      "There are a garden",
+      "There is a garden",
+      "There is garden"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Garden' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 51,
+    "question": "वह एक ऑपरेटर है।",
+    "options": [
+      "He is a operator",
+      "He is operator",
+      "He is the operator",
+      "He is an operator"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Operator' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 52,
+    "question": "मैंने एक शेर देखा।",
+    "options": [
+      "I saw an lion",
+      "I saw lion",
+      "I saw the lion",
+      "I saw a lion"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Lion' starts with consonant 'l', so we use 'a'."
+  },
+  {
+    "id": 53,
+    "question": "यह एक पुरानी मस्जिद है।",
+    "options": [
+      "This is a old mosque",
+      "This is old mosque",
+      "This is the old mosque",
+      "This is an old mosque"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Old' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 54,
+    "question": "मुझे एक उत्तर चाहिए।",
+    "options": [
+      "I need a answer",
+      "I need the answer",
+      "I need answer",
+      "I need an answer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Answer' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 55,
+    "question": "वह एक चित्रकार है।",
+    "options": [
+      "She is an painter",
+      "She is painter",
+      "She is the painter",
+      "She is a painter"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Painter' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 56,
+    "question": "मेरे पास एक ओवन है।",
+    "options": [
+      "I have a oven",
+      "I have the oven",
+      "I have an oven",
+      "I have oven"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Oven' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 57,
+    "question": "वहाँ एक स्कूल है।",
+    "options": [
+      "There is an school",
+      "There are a school",
+      "There is school",
+      "There is a school"
+    ],
+    "correctIndex": 3,
+    "explanation": "'School' starts with consonant 'sc', so we use 'a'."
+  },
+  {
+    "id": 58,
+    "question": "इंटरनेट बहुत उपयोगी है।",
+    "options": [
+      "A internet is very useful",
+      "An internet is very useful",
+      "Internet is very useful",
+      "The internet is very useful"
+    ],
+    "correctIndex": 3,
+    "explanation": "'The internet' refers to the specific global network."
+  },
+  {
+    "id": 59,
+    "question": "मैं एक ऑडिटर हूँ।",
+    "options": [
+      "I am a auditor",
+      "I am auditor",
+      "I am the auditor",
+      "I am an auditor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Auditor' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 60,
+    "question": "वह एक बढ़ई है।",
+    "options": [
+      "He is an carpenter",
+      "He is carpenter",
+      "He is the carpenter",
+      "He is a carpenter"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Carpenter' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 61,
+    "question": "मुझे एक अलार्म की ज़रूरत है।",
+    "options": [
+      "I need a alarm",
+      "I need the alarm",
+      "I need alarm",
+      "I need an alarm"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Alarm' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 62,
+    "question": "यह एक सुंदर लड़की है।",
+    "options": [
+      "She is an beautiful girl",
+      "She is beautiful girl",
+      "She is the beautiful girl",
+      "She is a beautiful girl"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Beautiful' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 63,
+    "question": "वह एक मजदूर है।",
+    "options": [
+      "He is an worker",
+      "He is worker",
+      "He is the worker",
+      "He is a worker"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Worker' starts with consonant 'w', so we use 'a'."
+  },
+  {
+    "id": 64,
+    "question": "मेरे पास एक घटना का विवरण है।",
+    "options": [
+      "I have a event description",
+      "I have event description",
+      "I have the event description",
+      "I have an event description"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Event' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 65,
+    "question": "वहाँ एक पुल है।",
+    "options": [
+      "There is an bridge",
+      "There are a bridge",
+      "There is bridge",
+      "There is a bridge"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Bridge' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 66,
+    "question": "वह एक आर्किटेक्ट है।",
+    "options": [
+      "He is a architect",
+      "He is architect",
+      "He is the architect",
+      "He is an architect"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Architect' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 67,
+    "question": "मैंने एक बाघ देखा।",
+    "options": [
+      "I saw an tiger",
+      "I saw tiger",
+      "I saw the tiger",
+      "I saw a tiger"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Tiger' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 68,
+    "question": "यह एक ऊर्जावान बच्चा है।",
+    "options": [
+      "This is a energetic child",
+      "This is energetic child",
+      "This is the energetic child",
+      "This is an energetic child"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Energetic' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 69,
+    "question": "मुझे एक इंजन चाहिए।",
+    "options": [
+      "I need a engine",
+      "I need the engine",
+      "I need engine",
+      "I need an engine"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Engine' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 70,
+    "question": "वह एक पत्रकार है।",
+    "options": [
+      "He is an journalist",
+      "He is journalist",
+      "He is the journalist",
+      "He is a journalist"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Journalist' starts with consonant 'j', so we use 'a'."
+  },
+  {
+    "id": 71,
+    "question": "अटलांटिक महासागर बहुत बड़ा है।",
+    "options": [
+      "A Atlantic Ocean is very big",
+      "An Atlantic Ocean is very big",
+      "Atlantic Ocean is very big",
+      "The Atlantic Ocean is very big"
+    ],
+    "correctIndex": 3,
+    "explanation": "Named oceans always take 'The'."
+  },
+  {
+    "id": 72,
+    "question": "मेरे पास एक अनुभव है।",
+    "options": [
+      "I have a experience",
+      "I have experience",
+      "I have the experience",
+      "I have an experience"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Experience' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 73,
+    "question": "वहाँ एक पार्क है।",
+    "options": [
+      "There is an park",
+      "There are a park",
+      "There is park",
+      "There is a park"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Park' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 74,
+    "question": "वह एक लोहार है।",
+    "options": [
+      "He is an blacksmith",
+      "He is blacksmith",
+      "He is the blacksmith",
+      "He is a blacksmith"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Blacksmith' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 75,
+    "question": "मैंने एक उल्लू देखा।",
+    "options": [
+      "I saw a owl",
+      "I saw the owl",
+      "I saw owl",
+      "I saw an owl"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Owl' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 76,
+    "question": "यह एक आसान सवाल है।",
+    "options": [
+      "This is a easy question",
+      "This is easy question",
+      "This is the easy question",
+      "This is an easy question"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Easy' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 77,
+    "question": "मुझे एक अवसर चाहिए।",
+    "options": [
+      "I need a opportunity",
+      "I need the opportunity",
+      "I need opportunity",
+      "I need an opportunity"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Opportunity' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 78,
+    "question": "वह एक गायक है।",
+    "options": [
+      "He is an singer",
+      "He is singer",
+      "He is the singer",
+      "He is a singer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Singer' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 79,
+    "question": "वहाँ एक अजीब आवाज़ है।",
+    "options": [
+      "There is a odd sound",
+      "There are odd sound",
+      "There is odd sound",
+      "There is an odd sound"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Odd' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 80,
+    "question": "वह एक अकाउंटेंट है।",
+    "options": [
+      "He is a accountant",
+      "He is accountant",
+      "He is the accountant",
+      "He is an accountant"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Accountant' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 81,
+    "question": "मेरे पास एक किताब है।",
+    "options": [
+      "I have an book",
+      "I have book",
+      "I have the book",
+      "I have a book"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Book' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 82,
+    "question": "वह बाज़ार जा रहा है।",
+    "options": [
+      "He is going to a market",
+      "He is going to an market",
+      "He is going market",
+      "He is going to the market"
+    ],
+    "correctIndex": 3,
+    "explanation": "When referring to a specific, known place, we use 'the'."
+  },
+  {
+    "id": 83,
+    "question": "पानी जीवन के लिए ज़रूरी है।",
+    "options": [
+      "A water is essential for life",
+      "An water is essential for life",
+      "The water is essential for life",
+      "Water is essential for life"
+    ],
+    "correctIndex": 3,
+    "explanation": "Uncountable nouns like 'water' don't take an article in general use."
+  },
+  {
+    "id": 84,
+    "question": "मुझे एक गलती मिली।",
+    "options": [
+      "I found a error",
+      "I found error",
+      "I found the error",
+      "I found an error"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Error' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 85,
+    "question": "यह एक नया फोन है।",
+    "options": [
+      "This is an new phone",
+      "This is new phone",
+      "This is the new phone",
+      "This is a new phone"
+    ],
+    "correctIndex": 3,
+    "explanation": "'New' starts with consonant 'n', so we use 'a'."
+  },
+  {
+    "id": 86,
+    "question": "वह एक मैनेजर है।",
+    "options": [
+      "He is an manager",
+      "He is manager",
+      "He is the manager",
+      "He is a manager"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Manager' starts with consonant 'm', so we use 'a'."
+  },
+  {
+    "id": 87,
+    "question": "मैंने एक मोर देखा।",
+    "options": [
+      "I saw an peacock",
+      "I saw peacock",
+      "I saw the peacock",
+      "I saw a peacock"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Peacock' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 88,
+    "question": "वह अस्पताल जा रही है।",
+    "options": [
+      "She is going to a hospital",
+      "She is going to an hospital",
+      "She is going hospital",
+      "She is going to the hospital"
+    ],
+    "correctIndex": 3,
+    "explanation": "Referring to a specific hospital, we use 'the'."
+  },
+  {
+    "id": 89,
+    "question": "ज्ञान शक्ति है।",
+    "options": [
+      "A knowledge is power",
+      "An knowledge is power",
+      "The knowledge is power",
+      "Knowledge is power"
+    ],
+    "correctIndex": 3,
+    "explanation": "Abstract noun 'knowledge' doesn't take an article in general use."
+  },
+  {
+    "id": 90,
+    "question": "मुझे एक उत्सव में जाना है।",
+    "options": [
+      "I have to go to a occasion",
+      "I have to go to occasion",
+      "I have to go to the occasion",
+      "I have to go to an occasion"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Occasion' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 91,
+    "question": "वहाँ एक कुर्सी है।",
+    "options": [
+      "There is an chair",
+      "There are a chair",
+      "There is chair",
+      "There is a chair"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Chair' starts with consonant 'ch', so we use 'a'."
+  },
+  {
+    "id": 92,
+    "question": "वह एक एथलीट है।",
+    "options": [
+      "He is a athlete",
+      "He is athlete",
+      "He is the athlete",
+      "He is an athlete"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Athlete' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 93,
+    "question": "मैंने एक खरगोश देखा।",
+    "options": [
+      "I saw an rabbit",
+      "I saw rabbit",
+      "I saw the rabbit",
+      "I saw a rabbit"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Rabbit' starts with consonant 'r', so we use 'a'."
+  },
+  {
+    "id": 94,
+    "question": "यह एक असाधारण घटना है।",
+    "options": [
+      "This is a extraordinary event",
+      "This is extraordinary event",
+      "This is the extraordinary event",
+      "This is an extraordinary event"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extraordinary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 95,
+    "question": "वह पुस्तकालय जा रहा है।",
+    "options": [
+      "He is going to a library",
+      "He is going to an library",
+      "He is going library",
+      "He is going to the library"
+    ],
+    "correctIndex": 3,
+    "explanation": "Referring to a specific library, we use 'the'."
+  },
+  {
+    "id": 96,
+    "question": "मुझे एक आदेश मिला।",
+    "options": [
+      "I got a order",
+      "I got order",
+      "I got the order",
+      "I got an order"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Order' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 97,
+    "question": "वह एक धोबी है।",
+    "options": [
+      "He is an washerman",
+      "He is washerman",
+      "He is the washerman",
+      "He is a washerman"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Washerman' starts with consonant 'w', so we use 'a'."
+  },
+  {
+    "id": 98,
+    "question": "मेरे पास एक अनोखी चीज़ है।",
+    "options": [
+      "I have a unique thing",
+      "I have unique thing",
+      "I have the unique thing",
+      "I have an unique thing"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Unique' sounds like 'you-neek' — it starts with a 'y' consonant sound, so we use 'a'."
+  },
+  {
+    "id": 99,
+    "question": "वहाँ एक अस्पताल है।",
+    "options": [
+      "There is an hospital",
+      "There are a hospital",
+      "There is hospital",
+      "There is a hospital"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Hospital' starts with a pronounced consonant 'h', so we use 'a'."
+  },
+  {
+    "id": 100,
+    "question": "वह एक मछुआरा है।",
+    "options": [
+      "He is an fisherman",
+      "He is fisherman",
+      "He is the fisherman",
+      "He is a fisherman"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Fisherman' starts with consonant 'f', so we use 'a'."
+  },
+  {
+    "id": 101,
+    "question": "यह एक अद्भुत नज़ारा है।",
+    "options": [
+      "This is a amazing view",
+      "This is amazing view",
+      "This is the amazing view",
+      "This is an amazing view"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Amazing' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 102,
+    "question": "मुझे एक ईमेल मिली।",
+    "options": [
+      "I got a email",
+      "I got email",
+      "I got the email",
+      "I got an email"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Email' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 103,
+    "question": "वह एक सुनार है।",
+    "options": [
+      "He is an goldsmith",
+      "He is goldsmith",
+      "He is the goldsmith",
+      "He is a goldsmith"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Goldsmith' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 104,
+    "question": "मैंने एक ऊंट देखा।",
+    "options": [
+      "I saw an camel",
+      "I saw camel",
+      "I saw the camel",
+      "I saw a camel"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Camel' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 105,
+    "question": "यह एक अनुभवी खिलाड़ी है।",
+    "options": [
+      "He is a experienced player",
+      "He is experienced player",
+      "He is the experienced player",
+      "He is an experienced player"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Experienced' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 106,
+    "question": "वह स्कूल से आ रहा है।",
+    "options": [
+      "He is coming from a school",
+      "He is coming from an school",
+      "He is coming from school",
+      "He is coming from the school"
+    ],
+    "correctIndex": 3,
+    "explanation": "Referring to his specific school, we use 'the'."
+  },
+  {
+    "id": 107,
+    "question": "दूध सेहत के लिए अच्छा है।",
+    "options": [
+      "A milk is good for health",
+      "An milk is good for health",
+      "The milk is good for health",
+      "Milk is good for health"
+    ],
+    "correctIndex": 3,
+    "explanation": "Uncountable noun 'milk' doesn't take an article in general use."
+  },
+  {
+    "id": 108,
+    "question": "मुझे एक गिलास पानी चाहिए।",
+    "options": [
+      "I need an glass of water",
+      "I need glass of water",
+      "I need the glass of water",
+      "I need a glass of water"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Glass' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 109,
+    "question": "वह एक खिलाड़ी है।",
+    "options": [
+      "He is an player",
+      "He is player",
+      "He is the player",
+      "He is a player"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Player' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 110,
+    "question": "मैंने एक तितली देखी।",
+    "options": [
+      "I saw an butterfly",
+      "I saw butterfly",
+      "I saw the butterfly",
+      "I saw a butterfly"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Butterfly' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 111,
+    "question": "वह एक अधिकारी है।",
+    "options": [
+      "He is a officer",
+      "He is officer",
+      "He is the officer",
+      "He is an officer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Officer' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 112,
+    "question": "यह एक खतरनाक जगह है।",
+    "options": [
+      "This is an dangerous place",
+      "This is dangerous place",
+      "This is the dangerous place",
+      "This is a dangerous place"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Dangerous' starts with consonant 'd', so we use 'a'."
+  },
+  {
+    "id": 113,
+    "question": "मेरे पास एक चाबी है।",
+    "options": [
+      "I have an key",
+      "I have key",
+      "I have the key",
+      "I have a key"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Key' starts with consonant 'k', so we use 'a'."
+  },
+  {
+    "id": 114,
+    "question": "वह एक आधुनिक शहर है।",
+    "options": [
+      "It is an modern city",
+      "It is modern city",
+      "It is the modern city",
+      "It is a modern city"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Modern' starts with consonant 'm', so we use 'a'."
+  },
+  {
+    "id": 115,
+    "question": "माउंट एवरेस्ट दुनिया का सबसे ऊँचा पहाड़ है।",
+    "options": [
+      "A Mount Everest is the highest",
+      "An Mount Everest is the highest",
+      "Mount Everest is highest",
+      "The Mount Everest is the highest mountain"
+    ],
+    "correctIndex": 3,
+    "explanation": "Famous landmarks and superlatives both use 'The'."
+  },
+  {
+    "id": 116,
+    "question": "मुझे एक आपातकाल का सामना करना पड़ा।",
+    "options": [
+      "I faced a emergency",
+      "I faced emergency",
+      "I faced the emergency",
+      "I faced an emergency"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Emergency' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 117,
+    "question": "वह एक नाविक है।",
+    "options": [
+      "He is an sailor",
+      "He is sailor",
+      "He is the sailor",
+      "He is a sailor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Sailor' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 118,
+    "question": "वहाँ एक पुरानी इमारत है।",
+    "options": [
+      "There is a old building",
+      "There is old building",
+      "There is the old building",
+      "There is an old building"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Old' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 119,
+    "question": "प्रशांत महासागर सबसे गहरा है।",
+    "options": [
+      "A Pacific Ocean is deepest",
+      "An Pacific Ocean is deepest",
+      "Pacific Ocean is deepest",
+      "The Pacific Ocean is the deepest"
+    ],
+    "correctIndex": 3,
+    "explanation": "Named oceans use 'The'; superlatives also use 'The'."
+  },
+  {
+    "id": 120,
+    "question": "मैंने एक गधा देखा।",
+    "options": [
+      "I saw an donkey",
+      "I saw donkey",
+      "I saw the donkey",
+      "I saw a donkey"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Donkey' starts with consonant 'd', so we use 'a'."
+  },
+  {
+    "id": 121,
+    "question": "यह एक ईमानदार जवाब है।",
+    "options": [
+      "This is a honest answer",
+      "This is honest answer",
+      "This is the honest answer",
+      "This is an honest answer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', it sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 122,
+    "question": "वह बैंक जा रहा है।",
+    "options": [
+      "He is going to a bank",
+      "He is going to an bank",
+      "He is going bank",
+      "He is going to the bank"
+    ],
+    "correctIndex": 3,
+    "explanation": "Referring to a specific known bank, we use 'the'."
+  },
+  {
+    "id": 123,
+    "question": "हवा हर जगह है।",
+    "options": [
+      "A air is everywhere",
+      "An air is everywhere",
+      "The air is everywhere",
+      "Air is everywhere"
+    ],
+    "correctIndex": 3,
+    "explanation": "Uncountable noun 'air' takes no article in a general statement."
+  },
+  {
+    "id": 124,
+    "question": "मेरे पास एक उपकरण है।",
+    "options": [
+      "I have a instrument",
+      "I have instrument",
+      "I have the instrument",
+      "I have an instrument"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Instrument' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 125,
+    "question": "वह एक साहसी लड़का है।",
+    "options": [
+      "He is an brave boy",
+      "He is brave boy",
+      "He is the brave boy",
+      "He is a brave boy"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Brave' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 126,
+    "question": "मैंने एक तोता देखा।",
+    "options": [
+      "I saw an parrot",
+      "I saw parrot",
+      "I saw the parrot",
+      "I saw a parrot"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Parrot' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 127,
+    "question": "यह एक उत्कृष्ट काम है।",
+    "options": [
+      "This is a excellent work",
+      "This is excellent work",
+      "This is the excellent work",
+      "This is an excellent work"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 128,
+    "question": "वह पोस्ट ऑफिस जा रही है।",
+    "options": [
+      "She is going to a post office",
+      "She is going to an post office",
+      "She is going post office",
+      "She is going to the post office"
+    ],
+    "correctIndex": 3,
+    "explanation": "Referring to a specific post office, we use 'the'."
+  },
+  {
+    "id": 129,
+    "question": "ईमानदारी सबसे अच्छी नीति है।",
+    "options": [
+      "A honesty is the best policy",
+      "An honesty is the best policy",
+      "The honesty is best policy",
+      "Honesty is the best policy"
+    ],
+    "correctIndex": 3,
+    "explanation": "Abstract noun 'honesty' takes no article; 'best' uses 'the'."
+  },
+  {
+    "id": 130,
+    "question": "मुझे एक अनुमान चाहिए।",
+    "options": [
+      "I need a estimate",
+      "I need estimate",
+      "I need the estimate",
+      "I need an estimate"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Estimate' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 131,
+    "question": "वह एक कुम्हार है।",
+    "options": [
+      "He is an potter",
+      "He is potter",
+      "He is the potter",
+      "He is a potter"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Potter' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 132,
+    "question": "मैंने एक बंदर देखा।",
+    "options": [
+      "I saw an monkey",
+      "I saw monkey",
+      "I saw the monkey",
+      "I saw a monkey"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Monkey' starts with consonant 'm', so we use 'a'."
+  },
+  {
+    "id": 133,
+    "question": "यह एक असामान्य घटना है।",
+    "options": [
+      "This is a unusual event",
+      "This is unusual event",
+      "This is the unusual event",
+      "This is an unusual event"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Unusual' starts with vowel 'u', so we use 'an'."
+  },
+  {
+    "id": 134,
+    "question": "वह रेलवे स्टेशन जा रहा है।",
+    "options": [
+      "He is going to a railway station",
+      "He is going to an railway station",
+      "He is going railway station",
+      "He is going to the railway station"
+    ],
+    "correctIndex": 3,
+    "explanation": "Referring to a specific railway station, we use 'the'."
+  },
+  {
+    "id": 135,
+    "question": "प्यार अंधा होता है।",
+    "options": [
+      "A love is blind",
+      "An love is blind",
+      "The love is blind",
+      "Love is blind"
+    ],
+    "correctIndex": 3,
+    "explanation": "Abstract noun 'love' takes no article in a general statement."
+  },
+  {
+    "id": 136,
+    "question": "मेरे पास एक पर्यावरण रिपोर्ट है।",
+    "options": [
+      "I have a environment report",
+      "I have environment report",
+      "I have the environment report",
+      "I have an environment report"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Environment' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 137,
+    "question": "वह एक रखवाला है।",
+    "options": [
+      "He is an guard",
+      "He is guard",
+      "He is the guard",
+      "He is a guard"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Guard' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 138,
+    "question": "मैंने एक कौआ देखा।",
+    "options": [
+      "I saw an crow",
+      "I saw crow",
+      "I saw the crow",
+      "I saw a crow"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Crow' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 139,
+    "question": "वह एक ऊर्जावान व्यक्ति है।",
+    "options": [
+      "He is a energetic person",
+      "He is energetic person",
+      "He is the energetic person",
+      "He is an energetic person"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Energetic' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 140,
+    "question": "वह सिनेमाघर जा रही है।",
+    "options": [
+      "She is going to a cinema",
+      "She is going to an cinema",
+      "She is going cinema",
+      "She is going to the cinema"
+    ],
+    "correctIndex": 3,
+    "explanation": "Referring to a specific cinema, we use 'the'."
+  },
+  {
+    "id": 141,
+    "question": "समय पैसा है।",
+    "options": [
+      "A time is money",
+      "An time is money",
+      "The time is money",
+      "Time is money"
+    ],
+    "correctIndex": 3,
+    "explanation": "Abstract noun 'time' takes no article in a general statement."
+  },
+  {
+    "id": 142,
+    "question": "मुझे एक उदाहरण चाहिए।",
+    "options": [
+      "I need a example",
+      "I need example",
+      "I need the example",
+      "I need an example"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Example' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 143,
+    "question": "वह एक दर्जी है।",
+    "options": [
+      "He is an tailor",
+      "He is tailor",
+      "He is the tailor",
+      "He is a tailor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Tailor' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 144,
+    "question": "मैंने एक हिरण देखा।",
+    "options": [
+      "I saw an deer",
+      "I saw deer",
+      "I saw the deer",
+      "I saw a deer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Deer' starts with consonant 'd', so we use 'a'."
+  },
+  {
+    "id": 145,
+    "question": "यह एक महंगा उपहार है।",
+    "options": [
+      "This is a expensive gift",
+      "This is expensive gift",
+      "This is the expensive gift",
+      "This is an expensive gift"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Expensive' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 146,
+    "question": "वह हवाई अड्डे जा रहा है।",
+    "options": [
+      "He is going to a airport",
+      "He is going to an airport",
+      "He is going airport",
+      "He is going to the airport"
+    ],
+    "correctIndex": 3,
+    "explanation": "Referring to a specific airport, we use 'the'."
+  },
+  {
+    "id": 147,
+    "question": "स्वास्थ्य ही धन है।",
+    "options": [
+      "A health is wealth",
+      "An health is wealth",
+      "The health is wealth",
+      "Health is wealth"
+    ],
+    "correctIndex": 3,
+    "explanation": "Abstract nouns 'health' and 'wealth' take no article in general use."
+  },
+  {
+    "id": 148,
+    "question": "मुझे एक परीक्षा देनी है।",
+    "options": [
+      "I have to give a examination",
+      "I have to give examination",
+      "I have to give the examination",
+      "I have to give an examination"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Examination' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 149,
+    "question": "वह एक सफाई कर्मी है।",
+    "options": [
+      "He is an cleaner",
+      "He is cleaner",
+      "He is the cleaner",
+      "He is a cleaner"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Cleaner' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 150,
+    "question": "मैंने एक चिड़िया देखी।",
+    "options": [
+      "I saw an bird",
+      "I saw bird",
+      "I saw the bird",
+      "I saw a bird"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Bird' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 151,
+    "question": "यह पहला मौका है।",
+    "options": [
+      "This is a first chance",
+      "This is an first chance",
+      "This is first chance",
+      "This is the first chance"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ordinal numbers like 'first' always use 'the'."
+  },
+  {
+    "id": 152,
+    "question": "वह एक माली है।",
+    "options": [
+      "He is an gardener",
+      "He is gardener",
+      "He is the gardener",
+      "He is a gardener"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Gardener' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 153,
+    "question": "मैंने एक शिक्षक देखा।",
+    "options": [
+      "I saw an teacher",
+      "I saw teacher",
+      "I saw the teacher",
+      "I saw a teacher"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Teacher' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 154,
+    "question": "वह गिटार बजाता है।",
+    "options": [
+      "He plays a guitar",
+      "He plays an guitar",
+      "He plays guitar",
+      "He plays the guitar"
+    ],
+    "correctIndex": 3,
+    "explanation": "Musical instruments use 'the' — 'play the guitar'."
+  },
+  {
+    "id": 155,
+    "question": "यह दूसरा दरवाज़ा है।",
+    "options": [
+      "This is a second door",
+      "This is an second door",
+      "This is second door",
+      "This is the second door"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ordinal numbers like 'second' always use 'the'."
+  },
+  {
+    "id": 156,
+    "question": "मुझे एक चोट लगी।",
+    "options": [
+      "I got a injury",
+      "I got injury",
+      "I got the injury",
+      "I got an injury"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Injury' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 157,
+    "question": "वह पियानो बजाती है।",
+    "options": [
+      "She plays a piano",
+      "She plays an piano",
+      "She plays piano",
+      "She plays the piano"
+    ],
+    "correctIndex": 3,
+    "explanation": "Musical instruments use 'the' — 'play the piano'."
+  },
+  {
+    "id": 158,
+    "question": "कुत्ते वफ़ादार होते हैं।",
+    "options": [
+      "A dogs are loyal",
+      "The dogs are loyal",
+      "An dogs are loyal",
+      "Dogs are loyal"
+    ],
+    "correctIndex": 3,
+    "explanation": "General plural nouns like 'dogs' take no article."
+  },
+  {
+    "id": 159,
+    "question": "मेरे पास एक मानचित्र है।",
+    "options": [
+      "I have an map",
+      "I have map",
+      "I have the map",
+      "I have a map"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Map' starts with consonant 'm', so we use 'a'."
+  },
+  {
+    "id": 160,
+    "question": "यह तीसरी मंजिल है।",
+    "options": [
+      "This is a third floor",
+      "This is an third floor",
+      "This is third floor",
+      "This is the third floor"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ordinal numbers like 'third' always use 'the'."
+  },
+  {
+    "id": 161,
+    "question": "वह वायलिन बजाता है।",
+    "options": [
+      "He plays a violin",
+      "He plays an violin",
+      "He plays violin",
+      "He plays the violin"
+    ],
+    "correctIndex": 3,
+    "explanation": "Musical instruments use 'the' — 'play the violin'."
+  },
+  {
+    "id": 162,
+    "question": "बिल्लियाँ स्वतंत्र होती हैं।",
+    "options": [
+      "A cats are independent",
+      "The cats are independent",
+      "An cats are independent",
+      "Cats are independent"
+    ],
+    "correctIndex": 3,
+    "explanation": "General plural nouns like 'cats' take no article."
+  },
+  {
+    "id": 163,
+    "question": "वह एक गरीब आदमी है।",
+    "options": [
+      "He is an poor man",
+      "He is poor man",
+      "He is the poor man",
+      "He is a poor man"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Poor' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 164,
+    "question": "वह बाँसुरी बजाती है।",
+    "options": [
+      "She plays a flute",
+      "She plays an flute",
+      "She plays flute",
+      "She plays the flute"
+    ],
+    "correctIndex": 3,
+    "explanation": "Musical instruments use 'the' — 'play the flute'."
+  },
+  {
+    "id": 165,
+    "question": "यह चौथी पंक्ति है।",
+    "options": [
+      "This is a fourth row",
+      "This is an fourth row",
+      "This is fourth row",
+      "This is the fourth row"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ordinal numbers like 'fourth' always use 'the'."
+  },
+  {
+    "id": 166,
+    "question": "लोहा मजबूत होता है।",
+    "options": [
+      "A iron is strong",
+      "An iron is strong",
+      "The iron is strong",
+      "Iron is strong"
+    ],
+    "correctIndex": 3,
+    "explanation": "Material noun 'iron' takes no article in general use."
+  },
+  {
+    "id": 167,
+    "question": "वह एक अमीर आदमी है।",
+    "options": [
+      "He is an rich man",
+      "He is rich man",
+      "He is the rich man",
+      "He is a rich man"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Rich' starts with consonant 'r', so we use 'a'."
+  },
+  {
+    "id": 168,
+    "question": "वह तबला बजाता है।",
+    "options": [
+      "He plays a tabla",
+      "He plays an tabla",
+      "He plays tabla",
+      "He plays the tabla"
+    ],
+    "correctIndex": 3,
+    "explanation": "Musical instruments use 'the' — 'play the tabla'."
+  },
+  {
+    "id": 169,
+    "question": "यह पाँचवाँ छात्र है।",
+    "options": [
+      "This is a fifth student",
+      "This is an fifth student",
+      "This is fifth student",
+      "This is the fifth student"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ordinal numbers like 'fifth' always use 'the'."
+  },
+  {
+    "id": 170,
+    "question": "सोना कीमती होता है।",
+    "options": [
+      "A gold is precious",
+      "An gold is precious",
+      "The gold is precious",
+      "Gold is precious"
+    ],
+    "correctIndex": 3,
+    "explanation": "Material noun 'gold' takes no article in general use."
+  },
+  {
+    "id": 171,
+    "question": "वह एक होशियार लड़की है।",
+    "options": [
+      "She is an clever girl",
+      "She is clever girl",
+      "She is the clever girl",
+      "She is a clever girl"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Clever' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 172,
+    "question": "वह सितार बजाता है।",
+    "options": [
+      "He plays a sitar",
+      "He plays an sitar",
+      "He plays sitar",
+      "He plays the sitar"
+    ],
+    "correctIndex": 3,
+    "explanation": "Musical instruments use 'the' — 'play the sitar'."
+  },
+  {
+    "id": 173,
+    "question": "यह आखिरी मौका है।",
+    "options": [
+      "This is a last chance",
+      "This is an last chance",
+      "This is last chance",
+      "This is the last chance"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ordinal words like 'last' always use 'the'."
+  },
+  {
+    "id": 174,
+    "question": "चाँदी चमकती है।",
+    "options": [
+      "A silver shines",
+      "An silver shines",
+      "The silver shines",
+      "Silver shines"
+    ],
+    "correctIndex": 3,
+    "explanation": "Material noun 'silver' takes no article in general use."
+  },
+  {
+    "id": 175,
+    "question": "वह एक कमज़ोर इंसान है।",
+    "options": [
+      "He is an weak person",
+      "He is weak person",
+      "He is the weak person",
+      "He is a weak person"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Weak' starts with consonant 'w', so we use 'a'."
+  },
+  {
+    "id": 176,
+    "question": "वह हारमोनियम बजाती है।",
+    "options": [
+      "She plays a harmonium",
+      "She plays an harmonium",
+      "She plays harmonium",
+      "She plays the harmonium"
+    ],
+    "correctIndex": 3,
+    "explanation": "Musical instruments use 'the' — 'play the harmonium'."
+  },
+  {
+    "id": 177,
+    "question": "यह पहला खिलाड़ी है।",
+    "options": [
+      "This is a first player",
+      "This is an first player",
+      "This is first player",
+      "This is the first player"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ordinal numbers like 'first' always use 'the'."
+  },
+  {
+    "id": 178,
+    "question": "चीनी मीठी होती है।",
+    "options": [
+      "A sugar is sweet",
+      "An sugar is sweet",
+      "The sugar is sweet",
+      "Sugar is sweet"
+    ],
+    "correctIndex": 3,
+    "explanation": "Uncountable noun 'sugar' takes no article in general use."
+  },
+  {
+    "id": 179,
+    "question": "वह एक मशहूर गायक है।",
+    "options": [
+      "He is an famous singer",
+      "He is famous singer",
+      "He is the famous singer",
+      "He is a famous singer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Famous' starts with consonant 'f', so we use 'a'."
+  },
+  {
+    "id": 180,
+    "question": "वह ड्रम बजाता है।",
+    "options": [
+      "He plays a drums",
+      "He plays an drums",
+      "He plays drums",
+      "He plays the drums"
+    ],
+    "correctIndex": 3,
+    "explanation": "Musical instruments use 'the' — 'play the drums'."
+  },
+  {
+    "id": 181,
+    "question": "वह एक बड़ा अधिकारी है।",
+    "options": [
+      "He is a big officer",
+      "He is an big officer",
+      "He is big officer",
+      "He is the big officer"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Big' starts with consonant 'b', so 'a big officer' is correct."
+  },
+  {
+    "id": 182,
+    "question": "नील नदी सबसे लंबी है।",
+    "options": [
+      "A Nile is the longest",
+      "An Nile is the longest",
+      "Nile is the longest",
+      "The Nile is the longest river"
+    ],
+    "correctIndex": 3,
+    "explanation": "Named rivers use 'The'; superlatives also use 'The'."
+  },
+  {
+    "id": 183,
+    "question": "संगीत आत्मा को शांत करता है।",
+    "options": [
+      "A music soothes the soul",
+      "An music soothes the soul",
+      "The music soothes the soul",
+      "Music soothes the soul"
+    ],
+    "correctIndex": 3,
+    "explanation": "Abstract noun 'music' takes no article in general use."
+  },
+  {
+    "id": 184,
+    "question": "वह एक लंबा आदमी है।",
+    "options": [
+      "He is an tall man",
+      "He is tall man",
+      "He is the tall man",
+      "He is a tall man"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Tall' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 185,
+    "question": "वह एक अच्छा छात्र है।",
+    "options": [
+      "He is an good student",
+      "He is good student",
+      "He is the good student",
+      "He is a good student"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Good' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 186,
+    "question": "भारत एक महान देश है।",
+    "options": [
+      "India is an great country",
+      "The India is a great country",
+      "India is great country",
+      "India is a great country"
+    ],
+    "correctIndex": 3,
+    "explanation": "Proper nouns like 'India' don't use 'the'. 'Great' starts with consonant 'g', so 'a'."
+  },
+  {
+    "id": 187,
+    "question": "मुझे एक उत्साहजनक समाचार मिला।",
+    "options": [
+      "I got a encouraging news",
+      "I got encouraging news",
+      "I got the encouraging news",
+      "I got an encouraging news"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Encouraging' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 188,
+    "question": "वह एक छोटा शहर है।",
+    "options": [
+      "It is an small city",
+      "It is small city",
+      "It is the small city",
+      "It is a small city"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Small' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 189,
+    "question": "मेरे पास एक बोतल है।",
+    "options": [
+      "I have an bottle",
+      "I have bottle",
+      "I have the bottle",
+      "I have a bottle"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Bottle' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 190,
+    "question": "वह एक अच्छा नेता है।",
+    "options": [
+      "He is an good leader",
+      "He is good leader",
+      "He is the good leader",
+      "He is a good leader"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Good' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 191,
+    "question": "मैंने एक चाकू देखा।",
+    "options": [
+      "I saw an knife",
+      "I saw knife",
+      "I saw the knife",
+      "I saw a knife"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Knife' starts with consonant 'k' (even though 'k' is silent), so we use 'a'."
+  },
+  {
+    "id": 192,
+    "question": "दिल्ली भारत की राजधानी है।",
+    "options": [
+      "Delhi is a capital of India",
+      "The Delhi is capital of India",
+      "Delhi is capital of India",
+      "Delhi is the capital of India"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Capital' here is unique/specific, so 'the'. Proper noun 'Delhi' takes no article."
+  },
+  {
+    "id": 193,
+    "question": "मुझे एक ऑर्डर मिला।",
+    "options": [
+      "I received a order",
+      "I received order",
+      "I received the order",
+      "I received an order"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Order' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 194,
+    "question": "वह एक मेहनती बच्चा है।",
+    "options": [
+      "He is an hardworking child",
+      "He is hardworking child",
+      "He is the hardworking child",
+      "He is a hardworking child"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Hardworking' starts with consonant 'h' (pronounced), so we use 'a'."
+  },
+  {
+    "id": 195,
+    "question": "वहाँ एक नदी है।",
+    "options": [
+      "There is an river",
+      "There are a river",
+      "There is river",
+      "There is a river"
+    ],
+    "correctIndex": 3,
+    "explanation": "'River' starts with consonant 'r', so we use 'a'."
+  },
+  {
+    "id": 196,
+    "question": "वह एक प्रसिद्ध लेखक है।",
+    "options": [
+      "He is an famous author",
+      "He is famous author",
+      "He is the famous author",
+      "He is a famous author"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Famous' starts with consonant 'f', so we use 'a'."
+  },
+  {
+    "id": 197,
+    "question": "मैंने एक संतरा खाया।",
+    "options": [
+      "I ate a orange",
+      "I ate orange",
+      "I ate the orange",
+      "I ate an orange"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Orange' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 198,
+    "question": "खुशी अनमोल है।",
+    "options": [
+      "A happiness is priceless",
+      "An happiness is priceless",
+      "The happiness is priceless",
+      "Happiness is priceless"
+    ],
+    "correctIndex": 3,
+    "explanation": "Abstract noun 'happiness' takes no article in general use."
+  },
+  {
+    "id": 199,
+    "question": "मेरे पास एक थाली है।",
+    "options": [
+      "I have an plate",
+      "I have plate",
+      "I have the plate",
+      "I have a plate"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Plate' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 200,
+    "question": "वह एक साहसी सैनिक है।",
+    "options": [
+      "He is an brave soldier",
+      "He is brave soldier",
+      "He is the brave soldier",
+      "He is a brave soldier"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Brave' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 201,
+    "question": "मैंने एक अंडा खाया।",
+    "options": [
+      "I ate a egg",
+      "I ate egg",
+      "I ate the egg",
+      "I ate an egg"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Egg' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 202,
+    "question": "वह एक प्रेरणादायक इंसान है।",
+    "options": [
+      "He is a inspiring person",
+      "He is inspiring person",
+      "He is the inspiring person",
+      "He is an inspiring person"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Inspiring' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 203,
+    "question": "वहाँ एक झील है।",
+    "options": [
+      "There is an lake",
+      "There are a lake",
+      "There is lake",
+      "There is a lake"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Lake' starts with consonant 'l', so we use 'a'."
+  },
+  {
+    "id": 204,
+    "question": "वह एक भ्रष्ट अधिकारी है।",
+    "options": [
+      "He is a corrupt officer",
+      "He is an corrupt officer",
+      "He is corrupt officer",
+      "He is the corrupt officer"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Corrupt' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 205,
+    "question": "मुझे एक अवकाश मिला।",
+    "options": [
+      "I got a holiday",
+      "I got an holiday",
+      "I got holiday",
+      "I got the holiday"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Holiday' starts with consonant 'h' (pronounced), so we use 'a'."
+  },
+  {
+    "id": 206,
+    "question": "मैंने एक सेब खाया।",
+    "options": [
+      "I ate a apple",
+      "I ate apple",
+      "I ate the apple",
+      "I ate an apple"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Apple' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 207,
+    "question": "वह एक ईमानदार जज है।",
+    "options": [
+      "He is a honest judge",
+      "He is honest judge",
+      "He is the honest judge",
+      "He is an honest judge"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', it sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 208,
+    "question": "वहाँ एक पहाड़ है।",
+    "options": [
+      "There is an mountain",
+      "There are a mountain",
+      "There is mountain",
+      "There is a mountain"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Mountain' starts with consonant 'm', so we use 'a'."
+  },
+  {
+    "id": 209,
+    "question": "वह एक अनुभवी डॉक्टर है।",
+    "options": [
+      "He is a experienced doctor",
+      "He is experienced doctor",
+      "He is the experienced doctor",
+      "He is an experienced doctor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Experienced' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 210,
+    "question": "मैंने एक छाता खरीदा।",
+    "options": [
+      "I bought a umbrella",
+      "I bought umbrella",
+      "I bought the umbrella",
+      "I bought an umbrella"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Umbrella' starts with vowel 'u', so we use 'an'."
+  },
+  {
+    "id": 211,
+    "question": "साहस जरूरी है।",
+    "options": [
+      "A courage is necessary",
+      "An courage is necessary",
+      "The courage is necessary",
+      "Courage is necessary"
+    ],
+    "correctIndex": 3,
+    "explanation": "Abstract noun 'courage' takes no article in general use."
+  },
+  {
+    "id": 212,
+    "question": "वह एक ताकतवर नेता था।",
+    "options": [
+      "He was an powerful leader",
+      "He was powerful leader",
+      "He was the powerful leader",
+      "He was a powerful leader"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Powerful' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 213,
+    "question": "मेरे पास एक पुस्तक है।",
+    "options": [
+      "I have an book",
+      "I have book",
+      "I have the book",
+      "I have a book"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Book' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 214,
+    "question": "वह एक ईमानदार व्यापारी है।",
+    "options": [
+      "He is a honest businessman",
+      "He is honest businessman",
+      "He is the honest businessman",
+      "He is an honest businessman"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', it sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 215,
+    "question": "वहाँ एक खेत है।",
+    "options": [
+      "There is an farm",
+      "There are a farm",
+      "There is farm",
+      "There is a farm"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Farm' starts with consonant 'f', so we use 'a'."
+  },
+  {
+    "id": 216,
+    "question": "मैंने एक इंजीनियर से बात की।",
+    "options": [
+      "I talked to a engineer",
+      "I talked to engineer",
+      "I talked to the engineer",
+      "I talked to an engineer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Engineer' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 217,
+    "question": "दोस्ती बहुत ज़रूरी है।",
+    "options": [
+      "A friendship is very important",
+      "An friendship is very important",
+      "The friendship is very important",
+      "Friendship is very important"
+    ],
+    "correctIndex": 3,
+    "explanation": "Abstract noun 'friendship' takes no article in general use."
+  },
+  {
+    "id": 218,
+    "question": "वह एक ईमानदार पुलिसवाला है।",
+    "options": [
+      "He is a honest policeman",
+      "He is honest policeman",
+      "He is the honest policeman",
+      "He is an honest policeman"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', it sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 219,
+    "question": "मेरे पास एक टोपी है।",
+    "options": [
+      "I have an hat",
+      "I have hat",
+      "I have the hat",
+      "I have a hat"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Hat' starts with consonant 'h' (pronounced), so we use 'a'."
+  },
+  {
+    "id": 220,
+    "question": "वह एक उत्साही छात्र है।",
+    "options": [
+      "He is a enthusiastic student",
+      "He is enthusiastic student",
+      "He is the enthusiastic student",
+      "He is an enthusiastic student"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Enthusiastic' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 221,
+    "question": "मैंने एक आम खाया।",
+    "options": [
+      "I ate a mango",
+      "I ate an mango",
+      "I ate mango",
+      "I ate the mango"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Mango' starts with consonant 'm', so we use 'a'."
+  },
+  {
+    "id": 222,
+    "question": "वह एक ईमानदार अध्यापक है।",
+    "options": [
+      "He is a honest teacher",
+      "He is honest teacher",
+      "He is the honest teacher",
+      "He is an honest teacher"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', it sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 223,
+    "question": "वहाँ एक तालाब है।",
+    "options": [
+      "There is an pond",
+      "There are a pond",
+      "There is pond",
+      "There is a pond"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Pond' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 224,
+    "question": "वह एक उत्कृष्ट खिलाड़ी है।",
+    "options": [
+      "He is a excellent player",
+      "He is excellent player",
+      "He is the excellent player",
+      "He is an excellent player"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 225,
+    "question": "मैंने एक हवाई जहाज़ देखा।",
+    "options": [
+      "I saw an plane",
+      "I saw plane",
+      "I saw the plane",
+      "I saw a plane"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Plane' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 226,
+    "question": "नमक खारा होता है।",
+    "options": [
+      "A salt is salty",
+      "An salt is salty",
+      "The salt is salty",
+      "Salt is salty"
+    ],
+    "correctIndex": 3,
+    "explanation": "Uncountable noun 'salt' takes no article in general use."
+  },
+  {
+    "id": 227,
+    "question": "वह एक प्रतिभाशाली व्यक्ति है।",
+    "options": [
+      "He is an talented person",
+      "He is talented person",
+      "He is the talented person",
+      "He is a talented person"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Talented' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 228,
+    "question": "मेरे पास एक कप है।",
+    "options": [
+      "I have an cup",
+      "I have cup",
+      "I have the cup",
+      "I have a cup"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Cup' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 229,
+    "question": "वह एक असाधारण प्रतिभा है।",
+    "options": [
+      "He is a extraordinary talent",
+      "He is extraordinary talent",
+      "He is the extraordinary talent",
+      "He is an extraordinary talent"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extraordinary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 230,
+    "question": "मैंने एक डॉक्टर से मुलाकात की।",
+    "options": [
+      "I met an doctor",
+      "I met doctor",
+      "I met the doctor",
+      "I met a doctor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Doctor' starts with consonant 'd', so we use 'a'."
+  },
+  {
+    "id": 231,
+    "question": "कॉफी कड़वी होती है।",
+    "options": [
+      "A coffee is bitter",
+      "An coffee is bitter",
+      "The coffee is bitter",
+      "Coffee is bitter"
+    ],
+    "correctIndex": 3,
+    "explanation": "Uncountable noun 'coffee' takes no article in general use."
+  },
+  {
+    "id": 232,
+    "question": "वह एक जानी-मानी हस्ती है।",
+    "options": [
+      "She is an well-known figure",
+      "She is well-known figure",
+      "She is the well-known figure",
+      "She is a well-known figure"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Well-known' starts with consonant 'w', so we use 'a'."
+  },
+  {
+    "id": 233,
+    "question": "मेरे पास एक शर्ट है।",
+    "options": [
+      "I have an shirt",
+      "I have shirt",
+      "I have the shirt",
+      "I have a shirt"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Shirt' starts with consonant 'sh', so we use 'a'."
+  },
+  {
+    "id": 234,
+    "question": "वह एक ईमानदार इंसान था।",
+    "options": [
+      "He was a honest person",
+      "He was honest person",
+      "He was the honest person",
+      "He was an honest person"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', it sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 235,
+    "question": "वहाँ एक मस्जिद है।",
+    "options": [
+      "There is an mosque",
+      "There are a mosque",
+      "There is mosque",
+      "There is a mosque"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Mosque' starts with consonant 'm', so we use 'a'."
+  },
+  {
+    "id": 236,
+    "question": "वह एक ऑटोमेटिक मशीन है।",
+    "options": [
+      "It is a automatic machine",
+      "It is automatic machine",
+      "It is the automatic machine",
+      "It is an automatic machine"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Automatic' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 237,
+    "question": "मैंने एक अभिनेत्री देखी।",
+    "options": [
+      "I saw a actress",
+      "I saw actress",
+      "I saw the actress",
+      "I saw an actress"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Actress' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 238,
+    "question": "चाय गर्म है।",
+    "options": [
+      "A tea is hot",
+      "An tea is hot",
+      "The tea is hot",
+      "Tea is hot"
+    ],
+    "correctIndex": 3,
+    "explanation": "Uncountable noun 'tea' takes no article in general use."
+  },
+  {
+    "id": 239,
+    "question": "वह एक मेहनती किसान है।",
+    "options": [
+      "He is an hardworking farmer",
+      "He is hardworking farmer",
+      "He is the hardworking farmer",
+      "He is a hardworking farmer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Hardworking' starts with consonant 'h' (pronounced), so we use 'a'."
+  },
+  {
+    "id": 240,
+    "question": "मेरे पास एक जूता है।",
+    "options": [
+      "I have an shoe",
+      "I have shoe",
+      "I have the shoe",
+      "I have a shoe"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Shoe' starts with consonant 'sh', so we use 'a'."
+  },
+  {
+    "id": 241,
+    "question": "वह एक अच्छा इंसान है।",
+    "options": [
+      "He is an good person",
+      "He is good person",
+      "He is the good person",
+      "He is a good person"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Good' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 242,
+    "question": "मैंने एक अधिकारी से मुलाकात की।",
+    "options": [
+      "I met a officer",
+      "I met officer",
+      "I met the officer",
+      "I met an officer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Officer' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 243,
+    "question": "वहाँ एक मकान है।",
+    "options": [
+      "There is an house",
+      "There are a house",
+      "There is house",
+      "There is a house"
+    ],
+    "correctIndex": 3,
+    "explanation": "'House' starts with consonant 'h' (pronounced), so we use 'a'."
+  },
+  {
+    "id": 244,
+    "question": "वह एक अनूठा कलाकार है।",
+    "options": [
+      "He is a unique artist",
+      "He is an unique artist",
+      "He is unique artist",
+      "He is the unique artist"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Unique' sounds like 'you-neek', which starts with a consonant 'y' sound, so we use 'a'."
+  },
+  {
+    "id": 245,
+    "question": "मुझे एक उत्साहजनक खबर सुनाई दी।",
+    "options": [
+      "I heard a exciting news",
+      "I heard exciting news",
+      "I heard the exciting news",
+      "I heard an exciting news"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Exciting' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 246,
+    "question": "वह एक लोकप्रिय गायिका है।",
+    "options": [
+      "She is an popular singer",
+      "She is popular singer",
+      "She is the popular singer",
+      "She is a popular singer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Popular' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 247,
+    "question": "मेरे पास एक कंबल है।",
+    "options": [
+      "I have an blanket",
+      "I have blanket",
+      "I have the blanket",
+      "I have a blanket"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Blanket' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 248,
+    "question": "वह एक उत्साही नेता है।",
+    "options": [
+      "He is a enthusiastic leader",
+      "He is enthusiastic leader",
+      "He is the enthusiastic leader",
+      "He is an enthusiastic leader"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Enthusiastic' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 249,
+    "question": "मैंने एक बस देखी।",
+    "options": [
+      "I saw an bus",
+      "I saw bus",
+      "I saw the bus",
+      "I saw a bus"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Bus' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 250,
+    "question": "पक्षी आकाश में उड़ते हैं।",
+    "options": [
+      "A birds fly in the sky",
+      "The birds fly in the sky",
+      "An birds fly in the sky",
+      "Birds fly in the sky"
+    ],
+    "correctIndex": 3,
+    "explanation": "General plural 'birds' takes no article; 'sky' uses 'the'."
+  },
+  {
+    "id": 251,
+    "question": "मुझे एक उपयोगी सुझाव मिला।",
+    "options": [
+      "I got a useful suggestion",
+      "I got an useful suggestion",
+      "I got useful suggestion",
+      "I got the useful suggestion"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Useful' sounds like 'yoo-zful', starts with consonant 'y' sound, so we use 'a'."
+  },
+  {
+    "id": 252,
+    "question": "वह एक ईमानदार अफ़सर है।",
+    "options": [
+      "He is a honest officer",
+      "He is honest officer",
+      "He is the honest officer",
+      "He is an honest officer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 253,
+    "question": "वहाँ एक कुआँ है।",
+    "options": [
+      "There is an well",
+      "There are a well",
+      "There is well",
+      "There is a well"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Well' starts with consonant 'w', so we use 'a'."
+  },
+  {
+    "id": 254,
+    "question": "वह एक अनोखी प्रतिभा है।",
+    "options": [
+      "She is a unique talent",
+      "She is an unique talent",
+      "She is unique talent",
+      "She is the unique talent"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Unique' sounds like 'you-neek', starts with consonant 'y' sound, so we use 'a'."
+  },
+  {
+    "id": 255,
+    "question": "मैंने एक ट्रेन देखी।",
+    "options": [
+      "I saw an train",
+      "I saw train",
+      "I saw the train",
+      "I saw a train"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Train' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 256,
+    "question": "खुशी का कोई मोल नहीं।",
+    "options": [
+      "A joy has no price",
+      "An joy has no price",
+      "The joy has no price",
+      "Joy has no price"
+    ],
+    "correctIndex": 3,
+    "explanation": "Abstract noun 'joy' takes no article in a general statement."
+  },
+  {
+    "id": 257,
+    "question": "वह एक प्रभावशाली व्यक्तित्व है।",
+    "options": [
+      "He is an impressive personality",
+      "He is impressive personality",
+      "He is a impressive personality",
+      "He is the impressive personality"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Impressive' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 258,
+    "question": "मेरे पास एक घड़ी है।",
+    "options": [
+      "I have an watch",
+      "I have watch",
+      "I have the watch",
+      "I have a watch"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Watch' starts with consonant 'w', so we use 'a'."
+  },
+  {
+    "id": 259,
+    "question": "वह एक असाधारण वैज्ञानिक है।",
+    "options": [
+      "He is a extraordinary scientist",
+      "He is extraordinary scientist",
+      "He is the extraordinary scientist",
+      "He is an extraordinary scientist"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extraordinary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 260,
+    "question": "मैंने एक वकील से बात की।",
+    "options": [
+      "I talked to an lawyer",
+      "I talked to lawyer",
+      "I talked to the lawyer",
+      "I talked to a lawyer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Lawyer' starts with consonant 'l', so we use 'a'."
+  },
+  {
+    "id": 261,
+    "question": "आकाश नीला है।",
+    "options": [
+      "A sky is blue",
+      "An sky is blue",
+      "Sky is blue",
+      "The sky is blue"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Sky' is unique, there is only one, so we use 'The'."
+  },
+  {
+    "id": 262,
+    "question": "वह एक बेहतरीन माँ है।",
+    "options": [
+      "She is an excellent mother",
+      "She is excellent mother",
+      "She is a excellent mother",
+      "She is the excellent mother"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 263,
+    "question": "वहाँ एक मंदिर है।",
+    "options": [
+      "There is an temple",
+      "There are a temple",
+      "There is temple",
+      "There is a temple"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Temple' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 264,
+    "question": "वह एक कुशल चालक है।",
+    "options": [
+      "He is an skilled driver",
+      "He is skilled driver",
+      "He is the skilled driver",
+      "He is a skilled driver"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Skilled' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 265,
+    "question": "मैंने एक नर्स देखी।",
+    "options": [
+      "I saw an nurse",
+      "I saw nurse",
+      "I saw the nurse",
+      "I saw a nurse"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Nurse' starts with consonant 'n', so we use 'a'."
+  },
+  {
+    "id": 266,
+    "question": "विश्व में अनेक देश हैं।",
+    "options": [
+      "A world has many countries",
+      "An world has many countries",
+      "World has many countries",
+      "The world has many countries"
+    ],
+    "correctIndex": 3,
+    "explanation": "'World' is unique, there is only one, so we use 'The'."
+  },
+  {
+    "id": 267,
+    "question": "वह एक अच्छे परिवार से है।",
+    "options": [
+      "He is from an good family",
+      "He is from good family",
+      "He is from the good family",
+      "He is from a good family"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Good' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 268,
+    "question": "मेरे पास एक दीपक है।",
+    "options": [
+      "I have an lamp",
+      "I have lamp",
+      "I have the lamp",
+      "I have a lamp"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Lamp' starts with consonant 'l', so we use 'a'."
+  },
+  {
+    "id": 269,
+    "question": "वह एक अच्छा डॉक्टर है।",
+    "options": [
+      "He is an good doctor",
+      "He is good doctor",
+      "He is the good doctor",
+      "He is a good doctor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Good' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 270,
+    "question": "मैंने एक विमान देखा।",
+    "options": [
+      "I saw a aircraft",
+      "I saw aircraft",
+      "I saw the aircraft",
+      "I saw an aircraft"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Aircraft' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 271,
+    "question": "ब्रह्मांड असीमित है।",
+    "options": [
+      "A universe is infinite",
+      "An universe is infinite",
+      "Universe is infinite",
+      "The universe is infinite"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Universe' is unique, so we use 'The'."
+  },
+  {
+    "id": 272,
+    "question": "वह एक प्रभावशाली नेता था।",
+    "options": [
+      "He was an impressive leader",
+      "He was impressive leader",
+      "He was a impressive leader",
+      "He was the impressive leader"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Impressive' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 273,
+    "question": "वहाँ एक दुकान है।",
+    "options": [
+      "There is an shop",
+      "There are a shop",
+      "There is shop",
+      "There is a shop"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Shop' starts with consonant 'sh', so we use 'a'."
+  },
+  {
+    "id": 274,
+    "question": "वह एक अनुकरणीय छात्र है।",
+    "options": [
+      "He is a exemplary student",
+      "He is exemplary student",
+      "He is the exemplary student",
+      "He is an exemplary student"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Exemplary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 275,
+    "question": "मैंने एक संतरे का जूस पिया।",
+    "options": [
+      "I drank a orange juice",
+      "I drank orange juice",
+      "I drank the orange juice",
+      "I drank an orange juice"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Orange' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 276,
+    "question": "समुद्र की लहरें ऊँची हैं।",
+    "options": [
+      "A sea waves are high",
+      "An sea waves are high",
+      "Sea waves are high",
+      "The sea waves are high"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Sea' when referring to a specific, known body of water uses 'The'."
+  },
+  {
+    "id": 277,
+    "question": "वह एक महत्वपूर्ण इंसान है।",
+    "options": [
+      "He is an important person",
+      "He is important person",
+      "He is a important person",
+      "He is the important person"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Important' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 278,
+    "question": "मेरे पास एक पंखा है।",
+    "options": [
+      "I have an fan",
+      "I have fan",
+      "I have the fan",
+      "I have a fan"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Fan' starts with consonant 'f', so we use 'a'."
+  },
+  {
+    "id": 279,
+    "question": "वह एक बेहतरीन अधिकारी है।",
+    "options": [
+      "He is a excellent officer",
+      "He is excellent officer",
+      "He is the excellent officer",
+      "He is an excellent officer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 280,
+    "question": "मैंने एक कलाकार से बात की।",
+    "options": [
+      "I talked to a artist",
+      "I talked to artist",
+      "I talked to the artist",
+      "I talked to an artist"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Artist' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 281,
+    "question": "वह एक मददगार इंसान है।",
+    "options": [
+      "He is an helpful person",
+      "He is helpful person",
+      "He is a helpful person",
+      "He is the helpful person"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Helpful' starts with consonant 'h' (pronounced), so we use 'a'."
+  },
+  {
+    "id": 282,
+    "question": "मेरे पास एक खिड़की है।",
+    "options": [
+      "I have an window",
+      "I have window",
+      "I have the window",
+      "I have a window"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Window' starts with consonant 'w', so we use 'a'."
+  },
+  {
+    "id": 283,
+    "question": "वह एक अद्भुत शिक्षक है।",
+    "options": [
+      "He is a wonderful teacher",
+      "He is an wonderful teacher",
+      "He is wonderful teacher",
+      "He is the wonderful teacher"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wonderful' starts with consonant 'w', so we use 'a'."
+  },
+  {
+    "id": 284,
+    "question": "मैंने एक पायलट से बात की।",
+    "options": [
+      "I talked to an pilot",
+      "I talked to pilot",
+      "I talked to the pilot",
+      "I talked to a pilot"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Pilot' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 285,
+    "question": "भूमध्य रेखा पृथ्वी को दो हिस्सों में बाँटती है।",
+    "options": [
+      "A equator divides the earth",
+      "An equator divides the earth",
+      "Equator divides the earth",
+      "The equator divides the earth"
+    ],
+    "correctIndex": 3,
+    "explanation": "There is only one equator, so we use 'The'."
+  },
+  {
+    "id": 286,
+    "question": "वह एक महत्वाकांक्षी छात्र है।",
+    "options": [
+      "He is a ambitious student",
+      "He is ambitious student",
+      "He is the ambitious student",
+      "He is an ambitious student"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Ambitious' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 287,
+    "question": "वहाँ एक गेंद है।",
+    "options": [
+      "There is an ball",
+      "There are a ball",
+      "There is ball",
+      "There is a ball"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Ball' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 288,
+    "question": "वह एक उत्तम उदाहरण है।",
+    "options": [
+      "It is a ideal example",
+      "It is ideal example",
+      "It is the ideal example",
+      "It is an ideal example"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Ideal' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 289,
+    "question": "मैंने एक आर्किटेक्ट से मुलाकात की।",
+    "options": [
+      "I met a architect",
+      "I met architect",
+      "I met the architect",
+      "I met an architect"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Architect' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 290,
+    "question": "उत्तरी ध्रुव बहुत ठंडा है।",
+    "options": [
+      "A North Pole is very cold",
+      "An North Pole is very cold",
+      "North Pole is very cold",
+      "The North Pole is very cold"
+    ],
+    "correctIndex": 3,
+    "explanation": "There is only one North Pole, so we use 'The'."
+  },
+  {
+    "id": 291,
+    "question": "वह एक शानदार खिलाड़ी है।",
+    "options": [
+      "He is an outstanding player",
+      "He is outstanding player",
+      "He is a outstanding player",
+      "He is the outstanding player"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Outstanding' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 292,
+    "question": "मेरे पास एक तकिया है।",
+    "options": [
+      "I have an pillow",
+      "I have pillow",
+      "I have the pillow",
+      "I have a pillow"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Pillow' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 293,
+    "question": "वह एक तेज़ दिमाग का बच्चा है।",
+    "options": [
+      "He is an sharp-minded child",
+      "He is sharp-minded child",
+      "He is a sharp-minded child",
+      "He is the sharp-minded child"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Sharp' starts with consonant 'sh', so we use 'a'."
+  },
+  {
+    "id": 294,
+    "question": "मैंने एक अकाउंटेंट से बात की।",
+    "options": [
+      "I talked to a accountant",
+      "I talked to accountant",
+      "I talked to the accountant",
+      "I talked to an accountant"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Accountant' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 295,
+    "question": "दक्षिणी ध्रुव बर्फ से ढका है।",
+    "options": [
+      "A South Pole is covered in snow",
+      "An South Pole is covered in snow",
+      "South Pole is covered in snow",
+      "The South Pole is covered in snow"
+    ],
+    "correctIndex": 3,
+    "explanation": "There is only one South Pole, so we use 'The'."
+  },
+  {
+    "id": 296,
+    "question": "वह एक अनुभवी पायलट है।",
+    "options": [
+      "He is a experienced pilot",
+      "He is experienced pilot",
+      "He is the experienced pilot",
+      "He is an experienced pilot"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Experienced' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 297,
+    "question": "वहाँ एक दरवाज़ा है।",
+    "options": [
+      "There is an door",
+      "There are a door",
+      "There is door",
+      "There is a door"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Door' starts with consonant 'd', so we use 'a'."
+  },
+  {
+    "id": 298,
+    "question": "वह एक आकर्षक व्यक्ति है।",
+    "options": [
+      "He is a attractive person",
+      "He is attractive person",
+      "He is the attractive person",
+      "He is an attractive person"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Attractive' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 299,
+    "question": "मैंने एक एथलीट देखा।",
+    "options": [
+      "I saw a athlete",
+      "I saw athlete",
+      "I saw the athlete",
+      "I saw an athlete"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Athlete' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 300,
+    "question": "अमेज़न नदी बहुत बड़ी है।",
+    "options": [
+      "A Amazon River is very big",
+      "An Amazon River is very big",
+      "Amazon River is very big",
+      "The Amazon River is very big"
+    ],
+    "correctIndex": 3,
+    "explanation": "Named rivers always take 'The'."
+  },
+  {
+    "id": 301,
+    "question": "मुझे एक उपाय चाहिए।",
+    "options": [
+      "I need a solution",
+      "I need an solution",
+      "I need solution",
+      "I need the solution"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Solution' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 302,
+    "question": "वह एक उत्साही कार्यकर्ता है।",
+    "options": [
+      "He is a enthusiastic worker",
+      "He is enthusiastic worker",
+      "He is the enthusiastic worker",
+      "He is an enthusiastic worker"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Enthusiastic' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 303,
+    "question": "मेरे पास एक अँगूठी है।",
+    "options": [
+      "I have a ring",
+      "I have an ring",
+      "I have ring",
+      "I have the ring"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Ring' starts with consonant 'r', so we use 'a'."
+  },
+  {
+    "id": 304,
+    "question": "वह एक ईमानदार नेता था।",
+    "options": [
+      "He was a honest leader",
+      "He was honest leader",
+      "He was the honest leader",
+      "He was an honest leader"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 305,
+    "question": "वहाँ एक छत है।",
+    "options": [
+      "There is an roof",
+      "There are a roof",
+      "There is roof",
+      "There is a roof"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Roof' starts with consonant 'r', so we use 'a'."
+  },
+  {
+    "id": 306,
+    "question": "वह एक असाधारण बच्चा है।",
+    "options": [
+      "He is a extraordinary child",
+      "He is extraordinary child",
+      "He is the extraordinary child",
+      "He is an extraordinary child"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extraordinary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 307,
+    "question": "मैंने एक ऑडिटर से बात की।",
+    "options": [
+      "I talked to a auditor",
+      "I talked to auditor",
+      "I talked to the auditor",
+      "I talked to an auditor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Auditor' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 308,
+    "question": "भारतीय महासागर गर्म है।",
+    "options": [
+      "A Indian Ocean is warm",
+      "An Indian Ocean is warm",
+      "Indian Ocean is warm",
+      "The Indian Ocean is warm"
+    ],
+    "correctIndex": 3,
+    "explanation": "Named oceans always take 'The'."
+  },
+  {
+    "id": 309,
+    "question": "वह एक आकर्षक महिला है।",
+    "options": [
+      "She is a attractive woman",
+      "She is attractive woman",
+      "She is the attractive woman",
+      "She is an attractive woman"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Attractive' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 310,
+    "question": "मेरे पास एक अखबार है।",
+    "options": [
+      "I have a newspaper",
+      "I have an newspaper",
+      "I have newspaper",
+      "I have the newspaper"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Newspaper' starts with consonant 'n', so we use 'a'."
+  },
+  {
+    "id": 311,
+    "question": "वह एक कठोर अधिकारी है।",
+    "options": [
+      "He is an strict officer",
+      "He is strict officer",
+      "He is a strict officer",
+      "He is the strict officer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Strict' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 312,
+    "question": "मैंने एक अर्थशास्त्री से मुलाकात की।",
+    "options": [
+      "I met a economist",
+      "I met economist",
+      "I met the economist",
+      "I met an economist"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Economist' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 313,
+    "question": "सहारा रेगिस्तान बहुत गर्म है।",
+    "options": [
+      "A Sahara Desert is very hot",
+      "An Sahara Desert is very hot",
+      "Sahara Desert is very hot",
+      "The Sahara Desert is very hot"
+    ],
+    "correctIndex": 3,
+    "explanation": "Named deserts always take 'The'."
+  },
+  {
+    "id": 314,
+    "question": "वह एक कुशल इंजीनियर है।",
+    "options": [
+      "He is a skilled engineer",
+      "He is an skilled engineer",
+      "He is skilled engineer",
+      "He is the skilled engineer"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Skilled' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 315,
+    "question": "वहाँ एक बाज़ार है।",
+    "options": [
+      "There is an market",
+      "There are a market",
+      "There is market",
+      "There is a market"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Market' starts with consonant 'm', so we use 'a'."
+  },
+  {
+    "id": 316,
+    "question": "वह एक अंतरराष्ट्रीय खिलाड़ी है।",
+    "options": [
+      "He is a international player",
+      "He is international player",
+      "He is the international player",
+      "He is an international player"
+    ],
+    "correctIndex": 3,
+    "explanation": "'International' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 317,
+    "question": "मैंने एक लोहार से बात की।",
+    "options": [
+      "I talked to an blacksmith",
+      "I talked to blacksmith",
+      "I talked to the blacksmith",
+      "I talked to a blacksmith"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Blacksmith' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 318,
+    "question": "आर्कटिक महासागर जमा हुआ है।",
+    "options": [
+      "A Arctic Ocean is frozen",
+      "An Arctic Ocean is frozen",
+      "Arctic Ocean is frozen",
+      "The Arctic Ocean is frozen"
+    ],
+    "correctIndex": 3,
+    "explanation": "Named oceans always take 'The'."
+  },
+  {
+    "id": 319,
+    "question": "वह एक प्रभावशाली भाषण देता है।",
+    "options": [
+      "He gives a impressive speech",
+      "He gives impressive speech",
+      "He gives the impressive speech",
+      "He gives an impressive speech"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Impressive' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 320,
+    "question": "मेरे पास एक फोटो है।",
+    "options": [
+      "I have an photo",
+      "I have photo",
+      "I have the photo",
+      "I have a photo"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Photo' starts with consonant 'ph', so we use 'a'."
+  },
+  {
+    "id": 321,
+    "question": "वह एक ईमानदार वकील था।",
+    "options": [
+      "He was a honest lawyer",
+      "He was honest lawyer",
+      "He was the honest lawyer",
+      "He was an honest lawyer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 322,
+    "question": "मैंने एक बाज़ देखा।",
+    "options": [
+      "I saw an hawk",
+      "I saw hawk",
+      "I saw the hawk",
+      "I saw a hawk"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Hawk' starts with consonant 'h' (pronounced), so we use 'a'."
+  },
+  {
+    "id": 323,
+    "question": "वहाँ एक चर्च है।",
+    "options": [
+      "There is an church",
+      "There are a church",
+      "There is church",
+      "There is a church"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Church' starts with consonant 'ch', so we use 'a'."
+  },
+  {
+    "id": 324,
+    "question": "वह एक अत्यंत विनम्र व्यक्ति है।",
+    "options": [
+      "He is an extremely humble person",
+      "He is extremely humble person",
+      "He is a extremely humble person",
+      "He is the extremely humble person"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Extremely' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 325,
+    "question": "मैंने एक ऑपरेटर से बात की।",
+    "options": [
+      "I talked to a operator",
+      "I talked to operator",
+      "I talked to the operator",
+      "I talked to an operator"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Operator' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 326,
+    "question": "वह एक ईमानदार न्यायाधीश है।",
+    "options": [
+      "She is a honest judge",
+      "She is honest judge",
+      "She is the honest judge",
+      "She is an honest judge"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 327,
+    "question": "मेरे पास एक आईना है।",
+    "options": [
+      "I have a mirror",
+      "I have an mirror",
+      "I have mirror",
+      "I have the mirror"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Mirror' starts with consonant 'm', so we use 'a'."
+  },
+  {
+    "id": 328,
+    "question": "वह एक असाधारण कहानी है।",
+    "options": [
+      "It is a extraordinary story",
+      "It is extraordinary story",
+      "It is the extraordinary story",
+      "It is an extraordinary story"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extraordinary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 329,
+    "question": "मैंने एक एडिटर से मुलाकात की।",
+    "options": [
+      "I met a editor",
+      "I met editor",
+      "I met the editor",
+      "I met an editor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Editor' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 330,
+    "question": "वह एक आदर्श नेता है।",
+    "options": [
+      "He is a ideal leader",
+      "He is ideal leader",
+      "He is the ideal leader",
+      "He is an ideal leader"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Ideal' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 331,
+    "question": "मेरे पास एक ट्रेन का टिकट है।",
+    "options": [
+      "I have an train ticket",
+      "I have train ticket",
+      "I have the train ticket",
+      "I have a train ticket"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Train' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 332,
+    "question": "वह एक उभरते हुए कलाकार है।",
+    "options": [
+      "He is an emerging artist",
+      "He is emerging artist",
+      "He is a emerging artist",
+      "He is the emerging artist"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Emerging' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 333,
+    "question": "वहाँ एक नहर है।",
+    "options": [
+      "There is an canal",
+      "There are a canal",
+      "There is canal",
+      "There is a canal"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Canal' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 334,
+    "question": "वह एक आकर्षक शहर है।",
+    "options": [
+      "It is a attractive city",
+      "It is attractive city",
+      "It is the attractive city",
+      "It is an attractive city"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Attractive' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 335,
+    "question": "मैंने एक ऑर्किड देखा।",
+    "options": [
+      "I saw a orchid",
+      "I saw orchid",
+      "I saw the orchid",
+      "I saw an orchid"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Orchid' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 336,
+    "question": "वह एक ईमानदार अध्यापिका है।",
+    "options": [
+      "She is a honest teacher",
+      "She is honest teacher",
+      "She is the honest teacher",
+      "She is an honest teacher"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 337,
+    "question": "मेरे पास एक स्कर्ट है।",
+    "options": [
+      "I have an skirt",
+      "I have skirt",
+      "I have the skirt",
+      "I have a skirt"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Skirt' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 338,
+    "question": "वह एक अविश्वसनीय घटना थी।",
+    "options": [
+      "It was a incredible event",
+      "It was incredible event",
+      "It was the incredible event",
+      "It was an incredible event"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Incredible' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 339,
+    "question": "मैंने एक ऑफिसर से बात की।",
+    "options": [
+      "I talked to a officer",
+      "I talked to officer",
+      "I talked to the officer",
+      "I talked to an officer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Officer' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 340,
+    "question": "वह एक उत्साही पत्रकार है।",
+    "options": [
+      "He is a enthusiastic journalist",
+      "He is enthusiastic journalist",
+      "He is the enthusiastic journalist",
+      "He is an enthusiastic journalist"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Enthusiastic' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 341,
+    "question": "वहाँ एक किला है।",
+    "options": [
+      "There is an fort",
+      "There are a fort",
+      "There is fort",
+      "There is a fort"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Fort' starts with consonant 'f', so we use 'a'."
+  },
+  {
+    "id": 342,
+    "question": "वह एक ईमानदार इंजीनियर है।",
+    "options": [
+      "He is a honest engineer",
+      "He is honest engineer",
+      "He is the honest engineer",
+      "He is an honest engineer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 343,
+    "question": "मैंने एक खगोलशास्त्री से मुलाकात की।",
+    "options": [
+      "I met a astronaut",
+      "I met astronaut",
+      "I met the astronaut",
+      "I met an astronaut"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Astronaut' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 344,
+    "question": "वह एक अद्वितीय व्यक्ति है।",
+    "options": [
+      "He is a unique person",
+      "He is an unique person",
+      "He is unique person",
+      "He is the unique person"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Unique' sounds like 'you-neek', starts with consonant 'y' sound, so we use 'a'."
+  },
+  {
+    "id": 345,
+    "question": "मेरे पास एक ऑटोमोबाइल है।",
+    "options": [
+      "I have a automobile",
+      "I have automobile",
+      "I have the automobile",
+      "I have an automobile"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Automobile' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 346,
+    "question": "वह एक अनुकूल वातावरण है।",
+    "options": [
+      "It is a favorable environment",
+      "It is an favorable environment",
+      "It is favorable environment",
+      "It is the favorable environment"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Favorable' starts with consonant 'f', so we use 'a'."
+  },
+  {
+    "id": 347,
+    "question": "मैंने एक बढ़ई से बात की।",
+    "options": [
+      "I talked to an carpenter",
+      "I talked to carpenter",
+      "I talked to the carpenter",
+      "I talked to a carpenter"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Carpenter' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 348,
+    "question": "वह एक अनुकरणीय छात्रा है।",
+    "options": [
+      "She is a exemplary student",
+      "She is exemplary student",
+      "She is the exemplary student",
+      "She is an exemplary student"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Exemplary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 349,
+    "question": "वहाँ एक झरना है।",
+    "options": [
+      "There is an waterfall",
+      "There are a waterfall",
+      "There is waterfall",
+      "There is a waterfall"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Waterfall' starts with consonant 'w', so we use 'a'."
+  },
+  {
+    "id": 350,
+    "question": "वह एक ईमानदार अभिभावक है।",
+    "options": [
+      "He is a honest guardian",
+      "He is honest guardian",
+      "He is the honest guardian",
+      "He is an honest guardian"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 351,
+    "question": "मैंने एक इलेक्ट्रिशियन बुलाया।",
+    "options": [
+      "I called a electrician",
+      "I called electrician",
+      "I called the electrician",
+      "I called an electrician"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Electrician' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 352,
+    "question": "वह एक उत्कृष्ट गायक है।",
+    "options": [
+      "He is a excellent singer",
+      "He is excellent singer",
+      "He is the excellent singer",
+      "He is an excellent singer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 353,
+    "question": "मेरे पास एक बैग है।",
+    "options": [
+      "I have an bag",
+      "I have bag",
+      "I have the bag",
+      "I have a bag"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Bag' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 354,
+    "question": "वह एक अंतरराष्ट्रीय क्रिकेटर है।",
+    "options": [
+      "He is a international cricketer",
+      "He is international cricketer",
+      "He is the international cricketer",
+      "He is an international cricketer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'International' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 355,
+    "question": "मैंने एक अभिनेत्री से बात की।",
+    "options": [
+      "I talked to a actress",
+      "I talked to actress",
+      "I talked to the actress",
+      "I talked to an actress"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Actress' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 356,
+    "question": "वह एक प्रखर बुद्धिवाला इंसान है।",
+    "options": [
+      "He is an intelligent person",
+      "He is intelligent person",
+      "He is a intelligent person",
+      "He is the intelligent person"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Intelligent' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 357,
+    "question": "वहाँ एक बड़ा मैदान है।",
+    "options": [
+      "There is an big ground",
+      "There are a big ground",
+      "There is big ground",
+      "There is a big ground"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Big' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 358,
+    "question": "वह एक ईमानदार सरकारी कर्मचारी है।",
+    "options": [
+      "He is a honest government employee",
+      "He is honest government employee",
+      "He is the honest government employee",
+      "He is an honest government employee"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 359,
+    "question": "मैंने एक मैनेजर से मुलाकात की।",
+    "options": [
+      "I met an manager",
+      "I met manager",
+      "I met the manager",
+      "I met a manager"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Manager' starts with consonant 'm', so we use 'a'."
+  },
+  {
+    "id": 360,
+    "question": "वह एक आकर्षक जगह है।",
+    "options": [
+      "It is a attractive place",
+      "It is attractive place",
+      "It is the attractive place",
+      "It is an attractive place"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Attractive' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 361,
+    "question": "मेरे पास एक रेडियो है।",
+    "options": [
+      "I have an radio",
+      "I have radio",
+      "I have the radio",
+      "I have a radio"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Radio' starts with consonant 'r', so we use 'a'."
+  },
+  {
+    "id": 362,
+    "question": "वह एक उल्लेखनीय व्यक्ति है।",
+    "options": [
+      "He is a remarkable person",
+      "He is an remarkable person",
+      "He is remarkable person",
+      "He is the remarkable person"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Remarkable' starts with consonant 'r', so we use 'a'."
+  },
+  {
+    "id": 363,
+    "question": "मैंने एक सुनार से बात की।",
+    "options": [
+      "I talked to an goldsmith",
+      "I talked to goldsmith",
+      "I talked to the goldsmith",
+      "I talked to a goldsmith"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Goldsmith' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 364,
+    "question": "वह एक आश्चर्यजनक घटना थी।",
+    "options": [
+      "It was a astonishing event",
+      "It was astonishing event",
+      "It was the astonishing event",
+      "It was an astonishing event"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Astonishing' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 365,
+    "question": "वहाँ एक टॉवर है।",
+    "options": [
+      "There is an tower",
+      "There are a tower",
+      "There is tower",
+      "There is a tower"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Tower' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 366,
+    "question": "वह एक ईमानदार लड़की है।",
+    "options": [
+      "She is a honest girl",
+      "She is honest girl",
+      "She is the honest girl",
+      "She is an honest girl"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 367,
+    "question": "मैंने एक इंटर्न रखा।",
+    "options": [
+      "I hired a intern",
+      "I hired intern",
+      "I hired the intern",
+      "I hired an intern"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Intern' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 368,
+    "question": "वह एक अभूतपूर्व जीत है।",
+    "options": [
+      "It is a unprecedented victory",
+      "It is unprecedented victory",
+      "It is the unprecedented victory",
+      "It is an unprecedented victory"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Unprecedented' starts with vowel 'u', so we use 'an'."
+  },
+  {
+    "id": 369,
+    "question": "मेरे पास एक छुरी है।",
+    "options": [
+      "I have an knife",
+      "I have knife",
+      "I have the knife",
+      "I have a knife"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Knife' starts with silent 'k', but consonant 'n' is the first sound, so we use 'a'."
+  },
+  {
+    "id": 370,
+    "question": "वह एक उत्साही छात्रा है।",
+    "options": [
+      "She is a enthusiastic student",
+      "She is enthusiastic student",
+      "She is the enthusiastic student",
+      "She is an enthusiastic student"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Enthusiastic' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 371,
+    "question": "मैंने एक बाकरवाला से बात की।",
+    "options": [
+      "I talked to an baker",
+      "I talked to baker",
+      "I talked to the baker",
+      "I talked to a baker"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Baker' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 372,
+    "question": "वह एक असाधारण कार्य है।",
+    "options": [
+      "It is a extraordinary task",
+      "It is extraordinary task",
+      "It is the extraordinary task",
+      "It is an extraordinary task"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extraordinary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 373,
+    "question": "वहाँ एक टेलीफोन बूथ है।",
+    "options": [
+      "There is an telephone booth",
+      "There are a telephone booth",
+      "There is telephone booth",
+      "There is a telephone booth"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Telephone' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 374,
+    "question": "वह एक ईमानदार राजनेता है।",
+    "options": [
+      "He is a honest politician",
+      "He is honest politician",
+      "He is the honest politician",
+      "He is an honest politician"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 375,
+    "question": "मैंने एक एजेंट से मुलाकात की।",
+    "options": [
+      "I met a agent",
+      "I met agent",
+      "I met the agent",
+      "I met an agent"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Agent' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 376,
+    "question": "वह एक प्रखर अर्थशास्त्री है।",
+    "options": [
+      "He is a sharp economist",
+      "He is an sharp economist",
+      "He is sharp economist",
+      "He is the sharp economist"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Sharp' starts with consonant 'sh', so we use 'a'."
+  },
+  {
+    "id": 377,
+    "question": "मेरे पास एक कैमरा है।",
+    "options": [
+      "I have an camera",
+      "I have camera",
+      "I have the camera",
+      "I have a camera"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Camera' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 378,
+    "question": "वह एक इम्तिहान दे रहा है।",
+    "options": [
+      "He is giving a examination",
+      "He is giving examination",
+      "He is giving the examination",
+      "He is giving an examination"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Examination' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 379,
+    "question": "मैंने एक अध्यापक से मुलाकात की।",
+    "options": [
+      "I met an teacher",
+      "I met teacher",
+      "I met the teacher",
+      "I met a teacher"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Teacher' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 380,
+    "question": "वह एक उत्साहपूर्ण कार्यक्रम था।",
+    "options": [
+      "It was a enthusiastic program",
+      "It was enthusiastic program",
+      "It was the enthusiastic program",
+      "It was an enthusiastic program"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Enthusiastic' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 381,
+    "question": "वहाँ एक स्विमिंग पूल है।",
+    "options": [
+      "There is an swimming pool",
+      "There are a swimming pool",
+      "There is swimming pool",
+      "There is a swimming pool"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Swimming' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 382,
+    "question": "वह एक ईमानदार पिता है।",
+    "options": [
+      "He is a honest father",
+      "He is honest father",
+      "He is the honest father",
+      "He is an honest father"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 383,
+    "question": "मैंने एक ऑटोमेकेनिक बुलाया।",
+    "options": [
+      "I called a auto-mechanic",
+      "I called auto-mechanic",
+      "I called the auto-mechanic",
+      "I called an auto-mechanic"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Auto' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 384,
+    "question": "वह एक अंतरराष्ट्रीय समस्या है।",
+    "options": [
+      "It is a international problem",
+      "It is international problem",
+      "It is the international problem",
+      "It is an international problem"
+    ],
+    "correctIndex": 3,
+    "explanation": "'International' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 385,
+    "question": "मेरे पास एक टेबल है।",
+    "options": [
+      "I have an table",
+      "I have table",
+      "I have the table",
+      "I have a table"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Table' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 386,
+    "question": "वह एक उत्कृष्ट इंजीनियर है।",
+    "options": [
+      "He is a excellent engineer",
+      "He is excellent engineer",
+      "He is the excellent engineer",
+      "He is an excellent engineer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 387,
+    "question": "मैंने एक नाविक से बात की।",
+    "options": [
+      "I talked to an sailor",
+      "I talked to sailor",
+      "I talked to the sailor",
+      "I talked to a sailor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Sailor' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 388,
+    "question": "वह एक अप्रत्याशित मोड़ था।",
+    "options": [
+      "It was a unexpected turn",
+      "It was unexpected turn",
+      "It was the unexpected turn",
+      "It was an unexpected turn"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Unexpected' starts with vowel 'u', so we use 'an'."
+  },
+  {
+    "id": 389,
+    "question": "वहाँ एक नाला है।",
+    "options": [
+      "There is an drain",
+      "There are a drain",
+      "There is drain",
+      "There is a drain"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Drain' starts with consonant 'd', so we use 'a'."
+  },
+  {
+    "id": 390,
+    "question": "वह एक ईमानदार पुत्र है।",
+    "options": [
+      "He is a honest son",
+      "He is honest son",
+      "He is the honest son",
+      "He is an honest son"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 391,
+    "question": "मैंने एक इवेंट मैनेजर रखा।",
+    "options": [
+      "I hired a event manager",
+      "I hired event manager",
+      "I hired the event manager",
+      "I hired an event manager"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Event' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 392,
+    "question": "वह एक असाधारण कलाकार है।",
+    "options": [
+      "She is a extraordinary artist",
+      "She is extraordinary artist",
+      "She is the extraordinary artist",
+      "She is an extraordinary artist"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extraordinary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 393,
+    "question": "मेरे पास एक लैपटॉप है।",
+    "options": [
+      "I have an laptop",
+      "I have laptop",
+      "I have the laptop",
+      "I have a laptop"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Laptop' starts with consonant 'l', so we use 'a'."
+  },
+  {
+    "id": 394,
+    "question": "वह एक उज्ज्वल भविष्य है।",
+    "options": [
+      "It is a bright future",
+      "It is an bright future",
+      "It is bright future",
+      "It is the bright future"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Bright' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 395,
+    "question": "मैंने एक अधिकारी को देखा।",
+    "options": [
+      "I saw a officer",
+      "I saw officer",
+      "I saw the officer",
+      "I saw an officer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Officer' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 396,
+    "question": "वह एक ईमानदार न्यायधीश था।",
+    "options": [
+      "He was a honest judge",
+      "He was honest judge",
+      "He was the honest judge",
+      "He was an honest judge"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 397,
+    "question": "वहाँ एक खलिहान है।",
+    "options": [
+      "There is an barn",
+      "There are a barn",
+      "There is barn",
+      "There is a barn"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Barn' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 398,
+    "question": "वह एक प्रेरणादायक कहानी है।",
+    "options": [
+      "It is a inspiring story",
+      "It is inspiring story",
+      "It is the inspiring story",
+      "It is an inspiring story"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Inspiring' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 399,
+    "question": "मैंने एक इंटर्नशिप की।",
+    "options": [
+      "I did a internship",
+      "I did internship",
+      "I did the internship",
+      "I did an internship"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Internship' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 400,
+    "question": "वह एक ईमानदार माँ है।",
+    "options": [
+      "She is a honest mother",
+      "She is honest mother",
+      "She is the honest mother",
+      "She is an honest mother"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 401,
+    "question": "वह एक कठिन परीक्षा थी।",
+    "options": [
+      "It was an hard exam",
+      "It was hard exam",
+      "It was a hard exam",
+      "It was the hard exam"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Hard' starts with consonant 'h' (pronounced), so we use 'a'."
+  },
+  {
+    "id": 402,
+    "question": "मेरे पास एक स्कूटर है।",
+    "options": [
+      "I have an scooter",
+      "I have scooter",
+      "I have the scooter",
+      "I have a scooter"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Scooter' starts with consonant 'sc', so we use 'a'."
+  },
+  {
+    "id": 403,
+    "question": "वह एक अविस्मरणीय अनुभव था।",
+    "options": [
+      "It was a unforgettable experience",
+      "It was unforgettable experience",
+      "It was the unforgettable experience",
+      "It was an unforgettable experience"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Unforgettable' starts with vowel 'u', so we use 'an'."
+  },
+  {
+    "id": 404,
+    "question": "मैंने एक इलेक्ट्रिशियन को देखा।",
+    "options": [
+      "I saw a electrician",
+      "I saw electrician",
+      "I saw the electrician",
+      "I saw an electrician"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Electrician' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 405,
+    "question": "वह एक ईमानदार व्यापारी था।",
+    "options": [
+      "He was a honest trader",
+      "He was honest trader",
+      "He was the honest trader",
+      "He was an honest trader"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 406,
+    "question": "वहाँ एक रेस्तरां है।",
+    "options": [
+      "There is an restaurant",
+      "There are a restaurant",
+      "There is restaurant",
+      "There is a restaurant"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Restaurant' starts with consonant 'r', so we use 'a'."
+  },
+  {
+    "id": 407,
+    "question": "वह एक असाधारण बात है।",
+    "options": [
+      "It is a extraordinary thing",
+      "It is extraordinary thing",
+      "It is the extraordinary thing",
+      "It is an extraordinary thing"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extraordinary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 408,
+    "question": "मैंने एक एजेंसी से संपर्क किया।",
+    "options": [
+      "I contacted a agency",
+      "I contacted agency",
+      "I contacted the agency",
+      "I contacted an agency"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Agency' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 409,
+    "question": "वह एक उत्साहजनक खेल था।",
+    "options": [
+      "It was a exciting game",
+      "It was exciting game",
+      "It was the exciting game",
+      "It was an exciting game"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Exciting' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 410,
+    "question": "मेरे पास एक साइकिल है।",
+    "options": [
+      "I have an bicycle",
+      "I have bicycle",
+      "I have the bicycle",
+      "I have a bicycle"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Bicycle' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 411,
+    "question": "वह एक ईमानदार भाई है।",
+    "options": [
+      "He is a honest brother",
+      "He is honest brother",
+      "He is the honest brother",
+      "He is an honest brother"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 412,
+    "question": "मैंने एक अंडरकवर एजेंट देखा।",
+    "options": [
+      "I saw a undercover agent",
+      "I saw undercover agent",
+      "I saw the undercover agent",
+      "I saw an undercover agent"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Undercover' starts with vowel 'u', so we use 'an'."
+  },
+  {
+    "id": 413,
+    "question": "वहाँ एक धर्मशाला है।",
+    "options": [
+      "There is an dharamshala",
+      "There are a dharamshala",
+      "There is dharamshala",
+      "There is a dharamshala"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Dharamshala' starts with consonant 'dh', so we use 'a'."
+  },
+  {
+    "id": 414,
+    "question": "वह एक अत्यंत मेहनती छात्र है।",
+    "options": [
+      "He is an extremely hardworking student",
+      "He is extremely hardworking student",
+      "He is a extremely hardworking student",
+      "He is the extremely hardworking student"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Extremely' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 415,
+    "question": "मैंने एक एकाउंटिंग कंपनी ज्वाइन की।",
+    "options": [
+      "I joined a accounting firm",
+      "I joined accounting firm",
+      "I joined the accounting firm",
+      "I joined an accounting firm"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Accounting' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 416,
+    "question": "वह एक ईमानदार नागरिक है।",
+    "options": [
+      "He is a honest citizen",
+      "He is honest citizen",
+      "He is the honest citizen",
+      "He is an honest citizen"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 417,
+    "question": "वहाँ एक जिम है।",
+    "options": [
+      "There is an gym",
+      "There are a gym",
+      "There is gym",
+      "There is a gym"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Gym' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 418,
+    "question": "वह एक अप्रतिम कृति है।",
+    "options": [
+      "It is a unparalleled masterpiece",
+      "It is unparalleled masterpiece",
+      "It is the unparalleled masterpiece",
+      "It is an unparalleled masterpiece"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Unparalleled' starts with vowel 'u', so we use 'an'."
+  },
+  {
+    "id": 419,
+    "question": "मैंने एक अन्वेषक से बात की।",
+    "options": [
+      "I talked to a investigator",
+      "I talked to investigator",
+      "I talked to the investigator",
+      "I talked to an investigator"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Investigator' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 420,
+    "question": "वह एक उत्साही व्यापारी है।",
+    "options": [
+      "He is a enthusiastic businessman",
+      "He is enthusiastic businessman",
+      "He is the enthusiastic businessman",
+      "He is an enthusiastic businessman"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Enthusiastic' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 421,
+    "question": "मेरे पास एक टेलीविजन है।",
+    "options": [
+      "I have an television",
+      "I have television",
+      "I have the television",
+      "I have a television"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Television' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 422,
+    "question": "वह एक ईमानदार मित्र है।",
+    "options": [
+      "He is a honest friend",
+      "He is honest friend",
+      "He is the honest friend",
+      "He is an honest friend"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 423,
+    "question": "मैंने एक असाधारण किताब पढ़ी।",
+    "options": [
+      "I read a extraordinary book",
+      "I read extraordinary book",
+      "I read the extraordinary book",
+      "I read an extraordinary book"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extraordinary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 424,
+    "question": "वह एक अनुकरणीय नागरिक है।",
+    "options": [
+      "She is a exemplary citizen",
+      "She is exemplary citizen",
+      "She is the exemplary citizen",
+      "She is an exemplary citizen"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Exemplary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 425,
+    "question": "वहाँ एक कबूतर है।",
+    "options": [
+      "There is an pigeon",
+      "There are a pigeon",
+      "There is pigeon",
+      "There is a pigeon"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Pigeon' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 426,
+    "question": "वह एक ईमानदार भ्रातृ है।",
+    "options": [
+      "He is a honest sibling",
+      "He is honest sibling",
+      "He is the honest sibling",
+      "He is an honest sibling"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 427,
+    "question": "मैंने एक इंटरव्यू दिया।",
+    "options": [
+      "I gave a interview",
+      "I gave interview",
+      "I gave the interview",
+      "I gave an interview"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Interview' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 428,
+    "question": "वह एक अनोखी परंपरा है।",
+    "options": [
+      "It is a unique tradition",
+      "It is an unique tradition",
+      "It is unique tradition",
+      "It is the unique tradition"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Unique' sounds like 'you-neek', starts with consonant 'y' sound, so we use 'a'."
+  },
+  {
+    "id": 429,
+    "question": "मेरे पास एक छाता नहीं है।",
+    "options": [
+      "I don't have an umbrella",
+      "I don't have a umbrella",
+      "I don't have umbrella",
+      "I don't have the umbrella"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Umbrella' starts with vowel 'u', so we use 'an'."
+  },
+  {
+    "id": 430,
+    "question": "वह एक उत्साहजनक यात्रा थी।",
+    "options": [
+      "It was a exciting trip",
+      "It was exciting trip",
+      "It was the exciting trip",
+      "It was an exciting trip"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Exciting' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 431,
+    "question": "मैंने एक इंटरनेट कंपनी ज्वाइन की।",
+    "options": [
+      "I joined a internet company",
+      "I joined internet company",
+      "I joined the internet company",
+      "I joined an internet company"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Internet' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 432,
+    "question": "वह एक अनोखा अवसर है।",
+    "options": [
+      "It is a unique opportunity",
+      "It is an unique opportunity",
+      "It is unique opportunity",
+      "It is the unique opportunity"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Unique' sounds like 'you-neek', starts with consonant 'y' sound, so we use 'a'."
+  },
+  {
+    "id": 433,
+    "question": "वहाँ एक चरागाह है।",
+    "options": [
+      "There is an pasture",
+      "There are a pasture",
+      "There is pasture",
+      "There is a pasture"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Pasture' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 434,
+    "question": "वह एक ईमानदार प्रशासक है।",
+    "options": [
+      "He is a honest administrator",
+      "He is honest administrator",
+      "He is the honest administrator",
+      "He is an honest administrator"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 435,
+    "question": "मैंने एक अपार्टमेंट किराए पर लिया।",
+    "options": [
+      "I rented a apartment",
+      "I rented apartment",
+      "I rented the apartment",
+      "I rented an apartment"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Apartment' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 436,
+    "question": "वह एक उत्कृष्ट प्रदर्शनी थी।",
+    "options": [
+      "It was a excellent exhibition",
+      "It was excellent exhibition",
+      "It was the excellent exhibition",
+      "It was an excellent exhibition"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 437,
+    "question": "मेरे पास एक टोकरी है।",
+    "options": [
+      "I have an basket",
+      "I have basket",
+      "I have the basket",
+      "I have a basket"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Basket' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 438,
+    "question": "वह एक आकर्षक प्रस्ताव है।",
+    "options": [
+      "It is a attractive proposal",
+      "It is attractive proposal",
+      "It is the attractive proposal",
+      "It is an attractive proposal"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Attractive' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 439,
+    "question": "मैंने एक एकाउंटेंट को बुलाया।",
+    "options": [
+      "I called a accountant",
+      "I called accountant",
+      "I called the accountant",
+      "I called an accountant"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Accountant' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 440,
+    "question": "वह एक ईमानदार प्रोफेसर है।",
+    "options": [
+      "He is a honest professor",
+      "He is honest professor",
+      "He is the honest professor",
+      "He is an honest professor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 441,
+    "question": "वहाँ एक मेज है।",
+    "options": [
+      "There is an table",
+      "There are a table",
+      "There is table",
+      "There is a table"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Table' starts with consonant 't', so we use 'a'."
+  },
+  {
+    "id": 442,
+    "question": "वह एक अद्भुत कविता थी।",
+    "options": [
+      "It was a wonderful poem",
+      "It was an wonderful poem",
+      "It was wonderful poem",
+      "It was the wonderful poem"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Wonderful' starts with consonant 'w', so we use 'a'."
+  },
+  {
+    "id": 443,
+    "question": "मैंने एक ऑटोमोबाइल कंपनी ज्वाइन की।",
+    "options": [
+      "I joined a automobile company",
+      "I joined automobile company",
+      "I joined the automobile company",
+      "I joined an automobile company"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Automobile' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 444,
+    "question": "वह एक उत्कृष्ट प्रशिक्षक है।",
+    "options": [
+      "He is a excellent trainer",
+      "He is excellent trainer",
+      "He is the excellent trainer",
+      "He is an excellent trainer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 445,
+    "question": "मेरे पास एक पर्स है।",
+    "options": [
+      "I have an purse",
+      "I have purse",
+      "I have the purse",
+      "I have a purse"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Purse' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 446,
+    "question": "वह एक ईमानदार राज्यपाल है।",
+    "options": [
+      "He is a honest governor",
+      "He is honest governor",
+      "He is the honest governor",
+      "He is an honest governor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 447,
+    "question": "मैंने एक इमारत खरीदी।",
+    "options": [
+      "I bought a building",
+      "I bought an building",
+      "I bought building",
+      "I bought the building"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Building' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 448,
+    "question": "वह एक असाधारण उपलब्धि है।",
+    "options": [
+      "It is a extraordinary achievement",
+      "It is extraordinary achievement",
+      "It is the extraordinary achievement",
+      "It is an extraordinary achievement"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extraordinary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 449,
+    "question": "वहाँ एक बड़ा मकान है।",
+    "options": [
+      "There is an big house",
+      "There are a big house",
+      "There is big house",
+      "There is a big house"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Big' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 450,
+    "question": "वह एक ईमानदार कार्यकर्ता है।",
+    "options": [
+      "He is a honest activist",
+      "He is honest activist",
+      "He is the honest activist",
+      "He is an honest activist"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 451,
+    "question": "मैंने एक एक्सपर्ट से सलाह ली।",
+    "options": [
+      "I consulted a expert",
+      "I consulted expert",
+      "I consulted the expert",
+      "I consulted an expert"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Expert' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 452,
+    "question": "वह एक उत्कृष्ट अनुवादक है।",
+    "options": [
+      "He is a excellent translator",
+      "He is excellent translator",
+      "He is the excellent translator",
+      "He is an excellent translator"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 453,
+    "question": "मेरे पास एक बड़ी गाड़ी है।",
+    "options": [
+      "I have an big car",
+      "I have big car",
+      "I have the big car",
+      "I have a big car"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Big' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 454,
+    "question": "वह एक ईमानदार संपादक है।",
+    "options": [
+      "He is a honest editor",
+      "He is honest editor",
+      "He is the honest editor",
+      "He is an honest editor"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 455,
+    "question": "मैंने एक ऑर्डर दिया।",
+    "options": [
+      "I placed a order",
+      "I placed order",
+      "I placed the order",
+      "I placed an order"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Order' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 456,
+    "question": "वह एक अनोखे देश की यात्रा थी।",
+    "options": [
+      "It was a trip to an unique country",
+      "It was a trip to a unique country",
+      "It was trip to unique country",
+      "It was the trip to a unique country"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Unique' sounds like 'you-neek', starts with consonant 'y' sound, so we use 'a unique country'."
+  },
+  {
+    "id": 457,
+    "question": "वहाँ एक मैदान है।",
+    "options": [
+      "There is an ground",
+      "There are a ground",
+      "There is ground",
+      "There is a ground"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Ground' starts with consonant 'g', so we use 'a'."
+  },
+  {
+    "id": 458,
+    "question": "वह एक ईमानदार सचिव है।",
+    "options": [
+      "He is a honest secretary",
+      "He is honest secretary",
+      "He is the honest secretary",
+      "He is an honest secretary"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 459,
+    "question": "मैंने एक एन्काउंटर का सामना किया।",
+    "options": [
+      "I faced a encounter",
+      "I faced encounter",
+      "I faced the encounter",
+      "I faced an encounter"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Encounter' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 460,
+    "question": "वह एक अनुभवी अध्यापक है।",
+    "options": [
+      "He is a experienced teacher",
+      "He is experienced teacher",
+      "He is the experienced teacher",
+      "He is an experienced teacher"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Experienced' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 461,
+    "question": "मेरे पास एक चश्मा है।",
+    "options": [
+      "I have an spectacle",
+      "I have spectacle",
+      "I have the spectacle",
+      "I have a spectacle"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Spectacle' starts with consonant 's', so we use 'a'."
+  },
+  {
+    "id": 462,
+    "question": "वह एक ईमानदार मिसाल है।",
+    "options": [
+      "He is a honest example",
+      "He is honest example",
+      "He is the honest example",
+      "He is an honest example"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 463,
+    "question": "मैंने एक इंश्योरेंस पॉलिसी खरीदी।",
+    "options": [
+      "I bought a insurance policy",
+      "I bought insurance policy",
+      "I bought the insurance policy",
+      "I bought an insurance policy"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Insurance' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 464,
+    "question": "वह एक उत्साहजनक परिणाम था।",
+    "options": [
+      "It was a encouraging result",
+      "It was encouraging result",
+      "It was the encouraging result",
+      "It was an encouraging result"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Encouraging' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 465,
+    "question": "वहाँ एक पुलिस स्टेशन है।",
+    "options": [
+      "There is an police station",
+      "There are a police station",
+      "There is police station",
+      "There is a police station"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Police' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 466,
+    "question": "वह एक ईमानदार राजा था।",
+    "options": [
+      "He was a honest king",
+      "He was honest king",
+      "He was the honest king",
+      "He was an honest king"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 467,
+    "question": "मैंने एक अपील दायर की।",
+    "options": [
+      "I filed a appeal",
+      "I filed appeal",
+      "I filed the appeal",
+      "I filed an appeal"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Appeal' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 468,
+    "question": "वह एक अत्यंत बुद्धिमान व्यक्ति है।",
+    "options": [
+      "He is an extremely intelligent person",
+      "He is extremely intelligent person",
+      "He is a extremely intelligent person",
+      "He is the extremely intelligent person"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Extremely' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 469,
+    "question": "मेरे पास एक ब्रश है।",
+    "options": [
+      "I have an brush",
+      "I have brush",
+      "I have the brush",
+      "I have a brush"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Brush' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 470,
+    "question": "वह एक ईमानदार अभिभावक थे।",
+    "options": [
+      "They were honest parents",
+      "They were an honest parents",
+      "They were a honest parents",
+      "They were the honest parents"
+    ],
+    "correctIndex": 0,
+    "explanation": "Plural 'parents' takes no article. 'Honest' has a silent 'h'."
+  },
+  {
+    "id": 471,
+    "question": "मैंने एक ऑपरेशन करवाया।",
+    "options": [
+      "I had a operation",
+      "I had operation",
+      "I had the operation",
+      "I had an operation"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Operation' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 472,
+    "question": "वह एक असाधारण यात्रा थी।",
+    "options": [
+      "It was a extraordinary journey",
+      "It was extraordinary journey",
+      "It was the extraordinary journey",
+      "It was an extraordinary journey"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extraordinary' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 473,
+    "question": "वहाँ एक गोदाम है।",
+    "options": [
+      "There is an warehouse",
+      "There are a warehouse",
+      "There is warehouse",
+      "There is a warehouse"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Warehouse' starts with consonant 'w', so we use 'a'."
+  },
+  {
+    "id": 474,
+    "question": "वह एक ईमानदार रक्षक है।",
+    "options": [
+      "He is a honest protector",
+      "He is honest protector",
+      "He is the honest protector",
+      "He is an honest protector"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 475,
+    "question": "मैंने एक इनविटेशन भेजा।",
+    "options": [
+      "I sent a invitation",
+      "I sent invitation",
+      "I sent the invitation",
+      "I sent an invitation"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Invitation' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 476,
+    "question": "वह एक उत्कृष्ट संस्था है।",
+    "options": [
+      "It is a excellent institution",
+      "It is excellent institution",
+      "It is the excellent institution",
+      "It is an excellent institution"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 477,
+    "question": "मेरे पास एक कंघा है।",
+    "options": [
+      "I have an comb",
+      "I have comb",
+      "I have the comb",
+      "I have a comb"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Comb' starts with consonant 'c', so we use 'a'."
+  },
+  {
+    "id": 478,
+    "question": "वह एक ईमानदार शासक था।",
+    "options": [
+      "He was a honest ruler",
+      "He was honest ruler",
+      "He was the honest ruler",
+      "He was an honest ruler"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 479,
+    "question": "मैंने एक एनजीओ से संपर्क किया।",
+    "options": [
+      "I contacted a NGO",
+      "I contacted NGO",
+      "I contacted the NGO",
+      "I contacted an NGO"
+    ],
+    "correctIndex": 3,
+    "explanation": "'NGO' starts with the letter N, which is pronounced 'en' (vowel sound), so we use 'an'."
+  },
+  {
+    "id": 480,
+    "question": "वह एक उत्कृष्ट उदाहरण है।",
+    "options": [
+      "It is a excellent example",
+      "It is excellent example",
+      "It is the excellent example",
+      "It is an excellent example"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 481,
+    "question": "वहाँ एक कमरा है।",
+    "options": [
+      "There is an room",
+      "There are a room",
+      "There is room",
+      "There is a room"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Room' starts with consonant 'r', so we use 'a'."
+  },
+  {
+    "id": 482,
+    "question": "वह एक ईमानदार दादा है।",
+    "options": [
+      "He is a honest grandfather",
+      "He is honest grandfather",
+      "He is the honest grandfather",
+      "He is an honest grandfather"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 483,
+    "question": "मैंने एक एनिमल शेल्टर का दौरा किया।",
+    "options": [
+      "I visited a animal shelter",
+      "I visited animal shelter",
+      "I visited the animal shelter",
+      "I visited an animal shelter"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Animal' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 484,
+    "question": "वह एक अति उत्साहजनक खबर थी।",
+    "options": [
+      "It was a extremely exciting news",
+      "It was extremely exciting news",
+      "It was the extremely exciting news",
+      "It was an extremely exciting news"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Extremely' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 485,
+    "question": "मेरे पास एक छतरी है।",
+    "options": [
+      "I have an parasol",
+      "I have parasol",
+      "I have the parasol",
+      "I have a parasol"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Parasol' starts with consonant 'p', so we use 'a'."
+  },
+  {
+    "id": 486,
+    "question": "वह एक ईमानदार बेटी है।",
+    "options": [
+      "She is a honest daughter",
+      "She is honest daughter",
+      "She is the honest daughter",
+      "She is an honest daughter"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 487,
+    "question": "मैंने एक अवॉर्ड जीता।",
+    "options": [
+      "I won a award",
+      "I won award",
+      "I won the award",
+      "I won an award"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Award' starts with vowel 'a', so we use 'an'."
+  },
+  {
+    "id": 488,
+    "question": "वह एक उत्साही युवा नेता है।",
+    "options": [
+      "He is a enthusiastic young leader",
+      "He is enthusiastic young leader",
+      "He is the enthusiastic young leader",
+      "He is an enthusiastic young leader"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Enthusiastic' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 489,
+    "question": "वहाँ एक मस्तूल है।",
+    "options": [
+      "There is an mast",
+      "There are a mast",
+      "There is mast",
+      "There is a mast"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Mast' starts with consonant 'm', so we use 'a'."
+  },
+  {
+    "id": 490,
+    "question": "वह एक ईमानदार दादी है।",
+    "options": [
+      "She is a honest grandmother",
+      "She is honest grandmother",
+      "She is the honest grandmother",
+      "She is an honest grandmother"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 491,
+    "question": "मैंने एक ऑब्जेक्शन उठाया।",
+    "options": [
+      "I raised a objection",
+      "I raised objection",
+      "I raised the objection",
+      "I raised an objection"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Objection' starts with vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 492,
+    "question": "वह एक उत्कृष्ट छात्रवृत्ति थी।",
+    "options": [
+      "It was a excellent scholarship",
+      "It was excellent scholarship",
+      "It was the excellent scholarship",
+      "It was an excellent scholarship"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 493,
+    "question": "मेरे पास एक जैकेट है।",
+    "options": [
+      "I have an jacket",
+      "I have jacket",
+      "I have the jacket",
+      "I have a jacket"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Jacket' starts with consonant 'j', so we use 'a'."
+  },
+  {
+    "id": 494,
+    "question": "वह एक ईमानदार सेवक है।",
+    "options": [
+      "He is a honest servant",
+      "He is honest servant",
+      "He is the honest servant",
+      "He is an honest servant"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 495,
+    "question": "मैंने एक इम्पैक्ट स्टडी की।",
+    "options": [
+      "I did a impact study",
+      "I did impact study",
+      "I did the impact study",
+      "I did an impact study"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Impact' starts with vowel 'i', so we use 'an'."
+  },
+  {
+    "id": 496,
+    "question": "वह एक उत्कृष्ट टीम का सदस्य है।",
+    "options": [
+      "He is a member of an excellent team",
+      "He is a member of a excellent team",
+      "He is member of an excellent team",
+      "He is the member of an excellent team"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Excellent' starts with vowel 'e', so we use 'an excellent team'. 'Member' uses 'a'."
+  },
+  {
+    "id": 497,
+    "question": "वहाँ एक कोठी है।",
+    "options": [
+      "There is an bungalow",
+      "There are a bungalow",
+      "There is bungalow",
+      "There is a bungalow"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Bungalow' starts with consonant 'b', so we use 'a'."
+  },
+  {
+    "id": 498,
+    "question": "वह एक ईमानदार भतीजा है।",
+    "options": [
+      "He is a honest nephew",
+      "He is honest nephew",
+      "He is the honest nephew",
+      "He is an honest nephew"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Honest' has a silent 'h', sounds like vowel 'o', so we use 'an'."
+  },
+  {
+    "id": 499,
+    "question": "मैंने एक एरर रिपोर्ट जमा की।",
+    "options": [
+      "I submitted a error report",
+      "I submitted error report",
+      "I submitted the error report",
+      "I submitted an error report"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Error' starts with vowel 'e', so we use 'an'."
+  },
+  {
+    "id": 500,
+    "question": "यह एक अविस्मरणीय दिन था।",
+    "options": [
+      "It was a unforgettable day",
+      "It was unforgettable day",
+      "It was the unforgettable day",
+      "It was an unforgettable day"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Unforgettable' starts with vowel 'u', so we use 'an'."
+  }
+]

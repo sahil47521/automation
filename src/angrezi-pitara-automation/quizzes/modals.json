@@ -1,0 +1,6002 @@
+[
+  {
+    "question": "आपको कड़ी मेहनत करनी चाहिए।",
+    "options": [
+      "You can work hard",
+      "You should work hard",
+      "You could work hard",
+      "You may work hard"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Should' is used for giving advice or suggestions.",
+    "id": 1
+  },
+  {
+    "question": "क्या मैं अंदर आ सकता हूँ?",
+    "options": [
+      "Can I come in?",
+      "May I come in?",
+      "Should I come in?",
+      "Must I come in?"
+    ],
+    "correctIndex": 1,
+    "explanation": "'May' is the most formal and polite way to ask for permission.",
+    "id": 2
+  },
+  {
+    "question": "वह तेज़ दौड़ सकता है।",
+    "options": [
+      "He can run fast",
+      "He should run fast",
+      "He may run fast",
+      "He must run fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' represents ability.",
+    "id": 3
+  },
+  {
+    "question": "हमें नियमों का पालन करना ही चाहिए।",
+    "options": [
+      "We should follow rules",
+      "We must follow rules",
+      "We can follow rules",
+      "We may follow rules"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Must' represents obligation or necessity.",
+    "id": 4
+  },
+  {
+    "question": "क्या तुम मुझे पेन दे सकते हो?",
+    "options": [
+      "Could you give me a pen?",
+      "Can you give me a pen?",
+      "May you give me a pen?",
+      "Must you give me a pen?"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Can you' is commonly used for requests; 'could' is more polite.",
+    "id": 5
+  },
+  {
+    "question": "मैं कल आऊंगा।",
+    "options": [
+      "I should come tomorrow",
+      "I must come tomorrow",
+      "I will come tomorrow",
+      "I can come tomorrow"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Will' is used for future intention.",
+    "id": 6
+  },
+  {
+    "question": "तुम्हें देर नहीं करनी चाहिए।",
+    "options": [
+      "You must not be late",
+      "You cannot be late",
+      "You should not be late",
+      "You will not be late"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Should not' gives negative advice.",
+    "id": 7
+  },
+  {
+    "question": "क्या मैं पानी पी सकता हूँ?",
+    "options": [
+      "May I drink water?",
+      "Can I drink water?",
+      "Could I drink water?",
+      "Might I drink water?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is the most polite form for permission.",
+    "id": 8
+  },
+  {
+    "question": "वह अंग्रेजी बोल सकती है।",
+    "options": [
+      "She can speak English",
+      "She should speak English",
+      "She may speak English",
+      "She must speak English"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 9
+  },
+  {
+    "question": "क्या तुम मेरी मदद कर सकते हो?",
+    "options": [
+      "Could you help me?",
+      "Can you help me?",
+      "May you help me?",
+      "Must you help me?"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Can you' is a direct request for help.",
+    "id": 10
+  },
+  {
+    "question": "हमें समय पर पहुंचना है।",
+    "options": [
+      "We should reach on time",
+      "We can reach on time",
+      "We must reach on time",
+      "We may reach on time"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Must' expresses strong necessity.",
+    "id": 11
+  },
+  {
+    "question": "तुम वहाँ जा सकते हो।",
+    "options": [
+      "You should go there",
+      "You can go there",
+      "You must go there",
+      "You will go there"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Can' expresses permission or possibility.",
+    "id": 12
+  },
+  {
+    "question": "बारिश हो सकती है।",
+    "options": [
+      "It should rain",
+      "It must rain",
+      "It may rain",
+      "It will rain"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 13
+  },
+  {
+    "question": "तुम्हें धूम्रपान नहीं करना चाहिए।",
+    "options": [
+      "You must not smoke",
+      "You cannot smoke",
+      "You should not smoke",
+      "You will not smoke"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Should not' gives strong advice against smoking.",
+    "id": 14
+  },
+  {
+    "question": "क्या मैं यहाँ बैठ सकता हूँ?",
+    "options": [
+      "Can I sit here?",
+      "May I sit here?",
+      "Could I sit here?",
+      "Might I sit here?"
+    ],
+    "correctIndex": 1,
+    "explanation": "'May I' is the polite form for asking permission.",
+    "id": 15
+  },
+  {
+    "question": "वह तैर नहीं सकता।",
+    "options": [
+      "He cannot swim",
+      "He should not swim",
+      "He may not swim",
+      "He must not swim"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Cannot' expresses lack of ability.",
+    "id": 16
+  },
+  {
+    "question": "क्या मैं आपकी किताब ले सकता हूँ?",
+    "options": [
+      "May I take your book?",
+      "Can I take your book?",
+      "Could I take your book?",
+      "Might I take your book?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is the most polite way to ask permission.",
+    "id": 17
+  },
+  {
+    "question": "तुम्हें डॉक्टर से मिलना चाहिए।",
+    "options": [
+      "You can see a doctor",
+      "You should see a doctor",
+      "You may see a doctor",
+      "You will see a doctor"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Should' gives advice.",
+    "id": 18
+  },
+  {
+    "question": "वह जरूर आएगा।",
+    "options": [
+      "He should come",
+      "He can come",
+      "He will definitely come",
+      "He may come"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Will definitely' expresses strong future certainty.",
+    "id": 19
+  },
+  {
+    "question": "हमें उसकी मदद करनी चाहिए।",
+    "options": [
+      "We should help him",
+      "We can help him",
+      "We may help him",
+      "We will help him"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral obligation.",
+    "id": 20
+  },
+  {
+    "question": "क्या तुम इतना वजन उठा सकते हो?",
+    "options": [
+      "Can you lift this much weight?",
+      "Could you lift this much weight?",
+      "May you lift this much weight?",
+      "Should you lift this much weight?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' asks about ability.",
+    "id": 21
+  },
+  {
+    "question": "मैं कल फिल्म देख सकता हूँ।",
+    "options": [
+      "I can watch a movie tomorrow",
+      "I should watch a movie tomorrow",
+      "I may watch a movie tomorrow",
+      "I must watch a movie tomorrow"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility for tomorrow.",
+    "id": 22
+  },
+  {
+    "question": "तुम्हें सच बोलना चाहिए।",
+    "options": [
+      "You should speak the truth",
+      "You can speak the truth",
+      "You may speak the truth",
+      "You will speak the truth"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral advice.",
+    "id": 23
+  },
+  {
+    "question": "क्या मैं थोड़ी देर रुक सकता हूँ?",
+    "options": [
+      "May I stay for a while?",
+      "Can I stay for a while?",
+      "Could I stay for a while?",
+      "Might I stay for a while?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is the polite form for asking permission.",
+    "id": 24
+  },
+  {
+    "question": "वह बहुत तेज दौड़ सकता था।",
+    "options": [
+      "He can run very fast",
+      "He could run very fast",
+      "He should run very fast",
+      "He may run very fast"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Could' expresses past ability.",
+    "id": 25
+  },
+  {
+    "question": "हमें पर्यावरण बचाना चाहिए।",
+    "options": [
+      "We should save the environment",
+      "We can save the environment",
+      "We may save the environment",
+      "We will save the environment"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses duty or moral obligation.",
+    "id": 26
+  },
+  {
+    "question": "क्या तुम कल आ सकते हो?",
+    "options": [
+      "Can you come tomorrow?",
+      "Could you come tomorrow?",
+      "May you come tomorrow?",
+      "Should you come tomorrow?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about possibility or ability for tomorrow.",
+    "id": 27
+  },
+  {
+    "question": "वह पहले अच्छा गा सकता था।",
+    "options": [
+      "He could sing well earlier",
+      "He can sing well earlier",
+      "He should sing well earlier",
+      "He may sing well earlier"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Could' expresses past ability.",
+    "id": 28
+  },
+  {
+    "question": "तुम्हें अपने माता-पिता का सम्मान करना चाहिए।",
+    "options": [
+      "You should respect your parents",
+      "You can respect your parents",
+      "You may respect your parents",
+      "You will respect your parents"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral duty.",
+    "id": 29
+  },
+  {
+    "question": "क्या मैं खिड़की खोल सकता हूँ?",
+    "options": [
+      "May I open the window?",
+      "Can I open the window?",
+      "Could I open the window?",
+      "Might I open the window?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is the polite form for permission.",
+    "id": 30
+  },
+  {
+    "question": "वह आज रात नहीं आ सकता।",
+    "options": [
+      "He cannot come tonight",
+      "He should not come tonight",
+      "He may not come tonight",
+      "He must not come tonight"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Cannot' expresses impossibility.",
+    "id": 31
+  },
+  {
+    "question": "हमें जल्दी उठना चाहिए।",
+    "options": [
+      "We should wake up early",
+      "We can wake up early",
+      "We may wake up early",
+      "We will wake up early"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 32
+  },
+  {
+    "question": "क्या आप फ्रेंच बोल सकते हैं?",
+    "options": [
+      "Can you speak French?",
+      "Could you speak French?",
+      "May you speak French?",
+      "Should you speak French?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 33
+  },
+  {
+    "question": "मैं पहले बहुत दौड़ सकता था।",
+    "options": [
+      "I could run a lot earlier",
+      "I can run a lot earlier",
+      "I should run a lot earlier",
+      "I may run a lot earlier"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Could' expresses past ability.",
+    "id": 34
+  },
+  {
+    "question": "तुम्हें झूठ नहीं बोलना चाहिए।",
+    "options": [
+      "You should not lie",
+      "You cannot lie",
+      "You may not lie",
+      "You will not lie"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should not' gives negative moral advice.",
+    "id": 35
+  },
+  {
+    "question": "क्या मैं यहाँ पार्क कर सकता हूँ?",
+    "options": [
+      "May I park here?",
+      "Can I park here?",
+      "Could I park here?",
+      "Might I park here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is the polite way to ask permission.",
+    "id": 36
+  },
+  {
+    "question": "वह सात भाषाएं बोल सकती है।",
+    "options": [
+      "She can speak seven languages",
+      "She should speak seven languages",
+      "She may speak seven languages",
+      "She must speak seven languages"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 37
+  },
+  {
+    "question": "हमें बुजुर्गों का आदर करना चाहिए।",
+    "options": [
+      "We should respect elders",
+      "We can respect elders",
+      "We may respect elders",
+      "We will respect elders"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral duty.",
+    "id": 38
+  },
+  {
+    "question": "क्या तुम मुझे स्टेशन छोड़ सकते हो?",
+    "options": [
+      "Can you drop me to the station?",
+      "Could you drop me to the station?",
+      "May you drop me to the station?",
+      "Should you drop me to the station?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' makes a request.",
+    "id": 39
+  },
+  {
+    "question": "वह कल यहाँ हो सकता है।",
+    "options": [
+      "He may be here tomorrow",
+      "He can be here tomorrow",
+      "He should be here tomorrow",
+      "He must be here tomorrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May' expresses possibility.",
+    "id": 40
+  },
+  {
+    "question": "तुम्हें नियम तोड़ने का अधिकार नहीं है।",
+    "options": [
+      "You cannot break rules",
+      "You should not break rules",
+      "You may not break rules",
+      "You must not break rules"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Must not' expresses strong prohibition.",
+    "id": 41
+  },
+  {
+    "question": "क्या मैं आपका फोन इस्तेमाल कर सकता हूँ?",
+    "options": [
+      "May I use your phone?",
+      "Can I use your phone?",
+      "Could I use your phone?",
+      "Might I use your phone?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is the most polite form for permission.",
+    "id": 42
+  },
+  {
+    "question": "वह पियानो बजा सकता है।",
+    "options": [
+      "He can play the piano",
+      "He should play the piano",
+      "He may play the piano",
+      "He must play the piano"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 43
+  },
+  {
+    "question": "हमें कड़ी मेहनत करनी चाहिए।",
+    "options": [
+      "We should work hard",
+      "We can work hard",
+      "We may work hard",
+      "We will work hard"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 44
+  },
+  {
+    "question": "क्या तुम इतनी तेज गाड़ी चला सकते हो?",
+    "options": [
+      "Can you drive so fast?",
+      "Could you drive so fast?",
+      "May you drive so fast?",
+      "Should you drive so fast?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 45
+  },
+  {
+    "question": "मैं शतरंज खेल सकता हूँ।",
+    "options": [
+      "I can play chess",
+      "I should play chess",
+      "I may play chess",
+      "I must play chess"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 46
+  },
+  {
+    "question": "तुम्हें समय पर सो जाना चाहिए।",
+    "options": [
+      "You should sleep on time",
+      "You can sleep on time",
+      "You may sleep on time",
+      "You will sleep on time"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives health advice.",
+    "id": 47
+  },
+  {
+    "question": "क्या मैं यहाँ धूम्रपान कर सकता हूँ?",
+    "options": [
+      "May I smoke here?",
+      "Can I smoke here?",
+      "Could I smoke here?",
+      "Might I smoke here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is the polite form for asking permission.",
+    "id": 48
+  },
+  {
+    "question": "वह कल जा सकती है।",
+    "options": [
+      "She may go tomorrow",
+      "She can go tomorrow",
+      "She should go tomorrow",
+      "She must go tomorrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May' expresses possibility.",
+    "id": 49
+  },
+  {
+    "question": "हमें परीक्षा के लिए पढ़ना चाहिए।",
+    "options": [
+      "We should study for the exam",
+      "We can study for the exam",
+      "We may study for the exam",
+      "We will study for the exam"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 50
+  },
+  {
+    "question": "क्या आप मुझे बता सकते हैं?",
+    "options": [
+      "Can you tell me?",
+      "Could you tell me?",
+      "May you tell me?",
+      "Should you tell me?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' makes a polite request.",
+    "id": 51
+  },
+  {
+    "question": "वह डॉक्टर है, वह तुम्हारी मदद कर सकता है।",
+    "options": [
+      "He is a doctor, he can help you",
+      "He is a doctor, he should help you",
+      "He is a doctor, he may help you",
+      "He is a doctor, he must help you"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability based on profession.",
+    "id": 52
+  },
+  {
+    "question": "तुम्हें अपना गुस्सा काबू में रखना चाहिए।",
+    "options": [
+      "You should control your anger",
+      "You can control your anger",
+      "You may control your anger",
+      "You will control your anger"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 53
+  },
+  {
+    "question": "क्या मैं थोड़ा पानी ले सकता हूँ?",
+    "options": [
+      "May I have some water?",
+      "Can I have some water?",
+      "Could I have some water?",
+      "Might I have some water?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is the polite form for requesting.",
+    "id": 54
+  },
+  {
+    "question": "वह कोरियन नहीं बोल सकता।",
+    "options": [
+      "He cannot speak Korean",
+      "He should not speak Korean",
+      "He may not speak Korean",
+      "He must not speak Korean"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Cannot' expresses lack of ability.",
+    "id": 55
+  },
+  {
+    "question": "हमें हमेशा सच बोलना चाहिए।",
+    "options": [
+      "We should always speak the truth",
+      "We can always speak the truth",
+      "We may always speak the truth",
+      "We will always speak the truth"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral duty.",
+    "id": 56
+  },
+  {
+    "question": "क्या तुम इतनी जल्दी भाग सकते हो?",
+    "options": [
+      "Can you run so fast?",
+      "Could you run so fast?",
+      "May you run so fast?",
+      "Should you run so fast?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 57
+  },
+  {
+    "question": "मैं कल तुमसे मिल सकता हूँ।",
+    "options": [
+      "I can meet you tomorrow",
+      "I should meet you tomorrow",
+      "I may meet you tomorrow",
+      "I must meet you tomorrow"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 58
+  },
+  {
+    "question": "तुम्हें कभी हार नहीं माननी चाहिए।",
+    "options": [
+      "You should never give up",
+      "You can never give up",
+      "You may never give up",
+      "You will never give up"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should never' gives strong advice.",
+    "id": 59
+  },
+  {
+    "question": "क्या मैं आपको परेशान कर सकता हूँ?",
+    "options": [
+      "May I disturb you?",
+      "Can I disturb you?",
+      "Could I disturb you?",
+      "Might I disturb you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite way to ask permission.",
+    "id": 60
+  },
+  {
+    "question": "वह गिटार बजा सकता है।",
+    "options": [
+      "He can play the guitar",
+      "He should play the guitar",
+      "He may play the guitar",
+      "He must play the guitar"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 61
+  },
+  {
+    "question": "हमें स्वस्थ भोजन खाना चाहिए।",
+    "options": [
+      "We should eat healthy food",
+      "We can eat healthy food",
+      "We may eat healthy food",
+      "We will eat healthy food"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives health advice.",
+    "id": 62
+  },
+  {
+    "question": "क्या तुम यह समस्या हल कर सकते हो?",
+    "options": [
+      "Can you solve this problem?",
+      "Could you solve this problem?",
+      "May you solve this problem?",
+      "Should you solve this problem?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 63
+  },
+  {
+    "question": "वह बचपन में बहुत तेज दौड़ सकता था।",
+    "options": [
+      "He could run very fast in childhood",
+      "He can run very fast in childhood",
+      "He should run very fast in childhood",
+      "He may run very fast in childhood"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Could' expresses past ability.",
+    "id": 64
+  },
+  {
+    "question": "तुम्हें हर दिन व्यायाम करना चाहिए।",
+    "options": [
+      "You should exercise every day",
+      "You can exercise every day",
+      "You may exercise every day",
+      "You will exercise every day"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives health advice.",
+    "id": 65
+  },
+  {
+    "question": "क्या मैं आपका नाम पूछ सकता हूँ?",
+    "options": [
+      "May I ask your name?",
+      "Can I ask your name?",
+      "Could I ask your name?",
+      "Might I ask your name?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 66
+  },
+  {
+    "question": "वह अच्छा खाना बना सकती है।",
+    "options": [
+      "She can cook good food",
+      "She should cook good food",
+      "She may cook good food",
+      "She must cook good food"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 67
+  },
+  {
+    "question": "हमें गरीबों की मदद करनी चाहिए।",
+    "options": [
+      "We should help the poor",
+      "We can help the poor",
+      "We may help the poor",
+      "We will help the poor"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral duty.",
+    "id": 68
+  },
+  {
+    "question": "क्या तुम मुझे कल फोन कर सकते हो?",
+    "options": [
+      "Can you call me tomorrow?",
+      "Could you call me tomorrow?",
+      "May you call me tomorrow?",
+      "Should you call me tomorrow?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' makes a request.",
+    "id": 69
+  },
+  {
+    "question": "वह बहुत अच्छा चित्र बना सकता है।",
+    "options": [
+      "He can draw very well",
+      "He should draw very well",
+      "He may draw very well",
+      "He must draw very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 70
+  },
+  {
+    "question": "तुम्हें अपने काम में ईमानदार होना चाहिए।",
+    "options": [
+      "You should be honest in your work",
+      "You can be honest in your work",
+      "You may be honest in your work",
+      "You will be honest in your work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral advice.",
+    "id": 71
+  },
+  {
+    "question": "क्या मैं यहाँ फोटो खींच सकता हूँ?",
+    "options": [
+      "May I take a photo here?",
+      "Can I take a photo here?",
+      "Could I take a photo here?",
+      "Might I take a photo here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' asks for permission.",
+    "id": 72
+  },
+  {
+    "question": "वह अंग्रेजी अच्छी बोल सकती है।",
+    "options": [
+      "She can speak English well",
+      "She should speak English well",
+      "She may speak English well",
+      "She must speak English well"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 73
+  },
+  {
+    "question": "हमें पर्यावरण प्रदूषण कम करना चाहिए।",
+    "options": [
+      "We should reduce environmental pollution",
+      "We can reduce environmental pollution",
+      "We may reduce environmental pollution",
+      "We will reduce environmental pollution"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses social duty.",
+    "id": 74
+  },
+  {
+    "question": "क्या तुम यह गाना गा सकते हो?",
+    "options": [
+      "Can you sing this song?",
+      "Could you sing this song?",
+      "May you sing this song?",
+      "Should you sing this song?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 75
+  },
+  {
+    "question": "वह मुझे समझ सकता है।",
+    "options": [
+      "He can understand me",
+      "He should understand me",
+      "He may understand me",
+      "He must understand me"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 76
+  },
+  {
+    "question": "तुम्हें अपनी गलती माननी चाहिए।",
+    "options": [
+      "You should admit your mistake",
+      "You can admit your mistake",
+      "You may admit your mistake",
+      "You will admit your mistake"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives moral advice.",
+    "id": 77
+  },
+  {
+    "question": "क्या मैं यह किताब पढ़ सकता हूँ?",
+    "options": [
+      "May I read this book?",
+      "Can I read this book?",
+      "Could I read this book?",
+      "Might I read this book?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' asks for permission.",
+    "id": 78
+  },
+  {
+    "question": "वह दस किलोमीटर दौड़ सकता है।",
+    "options": [
+      "He can run ten kilometers",
+      "He should run ten kilometers",
+      "He may run ten kilometers",
+      "He must run ten kilometers"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 79
+  },
+  {
+    "question": "हमें पानी बर्बाद नहीं करना चाहिए।",
+    "options": [
+      "We should not waste water",
+      "We cannot waste water",
+      "We may not waste water",
+      "We will not waste water"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should not' gives advice.",
+    "id": 80
+  },
+  {
+    "question": "क्या तुम यह काम कर सकते हो?",
+    "options": [
+      "Can you do this work?",
+      "Could you do this work?",
+      "May you do this work?",
+      "Should you do this work?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 81
+  },
+  {
+    "question": "वह तीन भाषाएं बोल सकता है।",
+    "options": [
+      "He can speak three languages",
+      "He should speak three languages",
+      "He may speak three languages",
+      "He must speak three languages"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 82
+  },
+  {
+    "question": "तुम्हें दूसरों का सम्मान करना चाहिए।",
+    "options": [
+      "You should respect others",
+      "You can respect others",
+      "You may respect others",
+      "You will respect others"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral duty.",
+    "id": 83
+  },
+  {
+    "question": "क्या मैं आपके साथ आ सकता हूँ?",
+    "options": [
+      "May I come with you?",
+      "Can I come with you?",
+      "Could I come with you?",
+      "Might I come with you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' asks for permission.",
+    "id": 84
+  },
+  {
+    "question": "वह बहुत अच्छा नृत्य कर सकती है।",
+    "options": [
+      "She can dance very well",
+      "She should dance very well",
+      "She may dance very well",
+      "She must dance very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 85
+  },
+  {
+    "question": "हमें विद्यार्थियों को प्रोत्साहित करना चाहिए।",
+    "options": [
+      "We should encourage students",
+      "We can encourage students",
+      "We may encourage students",
+      "We will encourage students"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 86
+  },
+  {
+    "question": "क्या तुम मुझे यह समझा सकते हो?",
+    "options": [
+      "Can you explain this to me?",
+      "Could you explain this to me?",
+      "May you explain this to me?",
+      "Should you explain this to me?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' makes a polite request.",
+    "id": 87
+  },
+  {
+    "question": "वह कल आ सकता है या नहीं।",
+    "options": [
+      "He may or may not come tomorrow",
+      "He can or cannot come tomorrow",
+      "He should or should not come tomorrow",
+      "He will or will not come tomorrow"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May' expresses possibility.",
+    "id": 88
+  },
+  {
+    "question": "तुम्हें हर रोज पढ़ना चाहिए।",
+    "options": [
+      "You should study every day",
+      "You can study every day",
+      "You may study every day",
+      "You will study every day"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 89
+  },
+  {
+    "question": "क्या मैं यह ले सकता हूँ?",
+    "options": [
+      "May I take this?",
+      "Can I take this?",
+      "Could I take this?",
+      "Might I take this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' asks for permission.",
+    "id": 90
+  },
+  {
+    "question": "वह अपनी उम्र के हिसाब से बहुत कुछ कर सकता है।",
+    "options": [
+      "He can do a lot for his age",
+      "He should do a lot for his age",
+      "He may do a lot for his age",
+      "He must do a lot for his age"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 91
+  },
+  {
+    "question": "हमें अपनी संस्कृति को बचाना चाहिए।",
+    "options": [
+      "We should save our culture",
+      "We can save our culture",
+      "We may save our culture",
+      "We will save our culture"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses duty.",
+    "id": 92
+  },
+  {
+    "question": "क्या तुम यह सूटकेस उठा सकते हो?",
+    "options": [
+      "Can you lift this suitcase?",
+      "Could you lift this suitcase?",
+      "May you lift this suitcase?",
+      "Should you lift this suitcase?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 93
+  },
+  {
+    "question": "वह बच्चों को अच्छे से पढ़ा सकता है।",
+    "options": [
+      "He can teach children well",
+      "He should teach children well",
+      "He may teach children well",
+      "He must teach children well"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 94
+  },
+  {
+    "question": "तुम्हें समय की कद्र करनी चाहिए।",
+    "options": [
+      "You should value time",
+      "You can value time",
+      "You may value time",
+      "You will value time"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 95
+  },
+  {
+    "question": "क्या मैं यहाँ प्रतीक्षा कर सकता हूँ?",
+    "options": [
+      "May I wait here?",
+      "Can I wait here?",
+      "Could I wait here?",
+      "Might I wait here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' asks for permission.",
+    "id": 96
+  },
+  {
+    "question": "वह कार चला सकता है।",
+    "options": [
+      "He can drive a car",
+      "He should drive a car",
+      "He may drive a car",
+      "He must drive a car"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 97
+  },
+  {
+    "question": "हमें अपने माता-पिता की सेवा करनी चाहिए।",
+    "options": [
+      "We should serve our parents",
+      "We can serve our parents",
+      "We may serve our parents",
+      "We will serve our parents"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral duty.",
+    "id": 98
+  },
+  {
+    "question": "क्या तुम यह सब याद कर सकते हो?",
+    "options": [
+      "Can you remember all this?",
+      "Could you remember all this?",
+      "May you remember all this?",
+      "Should you remember all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 99
+  },
+  {
+    "question": "वह इस समस्या का हल निकाल सकता है।",
+    "options": [
+      "He can find a solution to this problem",
+      "He should find a solution to this problem",
+      "He may find a solution to this problem",
+      "He must find a solution to this problem"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 100
+  },
+  {
+    "question": "तुम्हें कभी किसी को धोखा नहीं देना चाहिए।",
+    "options": [
+      "You should never cheat anyone",
+      "You can never cheat anyone",
+      "You may never cheat anyone",
+      "You will never cheat anyone"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should never' gives strong moral advice.",
+    "id": 101
+  },
+  {
+    "question": "क्या मैं आपको एक प्रश्न पूछ सकता हूँ?",
+    "options": [
+      "May I ask you a question?",
+      "Can I ask you a question?",
+      "Could I ask you a question?",
+      "Might I ask you a question?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 102
+  },
+  {
+    "question": "वह बहुत अच्छा लिख सकता है।",
+    "options": [
+      "He can write very well",
+      "He should write very well",
+      "He may write very well",
+      "He must write very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 103
+  },
+  {
+    "question": "हमें अपने वादे निभाने चाहिए।",
+    "options": [
+      "We should keep our promises",
+      "We can keep our promises",
+      "We may keep our promises",
+      "We will keep our promises"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses duty.",
+    "id": 104
+  },
+  {
+    "question": "क्या तुम यह पहेली हल कर सकते हो?",
+    "options": [
+      "Can you solve this puzzle?",
+      "Could you solve this puzzle?",
+      "May you solve this puzzle?",
+      "Should you solve this puzzle?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 105
+  },
+  {
+    "question": "वह पांच मिनट में यह काम कर सकता है।",
+    "options": [
+      "He can do this work in five minutes",
+      "He should do this work in five minutes",
+      "He may do this work in five minutes",
+      "He must do this work in five minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 106
+  },
+  {
+    "question": "तुम्हें दूसरों की गलतियाँ माफ कर देनी चाहिए।",
+    "options": [
+      "You should forgive others' mistakes",
+      "You can forgive others' mistakes",
+      "You may forgive others' mistakes",
+      "You will forgive others' mistakes"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives moral advice.",
+    "id": 107
+  },
+  {
+    "question": "क्या मैं यहाँ बैठ सकता हूँ?",
+    "options": [
+      "May I sit here?",
+      "Can I sit here?",
+      "Could I sit here?",
+      "Might I sit here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' asks for permission.",
+    "id": 108
+  },
+  {
+    "question": "वह अकेले यह काम कर सकता है।",
+    "options": [
+      "He can do this work alone",
+      "He should do this work alone",
+      "He may do this work alone",
+      "He must do this work alone"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 109
+  },
+  {
+    "question": "हमें अपने शरीर का ख्याल रखना चाहिए।",
+    "options": [
+      "We should take care of our body",
+      "We can take care of our body",
+      "We may take care of our body",
+      "We will take care of our body"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives health advice.",
+    "id": 110
+  },
+  {
+    "question": "क्या तुम यह संगीत सुन सकते हो?",
+    "options": [
+      "Can you hear this music?",
+      "Could you hear this music?",
+      "May you hear this music?",
+      "Should you hear this music?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 111
+  },
+  {
+    "question": "वह बहुत सुंदर चित्र बना सकती है।",
+    "options": [
+      "She can draw very beautiful pictures",
+      "She should draw very beautiful pictures",
+      "She may draw very beautiful pictures",
+      "She must draw very beautiful pictures"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 112
+  },
+  {
+    "question": "तुम्हें अपनी आदतें सुधारनी चाहिए।",
+    "options": [
+      "You should improve your habits",
+      "You can improve your habits",
+      "You may improve your habits",
+      "You will improve your habits"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 113
+  },
+  {
+    "question": "क्या मैं आपकी सलाह ले सकता हूँ?",
+    "options": [
+      "May I take your advice?",
+      "Can I take your advice?",
+      "Could I take your advice?",
+      "Might I take your advice?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 114
+  },
+  {
+    "question": "वह हर समस्या का हल ढूंढ सकता है।",
+    "options": [
+      "He can find a solution to every problem",
+      "He should find a solution to every problem",
+      "He may find a solution to every problem",
+      "He must find a solution to every problem"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 115
+  },
+  {
+    "question": "हमें निराश नहीं होना चाहिए।",
+    "options": [
+      "We should not lose hope",
+      "We cannot lose hope",
+      "We may not lose hope",
+      "We will not lose hope"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should not' gives advice.",
+    "id": 116
+  },
+  {
+    "question": "क्या तुम इतनी देर तक खड़े रह सकते हो?",
+    "options": [
+      "Can you stand for so long?",
+      "Could you stand for so long?",
+      "May you stand for so long?",
+      "Should you stand for so long?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 117
+  },
+  {
+    "question": "वह अपने पैरों पर खड़ा हो सकता है।",
+    "options": [
+      "He can stand on his feet",
+      "He should stand on his feet",
+      "He may stand on his feet",
+      "He must stand on his feet"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 118
+  },
+  {
+    "question": "तुम्हें अपनी कमजोरियों पर काम करना चाहिए।",
+    "options": [
+      "You should work on your weaknesses",
+      "You can work on your weaknesses",
+      "You may work on your weaknesses",
+      "You will work on your weaknesses"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 119
+  },
+  {
+    "question": "क्या मैं आपको कल फोन कर सकता हूँ?",
+    "options": [
+      "May I call you tomorrow?",
+      "Can I call you tomorrow?",
+      "Could I call you tomorrow?",
+      "Might I call you tomorrow?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 120
+  },
+  {
+    "question": "वह तैरना जानता है।",
+    "options": [
+      "He can swim",
+      "He should swim",
+      "He may swim",
+      "He must swim"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 121
+  },
+  {
+    "question": "हमें अपनी भाषा का सम्मान करना चाहिए।",
+    "options": [
+      "We should respect our language",
+      "We can respect our language",
+      "We may respect our language",
+      "We will respect our language"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses duty.",
+    "id": 122
+  },
+  {
+    "question": "क्या तुम यह सब पढ़ सकते हो?",
+    "options": [
+      "Can you read all this?",
+      "Could you read all this?",
+      "May you read all this?",
+      "Should you read all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 123
+  },
+  {
+    "question": "वह बिना रुके पांच घंटे पढ़ सकता है।",
+    "options": [
+      "He can study for five hours without stopping",
+      "He should study for five hours without stopping",
+      "He may study for five hours without stopping",
+      "He must study for five hours without stopping"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 124
+  },
+  {
+    "question": "तुम्हें कभी हिंसा का सहारा नहीं लेना चाहिए।",
+    "options": [
+      "You should never resort to violence",
+      "You can never resort to violence",
+      "You may never resort to violence",
+      "You will never resort to violence"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should never' gives strong moral advice.",
+    "id": 125
+  },
+  {
+    "question": "क्या मैं आपका परिचय करा सकता हूँ?",
+    "options": [
+      "May I introduce you?",
+      "Can I introduce you?",
+      "Could I introduce you?",
+      "Might I introduce you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 126
+  },
+  {
+    "question": "वह बहुत तेज दौड़ सकता है।",
+    "options": [
+      "He can run very fast",
+      "He should run very fast",
+      "He may run very fast",
+      "He must run very fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 127
+  },
+  {
+    "question": "हमें परीक्षा में नकल नहीं करनी चाहिए।",
+    "options": [
+      "We should not cheat in exams",
+      "We cannot cheat in exams",
+      "We may not cheat in exams",
+      "We will not cheat in exams"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should not' gives strong advice.",
+    "id": 128
+  },
+  {
+    "question": "क्या तुम यह सब बोल सकते हो?",
+    "options": [
+      "Can you say all this?",
+      "Could you say all this?",
+      "May you say all this?",
+      "Should you say all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 129
+  },
+  {
+    "question": "वह बिना मदद के यह काम कर सकता है।",
+    "options": [
+      "He can do this work without help",
+      "He should do this work without help",
+      "He may do this work without help",
+      "He must do this work without help"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 130
+  },
+  {
+    "question": "तुम्हें दूसरों की भावनाओं का सम्मान करना चाहिए।",
+    "options": [
+      "You should respect others' feelings",
+      "You can respect others' feelings",
+      "You may respect others' feelings",
+      "You will respect others' feelings"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives moral advice.",
+    "id": 131
+  },
+  {
+    "question": "क्या मैं आपको एक सुझाव दे सकता हूँ?",
+    "options": [
+      "May I give you a suggestion?",
+      "Can I give you a suggestion?",
+      "Could I give you a suggestion?",
+      "Might I give you a suggestion?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 132
+  },
+  {
+    "question": "वह बहुत अच्छा काम कर सकता है।",
+    "options": [
+      "He can do very good work",
+      "He should do very good work",
+      "He may do very good work",
+      "He must do very good work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 133
+  },
+  {
+    "question": "हमें अपने देश से प्यार करना चाहिए।",
+    "options": [
+      "We should love our country",
+      "We can love our country",
+      "We may love our country",
+      "We will love our country"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses patriotic duty.",
+    "id": 134
+  },
+  {
+    "question": "क्या तुम यह सब सह सकते हो?",
+    "options": [
+      "Can you bear all this?",
+      "Could you bear all this?",
+      "May you bear all this?",
+      "Should you bear all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 135
+  },
+  {
+    "question": "वह हर चुनौती का सामना कर सकता है।",
+    "options": [
+      "He can face every challenge",
+      "He should face every challenge",
+      "He may face every challenge",
+      "He must face every challenge"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 136
+  },
+  {
+    "question": "तुम्हें अपने सपनों का पीछा करना चाहिए।",
+    "options": [
+      "You should chase your dreams",
+      "You can chase your dreams",
+      "You may chase your dreams",
+      "You will chase your dreams"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives life advice.",
+    "id": 137
+  },
+  {
+    "question": "क्या मैं आपको अपनी बात बता सकता हूँ?",
+    "options": [
+      "May I tell you my point?",
+      "Can I tell you my point?",
+      "Could I tell you my point?",
+      "Might I tell you my point?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 138
+  },
+  {
+    "question": "वह बहुत मेहनत कर सकता है।",
+    "options": [
+      "He can work very hard",
+      "He should work very hard",
+      "He may work very hard",
+      "He must work very hard"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 139
+  },
+  {
+    "question": "हमें अपने बुजुर्गों की बात माननी चाहिए।",
+    "options": [
+      "We should listen to our elders",
+      "We can listen to our elders",
+      "We may listen to our elders",
+      "We will listen to our elders"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses respect.",
+    "id": 140
+  },
+  {
+    "question": "क्या तुम यह सब समझ सकते हो?",
+    "options": [
+      "Can you understand all this?",
+      "Could you understand all this?",
+      "May you understand all this?",
+      "Should you understand all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 141
+  },
+  {
+    "question": "वह खुद को संभाल सकता है।",
+    "options": [
+      "He can handle himself",
+      "He should handle himself",
+      "He may handle himself",
+      "He must handle himself"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 142
+  },
+  {
+    "question": "तुम्हें अपनी गलतियों से सीखना चाहिए।",
+    "options": [
+      "You should learn from your mistakes",
+      "You can learn from your mistakes",
+      "You may learn from your mistakes",
+      "You will learn from your mistakes"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 143
+  },
+  {
+    "question": "क्या मैं यहाँ फोटो ले सकता हूँ?",
+    "options": [
+      "May I take a photo here?",
+      "Can I take a photo here?",
+      "Could I take a photo here?",
+      "Might I take a photo here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' asks for permission.",
+    "id": 144
+  },
+  {
+    "question": "वह इस काम को जल्दी खत्म कर सकता है।",
+    "options": [
+      "He can finish this work quickly",
+      "He should finish this work quickly",
+      "He may finish this work quickly",
+      "He must finish this work quickly"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 145
+  },
+  {
+    "question": "हमें ईमानदारी से जीना चाहिए।",
+    "options": [
+      "We should live honestly",
+      "We can live honestly",
+      "We may live honestly",
+      "We will live honestly"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral living.",
+    "id": 146
+  },
+  {
+    "question": "क्या तुम यह सब याद रख सकते हो?",
+    "options": [
+      "Can you remember all this?",
+      "Could you remember all this?",
+      "May you remember all this?",
+      "Should you remember all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 147
+  },
+  {
+    "question": "वह बहुत अच्छा खाना बना सकती है।",
+    "options": [
+      "She can cook very good food",
+      "She should cook very good food",
+      "She may cook very good food",
+      "She must cook very good food"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 148
+  },
+  {
+    "question": "तुम्हें कभी अपनी क्षमताओं पर शक नहीं करना चाहिए।",
+    "options": [
+      "You should never doubt your abilities",
+      "You can never doubt your abilities",
+      "You may never doubt your abilities",
+      "You will never doubt your abilities"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should never' gives strong advice.",
+    "id": 149
+  },
+  {
+    "question": "क्या मैं आपकी मदद कर सकता हूँ?",
+    "options": [
+      "May I help you?",
+      "Can I help you?",
+      "Could I help you?",
+      "Might I help you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' offers help politely.",
+    "id": 150
+  },
+  {
+    "question": "वह बहुत अच्छा गा सकता है।",
+    "options": [
+      "He can sing very well",
+      "He should sing very well",
+      "He may sing very well",
+      "He must sing very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 151
+  },
+  {
+    "question": "हमें अपने पर्यावरण को साफ रखना चाहिए।",
+    "options": [
+      "We should keep our environment clean",
+      "We can keep our environment clean",
+      "We may keep our environment clean",
+      "We will keep our environment clean"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives environmental advice.",
+    "id": 152
+  },
+  {
+    "question": "क्या तुम यह सब सीख सकते हो?",
+    "options": [
+      "Can you learn all this?",
+      "Could you learn all this?",
+      "May you learn all this?",
+      "Should you learn all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 153
+  },
+  {
+    "question": "वह बहुत अच्छा नृत्य कर सकता है।",
+    "options": [
+      "He can dance very well",
+      "He should dance very well",
+      "He may dance very well",
+      "He must dance very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 154
+  },
+  {
+    "question": "तुम्हें अपने दोस्तों के प्रति वफादार होना चाहिए।",
+    "options": [
+      "You should be loyal to your friends",
+      "You can be loyal to your friends",
+      "You may be loyal to your friends",
+      "You will be loyal to your friends"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses loyalty.",
+    "id": 155
+  },
+  {
+    "question": "क्या मैं यहाँ वीडियो बना सकता हूँ?",
+    "options": [
+      "May I make a video here?",
+      "Can I make a video here?",
+      "Could I make a video here?",
+      "Might I make a video here?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' asks for permission.",
+    "id": 156
+  },
+  {
+    "question": "वह इस काम को बहुत अच्छे से कर सकता है।",
+    "options": [
+      "He can do this work very well",
+      "He should do this work very well",
+      "He may do this work very well",
+      "He must do this work very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 157
+  },
+  {
+    "question": "हमें अपने बच्चों को अच्छे संस्कार देने चाहिए।",
+    "options": [
+      "We should give good values to our children",
+      "We can give good values to our children",
+      "We may give good values to our children",
+      "We will give good values to our children"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses parental duty.",
+    "id": 158
+  },
+  {
+    "question": "क्या तुम यह सब लिख सकते हो?",
+    "options": [
+      "Can you write all this?",
+      "Could you write all this?",
+      "May you write all this?",
+      "Should you write all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 159
+  },
+  {
+    "question": "वह बहुत अच्छा फुटबॉल खेल सकता है।",
+    "options": [
+      "He can play football very well",
+      "He should play football very well",
+      "He may play football very well",
+      "He must play football very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 160
+  },
+  {
+    "question": "तुम्हें अपने स्वास्थ्य का ध्यान रखना चाहिए।",
+    "options": [
+      "You should take care of your health",
+      "You can take care of your health",
+      "You may take care of your health",
+      "You will take care of your health"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives health advice.",
+    "id": 161
+  },
+  {
+    "question": "क्या मैं आपको अपनी टीम में शामिल कर सकता हूँ?",
+    "options": [
+      "May I include you in my team?",
+      "Can I include you in my team?",
+      "Could I include you in my team?",
+      "Might I include you in my team?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' asks for permission.",
+    "id": 162
+  },
+  {
+    "question": "वह बहुत अच्छा कविता लिख सकता है।",
+    "options": [
+      "He can write very good poetry",
+      "He should write very good poetry",
+      "He may write very good poetry",
+      "He must write very good poetry"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 163
+  },
+  {
+    "question": "हमें अपने वादों को पूरा करना चाहिए।",
+    "options": [
+      "We should fulfill our promises",
+      "We can fulfill our promises",
+      "We may fulfill our promises",
+      "We will fulfill our promises"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses responsibility.",
+    "id": 164
+  },
+  {
+    "question": "क्या तुम यह सब कर सकते हो?",
+    "options": [
+      "Can you do all this?",
+      "Could you do all this?",
+      "May you do all this?",
+      "Should you do all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 165
+  },
+  {
+    "question": "वह बहुत अच्छा अभिनय कर सकता है।",
+    "options": [
+      "He can act very well",
+      "He should act very well",
+      "He may act very well",
+      "He must act very well"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' expresses ability.",
+    "id": 166
+  },
+  {
+    "question": "तुम्हें कभी हार नहीं माननी चाहिए।",
+    "options": [
+      "You should never give up",
+      "You can never give up",
+      "You may never give up",
+      "You will never give up"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should never' gives strong advice.",
+    "id": 167
+  },
+  {
+    "question": "क्या मैं आपको गले लगा सकता हूँ?",
+    "options": [
+      "May I hug you?",
+      "Can I hug you?",
+      "Could I hug you?",
+      "Might I hug you?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' asks for permission politely.",
+    "id": 168
+  },
+  {
+    "question": "वह बहुत अच्छा वैज्ञानिक बन सकता है।",
+    "options": [
+      "He can become a very good scientist",
+      "He should become a very good scientist",
+      "He may become a very good scientist",
+      "He must become a very good scientist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility about future.",
+    "id": 169
+  },
+  {
+    "question": "हमें अपनी आलस्य पर काबू पाना चाहिए।",
+    "options": [
+      "We should overcome our laziness",
+      "We can overcome our laziness",
+      "We may overcome our laziness",
+      "We will overcome our laziness"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives self-improvement advice.",
+    "id": 170
+  },
+  {
+    "question": "क्या तुम यह सब सुन सकते हो?",
+    "options": [
+      "Can you hear all this?",
+      "Could you hear all this?",
+      "May you hear all this?",
+      "Should you hear all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 171
+  },
+  {
+    "question": "वह बहुत अच्छा शिक्षक बन सकता है।",
+    "options": [
+      "He can become a very good teacher",
+      "He should become a very good teacher",
+      "He may become a very good teacher",
+      "He must become a very good teacher"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 172
+  },
+  {
+    "question": "तुम्हें अपने पैसे बचाने चाहिए।",
+    "options": [
+      "You should save your money",
+      "You can save your money",
+      "You may save your money",
+      "You will save your money"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives financial advice.",
+    "id": 173
+  },
+  {
+    "question": "क्या मैं आपको अपनी समस्या बता सकता हूँ?",
+    "options": [
+      "May I tell you my problem?",
+      "Can I tell you my problem?",
+      "Could I tell you my problem?",
+      "Might I tell you my problem?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 174
+  },
+  {
+    "question": "वह बहुत अच्छा डॉक्टर बन सकता है।",
+    "options": [
+      "He can become a very good doctor",
+      "He should become a very good doctor",
+      "He may become a very good doctor",
+      "He must become a very good doctor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 175
+  },
+  {
+    "question": "हमें अपनी ताकत पर भरोसा करना चाहिए।",
+    "options": [
+      "We should believe in our strength",
+      "We can believe in our strength",
+      "We may believe in our strength",
+      "We will believe in our strength"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives motivational advice.",
+    "id": 176
+  },
+  {
+    "question": "क्या तुम यह सब खा सकते हो?",
+    "options": [
+      "Can you eat all this?",
+      "Could you eat all this?",
+      "May you eat all this?",
+      "Should you eat all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 177
+  },
+  {
+    "question": "वह बहुत अच्छा इंजीनियर बन सकता है।",
+    "options": [
+      "He can become a very good engineer",
+      "He should become a very good engineer",
+      "He may become a very good engineer",
+      "He must become a very good engineer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 178
+  },
+  {
+    "question": "तुम्हें अपने लक्ष्य पर ध्यान केंद्रित करना चाहिए।",
+    "options": [
+      "You should focus on your goal",
+      "You can focus on your goal",
+      "You may focus on your goal",
+      "You will focus on your goal"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 179
+  },
+  {
+    "question": "क्या मैं आपको अपना नंबर दे सकता हूँ?",
+    "options": [
+      "May I give you my number?",
+      "Can I give you my number?",
+      "Could I give you my number?",
+      "Might I give you my number?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite offer.",
+    "id": 180
+  },
+  {
+    "question": "वह बहुत अच्छा लेखक बन सकता है।",
+    "options": [
+      "He can become a very good writer",
+      "He should become a very good writer",
+      "He may become a very good writer",
+      "He must become a very good writer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 181
+  },
+  {
+    "question": "हमें अपने क्रोध पर नियंत्रण रखना चाहिए।",
+    "options": [
+      "We should control our anger",
+      "We can control our anger",
+      "We may control our anger",
+      "We will control our anger"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives emotional advice.",
+    "id": 182
+  },
+  {
+    "question": "क्या तुम यह सब पी सकते हो?",
+    "options": [
+      "Can you drink all this?",
+      "Could you drink all this?",
+      "May you drink all this?",
+      "Should you drink all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 183
+  },
+  {
+    "question": "वह बहुत अच्छा कलाकार बन सकता है।",
+    "options": [
+      "He can become a very good artist",
+      "He should become a very good artist",
+      "He may become a very good artist",
+      "He must become a very good artist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 184
+  },
+  {
+    "question": "तुम्हें अपने समय का सदुपयोग करना चाहिए।",
+    "options": [
+      "You should make good use of your time",
+      "You can make good use of your time",
+      "You may make good use of your time",
+      "You will make good use of your time"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives time management advice.",
+    "id": 185
+  },
+  {
+    "question": "क्या मैं आपको अपनी कहानी सुना सकता हूँ?",
+    "options": [
+      "May I tell you my story?",
+      "Can I tell you my story?",
+      "Could I tell you my story?",
+      "Might I tell you my story?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 186
+  },
+  {
+    "question": "वह बहुत अच्छा व्यवसायी बन सकता है।",
+    "options": [
+      "He can become a very good businessman",
+      "He should become a very good businessman",
+      "He may become a very good businessman",
+      "He must become a very good businessman"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 187
+  },
+  {
+    "question": "हमें अपने बच्चों को शिक्षित करना चाहिए।",
+    "options": [
+      "We should educate our children",
+      "We can educate our children",
+      "We may educate our children",
+      "We will educate our children"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses parental duty.",
+    "id": 188
+  },
+  {
+    "question": "क्या तुम यह सब सह सकते हो?",
+    "options": [
+      "Can you tolerate all this?",
+      "Could you tolerate all this?",
+      "May you tolerate all this?",
+      "Should you tolerate all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability to tolerate.",
+    "id": 189
+  },
+  {
+    "question": "वह बहुत अच्छा खिलाड़ी बन सकता है।",
+    "options": [
+      "He can become a very good player",
+      "He should become a very good player",
+      "He may become a very good player",
+      "He must become a very good player"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 190
+  },
+  {
+    "question": "तुम्हें अपने काम में लगन रखनी चाहिए।",
+    "options": [
+      "You should be dedicated to your work",
+      "You can be dedicated to your work",
+      "You may be dedicated to your work",
+      "You will be dedicated to your work"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 191
+  },
+  {
+    "question": "क्या मैं आपको अपनी डायरी दिखा सकता हूँ?",
+    "options": [
+      "May I show you my diary?",
+      "Can I show you my diary?",
+      "Could I show you my diary?",
+      "Might I show you my diary?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 192
+  },
+  {
+    "question": "वह बहुत अच्छा संगीतकार बन सकता है।",
+    "options": [
+      "He can become a very good musician",
+      "He should become a very good musician",
+      "He may become a very good musician",
+      "He must become a very good musician"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 193
+  },
+  {
+    "question": "हमें अपनी गलतियों को स्वीकार करना चाहिए।",
+    "options": [
+      "We should accept our mistakes",
+      "We can accept our mistakes",
+      "We may accept our mistakes",
+      "We will accept our mistakes"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral responsibility.",
+    "id": 194
+  },
+  {
+    "question": "क्या तुम यह सब बना सकते हो?",
+    "options": [
+      "Can you make all this?",
+      "Could you make all this?",
+      "May you make all this?",
+      "Should you make all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 195
+  },
+  {
+    "question": "वह बहुत अच्छा नेता बन सकता है।",
+    "options": [
+      "He can become a very good leader",
+      "He should become a very good leader",
+      "He may become a very good leader",
+      "He must become a very good leader"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 196
+  },
+  {
+    "question": "तुम्हें अपने माता-पिता की आज्ञा माननी चाहिए।",
+    "options": [
+      "You should obey your parents",
+      "You can obey your parents",
+      "You may obey your parents",
+      "You will obey your parents"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses respect and duty.",
+    "id": 197
+  },
+  {
+    "question": "क्या मैं आपको अपना काम दिखा सकता हूँ?",
+    "options": [
+      "May I show you my work?",
+      "Can I show you my work?",
+      "Could I show you my work?",
+      "Might I show you my work?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 198
+  },
+  {
+    "question": "वह बहुत अच्छा वकील बन सकता है।",
+    "options": [
+      "He can become a very good lawyer",
+      "He should become a very good lawyer",
+      "He may become a very good lawyer",
+      "He must become a very good lawyer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 199
+  },
+  {
+    "question": "हमें अपने पड़ोसियों के साथ अच्छा व्यवहार करना चाहिए।",
+    "options": [
+      "We should behave well with our neighbors",
+      "We can behave well with our neighbors",
+      "We may behave well with our neighbors",
+      "We will behave well with our neighbors"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives social advice.",
+    "id": 200
+  },
+  {
+    "question": "क्या तुम यह सब तैर सकते हो?",
+    "options": [
+      "Can you swim all this?",
+      "Could you swim all this?",
+      "May you swim all this?",
+      "Should you swim all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 201
+  },
+  {
+    "question": "वह बहुत अच्छा पायलट बन सकता है।",
+    "options": [
+      "He can become a very good pilot",
+      "He should become a very good pilot",
+      "He may become a very good pilot",
+      "He must become a very good pilot"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 202
+  },
+  {
+    "question": "तुम्हें अपने देश की रक्षा के लिए तैयार रहना चाहिए।",
+    "options": [
+      "You should be ready to defend your country",
+      "You can be ready to defend your country",
+      "You may be ready to defend your country",
+      "You will be ready to defend your country"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses patriotic duty.",
+    "id": 203
+  },
+  {
+    "question": "क्या मैं आपको अपनी योजना बता सकता हूँ?",
+    "options": [
+      "May I tell you my plan?",
+      "Can I tell you my plan?",
+      "Could I tell you my plan?",
+      "Might I tell you my plan?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 204
+  },
+  {
+    "question": "वह बहुत अच्छा नाविक बन सकता है।",
+    "options": [
+      "He can become a very good sailor",
+      "He should become a very good sailor",
+      "He may become a very good sailor",
+      "He must become a very good sailor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 205
+  },
+  {
+    "question": "हमें अपने वादों को याद रखना चाहिए।",
+    "options": [
+      "We should remember our promises",
+      "We can remember our promises",
+      "We may remember our promises",
+      "We will remember our promises"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses responsibility.",
+    "id": 206
+  },
+  {
+    "question": "क्या तुम यह सब चला सकते हो?",
+    "options": [
+      "Can you drive all this?",
+      "Could you drive all this?",
+      "May you drive all this?",
+      "Should you drive all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 207
+  },
+  {
+    "question": "वह बहुत अच्छा वैद्य बन सकता है।",
+    "options": [
+      "He can become a very good healer",
+      "He should become a very good healer",
+      "He may become a very good healer",
+      "He must become a very good healer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 208
+  },
+  {
+    "question": "तुम्हें अपने जीवन में संतुलन बनाए रखना चाहिए।",
+    "options": [
+      "You should maintain balance in your life",
+      "You can maintain balance in your life",
+      "You may maintain balance in your life",
+      "You will maintain balance in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives life advice.",
+    "id": 209
+  },
+  {
+    "question": "क्या मैं आपको अपनी राय दे सकता हूँ?",
+    "options": [
+      "May I give you my opinion?",
+      "Can I give you my opinion?",
+      "Could I give you my opinion?",
+      "Might I give you my opinion?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 210
+  },
+  {
+    "question": "वह बहुत अच्छा वैज्ञानिक बन सकता है।",
+    "options": [
+      "He can become a very good scientist",
+      "He should become a very good scientist",
+      "He may become a very good scientist",
+      "He must become a very good scientist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 211
+  },
+  {
+    "question": "हमें अपने शरीर को स्वस्थ रखना चाहिए।",
+    "options": [
+      "We should keep our body healthy",
+      "We can keep our body healthy",
+      "We may keep our body healthy",
+      "We will keep our body healthy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives health advice.",
+    "id": 212
+  },
+  {
+    "question": "क्या तुम यह सब उड़ा सकते हो?",
+    "options": [
+      "Can you fly all this?",
+      "Could you fly all this?",
+      "May you fly all this?",
+      "Should you fly all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 213
+  },
+  {
+    "question": "वह बहुत अच्छा किसान बन सकता है।",
+    "options": [
+      "He can become a very good farmer",
+      "He should become a very good farmer",
+      "He may become a very good farmer",
+      "He must become a very good farmer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 214
+  },
+  {
+    "question": "तुम्हें अपने परिवार के साथ समय बिताना चाहिए।",
+    "options": [
+      "You should spend time with your family",
+      "You can spend time with your family",
+      "You may spend time with your family",
+      "You will spend time with your family"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives family advice.",
+    "id": 215
+  },
+  {
+    "question": "क्या मैं आपको अपना अनुभव बता सकता हूँ?",
+    "options": [
+      "May I tell you my experience?",
+      "Can I tell you my experience?",
+      "Could I tell you my experience?",
+      "Might I tell you my experience?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 216
+  },
+  {
+    "question": "वह बहुत अच्छा व्यापारी बन सकता है।",
+    "options": [
+      "He can become a very good trader",
+      "He should become a very good trader",
+      "He may become a very good trader",
+      "He must become a very good trader"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 217
+  },
+  {
+    "question": "हमें अपने दोस्तों का समर्थन करना चाहिए।",
+    "options": [
+      "We should support our friends",
+      "We can support our friends",
+      "We may support our friends",
+      "We will support our friends"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses friendship duty.",
+    "id": 218
+  },
+  {
+    "question": "क्या तुम यह सब जीत सकते हो?",
+    "options": [
+      "Can you win all this?",
+      "Could you win all this?",
+      "May you win all this?",
+      "Should you win all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 219
+  },
+  {
+    "question": "वह बहुत अच्छा अर्थशास्त्री बन सकता है।",
+    "options": [
+      "He can become a very good economist",
+      "He should become a very good economist",
+      "He may become a very good economist",
+      "He must become a very good economist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 220
+  },
+  {
+    "question": "तुम्हें अपने जीवन में सकारात्मक रहना चाहिए।",
+    "options": [
+      "You should remain positive in your life",
+      "You can remain positive in your life",
+      "You may remain positive in your life",
+      "You will remain positive in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives positive attitude advice.",
+    "id": 221
+  },
+  {
+    "question": "क्या मैं आपको अपना दुख बता सकता हूँ?",
+    "options": [
+      "May I tell you my sorrow?",
+      "Can I tell you my sorrow?",
+      "Could I tell you my sorrow?",
+      "Might I tell you my sorrow?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 222
+  },
+  {
+    "question": "वह बहुत अच्छा मनोवैज्ञानिक बन सकता है।",
+    "options": [
+      "He can become a very good psychologist",
+      "He should become a very good psychologist",
+      "He may become a very good psychologist",
+      "He must become a very good psychologist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 223
+  },
+  {
+    "question": "हमें अपने कर्मों का फल भोगना चाहिए।",
+    "options": [
+      "We should bear the fruits of our actions",
+      "We can bear the fruits of our actions",
+      "We may bear the fruits of our actions",
+      "We will bear the fruits of our actions"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses karmic responsibility.",
+    "id": 224
+  },
+  {
+    "question": "क्या तुम यह सब पकड़ सकते हो?",
+    "options": [
+      "Can you catch all this?",
+      "Could you catch all this?",
+      "May you catch all this?",
+      "Should you catch all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 225
+  },
+  {
+    "question": "वह बहुत अच्छा राजनीतिज्ञ बन सकता है।",
+    "options": [
+      "He can become a very good politician",
+      "He should become a very good politician",
+      "He may become a very good politician",
+      "He must become a very good politician"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 226
+  },
+  {
+    "question": "तुम्हें अपने जीवन के प्रति आभारी होना चाहिए।",
+    "options": [
+      "You should be grateful for your life",
+      "You can be grateful for your life",
+      "You may be grateful for your life",
+      "You will be grateful for your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives gratitude advice.",
+    "id": 227
+  },
+  {
+    "question": "क्या मैं आपको अपनी खुशी बता सकता हूँ?",
+    "options": [
+      "May I tell you my happiness?",
+      "Can I tell you my happiness?",
+      "Could I tell you my happiness?",
+      "Might I tell you my happiness?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 228
+  },
+  {
+    "question": "वह बहुत अच्छा दार्शनिक बन सकता है।",
+    "options": [
+      "He can become a very good philosopher",
+      "He should become a very good philosopher",
+      "He may become a very good philosopher",
+      "He must become a very good philosopher"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 229
+  },
+  {
+    "question": "हमें अपने ज्ञान को बढ़ाना चाहिए।",
+    "options": [
+      "We should increase our knowledge",
+      "We can increase our knowledge",
+      "We may increase our knowledge",
+      "We will increase our knowledge"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives advice.",
+    "id": 230
+  },
+  {
+    "question": "क्या तुम यह सब छुपा सकते हो?",
+    "options": [
+      "Can you hide all this?",
+      "Could you hide all this?",
+      "May you hide all this?",
+      "Should you hide all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 231
+  },
+  {
+    "question": "वह बहुत अच्छा सामाजिक कार्यकर्ता बन सकता है।",
+    "options": [
+      "He can become a very good social worker",
+      "He should become a very good social worker",
+      "He may become a very good social worker",
+      "He must become a very good social worker"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 232
+  },
+  {
+    "question": "तुम्हें अपने दुश्मनों को माफ कर देना चाहिए।",
+    "options": [
+      "You should forgive your enemies",
+      "You can forgive your enemies",
+      "You may forgive your enemies",
+      "You will forgive your enemies"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' expresses moral high ground.",
+    "id": 233
+  },
+  {
+    "question": "क्या मैं आपको अपनी सलाह दे सकता हूँ?",
+    "options": [
+      "May I give you my advice?",
+      "Can I give you my advice?",
+      "Could I give you my advice?",
+      "Might I give you my advice?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 234
+  },
+  {
+    "question": "वह बहुत अच्छा पत्रकार बन सकता है।",
+    "options": [
+      "He can become a very good journalist",
+      "He should become a very good journalist",
+      "He may become a very good journalist",
+      "He must become a very good journalist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 235
+  },
+  {
+    "question": "हमें अपने आत्मविश्वास को बढ़ाना चाहिए।",
+    "options": [
+      "We should increase our confidence",
+      "We can increase our confidence",
+      "We may increase our confidence",
+      "We will increase our confidence"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives self-improvement advice.",
+    "id": 236
+  },
+  {
+    "question": "क्या तुम यह सब तोड़ सकते हो?",
+    "options": [
+      "Can you break all this?",
+      "Could you break all this?",
+      "May you break all this?",
+      "Should you break all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 237
+  },
+  {
+    "question": "वह बहुत अच्छा फोटोग्राफर बन सकता है।",
+    "options": [
+      "He can become a very good photographer",
+      "He should become a very good photographer",
+      "He may become a very good photographer",
+      "He must become a very good photographer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 238
+  },
+  {
+    "question": "तुम्हें अपने जीवन में अनुशासन रखना चाहिए।",
+    "options": [
+      "You should maintain discipline in your life",
+      "You can maintain discipline in your life",
+      "You may maintain discipline in your life",
+      "You will maintain discipline in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives discipline advice.",
+    "id": 239
+  },
+  {
+    "question": "क्या मैं आपको अपनी चिंता बता सकता हूँ?",
+    "options": [
+      "May I tell you my worry?",
+      "Can I tell you my worry?",
+      "Could I tell you my worry?",
+      "Might I tell you my worry?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 240
+  },
+  {
+    "question": "वह बहुत अच्छा निर्माता बन सकता है।",
+    "options": [
+      "He can become a very good producer",
+      "He should become a very good producer",
+      "He may become a very good producer",
+      "He must become a very good producer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 241
+  },
+  {
+    "question": "हमें अपने जीवन में नियमितता लानी चाहिए।",
+    "options": [
+      "We should bring regularity in our life",
+      "We can bring regularity in our life",
+      "We may bring regularity in our life",
+      "We will bring regularity in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives regularity advice.",
+    "id": 242
+  },
+  {
+    "question": "क्या तुम यह सब फेंक सकते हो?",
+    "options": [
+      "Can you throw all this?",
+      "Could you throw all this?",
+      "May you throw all this?",
+      "Should you throw all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 243
+  },
+  {
+    "question": "वह बहुत अच्छा निर्देशक बन सकता है।",
+    "options": [
+      "He can become a very good director",
+      "He should become a very good director",
+      "He may become a very good director",
+      "He must become a very good director"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 244
+  },
+  {
+    "question": "तुम्हें अपने जीवन में संतोष रखना चाहिए।",
+    "options": [
+      "You should have contentment in your life",
+      "You can have contentment in your life",
+      "You may have contentment in your life",
+      "You will have contentment in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives contentment advice.",
+    "id": 245
+  },
+  {
+    "question": "क्या मैं आपको अपना सपना बता सकता हूँ?",
+    "options": [
+      "May I tell you my dream?",
+      "Can I tell you my dream?",
+      "Could I tell you my dream?",
+      "Might I tell you my dream?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 246
+  },
+  {
+    "question": "वह बहुत अच्छा संपादक बन सकता है।",
+    "options": [
+      "He can become a very good editor",
+      "He should become a very good editor",
+      "He may become a very good editor",
+      "He must become a very good editor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 247
+  },
+  {
+    "question": "हमें अपने जीवन में उद्देश्य होना चाहिए।",
+    "options": [
+      "We should have a purpose in life",
+      "We can have a purpose in life",
+      "We may have a purpose in life",
+      "We will have a purpose in life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives purpose advice.",
+    "id": 248
+  },
+  {
+    "question": "क्या तुम यह सब जोड़ सकते हो?",
+    "options": [
+      "Can you add all this?",
+      "Could you add all this?",
+      "May you add all this?",
+      "Should you add all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 249
+  },
+  {
+    "question": "वह बहुत अच्छा डिजाइनर बन सकता है।",
+    "options": [
+      "He can become a very good designer",
+      "He should become a very good designer",
+      "He may become a very good designer",
+      "He must become a very good designer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 250
+  },
+  {
+    "question": "तुम्हें अपने जीवन में साहस रखना चाहिए।",
+    "options": [
+      "You should have courage in your life",
+      "You can have courage in your life",
+      "You may have courage in your life",
+      "You will have courage in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives courage advice.",
+    "id": 251
+  },
+  {
+    "question": "क्या मैं आपको अपना रहस्य बता सकता हूँ?",
+    "options": [
+      "May I tell you my secret?",
+      "Can I tell you my secret?",
+      "Could I tell you my secret?",
+      "Might I tell you my secret?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 252
+  },
+  {
+    "question": "वह बहुत अच्छा प्रबंधक बन सकता है।",
+    "options": [
+      "He can become a very good manager",
+      "He should become a very good manager",
+      "He may become a very good manager",
+      "He must become a very good manager"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 253
+  },
+  {
+    "question": "हमें अपने जीवन में विनम्रता रखनी चाहिए।",
+    "options": [
+      "We should have humility in our life",
+      "We can have humility in our life",
+      "We may have humility in our life",
+      "We will have humility in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives humility advice.",
+    "id": 254
+  },
+  {
+    "question": "क्या तुम यह सब गिन सकते हो?",
+    "options": [
+      "Can you count all this?",
+      "Could you count all this?",
+      "May you count all this?",
+      "Should you count all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 255
+  },
+  {
+    "question": "वह बहुत अच्छा कोच बन सकता है।",
+    "options": [
+      "He can become a very good coach",
+      "He should become a very good coach",
+      "He may become a very good coach",
+      "He must become a very good coach"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 256
+  },
+  {
+    "question": "तुम्हें अपने जीवन में धैर्य रखना चाहिए।",
+    "options": [
+      "You should have patience in your life",
+      "You can have patience in your life",
+      "You may have patience in your life",
+      "You will have patience in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives patience advice.",
+    "id": 257
+  },
+  {
+    "question": "क्या मैं आपको अपनी उपलब्धि बता सकता हूँ?",
+    "options": [
+      "May I tell you my achievement?",
+      "Can I tell you my achievement?",
+      "Could I tell you my achievement?",
+      "Might I tell you my achievement?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 258
+  },
+  {
+    "question": "वह बहुत अच्छा कैप्टन बन सकता है।",
+    "options": [
+      "He can become a very good captain",
+      "He should become a very good captain",
+      "He may become a very good captain",
+      "He must become a very good captain"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 259
+  },
+  {
+    "question": "हमें अपने जीवन में संयम रखना चाहिए।",
+    "options": [
+      "We should have restraint in our life",
+      "We can have restraint in our life",
+      "We may have restraint in our life",
+      "We will have restraint in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives restraint advice.",
+    "id": 260
+  },
+  {
+    "question": "क्या तुम यह सब मिला सकते हो?",
+    "options": [
+      "Can you mix all this?",
+      "Could you mix all this?",
+      "May you mix all this?",
+      "Should you mix all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 261
+  },
+  {
+    "question": "वह बहुत अच्छा मार्गदर्शक बन सकता है।",
+    "options": [
+      "He can become a very good guide",
+      "He should become a very good guide",
+      "He may become a very good guide",
+      "He must become a very good guide"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 262
+  },
+  {
+    "question": "तुम्हें अपने जीवन में उत्साह रखना चाहिए।",
+    "options": [
+      "You should have enthusiasm in your life",
+      "You can have enthusiasm in your life",
+      "You may have enthusiasm in your life",
+      "You will have enthusiasm in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives enthusiasm advice.",
+    "id": 263
+  },
+  {
+    "question": "क्या मैं आपको अपनी विफलता बता सकता हूँ?",
+    "options": [
+      "May I tell you my failure?",
+      "Can I tell you my failure?",
+      "Could I tell you my failure?",
+      "Might I tell you my failure?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 264
+  },
+  {
+    "question": "वह बहुत अच्छा सलाहकार बन सकता है।",
+    "options": [
+      "He can become a very good advisor",
+      "He should become a very good advisor",
+      "He may become a very good advisor",
+      "He must become a very good advisor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 265
+  },
+  {
+    "question": "हमें अपने जीवन में ऊर्जा बनाए रखनी चाहिए।",
+    "options": [
+      "We should maintain energy in our life",
+      "We can maintain energy in our life",
+      "We may maintain energy in our life",
+      "We will maintain energy in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives energy advice.",
+    "id": 266
+  },
+  {
+    "question": "क्या तुम यह सब समेट सकते हो?",
+    "options": [
+      "Can you pack all this?",
+      "Could you pack all this?",
+      "May you pack all this?",
+      "Should you pack all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 267
+  },
+  {
+    "question": "वह बहुत अच्छा विश्लेषक बन सकता है।",
+    "options": [
+      "He can become a very good analyst",
+      "He should become a very good analyst",
+      "He may become a very good analyst",
+      "He must become a very good analyst"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 268
+  },
+  {
+    "question": "तुम्हें अपने जीवन में संकल्प रखना चाहिए।",
+    "options": [
+      "You should have determination in your life",
+      "You can have determination in your life",
+      "You may have determination in your life",
+      "You will have determination in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives determination advice.",
+    "id": 269
+  },
+  {
+    "question": "क्या मैं आपको अपनी सीख बता सकता हूँ?",
+    "options": [
+      "May I tell you my learning?",
+      "Can I tell you my learning?",
+      "Could I tell you my learning?",
+      "Might I tell you my learning?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 270
+  },
+  {
+    "question": "वह बहुत अच्छा शिल्पकार बन सकता है।",
+    "options": [
+      "He can become a very good craftsman",
+      "He should become a very good craftsman",
+      "He may become a very good craftsman",
+      "He must become a very good craftsman"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 271
+  },
+  {
+    "question": "हमें अपने जीवन में संवेदनशीलता रखनी चाहिए।",
+    "options": [
+      "We should have sensitivity in our life",
+      "We can have sensitivity in our life",
+      "We may have sensitivity in our life",
+      "We will have sensitivity in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives sensitivity advice.",
+    "id": 272
+  },
+  {
+    "question": "क्या तुम यह सब बांट सकते हो?",
+    "options": [
+      "Can you distribute all this?",
+      "Could you distribute all this?",
+      "May you distribute all this?",
+      "Should you distribute all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 273
+  },
+  {
+    "question": "वह बहुत अच्छा वैज्ञानिक बन सकता है।",
+    "options": [
+      "He can become a very good scientist",
+      "He should become a very good scientist",
+      "He may become a very good scientist",
+      "He must become a very good scientist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 274
+  },
+  {
+    "question": "तुम्हें अपने जीवन में करुणा रखनी चाहिए।",
+    "options": [
+      "You should have compassion in your life",
+      "You can have compassion in your life",
+      "You may have compassion in your life",
+      "You will have compassion in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives compassion advice.",
+    "id": 275
+  },
+  {
+    "question": "क्या मैं आपको अपनी आशा बता सकता हूँ?",
+    "options": [
+      "May I tell you my hope?",
+      "Can I tell you my hope?",
+      "Could I tell you my hope?",
+      "Might I tell you my hope?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 276
+  },
+  {
+    "question": "वह बहुत अच्छा शोधकर्ता बन सकता है।",
+    "options": [
+      "He can become a very good researcher",
+      "He should become a very good researcher",
+      "He may become a very good researcher",
+      "He must become a very good researcher"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 277
+  },
+  {
+    "question": "हमें अपने जीवन में सहानुभूति रखनी चाहिए।",
+    "options": [
+      "We should have empathy in our life",
+      "We can have empathy in our life",
+      "We may have empathy in our life",
+      "We will have empathy in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives empathy advice.",
+    "id": 278
+  },
+  {
+    "question": "क्या तुम यह सब सजा सकते हो?",
+    "options": [
+      "Can you decorate all this?",
+      "Could you decorate all this?",
+      "May you decorate all this?",
+      "Should you decorate all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 279
+  },
+  {
+    "question": "वह बहुत अच्छा अनुवादक बन सकता है।",
+    "options": [
+      "He can become a very good translator",
+      "He should become a very good translator",
+      "He may become a very good translator",
+      "He must become a very good translator"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 280
+  },
+  {
+    "question": "तुम्हें अपने जीवन में न्याय रखना चाहिए।",
+    "options": [
+      "You should have justice in your life",
+      "You can have justice in your life",
+      "You may have justice in your life",
+      "You will have justice in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives justice advice.",
+    "id": 281
+  },
+  {
+    "question": "क्या मैं आपको अपना डर बता सकता हूँ?",
+    "options": [
+      "May I tell you my fear?",
+      "Can I tell you my fear?",
+      "Could I tell you my fear?",
+      "Might I tell you my fear?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 282
+  },
+  {
+    "question": "वह बहुत अच्छा वक्ता बन सकता है।",
+    "options": [
+      "He can become a very good speaker",
+      "He should become a very good speaker",
+      "He may become a very good speaker",
+      "He must become a very good speaker"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 283
+  },
+  {
+    "question": "हमें अपने जीवन में स्वतंत्रता रखनी चाहिए।",
+    "options": [
+      "We should have freedom in our life",
+      "We can have freedom in our life",
+      "We may have freedom in our life",
+      "We will have freedom in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives freedom advice.",
+    "id": 284
+  },
+  {
+    "question": "क्या तुम यह सब बदल सकते हो?",
+    "options": [
+      "Can you change all this?",
+      "Could you change all this?",
+      "May you change all this?",
+      "Should you change all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 285
+  },
+  {
+    "question": "वह बहुत अच्छा सचिव बन सकता है।",
+    "options": [
+      "He can become a very good secretary",
+      "He should become a very good secretary",
+      "He may become a very good secretary",
+      "He must become a very good secretary"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 286
+  },
+  {
+    "question": "तुम्हें अपने जीवन में समता रखनी चाहिए।",
+    "options": [
+      "You should have equality in your life",
+      "You can have equality in your life",
+      "You may have equality in your life",
+      "You will have equality in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives equality advice.",
+    "id": 287
+  },
+  {
+    "question": "क्या मैं आपको अपनी पीड़ा बता सकता हूँ?",
+    "options": [
+      "May I tell you my pain?",
+      "Can I tell you my pain?",
+      "Could I tell you my pain?",
+      "Might I tell you my pain?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 288
+  },
+  {
+    "question": "वह बहुत अच्छा लिपिक बन सकता है।",
+    "options": [
+      "He can become a very good clerk",
+      "He should become a very good clerk",
+      "He may become a very good clerk",
+      "He must become a very good clerk"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 289
+  },
+  {
+    "question": "हमें अपने जीवन में सादगी रखनी चाहिए।",
+    "options": [
+      "We should have simplicity in our life",
+      "We can have simplicity in our life",
+      "We may have simplicity in our life",
+      "We will have simplicity in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives simplicity advice.",
+    "id": 290
+  },
+  {
+    "question": "क्या तुम यह सब मिटा सकते हो?",
+    "options": [
+      "Can you erase all this?",
+      "Could you erase all this?",
+      "May you erase all this?",
+      "Should you erase all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 291
+  },
+  {
+    "question": "वह बहुत अच्छा सहायक बन सकता है।",
+    "options": [
+      "He can become a very good assistant",
+      "He should become a very good assistant",
+      "He may become a very good assistant",
+      "He must become a very good assistant"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 292
+  },
+  {
+    "question": "तुम्हें अपने जीवन में एकता रखनी चाहिए।",
+    "options": [
+      "You should have unity in your life",
+      "You can have unity in your life",
+      "You may have unity in your life",
+      "You will have unity in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives unity advice.",
+    "id": 293
+  },
+  {
+    "question": "क्या मैं आपको अपनी क्षमता बता सकता हूँ?",
+    "options": [
+      "May I tell you my potential?",
+      "Can I tell you my potential?",
+      "Could I tell you my potential?",
+      "Might I tell you my potential?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 294
+  },
+  {
+    "question": "वह बहुत अच्छा पर्यवेक्षक बन सकता है।",
+    "options": [
+      "He can become a very good supervisor",
+      "He should become a very good supervisor",
+      "He may become a very good supervisor",
+      "He must become a very good supervisor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 295
+  },
+  {
+    "question": "हमें अपने जीवन में सौंदर्य रखना चाहिए।",
+    "options": [
+      "We should have beauty in our life",
+      "We can have beauty in our life",
+      "We may have beauty in our life",
+      "We will have beauty in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives beauty advice.",
+    "id": 296
+  },
+  {
+    "question": "क्या तुम यह सब सीख सकते हो?",
+    "options": [
+      "Can you learn all this?",
+      "Could you learn all this?",
+      "May you learn all this?",
+      "Should you learn all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 297
+  },
+  {
+    "question": "वह बहुत अच्छा चिकित्सक बन सकता है।",
+    "options": [
+      "He can become a very good physician",
+      "He should become a very good physician",
+      "He may become a very good physician",
+      "He must become a very good physician"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 298
+  },
+  {
+    "question": "तुम्हें अपने जीवन में शांति रखनी चाहिए।",
+    "options": [
+      "You should have peace in your life",
+      "You can have peace in your life",
+      "You may have peace in your life",
+      "You will have peace in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives peace advice.",
+    "id": 299
+  },
+  {
+    "question": "क्या मैं आपको अपना लक्ष्य बता सकता हूँ?",
+    "options": [
+      "May I tell you my goal?",
+      "Can I tell you my goal?",
+      "Could I tell you my goal?",
+      "Might I tell you my goal?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 300
+  },
+  {
+    "question": "वह बहुत अच्छा अध्यापक बन सकता है।",
+    "options": [
+      "He can become a very good teacher",
+      "He should become a very good teacher",
+      "He may become a very good teacher",
+      "He must become a very good teacher"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 301
+  },
+  {
+    "question": "हमें अपने जीवन में साहसिकता रखनी चाहिए।",
+    "options": [
+      "We should have adventure in our life",
+      "We can have adventure in our life",
+      "We may have adventure in our life",
+      "We will have adventure in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives adventure advice.",
+    "id": 302
+  },
+  {
+    "question": "क्या तुम यह सब भूल सकते हो?",
+    "options": [
+      "Can you forget all this?",
+      "Could you forget all this?",
+      "May you forget all this?",
+      "Should you forget all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 303
+  },
+  {
+    "question": "वह बहुत अच्छा न्यायाधीश बन सकता है।",
+    "options": [
+      "He can become a very good judge",
+      "He should become a very good judge",
+      "He may become a very good judge",
+      "He must become a very good judge"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 304
+  },
+  {
+    "question": "तुम्हें अपने जीवन में निष्ठा रखनी चाहिए।",
+    "options": [
+      "You should have loyalty in your life",
+      "You can have loyalty in your life",
+      "You may have loyalty in your life",
+      "You will have loyalty in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives loyalty advice.",
+    "id": 305
+  },
+  {
+    "question": "क्या मैं आपको अपना विचार बता सकता हूँ?",
+    "options": [
+      "May I tell you my idea?",
+      "Can I tell you my idea?",
+      "Could I tell you my idea?",
+      "Might I tell you my idea?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 306
+  },
+  {
+    "question": "वह बहुत अच्छा प्रशासक बन सकता है।",
+    "options": [
+      "He can become a very good administrator",
+      "He should become a very good administrator",
+      "He may become a very good administrator",
+      "He must become a very good administrator"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 307
+  },
+  {
+    "question": "हमें अपने जीवन में आनंद रखना चाहिए।",
+    "options": [
+      "We should have joy in our life",
+      "We can have joy in our life",
+      "We may have joy in our life",
+      "We will have joy in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives joy advice.",
+    "id": 308
+  },
+  {
+    "question": "क्या तुम यह सब सुधार सकते हो?",
+    "options": [
+      "Can you improve all this?",
+      "Could you improve all this?",
+      "May you improve all this?",
+      "Should you improve all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 309
+  },
+  {
+    "question": "वह बहुत अच्छा आयोजक बन सकता है।",
+    "options": [
+      "He can become a very good organizer",
+      "He should become a very good organizer",
+      "He may become a very good organizer",
+      "He must become a very good organizer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 310
+  },
+  {
+    "question": "तुम्हें अपने जीवन में दृढ़ता रखनी चाहिए।",
+    "options": [
+      "You should have firmness in your life",
+      "You can have firmness in your life",
+      "You may have firmness in your life",
+      "You will have firmness in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives firmness advice.",
+    "id": 311
+  },
+  {
+    "question": "क्या मैं आपको अपनी रचना बता सकता हूँ?",
+    "options": [
+      "May I tell you my creation?",
+      "Can I tell you my creation?",
+      "Could I tell you my creation?",
+      "Might I tell you my creation?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 312
+  },
+  {
+    "question": "वह बहुत अच्छा संचालक बन सकता है।",
+    "options": [
+      "He can become a very good conductor",
+      "He should become a very good conductor",
+      "He may become a very good conductor",
+      "He must become a very good conductor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 313
+  },
+  {
+    "question": "हमें अपने जीवन में संतुलन रखना चाहिए।",
+    "options": [
+      "We should have balance in our life",
+      "We can have balance in our life",
+      "We may have balance in our life",
+      "We will have balance in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives balance advice.",
+    "id": 314
+  },
+  {
+    "question": "क्या तुम यह सब समझा सकते हो?",
+    "options": [
+      "Can you explain all this?",
+      "Could you explain all this?",
+      "May you explain all this?",
+      "Should you explain all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 315
+  },
+  {
+    "question": "वह बहुत अच्छा मेजबान बन सकता है।",
+    "options": [
+      "He can become a very good host",
+      "He should become a very good host",
+      "He may become a very good host",
+      "He must become a very good host"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 316
+  },
+  {
+    "question": "तुम्हें अपने जीवन में आस्था रखनी चाहिए।",
+    "options": [
+      "You should have faith in your life",
+      "You can have faith in your life",
+      "You may have faith in your life",
+      "You will have faith in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives faith advice.",
+    "id": 317
+  },
+  {
+    "question": "क्या मैं आपको अपनी प्रतिभा बता सकता हूँ?",
+    "options": [
+      "May I tell you my talent?",
+      "Can I tell you my talent?",
+      "Could I tell you my talent?",
+      "Might I tell you my talent?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 318
+  },
+  {
+    "question": "वह बहुत अच्छा नियोक्ता बन सकता है।",
+    "options": [
+      "He can become a very good employer",
+      "He should become a very good employer",
+      "He may become a very good employer",
+      "He must become a very good employer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 319
+  },
+  {
+    "question": "हमें अपने जीवन में कृतज्ञता रखनी चाहिए।",
+    "options": [
+      "We should have gratitude in our life",
+      "We can have gratitude in our life",
+      "We may have gratitude in our life",
+      "We will have gratitude in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives gratitude advice.",
+    "id": 320
+  },
+  {
+    "question": "क्या तुम यह सब तैयार कर सकते हो?",
+    "options": [
+      "Can you prepare all this?",
+      "Could you prepare all this?",
+      "May you prepare all this?",
+      "Should you prepare all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 321
+  },
+  {
+    "question": "वह बहुत अच्छा ग्राहक बन सकता है।",
+    "options": [
+      "He can become a very good client",
+      "He should become a very good client",
+      "He may become a very good client",
+      "He must become a very good client"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 322
+  },
+  {
+    "question": "तुम्हें अपने जीवन में उम्मीद रखनी चाहिए।",
+    "options": [
+      "You should have hope in your life",
+      "You can have hope in your life",
+      "You may have hope in your life",
+      "You will have hope in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives hope advice.",
+    "id": 323
+  },
+  {
+    "question": "क्या मैं आपको अपनी योजना बता सकता हूँ?",
+    "options": [
+      "May I tell you my plan?",
+      "Can I tell you my plan?",
+      "Could I tell you my plan?",
+      "Might I tell you my plan?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 324
+  },
+  {
+    "question": "वह बहुत अच्छा भागीदार बन सकता है।",
+    "options": [
+      "He can become a very good partner",
+      "He should become a very good partner",
+      "He may become a very good partner",
+      "He must become a very good partner"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 325
+  },
+  {
+    "question": "हमें अपने जीवन में विश्वास रखना चाहिए।",
+    "options": [
+      "We should have trust in our life",
+      "We can have trust in our life",
+      "We may have trust in our life",
+      "We will have trust in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives trust advice.",
+    "id": 326
+  },
+  {
+    "question": "क्या तुम यह सब पूरा कर सकते हो?",
+    "options": [
+      "Can you complete all this?",
+      "Could you complete all this?",
+      "May you complete all this?",
+      "Should you complete all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 327
+  },
+  {
+    "question": "वह बहुत अच्छा सदस्य बन सकता है।",
+    "options": [
+      "He can become a very good member",
+      "He should become a very good member",
+      "He may become a very good member",
+      "He must become a very good member"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 328
+  },
+  {
+    "question": "तुम्हें अपने जीवन में प्रेम रखना चाहिए।",
+    "options": [
+      "You should have love in your life",
+      "You can have love in your life",
+      "You may have love in your life",
+      "You will have love in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives love advice.",
+    "id": 329
+  },
+  {
+    "question": "क्या मैं आपको अपनी कला बता सकता हूँ?",
+    "options": [
+      "May I tell you my art?",
+      "Can I tell you my art?",
+      "Could I tell you my art?",
+      "Might I tell you my art?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 330
+  },
+  {
+    "question": "वह बहुत अच्छा प्रतिनिधि बन सकता है।",
+    "options": [
+      "He can become a very good representative",
+      "He should become a very good representative",
+      "He may become a very good representative",
+      "He must become a very good representative"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 331
+  },
+  {
+    "question": "हमें अपने जीवन में सत्य रखना चाहिए।",
+    "options": [
+      "We should have truth in our life",
+      "We can have truth in our life",
+      "We may have truth in our life",
+      "We will have truth in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives truth advice.",
+    "id": 332
+  },
+  {
+    "question": "क्या तुम यह सब दिखा सकते हो?",
+    "options": [
+      "Can you show all this?",
+      "Could you show all this?",
+      "May you show all this?",
+      "Should you show all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 333
+  },
+  {
+    "question": "वह बहुत अच्छा अभियंता बन सकता है।",
+    "options": [
+      "He can become a very good engineer",
+      "He should become a very good engineer",
+      "He may become a very good engineer",
+      "He must become a very good engineer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 334
+  },
+  {
+    "question": "तुम्हें अपने जीवन में श्रद्धा रखनी चाहिए।",
+    "options": [
+      "You should have devotion in your life",
+      "You can have devotion in your life",
+      "You may have devotion in your life",
+      "You will have devotion in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives devotion advice.",
+    "id": 335
+  },
+  {
+    "question": "क्या मैं आपको अपनी भावना बता सकता हूँ?",
+    "options": [
+      "May I tell you my feeling?",
+      "Can I tell you my feeling?",
+      "Could I tell you my feeling?",
+      "Might I tell you my feeling?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 336
+  },
+  {
+    "question": "वह बहुत अच्छा सलाहकार बन सकता है।",
+    "options": [
+      "He can become a very good consultant",
+      "He should become a very good consultant",
+      "He may become a very good consultant",
+      "He must become a very good consultant"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 337
+  },
+  {
+    "question": "हमें अपने जीवन में आदर रखना चाहिए।",
+    "options": [
+      "We should have respect in our life",
+      "We can have respect in our life",
+      "We may have respect in our life",
+      "We will have respect in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives respect advice.",
+    "id": 338
+  },
+  {
+    "question": "क्या तुम यह सब चुन सकते हो?",
+    "options": [
+      "Can you choose all this?",
+      "Could you choose all this?",
+      "May you choose all this?",
+      "Should you choose all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 339
+  },
+  {
+    "question": "वह बहुत अच्छा डिजाइनर बन सकता है।",
+    "options": [
+      "He can become a very good designer",
+      "He should become a very good designer",
+      "He may become a very good designer",
+      "He must become a very good designer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 340
+  },
+  {
+    "question": "तुम्हें अपने जीवन में सेवा रखनी चाहिए।",
+    "options": [
+      "You should have service in your life",
+      "You can have service in your life",
+      "You may have service in your life",
+      "You will have service in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives service advice.",
+    "id": 341
+  },
+  {
+    "question": "क्या मैं आपको अपनी चुनौती बता सकता हूँ?",
+    "options": [
+      "May I tell you my challenge?",
+      "Can I tell you my challenge?",
+      "Could I tell you my challenge?",
+      "Might I tell you my challenge?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 342
+  },
+  {
+    "question": "वह बहुत अच्छा निरीक्षक बन सकता है।",
+    "options": [
+      "He can become a very good inspector",
+      "He should become a very good inspector",
+      "He may become a very good inspector",
+      "He must become a very good inspector"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 343
+  },
+  {
+    "question": "हमें अपने जीवन में त्याग रखना चाहिए।",
+    "options": [
+      "We should have sacrifice in our life",
+      "We can have sacrifice in our life",
+      "We may have sacrifice in our life",
+      "We will have sacrifice in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives sacrifice advice.",
+    "id": 344
+  },
+  {
+    "question": "क्या तुम यह सब बता सकते हो?",
+    "options": [
+      "Can you tell all this?",
+      "Could you tell all this?",
+      "May you tell all this?",
+      "Should you tell all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 345
+  },
+  {
+    "question": "वह बहुत अच्छा प्रशिक्षक बन सकता है।",
+    "options": [
+      "He can become a very good trainer",
+      "He should become a very good trainer",
+      "He may become a very good trainer",
+      "He must become a very good trainer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 346
+  },
+  {
+    "question": "तुम्हें अपने जीवन में सीख रखनी चाहिए।",
+    "options": [
+      "You should have learning in your life",
+      "You can have learning in your life",
+      "You may have learning in your life",
+      "You will have learning in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives learning advice.",
+    "id": 347
+  },
+  {
+    "question": "क्या मैं आपको अपनी आकांक्षा बता सकता हूँ?",
+    "options": [
+      "May I tell you my aspiration?",
+      "Can I tell you my aspiration?",
+      "Could I tell you my aspiration?",
+      "Might I tell you my aspiration?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 348
+  },
+  {
+    "question": "वह बहुत अच्छा विशेषज्ञ बन सकता है।",
+    "options": [
+      "He can become a very good expert",
+      "He should become a very good expert",
+      "He may become a very good expert",
+      "He must become a very good expert"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 349
+  },
+  {
+    "question": "हमें अपने जीवन में एकाग्रता रखनी चाहिए।",
+    "options": [
+      "We should have concentration in our life",
+      "We can have concentration in our life",
+      "We may have concentration in our life",
+      "We will have concentration in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives concentration advice.",
+    "id": 350
+  },
+  {
+    "question": "क्या तुम यह सब बना सकते हो?",
+    "options": [
+      "Can you build all this?",
+      "Could you build all this?",
+      "May you build all this?",
+      "Should you build all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 351
+  },
+  {
+    "question": "वह बहुत अच्छा नवप्रवर्तक बन सकता है।",
+    "options": [
+      "He can become a very good innovator",
+      "He should become a very good innovator",
+      "He may become a very good innovator",
+      "He must become a very good innovator"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 352
+  },
+  {
+    "question": "तुम्हें अपने जीवन में प्रगति रखनी चाहिए।",
+    "options": [
+      "You should have progress in your life",
+      "You can have progress in your life",
+      "You may have progress in your life",
+      "You will have progress in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives progress advice.",
+    "id": 353
+  },
+  {
+    "question": "क्या मैं आपको अपनी उपलब्धि बता सकता हूँ?",
+    "options": [
+      "May I tell you my accomplishment?",
+      "Can I tell you my accomplishment?",
+      "Could I tell you my accomplishment?",
+      "Might I tell you my accomplishment?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 354
+  },
+  {
+    "question": "वह बहुत अच्छा विपणक बन सकता है।",
+    "options": [
+      "He can become a very good marketer",
+      "He should become a very good marketer",
+      "He may become a very good marketer",
+      "He must become a very good marketer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 355
+  },
+  {
+    "question": "हमें अपने जीवन में नवीनता रखनी चाहिए।",
+    "options": [
+      "We should have novelty in our life",
+      "We can have novelty in our life",
+      "We may have novelty in our life",
+      "We will have novelty in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives novelty advice.",
+    "id": 356
+  },
+  {
+    "question": "क्या तुम यह सब बेच सकते हो?",
+    "options": [
+      "Can you sell all this?",
+      "Could you sell all this?",
+      "May you sell all this?",
+      "Should you sell all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 357
+  },
+  {
+    "question": "वह बहुत अच्छा वितरक बन सकता है।",
+    "options": [
+      "He can become a very good distributor",
+      "He should become a very good distributor",
+      "He may become a very good distributor",
+      "He must become a very good distributor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 358
+  },
+  {
+    "question": "तुम्हें अपने जीवन में सफलता रखनी चाहिए।",
+    "options": [
+      "You should have success in your life",
+      "You can have success in your life",
+      "You may have success in your life",
+      "You will have success in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives success advice.",
+    "id": 359
+  },
+  {
+    "question": "क्या मैं आपको अपनी कमी बता सकता हूँ?",
+    "options": [
+      "May I tell you my weakness?",
+      "Can I tell you my weakness?",
+      "Could I tell you my weakness?",
+      "Might I tell you my weakness?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 360
+  },
+  {
+    "question": "वह बहुत अच्छा निर्यातक बन सकता है।",
+    "options": [
+      "He can become a very good exporter",
+      "He should become a very good exporter",
+      "He may become a very good exporter",
+      "He must become a very good exporter"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 361
+  },
+  {
+    "question": "हमें अपने जीवन में सुरक्षा रखनी चाहिए।",
+    "options": [
+      "We should have security in our life",
+      "We can have security in our life",
+      "We may have security in our life",
+      "We will have security in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives security advice.",
+    "id": 362
+  },
+  {
+    "question": "क्या तुम यह सब मरम्मत कर सकते हो?",
+    "options": [
+      "Can you repair all this?",
+      "Could you repair all this?",
+      "May you repair all this?",
+      "Should you repair all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 363
+  },
+  {
+    "question": "वह बहुत अच्छा आयातक बन सकता है।",
+    "options": [
+      "He can become a very good importer",
+      "He should become a very good importer",
+      "He may become a very good importer",
+      "He must become a very good importer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 364
+  },
+  {
+    "question": "तुम्हें अपने जीवन में शक्ति रखनी चाहिए।",
+    "options": [
+      "You should have strength in your life",
+      "You can have strength in your life",
+      "You may have strength in your life",
+      "You will have strength in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives strength advice.",
+    "id": 365
+  },
+  {
+    "question": "क्या मैं आपको अपनी खोज बता सकता हूँ?",
+    "options": [
+      "May I tell you my discovery?",
+      "Can I tell you my discovery?",
+      "Could I tell you my discovery?",
+      "Might I tell you my discovery?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 366
+  },
+  {
+    "question": "वह बहुत अच्छा आविष्कारक बन सकता है।",
+    "options": [
+      "He can become a very good inventor",
+      "He should become a very good inventor",
+      "He may become a very good inventor",
+      "He must become a very good inventor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 367
+  },
+  {
+    "question": "हमें अपने जीवन में सहयोग रखना चाहिए।",
+    "options": [
+      "We should have cooperation in our life",
+      "We can have cooperation in our life",
+      "We may have cooperation in our life",
+      "We will have cooperation in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives cooperation advice.",
+    "id": 368
+  },
+  {
+    "question": "क्या तुम यह सब साफ कर सकते हो?",
+    "options": [
+      "Can you clean all this?",
+      "Could you clean all this?",
+      "May you clean all this?",
+      "Should you clean all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 369
+  },
+  {
+    "question": "वह बहुत अच्छा प्रबंधक बन सकता है।",
+    "options": [
+      "He can become a very good manager",
+      "He should become a very good manager",
+      "He may become a very good manager",
+      "He must become a very good manager"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 370
+  },
+  {
+    "question": "तुम्हें अपने जीवन में विजय रखनी चाहिए।",
+    "options": [
+      "You should have victory in your life",
+      "You can have victory in your life",
+      "You may have victory in your life",
+      "You will have victory in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives victory advice.",
+    "id": 371
+  },
+  {
+    "question": "क्या मैं आपको अपनी परियोजना बता सकता हूँ?",
+    "options": [
+      "May I tell you my project?",
+      "Can I tell you my project?",
+      "Could I tell you my project?",
+      "Might I tell you my project?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 372
+  },
+  {
+    "question": "वह बहुत अच्छा संपर्क बन सकता है।",
+    "options": [
+      "He can become a very good contact",
+      "He should become a very good contact",
+      "He may become a very good contact",
+      "He must become a very good contact"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 373
+  },
+  {
+    "question": "हमें अपने जीवन में सुख रखना चाहिए।",
+    "options": [
+      "We should have happiness in our life",
+      "We can have happiness in our life",
+      "We may have happiness in our life",
+      "We will have happiness in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives happiness advice.",
+    "id": 374
+  },
+  {
+    "question": "क्या तुम यह सब सुरक्षित कर सकते हो?",
+    "options": [
+      "Can you secure all this?",
+      "Could you secure all this?",
+      "May you secure all this?",
+      "Should you secure all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 375
+  },
+  {
+    "question": "वह बहुत अच्छा संरक्षक बन सकता है।",
+    "options": [
+      "He can become a very good protector",
+      "He should become a very good protector",
+      "He may become a very good protector",
+      "He must become a very good protector"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 376
+  },
+  {
+    "question": "तुम्हें अपने जीवन में यश रखना चाहिए।",
+    "options": [
+      "You should have fame in your life",
+      "You can have fame in your life",
+      "You may have fame in your life",
+      "You will have fame in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives fame advice.",
+    "id": 377
+  },
+  {
+    "question": "क्या मैं आपको अपनी सफलता बता सकता हूँ?",
+    "options": [
+      "May I tell you my success?",
+      "Can I tell you my success?",
+      "Could I tell you my success?",
+      "Might I tell you my success?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 378
+  },
+  {
+    "question": "वह बहुत अच्छा शिक्षक बन सकता है।",
+    "options": [
+      "He can become a very good teacher",
+      "He should become a very good teacher",
+      "He may become a very good teacher",
+      "He must become a very good teacher"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 379
+  },
+  {
+    "question": "हमें अपने जीवन में सद्भाव रखना चाहिए।",
+    "options": [
+      "We should have harmony in our life",
+      "We can have harmony in our life",
+      "We may have harmony in our life",
+      "We will have harmony in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives harmony advice.",
+    "id": 380
+  },
+  {
+    "question": "क्या तुम यह सब बदल सकते हो?",
+    "options": [
+      "Can you change all this?",
+      "Could you change all this?",
+      "May you change all this?",
+      "Should you change all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 381
+  },
+  {
+    "question": "वह बहुत अच्छा न्यायकर्ता बन सकता है।",
+    "options": [
+      "He can become a very good justice maker",
+      "He should become a very good justice maker",
+      "He may become a very good justice maker",
+      "He must become a very good justice maker"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 382
+  },
+  {
+    "question": "तुम्हें अपने जीवन में उन्नति रखनी चाहिए।",
+    "options": [
+      "You should have progress in your life",
+      "You can have progress in your life",
+      "You may have progress in your life",
+      "You will have progress in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives progress advice.",
+    "id": 383
+  },
+  {
+    "question": "क्या मैं आपको अपनी असफलता बता सकता हूँ?",
+    "options": [
+      "May I tell you my failure?",
+      "Can I tell you my failure?",
+      "Could I tell you my failure?",
+      "Might I tell you my failure?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 384
+  },
+  {
+    "question": "वह बहुत अच्छा संरक्षक बन सकता है।",
+    "options": [
+      "He can become a very good guardian",
+      "He should become a very good guardian",
+      "He may become a very good guardian",
+      "He must become a very good guardian"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 385
+  },
+  {
+    "question": "हमें अपने जीवन में समर्पण रखना चाहिए।",
+    "options": [
+      "We should have dedication in our life",
+      "We can have dedication in our life",
+      "We may have dedication in our life",
+      "We will have dedication in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives dedication advice.",
+    "id": 386
+  },
+  {
+    "question": "क्या तुम यह सब बढ़ा सकते हो?",
+    "options": [
+      "Can you increase all this?",
+      "Could you increase all this?",
+      "May you increase all this?",
+      "Should you increase all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 387
+  },
+  {
+    "question": "वह बहुत अच्छा मध्यस्थ बन सकता है।",
+    "options": [
+      "He can become a very good mediator",
+      "He should become a very good mediator",
+      "He may become a very good mediator",
+      "He must become a very good mediator"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 388
+  },
+  {
+    "question": "तुम्हें अपने जीवन में सफाई रखनी चाहिए।",
+    "options": [
+      "You should have cleanliness in your life",
+      "You can have cleanliness in your life",
+      "You may have cleanliness in your life",
+      "You will have cleanliness in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives cleanliness advice.",
+    "id": 389
+  },
+  {
+    "question": "क्या मैं आपको अपनी यात्रा बता सकता हूँ?",
+    "options": [
+      "May I tell you my journey?",
+      "Can I tell you my journey?",
+      "Could I tell you my journey?",
+      "Might I tell you my journey?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 390
+  },
+  {
+    "question": "वह बहुत अच्छा अन्वेषक बन सकता है।",
+    "options": [
+      "He can become a very good explorer",
+      "He should become a very good explorer",
+      "He may become a very good explorer",
+      "He must become a very good explorer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 391
+  },
+  {
+    "question": "हमें अपने जीवन में उदारता रखनी चाहिए।",
+    "options": [
+      "We should have generosity in our life",
+      "We can have generosity in our life",
+      "We may have generosity in our life",
+      "We will have generosity in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives generosity advice.",
+    "id": 392
+  },
+  {
+    "question": "क्या तुम यह सब घटा सकते हो?",
+    "options": [
+      "Can you reduce all this?",
+      "Could you reduce all this?",
+      "May you reduce all this?",
+      "Should you reduce all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 393
+  },
+  {
+    "question": "वह बहुत अच्छा विक्रेता बन सकता है।",
+    "options": [
+      "He can become a very good salesman",
+      "He should become a very good salesman",
+      "He may become a very good salesman",
+      "He must become a very good salesman"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 394
+  },
+  {
+    "question": "तुम्हें अपने जीवन में संस्कार रखने चाहिए।",
+    "options": [
+      "You should have values in your life",
+      "You can have values in your life",
+      "You may have values in your life",
+      "You will have values in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives values advice.",
+    "id": 395
+  },
+  {
+    "question": "क्या मैं आपको अपनी रूचि बता सकता हूँ?",
+    "options": [
+      "May I tell you my interest?",
+      "Can I tell you my interest?",
+      "Could I tell you my interest?",
+      "Might I tell you my interest?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 396
+  },
+  {
+    "question": "वह बहुत अच्छा कारीगर बन सकता है।",
+    "options": [
+      "He can become a very good craftsman",
+      "He should become a very good craftsman",
+      "He may become a very good craftsman",
+      "He must become a very good craftsman"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 397
+  },
+  {
+    "question": "हमें अपने जीवन में नम्रता रखनी चाहिए।",
+    "options": [
+      "We should have humility in our life",
+      "We can have humility in our life",
+      "We may have humility in our life",
+      "We will have humility in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives humility advice.",
+    "id": 398
+  },
+  {
+    "question": "क्या तुम यह सब माप सकते हो?",
+    "options": [
+      "Can you measure all this?",
+      "Could you measure all this?",
+      "May you measure all this?",
+      "Should you measure all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 399
+  },
+  {
+    "question": "वह बहुत अच्छा लेखाकार बन सकता है।",
+    "options": [
+      "He can become a very good accountant",
+      "He should become a very good accountant",
+      "He may become a very good accountant",
+      "He must become a very good accountant"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 400
+  },
+  {
+    "question": "तुम्हें अपने जीवन में विवेक रखना चाहिए।",
+    "options": [
+      "You should have wisdom in your life",
+      "You can have wisdom in your life",
+      "You may have wisdom in your life",
+      "You will have wisdom in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives wisdom advice.",
+    "id": 401
+  },
+  {
+    "question": "क्या मैं आपको अपनी योग्यता बता सकता हूँ?",
+    "options": [
+      "May I tell you my qualification?",
+      "Can I tell you my qualification?",
+      "Could I tell you my qualification?",
+      "Might I tell you my qualification?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 402
+  },
+  {
+    "question": "वह बहुत अच्छा वास्तुकार बन सकता है।",
+    "options": [
+      "He can become a very good architect",
+      "He should become a very good architect",
+      "He may become a very good architect",
+      "He must become a very good architect"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 403
+  },
+  {
+    "question": "हमें अपने जीवन में चेतना रखनी चाहिए।",
+    "options": [
+      "We should have consciousness in our life",
+      "We can have consciousness in our life",
+      "We may have consciousness in our life",
+      "We will have consciousness in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives consciousness advice.",
+    "id": 404
+  },
+  {
+    "question": "क्या तुम यह सब तौल सकते हो?",
+    "options": [
+      "Can you weigh all this?",
+      "Could you weigh all this?",
+      "May you weigh all this?",
+      "Should you weigh all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 405
+  },
+  {
+    "question": "वह बहुत अच्छा निवेशक बन सकता है।",
+    "options": [
+      "He can become a very good investor",
+      "He should become a very good investor",
+      "He may become a very good investor",
+      "He must become a very good investor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 406
+  },
+  {
+    "question": "तुम्हें अपने जीवन में संतुष्टि रखनी चाहिए।",
+    "options": [
+      "You should have satisfaction in your life",
+      "You can have satisfaction in your life",
+      "You may have satisfaction in your life",
+      "You will have satisfaction in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives satisfaction advice.",
+    "id": 407
+  },
+  {
+    "question": "क्या मैं आपको अपनी प्राथमिकता बता सकता हूँ?",
+    "options": [
+      "May I tell you my priority?",
+      "Can I tell you my priority?",
+      "Could I tell you my priority?",
+      "Might I tell you my priority?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 408
+  },
+  {
+    "question": "वह बहुत अच्छा विश्लेषक बन सकता है।",
+    "options": [
+      "He can become a very good analyst",
+      "He should become a very good analyst",
+      "He may become a very good analyst",
+      "He must become a very good analyst"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 409
+  },
+  {
+    "question": "हमें अपने जीवन में आत्मनिर्भरता रखनी चाहिए।",
+    "options": [
+      "We should have self-reliance in our life",
+      "We can have self-reliance in our life",
+      "We may have self-reliance in our life",
+      "We will have self-reliance in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives self-reliance advice.",
+    "id": 410
+  },
+  {
+    "question": "क्या तुम यह सब गुणा कर सकते हो?",
+    "options": [
+      "Can you multiply all this?",
+      "Could you multiply all this?",
+      "May you multiply all this?",
+      "Should you multiply all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 411
+  },
+  {
+    "question": "वह बहुत अच्छा लेखक बन सकता है।",
+    "options": [
+      "He can become a very good writer",
+      "He should become a very good writer",
+      "He may become a very good writer",
+      "He must become a very good writer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 412
+  },
+  {
+    "question": "तुम्हें अपने जीवन में प्रसन्नता रखनी चाहिए।",
+    "options": [
+      "You should have cheerfulness in your life",
+      "You can have cheerfulness in your life",
+      "You may have cheerfulness in your life",
+      "You will have cheerfulness in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives cheerfulness advice.",
+    "id": 413
+  },
+  {
+    "question": "क्या मैं आपको अपनी आदत बता सकता हूँ?",
+    "options": [
+      "May I tell you my habit?",
+      "Can I tell you my habit?",
+      "Could I tell you my habit?",
+      "Might I tell you my habit?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 414
+  },
+  {
+    "question": "वह बहुत अच्छा चित्रकार बन सकता है।",
+    "options": [
+      "He can become a very good painter",
+      "He should become a very good painter",
+      "He may become a very good painter",
+      "He must become a very good painter"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 415
+  },
+  {
+    "question": "हमें अपने जीवन में आशावाद रखना चाहिए।",
+    "options": [
+      "We should have optimism in our life",
+      "We can have optimism in our life",
+      "We may have optimism in our life",
+      "We will have optimism in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives optimism advice.",
+    "id": 416
+  },
+  {
+    "question": "क्या तुम यह सब भाग सकते हो?",
+    "options": [
+      "Can you divide all this?",
+      "Could you divide all this?",
+      "May you divide all this?",
+      "Should you divide all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 417
+  },
+  {
+    "question": "वह बहुत अच्छा गायक बन सकता है।",
+    "options": [
+      "He can become a very good singer",
+      "He should become a very good singer",
+      "He may become a very good singer",
+      "He must become a very good singer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 418
+  },
+  {
+    "question": "तुम्हें अपने जीवन में स्फूर्ति रखनी चाहिए।",
+    "options": [
+      "You should have energy in your life",
+      "You can have energy in your life",
+      "You may have energy in your life",
+      "You will have energy in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives energy advice.",
+    "id": 419
+  },
+  {
+    "question": "क्या मैं आपको अपनी प्रतिक्रिया बता सकता हूँ?",
+    "options": [
+      "May I tell you my reaction?",
+      "Can I tell you my reaction?",
+      "Could I tell you my reaction?",
+      "Might I tell you my reaction?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 420
+  },
+  {
+    "question": "वह बहुत अच्छा नर्तक बन सकता है।",
+    "options": [
+      "He can become a very good dancer",
+      "He should become a very good dancer",
+      "He may become a very good dancer",
+      "He must become a very good dancer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 421
+  },
+  {
+    "question": "हमें अपने जीवन में साहस रखना चाहिए।",
+    "options": [
+      "We should have courage in our life",
+      "We can have courage in our life",
+      "We may have courage in our life",
+      "We will have courage in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives courage advice.",
+    "id": 422
+  },
+  {
+    "question": "क्या तुम यह सब भेज सकते हो?",
+    "options": [
+      "Can you send all this?",
+      "Could you send all this?",
+      "May you send all this?",
+      "Should you send all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 423
+  },
+  {
+    "question": "वह बहुत अच्छा अभिनेता बन सकता है।",
+    "options": [
+      "He can become a very good actor",
+      "He should become a very good actor",
+      "He may become a very good actor",
+      "He must become a very good actor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 424
+  },
+  {
+    "question": "तुम्हें अपने जीवन में धैर्य रखना चाहिए।",
+    "options": [
+      "You should have patience in your life",
+      "You can have patience in your life",
+      "You may have patience in your life",
+      "You will have patience in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives patience advice.",
+    "id": 425
+  },
+  {
+    "question": "क्या मैं आपको अपनी समीक्षा बता सकता हूँ?",
+    "options": [
+      "May I tell you my review?",
+      "Can I tell you my review?",
+      "Could I tell you my review?",
+      "Might I tell you my review?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 426
+  },
+  {
+    "question": "वह बहुत अच्छा एथलीट बन सकता है।",
+    "options": [
+      "He can become a very good athlete",
+      "He should become a very good athlete",
+      "He may become a very good athlete",
+      "He must become a very good athlete"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 427
+  },
+  {
+    "question": "हमें अपने जीवन में संयम रखना चाहिए।",
+    "options": [
+      "We should have restraint in our life",
+      "We can have restraint in our life",
+      "We may have restraint in our life",
+      "We will have restraint in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives restraint advice.",
+    "id": 428
+  },
+  {
+    "question": "क्या तुम यह सब प्राप्त कर सकते हो?",
+    "options": [
+      "Can you obtain all this?",
+      "Could you obtain all this?",
+      "May you obtain all this?",
+      "Should you obtain all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 429
+  },
+  {
+    "question": "वह बहुत अच्छा चिकित्सक बन सकता है।",
+    "options": [
+      "He can become a very good doctor",
+      "He should become a very good doctor",
+      "He may become a very good doctor",
+      "He must become a very good doctor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 430
+  },
+  {
+    "question": "तुम्हें अपने जीवन में सफाई रखनी चाहिए।",
+    "options": [
+      "You should have cleanliness in your life",
+      "You can have cleanliness in your life",
+      "You may have cleanliness in your life",
+      "You will have cleanliness in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives cleanliness advice.",
+    "id": 431
+  },
+  {
+    "question": "क्या मैं आपको अपनी रणनीति बता सकता हूँ?",
+    "options": [
+      "May I tell you my strategy?",
+      "Can I tell you my strategy?",
+      "Could I tell you my strategy?",
+      "Might I tell you my strategy?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 432
+  },
+  {
+    "question": "वह बहुत अच्छा प्राध्यापक बन सकता है।",
+    "options": [
+      "He can become a very good professor",
+      "He should become a very good professor",
+      "He may become a very good professor",
+      "He must become a very good professor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 433
+  },
+  {
+    "question": "हमें अपने जीवन में शिष्टता रखनी चाहिए।",
+    "options": [
+      "We should have politeness in our life",
+      "We can have politeness in our life",
+      "We may have politeness in our life",
+      "We will have politeness in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives politeness advice.",
+    "id": 434
+  },
+  {
+    "question": "क्या तुम यह सब बचा सकते हो?",
+    "options": [
+      "Can you save all this?",
+      "Could you save all this?",
+      "May you save all this?",
+      "Should you save all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 435
+  },
+  {
+    "question": "वह बहुत अच्छा विद्वान बन सकता है।",
+    "options": [
+      "He can become a very good scholar",
+      "He should become a very good scholar",
+      "He may become a very good scholar",
+      "He must become a very good scholar"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 436
+  },
+  {
+    "question": "तुम्हें अपने जीवन में साहसिकता रखनी चाहिए।",
+    "options": [
+      "You should have adventurousness in your life",
+      "You can have adventurousness in your life",
+      "You may have adventurousness in your life",
+      "You will have adventurousness in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives adventurousness advice.",
+    "id": 437
+  },
+  {
+    "question": "क्या मैं आपको अपनी योजना बता सकता हूँ?",
+    "options": [
+      "May I tell you my scheme?",
+      "Can I tell you my scheme?",
+      "Could I tell you my scheme?",
+      "Might I tell you my scheme?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 438
+  },
+  {
+    "question": "वह बहुत अच्छा कवि बन सकता है।",
+    "options": [
+      "He can become a very good poet",
+      "He should become a very good poet",
+      "He may become a very good poet",
+      "He must become a very good poet"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 439
+  },
+  {
+    "question": "हमें अपने जीवन में एकता रखनी चाहिए।",
+    "options": [
+      "We should have unity in our life",
+      "We can have unity in our life",
+      "We may have unity in our life",
+      "We will have unity in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives unity advice.",
+    "id": 440
+  },
+  {
+    "question": "क्या तुम यह सब पहचान सकते हो?",
+    "options": [
+      "Can you identify all this?",
+      "Could you identify all this?",
+      "May you identify all this?",
+      "Should you identify all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 441
+  },
+  {
+    "question": "वह बहुत अच्छा उद्यमी बन सकता है।",
+    "options": [
+      "He can become a very good entrepreneur",
+      "He should become a very good entrepreneur",
+      "He may become a very good entrepreneur",
+      "He must become a very good entrepreneur"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 442
+  },
+  {
+    "question": "तुम्हें अपने जीवन में समर्पण रखना चाहिए।",
+    "options": [
+      "You should have dedication in your life",
+      "You can have dedication in your life",
+      "You may have dedication in your life",
+      "You will have dedication in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives dedication advice.",
+    "id": 443
+  },
+  {
+    "question": "क्या मैं आपको अपनी अनुभूति बता सकता हूँ?",
+    "options": [
+      "May I tell you my realization?",
+      "Can I tell you my realization?",
+      "Could I tell you my realization?",
+      "Might I tell you my realization?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 444
+  },
+  {
+    "question": "वह बहुत अच्छा शिल्पी बन सकता है।",
+    "options": [
+      "He can become a very good artisan",
+      "He should become a very good artisan",
+      "He may become a very good artisan",
+      "He must become a very good artisan"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 445
+  },
+  {
+    "question": "हमें अपने जीवन में सहिष्णुता रखनी चाहिए।",
+    "options": [
+      "We should have tolerance in our life",
+      "We can have tolerance in our life",
+      "We may have tolerance in our life",
+      "We will have tolerance in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives tolerance advice.",
+    "id": 446
+  },
+  {
+    "question": "क्या तुम यह सब बना सकते हो?",
+    "options": [
+      "Can you create all this?",
+      "Could you create all this?",
+      "May you create all this?",
+      "Should you create all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 447
+  },
+  {
+    "question": "वह बहुत अच्छा रसायनज्ञ बन सकता है।",
+    "options": [
+      "He can become a very good chemist",
+      "He should become a very good chemist",
+      "He may become a very good chemist",
+      "He must become a very good chemist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 448
+  },
+  {
+    "question": "तुम्हें अपने जीवन में संवेदना रखनी चाहिए।",
+    "options": [
+      "You should have sensitivity in your life",
+      "You can have sensitivity in your life",
+      "You may have sensitivity in your life",
+      "You will have sensitivity in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives sensitivity advice.",
+    "id": 449
+  },
+  {
+    "question": "क्या मैं आपको अपनी धारणा बता सकता हूँ?",
+    "options": [
+      "May I tell you my perception?",
+      "Can I tell you my perception?",
+      "Could I tell you my perception?",
+      "Might I tell you my perception?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 450
+  },
+  {
+    "question": "वह बहुत अच्छा जीवविज्ञानी बन सकता है।",
+    "options": [
+      "He can become a very good biologist",
+      "He should become a very good biologist",
+      "He may become a very good biologist",
+      "He must become a very good biologist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 451
+  },
+  {
+    "question": "हमें अपने जीवन में निष्पक्षता रखनी चाहिए।",
+    "options": [
+      "We should have fairness in our life",
+      "We can have fairness in our life",
+      "We may have fairness in our life",
+      "We will have fairness in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives fairness advice.",
+    "id": 452
+  },
+  {
+    "question": "क्या तुम यह सब डिजाइन कर सकते हो?",
+    "options": [
+      "Can you design all this?",
+      "Could you design all this?",
+      "May you design all this?",
+      "Should you design all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 453
+  },
+  {
+    "question": "वह बहुत अच्छा भौतिक विज्ञानी बन सकता है।",
+    "options": [
+      "He can become a very good physicist",
+      "He should become a very good physicist",
+      "He may become a very good physicist",
+      "He must become a very good physicist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 454
+  },
+  {
+    "question": "तुम्हें अपने जीवन में सदाचार रखना चाहिए।",
+    "options": [
+      "You should have virtue in your life",
+      "You can have virtue in your life",
+      "You may have virtue in your life",
+      "You will have virtue in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives virtue advice.",
+    "id": 455
+  },
+  {
+    "question": "क्या मैं आपको अपनी मान्यता बता सकता हूँ?",
+    "options": [
+      "May I tell you my belief?",
+      "Can I tell you my belief?",
+      "Could I tell you my belief?",
+      "Might I tell you my belief?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 456
+  },
+  {
+    "question": "वह बहुत अच्छा गणितज्ञ बन सकता है।",
+    "options": [
+      "He can become a very good mathematician",
+      "He should become a very good mathematician",
+      "He may become a very good mathematician",
+      "He must become a very good mathematician"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 457
+  },
+  {
+    "question": "हमें अपने जीवन में शालीनता रखनी चाहिए।",
+    "options": [
+      "We should have decency in our life",
+      "We can have decency in our life",
+      "We may have decency in our life",
+      "We will have decency in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives decency advice.",
+    "id": 458
+  },
+  {
+    "question": "क्या तुम यह सब संशोधित कर सकते हो?",
+    "options": [
+      "Can you revise all this?",
+      "Could you revise all this?",
+      "May you revise all this?",
+      "Should you revise all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 459
+  },
+  {
+    "question": "वह बहुत अच्छा इतिहासकार बन सकता है।",
+    "options": [
+      "He can become a very good historian",
+      "He should become a very good historian",
+      "He may become a very good historian",
+      "He must become a very good historian"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 460
+  },
+  {
+    "question": "तुम्हें अपने जीवन में आत्मविश्वास रखना चाहिए।",
+    "options": [
+      "You should have self-confidence in your life",
+      "You can have self-confidence in your life",
+      "You may have self-confidence in your life",
+      "You will have self-confidence in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives self-confidence advice.",
+    "id": 461
+  },
+  {
+    "question": "क्या मैं आपको अपनी परिकल्पना बता सकता हूँ?",
+    "options": [
+      "May I tell you my hypothesis?",
+      "Can I tell you my hypothesis?",
+      "Could I tell you my hypothesis?",
+      "Might I tell you my hypothesis?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 462
+  },
+  {
+    "question": "वह बहुत अच्छा भूगोलवेत्ता बन सकता है।",
+    "options": [
+      "He can become a very good geographer",
+      "He should become a very good geographer",
+      "He may become a very good geographer",
+      "He must become a very good geographer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 463
+  },
+  {
+    "question": "हमें अपने जीवन में क्षमा रखनी चाहिए।",
+    "options": [
+      "We should have forgiveness in our life",
+      "We can have forgiveness in our life",
+      "We may have forgiveness in our life",
+      "We will have forgiveness in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives forgiveness advice.",
+    "id": 464
+  },
+  {
+    "question": "क्या तुम यह सब नियंत्रित कर सकते हो?",
+    "options": [
+      "Can you control all this?",
+      "Could you control all this?",
+      "May you control all this?",
+      "Should you control all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 465
+  },
+  {
+    "question": "वह बहुत अच्छा मनोरंजनकर्ता बन सकता है।",
+    "options": [
+      "He can become a very good entertainer",
+      "He should become a very good entertainer",
+      "He may become a very good entertainer",
+      "He must become a very good entertainer"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 466
+  },
+  {
+    "question": "तुम्हें अपने जीवन में न्याय रखना चाहिए।",
+    "options": [
+      "You should have justice in your life",
+      "You can have justice in your life",
+      "You may have justice in your life",
+      "You will have justice in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives justice advice.",
+    "id": 467
+  },
+  {
+    "question": "क्या मैं आपको अपना तर्क बता सकता हूँ?",
+    "options": [
+      "May I tell you my logic?",
+      "Can I tell you my logic?",
+      "Could I tell you my logic?",
+      "Might I tell you my logic?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 468
+  },
+  {
+    "question": "वह बहुत अच्छा पुरातत्ववेत्ता बन सकता है।",
+    "options": [
+      "He can become a very good archaeologist",
+      "He should become a very good archaeologist",
+      "He may become a very good archaeologist",
+      "He must become a very good archaeologist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 469
+  },
+  {
+    "question": "हमें अपने जीवन में श्रद्धा रखनी चाहिए।",
+    "options": [
+      "We should have reverence in our life",
+      "We can have reverence in our life",
+      "We may have reverence in our life",
+      "We will have reverence in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives reverence advice.",
+    "id": 470
+  },
+  {
+    "question": "क्या तुम यह सब समाप्त कर सकते हो?",
+    "options": [
+      "Can you finish all this?",
+      "Could you finish all this?",
+      "May you finish all this?",
+      "Should you finish all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 471
+  },
+  {
+    "question": "वह बहुत अच्छा समाजशास्त्री बन सकता है।",
+    "options": [
+      "He can become a very good sociologist",
+      "He should become a very good sociologist",
+      "He may become a very good sociologist",
+      "He must become a very good sociologist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 472
+  },
+  {
+    "question": "तुम्हें अपने जीवन में कर्तव्य रखना चाहिए।",
+    "options": [
+      "You should have duty in your life",
+      "You can have duty in your life",
+      "You may have duty in your life",
+      "You will have duty in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives duty advice.",
+    "id": 473
+  },
+  {
+    "question": "क्या मैं आपको अपना निष्कर्ष बता सकता हूँ?",
+    "options": [
+      "May I tell you my conclusion?",
+      "Can I tell you my conclusion?",
+      "Could I tell you my conclusion?",
+      "Might I tell you my conclusion?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 474
+  },
+  {
+    "question": "वह बहुत अच्छा मनोवैज्ञानिक बन सकता है।",
+    "options": [
+      "He can become a very good psychologist",
+      "He should become a very good psychologist",
+      "He may become a very good psychologist",
+      "He must become a very good psychologist"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 475
+  },
+  {
+    "question": "हमें अपने जीवन में समानता रखनी चाहिए।",
+    "options": [
+      "We should have equality in our life",
+      "We can have equality in our life",
+      "We may have equality in our life",
+      "We will have equality in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives equality advice.",
+    "id": 476
+  },
+  {
+    "question": "क्या तुम यह सब स्थापित कर सकते हो?",
+    "options": [
+      "Can you establish all this?",
+      "Could you establish all this?",
+      "May you establish all this?",
+      "Should you establish all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 477
+  },
+  {
+    "question": "वह बहुत अच्छा दार्शनिक बन सकता है।",
+    "options": [
+      "He can become a very good philosopher",
+      "He should become a very good philosopher",
+      "He may become a very good philosopher",
+      "He must become a very good philosopher"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 478
+  },
+  {
+    "question": "तुम्हें अपने जीवन में संतुलन रखना चाहिए।",
+    "options": [
+      "You should have balance in your life",
+      "You can have balance in your life",
+      "You may have balance in your life",
+      "You will have balance in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives balance advice.",
+    "id": 479
+  },
+  {
+    "question": "क्या मैं आपको अपनी परिभाषा बता सकता हूँ?",
+    "options": [
+      "May I tell you my definition?",
+      "Can I tell you my definition?",
+      "Could I tell you my definition?",
+      "Might I tell you my definition?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 480
+  },
+  {
+    "question": "वह बहुत अच्छा राजनीतिज्ञ बन सकता है।",
+    "options": [
+      "He can become a very good politician",
+      "He should become a very good politician",
+      "He may become a very good politician",
+      "He must become a very good politician"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 481
+  },
+  {
+    "question": "हमें अपने जीवन में प्रेरणा रखनी चाहिए।",
+    "options": [
+      "We should have inspiration in our life",
+      "We can have inspiration in our life",
+      "We may have inspiration in our life",
+      "We will have inspiration in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives inspiration advice.",
+    "id": 482
+  },
+  {
+    "question": "क्या तुम यह सब प्रबंधित कर सकते हो?",
+    "options": [
+      "Can you manage all this?",
+      "Could you manage all this?",
+      "May you manage all this?",
+      "Should you manage all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 483
+  },
+  {
+    "question": "वह बहुत अच्छा आलोचक बन सकता है।",
+    "options": [
+      "He can become a very good critic",
+      "He should become a very good critic",
+      "He may become a very good critic",
+      "He must become a very good critic"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 484
+  },
+  {
+    "question": "तुम्हें अपने जीवन में स्पष्टता रखनी चाहिए।",
+    "options": [
+      "You should have clarity in your life",
+      "You can have clarity in your life",
+      "You may have clarity in your life",
+      "You will have clarity in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives clarity advice.",
+    "id": 485
+  },
+  {
+    "question": "क्या मैं आपको अपनी व्याख्या बता सकता हूँ?",
+    "options": [
+      "May I tell you my interpretation?",
+      "Can I tell you my interpretation?",
+      "Could I tell you my interpretation?",
+      "Might I tell you my interpretation?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 486
+  },
+  {
+    "question": "वह बहुत अच्छा संपादक बन सकता है।",
+    "options": [
+      "He can become a very good editor",
+      "He should become a very good editor",
+      "He may become a very good editor",
+      "He must become a very good editor"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 487
+  },
+  {
+    "question": "हमें अपने जीवन में स्वतंत्रता रखनी चाहिए।",
+    "options": [
+      "We should have freedom in our life",
+      "We can have freedom in our life",
+      "We may have freedom in our life",
+      "We will have freedom in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives freedom advice.",
+    "id": 488
+  },
+  {
+    "question": "क्या तुम यह सब संतुलित कर सकते हो?",
+    "options": [
+      "Can you balance all this?",
+      "Could you balance all this?",
+      "May you balance all this?",
+      "Should you balance all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 489
+  },
+  {
+    "question": "वह बहुत अच्छा प्रकाशक बन सकता है।",
+    "options": [
+      "He can become a very good publisher",
+      "He should become a very good publisher",
+      "He may become a very good publisher",
+      "He must become a very good publisher"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 490
+  },
+  {
+    "question": "तुम्हें अपने जीवन में आनंद रखना चाहिए।",
+    "options": [
+      "You should have joy in your life",
+      "You can have joy in your life",
+      "You may have joy in your life",
+      "You will have joy in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives joy advice.",
+    "id": 491
+  },
+  {
+    "question": "क्या मैं आपको अपनी दृष्टि बता सकता हूँ?",
+    "options": [
+      "May I tell you my vision?",
+      "Can I tell you my vision?",
+      "Could I tell you my vision?",
+      "Might I tell you my vision?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 492
+  },
+  {
+    "question": "वह बहुत अच्छा निर्देशक बन सकता है।",
+    "options": [
+      "He can become a very good director",
+      "He should become a very good director",
+      "He may become a very good director",
+      "He must become a very good director"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 493
+  },
+  {
+    "question": "हमें अपने जीवन में सौंदर्य रखना चाहिए।",
+    "options": [
+      "We should have beauty in our life",
+      "We can have beauty in our life",
+      "We may have beauty in our life",
+      "We will have beauty in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives beauty advice.",
+    "id": 494
+  },
+  {
+    "question": "क्या तुम यह सब सिद्ध कर सकते हो?",
+    "options": [
+      "Can you prove all this?",
+      "Could you prove all this?",
+      "May you prove all this?",
+      "Should you prove all this?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can you' asks about ability.",
+    "id": 495
+  },
+  {
+    "question": "वह बहुत अच्छा फिल्म निर्माता बन सकता है।",
+    "options": [
+      "He can become a very good filmmaker",
+      "He should become a very good filmmaker",
+      "He may become a very good filmmaker",
+      "He must become a very good filmmaker"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 496
+  },
+  {
+    "question": "तुम्हें अपने जीवन में ऊर्जा रखनी चाहिए।",
+    "options": [
+      "You should have energy in your life",
+      "You can have energy in your life",
+      "You may have energy in your life",
+      "You will have energy in your life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives energy advice.",
+    "id": 497
+  },
+  {
+    "question": "क्या मैं आपको अपनी कल्पना बता सकता हूँ?",
+    "options": [
+      "May I tell you my imagination?",
+      "Can I tell you my imagination?",
+      "Could I tell you my imagination?",
+      "Might I tell you my imagination?"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May I' is a polite request.",
+    "id": 498
+  },
+  {
+    "question": "वह बहुत अच्छा संगीतकार बन सकता है।",
+    "options": [
+      "He can become a very good musician",
+      "He should become a very good musician",
+      "He may become a very good musician",
+      "He must become a very good musician"
+    ],
+    "correctIndex": 2,
+    "explanation": "'May' expresses possibility.",
+    "id": 499
+  },
+  {
+    "question": "हमें अपने जीवन में शांति रखनी चाहिए।",
+    "options": [
+      "We should have peace in our life",
+      "We can have peace in our life",
+      "We may have peace in our life",
+      "We will have peace in our life"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Should' gives peace advice.",
+    "id": 500
+  }
+]
