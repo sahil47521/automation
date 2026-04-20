@@ -1,7 +1,7 @@
-const { exec } = require('child_process');
-const path = require('path');
-const fs = require('fs');
 const { createCanvas, loadImage } = require('canvas');
+const { exec } = require('child_process');
+const fs = require('fs');
+const path = require('path');
 const config = require('./config');
 
 class VideoRenderer {
@@ -16,12 +16,29 @@ class VideoRenderer {
 
   async getAudioDuration(audioPath) {
     return new Promise((resolve, reject) => {
-      const cmd = `ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "${audioPath}"`;
-      exec(cmd, (err, stdout) => {
+      exec(`ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "${audioPath}"`, (err, stdout) => {
         if (err) return reject(err);
-        resolve(parseFloat(stdout.trim()));
+        resolve(parseFloat(stdout));
       });
     });
+  }
+
+  wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+    const words = text.split(' ');
+    let line = '';
+    for (let n = 0; n < words.length; n++) {
+      const testLine = line + words[n] + ' ';
+      const metrics = ctx.measureText(testLine);
+      const testWidth = metrics.width;
+      if (testWidth > maxWidth && n > 0) {
+        ctx.fillText(line, x, y);
+        line = words[n] + ' ';
+        y += lineHeight;
+      } else {
+        line = testLine;
+      }
+    }
+    ctx.fillText(line, x, y);
   }
 
   async render(quiz, audioPath, filename) {
@@ -36,74 +53,67 @@ class VideoRenderer {
     const duration = await this.getAudioDuration(audioPath);
     console.log(`[Renderer] Audio duration: ${duration}s. Using BG Color: ${bgColor}. Rendering video...`);
 
-    const width = 1080;
-    const height = 1920;
+    const width = 480; // Ultra-fast for Render Free
+    const height = 854;
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext('2d');
 
     // Load App Icon
     let appIcon = null;
     try {
-      appIcon = await loadImage(this.appIconPath);
+      if (fs.existsSync(this.appIconPath)) {
+        appIcon = await loadImage(this.appIconPath);
+      }
     } catch (e) {
       console.warn('[Renderer] Could not load app icon, skipping.');
     }
 
     const drawBase = () => {
-      // Background Solid Color
       ctx.fillStyle = bgColor;
       ctx.fillRect(0, 0, width, height);
 
-      // Add subtle overlay gradient
-      const grad = ctx.createLinearGradient(0, 0, 0, height);
-      grad.addColorStop(0, 'rgba(0,0,0,0.2)');
-      grad.addColorStop(1, 'rgba(0,0,0,0.5)');
-      ctx.fillStyle = grad;
-      ctx.fillStyle = bgColor;
-      ctx.fillRect(0, 0, width, height);
-
-      // App Icon and Play Store Text (Higher up)
+      // App Icon and Play Store Text
       if (appIcon) {
-        const iconSize = 100;
-        ctx.drawImage(appIcon, width / 2 - iconSize - 120, height - 350, iconSize, iconSize);
+        const iconSize = 70;
+        ctx.drawImage(appIcon, width / 2 - iconSize - 80, height - 250, iconSize, iconSize);
       }
       
       ctx.fillStyle = '#FFFFFF';
-      ctx.font = 'bold 22px Helvetica';
+      ctx.font = 'bold 16px Helvetica';
       ctx.textAlign = 'left';
-      ctx.fillText('Available on Play Store', width / 2 - 100, height - 310);
-      ctx.font = '18px Helvetica';
-      ctx.fillText('Learn English : Angrezi Pitara', width / 2 - 100, height - 280);
+      ctx.fillText('Available on Play Store', width / 2 - 70, height - 225);
+      ctx.font = '14px Helvetica';
+      ctx.fillText('Learn English : Angrezi Pitara', width / 2 - 70, height - 205);
 
       // Footer Telegram
       ctx.fillStyle = colors.secondary;
-      ctx.font = '24px Helvetica';
+      ctx.font = '18px Helvetica';
       ctx.textAlign = 'right';
-      ctx.fillText(brand.telegram, width - 40, height - 240);
+      ctx.fillText(brand.telegram, width - 30, height - 160);
     };
 
     const drawQuestion = () => {
       ctx.fillStyle = colors.text;
-      ctx.font = 'bold 45px Helvetica'; // Scaled
+      ctx.font = 'bold 32px Helvetica';
       ctx.textAlign = 'center';
-      this.wrapText(ctx, quiz.question, width / 2, 280, width - 80, 55);
+      this.wrapText(ctx, quiz.question, width / 2, 200, width - 60, 40);
     };
 
     const drawOptions = () => {
       drawBase();
       drawQuestion();
       ctx.textAlign = 'left';
-      const startY = 600; // Scaled
+      const startY = 450;
       quiz.options.forEach((opt, i) => {
-        const y = startY + (i * 90); // Reduced spacing
+        const y = startY + (i * 65);
         // Bullet
         ctx.fillStyle = colors.accent;
-        ctx.font = 'bold 38px Helvetica';
-        ctx.fillText(`${String.fromCharCode(65 + i)}.`, 80, y);
+        ctx.font = 'bold 28px Helvetica';
+        ctx.fillText(`${String.fromCharCode(65 + i)}.`, 50, y);
         // Option Text
         ctx.fillStyle = colors.text;
-        ctx.font = '38px Helvetica';
-        ctx.fillText(opt, 140, y);
+        ctx.font = '28px Helvetica';
+        ctx.fillText(opt, 90, y);
       });
     };
 
@@ -111,19 +121,19 @@ class VideoRenderer {
       ctx.fillStyle = bgColor;
       ctx.fillRect(0, 0, width, height);
       if (appIcon) {
-        const logoSize = 250;
-        ctx.drawImage(appIcon, width / 2 - logoSize / 2, height / 2 - logoSize - 50, logoSize, logoSize);
+        const logoSize = 180;
+        ctx.drawImage(appIcon, width / 2 - logoSize / 2, height / 2 - logoSize - 30, logoSize, logoSize);
       }
       ctx.fillStyle = '#FFFFFF';
-      ctx.font = 'bold 40px Helvetica';
-      ctx.textAlign = 'center';
-      ctx.fillText(brand.name, width / 2, height / 2 + 50);
-      ctx.font = '28px Helvetica';
-      ctx.fillStyle = colors.secondary;
-      ctx.fillText('Available on Play Store', width / 2, height / 2 + 100);
       ctx.font = 'bold 30px Helvetica';
+      ctx.textAlign = 'center';
+      ctx.fillText(brand.name, width / 2, height / 2 + 30);
+      ctx.font = '20px Helvetica';
+      ctx.fillStyle = colors.secondary;
+      ctx.fillText('Available on Play Store', width / 2, height / 2 + 70);
+      ctx.font = 'bold 22px Helvetica';
       ctx.fillStyle = colors.accent;
-      ctx.fillText(brand.telegram, width / 2, height / 2 + 180);
+      ctx.fillText(brand.telegram, width / 2, height / 2 + 130);
     };
 
     // Frame 1: Question
@@ -132,7 +142,7 @@ class VideoRenderer {
     const frame1Path = path.join(this.tempDir, `frame1_${filename}.png`);
     fs.writeFileSync(frame1Path, canvas.toBuffer('image/png'));
 
-    // Frame 2: Question + Options (Will be used for Quiz + CTA audio parts)
+    // Frame 2: Question + Options
     drawOptions();
     const frame2Path = path.join(this.tempDir, `frame2_${filename}.png`);
     fs.writeFileSync(frame2Path, canvas.toBuffer('image/png'));
@@ -143,10 +153,6 @@ class VideoRenderer {
     fs.writeFileSync(frame3Path, canvas.toBuffer('image/png'));
 
     return new Promise((resolve, reject) => {
-      // Timing:
-      // f1 (Intro): 3s
-      // f3 (Branding): Final 10s
-      // f2 (Options + CTA): Everything else
       const f1Dur = 3;
       const f3Dur = 10;
       const f2Dur = Math.max(1, duration - f1Dur - f3Dur);
@@ -156,7 +162,6 @@ class VideoRenderer {
         `[1:v]trim=duration=${f2Dur},setpts=PTS-STARTPTS[v2]`,
         `[2:v]trim=duration=${f3Dur + 2},setpts=PTS-STARTPTS[v3]`,
         `[v1][v2][v3]concat=n=3:v=1:a=0[v]`,
-        // Mix Audio: Voice (map 3) + Music (map 4)
         `[4:a]volume=0.04,aloop=loop=-1:size=2e9[bg]`,
         `[3:a][bg]amix=inputs=2:duration=shortest[a]`
       ].join(';');
@@ -181,7 +186,6 @@ class VideoRenderer {
           console.error('[Renderer] FFmpeg Error:', stderr);
           return reject(new Error(`FFmpeg failed: ${err.message}`));
         }
-        // Cleanup frames
         [frame1Path, frame2Path, frame3Path].forEach(f => {
           if (fs.existsSync(f)) fs.unlinkSync(f);
         });
@@ -190,24 +194,6 @@ class VideoRenderer {
         resolve(outputPath);
       });
     });
-  }
-
-  wrapText(ctx, text, x, y, maxWidth, lineHeight) {
-    const words = text.split(' ');
-    let line = '';
-    for (let n = 0; n < words.length; n++) {
-      let testLine = line + words[n] + ' ';
-      let metrics = ctx.measureText(testLine);
-      let testWidth = metrics.width;
-      if (testWidth > maxWidth && n > 0) {
-        ctx.fillText(line, x, y);
-        line = words[n] + ' ';
-        y += lineHeight;
-      } else {
-        line = testLine;
-      }
-    }
-    ctx.fillText(line, x, y);
   }
 }
 
