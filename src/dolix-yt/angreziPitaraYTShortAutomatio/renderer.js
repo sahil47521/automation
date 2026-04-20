@@ -24,7 +24,7 @@ class VideoRenderer {
     });
   }
 
-  async render(quizItem, audioPath, filename) {
+  async render(quiz, audioPath, filename) {
     const outputPath = path.join(this.outputDir, `${filename}.mp4`);
     const { colors, darkSoftBGColors } = config.design;
     const { brand } = config;
@@ -59,78 +59,71 @@ class VideoRenderer {
       grad.addColorStop(0, 'rgba(0,0,0,0.2)');
       grad.addColorStop(1, 'rgba(0,0,0,0.5)');
       ctx.fillStyle = grad;
+      ctx.fillStyle = bgColor;
       ctx.fillRect(0, 0, width, height);
 
-      // Header
-      ctx.fillStyle = colors.accent;
-      ctx.font = 'bold 60px Helvetica';
-      ctx.textAlign = 'center';
-      ctx.fillText(brand.name, width / 2, 150);
-
-      // App Icon and Play Store Text
+      // App Icon and Play Store Text (Higher up)
       if (appIcon) {
-        const iconSize = 120;
-        ctx.drawImage(appIcon, width / 2 - iconSize - 200, height - 450, iconSize, iconSize);
+        const iconSize = 100;
+        ctx.drawImage(appIcon, width / 2 - iconSize - 120, height - 350, iconSize, iconSize);
       }
       
       ctx.fillStyle = '#FFFFFF';
-      ctx.font = 'bold 30px Helvetica';
+      ctx.font = 'bold 22px Helvetica';
       ctx.textAlign = 'left';
-      ctx.fillText('Available on Play Store', width / 2 - 180, height - 395);
-      ctx.font = '25px Helvetica';
-      ctx.fillText('Learn English : Angrezi Pitara', width / 2 - 180, height - 355);
+      ctx.fillText('Available on Play Store', width / 2 - 100, height - 310);
+      ctx.font = '18px Helvetica';
+      ctx.fillText('Learn English : Angrezi Pitara', width / 2 - 100, height - 280);
 
       // Footer Telegram
       ctx.fillStyle = colors.secondary;
-      ctx.font = '35px Helvetica';
+      ctx.font = '24px Helvetica';
       ctx.textAlign = 'right';
-      ctx.fillText(brand.telegram, width - 80, height - 300);
+      ctx.fillText(brand.telegram, width - 40, height - 240);
     };
 
     const drawQuestion = () => {
       ctx.fillStyle = colors.text;
-      ctx.font = 'bold 70px Helvetica';
+      ctx.font = 'bold 45px Helvetica'; // Scaled
       ctx.textAlign = 'center';
-      this.wrapText(ctx, quizItem.question, width / 2, 450, width - 150, 90);
+      this.wrapText(ctx, quiz.question, width / 2, 280, width - 80, 55);
     };
 
     const drawOptions = () => {
-      ctx.fillStyle = colors.secondary;
-      ctx.font = '60px Helvetica';
+      drawBase();
+      drawQuestion();
       ctx.textAlign = 'left';
-      quizItem.options.forEach((opt, i) => {
-        const text = `${String.fromCharCode(65 + i)}. ${opt}`;
-        ctx.fillText(text, 150, 850 + (i * 120));
+      const startY = 600; // Scaled
+      quiz.options.forEach((opt, i) => {
+        const y = startY + (i * 90); // Reduced spacing
+        // Bullet
+        ctx.fillStyle = colors.accent;
+        ctx.font = 'bold 38px Helvetica';
+        ctx.fillText(`${String.fromCharCode(65 + i)}.`, 80, y);
+        // Option Text
+        ctx.fillStyle = colors.text;
+        ctx.font = '38px Helvetica';
+        ctx.fillText(opt, 140, y);
       });
     };
 
-    const drawCTA = () => {
-      ctx.fillStyle = colors.accent;
-      ctx.font = 'bold 80px Helvetica';
-      ctx.textAlign = 'center';
-      ctx.fillText(`COMMENT YOUR ANSWER`, width / 2, 1200);
-    };
-
     const drawBrandingFrame = () => {
-      // Clear for a clean focus
-      drawBase();
-      
+      ctx.fillStyle = bgColor;
+      ctx.fillRect(0, 0, width, height);
       if (appIcon) {
-        const iconSize = 400;
-        ctx.drawImage(appIcon, (width - iconSize) / 2, 400, iconSize, iconSize);
+        const logoSize = 250;
+        ctx.drawImage(appIcon, width / 2 - logoSize / 2, height / 2 - logoSize - 50, logoSize, logoSize);
       }
-
       ctx.fillStyle = '#FFFFFF';
-      ctx.font = 'bold 60px Helvetica';
+      ctx.font = 'bold 40px Helvetica';
       ctx.textAlign = 'center';
-      ctx.fillText('Angrezi Pitara', width / 2, 950);
-      
-      ctx.font = '45px Helvetica';
-      ctx.fillText('Available on Play Store', width / 2, 1050);
-      
+      ctx.fillText(brand.name, width / 2, height / 2 + 50);
+      ctx.font = '28px Helvetica';
+      ctx.fillStyle = colors.secondary;
+      ctx.fillText('Available on Play Store', width / 2, height / 2 + 100);
+      ctx.font = 'bold 30px Helvetica';
       ctx.fillStyle = colors.accent;
-      ctx.font = 'bold 50px Helvetica';
-      ctx.fillText(brand.telegram, width / 2, 1200);
+      ctx.fillText(brand.telegram, width / 2, height / 2 + 180);
     };
 
     // Frame 1: Question
