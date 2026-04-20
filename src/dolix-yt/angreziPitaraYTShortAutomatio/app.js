@@ -73,9 +73,9 @@ class YouTubeAutomation {
         const uploadResult = await this.uploader.upload(videoPath, metadata);
         
         // 5. Cleanup (Only if upload is successful)
-        console.log(`[Cleaner] Removing video and audio files...`);
-        if (fs.existsSync(audioPath)) fs.unlinkSync(audioPath);
-        if (fs.existsSync(videoPath)) fs.unlinkSync(videoPath);
+        console.log(`[Cleaner] Cleanup disabled for inspection...`);
+        // if (fs.existsSync(audioPath)) fs.unlinkSync(audioPath);
+        // if (fs.existsSync(videoPath)) fs.unlinkSync(videoPath);
         
       } catch (uploadErr) {
         console.error(`[Uploader] Upload failed: ${uploadErr.message}`);

@@ -9,6 +9,8 @@ RUN apt-get update && apt-get install -y \
     libgif-dev \
     librsvg2-dev \
     ffmpeg \
+    fonts-deva \
+    fonts-indic \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
