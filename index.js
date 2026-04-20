@@ -1,14 +1,34 @@
 require('dotenv').config();
 const config = require('./config');
 const { startAngreziPitara } = require('./src/angrezi-pitara-automation');
+const YouTubeAutomation = require('./src/dolix-yt/angreziPitaraYTShortAutomatio/app');
+const ytConfig = require('./src/dolix-yt/angreziPitaraYTShortAutomatio/config');
+const cron = require('node-cron');
 const http = require('http');
 
 const TOKEN = config.TELEGRAM_BOT_TOKEN;
 const CHAT_ID = config.DEFAULT_CHAT_ID;
 
-console.log('🚀 Starting Automation Backend...');
+console.log('🚀 Starting Unified Automation Backend...');
 
-// Initialize Angrezi Pitara Workflow
+// Initialize YouTube Automation
+const youtubeAutomation = new YouTubeAutomation();
+
+// Setup YouTube Scheduler (6 times a day)
+ytConfig.automation.uploadSchedule.forEach(time => {
+    const [hour, minute] = time.split(':');
+    cron.schedule(`${minute} ${hour} * * *`, async () => {
+        console.log(`\n🔔 [YouTube] Scheduled Trigger [${time}]: Generating Short...`);
+        try {
+            await youtubeAutomation.runSingle();
+        } catch (err) {
+            console.error(`❌ [YouTube] Task failed for ${time}:`, err.message);
+        }
+    });
+    console.log(`✅ [YouTube] Scheduled for ${time}`);
+});
+
+// Initialize Angrezi Pitara Workflow (Telegram)
 const isManual = process.argv.includes('--post');
 
 if (TOKEN) {
