@@ -50,6 +50,16 @@ if (TOKEN) {
                 res.writeHead(500, { 'Content-Type': 'text/plain' });
                 res.end(`❌ Error sending quizzes: ${err.message}\n`);
             }
+        } else if (req.url === '/yt-test') {
+            try {
+                console.log('📡 Web trigger: /yt-test endpoint hit. Generating YouTube Short...');
+                await youtubeAutomation.runSingle();
+                res.writeHead(200, { 'Content-Type': 'text/plain' });
+                res.end('✅ YouTube Automation triggered successfully! Check YouTube channel.\n');
+            } catch (err) {
+                res.writeHead(500, { 'Content-Type': 'text/plain' });
+                res.end(`❌ Error in YouTube Automation: ${err.message}\n`);
+            }
         } else {
             res.writeHead(200, { 'Content-Type': 'text/plain' });
             res.end('Angrezi Pitara Bot is running!\n');
