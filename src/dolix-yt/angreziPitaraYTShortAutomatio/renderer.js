@@ -53,8 +53,8 @@ class VideoRenderer {
     const duration = await this.getAudioDuration(audioPath);
     console.log(`[Renderer] Audio duration: ${duration}s. Using BG Color: ${bgColor}. Rendering video...`);
 
-    const width = 480; // Ultra-fast for Render Free
-    const height = 854;
+    const width = 720; // High Quality for YouTube Shorts
+    const height = 1280;
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext('2d');
 
@@ -72,48 +72,62 @@ class VideoRenderer {
       ctx.fillStyle = bgColor;
       ctx.fillRect(0, 0, width, height);
 
-      // App Icon and Play Store Text
+      // Header Branding (Top)
       if (appIcon) {
-        const iconSize = 70;
-        ctx.drawImage(appIcon, width / 2 - iconSize - 80, height - 250, iconSize, iconSize);
+        const headerIconSize = 60;
+        const headerX = 50;
+        ctx.drawImage(appIcon, headerX, 40, headerIconSize, headerIconSize);
+        ctx.fillStyle = '#FFFFFF';
+        ctx.textAlign = 'left';
+        ctx.font = 'bold 30px Helvetica';
+        ctx.fillText('Angrezi Pitara', headerX + 75, 85);
       }
-      
-      ctx.fillStyle = '#FFFFFF';
-      ctx.font = 'bold 16px Helvetica';
-      ctx.textAlign = 'left';
-      ctx.fillText('Available on Play Store', width / 2 - 70, height - 225);
-      ctx.font = '14px Helvetica';
-      ctx.fillText('Learn English : Angrezi Pitara', width / 2 - 70, height - 205);
 
-      // Footer Telegram
+      // App Icon and Play Store Text (Centered Footer)
+      if (appIcon) {
+        const iconSize = 100;
+        const totalFooterWidth = 450;
+        const startX = (width - totalFooterWidth) / 2;
+        
+        ctx.drawImage(appIcon, startX, height - 180, iconSize, iconSize);
+        
+        ctx.fillStyle = '#FFFFFF';
+        ctx.textAlign = 'left';
+        ctx.font = 'bold 26px Helvetica';
+        ctx.fillText('Available on Play Store', startX + 115, height - 135);
+        ctx.font = '22px Helvetica';
+        ctx.fillText('Learn English : Angrezi Pitara', startX + 115, height - 105);
+      }
+
+      // Footer Telegram (Centered at the very bottom)
       ctx.fillStyle = colors.secondary;
-      ctx.font = '18px Helvetica';
-      ctx.textAlign = 'right';
-      ctx.fillText(brand.telegram, width - 30, height - 160);
+      ctx.font = '24px Helvetica';
+      ctx.textAlign = 'center';
+      ctx.fillText(brand.telegram, width / 2, height - 50);
     };
 
     const drawQuestion = () => {
       ctx.fillStyle = colors.text;
-      ctx.font = 'bold 32px Helvetica';
+      ctx.font = 'bold 50px Helvetica';
       ctx.textAlign = 'center';
-      this.wrapText(ctx, quiz.question, width / 2, 200, width - 60, 40);
+      this.wrapText(ctx, quiz.question, width / 2, 300, width - 120, 75);
     };
 
     const drawOptions = () => {
       drawBase();
       drawQuestion();
       ctx.textAlign = 'left';
-      const startY = 450;
+      const startY = 550; 
       quiz.options.forEach((opt, i) => {
-        const y = startY + (i * 65);
+        const y = startY + (i * 105);
         // Bullet
         ctx.fillStyle = colors.accent;
-        ctx.font = 'bold 28px Helvetica';
-        ctx.fillText(`${String.fromCharCode(65 + i)}.`, 50, y);
+        ctx.font = 'bold 42px Helvetica';
+        ctx.fillText(`${String.fromCharCode(65 + i)}.`, 80, y);
         // Option Text
         ctx.fillStyle = colors.text;
-        ctx.font = '28px Helvetica';
-        ctx.fillText(opt, 90, y);
+        ctx.font = '42px Helvetica';
+        ctx.fillText(opt, 150, y);
       });
     };
 
@@ -121,19 +135,19 @@ class VideoRenderer {
       ctx.fillStyle = bgColor;
       ctx.fillRect(0, 0, width, height);
       if (appIcon) {
-        const logoSize = 180;
-        ctx.drawImage(appIcon, width / 2 - logoSize / 2, height / 2 - logoSize - 30, logoSize, logoSize);
+        const logoSize = 250;
+        ctx.drawImage(appIcon, width / 2 - logoSize / 2, height / 2 - logoSize - 50, logoSize, logoSize);
       }
       ctx.fillStyle = '#FFFFFF';
-      ctx.font = 'bold 30px Helvetica';
+      ctx.font = 'bold 40px Helvetica';
       ctx.textAlign = 'center';
-      ctx.fillText(brand.name, width / 2, height / 2 + 30);
-      ctx.font = '20px Helvetica';
+      ctx.fillText(brand.name, width / 2, height / 2 + 50);
+      ctx.font = '28px Helvetica';
       ctx.fillStyle = colors.secondary;
-      ctx.fillText('Available on Play Store', width / 2, height / 2 + 70);
-      ctx.font = 'bold 22px Helvetica';
+      ctx.fillText('Available on Play Store', width / 2, height / 2 + 100);
+      ctx.font = 'bold 30px Helvetica';
       ctx.fillStyle = colors.accent;
-      ctx.fillText(brand.telegram, width / 2, height / 2 + 130);
+      ctx.fillText(brand.telegram, width / 2, height / 2 + 180);
     };
 
     // Frame 1: Question

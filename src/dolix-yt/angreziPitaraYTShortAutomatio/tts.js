@@ -51,7 +51,7 @@ class TTSService {
       exec(createSilence, (err) => {
         if (err) return reject(err);
 
-        // Build complex filter for concatenation with silence AND speed up
+        // Build complex filter for concatenation with silence AND speed up and volume boost
         const filterInputs = [];
         let filterStr = "";
         
@@ -61,8 +61,7 @@ class TTSService {
           filterStr += `[${i*2}:a][${i*2+1}:a]`;
         });
 
-        // Speed up audio by 1.2x (20% faster)
-        const cmd = `ffmpeg ${filterInputs.join(' ')} -filter_complex "${filterStr}concat=n=${files.length * 2}:v=0:a=1,atempo=1.2[a]" -map "[a]" -y "${outputPath}"`;
+        const cmd = `ffmpeg ${filterInputs.join(' ')} -filter_complex "${filterStr}concat=n=${files.length * 2}:v=0:a=1,atempo=1.2,volume=1.8[a]" -map "[a]" -y "${outputPath}"`;
 
         exec(cmd, (concatErr) => {
           if (concatErr) return reject(concatErr);
