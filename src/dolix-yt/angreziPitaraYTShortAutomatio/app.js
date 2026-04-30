@@ -40,14 +40,14 @@ class YouTubeAutomation {
       // 1. Audio - Conversational Hinglish style
       let audioText = `Is sentence ki sahi pehchan kare.\n`;
       audioText += `Question ye hai ki: ${quiz.question}.\n`;
-      
+
       quiz.options.forEach((opt, i) => {
         audioText += `Option ${String.fromCharCode(65 + i)}: ${opt}.\n`;
       });
-      
+
       audioText += `Apna jawab comment box mein likhein.\n`;
       audioText += `English practice ke liye abhi Angrezi Pitara app download kare aur daily quizzes ke liye humara Telegram channel join kare. Link in description. Dhanyawad.`;
-      
+
       const audioPath = await this.tts.generate(audioText, `audio_${targetIndex}`);
 
       // 2. Video Rendering
@@ -57,7 +57,7 @@ class YouTubeAutomation {
       // 3. SEO Metadata Generation
       const tags = ['EnglishPractice', 'LearnEnglish', 'HindiToEnglish', 'Quiz', 'Shorts', 'Educational'];
       const title = `Can you solve this? ${quiz.question.substring(0, 50)}... #EnglishLearning #Shorts`;
-      
+
       let description = `🚀 Improve your English with this quick quiz!\n\n`;
       description += `Question: ${quiz.question}\n\n`;
       description += `✅ Solution: The correct answer is "${quiz.options[quiz.correctIndex]}".\n\n`;
@@ -71,12 +71,12 @@ class YouTubeAutomation {
       console.log(`[Uploader] Uploading to YouTube...`);
       try {
         const uploadResult = await this.uploader.upload(videoPath, metadata);
-        
+
         // 5. Cleanup (Only if upload is successful)
         console.log(`[Cleaner] Cleanup disabled for inspection...`);
         // if (fs.existsSync(audioPath)) fs.unlinkSync(audioPath);
         // if (fs.existsSync(videoPath)) fs.unlinkSync(videoPath);
-        
+
       } catch (uploadErr) {
         console.error(`[Uploader] Upload failed: ${uploadErr.message}`);
         console.log(`[Uploader] Video kept for manual review: ${videoPath}`);

@@ -88,9 +88,9 @@ class VideoRenderer {
         const iconSize = 100;
         const totalFooterWidth = 450;
         const startX = (width - totalFooterWidth) / 2;
-        
+
         ctx.drawImage(appIcon, startX, height - 180, iconSize, iconSize);
-        
+
         ctx.fillStyle = '#FFFFFF';
         ctx.textAlign = 'left';
         ctx.font = 'bold 26px Helvetica';
@@ -117,7 +117,7 @@ class VideoRenderer {
       drawBase();
       drawQuestion();
       ctx.textAlign = 'left';
-      const startY = 550; 
+      const startY = 550;
       quiz.options.forEach((opt, i) => {
         const y = startY + (i * 105);
         // Bullet
@@ -160,7 +160,7 @@ class VideoRenderer {
     drawOptions();
     const frame2Path = path.join(this.tempDir, `frame2_${filename}.png`);
     fs.writeFileSync(frame2Path, canvas.toBuffer('image/png'));
-    
+
     // Frame 3: Final Branding Focus
     drawBrandingFrame();
     const frame3Path = path.join(this.tempDir, `frame3_${filename}.png`);
@@ -203,7 +203,7 @@ class VideoRenderer {
         [frame1Path, frame2Path, frame3Path].forEach(f => {
           if (fs.existsSync(f)) fs.unlinkSync(f);
         });
-        
+
         console.log(`[Renderer] Video saved to ${outputPath}`);
         resolve(outputPath);
       });
