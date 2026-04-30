@@ -7,7 +7,11 @@ const url = require('url');
 const credentialsPath = path.join(__dirname, 'credentials.json');
 const tokenPath = path.join(__dirname, 'token.json');
 
-const SCOPES = ['https://www.googleapis.com/auth/youtube.upload', 'https://www.googleapis.com/auth/youtube'];
+const SCOPES = [
+  'https://www.googleapis.com/auth/youtube.upload', 
+  'https://www.googleapis.com/auth/youtube',
+  'https://www.googleapis.com/auth/youtube.force-ssl'
+];
 
 async function generateToken() {
   if (!fs.existsSync(credentialsPath)) {

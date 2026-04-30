@@ -61,12 +61,29 @@ module.exports = {
     fonts: {
       primary: 'Helvetica-Bold', // Standard robust font
       secondary: 'Helvetica'
-    }
+    },
+    bgPalettes: [
+      ['#BAE6FD', '#0EA5E9'], // Vibrant Sky
+      ['#DDD6FE', '#8B5CF6'], // Vibrant Purple
+      ['#FBCFE8', '#F472B6'], // Vibrant Pink
+      ['#FFEDD5', '#FB923C'], // Vibrant Orange
+      ['#99F6E4', '#14B8A6'], // Vibrant Teal
+      ['#BBF7D0', '#22C55E'], // Vibrant Green
+      ['#FEF08A', '#FACC15'], // Vibrant Yellow
+      ['#FECDD3', '#FB7185'], // Vibrant Rose
+      ['#E9D5FF', '#A855F7'], // Vibrant Violet
+      ['#CCFBF1', '#2DD4BF'], // Vibrant Emerald
+      ['#CFFAFE', '#22D3EE'], // Vibrant Cyan
+      ['#FFD8A8', '#F59E0B'], // Vibrant Amber
+      ['#DBEAFE', '#3B82F6'], // Vibrant Blue
+      ['#E0E7FF', '#6366F1'], // Vibrant Indigo
+      ['#FAE8FF', '#D946EF']  // Vibrant Fuchsia
+    ]
   },
   automation: {
     videosPerDay: 6,
     uploadSchedule: ['06:00', '10:00', '14:00', '18:00', '22:00', '02:00'],
-    outputDir: './videos',
-    tempDir: './temp'
+    outputDir: './src/dolix-yt/angreziPitaraYTShortAutomatio/videos',
+    tempDir: './src/dolix-yt/angreziPitaraYTShortAutomatio/temp'
   }
 };
