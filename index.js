@@ -65,24 +65,25 @@ if (TOKEN) {
             }
         } else if (req.url === '/yt-test') {
             try {
-                console.log('📡 Web trigger: /yt-test endpoint hit. Generating YouTube Short...');
-                await youtubeAutomation.runSingle();
+                console.log('📡 Web trigger: /yt-test endpoint hit. Generating YouTube Short in background...');
+                // Trigger in background to avoid timeout
+                youtubeAutomation.runSingle().catch(err => console.error(`❌ Background Short failed: ${err.message}`));
                 res.writeHead(200, { 'Content-Type': 'text/plain' });
-                res.end('✅ YouTube Shorts Automation triggered successfully!\n');
+                res.end('✅ YouTube Shorts generation started in background! Check logs for progress.\n');
             } catch (err) {
                 res.writeHead(500, { 'Content-Type': 'text/plain' });
-                res.end(`❌ Error in YouTube Shorts Automation: ${err.message}\n`);
+                res.end(`❌ Error triggering YouTube Short: ${err.message}\n`);
             }
         } else if (req.url === '/test-mega') {
             try {
-                console.log('📡 Web trigger: /test-mega endpoint hit. Generating Mega Quiz...');
-                // Triggering a small mega quiz (2 items) for test
-                await longAutomation.createMegaQuiz(2);
+                console.log('📡 Web trigger: /test-mega endpoint hit. Generating Mega Quiz in background...');
+                // Trigger in background to avoid timeout
+                longAutomation.createMegaQuiz(2).catch(err => console.error(`❌ Background Mega Quiz failed: ${err.message}`));
                 res.writeHead(200, { 'Content-Type': 'text/plain' });
-                res.end('✅ Mega Quiz generation started successfully! Check your YouTube channel or long-videos folder.\n');
+                res.end('✅ Mega Quiz generation started in background! This will take a few minutes. Check YouTube logs.\n');
             } catch (err) {
                 res.writeHead(500, { 'Content-Type': 'text/plain' });
-                res.end(`❌ Error in Mega Quiz Automation: ${err.message}\n`);
+                res.end(`❌ Error triggering Mega Quiz: ${err.message}\n`);
             }
         } else {
             res.writeHead(200, { 'Content-Type': 'text/plain' });
