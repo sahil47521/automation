@@ -84,6 +84,10 @@ module.exports = {
     videosPerDay: 6,
     uploadSchedule: ['06:00', '10:00', '14:00', '18:00', '22:00', '02:00'],
     outputDir: './src/dolix-yt/angreziPitaraYTShortAutomatio/videos',
-    tempDir: './src/dolix-yt/angreziPitaraYTShortAutomatio/temp'
+    tempDir: './src/dolix-yt/angreziPitaraYTShortAutomatio/temp',
+    playlists: {
+      shorts: '', // Add your shorts playlist ID here if needed
+      long: 'PL_Cbld6zT8cJwfl3ySqT-wLxdohZXfM96'
+    }
   }
 };

@@ -257,6 +257,21 @@ class VideoRenderer {
         currentY += boxH + 12;
       });
 
+      // Explanation Box (Only shown with highlight)
+      if (highlightIndex !== -1 && quiz.explanation) {
+        const expY = currentY + 10;
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
+        ctx.strokeStyle = '#0EA5E9';
+        if (ctx.roundRect) { ctx.beginPath(); ctx.roundRect(40, expY, optW, 110, 15); ctx.fill(); ctx.stroke(); }
+        ctx.fillStyle = '#0369A1';
+        ctx.font = 'bold 18px Helvetica';
+        ctx.textAlign = 'left';
+        ctx.fillText('💡 Tip:', 55, expY + 30);
+        ctx.fillStyle = '#1E293B';
+        ctx.font = 'italic 18px Helvetica';
+        this.wrapText(ctx, quiz.explanation, 55, expY + 60, optW - 30, 24);
+      }
+
       // Timer Overlay
       if (timerText) {
         ctx.fillStyle = 'rgba(0,0,0,0.4)';

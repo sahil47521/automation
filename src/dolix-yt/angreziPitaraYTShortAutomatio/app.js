@@ -91,6 +91,9 @@ class YouTubeAutomation {
       
       audioText += `Sochiye... Sahi jawab kya hai? ... ... ... \n`;
       audioText += `Sahi jawab hai: Option ${String.fromCharCode(65 + quiz.correctIndex)}. ${quiz.options[quiz.correctIndex]}.\n`;
+      if (quiz.explanation) {
+        audioText += `Kyunki, ${quiz.explanation}.\n`;
+      }
       audioText += `Daily English practice ke liye Angrezi Pitara app download karein aur Telegram join karein.`;
 
       const audioPath = await this.tts.generate(audioText, `audio_${targetIndex}`);
@@ -99,13 +102,15 @@ class YouTubeAutomation {
       const videoFilename = `short_${targetIndex}`;
       const videoPath = await this.renderer.render(quiz, audioPath, videoFilename);
 
-      // 3. SEO Metadata (Adding #ID to title for recovery)
-      const tags = ['EnglishPractice', 'LearnEnglish', 'Shorts', 'Quiz', 'AngreziPitara'];
-      const title = `English Challenge #${targetIndex}: ${quiz.question.substring(0, 30)}... #Shorts`;
+      // 3. SEO Metadata
+      const tags = ['EnglishPractice', 'LearnEnglish', 'Shorts', 'Quiz', 'AngreziPitara', 'EnglishGrammar', 'DailyEnglish', 'Vocabulary'];
+      const title = `Daily English Quiz #${targetIndex}: Can you solve this? 💡 #Shorts #EnglishLearning`;
 
-      let description = `Can you solve this English challenge? 🤔 Quiz #${targetIndex}\n\n`;
-      description += `🚀 Telegram: ${config.brand.telegram}\n`;
-      description += `📱 App: ${config.brand.appLink}`;
+      let description = `Test your English skills with this daily challenge! 🚀 Quiz #${targetIndex}\n\n`;
+      description += `Improve your English grammar and vocabulary every day with Angrezi Pitara. Don't forget to like and subscribe for more quizzes!\n\n`;
+      description += `👉 Join Telegram for PDFs: ${config.brand.telegram}\n`;
+      description += `📲 Download App: ${config.brand.appLink}\n\n`;
+      description += `#LearnEnglish #EnglishQuiz #Shorts #GrammarTips #AngreziPitara #SpokenEnglish`;
 
       const metadata = { title, description, tags };
 
@@ -114,13 +119,22 @@ class YouTubeAutomation {
       const uploadResult = await this.uploader.upload(videoPath, metadata);
       const videoId = uploadResult.id;
 
-      // 5. Auto-Comment
+      // 5. Auto-Playlist
+      if (config.automation.playlists.shorts) {
+          await this.uploader.addToPlaylist(videoId, config.automation.playlists.shorts);
+      }
+
+      // 6. Auto-Comment
       const commentText = `✅ Correct Answer: Option ${String.fromCharCode(65 + quiz.correctIndex)}. ${quiz.options[quiz.correctIndex]}`;
       await this.uploader.postComment(videoId, commentText);
 
       // 6. Update State (ONLY LAST INDEX)
       this.state.lastIndex = targetIndex;
       this.saveState();
+
+      // 7. Cleanup
+      if (fs.existsSync(videoPath)) fs.unlinkSync(videoPath);
+      if (fs.existsSync(audioPath)) fs.unlinkSync(audioPath);
 
       console.log(`✅ [Finished] Quiz #${targetIndex} uploaded successfully!`);
 

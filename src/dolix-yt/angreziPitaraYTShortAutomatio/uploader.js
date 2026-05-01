@@ -59,6 +59,30 @@ class YouTubeUploader {
     return res.data;
   }
 
+  async addToPlaylist(videoId, playlistId) {
+    if (!playlistId) return;
+    console.log(`[Uploader] Adding video ${videoId} to playlist ${playlistId}`);
+    try {
+      const auth = await this.getAuth();
+      const youtube = google.youtube({ version: 'v3', auth });
+      await youtube.playlistItems.insert({
+        part: 'snippet',
+        requestBody: {
+          snippet: {
+            playlistId: playlistId,
+            resourceId: {
+              kind: 'youtube#video',
+              videoId: videoId
+            }
+          }
+        }
+      });
+      console.log(`[Uploader] Successfully added to playlist!`);
+    } catch (err) {
+      console.error(`[Uploader] Failed to add to playlist: ${err.message}`);
+    }
+  }
+
   async postComment(videoId, commentText) {
     console.log(`[Uploader] Posting comment to video: ${videoId}`);
     
