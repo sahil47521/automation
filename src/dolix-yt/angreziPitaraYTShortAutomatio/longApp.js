@@ -76,7 +76,7 @@ class LongVideoAutomation {
 
     // 4. Upload to YouTube
     const metadata = {
-      title: `Mega English Challenge: Master Grammar & Vocabulary (10+ Quizzes) | Angrezi Pitara`,
+      title: `#${startIndex} Mega English Challenge: Master Grammar & Vocabulary | Angrezi Pitara`,
       description: `Welcome to our Mega English Practice Session! 🚀\n\nIn this video, we challenge you with 10 powerful English quizzes with detailed explanations to help you improve your fluency and grammar.\n\nPerfect for competitive exams and daily conversation practice.\n\n👉 Join our Telegram: ${config.brand.telegram}\n📲 Download our App: ${config.brand.appLink}\n\n#EnglishGrammar #LearnEnglish #EnglishQuiz #MegaChallenge #AngreziPitara #EnglishLearning`,
       tags: ['EnglishQuiz', 'MegaQuiz', 'LearnEnglish', 'GrammarTest', 'AngreziPitara', 'EnglishGrammar', 'EnglishSpeaking', 'Vocabulary']
     };
