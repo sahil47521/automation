@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { google } = require('googleapis');
 const TTSService = require('./tts');
 const VideoRenderer = require('./renderer');
 const YouTubeUploader = require('./uploader');
@@ -36,7 +37,7 @@ class YouTubeAutomation {
     try {
       const auth = await this.uploader.getAuth();
       const youtube = google.youtube({ version: 'v3', auth });
-      
+
       const response = await youtube.activities.list({
         part: 'snippet,contentDetails',
         mine: true,
@@ -86,7 +87,7 @@ class YouTubeAutomation {
       // ... (rest of audio logic stays same)
       audioText += `Sahi jawab hai: Option ${String.fromCharCode(65 + quiz.correctIndex)}. ${quiz.options[quiz.correctIndex]}.\n`;
       audioText += `Daily English practice ke liye Angrezi Pitara download karein.`;
-      
+
       const audioPath = await this.tts.generate(audioText, `audio_${targetIndex}`);
 
       // 2. Video Rendering
@@ -96,7 +97,7 @@ class YouTubeAutomation {
       // 3. SEO Metadata (Adding #ID to title for recovery)
       const tags = ['EnglishPractice', 'LearnEnglish', 'Shorts', 'Quiz', 'AngreziPitara'];
       const title = `English Challenge #${targetIndex}: ${quiz.question.substring(0, 30)}... #Shorts`;
-      
+
       let description = `Can you solve this English challenge? 🤔 Quiz #${targetIndex}\n\n`;
       description += `🚀 Telegram: ${config.brand.telegram}\n`;
       description += `📱 App: ${config.brand.appLink}`;
@@ -111,19 +112,19 @@ class YouTubeAutomation {
       // 5. Auto-Comment
       const commentText = `✅ Correct Answer: Option ${String.fromCharCode(65 + quiz.correctIndex)}. ${quiz.options[quiz.correctIndex]}`;
       await this.uploader.postComment(videoId, commentText);
-      
+
       // 6. Update State (ONLY LAST INDEX)
       this.state.lastIndex = targetIndex;
       this.saveState();
 
       console.log(`✅ [Finished] Quiz #${targetIndex} uploaded successfully!`);
-      
+
     } catch (error) {
       console.error(`❌ Error in Quiz #${targetIndex}:`, error);
     }
   }
 }
-}
+
 
 // If run directly
 if (require.main === module) {
