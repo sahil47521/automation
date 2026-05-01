@@ -94,6 +94,15 @@ class VideoRenderer {
       { emoji: toySet[Math.floor(Math.random()*toySet.length)], x: 60, y: 780 }
     ];
 
+    const drawStar = (ctx, x, y, radius, points = 5, inset = 0.5) => {
+      ctx.save(); ctx.beginPath(); ctx.translate(x, y); ctx.moveTo(0, 0 - radius);
+      for (let i = 0; i < points; i++) {
+        ctx.rotate(Math.PI / points); ctx.lineTo(0, 0 - (radius * inset));
+        ctx.rotate(Math.PI / points); ctx.lineTo(0, 0 - radius);
+      }
+      ctx.closePath(); ctx.fill(); ctx.restore();
+    };
+
     const drawBase = (progress = 0) => {
       const skyGrad = ctx.createLinearGradient(0, 0, 0, this.height);
       skyGrad.addColorStop(0, palette[1]);
@@ -109,7 +118,11 @@ class VideoRenderer {
       } else if (patternStyle === 1) {
         for(let i=-20; i<40; i++) { ctx.beginPath(); ctx.moveTo(i*30, 0); ctx.lineTo(i*30 + 300, this.height); ctx.stroke(); }
       } else if (patternStyle === 2) {
-        for(let i=0; i<10; i++) { ctx.beginPath(); ctx.arc(Math.random()*this.width, Math.random()*this.height, 50, 0, Math.PI*2); ctx.fill(); }
+        for(let i=0; i<8; i++) { 
+            ctx.beginPath(); 
+            ctx.arc(Math.sin(i)*this.width, Math.cos(i)*this.height, 40 + Math.random()*40, 0, Math.PI*2); 
+            ctx.fill(); 
+        }
       } else {
         ctx.beginPath();
         for(let i=0; i<this.width; i+=40) { ctx.moveTo(i, 0); ctx.lineTo(i, this.height); }
@@ -120,18 +133,25 @@ class VideoRenderer {
       ctx.textAlign = 'center';
       if (isNight) {
         ctx.fillStyle = '#FFFFFF';
-        for(let i=0; i<12; i++) { ctx.font = '15px Helvetica'; ctx.fillText('⭐', Math.random()*this.width, Math.random()*this.height); }
+        for(let i=0; i<20; i++) { 
+            drawStar(ctx, Math.random()*this.width, Math.random()*this.height, 2 + Math.random()*4); 
+        }
       } else {
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
         const drawCloud = (x, y) => {
-          ctx.beginPath(); ctx.arc(x, y, 25, 0, Math.PI*2); ctx.arc(x+20, y-10, 25, 0, Math.PI*2); ctx.arc(x+40, y, 25, 0, Math.PI*2); ctx.fill();
+          ctx.beginPath(); ctx.arc(x, y, 20, 0, Math.PI*2); ctx.arc(x+15, y-10, 20, 0, Math.PI*2); ctx.arc(x+30, y, 20, 0, Math.PI*2); ctx.fill();
         };
         drawCloud(60, 230); drawCloud(380, 380);
       }
 
-      ctx.globalAlpha = 0.25;
-      ctx.font = '45px Helvetica';
-      randomToys.forEach(t => ctx.fillText(t.emoji, t.x, t.y));
+      // Abstract decorations instead of Toys
+      ctx.globalAlpha = 0.2;
+      ctx.fillStyle = '#FFFFFF';
+      for(let i=0; i<5; i++) {
+        ctx.beginPath(); 
+        ctx.arc(Math.random()*this.width, Math.random()*this.height, 10 + Math.random()*30, 0, Math.PI*2); 
+        ctx.fill();
+      }
       ctx.globalAlpha = 1.0;
 
       if (appIcon) {
@@ -169,6 +189,19 @@ class VideoRenderer {
         const lines = this.getLineCount(ctx, opt, optW - 120);
         return Math.max(65, lines * (fontSize + 8) + 25);
     });
+
+    const drawCheck = (ctx, x, y, size) => {
+      ctx.save();
+      ctx.strokeStyle = '#FFFFFF';
+      ctx.lineWidth = 4;
+      ctx.lineCap = 'round';
+      ctx.beginPath();
+      ctx.moveTo(x - size/2, y);
+      ctx.lineTo(x - size/6, y + size/3);
+      ctx.lineTo(x + size/2, y - size/3);
+      ctx.stroke();
+      ctx.restore();
+    };
 
     const drawQuestion = () => {
       ctx.fillStyle = '#FFFFFF';
@@ -219,8 +252,7 @@ class VideoRenderer {
         const lines = this.getLineCount(ctx, opt, optW - 120);
         this.wrapText(ctx, opt, 120, currentY + (boxH/2) - ((lines-1)*(fontSize+8)/2) + 7, optW - 140, fontSize + 8);
         if (isCorrect) {
-          ctx.font = '22px Helvetica';
-          ctx.fillText('✅', 40 + optW - 45, currentY + (boxH/2) + 7);
+          drawCheck(ctx, 40 + optW - 35, currentY + (boxH/2), 15);
         }
         currentY += boxH + 12;
       });
@@ -255,15 +287,15 @@ class VideoRenderer {
       ctx.font = '18px Helvetica';
       ctx.fillStyle = '#64748B';
       ctx.fillText('Learn English Daily with Fun!', this.width / 2, cardY + 250);
-      const drawButton = (y, text, color, icon = '') => {
+      const drawButton = (y, text, color) => {
         ctx.fillStyle = color;
         if (ctx.roundRect) { ctx.beginPath(); ctx.roundRect(this.width / 2 - 140, y, 280, 55, 27.5); ctx.fill(); }
         ctx.fillStyle = '#FFFFFF';
         ctx.font = 'bold 20px Helvetica';
-        ctx.fillText(icon + ' ' + text, this.width / 2, y + 35);
+        ctx.fillText(text, this.width / 2, y + 35);
       };
-      drawButton(cardY + 300, 'PLAY STORE', '#0EA5E9', '📱');
-      drawButton(cardY + 375, 'TELEGRAM', '#22C55E', '🚀');
+      drawButton(cardY + 300, 'PLAY STORE', '#0EA5E9');
+      drawButton(cardY + 375, 'TELEGRAM', '#22C55E');
       ctx.fillStyle = '#94A3B8';
       ctx.font = '14px Helvetica';
       ctx.fillText('Links in Pinned Comment', this.width / 2, cardY + 455);
@@ -299,7 +331,7 @@ class VideoRenderer {
     fs.writeFileSync(f4Path, canvas.toBuffer('image/png'));
 
     return new Promise((resolve, reject) => {
-      const f1Dur = 1.0, f3Dur = 9, f4Dur = 4, tDur = 0.8; 
+      const f1Dur = 2.0, f3Dur = 6, f4Dur = 4, tDur = 0.8; 
       const baseOptionsDur = Math.max(0.3, duration - f1Dur - f3Dur - f4Dur - (tDur * 3));
       const complexFilter = [
         `[0:v]trim=duration=${f1Dur},setpts=PTS-STARTPTS[v1]`,

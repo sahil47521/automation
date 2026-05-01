@@ -84,9 +84,14 @@ class YouTubeAutomation {
       // 1. Audio
       let audioText = `Namaste! Kya aap is sawal ka sahi jawab de sakte hain?\n`;
       audioText += `Sawal hai: ${quiz.question}.\n`;
-      // ... (rest of audio logic stays same)
+      
+      quiz.options.forEach((opt, i) => {
+        audioText += `Option ${String.fromCharCode(65 + i)}: ${opt}.\n`;
+      });
+      
+      audioText += `Sochiye... Sahi jawab kya hai? ... ... ... \n`;
       audioText += `Sahi jawab hai: Option ${String.fromCharCode(65 + quiz.correctIndex)}. ${quiz.options[quiz.correctIndex]}.\n`;
-      audioText += `Daily English practice ke liye Angrezi Pitara download karein.`;
+      audioText += `Daily English practice ke liye Angrezi Pitara app download karein aur Telegram join karein.`;
 
       const audioPath = await this.tts.generate(audioText, `audio_${targetIndex}`);
 
