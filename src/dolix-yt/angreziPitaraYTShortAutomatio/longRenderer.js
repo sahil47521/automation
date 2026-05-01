@@ -8,8 +8,8 @@ class LongVideoRenderer {
   constructor() {
     this.outputDir = path.resolve(config.automation.outputDir, '../long-videos');
     this.tempDir = path.resolve(config.automation.tempDir, '../long-temp');
-    this.appIconPath = path.join(__dirname, '../../assets/images/appicons.png');
-    this.bgMusicPath = path.join(__dirname, '../../assets/music/bg-music.mp3');
+    this.appIconPath = path.resolve(__dirname, '../../assets/images/appicons.png');
+    this.bgMusicPath = path.resolve(__dirname, '../../assets/music/bg-music.mp3');
     
     this.width = 1280; 
     this.height = 720;
@@ -58,12 +58,21 @@ class LongVideoRenderer {
     ctx.stroke(); ctx.restore();
   }
 
+  async loadAppIcon() {
+    try {
+      return await loadImage(this.appIconPath);
+    } catch (e) {
+      console.warn(`⚠️ [Renderer] Could not load app icon: ${e.message}`);
+      return null;
+    }
+  }
+
   getOptimalFontSize(ctx, text, maxWidth, initialSize) {
     let size = initialSize;
-    ctx.font = `bold ${size}px Helvetica`;
+    ctx.font = `bold ${size}px sans-serif`;
     while (ctx.measureText(text).width > maxWidth * 2 && size > 18) {
       size--;
-      ctx.font = `bold ${size}px Helvetica`;
+      ctx.font = `bold ${size}px sans-serif`;
     }
     return size;
   }
@@ -106,21 +115,35 @@ class LongVideoRenderer {
       ctx.fillStyle = grad;
       ctx.fillRect(0, 0, this.width, this.height);
 
-      // Decorative Starry Background
-      ctx.fillStyle = 'rgba(255,255,255,0.15)';
-      for(let i=0; i<40; i++) this.drawStar(ctx, Math.random()*this.width, Math.random()*this.height, 2 + Math.random()*3);
+      const patternType = Math.floor(Math.random() * 3);
+      if (patternType === 0) {
+        ctx.fillStyle = 'rgba(255,255,255,0.15)';
+        for(let i=0; i<40; i++) this.drawStar(ctx, Math.random()*this.width, Math.random()*this.height, 2 + Math.random()*3);
+      } else if (patternType === 1) {
+        ctx.fillStyle = 'rgba(255,255,255,0.1)';
+        for(let i=0; i<20; i++) {
+          ctx.beginPath();
+          ctx.arc(Math.random()*this.width, Math.random()*this.height, 20 + Math.random()*60, 0, Math.PI*2);
+          ctx.fill();
+        }
+      } else {
+        ctx.strokeStyle = 'rgba(255,255,255,0.05)';
+        ctx.lineWidth = 1;
+        for(let i=0; i<this.width; i+=50) { ctx.beginPath(); ctx.moveTo(i, 0); ctx.lineTo(i, this.height); ctx.stroke(); }
+        for(let j=0; j<this.height; j+=50) { ctx.beginPath(); ctx.moveTo(0, j); ctx.lineTo(this.width, j); ctx.stroke(); }
+      }
 
       // 2. Header Branding
       ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
       ctx.fillRect(0, 0, this.width, 80);
       if (appIcon) ctx.drawImage(appIcon, 40, 20, 40, 40);
       ctx.fillStyle = '#FFFFFF';
-      ctx.font = 'bold 32px Helvetica';
+      ctx.font = 'bold 32px sans-serif';
       ctx.textAlign = 'left';
       ctx.fillText(brand.name.toUpperCase(), appIcon ? 95 : 40, 52);
       
       ctx.textAlign = 'right';
-      ctx.font = '20px Helvetica';
+      ctx.font = '20px sans-serif';
       ctx.fillText('DAILY ENGLISH CHALLENGE', this.width - 40, 52);
 
       // 3. Main Split Content
@@ -134,7 +157,7 @@ class LongVideoRenderer {
 
       // Question Text
       ctx.fillStyle = '#0F172A';
-      ctx.font = 'bold 44px Helvetica';
+      ctx.font = 'bold 44px sans-serif';
       ctx.textAlign = 'center';
       this.wrapText(ctx, quiz.question, qX + qW/2, qY + qH/2 - 40, qW - 80, 60);
 
@@ -144,7 +167,7 @@ class LongVideoRenderer {
       quiz.options.forEach((opt, i) => {
         const isCorrect = i === highlightIdx;
         const fontSize = this.getOptimalFontSize(ctx, opt, oW - 120, 28);
-        ctx.font = `bold ${fontSize}px Helvetica`;
+        ctx.font = `bold ${fontSize}px sans-serif`;
         const lines = this.getLineCount(ctx, opt, oW - 120);
         const boxH = Math.max(95, lines * (fontSize + 10) + 30);
 
@@ -158,13 +181,13 @@ class LongVideoRenderer {
         ctx.fillStyle = isCorrect ? '#059669' : '#F1F5F9';
         ctx.beginPath(); ctx.arc(oX + 45, currentOY + boxH/2, 28, 0, Math.PI*2); ctx.fill();
         ctx.fillStyle = isCorrect ? '#FFFFFF' : '#64748B';
-        ctx.font = 'bold 24px Helvetica';
+        ctx.font = 'bold 24px sans-serif';
         ctx.textAlign = 'center';
         ctx.fillText(String.fromCharCode(65+i), oX + 45, currentOY + boxH/2 + 9);
 
         // Option Text
         ctx.fillStyle = isCorrect ? '#FFFFFF' : '#1E293B';
-        ctx.font = `bold ${fontSize}px Helvetica`;
+        ctx.font = `bold ${fontSize}px sans-serif`;
         ctx.textAlign = 'left';
         this.wrapText(ctx, opt, oX + 100, currentOY + boxH/2 - ((lines-1)*(fontSize+10)/2) + 9, oW - 160, fontSize + 10);
         
@@ -180,16 +203,16 @@ class LongVideoRenderer {
         ctx.lineWidth = 3;
         if (ctx.roundRect) { ctx.beginPath(); ctx.roundRect(40, expY, this.width - 80, expH, 20); ctx.fill(); ctx.stroke(); }
         
-        ctx.fillStyle = '#38BDF8'; ctx.font = 'bold 24px Helvetica'; ctx.textAlign = 'left';
+        ctx.fillStyle = '#38BDF8'; ctx.font = 'bold 24px sans-serif'; ctx.textAlign = 'left';
         ctx.fillText('💡 WHY? ', 70, expY + 40);
         
-        ctx.fillStyle = '#FFFFFF'; ctx.font = 'italic 24px Helvetica';
+        ctx.fillStyle = '#FFFFFF'; ctx.font = 'italic 24px sans-serif';
         ctx.fillText(quiz.explanation, 70, expY + 75);
       } else {
         // Bottom Footer (Always visible when no explanation)
         ctx.fillStyle = 'rgba(0,0,0,0.2)';
         ctx.fillRect(0, 640, this.width, 80);
-        ctx.fillStyle = '#FFFFFF'; ctx.font = 'bold 24px Helvetica'; ctx.textAlign = 'center';
+        ctx.fillStyle = '#FFFFFF'; ctx.font = 'bold 24px sans-serif'; ctx.textAlign = 'center';
         ctx.fillText('📲 Download Angrezi Pitara App for Daily Practice! 🚀', this.width/2, 688);
       }
     };
@@ -208,7 +231,8 @@ class LongVideoRenderer {
       const highlightDur = 6.5; 
       const normalDur = Math.max(0.5, duration - highlightDur);
       
-      const filter = `[0:v]trim=duration=${normalDur},setpts=PTS-STARTPTS[v1];[1:v]trim=duration=${highlightDur},setpts=PTS-STARTPTS[v2];[v1][v2]concat=n=2:v=1:a=0[v];[2:a]volume=2.2[voice];[3:a]volume=0.06,aloop=loop=-1:size=2e9[bg];[voice][bg]amix=inputs=2:duration=shortest[a]`;
+      const speed = (0.97 + Math.random() * 0.06).toFixed(2);
+      const filter = `[0:v]trim=duration=${normalDur},setpts=PTS-STARTPTS[v1];[1:v]trim=duration=${highlightDur},setpts=PTS-STARTPTS[v2];[v1][v2]concat=n=2:v=1:a=0[v];[2:a]atempo=${speed},volume=2.2[voice];[3:a]volume=0.06,aloop=loop=-1:size=2e9[bg];[voice][bg]amix=inputs=2:duration=shortest[a]`;
       
       const cmd = `ffmpeg -loop 1 -i "${normalFrame}" -loop 1 -i "${highlightFrame}" -i "${audioPath}" -i "${this.bgMusicPath}" -filter_complex "${filter}" -map "[v]" -map "[a]" -c:v libx264 -t ${duration} -pix_fmt yuv420p -y "${outputPath}"`;
       
@@ -219,6 +243,94 @@ class LongVideoRenderer {
         resolve(outputPath);
       });
     });
+  }
+
+  async renderIntro(text, audioPath, filename) {
+    const canvas = createCanvas(this.width, this.height);
+    const ctx = canvas.getContext('2d');
+    const { brand } = config;
+    const appIcon = await this.loadAppIcon();
+
+    const palettes = [
+      ['#0369A1', '#075985'], ['#1E1B4B', '#312E81'], ['#064E3B', '#065F46'],
+      ['#4C1D95', '#5B21B6'], ['#7C2D12', '#9A3412'], ['#111827', '#1F2937']
+    ];
+    const palette = palettes[Math.floor(Math.random() * palettes.length)];
+    
+    const drawBase = () => {
+      const grad = ctx.createLinearGradient(0, 0, this.width, this.height);
+      grad.addColorStop(0, palette[0]); grad.addColorStop(1, palette[1]);
+      ctx.fillStyle = grad; ctx.fillRect(0, 0, this.width, this.height);
+      ctx.fillStyle = 'rgba(255,255,255,0.1)';
+      const pattern = Math.floor(Math.random() * 3);
+      if (pattern === 0) { for(let i=0; i<40; i++) { ctx.beginPath(); ctx.arc(Math.random()*this.width, Math.random()*this.height, 2, 0, Math.PI*2); ctx.fill(); } }
+      else if (pattern === 1) { for(let i=0; i<10; i++) { ctx.fillRect(Math.random()*this.width, Math.random()*this.height, 100, 1); } }
+      const vnt = ctx.createRadialGradient(this.width/2, this.height/2, 200, this.width/2, this.height/2, 800);
+      vnt.addColorStop(0, 'rgba(0,0,0,0)'); vnt.addColorStop(1, 'rgba(0,0,0,0.3)');
+      ctx.fillStyle = vnt; ctx.fillRect(0, 0, this.width, this.height);
+    };
+    
+    drawBase();
+    if (appIcon) ctx.drawImage(appIcon, this.width/2 - 60, 150, 120, 120);
+    ctx.fillStyle = '#FFFFFF'; ctx.font = 'bold 60px sans-serif'; ctx.textAlign = 'center';
+    ctx.fillText('MEGA ENGLISH CHALLENGE', this.width/2, 350);
+    ctx.font = 'bold 32px sans-serif'; ctx.fillStyle = '#BAE6FD';
+    this.wrapText(ctx, text, this.width/2, 420, 800, 45);
+
+    const introImgPath = path.join(this.tempDir, `${filename}.png`);
+    fs.writeFileSync(introImgPath, canvas.toBuffer('image/png'));
+    
+    const outputPath = path.join(this.tempDir, `${filename}.mp4`);
+    await new Promise((resolve, reject) => {
+      // Use audio duration for intro video length
+      const cmd = `ffmpeg -loop 1 -i "${introImgPath}" -i "${audioPath}" -shortest -vf "zoompan=z='min(zoom+0.0005,1.1)':d=125:s=${this.width}x${this.height}" -c:v libx264 -c:a aac -pix_fmt yuv420p -y "${outputPath}"`;
+      exec(cmd, (err) => {
+        if (err) return reject(err);
+        if (fs.existsSync(introImgPath)) fs.unlinkSync(introImgPath); // Delete PNG
+        resolve();
+      });
+    });
+    return outputPath;
+  }
+
+  async renderOutro(audioPath, filename) {
+    const canvas = createCanvas(this.width, this.height);
+    const ctx = canvas.getContext('2d');
+    const { brand } = config;
+    const appIcon = await this.loadAppIcon();
+
+    const palettes = [['#0F172A', '#1E293B'], ['#111827', '#374151']];
+    const palette = palettes[Math.floor(Math.random() * palettes.length)];
+    const grad = ctx.createLinearGradient(0, 0, this.width, this.height);
+    grad.addColorStop(0, palette[0]); grad.addColorStop(1, palette[1]);
+    ctx.fillStyle = grad; ctx.fillRect(0, 0, this.width, this.height);
+
+    if (appIcon) ctx.drawImage(appIcon, this.width/2 - 80, 100, 160, 160);
+    ctx.fillStyle = '#FFFFFF'; ctx.font = 'bold 44px sans-serif'; ctx.textAlign = 'center';
+    ctx.fillText(brand.name, this.width/2, 320);
+    ctx.font = '22px sans-serif'; ctx.fillStyle = '#94A3B8';
+    ctx.fillText('Master English Every Day with Fun Quizzes!', this.width/2, 365);
+
+    const drawBtn = (x, y, txt, col) => {
+      ctx.fillStyle = col; if(ctx.roundRect) { ctx.beginPath(); ctx.roundRect(x, y, 240, 55, 27.5); ctx.fill(); }
+      ctx.fillStyle = '#FFFFFF'; ctx.font = 'bold 22px sans-serif'; ctx.fillText(txt, x + 120, y + 35);
+    };
+    drawBtn(this.width/2 - 260, 440, 'PLAY STORE', '#0EA5E9');
+    drawBtn(this.width/2 + 20, 440, 'TELEGRAM', '#22C55E');
+
+    const outroImgPath = path.join(this.tempDir, `${filename}.png`);
+    fs.writeFileSync(outroImgPath, canvas.toBuffer('image/png'));
+    
+    const outputPath = path.join(this.tempDir, `${filename}.mp4`);
+    await new Promise((resolve, reject) => {
+      const cmd = `ffmpeg -loop 1 -i "${outroImgPath}" -i "${audioPath}" -shortest -vf "zoompan=z='min(zoom+0.0005,1.1)':d=125:s=${this.width}x${this.height}" -c:v libx264 -c:a aac -pix_fmt yuv420p -y "${outputPath}"`;
+      exec(cmd, (err) => {
+        if (err) return reject(err);
+        if (fs.existsSync(outroImgPath)) fs.unlinkSync(outroImgPath); // Delete PNG
+        resolve();
+      });
+    });
+    return outputPath;
   }
 }
 

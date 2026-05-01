@@ -82,19 +82,29 @@ class YouTubeAutomation {
 
     try {
       // 1. Audio
-      let audioText = `Namaste! Kya aap is sawal ka sahi jawab de sakte hain?\n`;
-      audioText += `Sawal hai: ${quiz.question}.\n`;
-      
+      const intros = [
+        "Namaste! Kya aap is sawal ka sahi jawab de sakte hain?",
+        "99% log is English quiz mein fail ho jate hain. Kya aap unme se hain?",
+        "Chaliye test karte hain aapka English level. Ye raha sawal.",
+        "Ye sawal kaafi tricky hai, dhyan se sochiye.",
+        "English seekhna hai aasaan! Guess kijiye sahi jawab."
+      ];
+      const thinking = ["Sochiye... Sahi jawab kya hai?", "Guess kijiye... Time shuru hota hai ab.", "Kya aapko iska jawab pata hai? Sochiye...", "Tick-tock! Guess the right answer."];
+      const introText = intros[Math.floor(Math.random() * intros.length)];
+      const thinkText = thinking[Math.floor(Math.random() * thinking.length)];
+
+      let audioText = `${introText} \n`;
+      audioText += `${quiz.question}. \n`;
       quiz.options.forEach((opt, i) => {
-        audioText += `Option ${String.fromCharCode(65 + i)}: ${opt}.\n`;
+        audioText += `Option ${String.fromCharCode(65 + i)}. ${opt}. \n`;
       });
       
-      audioText += `Sochiye... Sahi jawab kya hai? ... ... ... \n`;
+      audioText += `${thinkText} ... ... ... \n`;
       audioText += `Sahi jawab hai: Option ${String.fromCharCode(65 + quiz.correctIndex)}. ${quiz.options[quiz.correctIndex]}.\n`;
       if (quiz.explanation) {
-        audioText += `Kyunki, ${quiz.explanation}.\n`;
+        audioText += `Dhyan se suniye: ${quiz.explanation}.\n`;
       }
-      audioText += `Daily English practice ke liye Angrezi Pitara app download karein aur Telegram join karein.`;
+      audioText += `... \n Aise hi aur videos ke liye Angrezi Pitara App download karein aur humein follow karein!`;
 
       const audioPath = await this.tts.generate(audioText, `audio_${targetIndex}`);
 
@@ -103,15 +113,23 @@ class YouTubeAutomation {
       const videoPath = await this.renderer.render(quiz, audioPath, videoFilename);
 
       // 3. SEO Metadata
-      const tags = ['EnglishPractice', 'LearnEnglish', 'Shorts', 'Quiz', 'AngreziPitara', 'EnglishGrammar', 'DailyEnglish', 'Vocabulary'];
-      const title = `Daily English Quiz #${targetIndex}: Can you solve this? 💡 #Shorts #EnglishLearning`;
+      const eduKeywords = ["IELTS", "TOEFL", "SSC Exams", "Govt Job Prep", "Spoken English", "Grammar Tips", "Daily Conversation"];
+      const randomKey = eduKeywords[Math.floor(Math.random() * eduKeywords.length)];
+      const titleFormats = [
+        `Daily English Quiz #${targetIndex}: ${quiz.question.substring(0, 30)}... #Shorts`,
+        `99% FAIL! 😱 Can you solve Quiz #${targetIndex}? #EnglishLearning`,
+        `#${targetIndex} English Challenge | Best for ${randomKey} #Shorts`,
+        `${quiz.question.substring(0, 40)}? | English Quiz #${targetIndex}`
+      ];
+      const title = titleFormats[Math.floor(Math.random() * titleFormats.length)];
 
-      let description = `Test your English skills with this daily challenge! 🚀 Quiz #${targetIndex}\n\n`;
-      description += `Improve your English grammar and vocabulary every day with Angrezi Pitara. Don't forget to like and subscribe for more quizzes!\n\n`;
-      description += `👉 Join Telegram for PDFs: ${config.brand.telegram}\n`;
+      let description = `Improve your ${randomKey} skills with this daily challenge! 🚀 Quiz #${targetIndex}\n\n`;
+      description += `Master English grammar and vocabulary every day with Angrezi Pitara. Like and Subscribe for more!\n\n`;
+      description += `👉 Join Telegram: ${config.brand.telegram}\n`;
       description += `📲 Download App: ${config.brand.appLink}\n\n`;
-      description += `#LearnEnglish #EnglishQuiz #Shorts #GrammarTips #AngreziPitara #SpokenEnglish`;
+      description += `#LearnEnglish #EnglishQuiz #Shorts #GrammarTips #AngreziPitara #SpokenEnglish #${randomKey.replace(/ /g, '')}`;
 
+      const tags = ['EnglishQuiz', 'Shorts', 'LearnEnglish', 'GrammarTips', 'AngreziPitara', 'EnglishSpeaking', 'Vocabulary', randomKey];
       const metadata = { title, description, tags };
 
       // 4. Upload
