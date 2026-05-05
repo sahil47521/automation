@@ -30,16 +30,21 @@ ytConfig.automation.uploadSchedule.forEach(time => {
     console.log(`✅ [YouTube Shorts] Scheduled for ${time}`);
 });
 
-// Setup Mega Quiz Scheduler (Once a day at 8:00 PM)
-cron.schedule('0 20 * * *', async () => {
-    console.log(`\n🔔 [Mega Quiz] Scheduled Trigger [20:00]: Generating Long Video...`);
-    try {
-        await longAutomation.createMegaQuiz(10); // 10 quizzes for the full video
-    } catch (err) {
-        console.error(`❌ [Mega Quiz] Task failed:`, err.message);
-    }
-});
-console.log(`✅ [Mega Quiz] Scheduled for 20:00 daily`);
+// Setup Mega Quiz Scheduler (From config)
+if (ytConfig.automation.longVideoSchedule) {
+    ytConfig.automation.longVideoSchedule.forEach(time => {
+        const [hour, minute] = time.split(':');
+        cron.schedule(`${minute} ${hour} * * *`, async () => {
+            console.log(`\n🔔 [Mega Quiz] Scheduled Trigger [${time}]: Generating Long Video...`);
+            try {
+                await longAutomation.createMegaQuiz(10);
+            } catch (err) {
+                console.error(`❌ [Mega Quiz] Task failed for ${time}:`, err.message);
+            }
+        });
+        console.log(`✅ [Mega Quiz] Scheduled for ${time} daily`);
+    });
+}
 
 // Initialize Angrezi Pitara Workflow (Telegram)
 const isManual = process.argv.includes('--post');
