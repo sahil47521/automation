@@ -5,6 +5,7 @@ const TTSService = require('./tts');
 const VideoRenderer = require('./renderer');
 const YouTubeUploader = require('./uploader');
 const config = require('./config');
+const persistence = require('./persistence');
 
 class YouTubeAutomation {
   constructor() {
@@ -13,23 +14,33 @@ class YouTubeAutomation {
     this.uploader = new YouTubeUploader();
     this.quizData = JSON.parse(fs.readFileSync(path.join(__dirname, 'quizData.json'), 'utf8'));
     this.stateFile = path.join(__dirname, 'state.json');
-    this.state = this.loadState();
+    this.state = { lastIndex: -1 };
+    this.hasSynced = false;
   }
 
-  loadState() {
+  async init() {
+    await persistence.connect();
+    const dbState = await persistence.getState('shorts_state');
+    if (dbState) {
+      console.log(`📡 [MongoDB] Loaded state: lastIndex = ${dbState.lastIndex}`);
+      this.state = dbState;
+    } else {
+      // Fallback to file if DB empty
+      this.state = this.loadFromFile();
+    }
+  }
+
+  loadFromFile() {
     if (fs.existsSync(this.stateFile)) {
-      try {
-        return JSON.parse(fs.readFileSync(this.stateFile, 'utf8'));
-      } catch (e) {
-        return { lastIndex: -1 };
-      }
+      try { return JSON.parse(fs.readFileSync(this.stateFile, 'utf8')); } catch (e) { return { lastIndex: -1 }; }
     }
     return { lastIndex: -1 };
   }
 
-  saveState() {
-    // Only saving the lastIndex to keep it clean
+  async saveState() {
+    // Save to both for safety
     fs.writeFileSync(this.stateFile, JSON.stringify({ lastIndex: this.state.lastIndex }, null, 2));
+    await persistence.saveState('shorts_state', this.state);
   }
 
   async syncWithYouTube() {
@@ -66,9 +77,14 @@ class YouTubeAutomation {
   }
 
   async runSingle(index = null) {
-    // 0. Sync with YouTube first if this is the first run of this instance
-    if (index === null && this.state.lastIndex === -1) {
+    if (!this.initialized) {
+      await this.init();
+      this.initialized = true;
+    }
+    // 0. Sync with YouTube first to avoid repetition (on first run of this instance)
+    if (index === null && !this.hasSynced) {
       await this.syncWithYouTube();
+      this.hasSynced = true;
     }
 
     const targetIndex = index !== null ? index : this.state.lastIndex + 1;
@@ -80,6 +96,7 @@ class YouTubeAutomation {
     const quiz = this.quizData[targetIndex];
     console.log(`\n--- Starting Viral Automation for Quiz #${targetIndex} ---`);
 
+    let audioPath, videoPath;
     try {
       // 1. Audio
       const intros = [
@@ -106,11 +123,11 @@ class YouTubeAutomation {
       }
       audioText += `... \n Aise hi aur videos ke liye Angrezi Pitara App download karein aur humein follow karein!`;
 
-      const audioPath = await this.tts.generate(audioText, `audio_${targetIndex}`);
+      audioPath = await this.tts.generate(audioText, `audio_${targetIndex}`);
 
       // 2. Video Rendering
       const videoFilename = `short_${targetIndex}`;
-      const videoPath = await this.renderer.render(quiz, audioPath, videoFilename);
+      videoPath = await this.renderer.render(quiz, audioPath, videoFilename);
 
       // 3. SEO Metadata
       const eduKeywords = ["IELTS", "TOEFL", "SSC Exams", "Govt Job Prep", "Spoken English", "Grammar Tips", "Daily Conversation"];
@@ -148,16 +165,15 @@ class YouTubeAutomation {
 
       // 6. Update State (ONLY LAST INDEX)
       this.state.lastIndex = targetIndex;
-      this.saveState();
-
-      // 7. Cleanup
-      if (fs.existsSync(videoPath)) fs.unlinkSync(videoPath);
-      if (fs.existsSync(audioPath)) fs.unlinkSync(audioPath);
+      await this.saveState();
 
       console.log(`✅ [Finished] Quiz #${targetIndex} uploaded successfully!`);
 
     } catch (error) {
       console.error(`❌ Error in Quiz #${targetIndex}:`, error);
+    } finally {
+      if (videoPath && fs.existsSync(videoPath)) fs.unlinkSync(videoPath);
+      if (audioPath && fs.existsSync(audioPath)) fs.unlinkSync(audioPath);
     }
   }
 }

@@ -1,0 +1,78 @@
+🧪 Starting Local Shorts Test (No Upload)...
+
+🎬 [Test 1/2] Rendering Quiz #1...
+[TTS] Generating Audio with Word-Level Variations (16 groups)...
+headers {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:53.0) Gecko/20100101 Firefox/53.0'
+}
+headers {
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.1 Safari/603.1.30'
+}
+Error: Command failed: ffmpeg -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_0.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_1.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_2.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_3.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_4.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_5.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_6.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_7.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_8.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_9.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_10.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_11.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_12.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_13.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_14.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_15.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -filter_complex "[0:a]asetrate=44100*0.98,atempo=1.23[a0];[a0][1:a][2:a]asetrate=44100*1.00,atempo=1.20[a1];[a1][3:a][4:a]asetrate=44100*0.98,atempo=1.18[a2];[a2][5:a][6:a]asetrate=44100*1.01,atempo=1.21[a3];[a3][7:a][8:a]asetrate=44100*1.00,atempo=1.23[a4];[a4][9:a][10:a]asetrate=44100*0.98,atempo=1.19[a5];[a5][11:a][12:a]asetrate=44100*1.00,atempo=1.23[a6];[a6][13:a][14:a]asetrate=44100*0.99,atempo=1.22[a7];[a7][15:a][16:a]asetrate=44100*0.99,atempo=1.17[a8];[a8][17:a][18:a]asetrate=44100*0.99,atempo=1.20[a9];[a9][19:a][20:a]asetrate=44100*0.99,atempo=1.25[a10];[a10][21:a][22:a]asetrate=44100*1.01,atempo=1.20[a11];[a11][23:a][24:a]asetrate=44100*1.00,atempo=1.16[a12];[a12][25:a][26:a]asetrate=44100*0.98,atempo=1.24[a13];[a13][27:a][28:a]asetrate=44100*0.98,atempo=1.19[a14];[a14][29:a][30:a]asetrate=44100*0.99,atempo=1.22[a15];[a15][31:a]concat=n=32:v=0:a=1,volume=1.9[final]" -map "[final]" -y "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1.mp3"
+ffmpeg version 8.1 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Apple clang version 21.0.0 (clang-2100.0.123.102)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+[AVFilterGraph @ 0xc17028000] More input link labels specified for filter 'asetrate' than it has inputs: 3 > 1
+[AVFilterGraph @ 0xc17028000] Error linking filters
+Error : Invalid argument
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:519:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:304:5) {
+  code: 234,
+  killed: false,
+  signal: null,
+  cmd: 'ffmpeg -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_0.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_1.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_2.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_3.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_4.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_5.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_6.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_7.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_8.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_9.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_10.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_11.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_12.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_13.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_14.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1_chunk_15.mp3" -i "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/silence.mp3" -filter_complex "[0:a]asetrate=44100*0.98,atempo=1.23[a0];[a0][1:a][2:a]asetrate=44100*1.00,atempo=1.20[a1];[a1][3:a][4:a]asetrate=44100*0.98,atempo=1.18[a2];[a2][5:a][6:a]asetrate=44100*1.01,atempo=1.21[a3];[a3][7:a][8:a]asetrate=44100*1.00,atempo=1.23[a4];[a4][9:a][10:a]asetrate=44100*0.98,atempo=1.19[a5];[a5][11:a][12:a]asetrate=44100*1.00,atempo=1.23[a6];[a6][13:a][14:a]asetrate=44100*0.99,atempo=1.22[a7];[a7][15:a][16:a]asetrate=44100*0.99,atempo=1.17[a8];[a8][17:a][18:a]asetrate=44100*0.99,atempo=1.20[a9];[a9][19:a][20:a]asetrate=44100*0.99,atempo=1.25[a10];[a10][21:a][22:a]asetrate=44100*1.01,atempo=1.20[a11];[a11][23:a][24:a]asetrate=44100*1.00,atempo=1.16[a12];[a12][25:a][26:a]asetrate=44100*0.98,atempo=1.24[a13];[a13][27:a][28:a]asetrate=44100*0.98,atempo=1.19[a14];[a14][29:a][30:a]asetrate=44100*0.99,atempo=1.22[a15];[a15][31:a]concat=n=32:v=0:a=1,volume=1.9[final]" -map "[final]" -y "src/dolix-yt/angreziPitaraYTShortAutomatio/temp/test_audio_1.mp3"'
+}

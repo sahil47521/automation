@@ -1,5 +1,4 @@
 node_modules
-.env
 *.json
 !package.json
 !package-lock.json
@@ -11,3 +10,8 @@ node_modules
 **/temp/*.mp3
 .DS_Store
 *.log
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json

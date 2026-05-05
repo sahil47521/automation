@@ -4,6 +4,7 @@ const fs = require('fs');
 async function testShortsLocally() {
     console.log('🧪 Starting Local Shorts Test (No Upload)...');
     const automation = new YouTubeAutomation();
+    await automation.init();
     
     // Generate 2 shorts for testing
     for (let i = 0; i < 2; i++) {

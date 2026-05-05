@@ -5,6 +5,7 @@ const TTSService = require('./tts');
 const LongVideoRenderer = require('./longRenderer');
 const YouTubeUploader = require('./uploader');
 const config = require('./config');
+const persistence = require('./persistence');
 
 class LongVideoAutomation {
   constructor() {
@@ -13,21 +14,76 @@ class LongVideoAutomation {
     this.uploader = new YouTubeUploader();
     this.quizData = JSON.parse(fs.readFileSync(path.join(__dirname, 'quizData.json'), 'utf8'));
     this.stateFile = path.join(__dirname, 'state_long.json');
-    this.state = this.loadState();
+    this.state = { lastIndex: 0 };
+    this.hasSynced = false;
   }
 
-  loadState() {
+  async init() {
+    await persistence.connect();
+    const dbState = await persistence.getState('long_state');
+    if (dbState) {
+      console.log(`📡 [MongoDB] Loaded Long state: lastIndex = ${dbState.lastIndex}`);
+      this.state = dbState;
+    } else {
+      this.state = this.loadFromFile();
+    }
+  }
+
+  loadFromFile() {
     if (fs.existsSync(this.stateFile)) {
       try { return JSON.parse(fs.readFileSync(this.stateFile, 'utf8')); } catch (e) { return { lastIndex: 0 }; }
     }
     return { lastIndex: 0 };
   }
 
-  saveState() {
+  async saveState() {
     fs.writeFileSync(this.stateFile, JSON.stringify(this.state, null, 2));
+    await persistence.saveState('long_state', this.state);
+  }
+
+  async syncWithYouTube() {
+    console.log('🔍 [Recovery] Checking YouTube for last uploaded Mega Quiz...');
+    try {
+      const auth = await this.uploader.getAuth();
+      const youtube = google.youtube({ version: 'v3', auth });
+
+      const response = await youtube.activities.list({
+        part: 'snippet,contentDetails',
+        mine: true,
+        maxResults: 5
+      });
+
+      if (response.data.items && response.data.items.length > 0) {
+        for (const activity of response.data.items) {
+          if (activity.snippet.type === 'upload') {
+            const lastTitle = activity.snippet.title;
+            const match = lastTitle.match(/(?:Set|#)\s*(\d+)/i);
+            if (match) {
+              const lastSet = parseInt(match[1]);
+              console.log(`✅ [Recovery] Found last Mega Quiz Set on YouTube: Set #${lastSet}`);
+              // If we found Set 4, we should start from index 40 (assuming 10 quizzes per set)
+              this.state.lastIndex = lastSet * 10;
+              return;
+            }
+          }
+        }
+      }
+      console.log('ℹ [Recovery] No previous Mega Quizzes found. Using local state.');
+    } catch (err) {
+      console.warn('⚠️ [Recovery] Could not sync Mega Quiz state, using local state.', err.message);
+    }
   }
 
   async createMegaQuiz(count = 10) {
+    if (!this.initialized) {
+      await this.init();
+      this.initialized = true;
+    }
+    if (!this.hasSynced) {
+      await this.syncWithYouTube();
+      this.hasSynced = true;
+    }
+
     const startIndex = this.state.lastIndex;
     const endIndex = Math.min(startIndex + count, this.quizData.length);
     const batchNumber = Math.floor(startIndex / 10) + 1;
@@ -78,64 +134,70 @@ class LongVideoAutomation {
     sceneFiles.push(outroPath);
     if (fs.existsSync(outroAudio)) fs.unlinkSync(outroAudio);
 
-    // 4. Concatenate all scenes
     const finalOutput = path.join(this.renderer.outputDir, `mega_quiz_set_${batchNumber}.mp4`);
     const listFilePath = path.join(this.renderer.tempDir, `list_${startIndex}.txt`);
-    const listContent = sceneFiles.map(f => `file '${path.resolve(f)}'`).join('\n');
-    fs.writeFileSync(listFilePath, listContent);
 
-    console.log(`拼接 [MegaQuiz] Stitching ${sceneFiles.length} scenes together...`);
-    await new Promise((resolve, reject) => {
-      const cmd = `ffmpeg -f concat -safe 0 -i "${listFilePath}" -c copy -y "${finalOutput}"`;
-      const { exec } = require('child_process');
-      exec(cmd, (err) => {
-        if (err) return reject(err);
-        resolve();
-      });
-    });
-
-    // 5. Upload to YouTube
-    const eduKeywords = ["SSC CGL", "IELTS", "TOEFL", "Spoken English", "English Grammar", "Bank Exams", "UPSC English"];
-    const randomKey = eduKeywords[Math.floor(Math.random() * eduKeywords.length)];
-    
-    const titleFormats = [
-      `Mega English Challenge #${batchNumber}: Master Grammar & Vocabulary | Angrezi Pitara`,
-      `Set #${batchNumber}: 10/10 Score Challenge! ${randomKey} Special | Angrezi Pitara`,
-      `#${batchNumber} Learn English FAST: Mega Quiz Challenge | ${randomKey} Tips`
-    ];
-    const title = titleFormats[Math.floor(Math.random() * titleFormats.length)];
-
-    const metadata = {
-      title: title,
-      description: `Welcome to our Mega English Practice Session! 🚀\n\nIn this video (Set #${batchNumber}), we cover 10 powerful ${randomKey} quizzes with detailed explanations.\n\nMaster English grammar and vocabulary every day with Angrezi Pitara.\n\n👉 Join Telegram: ${config.brand.telegram}\n📲 Download App: ${config.brand.appLink}\n\n#EnglishGrammar #LearnEnglish #EnglishQuiz #MegaChallenge #AngreziPitara #${randomKey.replace(/ /g, '')}`,
-      tags: ['EnglishQuiz', 'MegaQuiz', 'LearnEnglish', 'GrammarTest', 'AngreziPitara', 'EnglishGrammar', 'EnglishSpeaking', 'Vocabulary', randomKey]
-    };
-
-    console.log(`📤 [MegaQuiz] Uploading final video to YouTube...`);
-    const uploadResult = await this.uploader.upload(finalOutput, metadata);
-    const videoId = uploadResult.id;
-
-    // 5. Auto-Playlist
-    if (config.automation.playlists.long) {
-        await this.uploader.addToPlaylist(videoId, config.automation.playlists.long);
-    }
-
-    // 6. Update State
-    this.state.lastIndex = endIndex;
-    this.saveState();
-
-    // 7. Cleanup everything
     try {
-      // Cleanup Scenes, List and Final Video to save server space
-      [finalOutput, ...sceneFiles, listFilePath].forEach(f => {
-        if (fs.existsSync(f)) fs.unlinkSync(f);
+      // 4. Concatenate all scenes
+      const listContent = sceneFiles.map(f => `file '${path.resolve(f)}'`).join('\n');
+      fs.writeFileSync(listFilePath, listContent);
+
+      console.log(`拼接 [MegaQuiz] Stitching ${sceneFiles.length} scenes together...`);
+      await new Promise((resolve, reject) => {
+        const cmd = `ffmpeg -f concat -safe 0 -i "${listFilePath}" -c copy -y "${finalOutput}"`;
+        const { exec } = require('child_process');
+        exec(cmd, (err) => {
+          if (err) return reject(err);
+          resolve();
+        });
       });
-      console.log(`🧹 [MegaQuiz] Temporary files and final video cleaned up.`);
+
+      // 5. Upload to YouTube
+      const eduKeywords = ["SSC CGL", "IELTS", "TOEFL", "Spoken English", "English Grammar", "Bank Exams", "UPSC English"];
+      const randomKey = eduKeywords[Math.floor(Math.random() * eduKeywords.length)];
+      
+      const titleFormats = [
+        `Mega English Challenge #${batchNumber}: Master Grammar & Vocabulary | Angrezi Pitara`,
+        `Set #${batchNumber}: 10/10 Score Challenge! ${randomKey} Special | Angrezi Pitara`,
+        `#${batchNumber} Learn English FAST: Mega Quiz Challenge | ${randomKey} Tips`
+      ];
+      const title = titleFormats[Math.floor(Math.random() * titleFormats.length)];
+
+      const metadata = {
+        title: title,
+        description: `Welcome to our Mega English Practice Session! 🚀\n\nIn this video (Set #${batchNumber}), we cover 10 powerful ${randomKey} quizzes with detailed explanations.\n\nMaster English grammar and vocabulary every day with Angrezi Pitara.\n\n👉 Join Telegram: ${config.brand.telegram}\n📲 Download App: ${config.brand.appLink}\n\n#EnglishGrammar #LearnEnglish #EnglishQuiz #MegaChallenge #AngreziPitara #${randomKey.replace(/ /g, '')}`,
+        tags: ['EnglishQuiz', 'MegaQuiz', 'LearnEnglish', 'GrammarTest', 'AngreziPitara', 'EnglishGrammar', 'EnglishSpeaking', 'Vocabulary', randomKey]
+      };
+
+      console.log(`📤 [MegaQuiz] Uploading final video to YouTube...`);
+      const uploadResult = await this.uploader.upload(finalOutput, metadata);
+      const videoId = uploadResult.id;
+
+      // 5. Auto-Playlist
+      if (config.automation.playlists.long) {
+          await this.uploader.addToPlaylist(videoId, config.automation.playlists.long);
+      }
+
+      // 6. Update State
+      this.state.lastIndex = endIndex;
+      await this.saveState();
+
+      console.log(`✅ [MegaQuiz] DONE! Video created and uploaded.`);
+
     } catch (err) {
-      console.error(`⚠️ [MegaQuiz] Cleanup error: ${err.message}`);
+      console.error(`❌ [MegaQuiz] Error:`, err);
+      throw err;
+    } finally {
+      // Guaranteed Cleanup everything
+      try {
+        [finalOutput, ...sceneFiles, listFilePath].forEach(f => {
+          if (f && fs.existsSync(f)) fs.unlinkSync(f);
+        });
+        console.log(`🧹 [MegaQuiz] Temporary files and final video cleaned up.`);
+      } catch (cleanupErr) {
+        console.error(`⚠️ [MegaQuiz] Cleanup error: ${cleanupErr.message}`);
+      }
     }
-    
-    console.log(`✅ [MegaQuiz] DONE! Video created, uploaded, and storage cleared.`);
   }
 }
 
