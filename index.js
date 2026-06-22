@@ -1,3 +1,10 @@
+if (!globalThis.crypto) {
+    try {
+        globalThis.crypto = require('crypto').webcrypto || require('crypto');
+    } catch (err) {
+        console.error('Failed to polyfill crypto:', err.message);
+    }
+}
 require('dotenv').config();
 const config = require('./config');
 const { startAngreziPitara } = require('./src/angrezi-pitara-automation');
