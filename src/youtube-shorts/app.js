@@ -1,19 +1,19 @@
 const fs = require('fs');
 const path = require('path');
 const { google } = require('googleapis');
-const TTSService = require('./tts');
-const VideoRenderer = require('./renderer');
-const YouTubeUploader = require('./uploader');
+const TTSService = require('./services/tts');
+const VideoRenderer = require('./services/renderer');
+const YouTubeUploader = require('./services/uploader');
 const config = require('./config');
-const persistence = require('./persistence');
+const persistence = require('./services/persistence');
 
 class YouTubeAutomation {
   constructor() {
     this.tts = new TTSService(config.automation.tempDir);
     this.renderer = new VideoRenderer();
     this.uploader = new YouTubeUploader();
-    this.quizData = JSON.parse(fs.readFileSync(path.join(__dirname, 'quizData.json'), 'utf8'));
-    this.stateFile = path.join(__dirname, 'state.json');
+    this.quizData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/quizData.json'), 'utf8'));
+    this.stateFile = path.join(__dirname, 'data/state.json');
     this.state = { lastIndex: -1 };
     this.hasSynced = false;
   }

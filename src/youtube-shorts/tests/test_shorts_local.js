@@ -1,4 +1,4 @@
-const YouTubeAutomation = require('./app');
+const YouTubeAutomation = require('../app');
 const fs = require('fs');
 
 async function testShortsLocally() {

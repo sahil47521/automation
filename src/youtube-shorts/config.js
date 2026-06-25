@@ -83,12 +83,10 @@ module.exports = {
   automation: {
     videosPerDay: 6,
     uploadSchedule: ['06:00', '10:00', '14:00', '18:00', '22:00', '02:00'],
-    longVideoSchedule: ['21:00'], // One Mega Quiz every night at 9 PM
-    outputDir: './src/dolix-yt/angreziPitaraYTShortAutomatio/videos',
-    tempDir: './src/dolix-yt/angreziPitaraYTShortAutomatio/temp',
+    outputDir: './src/youtube-shorts/videos',
+    tempDir: './src/youtube-shorts/temp',
     playlists: {
-      shorts: '', // Add your shorts playlist ID here if needed
-      long: 'PL_Cbld6zT8cJwfl3ySqT-wLxdohZXfM96'
+      shorts: '' // Add your shorts playlist ID here if needed
     }
   }
 };

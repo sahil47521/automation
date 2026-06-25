@@ -1,4 +1,4 @@
-const YouTubeAutomation = require('./app');
+const YouTubeAutomation = require('../app');
 
 async function test() {
   console.log('🚀 Starting Rebuild Verification Test...');

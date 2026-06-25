@@ -23,8 +23,8 @@ RUN npm install
 COPY . .
 
 # Create necessary directories
-RUN mkdir -p src/dolix-yt/angreziPitaraYTShortAutomatio/temp
-RUN mkdir -p src/dolix-yt/angreziPitaraYTShortAutomatio/videos
+RUN mkdir -p src/youtube-shorts/temp
+RUN mkdir -p src/youtube-shorts/videos
 
 # Expose the health check port
 EXPOSE 10000

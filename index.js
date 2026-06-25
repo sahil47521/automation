@@ -7,10 +7,9 @@ if (!globalThis.crypto) {
 }
 require('dotenv').config();
 const config = require('./config');
-const { startAngreziPitara } = require('./src/angrezi-pitara-automation');
-const YouTubeAutomation = require('./src/dolix-yt/angreziPitaraYTShortAutomatio/app');
-const LongVideoAutomation = require('./src/dolix-yt/angreziPitaraYTShortAutomatio/longApp');
-const ytConfig = require('./src/dolix-yt/angreziPitaraYTShortAutomatio/config');
+const { startAngreziPitara } = require('./src/telegram-bot');
+const YouTubeAutomation = require('./src/youtube-shorts/app');
+const ytConfig = require('./src/youtube-shorts/config');
 const cron = require('node-cron');
 const http = require('http');
 
@@ -21,7 +20,6 @@ console.log('🚀 Starting Unified Automation Backend...');
 
 // Initialize YouTube Automation
 const youtubeAutomation = new YouTubeAutomation();
-const longAutomation = new LongVideoAutomation();
 
 // Setup YouTube Shorts Scheduler (6 times a day)
 ytConfig.automation.uploadSchedule.forEach(time => {
@@ -36,22 +34,6 @@ ytConfig.automation.uploadSchedule.forEach(time => {
     });
     console.log(`✅ [YouTube Shorts] Scheduled for ${time}`);
 });
-
-// Setup Mega Quiz Scheduler (From config)
-if (ytConfig.automation.longVideoSchedule) {
-    ytConfig.automation.longVideoSchedule.forEach(time => {
-        const [hour, minute] = time.split(':');
-        cron.schedule(`${minute} ${hour} * * *`, async () => {
-            console.log(`\n🔔 [Mega Quiz] Scheduled Trigger [${time}]: Generating Long Video...`);
-            try {
-                await longAutomation.createMegaQuiz(10);
-            } catch (err) {
-                console.error(`❌ [Mega Quiz] Task failed for ${time}:`, err.message);
-            }
-        });
-        console.log(`✅ [Mega Quiz] Scheduled for ${time} daily`);
-    });
-}
 
 // Initialize Angrezi Pitara Workflow (Telegram)
 const isManual = process.argv.includes('--post');
@@ -85,17 +67,6 @@ if (TOKEN) {
             } catch (err) {
                 res.writeHead(500, { 'Content-Type': 'text/plain' });
                 res.end(`❌ Error triggering YouTube Short: ${err.message}\n`);
-            }
-        } else if (req.url === '/test-mega') {
-            try {
-                console.log('📡 Web trigger: /test-mega endpoint hit. Generating Mega Quiz in background...');
-                // Trigger in background to avoid timeout
-                longAutomation.createMegaQuiz(2).catch(err => console.error(`❌ Background Mega Quiz failed: ${err.message}`));
-                res.writeHead(200, { 'Content-Type': 'text/plain' });
-                res.end('✅ Mega Quiz generation started in background! This will take a few minutes. Check YouTube logs.\n');
-            } catch (err) {
-                res.writeHead(500, { 'Content-Type': 'text/plain' });
-                res.end(`❌ Error triggering Mega Quiz: ${err.message}\n`);
             }
         } else {
             res.writeHead(200, { 'Content-Type': 'text/plain' });

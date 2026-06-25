@@ -4,8 +4,8 @@ const path = require('path');
 
 class YouTubeUploader {
   constructor() {
-    this.credentialsPath = path.join(__dirname, 'credentials.json');
-    this.tokenPath = path.join(__dirname, 'token.json');
+    this.credentialsPath = path.join(__dirname, '../auth/credentials.json');
+    this.tokenPath = path.join(__dirname, '../auth/token.json');
   }
 
   async getAuth() {

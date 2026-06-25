@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const rootPath = '/Users/shubhamchoudhary/Desktop/sahil/untitled folder/automation';
-const filePath = path.join(rootPath, 'src/dolix-yt/angreziPitaraYTShortAutomatio/quizData.json');
+const filePath = path.join(rootPath, 'src/youtube-shorts/quizData.json');
 
 try {
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));

@@ -3,7 +3,7 @@ const path = require('path');
 
 // Root path of the project
 const rootPath = '/Users/shubhamchoudhary/Desktop/sahil/untitled folder/automation';
-const filePath = path.join(rootPath, 'src/dolix-yt/angreziPitaraYTShortAutomatio/quizData.json');
+const filePath = path.join(rootPath, 'src/youtube-shorts/quizData.json');
 
 function shuffle(array) {
   let currentIndex = array.length, randomIndex;
