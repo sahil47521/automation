@@ -1,7 +1,12 @@
 const path = require('path');
 const fs = require('fs');
-const gtts = require('node-gtts');
+const https = require('https');
+const http = require('http');
 const { exec } = require('child_process');
+
+const GOOGLE_TTS_URL = 'http://translate.google.com/translate_tts';
+const MAX_CHARS = 100;
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36';
 
 class TTSService {
   constructor(tempDir) {
@@ -9,6 +14,77 @@ class TTSService {
     if (!fs.existsSync(this.tempDir)) {
       fs.mkdirSync(this.tempDir, { recursive: true });
     }
+  }
+
+  /**
+   * Tokenize text into chunks of MAX_CHARS for Google TTS
+   */
+  tokenize(text) {
+    if (!text) throw new Error('No text to speak');
+
+    const punc = '¡!()[]¿?.,;:—«»\n ';
+    const parts = text.split(new RegExp(punc.split('').map(c => c.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')));
+    const filtered = parts.filter(p => p.length > 0);
+
+    const output = [];
+    let i = 0;
+    for (const p of filtered) {
+      if (!output[i]) output[i] = '';
+      if (output[i].length + p.length < MAX_CHARS) {
+        output[i] += ' ' + p;
+      } else {
+        i++;
+        output[i] = p;
+      }
+    }
+    if (output.length > 0) output[0] = output[0].substr(1);
+    return output;
+  }
+
+  /**
+   * Download a single TTS chunk from Google Translate (no clipboard, no spam logs)
+   */
+  downloadChunk(text, index, total, filePath) {
+    return new Promise((resolve, reject) => {
+      const encodedText = encodeURIComponent(text);
+      const url = `${GOOGLE_TTS_URL}?ie=UTF-8&tl=hi&q=${encodedText}&total=${total}&idx=${index}&client=tw-ob&textlen=${text.length}`;
+
+      const writeStream = fs.createWriteStream(filePath, { flags: index > 0 ? 'a' : 'w' });
+
+      http.get(url, { headers: { 'User-Agent': USER_AGENT } }, (res) => {
+        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+          // Handle redirect
+          const redirectModule = res.headers.location.startsWith('https') ? https : http;
+          redirectModule.get(res.headers.location, { headers: { 'User-Agent': USER_AGENT } }, (redirectRes) => {
+            redirectRes.pipe(writeStream);
+            writeStream.on('finish', () => resolve(filePath));
+            writeStream.on('error', reject);
+          }).on('error', reject);
+        } else {
+          res.pipe(writeStream);
+          writeStream.on('finish', () => resolve(filePath));
+          writeStream.on('error', reject);
+        }
+      }).on('error', reject);
+    });
+  }
+
+  /**
+   * Save full text as TTS audio (replaces node-gtts's save method)
+   */
+  saveChunk(text, filePath) {
+    return new Promise(async (resolve, reject) => {
+      try {
+        const textParts = this.tokenize(text);
+        const total = textParts.length;
+        for (let i = 0; i < total; i++) {
+          await this.downloadChunk(textParts[i], i, total, filePath);
+        }
+        resolve(filePath);
+      } catch (err) {
+        reject(err);
+      }
+    });
   }
 
   async generate(text, filename) {
@@ -30,16 +106,6 @@ class TTSService {
 
     // Concatenate chunks with silence between them
     return await this.combineWithSilence(chunkFiles, finalMp3Path);
-  }
-
-  saveChunk(text, filePath) {
-    return new Promise((resolve, reject) => {
-      const tts = gtts('hi'); // Hindi handles mixed content well
-      tts.save(filePath, text, (err) => {
-        if (err) return reject(err);
-        resolve(filePath);
-      });
-    });
   }
 
   combineWithSilence(files, outputPath) {
