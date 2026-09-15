@@ -1,12 +1,13 @@
-const path = require('path');
-const fs = require('fs');
-const https = require('https');
-const http = require('http');
-const { exec } = require('child_process');
+const path = require("path");
+const fs = require("fs");
+const https = require("https");
+const http = require("http");
+const { exec } = require("child_process");
 
-const GOOGLE_TTS_URL = 'http://translate.google.com/translate_tts';
+const GOOGLE_TTS_URL = "http://translate.google.com/translate_tts";
 const MAX_CHARS = 100;
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36';
+const USER_AGENT =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36";
 
 class TTSService {
   constructor(tempDir) {
@@ -20,18 +21,25 @@ class TTSService {
    * Tokenize text into chunks of MAX_CHARS for Google TTS
    */
   tokenize(text) {
-    if (!text) throw new Error('No text to speak');
+    if (!text) throw new Error("No text to speak");
 
-    const punc = '¡!()[]¿?.,;:—«»\n ';
-    const parts = text.split(new RegExp(punc.split('').map(c => c.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')));
-    const filtered = parts.filter(p => p.length > 0);
+    const punc = "¡!()[]¿?.,;:—«»\n ";
+    const parts = text.split(
+      new RegExp(
+        punc
+          .split("")
+          .map((c) => c.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+          .join("|"),
+      ),
+    );
+    const filtered = parts.filter((p) => p.length > 0);
 
     const output = [];
     let i = 0;
     for (const p of filtered) {
-      if (!output[i]) output[i] = '';
+      if (!output[i]) output[i] = "";
       if (output[i].length + p.length < MAX_CHARS) {
-        output[i] += ' ' + p;
+        output[i] += " " + p;
       } else {
         i++;
         output[i] = p;
@@ -49,23 +57,39 @@ class TTSService {
       const encodedText = encodeURIComponent(text);
       const url = `${GOOGLE_TTS_URL}?ie=UTF-8&tl=hi&q=${encodedText}&total=${total}&idx=${index}&client=tw-ob&textlen=${text.length}`;
 
-      const writeStream = fs.createWriteStream(filePath, { flags: index > 0 ? 'a' : 'w' });
+      const writeStream = fs.createWriteStream(filePath, {
+        flags: index > 0 ? "a" : "w",
+      });
 
-      http.get(url, { headers: { 'User-Agent': USER_AGENT } }, (res) => {
-        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-          // Handle redirect
-          const redirectModule = res.headers.location.startsWith('https') ? https : http;
-          redirectModule.get(res.headers.location, { headers: { 'User-Agent': USER_AGENT } }, (redirectRes) => {
-            redirectRes.pipe(writeStream);
-            writeStream.on('finish', () => resolve(filePath));
-            writeStream.on('error', reject);
-          }).on('error', reject);
-        } else {
-          res.pipe(writeStream);
-          writeStream.on('finish', () => resolve(filePath));
-          writeStream.on('error', reject);
-        }
-      }).on('error', reject);
+      http
+        .get(url, { headers: { "User-Agent": USER_AGENT } }, (res) => {
+          if (
+            res.statusCode >= 300 &&
+            res.statusCode < 400 &&
+            res.headers.location
+          ) {
+            // Handle redirect
+            const redirectModule = res.headers.location.startsWith("https")
+              ? https
+              : http;
+            redirectModule
+              .get(
+                res.headers.location,
+                { headers: { "User-Agent": USER_AGENT } },
+                (redirectRes) => {
+                  redirectRes.pipe(writeStream);
+                  writeStream.on("finish", () => resolve(filePath));
+                  writeStream.on("error", reject);
+                },
+              )
+              .on("error", reject);
+          } else {
+            res.pipe(writeStream);
+            writeStream.on("finish", () => resolve(filePath));
+            writeStream.on("error", reject);
+          }
+        })
+        .on("error", reject);
     });
   }
 
@@ -87,14 +111,36 @@ class TTSService {
     });
   }
 
+  generateSpeech(text, filename) {
+    const finalMp3Path = path.join(this.tempDir, `${filename}.mp3`);
+    return new Promise(async (resolve, reject) => {
+      try {
+        const tempRawPath = path.join(this.tempDir, `${filename}_raw.mp3`);
+        await this.saveChunk(text, tempRawPath);
+
+        // Speed up and volume boost
+        const cmd = `ffmpeg -i "${tempRawPath}" -filter:a "atempo=1.2,volume=1.8" -y "${finalMp3Path}"`;
+        exec(cmd, (err) => {
+          if (fs.existsSync(tempRawPath)) fs.unlinkSync(tempRawPath);
+          if (err) return reject(err);
+          resolve(finalMp3Path);
+        });
+      } catch (err) {
+        reject(err);
+      }
+    });
+  }
+
   async generate(text, filename) {
     const finalMp3Path = path.join(this.tempDir, `${filename}.mp3`);
 
     // Split text into meaningful chunks for natural pauses
     // Splits by periods, question marks, and newlines
-    const chunks = text.split(/[\n.?!]+/).filter(c => c.trim().length > 0);
+    const chunks = text.split(/[\n.?!]+/).filter((c) => c.trim().length > 0);
 
-    console.log(`[TTS] Generating Audio with pauses for ${chunks.length} chunks...`);
+    console.log(
+      `[TTS] Generating Audio with pauses for ${chunks.length} chunks...`,
+    );
 
     const chunkFiles = [];
 
@@ -111,7 +157,7 @@ class TTSService {
   combineWithSilence(files, outputPath) {
     return new Promise((resolve, reject) => {
       // Reduced silence for faster pacing
-      const silenceFile = path.join(this.tempDir, 'silence.mp3');
+      const silenceFile = path.join(this.tempDir, "silence.mp3");
       const createSilence = `ffmpeg -f lavfi -i "anullsrc=r=44100:cl=mono" -t 0.3 -q:a 9 -acodec libmp3lame -y "${silenceFile}"`;
 
       exec(createSilence, (err) => {
@@ -127,13 +173,13 @@ class TTSService {
           filterStr += `[${i * 2}:a][${i * 2 + 1}:a]`;
         });
 
-        const cmd = `ffmpeg ${filterInputs.join(' ')} -filter_complex "${filterStr}concat=n=${files.length * 2}:v=0:a=1,atempo=1.2,volume=1.8[a]" -map "[a]" -y "${outputPath}"`;
+        const cmd = `ffmpeg ${filterInputs.join(" ")} -filter_complex "${filterStr}concat=n=${files.length * 2}:v=0:a=1,atempo=1.2,volume=1.8[a]" -map "[a]" -y "${outputPath}"`;
 
         exec(cmd, (concatErr) => {
           if (concatErr) return reject(concatErr);
 
           // Cleanup chunks and silence
-          files.forEach(f => fs.unlinkSync(f));
+          files.forEach((f) => fs.unlinkSync(f));
           if (fs.existsSync(silenceFile)) fs.unlinkSync(silenceFile);
 
           resolve(outputPath);
